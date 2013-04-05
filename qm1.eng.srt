@@ -1,0 +1,5560 @@
+1
+00:00:04,395 --> 00:00:06,907
+Stanford University
+
+2
+00:00:09,000 --> 00:00:15,709
+In the last quarter we studied classical mechanics
+
+3
+00:00:16,310 --> 00:00:19,609
+and Classical mechanics is fairly intuitive 
+
+4
+00:00:21,000 --> 00:00:24,983
+The basic ideas are things that you can visualize
+
+5
+00:00:25,839 --> 00:00:30,131
+You can picture in your head the motion of the particles the motion of the objects
+
+6
+00:00:30,681 --> 00:00:37,165
+It gets a little hard when you start thinking of ten particles all at the same time
+
+7
+00:00:38,257 --> 00:00:47,265
+But, nevertheless, the whole thing is based on the concepts
+
+8
+00:00:48,201 --> 00:00:51,261
+drawn from pretty much everyday work
+
+9
+00:00:51,461 --> 00:00:54,653
+Of course it gets more abstract as you go along
+
+10
+00:00:54,781 --> 00:00:57,981
+The crazy French who are obsessed with elegance
+
+11
+00:00:58,109 --> 00:01:00,992
+kept making it more and more mathematically elegant
+
+12
+00:01:01,093 --> 00:01:07,357
+Lagrangians, Poisson Brackets, blah blah blah
+
+13
+00:01:07,501 --> 00:01:10,677
+turn out all to be tremendously important
+
+14
+00:01:13,365 --> 00:01:17,694
+The abstraction is not all that difficult to understand
+
+15
+00:01:17,822 --> 00:01:23,750
+And the basic concept is the concept of updating 
+
+16
+00:01:23,905 --> 00:01:27,760
+Well before that, the concept of a space of state
+
+17
+00:01:27,984 --> 00:01:29,888
+What is a state of a system?
+
+18
+00:01:30,016 --> 00:01:33,000
+Even before that, the concept of a system
+
+19
+00:01:33,152 --> 00:01:38,528
+The closed, isolated system that doesn't interact with anything
+
+20
+00:01:38,680 --> 00:01:44,648
+and whose motion and whose evolution whose history you wish to predict
+
+21
+00:01:44,808 --> 00:01:51,475
+Classical mechanics is predictive it's deterministic
+
+22
+00:01:54,475 --> 00:01:57,206
+In the first concept as I said, 
+
+23
+00:01:57,374 --> 00:02:02,089
+after the concept of a system is the concept of a state of a system
+
+24
+00:02:02,289 --> 00:02:05,680
+A system can have a collection of different state
+
+25
+00:02:05,897 --> 00:02:08,352
+We've talked about very simple examples,
+
+26
+00:02:08,553 --> 00:02:12,529
+The first state of the quarter last time
+
+27
+00:02:12,696 --> 00:02:16,777
+I just describe for you the most elementary simple system 
+
+28
+00:02:16,960 --> 00:02:20,219
+consisting nothing more for example than the coin
+
+29
+00:02:20,400 --> 00:02:26,171
+Heads and tails, the only states of the systems are heads and tails 
+
+30
+00:02:26,336 --> 00:02:31,424
+They form a mathematical set of states
+
+31
+00:02:31,592 --> 00:02:37,728
+Two of them for heads and tails, two points, one state, two states
+
+32
+00:02:37,904 --> 00:02:41,464
+And we can draw them as dots 
+
+33
+00:02:41,608 --> 00:02:45,160
+This one stands for head, this one stands for tails 
+
+34
+00:02:45,304 --> 00:02:51,584
+And, you know, it's easy to picture in your head 
+
+35
+00:02:54,704 --> 00:02:58,960
+From there, we talked about equations of motion
+
+36
+00:02:59,112 --> 00:03:03,032
+Equations of motion or laws of evolution 
+
+37
+00:03:03,177 --> 00:03:06,968
+for the very simple system of a couple of points
+
+38
+00:03:07,128 --> 00:03:14,048
+Heads, tails, we formulated some very very simple possible laws of motion
+
+39
+00:03:14,200 --> 00:03:16,872
+The simplest being if nothing happens
+
+40
+00:03:17,000 --> 00:03:20,152
+If you start with heads you stay with heads, heads, heads, heads
+
+41
+00:03:20,264 --> 00:03:24,560
+If you start with tails you stay with tails, tails, tails, tails
+
+42
+00:03:25,808 --> 00:03:28,048
+That was a very simple law of motion
+
+43
+00:03:29,052 --> 00:03:35,220
+More complicated motion begin with heads you get tails
+
+44
+00:03:35,404 --> 00:03:40,024
+If you begin with tails, you go to heads, and just oscillate back and forth
+
+45
+00:03:41,668 --> 00:03:44,996
+The basic ideas is the idea of updating 
+
+46
+00:03:45,125 --> 00:03:50,180
+If you know everything there is to know about a system in any instant of time
+
+47
+00:03:50,308 --> 00:03:54,782
+Then classical mechanics, everything there is to know 
+
+48
+00:03:54,926 --> 00:03:59,702
+essentially mean everything that is needed in order to predict the future
+
+49
+00:04:00,182 --> 00:04:02,726
+If you know everything there is to know 
+
+50
+00:04:02,870 --> 00:04:06,590
+then classical mechanics consist of a set of equations 
+
+51
+00:04:06,718 --> 00:04:12,328
+which tell you how to update the state given it's value at given time 
+
+52
+00:04:12,456 --> 00:04:14,744
+and go from one time to the next
+
+53
+00:04:16,810 --> 00:04:22,393
+That basic idea, for example, well, 
+
+54
+00:04:22,506 --> 00:04:24,477
+I don't think I need to describe the example again
+
+55
+00:04:24,605 --> 00:04:26,397
+We describe it at length the last time 
+
+56
+00:04:30,703 --> 00:04:36,141
+And it's extremely intuitive in going from this very discrete example 
+
+57
+00:04:36,269 --> 00:04:42,055
+to a world of continuous motion, indeed we have to abstract, 
+
+58
+00:04:42,181 --> 00:04:45,474
+we have to replace the ideas of a small number of state
+
+59
+00:04:45,602 --> 00:04:50,514
+a finite number of configuration by an infinite number of configuration 
+
+60
+00:04:50,618 --> 00:04:53,898
+For example the motion of a particle along a line 	 
+
+61
+00:04:54,050 --> 00:05:01,298
+We have to label the state by points along the line as well as their velocities
+
+62
+00:05:02,178 --> 00:05:05,243
+So it does get more complicated but nevertheless
+
+63
+00:05:05,355 --> 00:05:09,066
+Classical physics consist of equation which tell you 
+
+64
+00:05:09,178 --> 00:05:11,834
+how to update the states in any given time
+
+65
+00:05:11,962 --> 00:05:14,050
+And it's completely deterministic
+
+66
+00:05:15,298 --> 00:05:20,514
+And as I said, easy to visualize, at least by comparison easy to visualize 
+
+67
+00:05:20,642 --> 00:05:23,266
+Because it makes use of the concept of the ordinary world 
+
+68
+00:05:23,394 --> 00:05:29,234
+which out brain is hardwired to be able to understand
+
+69
+00:05:29,338 --> 00:05:34,287
+Now I always give a little sermon of this point and give it again
+
+70
+00:05:34,415 --> 00:05:36,303
+Probably you have heard it a dozen times
+
+71
+00:05:38,871 --> 00:05:46,759
+about the way one has to think of physics beyond classical physics
+
+72
+00:05:46,927 --> 00:05:48,644
+So we move past classical physics 
+
+73
+00:05:48,828 --> 00:05:52,389
+I don't think it can be said enough, it's so rarely said 
+
+74
+00:05:55,469 --> 00:06:02,061
+It's that once physics move past the realm of parameters 
+
+75
+00:06:02,205 --> 00:06:05,317
+that has to do with ordinary experience
+
+76
+00:06:05,485 --> 00:06:09,897
+either objects which are so small, 
+
+77
+00:06:10,049 --> 00:06:13,249
+they are far beyond what ordinary physics is all about
+
+78
+00:06:13,393 --> 00:06:17,850
+Or velocity which are so fast that far beyond ordinary velocities
+
+79
+00:06:17,993 --> 00:06:22,681
+When everyone move out of the range of parameters 
+
+80
+00:06:22,849 --> 00:06:25,081
+that we were familiar with in ordinary experience 
+
+81
+00:06:26,265 --> 00:06:31,753
+We inevitably run into things we cannot visualize 
+
+82
+00:06:33,227 --> 00:06:37,049
+Nobody can visualize the motion of an electron 
+
+83
+00:06:37,489 --> 00:06:40,113
+It's just you are not wired for it
+
+84
+00:06:40,473 --> 00:06:47,228
+Nobody can visualize four dimensional space or four dimensional space time
+
+85
+00:06:48,308 --> 00:06:52,908
+let along ten or eleven dimensions 
+
+86
+00:06:54,956 --> 00:06:58,588
+It's not the way physicists have done
+
+87
+00:06:59,100 --> 00:07:03,532
+I often read some of the stuff that goes back and forth 
+
+88
+00:07:03,660 --> 00:07:06,995
+between some people especially people in this class
+
+89
+00:07:07,123 --> 00:07:11,429
+about trying to explain to themselves to each other 
+
+90
+00:07:11,539 --> 00:07:17,779
+or ask questions to each other about a certain abstract physical questions 
+
+91
+00:07:17,907 --> 00:07:22,947
+And I know very much that a lot of the mistakes a lot of confusion
+
+92
+00:07:23,091 --> 00:07:28,107
+happens because of trying to visualize things 
+
+93
+00:07:28,275 --> 00:07:35,159
+using old fashion or standard intuition you are hardwired for
+
+94
+00:07:37,576 --> 00:07:40,742
+You may think physicists good physicists  
+
+95
+00:07:40,854 --> 00:07:44,110
+are especially good for visualizing things
+
+96
+00:07:44,206 --> 00:07:48,630
+They are not, I cannot visualize five, six dimension any better than you can
+
+97
+00:07:51,359 --> 00:07:56,122
+But I know how to use abstract mathematics to describe it 
+
+98
+00:07:56,231 --> 00:08:03,407
+There is no substitutes, there is no substitutes for the process of abstracting 
+
+99
+00:08:03,535 --> 00:08:06,487
+and using mathematics to describe the thing 
+
+100
+00:08:06,615 --> 00:08:10,335
+which is beyond the ability to directly visualize
+
+101
+00:08:10,439 --> 00:08:14,287
+The example that I gave, I'm gonna do it again tonight, 
+
+102
+00:08:14,401 --> 00:08:17,387
+I just want you to really focus on it and realize
+
+103
+00:08:17,499 --> 00:08:21,653
+you are not going to understand quantum mechanics by trying to visualize it 
+
+104
+00:08:21,765 --> 00:08:24,181
+by some funny form of classical mechanics
+
+105
+00:08:24,349 --> 00:08:25,967
+What's more, you will always get it wrong
+
+106
+00:08:27,263 --> 00:08:35,159
+But just the idea of visualizing space of dimension of different three dimensions 
+
+107
+00:08:35,263 --> 00:08:38,359
+In particular I always use the same, okay, 
+
+108
+00:08:38,488 --> 00:08:41,510
+how many people here can visualize five dimensions?
+
+109
+00:08:41,639 --> 00:08:44,254
+And everybody would say, no
+
+110
+00:08:44,383 --> 00:08:48,726
+We can't, of course there will be a few freak() or clown in the class 
+
+111
+00:08:48,839 --> 00:08:50,855
+who would say yeah I can do it I can do it
+
+112
+00:08:50,974 --> 00:08:52,277
+They couldn't , I know they couldn't 
+
+113
+00:08:52,389 --> 00:08:54,605
+They can't visualize five dimensions
+
+114
+00:08:57,533 --> 00:09:02,150
+But they I began to realize although you have probably heard it before
+
+115
+00:09:02,261 --> 00:09:07,333
+that it's equally hard to directly visualize two dimensions
+
+116
+00:09:07,461 --> 00:09:11,741
+Okay I will say to the class how many people now can visualize two dimensions?
+
+117
+00:09:11,869 --> 00:09:13,550
+Almost everybody will raise their hands 
+
+118
+00:09:13,662 --> 00:09:18,074
+And I would say, no you are wrong 
+
+119
+00:09:18,201 --> 00:09:21,153
+Close your eyes and try to visualize two dimensions
+
+120
+00:09:21,297 --> 00:09:25,288
+They would say okay I see it I see two dimensional of curved space 
+
+121
+00:09:26,320 --> 00:09:29,305
+What they are seeing is not two-dimensional curved space 
+
+122
+00:09:29,416 --> 00:09:33,312
+What they are seeing is a two-dimensional surface embedded in three dimension
+
+123
+00:09:33,456 --> 00:09:36,736
+Even trying to see one dimensional space 
+
+124
+00:09:36,864 --> 00:09:40,640
+One-dimensional space, abstract one dimensional space is just a line
+
+125
+00:09:40,768 --> 00:09:43,584
+You cannot see that line in your head 
+
+126
+00:09:43,699 --> 00:09:46,562
+without seeing it as a line drawing in a plane
+
+127
+00:09:46,672 --> 00:09:50,592
+And the plane you can't see without seeing it as embedded in three dimensional 
+
+128
+00:09:50,664 --> 00:09:52,363
+What's going on? I can do it, 
+
+129
+00:09:52,475 --> 00:09:54,104
+I hate to tell you this but 
+
+130
+00:09:54,192 --> 00:09:56,465
+you are a prisoner of your own neurological architecture
+
+131
+00:09:56,993 --> 00:10:00,478
+Your neural architecture is built for three dimension 
+
+132
+00:10:00,590 --> 00:10:02,950
+Alright how you get around it?
+
+133
+00:10:03,081 --> 00:10:09,326
+You don't get around it by training yourself to see four or five dimension 
+
+134
+00:10:09,438 --> 00:10:13,305
+You get around it by training yourself to think abstractly about it
+
+135
+00:10:13,430 --> 00:10:19,686
+If three dimensional space there is a point x y and z
+
+136
+00:10:19,782 --> 00:10:23,318
+In four dimensional space it's x y z and w
+
+137
+00:10:23,446 --> 00:10:26,022
+And you learn to manipulate the symbols 
+
+138
+00:10:26,149 --> 00:10:28,902
+It's not to say that after a while 
+
+139
+00:10:29,030 --> 00:10:32,854
+you don't start to gain a new kind of intuition for things
+
+140
+00:10:32,965 --> 00:10:40,293
+You do, but the intuition is not the process of physical visualization 
+
+141
+00:10:40,366 --> 00:10:45,709
+as the same kind as you visualize a wave as the wave in the ocean 
+
+142
+00:10:51,182 --> 00:10:54,486
+So I have warn you about that
+
+143
+00:10:54,589 --> 00:10:59,869
+And I will tell you quantum mechanics is as abstract as anything can be
+
+144
+00:11:02,171 --> 00:11:06,451
+Well perhaps things are getting a little bit more abstract now 
+
+145
+00:11:07,171 --> 00:11:11,492
+But again, quantum mechanics is about things that 
+
+146
+00:11:12,132 --> 00:11:15,724
+you evolutionarily developed neural structure 
+
+147
+00:11:15,836 --> 00:11:18,412
+is not prepared to dealt with directly
+
+148
+00:11:18,508 --> 00:11:21,332
+How do you deal with it? Abstract mathematics 
+
+149
+00:11:23,908 --> 00:11:27,188
+And relativity, this is also true with relativity
+
+150
+00:11:27,316 --> 00:11:29,475
+And it's worse in quantum mechanics   >> end o
+
+151
+00:11:30,643 --> 00:11:42,691
+Okay let's begin quantum mechanics 
+
+152
+00:11:42,807 --> 00:11:46,596
+with a very very simplistic primitive question you can ask
+
+153
+00:11:47,491 --> 00:11:51,950
+What is the state, I think I can ask the most primitive question is
+
+154
+00:11:52,064 --> 00:11:53,732
+what is a system?
+
+155
+00:11:54,476 --> 00:11:55,948
+Now I don't think I can answer it,
+
+156
+00:11:56,076 --> 00:12:01,932
+it's sort of indefinable you thought of the idea of a system
+
+157
+00:12:02,060 --> 00:12:06,988
+and I don't think I would try to give it a definition
+
+158
+00:12:08,764 --> 00:12:10,996
+but in particular closed system
+
+159
+00:12:11,148 --> 00:12:14,932
+A closed system is a system at least temporarily 
+
+160
+00:12:15,084 --> 00:12:17,700
+is not interacting with anything else 
+
+161
+00:12:17,812 --> 00:12:21,532
+Isolated, it's not interacting with anything else
+
+162
+00:12:23,124 --> 00:12:26,044
+And so it can be describe by itself 
+
+163
+00:12:26,204 --> 00:12:30,252
+as a lonesome entity with nothing else involved
+
+164
+00:12:32,779 --> 00:12:40,140
+In classical mechanics, or it's not even a question of classical mechanics 
+
+165
+00:12:40,240 --> 00:12:42,635
+It's a question of classical logic
+
+166
+00:12:42,739 --> 00:12:45,931
+The whole logic of quantum mechanics 
+
+167
+00:12:46,075 --> 00:12:48,916
+is different than the logic of classical mechanics
+
+168
+00:12:49,060 --> 00:12:52,394
+The logic of classical mechanics again begin 
+
+169
+00:12:52,506 --> 00:12:54,482
+of course with a system I just describe
+
+170
+00:12:54,594 --> 00:12:57,378
+But the next step is the space of state
+
+171
+00:12:57,506 --> 00:13:00,474
+The collection of the possible states of the system 
+
+172
+00:13:00,602 --> 00:13:04,042
+If the system is a discrete system like a point 
+
+173
+00:13:04,170 --> 00:13:09,266
+Or a die, you know the six-faced die
+
+174
+00:13:09,394 --> 00:13:13,018
+It can have six states, of course a real die
+
+175
+00:13:13,146 --> 00:13:16,188
+a real genuine die in three-dimensional space of course 
+
+176
+00:13:16,276 --> 00:13:19,596
+can be in all sort of orientation in infinitely many states
+
+177
+00:13:19,668 --> 00:13:24,084
+But what I mean by a die now was I mean in an abstract mathematical die
+
+178
+00:13:24,172 --> 00:13:28,148
+which whose state is consist of one of six numbers
+
+179
+00:13:30,620 --> 00:13:41,946
+The space of states is a set, one two three four five six 
+
+180
+00:13:42,074 --> 00:13:44,498
+This is the space of states of a die 
+
+181
+00:13:44,602 --> 00:13:47,978
+This is the space of states of a coin
+
+182
+00:13:48,066 --> 00:13:53,702
+Okay again the abstract coin which only has two states heads and tails
+
+183
+00:13:53,814 --> 00:13:55,918
+This will be heads this will be tails 
+
+184
+00:14:00,078 --> 00:14:06,501
+The abstract space of a point particle moving along a line
+
+185
+00:14:06,590 --> 00:14:08,630
+What is that? Anybody know what that is?
+
+186
+00:14:09,342 --> 00:14:15,254
+What is the abstract space of a particle moving along a line?
+
+187
+00:14:17,781 --> 00:14:21,462
+Well, I will remind you the term of physics space 
+
+188
+00:14:21,574 --> 00:14:26,629
+The space consist of the possible position of the particle 
+
+189
+00:14:26,717 --> 00:14:30,637
+and the possible momentums, the possible velocities
+
+190
+00:14:30,749 --> 00:14:33,574
+And so for the particles moving on a line 
+
+191
+00:14:33,677 --> 00:14:37,909
+The possible states of a system form a plane 
+
+192
+00:14:38,037 --> 00:14:43,877
+And the plane has a position sometimes call q 
+
+193
+00:14:43,973 --> 00:14:46,278
+and the momentum sometimes call p
+
+194
+00:14:46,407 --> 00:14:51,062
+And every point on that plane is a possible state of 
+
+195
+00:14:51,166 --> 00:14:53,206
+a point particle moving along a line
+
+196
+00:14:53,278 --> 00:14:59,614
+What is a set? In this case it's the continuously infinite set	 of two dimension
+
+197
+00:14:59,722 --> 00:15:04,246
+In this case it's just two points, in this case it consist of six points
+
+198
+00:15:04,334 --> 00:15:11,462
+And now we can start building some logical concepts for classical physics 
+
+199
+00:15:11,550 --> 00:15:19,215
+For example, concepts such as OR and AND what do they mean?
+
+200
+00:15:22,311 --> 00:15:27,799
+OR and AND are concept which apply to a collection of states
+
+201
+00:15:28,959 --> 00:15:36,479
+Let's consider a proposition, proposition such and such
+
+202
+00:15:37,231 --> 00:15:45,359
+The proposition could be, the die it's locate, has a value which is even 	 
+
+203
+00:15:46,151 --> 00:15:49,319
+It's even value okay?
+
+204
+00:15:50,199 --> 00:15:52,599
+That's a subset of the state of space 
+
+205
+00:15:52,687 --> 00:15:55,658
+In fact it consist of three of them if I'm not mistaken 
+
+206
+00:15:55,752 --> 00:15:57,912
+Three are one, one three and five 
+
+207
+00:15:57,999 --> 00:16:01,919
+And another proposition would be the die is odd 
+
+208
+00:16:02,007 --> 00:16:05,755
+No did I say odd, odd or even whatever it is 
+
+209
+00:16:05,866 --> 00:16:11,677
+Another overlapping set of configuration 
+
+210
+00:16:13,085 --> 00:16:16,453
+Let's take another case, let's take two proposition,
+
+211
+00:16:16,581 --> 00:16:19,549
+one of which again is the die is odd
+
+212
+00:16:23,581 --> 00:16:29,461
+And another proposition is that the die is less than or equal to three
+
+213
+00:16:30,285 --> 00:16:40,060
+So let's see, it's one, three, five, it's two four six
+
+214
+00:16:40,205 --> 00:16:46,029
+And less than or equal to three is this set over here
+
+215
+00:16:46,140 --> 00:16:49,084
+So now there are overlapping sets 
+
+216
+00:16:49,822 --> 00:16:54,236
+And we can ask concepts of AND and OR
+
+217
+00:16:54,909 --> 00:16:59,548
+For example the proposition that it is that 
+
+218
+00:16:59,676 --> 00:17:02,442
+the die is both less than or equal to three
+
+219
+00:17:02,554 --> 00:17:08,798
+And odd is the intersection of these two subsets
+
+220
+00:17:09,438 --> 00:17:13,648
+One and three are odd are less than or equal to three
+
+221
+00:17:13,697 --> 00:17:28,880
+The concept of AND, AND in this subsets, the mathematical concept
+
+222
+00:17:28,984 --> 00:17:31,112
+is the intersection of two sets
+
+223
+00:17:31,224 --> 00:17:36,355
+It's the intersection of two sets, so it satisfied two things
+
+224
+00:17:36,440 --> 00:17:37,976
+That's the concept of AND
+
+225
+00:17:38,072 --> 00:17:44,337
+Given two proposition, each proposition is a collection of states
+
+226
+00:17:46,784 --> 00:17:50,576
+The concept of AND is intersection 
+
+227
+00:17:50,672 --> 00:17:52,738
+What about the concept of OR?
+
+228
+00:17:53,962 --> 00:17:56,746
+OR becomes a concept of union 
+
+229
+00:17:56,874 --> 00:18:04,986
+What does it say here, either it's less than or equal to three OR odd
+
+230
+00:18:06,418 --> 00:18:08,722
+It's the inclusive OR incidentally 
+
+231
+00:18:08,818 --> 00:18:11,080
+Inclusive OR means it can be both
+
+232
+00:18:11,193 --> 00:18:14,802
+Alright that is not the intersection of two sets 	 
+
+233
+00:18:15,496 --> 00:18:19,800
+It's the union of two sets, and union meaning everything in two sets 
+
+234
+00:18:19,904 --> 00:18:29,704
+Everything here is either equal or less than three	OR it is odd, inclusively
+
+235
+00:18:29,808 --> 00:18:31,808
+both being allowed
+
+236
+00:18:31,827 --> 00:18:35,507
+So the inclusive OR translated into union 
+
+237
+00:18:35,560 --> 00:18:41,368
+And the concept of AND is the intersection of sets
+
+238
+00:18:41,460 --> 00:18:45,823
+That's the logic of a classical reasoning to a logical stance 
+
+239
+00:18:48,772 --> 00:18:55,383
+Here's a concept, two sets are completely none overlapping, 
+
+240
+00:18:56,239 --> 00:18:57,774
+this one and that one
+
+241
+00:18:59,310 --> 00:19:02,555
+That simply means the AND statement of false
+
+242
+00:19:02,675 --> 00:19:07,275
+There is no state in there for which both statements are true
+
+243
+00:19:08,211 --> 00:19:15,544
+So the whole logic that it's connected with the space of state being a set 
+
+244
+00:19:15,672 --> 00:19:18,888
+And it's the logic of set theory, we are not going through the logic of set theory
+
+245
+00:19:19,000 --> 00:19:24,883
+But it's important for me to tell you right now that 
+
+246
+00:19:25,008 --> 00:19:27,168
+the logic of quantum mechanic is different 
+
+247
+00:19:27,280 --> 00:19:32,244
+It's not based on the idea that the states of a system is set 
+
+248
+00:19:32,336 --> 00:19:39,416
+The state of a system is something entirely different and only in certain limits
+
+249
+00:19:39,512 --> 00:19:43,632
+only in certain limits where system behaves classically 
+
+250
+00:19:43,704 --> 00:19:47,277
+does whatever a space of states of quantum mechanics
+
+251
+00:19:47,333 --> 00:19:48,004
+Whatever it is, 
+
+252
+00:19:48,047 --> 00:19:52,642
+does it approximately reduced to the concept of a mathematical set
+
+253
+00:19:54,106 --> 00:19:56,653
+In fact if I just tell you what it is, it's vector space 
+
+254
+00:19:57,258 --> 00:19:58,778
+And we will talk about that 
+
+255
+00:20:00,358 --> 00:20:01,831
+Alright but before we do, 
+
+256
+00:20:01,863 --> 00:20:10,814
+before we start to talk about the abstract mathematics of abstract spaces 
+
+257
+00:20:10,927 --> 00:20:17,785
+And spaces of states in quantum systems, let's talk about experiments 
+
+258
+00:20:17,875 --> 00:20:23,028
+And describe the simplest possible system in quantum mechanics 
+
+259
+00:20:23,097 --> 00:20:30,251
+It's the coin of quantum mechanics, a system with two states, heads and tails
+
+260
+00:20:35,523 --> 00:20:38,931
+We have to completely erase the blackboard to start over again 
+
+261
+00:20:42,539 --> 00:20:46,643
+So we have some systems, whenever we measure that system 
+
+262
+00:20:46,747 --> 00:20:54,315
+We measure something about the system, namely analog it's heads or tails 
+
+263
+00:20:54,387 --> 00:20:56,971
+We either get heads or tails
+
+264
+00:20:57,059 --> 00:21:03,979
+Alright let's give that a mathematical notation 
+
+265
+00:21:06,019 --> 00:21:10,452
+I'm not going to call it a coin, I'm going to call it a qubit
+
+266
+00:21:11,307 --> 00:21:17,299
+A qubit is a system which has two states, and qu stands for quantum
+
+267
+00:21:17,389 --> 00:21:24,051
+The analog for classical physics is call the c-bit, classical bit
+
+268
+00:21:24,147 --> 00:21:27,035
+And it's the simple idea of a coin, heads or tails
+
+269
+00:21:27,150 --> 00:21:34,267
+We gonna see that a qubit is a much more interesting well complicated for sure
+
+270
+00:21:34,342 --> 00:21:39,763
+But a much richer idea even though it has some sense as two states
+
+271
+00:21:39,875 --> 00:21:46,297
+Okay so the qubit, the qubit on it's measure - 
+
+272
+00:21:46,378 --> 00:21:50,874
+I'm gonna talk about measuring in a moment - is either heads or tails
+
+273
+00:21:53,298 --> 00:21:54,872
+But let's describe it in another way 
+
+274
+00:21:54,944 --> 00:21:58,154
+And give it a freedom the mathematical degree of freedom 
+
+275
+00:21:58,224 --> 00:22:01,592
+And I'm gonna call that mathematical degree of freedom sigma
+
+276
+00:22:02,288 --> 00:22:09,503
+Sigma is the traditional name for the degree of freedom describe in a qubit
+
+277
+00:22:10,231 --> 00:22:15,456
+And sigma can either take on the value one, or it can take on the value of -1
+
+278
+00:22:15,560 --> 00:22:21,439
+It's one when qubit is heads and minus one when qubit is tails
+
+279
+00:22:24,111 --> 00:22:27,175
+And there is no more content in it - other than heads and tails
+
+280
+00:22:27,279 --> 00:22:30,655
+But it allow us start being able to write equations for something 
+
+281
+00:22:33,495 --> 00:22:37,376
+You can also describe it some other way by a picture
+
+282
+00:22:37,503 --> 00:22:42,303
+I'm gonna describe sigma as one by an arrow pointing up
+
+283
+00:22:42,391 --> 00:22:45,471
+Sigma equals minus one by and arrow pointing down
+
+284
+00:22:45,543 --> 00:22:51,479
+No implication here, not anything geometric here, just notation
+
+285
+00:22:51,583 --> 00:22:54,426
+Notations, three different notations, heads and tails, 
+
+286
+00:22:54,520 --> 00:22:58,035
+sigma equals one or sigma equals minus one 
+
+287
+00:22:58,103 --> 00:23:01,111
+And arrow pointing up and arrow pointing down 
+
+288
+00:23:03,783 --> 00:23:12,279
+Okay let's imagine an experiment, an experiment involve more than one system
+
+289
+00:23:12,991 --> 00:23:17,479
+It involve a second system, the second system is call the apparatus
+
+290
+00:23:18,047 --> 00:23:23,559
+In classical mechanics we never bother thinking too much about details
+
+291
+00:23:24,568 --> 00:23:26,752
+Unless we happen to be experimental physicists 
+
+292
+00:23:27,281 --> 00:23:30,447
+and really going to the laboratories and doing experiments
+
+293
+00:23:30,535 --> 00:23:37,023
+We sort of don't worry very much about, at least in a deep sense 
+
+294
+00:23:37,991 --> 00:23:41,527
+We think the system can be describe completely without worrying
+
+295
+00:23:41,583 --> 00:23:44,223
+how you detect it how you measure it or anything else
+
+296
+00:23:44,823 --> 00:23:46,342
+But in quantum mechanics, 
+
+297
+00:23:46,542 --> 00:23:55,022
+one can not get away ignoring the concept of a apparatus
+
+298
+00:23:55,702 --> 00:23:59,963
+So let's introduce an apparatus, and I've tell you what an apparatus
+
+299
+00:24:00,051 --> 00:24:02,742
+We are going to make a mathematically abstract apparatus
+
+300
+00:24:02,830 --> 00:24:05,529
+I'm not gonna tell you how it works, black box
+
+301
+00:24:06,465 --> 00:24:12,745
+It's a black box I'm gonna call it A, A for apparatus 
+
+302
+00:24:15,113 --> 00:24:19,810
+It's a box that has a little window, there is the window
+
+303
+00:24:22,688 --> 00:24:26,536
+It also, it really is a box, it's like a carten(), 
+
+304
+00:24:26,681 --> 00:24:34,025
+a carten getting mail which says this side up, this side up
+
+305
+00:24:36,864 --> 00:24:38,856
+You want to stand up right?
+
+306
+00:24:39,922 --> 00:24:43,512
+Here is a little window, by window I mean screen 
+
+307
+00:24:44,080 --> 00:24:45,744
+And numbers appears on that screen 
+
+308
+00:24:47,008 --> 00:24:51,328
+And it has some sort of detector on the end of a wire 
+
+309
+00:24:51,792 --> 00:24:57,380
+that senses the qubit
+
+310
+00:24:57,492 --> 00:25:01,584
+It senses the qubit is plus one or minus one 
+
+311
+00:25:02,895 --> 00:25:08,149
+So you start with your qubit and you don't know what state it's in 
+
+312
+00:25:08,191 --> 00:25:11,556
+The experiment is to determine what state it's in
+
+313
+00:25:11,612 --> 00:25:21,044
+So the qubit begins with an unknown state, unknown
+
+314
+00:25:21,716 --> 00:25:24,044
+We don't know it's plus one or minus one 
+
+315
+00:25:24,100 --> 00:25:27,892
+We are gonna do an experiment , the experiment
+
+316
+00:25:27,924 --> 00:25:30,732
+As I said, I'm not gonna tell you how the detector work 
+
+317
+00:25:30,820 --> 00:25:34,440
+It's not important for us, it's only important the detector do exists
+
+318
+00:25:34,559 --> 00:25:39,688
+We are gonna, we will talk later about the process of detection, but not for now
+
+319
+00:25:40,546 --> 00:25:44,305
+Let us central over here, central over the qubit
+
+320
+00:25:46,388 --> 00:25:47,738
+What does it do?
+
+321
+00:25:47,851 --> 00:25:51,641
+A number lights up in here, if it's plus one
+
+322
+00:25:51,754 --> 00:25:59,039
+Oh, first of all, before we do the detection, the apparatus is in the neutral state
+
+323
+00:25:59,153 --> 00:26:02,287
+The blank state, no number there at all
+
+324
+00:26:02,401 --> 00:26:05,539
+So let's just call that a blank configuration of the apparatus 
+
+325
+00:26:05,651 --> 00:26:11,891
+We take the apparatus over, close enough to the qubit to react with it 
+
+326
+00:26:12,004 --> 00:26:17,114
+And it's a good faithful apparatus it will register a number here
+
+327
+00:26:17,224 --> 00:26:19,879
+And the number would either be plus one or minus one 
+
+328
+00:26:21,264 --> 00:26:27,418
+Plus one or minus one, depending on which way, whether it's heads or tails
+
+329
+00:26:29,162 --> 00:26:30,892
+That's the act of the measurement 
+
+330
+00:26:32,263 --> 00:26:36,576
+Now you may or may not be there to look at the apparatus this is a secondary 
+
+331
+00:26:36,692 --> 00:26:42,748
+The apparatus has detected and recorded what is going on over here
+
+332
+00:26:42,899 --> 00:26:49,073
+So that's something that, in classical mechanics of course we do the same thing
+
+333
+00:26:49,186 --> 00:26:51,399
+There is nothing in particular quantum mechanical about this
+
+334
+00:26:51,511 --> 00:26:53,607
+But we tend never to think about it, 
+
+335
+00:26:53,753 --> 00:26:57,723
+then formulate the basic principle of quantum mechanics, oh, classic mechanics
+
+336
+00:26:58,673 --> 00:27:04,307
+Okay so that's the experiment that measures the state of 
+
+337
+00:27:04,455 --> 00:27:07,628
+Or it measure whether sigma is plus one or minus one 
+
+338
+00:27:07,741 --> 00:27:10,267
+But we can also think of it as another way
+
+339
+00:27:10,344 --> 00:27:15,034
+We can think of it not so much as a measurement but as a preparation
+
+340
+00:27:15,149 --> 00:27:18,127
+The preparation of the system
+
+341
+00:27:19,055 --> 00:27:25,095
+Here's the idea, supposing we in fact do measured sigma to be plus one 
+
+342
+00:27:27,421 --> 00:27:30,002
+Supposing that is the outcome of the experiment 
+
+343
+00:27:30,117 --> 00:27:34,899
+That we can erase the one that it wasn't, and start over 
+
+344
+00:27:35,014 --> 00:27:37,855
+And then say let's back off 
+
+345
+00:27:41,885 --> 00:27:47,216
+We set the apparatus, we set it means start it over in the blank state 
+
+346
+00:27:47,330 --> 00:27:51,279
+And then we do the experiment again 
+
+347
+00:27:52,267 --> 00:27:55,044
+Let's say we do it fast enough so that 
+
+348
+00:27:55,157 --> 00:27:57,062
+there wasn't many times for anything to happen
+
+349
+00:27:57,173 --> 00:28:04,046
+What happens? What happen is that the detector records again
+
+350
+00:28:04,126 --> 00:28:09,862
+And if it's a good detector, and the system hasn't had time to change very much 
+
+351
+00:28:09,973 --> 00:28:12,619
+It will simply record the same number again 
+
+352
+00:28:12,732 --> 00:28:15,541
+It will confirm the previous experiment 
+
+353
+00:28:15,650 --> 00:28:20,672
+This is important, the experiment can be confirmed, again
+
+354
+00:28:20,787 --> 00:28:24,526
+No difference between classical and quantum mechanics in this respect 
+
+355
+00:28:24,603 --> 00:28:27,226
+We just emphasize it in quantum mechanics 
+
+356
+00:28:27,339 --> 00:28:29,636
+Experiment can be confirmed
+
+357
+00:28:30,696 --> 00:28:33,951
+We can do it again and again, and again, and again
+
+358
+00:28:34,065 --> 00:28:38,343
+And we will continue to get the same answer that we got in the first place 
+
+359
+00:28:38,459 --> 00:28:42,564
+So we can think a little bit more differently the first experiment
+
+360
+00:28:42,712 --> 00:28:50,793
+Instead of saying that it determines whether it is heads or tails 
+
+361
+00:28:50,899 --> 00:28:55,699
+We can say it prepare it with a state which was in this case heads
+
+362
+00:28:55,804 --> 00:29:00,314
+After the first detection now known to be heads
+
+363
+00:29:00,429 --> 00:29:02,615
+it's been prepared in states heads
+
+364
+00:29:02,728 --> 00:29:05,413
+We can do the experiments over and over and over again
+
+365
+00:29:05,512 --> 00:29:06,949
+And always get the same answer 
+
+366
+00:29:07,779 --> 00:29:12,267
+So the devices that measures
+
+367
+00:29:12,411 --> 00:29:16,512
+is also device that prepares the system in a given state
+
+368
+00:29:24,186 --> 00:29:25,954
+Of course the same thing would be true 
+
+369
+00:29:26,075 --> 00:29:31,442
+had the device determines in the first round the signal was minus one
+
+370
+00:29:31,555 --> 00:29:35,259
+Then it would continue to detcet the same thing
+
+371
+00:29:35,383 --> 00:29:41,165
+Of course there can be bad detectors, not all detectors are well made
+
+372
+00:29:41,278 --> 00:29:44,437
+Not all detectors work the way you want them to be work
+
+373
+00:29:45,648 --> 00:29:47,295
+In which case it's just wasn't a good detector 
+
+374
+00:29:47,407 --> 00:29:48,826
+It didn't do what you wanted it to do
+
+375
+00:29:48,938 --> 00:29:53,499
+>> would this heads and tails have to do with this point
+
+376
+00:29:53,608 --> 00:29:56,456
+>> what's the purpose of having a heads and tails 
+
+377
+00:29:56,565 --> 00:29:58,378
+It's just two possibilities
+
+378
+00:29:58,456 --> 00:30:03,791
+You wanna know what actually has to do with a heads and a tails?
+
+379
+00:30:06,961 --> 00:30:08,459
+It's just two possibilities
+
+380
+00:30:08,587 --> 00:30:11,913
+I just used that for familiarity
+
+381
+00:30:14,388 --> 00:30:16,178
+The marines() do heads and tails
+
+382
+00:30:22,450 --> 00:30:24,800
+Okay now we are gonna do something new
+
+383
+00:30:24,922 --> 00:30:26,531
+We are gonna do a new experiment 
+
+384
+00:30:27,880 --> 00:30:30,934
+First we are gonna start with a preparation
+
+385
+00:30:31,890 --> 00:30:39,833
+The preparation determines the spin was, what was a spin, I call it a spin
+
+386
+00:30:39,946 --> 00:30:42,361
+I'm giving away, it is a spin
+
+387
+00:30:42,473 --> 00:30:46,851
+The qubit is in the state plus one alright?
+
+388
+00:30:46,961 --> 00:30:51,848
+So the qubit in the other notation is an arrow pointing up
+
+389
+00:30:51,966 --> 00:30:55,446
+We've prepared, we now know, we can do a few times to check
+
+390
+00:30:55,558 --> 00:30:59,567
+But once we check it we now know that this qubit is up
+
+391
+00:30:59,678 --> 00:31:03,230
+And if we continue to do it, we will continue to get the same answer
+
+392
+00:31:03,345 --> 00:31:05,365
+Now we are gonna do something funny
+
+393
+00:31:05,474 --> 00:31:09,084
+After we've determine or prepared the qubit
+
+394
+00:31:09,161 --> 00:31:13,610
+We are now gonna take the detector and turn it over
+
+395
+00:31:15,687 --> 00:31:30,020
+A... I don't know, this side up?
+
+396
+00:31:32,121 --> 00:31:44,215
+We turn the detector over and now we are going to probe the qubit again
+
+397
+00:31:44,328 --> 00:31:46,568
+And what have we learn in this case?
+
+398
+00:31:46,680 --> 00:31:54,596
+We discover, we discover that instead of getting plus one we get minus one
+
+399
+00:31:54,745 --> 00:31:59,845
+By turning the detector over we get the opposite answer
+
+400
+00:31:59,990 --> 00:32:02,369
+What is this telling us?
+
+401
+00:32:02,515 --> 00:32:09,636
+What is this telling us about the nature of this system?
+
+402
+00:32:09,753 --> 00:32:18,803
+What is it telling us? Of course then if we take our upside-down detector 
+
+403
+00:32:18,915 --> 00:32:21,649
+and continue to do the experiment over and over 
+
+404
+00:32:21,760 --> 00:32:23,855
+We will continue to get minus one 	  
+
+405
+00:32:23,926 --> 00:32:27,169
+Of course what happen let say if we do it thirty five times 
+
+406
+00:32:27,278 --> 00:32:29,958
+We turn the detector back up right?
+
+407
+00:32:30,034 --> 00:32:31,842
+Then we get plus one 	 
+
+408
+00:32:31,954 --> 00:32:35,926
+What we were learning is whatever this system is  	 
+
+409
+00:32:38,696 --> 00:32:43,503
+This particular qubit has a sense of directionality to it
+
+410
+00:32:44,589 --> 00:32:48,033
+Then when I drew it as up versus down
+
+411
+00:32:48,182 --> 00:32:56,936
+There really was a sense in which the orientation is being distinguished
+
+412
+00:32:57,056 --> 00:33:01,625
+By turning the detector upside down we interchange up and down
+
+413
+00:33:01,734 --> 00:33:04,547
+Well that's what I normally mean by up and down
+
+414
+00:33:04,659 --> 00:33:07,517
+Turn it over, we got it upside down
+
+415
+00:33:07,625 --> 00:33:11,213
+And it changes the sign of the qubit
+
+416
+00:33:11,319 --> 00:33:16,035
+That's the indication the qubit has some directionality in space
+
+417
+00:33:16,149 --> 00:33:18,360
+Spatial direction associate with it
+
+418
+00:33:18,502 --> 00:33:22,945
+And not every qubit has spatial directionality with it
+
+419
+00:33:23,049 --> 00:33:26,562
+But by doing this experiment we discover that whatever this qubit is
+
+420
+00:33:26,676 --> 00:33:29,982
+It really does have a sense of orientation
+
+421
+00:33:30,089 --> 00:33:33,028
+An upness and downness in space 
+
+422
+00:33:34,969 --> 00:33:37,695
+So that's a piece of interesting information
+
+423
+00:33:37,843 --> 00:33:41,297
+We might begin to suspect that it's a vector 
+
+424
+00:33:42,571 --> 00:33:46,576
+We might begin to suspect since it has a directionality in space 
+
+425
+00:33:47,404 --> 00:33:51,454
+It's a vector, the one that is pointing up 
+
+426
+00:33:51,569 --> 00:33:53,279
+is different to the one that is pointing down 	
+
+427
+00:33:54,811 --> 00:33:57,433
+We can make... well yes alright... 
+
+428
+00:33:57,545 --> 00:34:03,989
+so that's the basic idea of a qubit which also have a sense of directionality
+
+429
+00:34:04,098 --> 00:34:11,783
+Like this pen then our detector when we measure it up then we measure it down
+
+430
+00:34:11,894 --> 00:34:14,439
+But now we are gonna do something else
+
+431
+00:34:14,553 --> 00:34:18,672
+Oh we might, here is what we might believe, here is what we might believe
+
+432
+00:34:18,780 --> 00:34:22,447
+Given that the detector has an orientation to it 
+
+433
+00:34:22,517 --> 00:34:24,124
+and it does have an orientation to it
+
+434
+00:34:24,198 --> 00:34:27,376
+There is right side up and wrong side up
+
+435
+00:34:28,436 --> 00:34:30,618
+In fact in the detector we might even think 
+
+436
+00:34:30,727 --> 00:34:35,969
+that something which itself is an orientation
+
+437
+00:34:36,076 --> 00:34:40,843
+Something built into the detector which has an orientation in it	
+
+438
+00:34:40,952 --> 00:34:44,292
+And you know what we might think, we might think that 
+
+439
+00:34:44,367 --> 00:34:49,486
+this detector is detecting the value of a component of a vector
+
+440
+00:34:50,289 --> 00:34:55,057
+along the direction of the detector itself
+
+441
+00:34:56,172 --> 00:35:00,882
+So when the detector is right side up
+
+442
+00:35:00,996 --> 00:35:02,697
+And it's detecting the things here 
+
+443
+00:35:02,807 --> 00:35:08,579
+it's detecting the component of some vector in the plus direction 
+
+444
+00:35:08,687 --> 00:35:11,292
+When you turn the detector over, 
+
+445
+00:35:11,405 --> 00:35:14,673
+it's measuring the component of the same object
+
+446
+00:35:14,778 --> 00:35:17,944
+except with respect to an axis which has been flipped
+
+447
+00:35:18,053 --> 00:35:20,641
+So you might start to think this thing might be a vector, this qubit
+
+448
+00:35:21,302 --> 00:35:25,156
+So now we do something, let's say alright, do something else now 
+
+449
+00:35:25,232 --> 00:35:29,883
+Let's turn the detector on it's side, let's turn the detector on it's side
+
+450
+00:35:33,669 --> 00:35:38,252
+We have initially determine that the qubit was up
+
+451
+00:35:38,397 --> 00:35:43,459
+We definitely make sure it's up, we've done it a thousand time 
+
+452
+00:35:43,572 --> 00:35:47,696
+with the right side up detector and know for sure it's up
+
+453
+00:35:47,767 --> 00:35:48,347
+It's not down
+
+454
+00:35:50,460 --> 00:35:53,826
+And now we detect, take the side way detector
+
+455
+00:35:54,699 --> 00:35:57,678
+A this side up over right here 
+
+456
+00:35:59,980 --> 00:36:03,485
+With a internal arrow pointing in this direction over here
+
+457
+00:36:04,474 --> 00:36:08,687
+And what should we expect ordinariliy
+
+458
+00:36:09,466 --> 00:36:16,167
+Ordinarily we say, well if this thing is going to measure now 
+
+459
+00:36:16,244 --> 00:36:19,791
+not the vertical component of some vector 
+
+460
+00:36:19,899 --> 00:36:22,272
+but the horizontal component of some vector 	 
+
+461
+00:36:22,385 --> 00:36:26,822
+we know that the vector was pointing upward by the initial preparation 
+
+462
+00:36:26,930 --> 00:36:32,492
+which you do get here, well what's the component along horizontal axis?
+
+463
+00:36:32,613 --> 00:36:37,268
+Zero, so the answer is we should get zero
+
+464
+00:36:37,414 --> 00:36:41,241
+If this were classical physics and this were classical little vector 
+
+465
+00:36:41,388 --> 00:36:43,123
+That's exactly what we will get
+
+466
+00:36:43,271 --> 00:36:52,952
+So we are going to be experiment, probe it, and we get not zero
+
+467
+00:36:53,062 --> 00:36:55,218
+But either one or minus one again
+
+468
+00:36:55,328 --> 00:37:00,879
+Which one do we get? One or minus one? One or minus one?
+
+469
+00:37:00,956 --> 00:37:06,222
+So it seem to be symmetrically located relative to the axis of the detector
+
+470
+00:37:06,336 --> 00:37:12,888
+So we say oh I got one, let's do this experiment a whole bunch of time
+
+471
+00:37:13,001 --> 00:37:18,849
+Let's go back, get us some new qubits
+
+472
+00:37:18,961 --> 00:37:21,126
+Throw this qubit away, we've finished with it
+
+473
+00:37:21,245 --> 00:37:25,032
+Get us a new qubit, make sure it's pointing up
+
+474
+00:37:25,148 --> 00:37:27,264
+And do the same experiment again 
+
+475
+00:37:28,384 --> 00:37:32,638
+Well, we might get plus one again, but again we might get minus one
+
+476
+00:37:32,743 --> 00:37:35,528
+We do it many many times, 
+
+477
+00:37:35,640 --> 00:37:41,492
+exactly the same experiment with a qubit known to be pointing up
+
+478
+00:37:41,563 --> 00:37:44,182
+And we measure what you would've like to think 
+
+479
+00:37:44,294 --> 00:37:45,947
+with the horizontal component of an object
+
+480
+00:37:46,061 --> 00:37:51,247
+And we always get plus one or minus one, randomly
+
+481
+00:37:51,358 --> 00:37:56,622
+Randomly but in such a way that if you do it a great many times
+
+482
+00:37:56,735 --> 00:38:02,593
+Then the average value is zero
+
+483
+00:38:02,705 --> 00:38:06,114
+There is many z... as many plus one as minus ones
+
+484
+00:38:06,220 --> 00:38:08,940
+If you do it a great many times 
+
+485
+00:38:09,055 --> 00:38:14,196
+And you will find every single one of them is either plus one or minus one 
+
+486
+00:38:15,356 --> 00:38:17,713
+But on the average it add up to zero
+
+487
+00:38:17,827 --> 00:38:20,851
+>> you said you threw the qubit away ()
+
+488
+00:38:23,471 --> 00:38:28,463
+well if you reoriented it, if you reoriented it and make sure it's up again
+
+489
+00:38:28,577 --> 00:38:31,445
+then it would not matter if it's a new qubit or not
+
+490
+00:38:31,611 --> 00:38:33,926
+>> if you look at the same qubit at the same place 	 
+
+491
+00:38:34,039 --> 00:38:37,602
+Okay good question, alright good, good, good
+
+492
+00:38:37,715 --> 00:38:40,367
+So let's go back ,good question
+
+493
+00:38:40,479 --> 00:38:42,393
+We start with the qubit known to be up
+
+494
+00:38:42,504 --> 00:38:47,111
+We made a detection and we got plus one
+
+495
+00:38:47,223 --> 00:38:54,405
+The implication of that is the qubit is lying in the horizontal direction
+
+496
+00:38:54,492 --> 00:39:00,470
+Somehow, somehow we've detected a plus one 
+
+497
+00:39:00,616 --> 00:39:03,141
+but a plus one relative to a new axis
+
+498
+00:39:03,253 --> 00:39:05,636
+Not the original axis but a new axis
+
+499
+00:39:06,152 --> 00:39:11,394
+Supposing we now take that same qubit don't modify it
+
+500
+00:39:11,509 --> 00:39:14,771
+But do the same experiment over and over and over again
+
+501
+00:39:14,885 --> 00:39:17,440
+We will always get the same plus one
+
+502
+00:39:21,227 --> 00:39:25,756
+Once that qubit has registered plus one and we don't disturb it
+
+503
+00:39:25,868 --> 00:39:29,563
+Do the experiment again and again we will continue to get plus one 
+
+504
+00:39:29,637 --> 00:39:32,880
+Another words we will confirm we will confirm the experiment 
+
+505
+00:39:33,904 --> 00:39:39,828
+>>difference between two actions you projected from 
+
+506
+00:39:39,940 --> 00:39:42,915
+>>going from top side to the bottom side, 
+
+507
+00:39:43,025 --> 00:39:44,889
+>>that's a hundred and eighty degrees 
+
+508
+00:39:45,001 --> 00:39:47,685
+>>whereas the other is only ninety degree
+
+509
+00:39:51,295 --> 00:39:54,108
+When I turn the detector for ninety degrees 
+
+510
+00:39:54,218 --> 00:39:57,350
+it no longer have the definiteness about the answer 
+
+511
+00:39:57,424 --> 00:40:00,442
+The answer is random but only the first time 
+
+512
+00:40:00,519 --> 00:40:03,325
+Once I do it, once I do it
+
+513
+00:40:03,431 --> 00:40:09,694
+and I determine whether the horizontal component is plus one or minus one
+
+514
+00:40:09,771 --> 00:40:11,022
+Then it's determined, 
+
+515
+00:40:11,132 --> 00:40:14,861
+and if I do the same horizontal experiment over and over again
+
+516
+00:40:14,975 --> 00:40:17,384
+I will continue to get the same answer 
+
+517
+00:40:20,334 --> 00:40:23,610
+Well, then I could come back and say okay, 
+
+518
+00:40:23,727 --> 00:40:26,650
+now having done that and pretty sure 
+
+519
+00:40:26,729 --> 00:40:32,222
+the horizontal components of it is in the plus direction 
+
+520
+00:40:32,299 --> 00:40:34,634
+I can come back and turn the detector again 
+
+521
+00:40:35,957 --> 00:40:37,315
+Guess what will happen? 
+
+522
+00:40:37,419 --> 00:40:44,279
+I will find the random result after time plus after time minus
+
+523
+00:40:44,430 --> 00:40:49,658
+But again, once it's determined and I do it over and over and over again 
+
+524
+00:40:49,771 --> 00:40:50,939
+It stays the same, ya?
+
+525
+00:40:51,053 --> 00:40:56,631
+>> this is probably not important but on your side way detector, 
+
+526
+00:40:56,745 --> 00:40:59,214
+>>your arrows are tickle in the wrong way
+
+527
+00:41:03,900 --> 00:41:04,076
+How so?
+
+528
+00:41:04,258 --> 00:41:06,390
+>> the point from A 
+
+529
+00:41:06,503 --> 00:41:09,928
+Oh oh oh, maybe there was an A here
+
+530
+00:41:12,588 --> 00:41:18,158
+This side up I think, okay yes you are right 
+
+531
+00:41:24,157 --> 00:41:27,354
+It's interesting okay, so therefore, 
+
+532
+00:41:27,467 --> 00:41:33,722
+having done this experiment and found out that I get a plus one
+
+533
+00:41:33,834 --> 00:41:36,782
+I do it over and over and over a few times 
+
+534
+00:41:36,819 --> 00:41:38,693
+I get a plus one each time 
+
+535
+00:41:38,767 --> 00:41:42,992
+Let's say I take the detector and turn it around 180 degrees
+
+536
+00:41:43,102 --> 00:41:43,946
+What do I get?
+
+537
+00:41:45,211 --> 00:41:48,952
+Minus one, or what happen if I turn it 90 degrees?
+
+538
+00:41:49,064 --> 00:41:58,555
+Random, random means a particular kind of randomness 
+
+539
+00:41:58,626 --> 00:42:01,484
+equal probability for up and down
+
+540
+00:42:01,551 --> 00:42:07,286
+equal probability for plus one and minus one 
+
+541
+00:42:07,395 --> 00:42:12,418
+And that means if I would do the same experiment, 
+
+542
+00:42:12,567 --> 00:42:13,855
+the whole thing over and over 
+
+543
+00:42:14,216 --> 00:42:17,773
+Perhaps with a whole bunch of different qubits 
+
+544
+00:42:17,888 --> 00:42:22,176
+I have whole() lots of qubits over here, a lots of them
+
+545
+00:42:22,286 --> 00:42:24,426
+I don't even know what their directions are 
+
+546
+00:42:24,538 --> 00:42:26,324
+They are in, whatever they are doing 	 
+
+547
+00:42:26,438 --> 00:42:28,586
+And I take them one at a time 
+
+548
+00:42:28,658 --> 00:42:31,743
+I subject them to the first experiment 
+
+549
+00:42:32,924 --> 00:42:34,747
+If I get up I keep them 
+
+550
+00:42:35,209 --> 00:42:37,978
+If I get down I throw them in the trash
+
+551
+00:42:38,756 --> 00:42:42,296
+At the end of the day, what I would have gotten myself 
+
+552
+00:42:42,410 --> 00:42:45,608
+with a whole bunch of qubit known to be pointing up
+
+553
+00:42:49,570 --> 00:42:54,481
+Now I take one of them , and subject it to the side way experiments
+
+554
+00:42:55,815 --> 00:42:58,422
+I may get one, or I may get minus ones
+
+555
+00:43:00,004 --> 00:43:03,722
+I record what I got for all the way
+
+556
+00:43:04,507 --> 00:43:07,573
+Go to the next one do the same experiment 
+
+557
+00:43:07,683 --> 00:43:10,572
+and make it plus one and minus one record what I get
+
+558
+00:43:10,644 --> 00:43:14,950
+Take this whole collection, large collection of them
+
+559
+00:43:15,019 --> 00:43:18,005
+And do the side way experiment for all of them 
+
+560
+00:43:18,116 --> 00:43:21,029
+What would be the average result?
+
+561
+00:43:24,890 --> 00:43:32,362
+Zero, zero, I will have as many plus ones as minus ones
+
+562
+00:43:32,434 --> 00:43:35,214
+And so the average would be zero 
+
+563
+00:43:36,371 --> 00:43:38,590
+Let's try that in this case here 
+
+564
+00:43:38,661 --> 00:43:44,190
+The same that the average value, we need a symbol for the average value 
+
+565
+00:43:44,260 --> 00:43:50,643
+But after the experiment here we will discover the average value of the x
+
+566
+00:43:50,789 --> 00:43:56,585
+Or the horizontal component of the qubit here is zero
+
+567
+00:43:56,691 --> 00:44:03,316
+Classically if we would have created a little vector in the up direction 
+
+568
+00:44:03,384 --> 00:44:07,010
+And we measure the horizontal component we simply get zero
+
+569
+00:44:08,039 --> 00:44:13,322
+In the real world with quantum mechanics we always get plus or minus one 
+
+570
+00:44:13,391 --> 00:44:17,326
+But in such a way that the average is zero
+
+571
+00:44:19,573 --> 00:44:22,311
+>> Is that true (even if that you don't throw away the qubit)
+
+572
+00:44:22,382 --> 00:44:24,216
+>> which measured plus one or minus one?
+
+573
+00:44:24,285 --> 00:44:30,410
+Yeah, actually it's still true, that is correct, the answer is yes
+
+574
+00:44:32,288 --> 00:44:38,950
+>> In your description either the detector () seems to have some type of memory
+
+575
+00:44:39,063 --> 00:44:50,584
+Some type of, yeah ,we were assuming that the law of the motion of the qubit 
+
+576
+00:44:50,689 --> 00:44:54,512
+is that nothing happens to it so we remember when you detect it 	 
+
+577
+00:44:54,580 --> 00:44:59,191
+And then you detect it again instantly after , and it hasn't changed
+
+578
+00:44:59,263 --> 00:45:00,999
+Right that's correct 
+
+579
+00:45:01,779 --> 00:45:04,838
+Now later on, we are gonna consider possibilities
+
+580
+00:45:04,917 --> 00:45:08,199
+where during the intervening time between the measurement
+
+581
+00:45:08,312 --> 00:45:09,882
+some interesting things might happen
+
+582
+00:45:10,028 --> 00:45:12,756
+For the moment we supposing nothing interesting happen in between
+
+583
+00:45:12,869 --> 00:45:16,051
+It's analog of the classical coin
+
+584
+00:45:16,150 --> 00:45:19,420
+with law of physics there's just nothing happens
+
+585
+00:45:21,123 --> 00:45:25,153
+>> we don't talk about the collapsing of a wave function
+
+586
+00:45:27,079 --> 00:45:29,675
+that's of course up till now but 
+
+587
+00:45:31,490 --> 00:45:40,140
+No, let's not talk about it, let's talk about the operational things that
+
+588
+00:45:40,250 --> 00:45:45,389
+we might do to discover in the clause of quantum mechanics
+
+589
+00:45:46,723 --> 00:45:53,536
+Then we will puts some words on them such as collapsible wave package 
+
+590
+00:45:55,657 --> 00:46:02,113
+Okay, so things are funny in some average sense 	 
+
+591
+00:46:04,242 --> 00:46:11,138
+The horizontal component of something zero within each individual instance 
+
+592
+00:46:11,249 --> 00:46:14,035
+You only get plus one or minus one 
+
+593
+00:46:15,030 --> 00:46:16,646
+Now let's go a little further 
+
+594
+00:46:18,419 --> 00:46:21,417
+Let's, or instantly the same thing would be true 
+
+595
+00:46:21,529 --> 00:46:26,688
+if instead of turning the detector this way we turn it this way 
+
+596
+00:46:26,801 --> 00:46:29,745
+so the internal vector was pointing outward
+
+597
+00:46:29,894 --> 00:46:31,416
+It's to be true, same thing
+
+598
+00:46:32,485 --> 00:46:35,092
+Okay now let's do a little different experiment 
+
+599
+00:46:37,040 --> 00:46:39,454
+Same set up to begin with  
+
+600
+00:46:39,530 --> 00:46:44,111
+But instead of rotating the detector by 90 degrees
+
+601
+00:46:44,975 --> 00:46:52,079
+Let's rotate it by 45 degrees, in fact any angle, let's not do 45 degrees
+
+602
+00:46:58,043 --> 00:47:06,150
+Let's rotate it by an arbitrary angle so that the internal detector ()
+
+603
+00:47:06,317 --> 00:47:11,727
+is now characterize by an angle theta relative to the vertical 
+
+604
+00:47:17,779 --> 00:47:23,365
+It's been rotated by an angle theta and do the same experiment now
+
+605
+00:47:23,478 --> 00:47:25,945
+We take the first qubit
+
+606
+00:47:26,056 --> 00:47:40,008
+subject it now to the detector oriented to the angle theta
+
+607
+00:47:40,077 --> 00:47:43,571
+What do we get , plus one or minus one?
+
+608
+00:47:44,306 --> 00:47:48,312
+do it again what do we get , plus one or minus one?
+
+609
+00:47:48,432 --> 00:47:51,300
+What do we get do it again , plus one or minus one?
+
+610
+00:47:51,403 --> 00:47:53,201
+Never do anything in between, 
+
+611
+00:47:53,270 --> 00:48:02,708
+but in this case the average value of the experimental value, 
+
+612
+00:48:03,822 --> 00:48:08,113
+or what comes out here is not equal to zero
+
+613
+00:48:09,880 --> 00:48:12,658
+It's equal to, what do you expect it to equal to?
+
+614
+00:48:13,375 --> 00:48:16,392
+Cosine of theta, cosine of the angle 
+
+615
+00:48:16,505 --> 00:48:21,164
+Exactly like the x component of a vector would be
+
+616
+00:48:21,277 --> 00:48:29,029
+Or exactly like yes, exactly like the components of these vectors 
+
+617
+00:48:29,102 --> 00:48:31,759
+along the detector axis
+
+618
+00:48:31,868 --> 00:48:36,265
+The component of these vector along the detector axis()
+
+619
+00:48:36,378 --> 00:48:41,549
+would be smaller by an amount cosine theta, classically,
+
+620
+00:48:41,620 --> 00:48:46,285
+quantum mechanically, we simply get plus one minus one
+
+621
+00:48:46,355 --> 00:48:49,105
+Plus one plus one minus one plus plus plus whatever 
+
+622
+00:48:50,568 --> 00:48:56,083
+In such a way as to averages to the cosine of the angle 
+
+623
+00:48:57,540 --> 00:49:01,086
+As the detector gets more and more up right
+
+624
+00:49:01,196 --> 00:49:04,479
+Cosine theta gets closer and closer to one 
+
+625
+00:49:05,238 --> 00:49:11,757
+And that just mean it gets closer and closer to the value to ()
+
+626
+00:49:11,871 --> 00:49:15,596
+the answer if the detector is perfectly up right
+
+627
+00:49:16,697 --> 00:49:21,885
+Now and then you might get a minus sign, but mostly plus sign
+
+628
+00:49:21,997 --> 00:49:24,688
+And as soon as the detector get perfectly right side up
+
+629
+00:49:24,757 --> 00:49:26,339
+All plus ones
+
+630
+00:49:28,099 --> 00:49:31,749
+What about the detector is almost upside down?
+
+631
+00:49:32,345 --> 00:49:36,332
+Well then you get mostly minus one, a few in there are plus ones
+
+632
+00:49:37,350 --> 00:49:44,652
+And so it seems that the average values of sigma 
+
+633
+00:49:44,720 --> 00:49:49,147
+are behaving as if sigma was a component of a vector
+
+634
+00:49:51,283 --> 00:49:54,628
+this is something you know, really different 
+
+635
+00:49:56,538 --> 00:50:05,446
+>>() if you have prepared these as up, if you just took more qubits with there
+
+636
+00:50:07,734 --> 00:50:08,896
+if you what?
+
+637
+00:50:09,027 --> 00:50:11,109
+>> it stay up because you started with up
+
+638
+00:50:11,235 --> 00:50:12,891
+yes, yes
+
+639
+00:50:15,497 --> 00:50:17,817
+>> why do we need a collection of qubits?
+
+640
+00:50:17,930 --> 00:50:19,024
+Why do we need what?
+
+641
+00:50:19,119 --> 00:50:22,310
+>> a collection of qubits? Since nothing happening to the qubit right?()
+
+642
+00:50:24,983 --> 00:50:27,759
+If you take the same one and do it over and over and over again 
+
+643
+00:50:27,834 --> 00:50:30,920
+with the same detector, you will just get the same answer over and over 
+
+644
+00:50:33,007 --> 00:50:37,670
+You just confirm the previous measurement 
+
+645
+00:50:39,122 --> 00:50:44,411
+So we take one qubit known to be up because you made it you know that it's up
+
+646
+00:50:44,488 --> 00:50:50,582
+And you subject it to the angularly ()rotated experiment 
+
+647
+00:50:50,692 --> 00:50:54,214
+You either get plus one or minus one but if you do it a second time
+
+648
+00:50:55,030 --> 00:50:57,241
+You will just get the same answer you got the first time	 
+
+649
+00:50:58,423 --> 00:50:59,743
+You won't learn anything new
+
+650
+00:51:02,085 --> 00:51:06,769
+Incidentally if that weren't the case, there will be no way to confirm
+
+651
+00:51:07,429 --> 00:51:11,461
+That the answer you got the first time was in any sense the right answer 
+
+652
+00:51:12,022 --> 00:51:15,384
+The only way you confirm an answer is right is by checking it
+
+653
+00:51:15,499 --> 00:51:18,424
+And one way to check it it's just
+
+654
+00:51:20,307 --> 00:51:23,531
+If I close my eyes and look at you see you up right
+
+655
+00:51:23,640 --> 00:51:26,912
+And then I close my eyes again and look at you again 
+
+656
+00:51:27,025 --> 00:51:29,324
+I've confirm the first time you are up right
+
+657
+00:51:30,192 --> 00:51:32,850
+>> but it also gonna be the same stick?
+
+658
+00:51:36,599 --> 00:51:39,003
+This one here? Second one?
+
+659
+00:51:39,894 --> 00:51:42,479
+Ya , I'm saying if you only have one of them
+
+660
+00:51:44,215 --> 00:51:48,746
+Then you do the experiment you will either get plus one or minus one
+
+661
+00:51:48,859 --> 00:51:53,323
+And then if you do the same experiment again on the same one over and over
+
+662
+00:51:53,764 --> 00:51:54,588
+You just get plus one
+
+663
+00:51:54,731 --> 00:51:57,506
+But if you have a sequence of them
+
+664
+00:51:57,575 --> 00:52:00,232
+and you do the experiment with a sequence of them
+
+665
+00:52:00,304 --> 00:52:02,474
+All having them prepared in the same way
+
+666
+00:52:03,119 --> 00:52:06,500
+Then you will get a statistical distribution 
+
+667
+00:52:06,978 --> 00:52:10,082
+>>So if you turn off the detector and turn it on again 
+
+668
+00:52:10,154 --> 00:52:12,376
+>> will you still have the memory of the same 
+
+669
+00:52:14,032 --> 00:52:16,608
+That's what I mean by switch it off again 
+
+670
+00:52:16,645 --> 00:52:18,977
+Switch the detector off and turn if back on 
+
+671
+00:52:19,056 --> 00:52:21,427
+>>So does the detector seem to store memory or 
+
+672
+00:52:21,501 --> 00:52:26,573
+the detector has an orientation to it, and when I say you turn
+
+673
+00:52:26,653 --> 00:52:29,751
+>> and what you say you change or did not change 
+
+674
+00:52:29,820 --> 00:52:31,837
+change the qubit? Say it again?
+
+675
+00:52:31,910 --> 00:52:34,958
+>> how does you know that you changed or did not change the qubit
+
+676
+00:52:36,561 --> 00:52:40,389
+No, they didn't change the detector 
+
+677
+00:52:41,298 --> 00:52:44,239
+>> But when you switch the qubit and now it's reset
+
+678
+00:52:44,349 --> 00:52:49,221
+>> but if you ()qubit and it gives you the same reading?
+
+679
+00:52:56,401 --> 00:52:59,467
+There was only one qubit you did the same 
+
+680
+00:52:59,542 --> 00:53:05,392
+>> isn't that the detector is not remembering things but the qubit has changed?
+
+681
+00:53:05,462 --> 00:53:07,457
+I would like to say the students and audience 
+
+682
+00:53:07,594 --> 00:53:08,939
+Some of them are sitting upside-down and 
+
+683
+00:53:09,009 --> 00:53:10,387
+some of them are sitting rightside-up
+
+684
+00:53:12,430 --> 00:53:14,868
+If I randomly open my eyes to the students 
+
+685
+00:53:15,176 --> 00:53:18,330
+50% are standing rightside-up or not 
+
+686
+00:53:18,403 --> 00:53:22,398
+I close my eyes and look at another student, 50% I don't know
+
+687
+00:53:22,509 --> 00:53:27,122
+But I if I open my eyes, and then close them, open them, close them
+
+688
+00:53:27,194 --> 00:53:29,586
+And look at the same student it's always the same way
+
+689
+00:53:31,185 --> 00:53:33,859
+How do my eyes know the student was gonna that
+
+690
+00:53:34,239 --> 00:53:36,017
+I wasn't looking at the different student?
+
+691
+00:53:37,576 --> 00:53:43,262
+Answer is just look at the same student okay?
+
+692
+00:53:43,845 --> 00:53:48,230
+So the whole thing is not that weird that 
+
+693
+00:53:48,299 --> 00:53:52,110
+we can't keep track and remember which of these things we were looking at
+
+694
+00:53:53,001 --> 00:53:56,741
+>> so basically we can think of it as the act of observing
+
+695
+00:53:56,890 --> 00:54:00,172
+>> ()prepare that particular qubit
+
+696
+00:54:00,287 --> 00:54:02,973
+>> to let you observe that one you prepare it 
+
+697
+00:54:03,042 --> 00:54:05,175
+>> so now you always get that answer 
+
+698
+00:54:05,289 --> 00:54:09,355
+until you intervened by something else
+
+699
+00:54:11,690 --> 00:54:15,024
+>> if you change the qubit but let the measuring apparatus 
+
+700
+00:54:15,096 --> 00:54:18,233
+>> in the same position, you still get plus ones?
+
+701
+00:54:20,775 --> 00:54:25,079
+>> you are not gonna change the orientation of the measurement device?
+
+702
+00:54:25,118 --> 00:54:28,849
+>> but you just measure a sequence of different qubits?
+
+703
+00:54:28,929 --> 00:54:32,026
+>> are they really gonna be plus ones or minus ones?
+
+704
+00:54:32,097 --> 00:54:34,524
+It depends, it depends on how they were prepared 
+
+705
+00:54:35,322 --> 00:54:38,141
+Somebody might have given you a sequence of qubit 
+
+706
+00:54:38,255 --> 00:54:40,611
+which happens to be up down up down up down up down
+
+707
+00:54:41,349 --> 00:54:43,560
+You might have gotten them from some place 
+
+708
+00:54:43,672 --> 00:54:46,631
+You got them from a , you know , qubit store
+
+709
+00:54:46,753 --> 00:54:49,045
+If they didn't have a very good quality control
+
+710
+00:54:50,643 --> 00:54:58,020
+But if all of these qubits are prepared in the same way and identical way
+
+711
+00:54:58,090 --> 00:55:01,495
+And then you send them to here they will continue to be identical
+
+712
+00:55:05,489 --> 00:55:07,520
+Okay, what this is telling us, 
+
+713
+00:55:07,595 --> 00:55:12,122
+is there something funny about the notion of the status of a system 
+
+714
+00:55:12,574 --> 00:55:14,786
+is not as clear cut in another symbol as 
+
+715
+00:55:14,863 --> 00:55:21,387
+a state of either a coin which is either heads or tails
+
+716
+00:55:22,534 --> 00:55:27,754
+Or a little vector which has components in different directions
+
+717
+00:55:27,866 --> 00:55:31,300
+But for example when you measure a component along the axis
+
+718
+00:55:31,377 --> 00:55:36,143
+perpendicular to the known direction of the vector, you get zero
+
+719
+00:55:36,955 --> 00:55:40,242
+Not so, so there is something intrinsically different 	 
+
+720
+00:55:42,529 --> 00:55:47,337
+And the difference does trace to the big difference between the notion
+
+721
+00:55:47,413 --> 00:55:51,036
+of a state in quantum mechanics and the state of classical mechanics
+
+722
+00:55:52,583 --> 00:55:55,894
+>> but you have everything there up plus one?
+
+723
+00:55:55,971 --> 00:56:00,439
+>> and one by one you put it plus one or minus one?
+
+724
+00:56:00,476 --> 00:56:04,472
+>> and each one you bring up that was just minus one 
+
+725
+00:56:05,074 --> 00:56:07,607
+>> then becomes the minus one of the original
+
+726
+00:56:08,411 --> 00:56:09,175
+if you do the experiment
+
+727
+00:56:09,244 --> 00:56:15,923
+>> If you bring one down, let's say it's minus one down here
+
+728
+00:56:16,496 --> 00:56:20,274
+>> then you turn the apparatus up again 
+
+729
+00:56:20,565 --> 00:56:23,771
+>> and now you say it will be minus one from now on
+
+730
+00:56:23,915 --> 00:56:25,576
+No no, none of you turn the apparatus
+
+731
+00:56:29,479 --> 00:56:34,630
+>> I thought you said if you turn the apparatus up if it measure minus() 
+
+732
+00:56:34,701 --> 00:56:37,268
+>> it would stay minus if you turn the apparatus ()
+
+733
+00:56:38,483 --> 00:56:45,484
+If you turn the apparatus, then you get a statistical distribution
+
+734
+00:56:46,396 --> 00:56:48,152
+Okay when you turn an apparatus
+
+735
+00:56:49,378 --> 00:56:54,580
+Once you have the qubits that comes out of this apparatus
+
+736
+00:56:55,489 --> 00:56:59,681
+Let's say it was plus one, let's say it comes out plus one 
+
+737
+00:57:00,263 --> 00:57:02,416
+And now you take that qubit over here 
+
+738
+00:57:02,486 --> 00:57:05,303
+Then you turn the apparatus back up again 
+
+739
+00:57:05,380 --> 00:57:09,609
+Then you get a random plus or minus
+
+740
+00:57:10,280 --> 00:57:12,869
+>> then if will be random if you turn back up 
+
+741
+00:57:12,938 --> 00:57:14,261
+>> so in that way then
+
+742
+00:57:15,391 --> 00:57:18,252
+every time you turn it, it will be random
+
+743
+00:57:21,013 --> 00:57:22,873
+you will end up in a random bunch of qubits
+
+744
+00:57:23,997 --> 00:57:28,748
+now it depends on the angle, if the angle is not too large, if the angle is small
+
+745
+00:57:29,459 --> 00:57:31,048
+then mostly you will get pluses
+
+746
+00:57:31,118 --> 00:57:33,214
+Right, mostly you will get pluses 
+
+747
+00:57:35,782 --> 00:57:38,361
+>> two state system and that with a detector, 
+
+748
+00:57:38,430 --> 00:57:43,088
+>> what would be the difference in large, when the signal can be variable
+
+749
+00:57:43,162 --> 00:57:48,103
+>> and the detector and two state system, see if I could get the same out
+
+750
+00:57:49,435 --> 00:57:50,705
+Say it again, say it again
+
+751
+00:57:50,813 --> 00:57:54,055
+>> you postulated two state system plus and minus one
+
+752
+00:57:54,127 --> 00:57:59,277
+>> but then you have a detector that always produces plus and minus one
+
+753
+00:57:59,355 --> 00:58:03,260
+>> if you postulated with variable to start with the detector 
+
+754
+00:58:03,372 --> 00:58:06,157
+>> will still like to be what you 
+
+755
+00:58:06,265 --> 00:58:07,586
+The detector will still be what?
+
+756
+00:58:08,456 --> 00:58:15,949
+>> It seems like you are really saying the detector is ()
+
+757
+00:58:16,063 --> 00:58:18,511
+>> and it doesn't seem to imply that
+
+758
+00:58:20,970 --> 00:58:25,621
+You are absolutely right that at some point we will come back to this
+
+759
+00:58:25,699 --> 00:58:30,828
+And say the detector is a system and it had states
+
+760
+00:58:31,695 --> 00:58:34,218
+And understand the combine system as 
+
+761
+00:58:34,288 --> 00:58:37,569
+a quantum system composed of two quantum systems 
+
+762
+00:58:37,608 --> 00:58:47,014
+But let's not do that yet, let's divide the worlds into detectors and systems
+
+763
+00:58:47,094 --> 00:58:49,453
+And then come back later and then say, look
+
+764
+00:58:49,533 --> 00:58:54,806
+A detector really is a system and we have to describe it quantum mechanically
+
+765
+00:58:54,876 --> 00:59:00,364
+Also as a system and to understand the entire thing as 
+
+766
+00:59:00,436 --> 00:59:03,885
+the interplay between the two quantum systems, 
+
+767
+00:59:03,956 --> 00:59:08,240
+but that would take a, that would take some steps before we get there
+
+768
+00:59:10,987 --> 00:59:14,413
+>> the axes of rotation doesn't matter?
+
+769
+00:59:15,525 --> 00:59:19,343
+You mean if we rotate this way or, right it doesn't matter
+
+770
+00:59:20,731 --> 00:59:25,647
+>> I mean if we do rotation on one axis and then on a different axis
+
+771
+00:59:29,180 --> 00:59:34,995
+Right, you are right and guessing the whole story is much more complex
+
+772
+00:59:35,068 --> 00:59:42,734
+But still, the story is more complex but not inconsistent with what I said
+
+773
+00:59:42,803 --> 00:59:47,041
+So don't try to guess too far ahead, don't try to guess to far ahead
+
+774
+00:59:47,113 --> 00:59:49,362
+Let's try the simple version of the first
+
+775
+00:59:49,401 --> 00:59:53,161
+And then we will eventually come to a much more rich understanding of it
+
+776
+00:59:53,563 --> 00:59:56,699
+>> so if it is correct to think the detector is something 
+
+777
+00:59:56,747 --> 01:00:00,211
+>> could repetitiously continue value of plus one or minus ones
+
+778
+01:00:00,638 --> 01:00:04,594
+>> the system would only be, the key would only be 
+
+779
+01:00:04,675 --> 01:00:10,154
+For now, yes, if you like, you could think of,
+
+780
+01:00:10,224 --> 01:00:13,724
+For now you can think of the detector as the thing 
+
+781
+01:00:13,803 --> 01:00:15,573
+which can be oriented in many direction
+
+782
+01:00:15,649 --> 01:00:19,338
+And when we measure it, it behaves like a classic system
+
+783
+01:00:21,428 --> 01:00:23,874
+Eventually we will have to reconcile that 
+
+784
+01:00:23,953 --> 01:00:27,075
+with idea of the detector themselves are quantum systems
+
+785
+01:00:31,534 --> 01:00:35,999
+And have to respect the same law as the system itself 
+
+786
+01:00:45,167 --> 01:00:53,688
+Okay, now let's, I leave you to ponder now
+
+787
+01:00:53,802 --> 01:00:59,301
+And we are going to separate from this for a while and discuss mathematics
+
+788
+01:00:59,369 --> 01:01:03,495
+We are gonna describe the mathematics of a state space 
+
+789
+01:01:03,568 --> 01:01:06,846
+Or the space of state of a quantum system
+
+790
+01:01:07,520 --> 01:01:09,782
+And as I said , it's not a set, 
+
+791
+01:01:09,858 --> 01:01:15,038
+not a set in the same sense of set of configuration of a die
+
+792
+01:01:17,210 --> 01:01:19,240
+It's not a set of six configurations
+
+793
+01:01:19,352 --> 01:01:20,512
+It's more complicated
+
+794
+01:01:21,617 --> 01:01:23,381
+#Alright but we need some mathematics
+
+795
+01:01:23,495 --> 01:01:26,122
+We need some mathematics, we need some mathematics abstract mathematics
+
+796
+01:01:26,202 --> 01:01:31,461
+And the mathematics as I said it's not the mathematics of set theory
+
+797
+01:01:31,535 --> 01:01:34,370
+The mathematics of vector spaces 
+
+798
+01:01:35,029 --> 01:01:38,854
+Now let's just discuss the word vector for a moment
+
+799
+01:01:40,352 --> 01:01:43,364
+You are familiar of course with the idea of a vector
+
+800
+01:01:44,536 --> 01:01:48,669
+A vector is an arrow pointing to certain direction in ordinary space
+
+801
+01:01:50,297 --> 01:01:53,321
+And it's one concept of a vector but 
+
+802
+01:01:53,398 --> 01:01:57,051
+there is more abstract notion of a mathematical vector space 
+
+803
+01:01:57,120 --> 01:02:00,538
+A mathematical vector space can accomplice 
+
+804
+01:02:00,588 --> 01:02:02,630
+many many kinds of mathematical objects
+
+805
+01:02:03,124 --> 01:02:09,092
+Which are not necessarily pointers along an axis in space
+
+806
+01:02:10,562 --> 01:02:15,851
+I generally, only I get to this point I generally make a new name
+
+807
+01:02:15,924 --> 01:02:19,391
+An un(non?)conventional new name nobody else I known of users
+
+808
+01:02:19,706 --> 01:02:23,275
+For the notion of an ordinary vector in an ordinary space 
+
+809
+01:02:23,969 --> 01:02:25,953
+Another words a thing pointing at ordinary space
+
+810
+01:02:26,028 --> 01:02:29,572
+I call it a pointer that distinguish it from 
+
+811
+01:02:30,311 --> 01:02:33,856
+the abstract mathematical concept of a vector
+
+812
+01:02:34,373 --> 01:02:38,876
+We are gonna talk about the abstract mathematical concept of a vector
+
+813
+01:02:40,495 --> 01:02:43,355
+Don't think of it as pointing in three dimensional space 
+
+814
+01:02:43,465 --> 01:02:45,247
+Ordinary three dimensional space 	
+
+815
+01:02:46,089 --> 01:02:48,357
+We will discuss what space it points 
+
+816
+01:02:49,855 --> 01:02:53,923
+Alright so let's talk about vector spaces 
+
+817
+01:02:54,636 --> 01:02:58,873
+A vector space is a collection of mathematical objects 
+
+818
+01:02:58,949 --> 01:03:01,603
+Like numbers is a collection of mathematical objects
+
+819
+01:03:02,203 --> 01:03:06,559
+And numbers, just the real number axis for example, is vector space
+
+820
+01:03:06,596 --> 01:03:08,240
+A special case of a vector space 
+
+821
+01:03:08,928 --> 01:03:10,350
+It's a one dimensional vector space 
+
+822
+01:03:11,212 --> 01:03:13,787
+Complex numbers are two dimensional vector space 
+
+823
+01:03:14,539 --> 01:03:18,088
+We are going to be talking about vector spaces
+
+824
+01:03:18,164 --> 01:03:20,300
+For the moment I'm ()looking on dimensionality
+
+825
+01:03:20,376 --> 01:03:24,503
+I'm just gonna write down the mathematical notation 
+
+826
+01:03:24,615 --> 01:03:30,684
+for an object in the vector space, and as I said, vectors space is just a name, 
+
+827
+01:03:30,762 --> 01:03:33,101
+for a collection of mathematical objects
+
+828
+01:03:34,304 --> 01:03:40,329
+Completely abstract, a is a vector
+
+829
+01:03:40,442 --> 01:03:43,896
+And that's a notation for an abstract vector 
+
+830
+01:03:44,671 --> 01:03:52,584
+It's Dirac notation, it consists of a vertical line a cricket line
+
+831
+01:03:52,662 --> 01:03:56,664
+and a letter in between, and that stands for the vector a 
+
+832
+01:03:57,223 --> 01:03:58,791
+Whatever the vector a is 
+
+833
+01:04:00,712 --> 01:04:02,489
+What can you do with vectors?
+
+834
+01:04:03,279 --> 01:04:04,929
+Well you can add them
+
+835
+01:04:06,155 --> 01:04:08,127
+()I'm not gonna tell you how to add them, I just tell you
+
+836
+01:04:08,237 --> 01:04:13,303
+given any two vectors a and b you can form this sum
+
+837
+01:04:15,572 --> 01:04:17,332
+And the sum is another vector 
+
+838
+01:04:17,406 --> 01:04:20,854
+Let's call that the vector c
+
+839
+01:04:22,158 --> 01:04:25,424
+So a vector space consists of a collection of objects
+
+840
+01:04:25,500 --> 01:04:26,804
+which can be added
+
+841
+01:04:29,462 --> 01:04:33,184
+>> I'm sorry, vector versus vector space?
+
+842
+01:04:33,904 --> 01:04:36,124
+Vector space is a collection of vectors
+
+843
+01:04:38,741 --> 01:04:40,794
+Vector space is a collection of vectors
+
+844
+01:04:43,731 --> 01:04:46,989
+The same distinction between number and numbers
+
+845
+01:04:47,101 --> 01:04:51,553
+Numbers are all the numbers, number is a specific number
+
+846
+01:04:53,411 --> 01:04:56,853
+So as I said, numbers is a special case for this you can add them
+
+847
+01:04:58,298 --> 01:05:00,974
+You could do something else with numbers
+
+848
+01:05:01,695 --> 01:05:03,330
+You can multiply them by another numbers
+
+849
+01:05:03,506 --> 01:05:07,904
+Well, eventually we will be talking about multiplying vectors , but not yet
+
+850
+01:05:08,914 --> 01:05:14,487
+What we can do is multiply vectors by numbers	 
+
+851
+01:05:14,560 --> 01:05:17,535
+Ordinary numbers or complex numbers
+
+852
+01:05:17,603 --> 01:05:19,897
+And we are going to talk about complex numbers
+
+853
+01:05:19,967 --> 01:05:23,283
+I hoped everybody is comfortable with complex numbers
+
+854
+01:05:24,029 --> 01:05:28,066
+If not, you got to quickly get to speed on complex numbers
+
+855
+01:05:29,605 --> 01:05:31,765
+But we do not, we don't need to know too much
+
+856
+01:05:33,281 --> 01:05:36,033
+You need to know that a complex number 
+
+857
+01:05:36,111 --> 01:05:39,520
+is a combination of real number and imaginary number
+
+858
+01:05:41,441 --> 01:05:45,492
+And how to multiply, add complex numbers 
+
+859
+01:05:45,607 --> 01:05:48,989
+And you need the notion of complex conjugate
+
+860
+01:05:49,064 --> 01:05:52,611
+How many people here are familiar with complex conjugate?
+
+861
+01:05:53,456 --> 01:05:57,260
+Most people, almost everybody, so I'm not going to go into it now
+
+862
+01:05:58,228 --> 01:06:01,140
+But basically for every complex number 
+
+863
+01:06:01,255 --> 01:06:05,634
+There is another complex number for it's complex conjugate
+
+864
+01:06:05,710 --> 01:06:09,193
+It's a mapping between numbers and their complex conjugate
+
+865
+01:06:09,265 --> 01:06:12,120
+So it's an important notion, keep that in mind
+
+866
+01:06:12,771 --> 01:06:13,966
+We are just gonna come back
+
+867
+01:06:14,004 --> 01:06:20,555
+But for the moment, ordinary vectors let's call it, pointers
+
+868
+01:06:20,595 --> 01:06:26,013
+Pointers in space, ordinary pointers you can multiply by ordinary numbers
+
+869
+01:06:26,083 --> 01:06:32,469
+Positive or negative, a pointer with a certain length on that direction
+
+870
+01:06:32,541 --> 01:06:36,142
+If you multiply it by two, it's just twice as long in the same direction
+
+871
+01:06:36,905 --> 01:06:41,421
+Multiply it by minus one, it just became the same direction (length) 
+
+872
+01:06:41,535 --> 01:06:44,064
+except on the opposite direction
+
+873
+01:06:44,212 --> 01:06:48,529
+Alright so yes you can multiply vectors by numbers
+
+874
+01:06:49,360 --> 01:06:52,136
+And in a complex vector space, 
+
+875
+01:06:52,208 --> 01:06:55,453
+we are now gonna talk about complex vector space
+
+876
+01:06:56,220 --> 01:07:00,176
+you can multiply vectors by complex number
+
+877
+01:07:00,249 --> 01:07:02,166
+Now do not try to picture this in your head 
+
+878
+01:07:02,279 --> 01:07:04,923
+as any kind of pointers in some direction
+
+879
+01:07:05,659 --> 01:07:08,828
+Just accept we are talking about a mathematical abstraction
+
+880
+01:07:09,717 --> 01:07:16,589
+Where a vector, any given vector can be multiply by any complex numbers
+
+881
+01:07:16,702 --> 01:07:19,696
+I'm gonna use, let's see what shall I use for complex number?
+
+882
+01:07:20,408 --> 01:07:23,695
+In my notes I use c, but I don't wanna use c
+
+883
+01:07:24,316 --> 01:07:30,224
+z, you know z is the standard notation, you know x + yi is equal to z
+
+884
+01:07:31,294 --> 01:07:35,466
+so you can take any complex number, sorry, any vector
+
+885
+01:07:35,505 --> 01:07:37,931
+multiply it by any complex number
+
+886
+01:07:38,003 --> 01:07:41,680
+And it's still some, I'm not trying to draw it for you
+
+887
+01:07:41,748 --> 01:07:45,780
+Stop trying to think about drawing
+
+888
+01:07:45,850 --> 01:07:53,062
+Vectors if there was a vector there was a complex number you multiply them 
+
+889
+01:07:53,133 --> 01:08:00,178
+and it gives you some new vector, let's call it, let's call it 'a prime'
+
+890
+01:08:01,442 --> 01:08:06,684
+So you can multiply vectors by numbers, complex numbers
+
+891
+01:08:11,345 --> 01:08:15,151
+And that's about it, that's all there is to a vector space
+
+892
+01:08:15,220 --> 01:08:20,429
+Any set of an object for which you can do this is a vector space 
+
+893
+01:08:20,500 --> 01:08:24,140
+Give you some examples of vector spaces, if a-s and b-s
+
+894
+01:08:27,624 --> 01:08:30,502
+If a-s and b-s are just real numbers 
+
+895
+01:08:31,367 --> 01:08:33,521
+Then you can add them to make real numbers 
+
+896
+01:08:34,279 --> 01:08:37,527
+But you cannot multiply them by complex numbers 
+
+897
+01:08:37,641 --> 01:08:39,530
+and still expect to get real numbers 
+
+898
+01:08:41,115 --> 01:08:43,744
+You can multiply them by real numbers
+
+899
+01:08:44,173 --> 01:08:45,818
+And get all the real numbers
+
+900
+01:08:46,453 --> 01:08:49,200
+So the real numbers are real vector space
+
+901
+01:08:50,368 --> 01:08:51,897
+How about the complex numbers?
+
+902
+01:08:51,970 --> 01:08:55,805
+A complex number a complex vector space ?
+
+903
+01:08:56,444 --> 01:09:01,317
+Yes , you can add them and get other complex numbers 
+
+904
+01:09:01,390 --> 01:09:02,983
+Any two complex number you can add
+
+905
+01:09:03,337 --> 01:09:06,826
+And any complex number you can multiply by another complex number
+
+906
+01:09:06,896 --> 01:09:08,234
+And back to complex number
+
+907
+01:09:08,943 --> 01:09:14,096
+So the complex numbers are the simplest example of a complex vector space
+
+908
+01:09:15,021 --> 01:09:19,010
+Let me give you another example of complex vector space 
+
+909
+01:09:19,083 --> 01:09:23,151
+This is incredibly complicated but still, pretty easy to write down
+
+910
+01:09:23,411 --> 01:09:28,909
+Take any function of a variable, let's call it phi of x
+
+911
+01:09:28,978 --> 01:09:34,522
+Now x maybe an ordinary variable, a function on a line
+
+912
+01:09:38,428 --> 01:09:41,208
+A function on a line, but it's a complex function on a line
+
+913
+01:09:41,312 --> 01:09:46,649
+It has a real and imaginary part, complex function on a line
+
+914
+01:09:47,292 --> 01:09:52,721
+Can you add two functions and get another function? Certainly
+
+915
+01:09:53,586 --> 01:09:59,713
+So functions, just functions are things you can add to get other functions
+
+916
+01:10:00,373 --> 01:10:04,621
+Can you multiply a complex function 
+
+917
+01:10:04,690 --> 01:10:07,193
+by a complex number to get a complex function?
+
+918
+01:10:07,261 --> 01:10:11,996
+Yes, take any complex function multiply it by a complex number
+
+919
+01:10:12,071 --> 01:10:13,667
+You get another complex function 
+
+920
+01:10:14,221 --> 01:10:17,769
+So functions form a vector space 
+
+921
+01:10:18,548 --> 01:10:21,595
+Now that's a complicated idea, I don't wanna that complicated yet
+
+922
+01:10:22,790 --> 01:10:24,838
+So let's erase that from the blackboard 
+
+923
+01:10:26,689 --> 01:10:29,264
+I will give you another vector space 
+
+924
+01:10:30,760 --> 01:10:32,758
+Another complex vector space 
+
+925
+01:10:34,055 --> 01:10:42,706
+Let's just make some symbols, a bracket
+
+926
+01:10:43,332 --> 01:10:47,442
+And put in entries, two entries into the bracket 
+
+927
+01:10:47,996 --> 01:10:50,793
+And the two entries are themselves complex numbers
+
+928
+01:10:51,653 --> 01:10:54,468
+Alpha one and alpha two
+
+929
+01:10:54,534 --> 01:10:57,350
+Alpha equals a complex number
+
+930
+01:10:59,387 --> 01:11:00,927
+Alpha one and alpha two
+
+931
+01:11:01,000 --> 01:11:03,692
+And alpha one and alpha two can be anything
+
+932
+01:11:04,788 --> 01:11:10,957
+The collection of such symbols is also a complex vector space
+
+933
+01:11:11,029 --> 01:11:12,671
+Here's the rule
+
+934
+01:11:12,743 --> 01:11:14,727
+Supposing you have two of them
+
+935
+01:11:14,765 --> 01:11:19,245
+Here's one and here's another one, beta one beta two
+
+936
+01:11:20,035 --> 01:11:24,785
+And you add them, what does that mean? Definition 
+
+937
+01:11:24,853 --> 01:11:29,995
+With definition of the sum of two is called column
+
+938
+01:11:30,063 --> 01:11:34,384
+The sum of two columns like that is just to add the entries
+
+939
+01:11:36,238 --> 01:11:39,728
+Alpha one plus beta one, alpha two plus beta two
+
+940
+01:11:41,603 --> 01:11:46,731
+So given any two abstract symbols 
+
+941
+01:11:46,803 --> 01:11:49,853
+in which the entries are filled in with complex numbers
+
+942
+01:11:49,923 --> 01:11:52,056
+Any two of them alpha and beta 
+
+943
+01:11:53,156 --> 01:11:55,312
+We can add them and get a third one
+
+944
+01:11:56,645 --> 01:12:03,751
+So column vectors like this, column of two entries like this
+
+945
+01:12:04,355 --> 01:12:09,563
+satisfied the first rule, and the second rule is that 
+
+946
+01:12:09,635 --> 01:12:14,680
+if you want to take a column and multiply it by a complex number
+
+947
+01:12:15,390 --> 01:12:21,043
+All you do is multiply each entry by the complex number 
+
+948
+01:12:23,669 --> 01:12:28,264
+Multiply each entry separately and then you construct something
+
+949
+01:12:29,637 --> 01:12:30,681
+which is just z
+
+950
+01:12:32,406 --> 01:12:37,288
+So just pairs of complex number like this form a vector space 
+
+951
+01:12:37,935 --> 01:12:40,116
+So very abstract concept but not very hard
+
+952
+01:12:41,031 --> 01:12:43,841
+How about triples of them?
+
+953
+01:12:45,141 --> 01:12:51,371
+Sure, from any columns like that 
+
+954
+01:12:51,452 --> 01:12:55,031
+Now what you don't wanna do is add a column of two 
+
+955
+01:12:55,074 --> 01:12:57,039
+to a column of three, there's no kind of rule for that 
+
+956
+01:12:59,173 --> 01:13:03,817
+So column of different lengths form different vector spaces
+
+957
+01:13:03,887 --> 01:13:06,083
+Completely different abstract vector spaces 
+
+958
+01:13:11,156 --> 01:13:16,966
+Any questions about the meaning, this is not hard, but it is abstract
+
+959
+01:13:18,002 --> 01:13:20,321
+>> are there an () part of a vector space?
+
+960
+01:13:20,967 --> 01:13:24,079
+Yeah I think it's also important to have a zero vector	 
+
+961
+01:13:24,777 --> 01:13:27,248
+The zero vector is THE unique vector 
+
+962
+01:13:27,361 --> 01:13:29,932
+which you add to any other vector you get the same
+
+963
+01:13:30,007 --> 01:13:32,894
+the same vector
+
+964
+01:13:33,656 --> 01:13:37,555
+Right, I didn't feel like writing it down but they 
+
+965
+01:13:39,143 --> 01:13:41,970
+>> the general closure requirement that they are all close 
+
+966
+01:13:42,040 --> 01:13:44,086
+>> in a particular space?
+
+967
+01:13:44,197 --> 01:13:45,246
+Close under addition?
+
+968
+01:13:45,356 --> 01:13:46,159
+>> I think, right
+
+969
+01:13:46,270 --> 01:13:47,828
+And close up at the multiplication
+
+970
+01:13:47,866 --> 01:13:48,811
+>> I think you have illustrated
+
+971
+01:13:50,653 --> 01:13:51,206
+That's right
+
+972
+01:13:52,047 --> 01:13:56,507
+>> is this same as the matrices ?
+
+973
+01:13:59,327 --> 01:14:08,987
+Matrices, ya, this is a, usually the term matrices in this class in any case
+
+974
+01:14:09,609 --> 01:14:12,060
+Will be reserved for square matrices 
+
+975
+01:14:12,210 --> 01:14:17,454
+Square matrices are collection of numbers which form square ways
+
+976
+01:14:17,522 --> 01:14:22,753
+Many rows and columns, but the general notion of a matrix can have 
+
+977
+01:14:22,823 --> 01:14:25,975
+different numbers of rows and columns
+
+978
+01:14:26,711 --> 01:14:32,204
+And the vector would be a matrix with only one column
+
+979
+01:14:32,273 --> 01:14:33,861
+in this case two rows
+
+980
+01:14:34,686 --> 01:14:37,851
+So yes this will be a special case of a matrix
+
+981
+01:14:38,458 --> 01:14:45,188
+But you know in many context one reserve the term matrix for a square matrix
+
+982
+01:14:45,909 --> 01:14:49,215
+And I will use it that way, I will use the term matrix to mean a square matrix
+
+983
+01:14:51,160 --> 01:14:54,227
+So I didn't want to use that terminology
+
+984
+01:14:56,976 --> 01:15:04,757
+Okay are you thoroughly saturated with abstract mathematics?
+
+985
+01:15:04,828 --> 01:15:08,357
+This should be straightforward for you
+
+986
+01:15:11,892 --> 01:15:15,007
+#okay now we introduce another abstraction
+
+987
+01:15:16,785 --> 01:15:18,555
+Another abstraction, 
+
+988
+01:15:20,655 --> 01:15:29,678
+basically it's the abstraction of given a complex vector space
+
+989
+01:15:30,600 --> 01:15:33,915
+The complex conjugate of a vector space	
+
+990
+01:15:34,664 --> 01:15:36,840
+The complex conjugate of a vector space	
+
+991
+01:15:37,513 --> 01:15:42,259
+is sort of the space of complex conjugate vectors
+
+992
+01:15:42,370 --> 01:15:47,768
+just like you can have any number a complex conjugate any complex number
+
+993
+01:15:48,450 --> 01:15:50,547
+There is a complex conjugate to go with it
+
+994
+01:15:52,220 --> 01:15:54,839
+So in that sense the complex number system
+
+995
+01:15:56,506 --> 01:16:05,205
+has a dual version which is the complex conjugate of the original numbers
+
+996
+01:16:05,859 --> 01:16:08,285
+So do the complex conjugate vector spaces
+
+997
+01:16:08,361 --> 01:16:12,246
+and roughly speaking, the complex conjugate vector spaces
+
+998
+01:16:12,320 --> 01:16:15,025
+The dual vector space, usually call the dual
+
+999
+01:16:15,099 --> 01:16:19,339
+Is roughly speaking the complex conjugate of the original vectors
+
+1000
+01:16:19,409 --> 01:16:21,276
+We will make it more precise as it goes along
+
+1001
+01:16:21,387 --> 01:16:25,791
+But what it is is a separate space
+
+1002
+01:16:27,706 --> 01:16:32,494
+whose elements are in one to one correspondent 
+
+1003
+01:16:32,532 --> 01:16:35,520
+to the element of the origin vector space 
+
+1004
+01:16:35,562 --> 01:16:39,913
+So if there is an vector a in the original space
+
+1005
+01:16:40,740 --> 01:16:41,620
+Let's write it this way
+
+1006
+01:16:44,150 --> 01:16:49,741
+then there is a vector in a dual way
+
+1007
+01:16:49,817 --> 01:16:50,964
+Called the dual vector space 
+
+1008
+01:16:51,075 --> 01:16:53,773
+But as I said it's more or less complex conjugate
+
+1009
+01:16:53,843 --> 01:16:55,024
+And it's written this way
+
+1010
+01:16:57,249 --> 01:17:00,705
+It's just written as a backward Dirac symbol
+
+1011
+01:17:04,348 --> 01:17:07,737
+We will learn this things as bra vectors and ket vectors
+
+1012
+01:17:07,806 --> 01:17:10,371
+No this is the bra vectors this is the ket vectors
+
+1013
+01:17:10,447 --> 01:17:12,885
+For the moment they are just symbols	 
+
+1014
+01:17:14,145 --> 01:17:19,789
+An example, if the vector space is just the space of complex numbers
+
+1015
+01:17:20,755 --> 01:17:22,717
+Then the dual vector space is just
+
+1016
+01:17:22,755 --> 01:17:25,082
+the space of complex conjugate of the numbers
+
+1017
+01:17:28,633 --> 01:17:31,654
+And so there is one to one correspondent 
+
+1018
+01:17:32,846 --> 01:17:35,090
+between vectors and their complex conjugates
+
+1019
+01:17:35,676 --> 01:17:44,170
+Let's write down first some postulate about the complex conjugate vector space
+
+1020
+01:17:44,208 --> 01:17:46,850
+And test it out by saying
+
+1021
+01:17:46,965 --> 01:17:50,712
+if we can find a concrete representation of the notion
+
+1022
+01:17:52,036 --> 01:17:54,661
+Write down some abstract postulate and check
+
+1023
+01:17:54,723 --> 01:17:55,655
+Just what we did here
+
+1024
+01:17:55,732 --> 01:17:58,049
+We said here's a concrete representation 
+
+1025
+01:17:58,825 --> 01:18:02,722
+of the notion that we wrote down over here
+
+1026
+01:18:02,761 --> 01:18:10,889
+Let's write down the abstract postulate about the dual vector space
+
+1027
+01:18:11,968 --> 01:18:20,177
+So first of all, for any vector there is a dual vector 
+
+1028
+01:18:21,213 --> 01:18:23,550
+They are in one to one correspondent 
+
+1029
+01:18:24,240 --> 01:18:33,108
+Next , if you take two vectors, and you add them together
+
+1030
+01:18:34,753 --> 01:18:40,920
+Then the dual of the sum is just the sum of the dual
+
+1031
+01:18:46,306 --> 01:18:47,921
+So if you take a vector which is 
+
+1032
+01:18:48,033 --> 01:18:49,785
+made up out of the sum of two other vectors
+
+1033
+01:18:51,390 --> 01:18:55,551
+Then it's reflection in the dual space
+
+1034
+01:18:55,663 --> 01:19:00,225
+is just the sum of the individual dual vectors
+
+1035
+01:19:01,173 --> 01:19:03,871
+These are postulates, these are postulates if you like
+
+1036
+01:19:04,780 --> 01:19:06,068
+But they are not so obscure
+
+1037
+01:19:07,516 --> 01:19:12,253
+The third assumption is that if you take any vector
+
+1038
+01:19:14,269 --> 01:19:19,650
+And multiply it by a complex conjugate, ah sorry, by a complex number
+
+1039
+01:19:21,206 --> 01:19:25,859
+Then it's reflection in the dual space now anybody wanna guess?
+
+1040
+01:19:28,328 --> 01:19:35,002
+Of course it involve the dual vector a, but not multiplication by z
+
+1041
+01:19:35,663 --> 01:19:41,171
+Or multiplication by complex conjugate of z, z star
+
+1042
+01:19:42,140 --> 01:19:45,963
+z star is the complex conjugate of the z
+
+1043
+01:19:48,632 --> 01:19:52,363
+This would be true for complex number if you take a complex number 
+
+1044
+01:19:52,474 --> 01:19:54,777
+and multiply it by another complex number
+
+1045
+01:19:56,679 --> 01:19:58,823
+Then the complex conjugate of the whole thing
+
+1046
+01:19:59,201 --> 01:20:02,193
+is the product of complex conjugate, that's all it is saying 
+
+1047
+01:20:02,910 --> 01:20:06,987
+So we think of the dual vector space 
+
+1048
+01:20:07,069 --> 01:20:11,568
+as basically just the complex conjugate vector space in some sense
+
+1049
+01:20:12,424 --> 01:20:15,029
+Okay let's see if we can make any sense out of this	 
+
+1050
+01:20:15,103 --> 01:20:19,737
+In terms of this columns vectors here
+
+1051
+01:20:19,772 --> 01:20:24,320
+>> Is a plus b the same as b plus a?
+
+1052
+01:20:24,430 --> 01:20:27,290
+Yes, a plus b is the same as b plus a, good question
+
+1053
+01:20:27,405 --> 01:20:31,994
+When you add vectors and you can see that from here
+
+1054
+01:20:33,362 --> 01:20:35,968
+Alright should have, sorry, somebody else asked me 
+
+1055
+01:20:36,038 --> 01:20:38,849
+if there is any other rules on the definition of the vector space
+
+1056
+01:20:38,917 --> 01:20:41,454
+Indeed there are, among other ones
+
+1057
+01:20:42,883 --> 01:20:47,037
+That maybe order-ness it doesn't matter which order you add
+
+1058
+01:20:48,779 --> 01:20:52,548
+But you can see that here the sum of two vectors 
+
+1059
+01:20:53,186 --> 01:20:56,814
+is just given by numerical adding the complex numbers here
+
+1060
+01:20:56,890 --> 01:20:59,403
+And of course numerical addition of complex number
+
+1061
+01:20:59,512 --> 01:21:01,543
+it doesn't mean out of which way you order them
+
+1062
+01:21:02,149 --> 01:21:03,864
+So that's a good point 
+
+1063
+01:21:08,495 --> 01:21:13,145
+Okay so let's come back now to, let's put this up on top
+
+1064
+01:21:13,751 --> 01:21:19,170
+And come back to this concrete non abstract representation 
+
+1065
+01:21:19,239 --> 01:21:21,681
+of the complex of vector space
+
+1066
+01:21:21,751 --> 01:21:23,826
+Here we have a vector
+
+1067
+01:21:33,896 --> 01:21:39,749
+This object is representing the vector a
+
+1068
+01:21:41,423 --> 01:21:46,234
+The one that I erased with beta, that's representing vector b
+
+1069
+01:21:46,313 --> 01:21:47,711
+But right now I don't need the vector b
+
+1070
+01:21:48,444 --> 01:21:54,819
+What about the object if this object represents a 
+
+1071
+01:21:56,075 --> 01:22:01,660
+Then what is the object which represents the dual vector
+
+1072
+01:22:01,738 --> 01:22:03,832
+The dual vector the corresponding dual vector
+
+1073
+01:22:04,426 --> 01:22:09,450
+And the answer is, it's the same pair of number except their complex conjugate
+
+1074
+01:22:10,110 --> 01:22:13,276
+The same pair of numbers, not quite
+
+1075
+01:22:13,364 --> 01:22:17,645
+Their complex conjugates, alpha one star, and alpha two star
+
+1076
+01:22:18,324 --> 01:22:23,433
+But just to keep track, they were talking of a different vector space 
+
+1077
+01:22:24,812 --> 01:22:30,341
+We write it in row form, not as a column, as a row
+
+1078
+01:22:30,412 --> 01:22:32,455
+This is just a trick to remember 
+
+1079
+01:22:33,283 --> 01:22:36,518
+that this object belongs to the dual vector space
+
+1080
+01:22:36,588 --> 01:22:39,395
+That this object belongs to the original vector space
+
+1081
+01:22:39,465 --> 01:22:40,414
+A bit different
+
+1082
+01:22:41,267 --> 01:22:47,246
+Alright, so the dual vector space image of alpha one and alpha two
+
+1083
+01:22:47,360 --> 01:22:51,866
+is alpha one star, alpha two star
+
+1084
+01:22:57,297 --> 01:23:03,826
+That's the dual vector, I know you can check, you can check
+
+1085
+01:23:05,062 --> 01:23:13,383
+With this definition, are the postulates namely if you add the two vectors
+
+1086
+01:23:14,213 --> 01:23:19,608
+and then take the dual, that whether or not you get the sum of duals
+
+1087
+01:23:20,597 --> 01:23:24,410
+Then you can check whether you multiply this by a complex number
+
+1088
+01:23:24,486 --> 01:23:28,870
+And then mul- , and then take it to, or just multiply by it's complex conjugate
+
+1089
+01:23:29,916 --> 01:23:30,936
+The answer is yes
+
+1090
+01:23:31,799 --> 01:23:37,094
+So just laying out a pair of complex numbers like this
+
+1091
+01:23:37,817 --> 01:23:40,410
+makes a vector space, and the dual vector space
+
+1092
+01:23:40,524 --> 01:23:43,402
+The same pair of numbers except complex conjugated
+
+1093
+01:23:44,014 --> 01:23:47,424
+and lay out in a row, lay out in a row 
+
+1094
+01:23:47,502 --> 01:23:52,276
+just to remember that it's not the same creature, 
+
+1095
+01:23:52,351 --> 01:23:54,209
+doesn't live in the same space 
+
+1096
+01:23:56,674 --> 01:24:04,452
+And that's the idea of a complex vector space 
+
+1097
+01:24:07,365 --> 01:24:10,293
+As I said again, very abstract but very easy
+
+1098
+01:24:18,125 --> 01:24:19,374
+#final concept 
+
+1099
+01:24:20,074 --> 01:24:23,362
+Alright it's not the final concept but a (final concept)
+
+1100
+01:24:29,510 --> 01:24:33,103
+The n plus frist concept, I'm not sure what n is
+
+1101
+01:24:36,522 --> 01:24:37,949
+How many people find this hard?
+
+1102
+01:24:39,568 --> 01:24:41,905
+It's not very hard, how many people find it familiar?
+
+1103
+01:24:43,498 --> 01:24:45,059
+Quiet a lot of people find it familiar
+
+1104
+01:24:46,069 --> 01:24:48,510
+Let's, those don't find it familiar apparently didn't find it hard
+
+1105
+01:24:48,622 --> 01:24:48,940
+That's also good
+
+1106
+01:24:54,746 --> 01:24:56,460
+The product of the two vectors
+
+1107
+01:24:57,139 --> 01:24:59,338
+The inner product of the two vectors
+
+1108
+01:24:59,430 --> 01:25:02,222
+The inner product of the two vectors is 
+
+1109
+01:25:02,300 --> 01:25:05,220
+the analog of the dot product for pointers
+
+1110
+01:25:05,296 --> 01:25:08,382
+The analog of dot product for pointers
+
+1111
+01:25:10,113 --> 01:25:13,942
+The inner product between two vectors is quickly speaking
+
+1112
+01:25:14,021 --> 01:25:20,806
+The inner product between a vector and a vector and the dual of the vector
+
+1113
+01:25:21,507 --> 01:25:24,973
+Given two vectors let's call them a and b
+
+1114
+01:25:29,212 --> 01:25:33,562
+One does not form the product with a or b
+
+1115
+01:25:33,637 --> 01:25:38,864
+The inner product, instead, one takes b and 
+
+1116
+01:25:38,940 --> 01:25:42,559
+construct it's image in the dual vector space 
+
+1117
+01:25:43,568 --> 01:25:50,336
+And then takes the product of vector a to the dual vector b
+
+1118
+01:25:51,391 --> 01:25:58,301
+In Dirac's language, you take a ket vector and you multiply if by a bar vector
+
+1119
+01:25:58,412 --> 01:26:06,591
+And when you do so, you make a bra-ket, bracket
+
+1120
+01:26:12,143 --> 01:26:15,849
+A bracket of course is this thing over here, and the two together
+
+1121
+01:26:17,317 --> 01:26:19,856
+I think this one is call the ket, this one is called the bra
+
+1122
+01:26:19,934 --> 01:26:21,237
+Bra, ket
+
+1123
+01:26:22,412 --> 01:26:30,440
+So the inner product of the two vectors is really a product of two vectors
+
+1124
+01:26:30,549 --> 01:26:32,054
+And the dual of the vector
+
+1125
+01:26:32,639 --> 01:26:42,820
+Now is this the same as multiplying the bra vector a with the ket vector b
+
+1126
+01:26:43,438 --> 01:26:49,032
+Question, is it the same to multiply the bra b to the ket a 
+
+1127
+01:26:49,109 --> 01:26:51,202
+or a bra a to a ket b? 
+
+1128
+01:26:51,271 --> 01:26:51,849
+The answer is no.
+
+1129
+01:26:53,716 --> 01:26:59,191
+It is not the same operation, but in fact they are closely related
+
+1130
+01:27:01,571 --> 01:27:04,620
+The axiom, we are still talking about the axiom
+
+1131
+01:27:05,385 --> 01:27:12,325
+The axiom is that these two are related by complex conjugation
+
+1132
+01:27:12,948 --> 01:27:20,292
+A complex conjugation a to go from the ket vector to the bra vector
+
+1133
+01:27:20,838 --> 01:27:25,143
+A complex conjugated b to go from bra vector to the ket vector
+
+1134
+01:27:26,029 --> 01:27:29,686
+So this is product of a, roughly speaking, times b star
+
+1135
+01:27:29,764 --> 01:27:32,080
+This is the product of b star times a
+
+1136
+01:27:32,190 --> 01:27:34,089
+This is the complex conjugate of this
+
+1137
+01:27:34,532 --> 01:27:42,503
+So another postulate of an axiom of a complex vector space
+
+1138
+01:27:49,606 --> 01:27:53,129
+is that the inner product of a with b 
+
+1139
+01:27:53,972 --> 01:28:00,989
+is the complex conjugate of the inner product of b with a star
+
+1140
+01:28:03,604 --> 01:28:07,039
+>> what do you mean in normal vector space 
+
+1141
+01:28:10,014 --> 01:28:12,576
+>> ... quantum mechanics... for sake, I means
+
+1142
+01:28:12,645 --> 01:28:17,004
+>> there will be inner product just all the same vector space
+
+1143
+01:28:17,084 --> 01:28:18,696
+In ordinary vector space?
+
+1144
+01:28:18,769 --> 01:28:23,753
+>> this is still called the inner product even though it's
+
+1145
+01:28:23,832 --> 01:28:26,489
+>> one of the special thing with complex conjugate?
+
+1146
+01:28:28,640 --> 01:28:31,986
+The usual vector spaces that you think about are real vector spaces
+
+1147
+01:28:32,066 --> 01:28:35,051
+And for real vector space, for real numbers 
+
+1148
+01:28:35,128 --> 01:28:37,850
+there is no difference between numbers and it's complex conjugate
+
+1149
+01:28:38,390 --> 01:28:43,112
+So the real vector space satisfied the same postulate
+
+1150
+01:28:43,190 --> 01:28:47,088
+Except that the complex conjugation is completely attribute operation
+
+1151
+01:28:47,158 --> 01:28:49,922
+>> but in the other vector space if you take the two product
+
+1152
+01:28:49,992 --> 01:28:53,865
+>> of two complex vector and it doesn't involve any conjugation
+
+1153
+01:28:53,935 --> 01:28:57,152
+>> you just multiply the components up
+
+1154
+01:28:58,274 --> 01:29:00,980
+Yes you could, you could invent such a thing
+
+1155
+01:29:01,092 --> 01:29:04,950
+Then of course the inner product of a vector with itself would not be real
+
+1156
+01:29:05,577 --> 01:29:06,979
+That's okay, who cares?
+
+1157
+01:29:08,275 --> 01:29:10,231
+So you can invent such things 
+
+1158
+01:29:10,341 --> 01:29:13,728
+turns out not to be terribly useful in quantum mechanics context 
+
+1159
+01:29:14,366 --> 01:29:18,000
+So ,you know, it's largely a question of what's useful
+
+1160
+01:29:18,736 --> 01:29:22,269
+And what's useful wines up being this concept
+
+1161
+01:29:23,454 --> 01:29:26,319
+Alright, I guess you could, you could certainly define such a thing
+
+1162
+01:29:28,954 --> 01:29:31,020
+It's not a commonly define thing 
+
+1163
+01:29:31,855 --> 01:29:33,603
+Doesn't seem to have a lot of use
+
+1164
+01:29:36,714 --> 01:29:40,776
+This structure occurs in all kinds of places, not only in quantum mechanics
+
+1165
+01:29:40,888 --> 01:29:44,946
+So this complex vector spaces are very very common things in mathematics
+
+1166
+01:29:47,057 --> 01:29:57,238
+And okay, let's check now, and see if we can postulate a construction
+
+1167
+01:29:57,904 --> 01:30:07,716
+for the inner product of the dual vector beta
+
+1168
+01:30:09,325 --> 01:30:13,082
+Remember when you complex conjugate, 
+
+1169
+01:30:13,151 --> 01:30:17,405
+when you take times the original vector alpha
+
+1170
+01:30:21,536 --> 01:30:23,311
+This is supposed to be now
+
+1171
+01:30:26,446 --> 01:30:29,993
+I guess I call it b a 
+
+1172
+01:30:32,917 --> 01:30:36,641
+And I haven't written down the notation for b
+
+1173
+01:30:36,710 --> 01:30:38,375
+And the notation for a 
+
+1174
+01:30:38,488 --> 01:30:43,103
+Column vector for a, row vector for b, complex conjugated
+
+1175
+01:30:44,808 --> 01:30:46,273
+I will tell you now what the rule is
+
+1176
+01:30:47,215 --> 01:30:55,054
+Again we are making up rules which will satisfy postulates up there
+
+1177
+01:30:55,787 --> 01:31:02,229
+And it's very simple construction, it's just beta one star times alpha one
+
+1178
+01:31:02,336 --> 01:31:06,506
+plus beta two star times alpha two
+
+1179
+01:31:07,490 --> 01:31:12,381
+Another word you take the first entry of the dual vector
+
+1180
+01:31:12,491 --> 01:31:16,692
+Times the first entry of the vector with alpha	 
+
+1181
+01:31:17,830 --> 01:31:21,606
+Add it to the first entry and second entry times a second entry
+
+1182
+01:31:22,814 --> 01:31:27,419
+So it's just the generalization of multiplying beta times alpha
+
+1183
+01:31:27,489 --> 01:31:30,964
+But it's also a generalization of dot product
+
+1184
+01:31:31,712 --> 01:31:34,925
+If you remember the dot product of ordinary vectors
+
+1185
+01:31:35,587 --> 01:31:39,990
+You simply take up the sums of the product of the components
+
+1186
+01:31:40,678 --> 01:31:44,520
+If you have two pointers, they are labeled by components 
+
+1187
+01:31:46,030 --> 01:31:47,716
+Both of them, then the dot product 
+
+1188
+01:31:47,826 --> 01:31:51,087
+is just sums of the products of the components
+
+1189
+01:31:52,816 --> 01:31:55,156
+Does that satisfy the rules up here?
+
+1190
+01:31:57,648 --> 01:31:58,763
+Where did I write the rules
+
+1191
+01:32:00,295 --> 01:32:02,505
+I think I have erased the rules 
+
+1192
+01:32:06,871 --> 01:32:08,369
+The rule was 
+
+1193
+01:32:14,083 --> 01:32:16,988
+>> It's up there, the last one
+
+1194
+01:32:22,961 --> 01:32:24,584
+ah I've lost it, okay
+
+1195
+01:32:27,171 --> 01:32:31,185
+What happen if you interchange alpha and beta or a and b?
+
+1196
+01:32:32,039 --> 01:32:35,506
+And this becomes alpha one star, alpha two star
+
+1197
+01:32:37,141 --> 01:32:39,518
+Times beta one beta two
+
+1198
+01:32:39,587 --> 01:32:43,201
+If I interchange them, and that's equal to 
+
+1199
+01:32:44,089 --> 01:32:49,750
+alpha one star beta one plus alpha two star beta two
+
+1200
+01:32:50,087 --> 01:32:51,994
+And that's just the complex conjugate of it
+
+1201
+01:32:52,065 --> 01:32:53,311
+That really is the complex conjugate
+
+1202
+01:32:53,378 --> 01:32:56,500
+So interchanging alpha and beta or a and b
+
+1203
+01:32:56,577 --> 01:33:02,275
+Really does interchange, not the value of the product
+
+1204
+01:33:02,377 --> 01:33:03,587
+But it's complex conjugate
+
+1205
+01:33:05,446 --> 01:33:08,829
+That's the notion of a complex vector spaces
+
+1206
+01:33:08,898 --> 01:33:13,797
+And an inner product on a complex vector space
+
+1207
+01:33:14,807 --> 01:33:20,978
+Now let's just take a couple of special cases of inner products
+
+1208
+01:33:22,479 --> 01:33:25,352
+What about the inner product with the vector itself?
+
+1209
+01:33:25,990 --> 01:33:29,244
+Or the vector with it's image in the dual space?
+
+1210
+01:33:29,897 --> 01:33:33,112
+Let's take the product of a with a
+
+1211
+01:33:36,314 --> 01:33:38,295
+What do we know about that?
+
+1212
+01:33:39,281 --> 01:33:48,285
+Well first of all let's, I'm setting b equals to a 
+
+1213
+01:33:51,130 --> 01:33:55,067
+That tells me the inner product of a vector to itself 
+
+1214
+01:33:55,141 --> 01:33:57,267
+is equal to it's own complex conjugate
+
+1215
+01:34:00,915 --> 01:34:04,248
+I just substitute it for b a
+
+1216
+01:34:04,428 --> 01:34:06,502
+The inner product of vector with itself 
+
+1217
+01:34:06,613 --> 01:34:09,312
+was equal to it's own complex conjugate
+
+1218
+01:34:09,930 --> 01:34:12,452
+What kind of number is equal to it's own complex conjugate?
+
+1219
+01:34:14,007 --> 01:34:18,457
+A real number, so the inner product of a vector with itself
+
+1220
+01:34:18,527 --> 01:34:23,324
+is always real, it's pretty obvious just from here
+
+1221
+01:34:23,435 --> 01:34:30,036
+If we take alpha and multiply it by it's image
+
+1222
+01:34:30,111 --> 01:34:36,779
+I get alpha star alpha, plus alpha two star alpha two
+
+1223
+01:34:38,987 --> 01:34:40,280
+Each one of these is real
+
+1224
+01:34:40,346 --> 01:34:46,902
+Not only is it real, it's also something else, positive
+
+1225
+01:34:47,706 --> 01:34:53,333
+Alpha star alpha , a number times it's own complex conjugate is always positive
+
+1226
+01:34:54,015 --> 01:34:55,586
+So it's real and positive
+
+1227
+01:34:56,382 --> 01:35:01,078
+The inner product of a vector with itself is real and positive
+
+1228
+01:35:01,638 --> 01:35:05,809
+And it's consider to be the square of the length of the vector
+
+1229
+01:35:06,554 --> 01:35:10,123
+The square root of the inner product of a vector with itself
+
+1230
+01:35:10,199 --> 01:35:12,271
+defines the length of the vector
+
+1231
+01:35:13,786 --> 01:35:17,220
+So complex vectors have real lengths
+
+1232
+01:35:17,932 --> 01:35:22,581
+Real and positive lengths, also the square of 
+
+1233
+01:35:24,335 --> 01:35:28,419
+both the square and the length itself are defined to be positive
+
+1234
+01:35:29,898 --> 01:35:35,599
+So that's not too obscure, every complex vector has a length
+
+1235
+01:35:35,712 --> 01:35:40,051
+Which is the square root or the sum of the square of it's components
+
+1236
+01:35:40,122 --> 01:35:44,522
+Square know mean multiply by complex conjugate
+
+1237
+01:35:47,619 --> 01:35:51,212
+#next notion, important notion
+
+1238
+01:35:51,281 --> 01:35:54,664
+The notion of orthogonality of vectors
+
+1239
+01:35:55,624 --> 01:36:01,457
+The notion of orthogonality of vectors is a very important one
+
+1240
+01:36:02,447 --> 01:36:04,772
+Now I give some examples in a few minutes
+
+1241
+01:36:05,901 --> 01:36:10,673
+The notion of orthogonality between two vectors	 
+
+1242
+01:36:12,352 --> 01:36:16,191
+Is exactly the same as it is for ordinary vectors
+
+1243
+01:36:16,264 --> 01:36:20,566
+The inner product the rear-dot product if you like
+
+1244
+01:36:20,678 --> 01:36:22,601
+The inner product is zero
+
+1245
+01:36:22,679 --> 01:36:25,433
+If the inner product of two vectors are zero
+
+1246
+01:36:25,512 --> 01:36:27,431
+It is set to be orthogonal	  
+
+1247
+01:36:29,055 --> 01:36:31,678
+That defines, or perpendicular
+
+1248
+01:36:38,918 --> 01:36:41,309
+Okay so two vectors are orthogonal 
+
+1249
+01:36:41,355 --> 01:36:43,555
+if the inner product between them is zero
+
+1250
+01:36:45,594 --> 01:36:47,938
+Let's see if we can make up some orthogonal vectors
+
+1251
+01:36:48,009 --> 01:36:48,522
+It's easy
+
+1252
+01:36:51,823 --> 01:36:54,798
+Oh, oh oh, what about reading, 
+
+1253
+01:36:54,870 --> 01:36:58,221
+what about take the inner product the opposite order
+
+1254
+01:37:01,039 --> 01:37:03,474
+It's just a complex conjugate of a zero
+
+1255
+01:37:03,544 --> 01:37:05,339
+The complex conjugate of a zero
+
+1256
+01:37:05,377 --> 01:37:11,796
+As zero is zero, so saying that the two vectors are orthogonal
+
+1257
+01:37:11,869 --> 01:37:14,523
+it doesn't matter which order you put them in
+
+1258
+01:37:14,595 --> 01:37:18,038
+The notion of orthogonality doesn't depend on order
+
+1259
+01:37:18,107 --> 01:37:20,960
+Although the general idea of inner product does
+
+1260
+01:37:22,705 --> 01:37:24,427
+So we now have a notion of orthogonal vectors
+
+1261
+01:37:27,998 --> 01:37:29,727
+In a real vectors space, 
+
+1262
+01:37:31,723 --> 01:37:34,634
+how can you define the dimensionality of real vector space?
+
+1263
+01:37:36,506 --> 01:37:39,169
+Well give me a definition of dimensionality
+
+1264
+01:37:39,284 --> 01:37:41,110
+There are many definitions of course
+
+1265
+01:37:41,189 --> 01:37:43,581
+Anybody have one?
+
+1266
+01:37:46,894 --> 01:37:48,287
+>> the () matrix of a vector
+
+1267
+01:37:48,359 --> 01:37:52,354
+Yeah, but let's work it in a more abstract way without the
+
+1268
+01:37:52,424 --> 01:37:54,516
+Yes, of course that's correct
+
+1269
+01:37:56,898 --> 01:38:01,110
+The maximum numbers of orthogonal vectors if you can find in the space
+
+1270
+01:38:03,214 --> 01:38:05,323
+So if a vector space is two dimensional
+
+1271
+01:38:05,401 --> 01:38:07,126
+Ordinary two dimensional vector space	 
+
+1272
+01:38:07,195 --> 01:38:10,481
+There are two mutually orthogonal vectors
+
+1273
+01:38:10,586 --> 01:38:14,345
+You can not find a third vector which is orthogonal to both of them
+
+1274
+01:38:15,593 --> 01:38:19,372
+So the maximum number of mutually orthogonal vectors
+
+1275
+01:38:19,450 --> 01:38:26,982
+In three dimensions, I've got three mutually orthogonal vectors
+
+1276
+01:38:27,052 --> 01:38:30,809
+Of course there are many sets of mutually orthogonal vectors
+
+1277
+01:38:30,882 --> 01:38:33,741
+But given three I can not find the fourth one
+
+1278
+01:38:34,955 --> 01:38:37,109
+So three dimensional vector space 
+
+1279
+01:38:37,180 --> 01:38:41,538
+has a maximum number of three mutually orthogonal vectors 
+
+1280
+01:38:42,556 --> 01:38:45,540
+and the same is true, or the same definition
+
+1281
+01:38:45,611 --> 01:38:49,926
+it's definition is true for complex vector space
+
+1282
+01:38:50,746 --> 01:38:53,778
+The maximum number of orthogonal vectors that you can find 
+
+1283
+01:38:53,851 --> 01:38:57,125
+is equal to the dimensionality of the space
+
+1284
+01:38:59,507 --> 01:39:03,621
+It does correspond to the number of entries here
+
+1285
+01:39:03,735 --> 01:39:07,189
+The number of components , if it's the same you could prove that
+
+1286
+01:39:07,266 --> 01:39:11,630
+As exercise, prove that the number of components of vectors
+
+1287
+01:39:11,701 --> 01:39:14,895
+is the same as the number mutually orthogonal vectors
+
+1288
+01:39:15,413 --> 01:39:16,613
+But let's just talk, 
+
+1289
+01:39:17,694 --> 01:39:20,263
+Are there any mutually orthogonal vectors I can write down?
+
+1290
+01:39:20,336 --> 01:39:21,939
+Sure, loads and loads of them
+
+1291
+01:39:22,017 --> 01:39:25,842
+But the very simple case would be one zero
+
+1292
+01:39:26,755 --> 01:39:30,114
+Now one and zero, are one and zero complex numbers?
+
+1293
+01:39:30,881 --> 01:39:34,289
+Well real number are special cases of complex numbers
+
+1294
+01:39:35,151 --> 01:39:38,012
+So real, complex number can be real
+
+1295
+01:39:38,870 --> 01:39:44,397
+Here's one, and here's another one, zero one
+
+1296
+01:39:46,375 --> 01:39:48,402
+This one has the one in the first place
+
+1297
+01:39:48,472 --> 01:39:52,196
+This one has the zero in the first place, you get the idea
+
+1298
+01:39:52,268 --> 01:39:55,758
+The inner product is zero times one plus one times zero
+
+1299
+01:39:57,110 --> 01:40:01,393
+Okay, so the two vectors or 
+
+1300
+01:40:03,428 --> 01:40:05,906
+Let's just write it in terms of column vectors
+
+1301
+01:40:06,876 --> 01:40:08,789
+one zero and zero one
+
+1302
+01:40:08,900 --> 01:40:13,712
+One zero and zero one are orthogonal vectors
+
+1303
+01:40:15,093 --> 01:40:18,909
+The inner product of this one with the dual of this one is zero
+
+1304
+01:40:20,385 --> 01:40:24,018
+That's because one times zero plus zero times one
+
+1305
+01:40:24,089 --> 01:40:25,545
+This is zero
+
+1306
+01:40:26,349 --> 01:40:28,644
+So there is plenty of orthogonal vectors around
+
+1307
+01:40:29,214 --> 01:40:32,651
+But in two dimensions this is two dimensions	 
+
+1308
+01:40:33,214 --> 01:40:36,067
+Once you found two of them, you can not find the third
+
+1309
+01:40:36,139 --> 01:40:40,633
+So as exercise, prove that there can be no vector
+
+1310
+01:40:40,704 --> 01:40:43,707
+which are both orthogonal to this and orthogonal to that
+
+1311
+01:40:45,474 --> 01:40:48,296
+That's not hard to do, very easy to do
+
+1312
+01:40:53,927 --> 01:41:01,415
+Oh ,year, "zero zero" is always orthogonal to everything
+
+1313
+01:41:04,012 --> 01:41:08,962
+So one should be careful and say the maximum number of non zero
+
+1314
+01:41:09,039 --> 01:41:12,458
+Orthogonal, mutually orthogonal vectors, good point
+
+1315
+01:41:13,230 --> 01:41:18,830
+Alright, that's a mathematical interlude for tonight
+
+1316
+01:41:19,679 --> 01:41:21,561
+Complex vector spaces
+
+1317
+01:41:21,633 --> 01:41:29,386
+And the next time we will discuss how this space of states or what it means
+
+1318
+01:41:29,462 --> 01:41:32,277
+Is the space of states of a simple qubit 
+
+1319
+01:41:32,954 --> 01:41:34,863
+to be two dimensional vector spaces?
+
+1320
+01:41:35,916 --> 01:41:40,603
+Very very different than saying they consist of a point and a set
+
+1321
+01:41:41,262 --> 01:41:44,604
+The space of state is in fact a vector space 	
+
+1322
+01:41:44,676 --> 01:41:48,138
+And try to make contact with the mathematics of vector spaces
+
+1323
+01:41:48,216 --> 01:41:50,679
+And the strange things that are happening 
+
+1324
+01:41:50,751 --> 01:41:53,264
+or seem to be happening over here with these
+
+1325
+01:41:58,357 --> 01:42:01,323
+These funny properties of measurements
+
+1326
+01:42:01,433 --> 01:42:02,093
+That's where we want to go
+
+1327
+01:42:03,496 --> 01:42:07,376
+Learn some physics, some experimental physics blackboard up there, 
+
+1328
+01:42:07,461 --> 01:42:10,441
+and we've done some abstract mathematics over here
+
+1329
+01:42:10,519 --> 01:42:14,576
+And next time I want to connect them and show 
+
+1330
+01:42:14,613 --> 01:42:19,668
+what the abstract mathematics how we represent or 
+
+1331
+01:42:19,739 --> 01:42:25,810
+how it can be use to represent this unusual kind of logic of qubits
+
+1332
+01:42:27,080 --> 01:42:29,346
+>> Is it restricted to a pattern, 
+
+1333
+01:42:29,457 --> 01:42:34,167
+>> Is it going to be meaningful to define the multiplication operation
+
+1334
+01:42:34,238 --> 01:42:36,380
+>> created two by two (raches)? 
+
+1335
+01:42:36,451 --> 01:42:39,255
+>> It should be beta one alpha one 
+
+1336
+01:42:43,066 --> 01:42:48,809
+You are asking? Yes the answer is yes
+
+1337
+01:42:48,921 --> 01:42:53,499
+Yes absolutely, we will construct inner products outer products
+
+1338
+01:42:53,604 --> 01:42:54,936
+so all sort of products
+
+1339
+01:42:56,631 --> 01:42:58,465
+Ya, ya that's right
+
+1340
+01:42:59,288 --> 01:43:03,742
+The outer products of the two matrix or two vectors as the matrix ya
+
+1341
+01:43:05,988 --> 01:43:10,492
+Of course how do you represent it or just, well
+
+1342
+01:43:12,091 --> 01:43:16,739
+The outer product of two vectors represented in this way
+
+1343
+01:43:18,354 --> 01:43:21,351
+It is a matrix but we will come to that
+
+1344
+01:43:23,681 --> 01:43:28,035
+>> all the postulates applies to the vectors and functions?
+
+1345
+01:43:28,947 --> 01:43:30,934
+>> it's less obvious than
+
+1346
+01:43:31,848 --> 01:43:37,944
+A vector space of function can be thought of as column vectors
+
+1347
+01:43:38,976 --> 01:43:41,824
+but the entries are continuous
+
+1348
+01:43:43,407 --> 01:43:45,690
+So we have alpha, alpha is the function
+
+1349
+01:43:45,771 --> 01:43:49,798
+And the alpha of the first entry and alpha of the second entry
+
+1350
+01:43:49,869 --> 01:43:53,059
+Out of that we have a continuous family of alpha
+
+1351
+01:43:53,134 --> 01:43:57,368
+Alpha evaluated upon x 1, alpha evaluated upon x 2
+
+1352
+01:43:57,473 --> 01:43:59,316
+Alpha evaluated upon x 3
+
+1353
+01:43:59,390 --> 01:44:02,442
+And of course we can't really write it literally as
+
+1354
+01:44:05,048 --> 01:44:06,470
+a discreet collection like that
+
+1355
+01:44:06,548 --> 01:44:10,913
+But if you like think of these alphas here, alpha one alpha two
+
+1356
+01:44:11,025 --> 01:44:12,875
+Is just the function of the two variables
+
+1357
+01:44:12,951 --> 01:44:16,763
+A function of an entry one and two
+
+1358
+01:44:19,014 --> 01:44:20,776
+Instead of a function of an x,
+
+1359
+01:44:20,889 --> 01:44:24,717
+is a function of variable which would be either one or two
+
+1360
+01:44:26,166 --> 01:44:30,775
+So yes, complex function forms complex vector spaces
+
+1361
+01:44:30,887 --> 01:44:34,270
+The inner product, we will discuss that
+
+1362
+01:44:38,940 --> 01:44:43,458
+>> () oriented apparatus turn at the angle of theta
+
+1363
+01:44:43,531 --> 01:44:48,316
+>> If you consider the sequence of inputs going to outputs
+
+1364
+01:44:48,428 --> 01:44:52,565
+>> the portion of minus one to one is given by close I tell you that
+
+1365
+01:44:52,607 --> 01:44:57,366
+>> Is there anything interesting about the distribution of minus one 
+
+1366
+01:44:58,072 --> 01:45:00,163
+What does it mean?
+
+1367
+01:45:00,311 --> 01:45:02,300
+>> Well like high order statistics?
+
+1368
+01:45:03,954 --> 01:45:08,927
+Oh oh oh, they are just completely random, completely random
+
+1369
+01:45:09,818 --> 01:45:11,309
+These are completely random variables
+
+1370
+01:45:12,368 --> 01:45:21,191
+You are talking about the relationship between different replications
+
+1371
+01:45:21,304 --> 01:45:25,226
+And whole bunch of space you subject them all to the same, the question is
+
+1372
+01:45:25,300 --> 01:45:27,720
+I think you are asking whether there are correlations between them
+
+1373
+01:45:28,414 --> 01:45:33,356
+No, no, they are completely independent uncorrelated variables
+
+1374
+01:45:33,929 --> 01:45:37,926
+>> So is it still the variable ()
+
+1375
+01:45:38,452 --> 01:45:43,257
+>> Does it make sense to say that when you are measuring a qubit
+
+1376
+01:45:43,328 --> 01:45:47,774
+>> you are affecting it, so you are actually preparing a new state
+
+1377
+01:45:47,850 --> 01:45:49,700
+Yes yes yes, that's absolutely right
+
+1378
+01:45:49,777 --> 01:45:53,780
+>> That's why first time you get something and the second time you just
+
+1379
+01:45:53,859 --> 01:45:54,885
+>> keep to them
+
+1380
+01:45:54,959 --> 01:45:55,743
+And there is a big difference 
+
+1381
+01:45:55,815 --> 01:45:58,346
+between classical mechanics and quantum mechanics
+
+1382
+01:45:58,419 --> 01:46:02,209
+In classical mechanics you can measure something 
+
+1383
+01:46:02,311 --> 01:46:06,511
+sufficiently gently to not affect it, to not disturb it
+
+1384
+01:46:06,580 --> 01:46:10,020
+In quantum mechanics whenever you measure something
+
+1385
+01:46:10,089 --> 01:46:11,591
+you always disturb it
+
+1386
+01:46:12,503 --> 01:46:17,667
+So this is an example of how measuring something disturb it 
+
+1387
+01:46:17,710 --> 01:46:19,027
+and turn into a new state
+
+1388
+01:46:19,100 --> 01:46:21,559
+And let's say that is a good point, yes
+
+1389
+01:46:25,509 --> 01:46:26,296
+Okay
+
+1390
+01:46:28,251 --> 01:46:32,342
+For more, please visit us at Stanford.edu 
+

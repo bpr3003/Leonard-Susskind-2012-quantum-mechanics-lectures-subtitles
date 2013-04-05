@@ -1,0 +1,6276 @@
+1
+00:00:04,301 --> 00:00:06,467
+Stanford University
+
+2
+00:00:08,691 --> 00:00:13,769
+Well, let's begin, I'm gonna review very quickly, I hope quickly 
+
+3
+00:00:15,251 --> 00:00:18,208
+We describe a simple system consists of one qubit
+
+4
+00:00:18,329 --> 00:00:20,001
+I'm gonna change that terminology a little bit
+
+5
+00:00:20,140 --> 00:00:22,401
+I'm gonna start call the qubit a spin
+
+6
+00:00:23,753 --> 00:00:26,137
+Don't worry about what it has to do with spinning at the moment 
+
+7
+00:00:26,256 --> 00:00:30,180
+Of course, more important is that it's a little pointer
+
+8
+00:00:30,300 --> 00:00:31,854
+Now I use the term pointer, 
+
+9
+00:00:32,778 --> 00:00:37,899
+I began to use the word pointer to refer the vectors in three-dimensional space
+
+10
+00:00:38,322 --> 00:00:44,969
+while I was writing I realize that's awfully awkward unfamiliar terminology
+
+11
+00:00:45,089 --> 00:00:50,371
+And I decided it to replace it with another term, the standard term three vectors
+
+12
+00:00:50,446 --> 00:00:52,008
+Vectors in three-dimensional space 
+
+13
+00:00:52,664 --> 00:00:55,019
+I may sometimes use the term pointer 
+
+14
+00:00:55,123 --> 00:00:57,641
+but I think I more likely to speak of three-vectors
+
+15
+00:00:58,171 --> 00:01:00,637
+By three-vectors I mean vectors in a real space
+
+16
+00:01:01,812 --> 00:01:05,475
+The more general concept when I simply say vector
+
+17
+00:01:05,500 --> 00:01:10,517
+more likely I'm speaking about the abstract notion of a vector space 
+
+18
+00:01:10,554 --> 00:01:12,619
+and the elements of the vector space
+
+19
+00:01:14,837 --> 00:01:20,933
+Just to warn you and keep the language clear
+
+20
+00:01:22,081 --> 00:01:25,195
+Now we've talk about this qubit which has now become a spin
+
+21
+00:01:26,049 --> 00:01:31,386
+it has some of the character of being a little three-vector in space
+
+22
+00:01:31,491 --> 00:01:35,577
+There are some sense or other in which it point into that direction
+
+23
+00:01:36,095 --> 00:01:39,295
+And that we can confirm by an experiment 
+
+24
+00:01:39,392 --> 00:01:45,415
+As I said before, once we start thinking about quantum mechanics 
+
+25
+00:01:45,521 --> 00:01:52,636
+We really do have to think about system and their connection with the apparatus
+
+26
+00:01:52,741 --> 00:01:58,678
+Apparati? Is that the word call apparati I'm not sure? Apparatus apparatucee?
+
+27
+00:02:00,919 --> 00:02:03,332
+Anyone know the plural of apparatus?
+
+28
+00:02:04,436 --> 00:02:08,515
+Or just apparatus? Okay, just apparatus
+
+29
+00:02:09,614 --> 00:02:12,299
+We do have to think about the connection with the apparatus
+
+30
+00:02:15,585 --> 00:02:16,787
+That measure them
+
+31
+00:02:16,827 --> 00:02:20,146
+And we don't get away with just ignoring it
+
+32
+00:02:20,211 --> 00:02:23,425
+What's the difference? First of all I tell you 
+
+33
+00:02:23,497 --> 00:02:26,170
+what basic difference in classical physics and 
+
+34
+00:02:26,193 --> 00:02:27,403
+quantum mechanics and quantum physics
+
+35
+00:02:27,459 --> 00:02:32,674
+In classical physics measurement can be arbitrarily gentle
+
+36
+00:02:32,779 --> 00:02:36,500
+Arbitrarily gentle means you can find out 
+
+37
+00:02:36,540 --> 00:02:39,377
+any thing you want about a system in principle
+
+38
+00:02:39,553 --> 00:02:46,264
+by inter reacting with something that changes anything about it 
+
+39
+00:02:46,425 --> 00:02:49,208
+by the arbitrarily small amount
+
+40
+00:02:49,816 --> 00:02:54,304
+For example you want to locate a location of a particle in classical physics
+
+41
+00:02:54,362 --> 00:02:57,085
+How do you do it? You shine some light on it
+
+42
+00:02:57,921 --> 00:03:00,596
+You shine some light on it and you make an image
+
+43
+00:03:00,677 --> 00:03:05,079
+Of course you have to use light which in small enough wavelength
+
+44
+00:03:05,143 --> 00:03:08,385
+That you can resolve the object, this is true
+
+45
+00:03:08,480 --> 00:03:18,645
+But there is no limit of how weak a light signal can be at a given wavelength
+
+46
+00:03:18,686 --> 00:03:22,095
+You can make the light signal as weak as you like
+
+47
+00:03:22,161 --> 00:03:27,746
+So it carries as little energy as you like, as little momentum as you like
+
+48
+00:03:27,802 --> 00:03:31,080
+Let it interact with the thing you are interested in
+
+49
+00:03:31,161 --> 00:03:38,617
+Form image, and after the image has been form, it can't be magnified
+
+50
+00:03:38,673 --> 00:03:41,013
+Not magnified in the sense of making it bigger
+
+51
+00:03:41,096 --> 00:03:43,713
+But what's the right word for amplify?
+
+52
+00:03:43,774 --> 00:03:45,202
+It can't be amplified 
+
+53
+00:03:45,831 --> 00:03:49,033
+So the experiment itself can be arbitrarily gentle
+
+54
+00:03:49,090 --> 00:03:53,080
+And still find out anything you might want to know about the system
+
+55
+00:03:53,161 --> 00:03:57,447
+The result of that is experiment can always be done
+
+56
+00:03:57,529 --> 00:04:01,975
+which have not effect what ever on future experiment 
+
+57
+00:04:02,055 --> 00:04:05,182
+On subsequence experiment for example right afterwards 
+
+58
+00:04:06,871 --> 00:04:08,105
+That's classical physics
+
+59
+00:04:08,185 --> 00:04:10,129
+Quantum physics is not like that, 
+
+60
+00:04:10,237 --> 00:04:16,166
+quantum physics is such that experiments inevitably change systems, 
+
+61
+00:04:16,967 --> 00:04:23,462
+any experiment to measure something will change something else
+
+62
+00:04:23,526 --> 00:04:27,793
+It's almost as though the experiment that measure coin
+
+63
+00:04:27,897 --> 00:04:30,663
+was such that every time I look at the coin
+
+64
+00:04:30,768 --> 00:04:35,256
+the coin jump up in the air and randomly flip itself
+
+65
+00:04:35,296 --> 00:04:37,282
+We know that doesn't happen,
+
+66
+00:04:37,362 --> 00:04:41,214
+we can measure the state of the coin gently without changing it
+
+67
+00:04:43,072 --> 00:04:46,205
+Quantum mechanics, not so clear, well it is clear
+
+68
+00:04:46,246 --> 00:04:47,602
+It is clear that cannot be done
+
+69
+00:04:47,627 --> 00:04:50,004
+Okay, let's but we are gonna call it a little bit 
+
+70
+00:04:50,058 --> 00:04:54,357
+before we move on to more about vectors spaces and operators
+
+71
+00:04:54,477 --> 00:04:56,402
+and mathematics of a quantum theory 
+
+72
+00:04:56,442 --> 00:04:59,018
+I want to talk a little bit more about the logic of it
+
+73
+00:04:59,578 --> 00:05:03,434
+And in what way logic in quantum mechanics is different 
+
+74
+00:05:03,578 --> 00:05:04,924
+than logic in classical physics
+
+75
+00:05:07,491 --> 00:05:09,812
+Let's go back to our spin and our apparatus
+
+76
+00:05:11,501 --> 00:05:17,460
+The spin is a, we draw a little arrow 
+
+77
+00:05:17,562 --> 00:05:21,820
+whether they are truly correspond to anything looks like a classical or not
+
+78
+00:05:21,897 --> 00:05:24,276
+is irrelevant, we have to draw it on the blackboard and
+
+79
+00:05:24,439 --> 00:05:26,053
+Anything I draw on the blackboard will be classical
+
+80
+00:05:27,613 --> 00:05:32,261
+Just because ink and pens are classical or approximately classical
+
+81
+00:05:32,359 --> 00:05:38,187
+The apparatus has a window that has a number that comes out of it
+
+82
+00:05:38,219 --> 00:05:41,722
+Numbers appears in the window tell result of the experiment
+
+83
+00:05:42,242 --> 00:05:45,466
+And it all start to happen to have a direction in it
+
+84
+00:05:45,530 --> 00:05:48,144
+which tell you which side is up
+
+85
+00:05:48,185 --> 00:05:52,146
+How to orient it, in fact I might have a whole set of three-axes
+
+86
+00:05:52,210 --> 00:05:53,732
+to tell you how to orient it
+
+87
+00:05:54,305 --> 00:05:57,794
+But that's not important just the up back is what's important 	  
+
+88
+00:05:58,381 --> 00:06:01,761
+and when the apparatus is pointing up
+
+89
+00:06:02,258 --> 00:06:07,065
+In fact no matter what the direction the apparatus is pointing in
+
+90
+00:06:07,186 --> 00:06:11,581
+When interact with the spin, it produces a number in the window
+
+91
+00:06:11,656 --> 00:06:16,002
+And that number in the window is either plus one or minus one
+
+92
+00:06:16,082 --> 00:06:19,369
+No matter what the apparatus is pointing in 
+
+93
+00:06:19,425 --> 00:06:21,641
+No matter what has happen to the spin before it()
+
+94
+00:06:22,422 --> 00:06:29,201
+When the apparatus is pointing up we will say that what it has measured
+
+95
+00:06:29,322 --> 00:06:32,200
+is the z component of the spin
+
+96
+00:06:32,304 --> 00:06:33,902
+Let's pus some axes in here
+
+97
+00:06:33,967 --> 00:06:38,693
+Z up, x to the right and y out of blackboard
+
+98
+00:06:40,057 --> 00:06:41,673
+And when the apparatus is pointing up, 
+
+99
+00:06:41,753 --> 00:06:46,730
+we will say that it produces an experimental number
+
+100
+00:06:46,793 --> 00:06:49,514
+Which measures the z component of the spin
+
+101
+00:06:51,487 --> 00:06:55,360
+It's not particularly interesting to think of it as having a directionality
+
+102
+00:06:55,440 --> 00:06:56,824
+when we say it's the z component of the spin
+
+103
+00:06:56,864 --> 00:07:00,585
+Imagining it that the object here has a sense of directionality to it
+
+104
+00:07:01,176 --> 00:07:04,770
+How can we test it has a direction to it? A sense of directionality to it?
+
+105
+00:07:05,383 --> 00:07:08,750
+Well, we can prepare the spin 
+
+106
+00:07:09,344 --> 00:07:12,400
+in the state of what we think as pointing up
+
+107
+00:07:12,481 --> 00:07:16,066
+by simply letting it interact with the apparatus
+
+108
+00:07:16,122 --> 00:07:20,804
+And when the apparatus appears with a plus one sign in it
+
+109
+00:07:20,883 --> 00:07:23,219
+We say, aha, the spin is up
+
+110
+00:07:24,340 --> 00:07:27,980
+And if we do it again with the same apparatus pointing at the same direction
+
+111
+00:07:28,034 --> 00:07:30,091
+with the same spin, we will get up again
+
+112
+00:07:30,132 --> 00:07:34,020
+And up again and up again, in that sense quantum mechanics 
+
+113
+00:07:34,898 --> 00:07:37,826
+are out(allows)for reproducible the experiments 
+
+114
+00:07:38,665 --> 00:07:43,083
+If you measure the same thing several times in a row
+
+115
+00:07:43,770 --> 00:07:45,148
+with the same apparatus
+
+116
+00:07:46,574 --> 00:07:48,218
+You will get the same answer over and over
+
+117
+00:07:48,275 --> 00:07:49,637
+So things are not that weird 
+
+118
+00:07:49,713 --> 00:07:53,159
+That's also important because we have to have some
+
+119
+00:07:53,227 --> 00:07:56,627
+concept of reproducibility of experiment to result
+
+120
+00:07:56,667 --> 00:07:58,938
+in order to make any sense out of things
+
+121
+00:07:59,019 --> 00:08:00,227
+so this is a good thing 
+
+122
+00:08:01,013 --> 00:08:03,557
+When you measure something and you measure it again again and again
+
+123
+00:08:03,614 --> 00:08:04,813
+you get the same answer, yeah
+
+124
+00:08:04,893 --> 00:08:06,460
+>> so how is that (inaudible)
+
+125
+00:08:07,398 --> 00:08:09,171
+You are gonna come, we are gonna come to it
+
+126
+00:08:09,235 --> 00:08:14,277
+Well I didn't say that experiments are so necessarily so ungentle
+
+127
+00:08:14,317 --> 00:08:17,200
+Then when you measure anything you affect everything
+
+128
+00:08:17,251 --> 00:08:19,171
+The answer is you affect something 
+
+129
+00:08:20,324 --> 00:08:24,252
+In this case when you measure something you don't affect that same thing 
+
+130
+00:08:24,279 --> 00:08:25,754
+if you measure the same thing again
+
+131
+00:08:26,735 --> 00:08:27,542
+You will get the same answer 
+
+132
+00:08:28,894 --> 00:08:33,727
+Okay now you could say that now I have detected the spin is up
+
+133
+00:08:33,769 --> 00:08:37,256
+Let me turn the up of the apparatus completely over
+
+134
+00:08:37,336 --> 00:08:39,168
+And point down
+
+135
+00:08:40,947 --> 00:08:44,701
+If this were a thermometer measuring the temperature
+
+136
+00:08:45,165 --> 00:08:46,725
+I don't think we will expect 
+
+137
+00:08:46,804 --> 00:08:49,668
+it to detect minus temperature if we turn it over right?
+
+138
+00:08:50,836 --> 00:08:53,694
+No with any kind of decent thermometer
+
+139
+00:08:53,815 --> 00:08:59,452
+So therefore to say the temperature does not have a sense of orientation
+
+140
+00:08:59,510 --> 00:09:00,995
+Certainly not at incident
+
+141
+00:09:01,852 --> 00:09:04,974
+On the other hand if there is a true spin
+
+142
+00:09:05,054 --> 00:09:06,989
+And we turn the apparatus over 
+
+143
+00:09:07,726 --> 00:09:11,952
+If initially the apparatus told us that the spin was plus one 
+
+144
+00:09:12,070 --> 00:09:16,725
+after we have turn it over and do the experiment again
+
+145
+00:09:16,824 --> 00:09:18,313
+It will register minus one
+
+146
+00:09:18,367 --> 00:09:22,658
+So it seem to indicate that there is a sense of directionality
+
+147
+00:09:22,719 --> 00:09:24,110
+And of course, 
+
+148
+00:09:26,928 --> 00:09:31,594
+the same thing is true no matter what direction we hold the apparatus in
+
+149
+00:09:31,631 --> 00:09:34,823
+If we hold the apparatus in the horizontal direction
+
+150
+00:09:40,056 --> 00:09:43,818
+And come along and detect a spin we know nothing about		
+
+151
+00:09:43,858 --> 00:09:45,894
+We have not yet made a measurement on it
+
+152
+00:09:47,255 --> 00:09:49,263
+Maybe somebody else has made a measurement on it
+
+153
+00:09:49,303 --> 00:09:59,127
+Maybe some agent available to us who some secret person
+
+154
+00:09:59,718 --> 00:10:01,735
+has done something to that spin
+
+155
+00:10:01,798 --> 00:10:03,471
+But we don't know, okay we don't know about it
+
+156
+00:10:03,511 --> 00:10:05,650
+We come in with our detector and we make a measurement
+
+157
+00:10:06,150 --> 00:10:10,280
+What will we measure again we will measure plus one or minus one
+
+158
+00:10:12,481 --> 00:10:15,303
+And if we are beginning to think of this thing 
+
+159
+00:10:15,864 --> 00:10:18,448
+as having a sense of direction to it
+
+160
+00:10:19,128 --> 00:10:23,713
+We might say that we are measuring now is this x component of the spin
+
+161
+00:10:24,334 --> 00:10:27,440
+Whereas previously we were measuring the z component of the spin
+
+162
+00:10:27,480 --> 00:10:28,277
+Let's give them names
+
+163
+00:10:28,984 --> 00:10:33,568
+Sigma z which is the component of the spin along the vertical axis
+
+164
+00:10:34,303 --> 00:10:38,575
+At the moment yet I'm not asking you to think this notion of component 
+
+165
+00:10:38,632 --> 00:10:42,299
+is the same as the notion of component in the classical physics
+
+166
+00:10:42,363 --> 00:10:43,379
+Just the name for the moment 
+
+167
+00:10:44,112 --> 00:10:46,881
+And sigma z when measure is plus one or minus one
+
+168
+00:10:46,937 --> 00:10:50,356
+The same happens when we turn the apparatus on it's side
+
+169
+00:10:51,024 --> 00:10:54,327
+And we measure the same procedure 
+
+170
+00:10:54,636 --> 00:10:57,696
+we measure something we can now call sigma x
+
+171
+00:10:59,241 --> 00:11:02,304
+And sigma x is always plus or minus one
+
+172
+00:11:02,401 --> 00:11:05,431
+And the same thing if we turn the apparatus around 
+
+173
+00:11:05,471 --> 00:11:06,838
+So that it's facing front or in fact 
+
+174
+00:11:06,902 --> 00:11:09,528
+no matter what direction we orient the apparatus
+
+175
+00:11:09,568 --> 00:11:12,360
+It always give us plus or minus one
+
+176
+00:11:14,093 --> 00:11:17,294
+This will be a little bit strange more than a little bit strange 
+
+177
+00:11:17,351 --> 00:11:21,543
+If thie object really were a classical vector 
+
+178
+00:11:22,358 --> 00:11:24,611
+Perhaps a vector of unit length
+
+179
+00:11:25,236 --> 00:11:27,092
+If it were a vector of unit length
+
+180
+00:11:27,133 --> 00:11:32,076
+And this detector is really measuring the component of spin along it's own axis
+
+181
+00:11:32,116 --> 00:11:35,307
+There is no way that it will just give plus one or minus one
+
+182
+00:11:36,574 --> 00:11:37,958
+A component of the vector 
+
+183
+00:11:38,022 --> 00:11:41,674
+even if the vector is required to have exactly unit length
+
+184
+00:11:41,699 --> 00:11:45,960
+Here's a vector with exactly unit length a point,
+
+185
+00:11:46,081 --> 00:11:47,923
+a three-vector exactly unit length
+
+186
+00:11:48,619 --> 00:11:50,850
+If we turn it and do other things with it
+
+187
+00:11:50,947 --> 00:11:54,531
+So the x component and z component can be any number 
+
+188
+00:11:54,570 --> 00:11:56,293
+between minus one and one
+
+189
+00:11:56,333 --> 00:11:59,905
+So this is a funny vector if it's a vector at all
+
+190
+00:12:02,003 --> 00:12:04,899
+But it still have a sense of orientation and 
+
+191
+00:12:05,621 --> 00:12:09,291
+the result of the experiment do seem to change when you rotate the detectors
+
+192
+00:12:09,346 --> 00:12:16,512
+In particular if you begin by orienting the spin along the z axis
+
+193
+00:12:16,537 --> 00:12:19,242
+in the up direction, let's call this up
+
+194
+00:12:20,107 --> 00:12:22,115
+That means sigma z is equal to plus one
+
+195
+00:12:23,832 --> 00:12:25,850
+And then rotate the apparatus	 
+
+196
+00:12:26,624 --> 00:12:30,583
+Detect it again, you won't necessarily get plus one
+
+197
+00:12:31,264 --> 00:12:35,796
+In fact you may get plus one, or you may get minus one with equal probability
+
+198
+00:12:36,277 --> 00:12:39,672
+You can do the experiment over and over and over again
+
+199
+00:12:40,272 --> 00:12:44,785
+Half the time you will get sigma x equals to plus one 
+
+200
+00:12:44,867 --> 00:12:47,257
+half the time you will get sigma x equals to minus one
+
+201
+00:12:47,353 --> 00:12:50,907
+Even though you know sigma z was exactly equal to plus one
+
+202
+00:12:51,944 --> 00:12:56,727
+In which case, so, ah sounds funny?
+
+203
+00:12:56,794 --> 00:13:03,160
+But what is true is the average value of sigma x will be one
+
+204
+00:13:03,216 --> 00:13:04,369
+Sorry would be zero, 
+
+205
+00:13:05,012 --> 00:13:10,587
+if the initial starting point of spin that was up along the z axis
+
+206
+00:13:11,010 --> 00:13:13,472
+Same for the y axis
+
+207
+00:13:13,570 --> 00:13:18,497
+If the initial value of the spin was prepared to be up along the z axis
+
+208
+00:13:18,562 --> 00:13:23,659
+And you rotate the apparatus to the right orientation
+
+209
+00:13:23,715 --> 00:13:26,123
+Again you will have equal probability
+
+210
+00:13:26,850 --> 00:13:30,384
+So the average value of sigma y would be zero
+
+211
+00:13:30,924 --> 00:13:32,622
+You can even go beyond that
+
+212
+00:13:32,702 --> 00:13:36,411
+You can say let's start with the apparatus not vertical
+
+213
+00:13:37,028 --> 00:13:40,491
+But let's start the apparatus along the x direction 
+
+214
+00:13:41,245 --> 00:13:43,595
+Use it to prepare the spin 
+
+215
+00:13:44,291 --> 00:13:47,940
+so that it's known to be pointing horizontal along the x direction 
+
+216
+00:13:48,020 --> 00:13:52,741
+and sigma x is equal to plus one and do the y z experiment
+
+217
+00:13:54,165 --> 00:13:59,245
+Always we will get random but equal probability for up and down
+
+218
+00:14:00,301 --> 00:14:04,988
+Or plus or minus one, you go a little bit further
+
+219
+00:14:09,314 --> 00:14:11,269
+Of course I'm quoting 
+
+220
+00:14:11,325 --> 00:14:15,276
+what will be the result of the experiments on spins
+
+221
+00:14:15,917 --> 00:14:18,443
+I haven't done such an experiment I don't think I could 
+
+222
+00:14:19,647 --> 00:14:23,632
+But I have no doubt if I have a student to do it,
+
+223
+00:14:23,737 --> 00:14:24,571
+this is what will happen
+
+224
+00:14:26,553 --> 00:14:30,949
+>> suppose you start out we have not prepare the spin at all
+
+225
+00:14:31,012 --> 00:14:32,682
+Doesn't matter, okay go ahead
+
+226
+00:14:32,706 --> 00:14:37,820
+>> so it could be up or down or x or y or z
+
+227
+00:14:37,874 --> 00:14:40,201
+>> we don't know what it is, right?
+
+228
+00:14:40,226 --> 00:14:45,626
+>> We set it up so that the apparatus on the side along the x axis
+
+229
+00:14:45,748 --> 00:14:46,361
+okay
+
+230
+00:14:48,351 --> 00:14:50,111
+>>and then we do measures
+
+231
+00:14:51,322 --> 00:14:54,329
+Yeah, we first do one measure before we do anything else
+
+232
+00:14:55,304 --> 00:14:57,747
+Yeah, let me come back for a second, let me come back for a second
+
+233
+00:14:58,876 --> 00:15:01,130
+You are right, we won't do a lot of experiments 
+
+234
+00:15:01,197 --> 00:15:03,408
+and a lot of measurement in quantum mechanics
+
+235
+00:15:03,472 --> 00:15:06,677
+There are two distinct way to do quantum mechanics experiments
+
+236
+00:15:06,740 --> 00:15:08,670
+So it really doesn't matter which we do
+
+237
+00:15:08,738 --> 00:15:12,172
+We can imagine having a large number of identical spin 
+
+238
+00:15:12,212 --> 00:15:13,468
+prepared from the beginning
+
+239
+00:15:13,590 --> 00:15:14,906
+however they are prepared 
+
+240
+00:15:16,013 --> 00:15:19,201
+And we can do experiments with a large number of them
+
+241
+00:15:19,241 --> 00:15:24,231
+Or we can do a repeated experiment on the same spin
+
+242
+00:15:25,110 --> 00:15:28,264
+There are logic stand to doesn't matter which we are talking about
+
+243
+00:15:28,346 --> 00:15:29,800
+I will tell you when it matters
+
+244
+00:15:30,385 --> 00:15:32,922
+But at the moment all we are talking about is one spin
+
+245
+00:15:33,616 --> 00:15:37,878
+You said, start the apparatus horizontal
+
+246
+00:15:37,951 --> 00:15:41,269
+stick the spin to it and detect it, what you get?
+
+247
+00:15:42,420 --> 00:15:44,350
+What you get will either be plus one or minus one
+
+248
+00:15:46,530 --> 00:15:49,157
+You can then take the spin out of there
+
+249
+00:15:49,637 --> 00:15:53,915
+Give it to your friend who does magic with the spin
+
+250
+00:15:53,939 --> 00:15:56,627
+you don't know what it is, you don't know what the hell he does with it
+
+251
+00:15:57,251 --> 00:16:00,829
+He flips it around juggles it, puts it in his pocket, takes it out
+
+252
+00:16:00,868 --> 00:16:03,261
+gives it back to you and tells you to do it again
+
+253
+00:16:03,876 --> 00:16:05,923
+Again, you will get plus one or minus one 
+
+254
+00:16:05,979 --> 00:16:08,620
+And maybe that he did nothing, 
+
+255
+00:16:09,180 --> 00:16:12,230
+in which the second time you get the same answer as the first time
+
+256
+00:16:13,531 --> 00:16:17,359
+Or maybe he turn it over which you will get the opposite answer
+
+257
+00:16:17,399 --> 00:16:19,526
+But whatever you get, there will be plus one or minus one
+
+258
+00:16:21,822 --> 00:16:25,405
+then if you do a repeated experiment 
+
+259
+00:16:25,469 --> 00:16:28,572
+knowing that nothing else was done to the spin in between
+
+260
+00:16:28,615 --> 00:16:31,391
+You will get the same answer at the same experiment 
+
+261
+00:16:31,471 --> 00:16:33,828
+Okay, that's
+
+262
+00:16:36,411 --> 00:16:38,662
+Okay, let's be a little more general, 
+
+263
+00:16:38,737 --> 00:16:45,118
+let's suppose we orient the axes of the director in any direction
+
+264
+00:16:45,158 --> 00:16:47,744
+So let's make a notation for the direction
+
+265
+00:16:47,860 --> 00:16:49,981
+A unit three vector
+
+266
+00:16:50,045 --> 00:16:51,655
+A unit three vector
+
+267
+00:16:53,844 --> 00:16:55,814
+Unit vector in three dimensional space 
+
+268
+00:16:55,909 --> 00:17:00,523
+are always indicated by putting a little hat up of the symbol
+
+269
+00:17:00,589 --> 00:17:05,158
+So this is a unit vector along a particular axis
+
+270
+00:17:05,198 --> 00:17:09,534
+We start with the detector along with the axis m
+
+271
+00:17:09,591 --> 00:17:14,072
+not horizontal not vertical not in or out
+
+272
+00:17:14,684 --> 00:17:25,553
+But just the cardicorter() in some complicated way
+
+273
+00:17:25,593 --> 00:17:31,308
+That's m, that's m
+
+274
+00:17:35,518 --> 00:17:38,895
+We start with the spin, let's start with the spin
+
+275
+00:17:39,513 --> 00:17:45,399
+Previously having been oriented or prepared along a different axis
+
+276
+00:17:46,136 --> 00:17:49,097
+The n axis, how do we do that?
+
+277
+00:17:49,177 --> 00:17:52,545
+Well, I should have gone, I should have gone a little slower
+
+278
+00:17:52,585 --> 00:17:56,687
+We start the detector along the n axis
+
+279
+00:17:56,714 --> 00:18:01,128
+Do an experiment and discover that along the n axis
+
+280
+00:18:01,208 --> 00:18:04,119
+the spin comes up plus one 
+
+281
+00:18:04,174 --> 00:18:09,302
+Then we rotate the apparatus into the m direction
+
+282
+00:18:10,382 --> 00:18:12,945
+And we do another experiment on the same spin
+
+283
+00:18:14,123 --> 00:18:18,582
+It will either come up plus one or minus one along the m axis
+
+284
+00:18:18,623 --> 00:18:20,132
+Never in between, 
+
+285
+00:18:20,798 --> 00:18:29,142
+but the average value of the spin along the m axis here will not be one
+
+286
+00:18:29,207 --> 00:18:30,881
+It will not be minus one
+
+287
+00:18:31,007 --> 00:18:35,990
+What will it be? It will be the cosine angle between m and n
+
+288
+00:18:36,047 --> 00:18:41,535
+Another words, the component of m along n
+
+289
+00:18:42,651 --> 00:18:44,203
+How do we write that, let's write that 
+
+290
+00:18:44,683 --> 00:18:46,323
+Let's write a formula for that 
+
+291
+00:18:47,044 --> 00:18:50,212
+The symbol of averages in quantum mechanics 
+
+292
+00:18:50,269 --> 00:18:53,286
+are parallel angular brackets like this
+
+293
+00:18:53,388 --> 00:18:56,805
+This one is called the bra, this one is called the ket
+
+294
+00:18:56,877 --> 00:18:58,019
+And the whole things make a bracket 
+
+295
+00:18:59,596 --> 00:19:01,343
+which is British for bracket 
+
+296
+00:19:08,182 --> 00:19:11,788
+Okay the average value of sigma m
+
+297
+00:19:12,933 --> 00:19:18,614
+Knowing that it's originally oriented along the n direction
+
+298
+00:19:21,069 --> 00:19:23,248
+And measure along the n direction
+
+299
+00:19:24,446 --> 00:19:27,038
+There is a cosine of angle between m and n
+
+300
+00:19:27,574 --> 00:19:30,401
+Which can also be written as n dot m
+
+301
+00:19:33,253 --> 00:19:35,094
+The ordinary dot products of the vectors
+
+302
+00:19:35,174 --> 00:19:39,653
+Or just the component of n along m
+
+303
+00:19:40,470 --> 00:19:42,650
+The spin is oriented along n direction 
+
+304
+00:19:42,689 --> 00:19:47,842
+you measure along the m direction and the answer is plus or minus one
+
+305
+00:19:48,212 --> 00:19:53,833
+But on the average it's what a classical physicist might have expected 
+
+306
+00:19:54,228 --> 00:19:56,831
+if you measure the component of the spin 
+
+307
+00:19:56,865 --> 00:19:59,710
+which is oriented in one direction along some other direction
+
+308
+00:20:00,537 --> 00:20:03,448
+This is exactly the component of m along n
+
+309
+00:20:05,887 --> 00:20:09,925
+If you do the experiment many many times and collect averages
+
+310
+00:20:10,809 --> 00:20:16,134
+It seems that average quantities do behave like vectors
+
+311
+00:20:16,161 --> 00:20:17,913
+Or like three-vectors
+
+312
+00:20:17,953 --> 00:20:21,241
+But the individual experiments are very resistant 
+
+313
+00:20:21,281 --> 00:20:23,931
+to giving any answers other than plus or minus one
+
+314
+00:20:25,714 --> 00:20:27,017
+Okay, so this now
+
+315
+00:20:27,122 --> 00:20:30,658
+>> The apparatus doesn't know how to give the answer (inaudible)
+
+316
+00:20:33,421 --> 00:20:35,163
+Doesn't know how to get any
+
+317
+00:20:35,949 --> 00:20:38,973
+You might try to build another apparatus does better
+
+318
+00:20:39,049 --> 00:20:39,989
+But it won't be better
+
+319
+00:20:41,068 --> 00:20:47,765
+>> I'm not sure I understand the set up is actually prepare the 
+
+320
+00:20:48,651 --> 00:20:50,360
+the spin along the n axis
+
+321
+00:20:51,910 --> 00:20:53,959
+You measure it along the m axis
+
+322
+00:20:54,831 --> 00:20:58,746
+Then you get a random answer but random-biased 
+
+323
+00:20:58,847 --> 00:21:03,573
+Biased in such a way that the average is in that
+
+324
+00:21:03,653 --> 00:21:07,031
+For example what it means when m and n are the same direction?
+
+325
+00:21:07,086 --> 00:21:09,069
+That you didn't rotate it at all
+
+326
+00:21:09,124 --> 00:21:11,131
+What is n dot m indicates?
+
+327
+00:21:13,433 --> 00:21:17,213
+One, right, and that would just be the indication 
+
+328
+00:21:17,310 --> 00:21:20,851
+that you got the same answer if n was up, 
+
+329
+00:21:20,895 --> 00:21:23,506
+then you did the experiments to get it up and up and up
+
+330
+00:21:23,563 --> 00:21:24,674
+Over and over and over again
+
+331
+00:21:24,732 --> 00:21:25,892
+Okay,
+
+332
+00:21:27,980 --> 00:21:32,613
+>> What is ... here? Would it be more accurate 
+
+333
+00:21:32,653 --> 00:21:37,813
+>> say the expected value of the n times m goes to average?
+
+334
+00:21:37,847 --> 00:21:43,332
+No, no no, my friend I love to say expected value 
+
+335
+00:21:43,371 --> 00:21:45,630
+It is not the expected value 
+
+336
+00:21:48,723 --> 00:21:52,044
+If I gave you a probability distribution which look like this
+
+337
+00:21:53,459 --> 00:21:58,556
+What would be the expected value of it? How?
+
+338
+00:21:59,708 --> 00:22:03,246
+At least the expected value would be the one right in the middle
+
+339
+00:22:03,284 --> 00:22:06,028
+But the average value would be the one right in the middle
+
+340
+00:22:08,518 --> 00:22:15,835
+Expected values and average values are very different in general
+
+341
+00:22:16,348 --> 00:22:18,435
+And this is the average value, 
+
+342
+00:22:18,869 --> 00:22:21,338
+the average if you average the quantity 
+
+343
+00:22:21,378 --> 00:22:26,818
+then you get the standard sense of averaging, standard average
+
+344
+00:22:29,068 --> 00:22:34,019
+It's also called the expectation value but again that's a misnomer
+
+345
+00:22:34,074 --> 00:22:37,438
+That's not the value you expect necessarily 
+
+346
+00:22:38,596 --> 00:22:40,970
+>> So when they try, if I think about this right
+
+347
+00:22:41,033 --> 00:22:44,389
+>> the spin, the only we got the spin is 
+
+348
+00:22:44,445 --> 00:22:47,417
+>> when we measure you get plus one or minus one right?
+
+349
+00:22:48,603 --> 00:22:50,927
+Right, it's all we know until we do a lot of experiments
+
+350
+00:22:50,981 --> 00:22:53,704
+>> the z component that has to do with 	
+
+351
+00:22:54,439 --> 00:22:58,814
+>> there is nothing to do with the figure
+
+352
+00:23:01,350 --> 00:23:05,171
+Well, there are different experiments that you can do on a spin
+
+353
+00:23:06,443 --> 00:23:10,804
+The result of these experiments can be use
+
+354
+00:23:10,868 --> 00:23:13,483
+Or the particular experiment you do
+
+355
+00:23:14,173 --> 00:23:17,236
+Can be used to label what it is you measure
+
+356
+00:23:19,430 --> 00:23:23,252
+>> guess what, for what point are you doing with the spin
+
+357
+00:23:23,756 --> 00:23:26,106
+>> antagonly, it's up and down
+
+358
+00:23:30,448 --> 00:23:32,928
+>> plus one or minus one whatever that means we don't know
+
+359
+00:23:32,960 --> 00:23:35,034
+>> there is some geometric meanings
+
+360
+00:23:35,034 --> 00:23:38,858
+Yeah, there is no geometric meanings to begin with
+
+361
+00:23:39,634 --> 00:23:42,761
+But we did discover that by turning this thing over 
+
+362
+00:23:42,801 --> 00:23:44,413
+we always get the opposite side
+
+363
+00:23:44,488 --> 00:23:47,433
+Well, let's not even tell us that there is some difference 
+
+364
+00:23:47,459 --> 00:23:49,617
+Between the apparatus up and apparatus down
+
+365
+00:23:49,657 --> 00:23:52,067
+It's not like a thermometer measuring temperature
+
+366
+00:23:52,093 --> 00:23:57,447
+Some notion there that is different to the up and down
+
+367
+00:23:58,693 --> 00:24:02,296
+And then if we turn on the side we find out in some sense 
+
+368
+00:24:02,313 --> 00:24:05,274
+it does behave on an average like a vector
+
+369
+00:24:06,064 --> 00:24:07,135
+On the average
+
+370
+00:24:10,115 --> 00:24:11,826
+But it is what it is
+
+371
+00:24:11,855 --> 00:24:16,118
+>> that vector changes in prepared?
+
+372
+00:24:17,191 --> 00:24:20,598
+>> it's that when you prepared, you may have 
+
+373
+00:24:23,946 --> 00:24:28,506
+>> if you got average it one way, and then you prepare the average another way
+
+374
+00:24:28,562 --> 00:24:32,122
+>> it may have a z component, is that correct?
+
+375
+00:24:35,051 --> 00:24:38,073
+Yeah, so it is what it is, so I've told you a fact
+
+376
+00:24:38,827 --> 00:24:43,946
+Facts are if you first prepare by putting your apparatus along n direction
+
+377
+00:24:43,986 --> 00:24:47,413
+And then measure with the apparatus along the other direction
+
+378
+00:24:47,493 --> 00:24:51,413
+The average value of the results would be n dot m
+
+379
+00:24:51,469 --> 00:24:55,651
+But ever single event would be plus one or minus one
+
+380
+00:24:55,690 --> 00:24:58,082
+Nothing left to say, say it any way
+
+381
+00:24:59,601 --> 00:25:04,461
+>> if n is in the same direction or opposite direction with m
+
+382
+00:25:04,486 --> 00:25:06,757
+>> Then it's not just an average, it repeats itself
+
+383
+00:25:06,784 --> 00:25:08,749
+>> what if you takes the other
+
+384
+00:25:15,621 --> 00:25:19,915
+But if a number or result can only be plus one or minus one
+
+385
+00:25:20,867 --> 00:25:24,621
+And the average is plus one, it mean every event is plus one
+
+386
+00:25:29,385 --> 00:25:35,263
+Okay, let's talk about logic a little bit
+
+387
+00:25:38,391 --> 00:25:41,878
+A problem of quantum mechanics is that logic 
+
+388
+00:25:41,919 --> 00:25:48,536
+the logic of a quantum system is different than the logic of a classical system
+
+389
+00:25:49,508 --> 00:25:55,257
+but our brains are classical systems incapable of thinking in quantum logic
+
+390
+00:25:55,298 --> 00:25:59,090
+Nevertheless we can get a glimmering of what quantum logic is like
+
+391
+00:25:59,116 --> 00:26:01,143
+By thinking about this experiments
+
+392
+00:26:08,545 --> 00:26:11,896
+We can either talk about the calculus of these propositions
+
+393
+00:26:11,960 --> 00:26:15,729
+Or the nature of the states of a system
+
+394
+00:26:15,795 --> 00:26:17,156
+Space of states of a system
+
+395
+00:26:17,866 --> 00:26:20,033
+Let's start with the space of states of a system
+
+396
+00:26:20,132 --> 00:26:22,738
+Space of states of a system being classically for a moment
+
+397
+00:26:23,547 --> 00:26:27,051
+They are set, they are set of possible states
+
+398
+00:26:27,090 --> 00:26:34,354
+Here they are, heads and tails, six five four three two one for the die
+
+399
+00:26:36,041 --> 00:26:40,057
+Particle on a line would have infinite number of states
+
+400
+00:26:40,098 --> 00:26:42,429
+But the state form is set as some type
+
+401
+00:26:43,441 --> 00:26:49,986
+The proposition about the state of a system is basically a subset
+
+402
+00:26:50,012 --> 00:26:53,475
+It's a subset of states for which the proposition is true
+
+403
+00:26:55,059 --> 00:27:01,858
+So for the die, my proposition that the die shows a even face
+
+404
+00:27:02,986 --> 00:27:07,691
+That's a proposition and it's true for half this states of die
+
+405
+00:27:07,716 --> 00:27:12,002
+And so it correspond to the subset of two four six
+
+406
+00:27:14,562 --> 00:27:17,323
+The contradictory statement, the NOT statement 
+
+407
+00:27:18,445 --> 00:27:21,634
+NOT the die shows an even face
+
+408
+00:27:21,672 --> 00:27:24,407
+That's obviously the equivalent to the statement 
+
+409
+00:27:24,432 --> 00:27:25,847
+that the die shows an odd face
+
+410
+00:27:27,369 --> 00:27:35,168
+And so in classical logic, the NOT of the statement 
+
+411
+00:27:35,197 --> 00:27:37,625
+The NOT means the contradictory of a statement 
+
+412
+00:27:37,664 --> 00:27:40,710
+If this is the statement mean the same is true 
+
+413
+00:27:40,751 --> 00:27:42,548
+for the subset of states in here
+
+414
+00:27:42,587 --> 00:27:44,964
+But the NOT statements is the statement 
+
+415
+00:27:45,060 --> 00:27:51,788
+is the component of collection of things which are not in there
+
+416
+00:27:53,400 --> 00:27:56,135
+Okay, let's go to our spin
+
+417
+00:27:57,776 --> 00:28:01,033
+Proposition, the spin is up along the axis
+
+418
+00:28:02,144 --> 00:28:03,576
+What's the not of that?
+
+419
+00:28:03,616 --> 00:28:07,789
+The not of that is if we measure the spin along the z axis
+
+420
+00:28:07,816 --> 00:28:09,991
+We get something else other than one
+
+421
+00:28:10,845 --> 00:28:12,663
+The only other possibility is minus one
+
+422
+00:28:12,718 --> 00:28:16,238
+So the spin equal minus one along the z axis
+
+423
+00:28:16,301 --> 00:28:21,861
+Is the NOT statement of the spin is up along the axis
+
+424
+00:28:21,901 --> 00:28:25,391
+So logic make some sense
+
+425
+00:28:26,509 --> 00:28:29,209
+But we begin to find very peculiar difference 
+
+426
+00:28:29,302 --> 00:28:34,776
+when we start talking about the operations of combining proposition
+
+427
+00:28:35,426 --> 00:28:37,951
+to the use of AND and OR
+
+428
+00:28:38,072 --> 00:28:42,434
+AND and OR are different in quantum mechanics 
+
+429
+00:28:42,474 --> 00:28:44,066
+than they are in classical mechanics
+
+430
+00:28:44,855 --> 00:28:46,143
+I wanna lay that out
+
+431
+00:28:46,816 --> 00:28:58,024
+It's so interesting and so rarely explained that's sort of like to explain it
+
+432
+00:29:02,377 --> 00:29:06,360
+>> in the classical example like the die
+
+433
+00:29:06,417 --> 00:29:11,535
+>> the universal set is finite in terms of the elements in it
+
+434
+00:29:11,563 --> 00:29:12,604
+number of states
+
+435
+00:29:12,683 --> 00:29:16,043
+>> then you jump to quantum mechanics 
+
+436
+00:29:16,069 --> 00:29:20,357
+>> and things like that is called plausible time
+
+437
+00:29:20,382 --> 00:29:21,844
+>> Is that make a difference? 
+
+438
+00:29:21,901 --> 00:29:23,031
+All the possible of what?
+
+439
+00:29:23,107 --> 00:29:25,987
+>> All the possible experiments that you could do, not limited
+
+440
+00:29:26,044 --> 00:29:29,927
+Ya, you are getting at something important which we are going to get to
+
+441
+00:29:31,665 --> 00:29:36,445
+It's clear that in some sense the number of states of this spin is finite
+
+442
+00:29:36,485 --> 00:29:39,898
+It's just up or down, if we measure it along the axis
+
+443
+00:29:40,717 --> 00:29:45,986
+On the other hand it also looks like we can tilt the apparatus in any direction
+
+444
+00:29:46,049 --> 00:29:51,222
+And prepare the state in any orientation along any direction
+
+445
+00:29:51,262 --> 00:29:55,438
+So it looks like there is infinite ambiguity in the states of a system
+
+446
+00:29:55,496 --> 00:30:00,409
+This is what, this is the whole point of trying to understand the state of system
+
+447
+00:30:00,464 --> 00:30:02,693
+Understand the connection between 
+
+448
+00:30:02,770 --> 00:30:06,651
+the continuously different directions of electron could point in
+
+449
+00:30:06,679 --> 00:30:10,708
+and in fact any time we measure it along we are getting axes only up or down
+
+450
+00:30:10,787 --> 00:30:11,826
+But we will come to it
+
+451
+00:30:11,890 --> 00:30:14,314
+It's a good question, but we will come to it
+
+452
+00:30:15,314 --> 00:30:21,140
+Okay, let's talk about the calculus of propositions
+
+453
+00:30:21,202 --> 00:30:23,436
+I gave you two propositions A and B
+
+454
+00:30:24,226 --> 00:30:29,674
+I can form two combination of them A OR B and A AND B
+
+455
+00:30:29,715 --> 00:30:33,409
+Let's just see what does that mean in terms of sets
+
+456
+00:30:35,099 --> 00:30:38,099
+If we have two proposition this one is A this one is B
+
+457
+00:30:39,859 --> 00:30:49,148
+Then A AND B means the set of states which belong both to A and to B
+
+458
+00:30:50,610 --> 00:30:54,022
+So it's the intersection of the set A and the set B
+
+459
+00:30:54,050 --> 00:30:58,237
+called logically the intersection or set theoretically the intersection
+
+460
+00:30:58,275 --> 00:31:01,804
+It's basically the AND operation
+
+461
+00:31:02,546 --> 00:31:06,421
+This point is in A and it's in B
+
+462
+00:31:06,484 --> 00:31:08,018
+Okay, that's straightforward
+
+463
+00:31:09,224 --> 00:31:15,316
+And given any two propositions, you can always form
+
+464
+00:31:17,660 --> 00:31:23,533
+And the, the right way to say it, is this is the point of set here
+
+465
+00:31:23,615 --> 00:31:28,374
+from which the proposition A and B is true
+
+466
+00:31:28,413 --> 00:31:32,829
+A AND B is true here and it's true no where else 
+
+467
+00:31:34,998 --> 00:31:43,058
+What about these two? These two subsets A and B
+
+468
+00:31:44,740 --> 00:31:51,450
+A AND B is still a proposition, but it's always false 
+
+469
+00:31:52,276 --> 00:31:57,649
+There is no state for which A AND B is true
+
+470
+00:31:58,475 --> 00:32:02,937
+Alright, so there are As and Bs that you can put together
+
+471
+00:32:03,001 --> 00:32:09,416
+I mean, my friend san jade() over here is weight 600 pounds
+
+472
+00:32:09,457 --> 00:32:12,740
+And my friend uh, let's get another one
+
+473
+00:32:15,500 --> 00:32:19,898
+There are combinations which A AND B is always false, obviously 
+
+474
+00:32:20,379 --> 00:32:25,050
+Alright, in particular if you take A and NOT A, it's always false
+
+475
+00:32:25,844 --> 00:32:30,829
+But still, the definition of A and B is the intersection 
+
+476
+00:32:30,910 --> 00:32:35,090
+And it's true for all states in the intersection
+
+477
+00:32:35,130 --> 00:32:37,516
+OR is a little bit more complicated, 
+
+478
+00:32:37,548 --> 00:32:39,281
+at least there are two versions of OR
+
+479
+00:32:39,337 --> 00:32:42,385
+There is the exclusive OR or inclusive OR
+
+480
+00:32:42,425 --> 00:32:46,268
+In the English language when we usually use OR
+
+481
+00:32:46,324 --> 00:32:48,803
+we usually means the exclusive OR 
+
+482
+00:32:48,869 --> 00:32:58,481
+When we say that, I'm Jewish or I'm Catholic 
+
+483
+00:32:58,538 --> 00:33:03,500
+I ordinary mean that I can't be both, alright that I can't be both
+
+484
+00:33:03,538 --> 00:33:08,666
+So the usual OR is the exclusive OR, the one you normally think about
+
+485
+00:33:08,695 --> 00:33:12,324
+But in logic the term OR is the inclusive OR 
+
+486
+00:33:13,035 --> 00:33:19,472
+It means A, it's true if A is true, it's true if B is true, 
+
+487
+00:33:19,540 --> 00:33:21,667
+it's true when both of them are true
+
+488
+00:33:21,761 --> 00:33:28,666
+It's the inclusive OR , so I can correctly say
+
+489
+00:33:29,442 --> 00:33:35,400
+I am a physicist and I am a father, that's true 
+
+490
+00:33:35,463 --> 00:33:38,722
+But I can also say I am a physicist OR I am a father 
+
+491
+00:33:38,780 --> 00:33:42,211
+And it's also true, why? Because both of them are true
+
+492
+00:33:42,291 --> 00:33:44,276
+So that's the inclusive OR
+
+493
+00:33:45,056 --> 00:33:49,376
+Inclusive OR correspond to the union of two sets
+
+494
+00:33:49,416 --> 00:33:51,867
+If I have A and I have B, 
+
+495
+00:33:52,656 --> 00:33:56,354
+then the inclusive OR is everything in both sets
+
+496
+00:33:57,668 --> 00:34:01,572
+Or either sets, anything - not in both sets
+
+497
+00:34:01,598 --> 00:34:04,171
+Anything in either sets or in both sets
+
+498
+00:34:04,850 --> 00:34:09,896
+The exclusive OR with correspond to things in one set
+
+499
+00:34:10,336 --> 00:34:12,256
+but not the other set
+
+500
+00:34:13,062 --> 00:34:18,711
+The exclusive OR include, we are not always 
+
+501
+00:34:18,775 --> 00:34:23,657
+When I was speak of the OR, I always mean the inclusive OR
+
+502
+00:34:24,375 --> 00:34:29,542
+So that's AND and OR, what else can we say about it
+
+503
+00:34:29,572 --> 00:34:30,464
+They are not very much
+
+504
+00:34:41,864 --> 00:34:47,660
+We are now going to use that concept to try to formulate a set of AND and OR
+
+505
+00:34:47,688 --> 00:34:49,260
+and statements about a spin
+
+506
+00:34:49,316 --> 00:34:53,569
+And then ask how would we verify it, how would we verify them
+
+507
+00:34:53,633 --> 00:34:58,256
+How would we verify them, what does it mean when we verify them
+
+508
+00:34:59,276 --> 00:35:02,988
+Okay so let's take two proposition A and B 
+
+509
+00:35:03,044 --> 00:35:15,329
+to be sigma z is equal to plus one, and sigma x
+
+510
+00:35:15,369 --> 00:35:21,300
+This is A and this is B, sigma x is equal to plus one
+
+511
+00:35:22,156 --> 00:35:26,139
+They are both propositions, we will know how check either one of them
+
+512
+00:35:26,180 --> 00:35:32,026
+If we want to check sigma A, we will turn our apparatus vertically upward
+
+513
+00:35:32,082 --> 00:35:34,757
+And we measure the spin, we will check it true or false 
+
+514
+00:35:35,601 --> 00:35:38,178
+If we wanted to find out if B is true of false
+
+515
+00:35:38,249 --> 00:35:40,290
+We will turn the apparatus on it's side 
+
+516
+00:35:41,514 --> 00:35:45,617
+In classical logic, if there are two propositions
+
+517
+00:35:45,684 --> 00:35:49,306
+you can form a combination A OR B
+
+518
+00:35:49,386 --> 00:35:52,690
+Let's start with A OR B, so we will take A OR B
+
+519
+00:35:57,859 --> 00:36:00,209
+And let's think about checking it's true value 
+
+520
+00:36:00,254 --> 00:36:01,708
+Is it true or is it not?
+
+521
+00:36:01,748 --> 00:36:07,137
+Alright who design an experiment and try oh,let's circle back the steps
+
+522
+00:36:07,177 --> 00:36:13,844
+Let's imagine a hidden ghost in the world has previously unknown to us
+
+523
+00:36:13,884 --> 00:36:20,214
+Unknown to us, has originally oriented the spin upward along the z axis
+
+524
+00:36:23,202 --> 00:36:24,389
+First we know, we know nothing, 
+
+525
+00:36:24,447 --> 00:36:29,750
+but the ghost in the world has oriented the spin vertically upward
+
+526
+00:36:29,816 --> 00:36:33,089
+Just, it doesn't matter, but we could start that way
+
+527
+00:36:33,130 --> 00:36:37,169
+So the spin is upward, and let's check that if A OR B is true
+
+528
+00:36:37,209 --> 00:36:42,513
+How do we begin? Let's begin by measuring the spin along the z axis
+
+529
+00:36:42,578 --> 00:36:47,283
+We put our detector or our apparatus in vertical direction
+
+530
+00:36:48,174 --> 00:36:49,557
+And we measure it, what do we get?
+
+531
+00:36:51,285 --> 00:36:53,342
+We get plus one, we got plus one 
+
+532
+00:36:53,398 --> 00:36:56,621
+because the ghost in the world has made them to begin with
+
+533
+00:36:56,651 --> 00:37:00,174
+We don't have to go any further, A or B is true
+
+534
+00:37:00,878 --> 00:37:04,820
+A or B include the possibility that both A AND B is true
+
+535
+00:37:04,861 --> 00:37:08,392
+But all requires to be true is that one of them is true
+
+536
+00:37:09,041 --> 00:37:11,416
+And we've just discovered that A is true
+
+537
+00:37:12,110 --> 00:37:18,880
+So A or B is definitely true, so let's do the experiments in another way
+
+538
+00:37:18,909 --> 00:37:24,241
+in order which would not matter if we are doing classical physics
+
+539
+00:37:24,303 --> 00:37:27,638
+And the reason it doesn't matter when we do classical physics 
+
+540
+00:37:27,678 --> 00:37:31,304
+It's when we do an experiment that has no necessary affect 
+
+541
+00:37:31,321 --> 00:37:32,973
+on the outcome of latter experiments
+
+542
+00:37:33,008 --> 00:37:34,539
+The experiment is gentle enough
+
+543
+00:37:34,619 --> 00:37:38,523
+So let's do the experiment on the opposite order
+
+544
+00:37:39,225 --> 00:37:43,964
+Instead of first finding out wether A is true
+
+545
+00:37:44,044 --> 00:37:46,336
+Let's first ask if B is true
+
+546
+00:37:46,872 --> 00:37:49,251
+And then we will come back and ask if A is true
+
+547
+00:37:49,658 --> 00:37:53,281
+Alright, secretly the spin is pointing up at the z direction
+
+548
+00:37:53,314 --> 00:37:58,341
+So the ghost knows that, but we don't
+
+549
+00:37:59,050 --> 00:38:01,693
+So we come along, knowing nothing about the spin
+
+550
+00:38:01,723 --> 00:38:05,178
+And why should I measure it? Why should I measure A first?
+
+551
+00:38:05,207 --> 00:38:06,468
+Let's first measure B 
+
+552
+00:38:07,428 --> 00:38:10,113
+Let's first measure the x component of the spin
+
+553
+00:38:10,154 --> 00:38:11,067
+What do we get?
+
+554
+00:38:12,507 --> 00:38:14,659
+We get either plus one or minus one
+
+555
+00:38:15,755 --> 00:38:19,706
+We get plus one or minus one with a fifty percent probability
+
+556
+00:38:20,466 --> 00:38:25,330
+So there is a fifty percent probability that B is plus one
+
+557
+00:38:26,099 --> 00:38:31,187
+But if B is not plus one, it doesn't mean A or B is wrong
+
+558
+00:38:32,148 --> 00:38:34,522
+We still have a chance that when we measure A
+
+559
+00:38:34,811 --> 00:38:35,886
+It will be plus one 
+
+560
+00:38:37,131 --> 00:38:41,775
+Okay, the problem is in measuring B first time around
+
+561
+00:38:44,166 --> 00:38:48,182
+We orient, we prepare B along the x axis	 
+
+562
+00:38:48,198 --> 00:38:52,192
+Whatever we can, whether it is this way or this way
+
+563
+00:38:54,245 --> 00:38:58,124
+We have prepared that spin along the x axis 
+
+564
+00:38:58,933 --> 00:39:02,629
+What would that experiment give when we measure along z axis?
+
+565
+00:39:04,566 --> 00:39:09,149
+Fifty percent probability of being up and fifty percent probability of down
+
+566
+00:39:09,852 --> 00:39:17,048
+That means we have a 25% probability of finding both 
+
+567
+00:39:17,563 --> 00:39:24,185
+that sigma x was equal to minus one and sigma z is equal to minus one
+
+568
+00:39:24,904 --> 00:39:28,554
+We have a 50% probability in the first experiment 
+
+569
+00:39:29,365 --> 00:39:31,859
+that sigma x is not equal to one
+
+570
+00:39:32,529 --> 00:39:33,816
+And then in the next experiment 
+
+571
+00:39:33,859 --> 00:39:37,395
+we have another 50% probability on top of that
+
+572
+00:39:37,436 --> 00:39:40,235
+That sigma z was not equal to one
+
+573
+00:39:40,275 --> 00:39:44,220
+We have a net probability of one quarter 
+
+574
+00:39:44,260 --> 00:39:47,178
+that both A and B are false
+
+575
+00:39:47,890 --> 00:39:50,953
+When we did the experiment in one order
+
+576
+00:39:51,016 --> 00:39:53,483
+When we do the experiment in the other order
+
+577
+00:39:53,523 --> 00:39:56,212
+It is certain that A or B is right, right?
+
+578
+00:39:56,268 --> 00:39:57,804
+Because A is right
+
+579
+00:39:59,545 --> 00:40:03,585
+So whether it's true in classical physics
+
+580
+00:40:03,641 --> 00:40:07,825
+That the idea or A and B is symmetrical between A and B
+
+581
+00:40:08,577 --> 00:40:13,937
+The idea or the OR statement is A or B
+
+582
+00:40:13,977 --> 00:40:19,796
+If A or B is true, then B or A is true
+
+583
+00:40:19,824 --> 00:40:22,300
+And we find that in quantum mechanics 
+
+584
+00:40:23,305 --> 00:40:28,746
+The concept of A or B at best can only be defined 
+
+585
+00:40:28,786 --> 00:40:33,010
+in a way that the order should determine A or B
+
+586
+00:40:35,120 --> 00:40:38,548
+>> the propositions are incompletely specified
+
+587
+00:40:38,599 --> 00:40:40,017
+>> in the quantum mechanical case, 
+
+588
+00:40:40,098 --> 00:40:41,714
+>> because you have to give order right?
+
+589
+00:40:41,754 --> 00:40:45,700
+>> It doesn't like the particle has certain spin
+
+590
+00:40:45,740 --> 00:40:49,433
+>> which said that's right
+
+591
+00:40:49,464 --> 00:40:58,683
+Ya, that would, that would also say that any attempt to
+
+592
+00:40:59,967 --> 00:41:04,799
+think about the logics and experiments are different in quantum mechanics
+
+593
+00:41:09,418 --> 00:41:16,287
+>> in other words you measure A and B and certain
+
+594
+00:41:16,589 --> 00:41:18,271
+No, no, no, no, no, let's go back
+
+595
+00:41:18,989 --> 00:41:20,512
+I said the ghost in the world 
+
+596
+00:41:21,269 --> 00:41:24,870
+makes the spin pointing up along the z axis
+
+597
+00:41:25,527 --> 00:41:28,117
+That's, we don't know that, but that's true
+
+598
+00:41:31,332 --> 00:41:33,675
+Then if we measure sigma z first 
+
+599
+00:41:34,342 --> 00:41:37,732
+Under the circumstances, we will certainly find that A or B is true
+
+600
+00:41:39,183 --> 00:41:42,471
+But we measure under the same circumstances
+
+601
+00:41:42,991 --> 00:41:45,777
+The same degree of lack of presence of knowledge
+
+602
+00:41:46,615 --> 00:41:50,984
+We measured B first, we find out that there is 25% chance that
+
+603
+00:41:51,021 --> 00:41:55,581
+A or B, this composite statement here is false
+
+604
+00:41:56,224 --> 00:41:59,938
+>> So I have a question, the operation A or B result is now going to be 
+
+605
+00:42:00,042 --> 00:42:02,264
+>> a possibility of 25%
+
+606
+00:42:03,563 --> 00:42:10,098
+Well, not only that, but you have to specify which order you add A and B
+
+607
+00:42:10,138 --> 00:42:15,040
+So, alright, that's in itself an elementary something new that 
+
+608
+00:42:15,096 --> 00:42:22,203
+the OR statement does not unify the statement that were in symmetrical way
+
+609
+00:42:23,059 --> 00:42:31,771
+>> Question? I confused when we, the thing we are prepared to it
+
+610
+00:42:36,179 --> 00:42:38,828
+that doesn't matter, just to simplify the story,
+
+611
+00:42:38,892 --> 00:42:40,346
+It wouldn't matter
+
+612
+00:42:40,427 --> 00:42:44,018
+>> but we enter the experiment with new B that's 
+
+613
+00:42:44,058 --> 00:42:46,378
+>> (inaudible) the apparatus on the side
+
+614
+00:42:46,418 --> 00:42:49,922
+>> and I thought what you are saying is
+
+615
+00:42:49,962 --> 00:42:53,132
+>> now do this multiple time would get an average
+
+616
+00:42:53,169 --> 00:42:55,914
+Yeah, but we are not doing it, we are trying to find out
+
+617
+00:42:55,995 --> 00:42:58,451
+>> but you are saying, what you say is
+
+618
+00:42:58,509 --> 00:43:03,794
+>> when we do that measurement on the side we are preparing the spin again?
+
+619
+00:43:03,851 --> 00:43:08,212
+>> and that would say that from then on we should always get plus one
+
+620
+00:43:09,323 --> 00:43:11,899
+Plus one for sigma x, but then if we go for sigma z
+
+621
+00:43:11,939 --> 00:43:16,771
+we would get an random answer, measuring one and measuring
+
+622
+00:43:16,797 --> 00:43:21,142
+>> we are gonna get a random answer for the first inspection?
+
+623
+00:43:25,461 --> 00:43:30,789
+Think about it, I can't stop the class for
+
+624
+00:43:32,348 --> 00:43:36,129
+>> Question, if you have a measurement device (Ó¡¶ÈÈË£¿)
+
+625
+00:43:36,211 --> 00:43:40,650
+>> to measure two different particles
+
+626
+00:43:43,599 --> 00:43:45,834
+Why have you jumped to two particles?
+
+627
+00:43:46,699 --> 00:43:52,026
+>> I've been wondering the measurement does it spin vectors
+
+628
+00:43:52,830 --> 00:43:55,204
+What? I don't know
+
+629
+00:43:56,901 --> 00:44:05,503
+Okay, that was all review, the next thing which I was going to review
+
+630
+00:44:05,543 --> 00:44:09,679
+But I'm not going to because it take too long, it's vector spaces
+
+631
+00:44:10,751 --> 00:44:14,956
+I will just remind you real quickly, the vector space are such elements
+
+632
+00:44:15,020 --> 00:44:20,989
+You can add elements, this is not something you would do with sets
+
+633
+00:44:21,029 --> 00:44:25,373
+You can add two sets of course to make a bigger set
+
+634
+00:44:25,414 --> 00:44:32,211
+But there is no natural single element which is the sum of two elements
+
+635
+00:44:34,597 --> 00:44:41,058
+So the elements of the set, namely the basic individual objects are not
+
+636
+00:44:41,099 --> 00:44:43,179
+things that you can add and make new elements
+
+637
+00:44:46,514 --> 00:44:51,227
+The space of state of a quantum system is a linear vector space
+
+638
+00:44:51,266 --> 00:44:56,810
+and that means given any two states you can add them in some sense
+
+639
+00:44:56,850 --> 00:45:00,539
+and make another state, that's what we are going to explore
+
+640
+00:45:02,201 --> 00:45:06,443
+This logic, this peculiar logic, this peculiar distortion of logic
+
+641
+00:45:06,499 --> 00:45:09,107
+turns out to be the logic of vector spaces
+
+642
+00:45:09,171 --> 00:45:12,813
+So logic which is embedded into structure and spaces
+
+643
+00:45:12,877 --> 00:45:15,540
+in a very neat and tidy way
+
+644
+00:45:15,581 --> 00:45:18,645
+And that's ultimately why vector space is important
+
+645
+00:45:19,728 --> 00:45:24,049
+Okay, so let's remember the vector of things that you can add 
+
+646
+00:45:27,209 --> 00:45:31,203
+If there are two vectors A and B, you can add them
+
+647
+00:45:31,283 --> 00:45:34,225
+You can multiply them by complex numbers
+
+648
+00:45:36,930 --> 00:45:42,274
+Every vector has a dual vector, which is kind of its complex conjugate
+
+649
+00:45:43,346 --> 00:45:49,002
+If we call this object ket vectors because they are the second half of a bracket
+
+650
+00:45:49,970 --> 00:45:56,126
+Then the ket of bra vector which are in one to one correspondent
+
+651
+00:45:56,153 --> 00:46:01,715
+which are for every ket vector there are a bra vector
+
+652
+00:46:01,756 --> 00:46:05,234
+But it starts as if that it's a complex conjugate
+
+653
+00:46:05,276 --> 00:46:07,977
+So there are two dual vector spaces
+
+654
+00:46:09,212 --> 00:46:11,578
+And you can take in the product of a vector
+
+655
+00:46:11,606 --> 00:46:14,058
+A bra vector and a ket vector
+
+656
+00:46:14,827 --> 00:46:19,180
+So the bra vector and the ket vector can be combined together
+
+657
+00:46:19,245 --> 00:46:23,355
+It gives a complex number, the inner product as a complex number
+
+658
+00:46:26,052 --> 00:46:31,393
+And it satisfy there's equal to the complex conjugate 
+
+659
+00:46:31,433 --> 00:46:36,738
+The complex conjugate of the opposite order
+
+660
+00:46:38,001 --> 00:46:42,074
+So if you take a complex vector and a complex vector space
+
+661
+00:46:42,129 --> 00:46:47,179
+You take the inner product interchange the two vectors
+
+662
+00:46:47,249 --> 00:46:50,276
+Then it's equivalent to it's complex conjugation
+
+663
+00:46:50,332 --> 00:46:52,563
+That's pretty much what you need to know
+
+664
+00:46:53,957 --> 00:46:57,879
+That allows you to define given the idea of a inner product
+
+665
+00:46:57,930 --> 00:47:01,733
+That allows you to define the notion of a length of the vector
+
+666
+00:47:01,773 --> 00:47:05,109
+We don't usually think of the length of the vector
+
+667
+00:47:05,160 --> 00:47:07,122
+We usually think of the square of the length of the vector
+
+668
+00:47:07,162 --> 00:47:09,429
+And the square of the length of the vector
+
+669
+00:47:09,511 --> 00:47:15,462
+Let's say the letter is A, is the inner product of it's own conjugate
+
+670
+00:47:15,502 --> 00:47:20,788
+Or it's own dual, usually we say it's the inner product with itself
+
+671
+00:47:20,844 --> 00:47:23,262
+But that's slightly abuse of terminology
+
+672
+00:47:23,852 --> 00:47:25,075
+And this is always real
+
+673
+00:47:25,692 --> 00:47:31,499
+The reason it's always real because if we interchange A and A 
+
+674
+00:47:31,579 --> 00:47:33,172
+We just get back to the same thing
+
+675
+00:47:33,252 --> 00:47:38,213
+But this tells us the inner product of A and A is it's own complex conjugate
+
+676
+00:47:38,276 --> 00:47:46,163
+It's own complex conjugate, it's real, it's also positive, that's easy to prove
+
+677
+00:47:48,068 --> 00:47:50,973
+And it can be thought of the square root of the length of the vector
+
+678
+00:47:51,965 --> 00:47:56,604
+It's analogous to, closely analogous to a dot product 
+
+679
+00:47:56,685 --> 00:47:58,629
+with a three-vector with itself 
+
+680
+00:47:59,338 --> 00:48:03,972
+If A and B were three-vectors then we wouldn't distinguish the bra and the ket
+
+681
+00:48:04,827 --> 00:48:11,308
+But we would write that A dot B is the dot product between the two vectors
+
+682
+00:48:11,388 --> 00:48:12,345
+Analogous to this
+
+683
+00:48:13,098 --> 00:48:18,989
+And we would also write A dot A was the square of the length of A 
+
+684
+00:48:20,789 --> 00:48:23,190
+The inner product of a vector with itself 
+
+685
+00:48:23,253 --> 00:48:25,386
+can be thought of as square of the length of the vector
+
+686
+00:48:25,972 --> 00:48:29,380
+And finally there is the notion of orthogonality 
+
+687
+00:48:30,218 --> 00:48:33,692
+Two vectors are orthogonal when their inner product is zero
+
+688
+00:48:49,034 --> 00:48:52,378
+Same definition for dot product
+
+689
+00:48:52,442 --> 00:48:55,533
+When the dot product between two vectors is zero
+
+690
+00:48:55,611 --> 00:48:57,003
+Those vectors are orthogonal 
+
+691
+00:48:57,874 --> 00:49:02,166
+Those are the definition that we need for a vector space
+
+692
+00:49:03,414 --> 00:49:08,796
+The other definition is the definition of the dimensionality of the vector space
+
+693
+00:49:08,835 --> 00:49:11,652
+How many dimensions does the vector space have?
+
+694
+00:49:12,482 --> 00:49:13,941
+And the way to decide that is 
+
+695
+00:49:14,246 --> 00:49:18,226
+by asking the maximum numbers of orthogonal vectors
+
+696
+00:49:18,268 --> 00:49:19,993
+You can find in the vector space
+
+697
+00:49:20,036 --> 00:49:26,458
+For ordinary vectors, let's say in two three four five dimensions
+
+698
+00:49:26,515 --> 00:49:27,947
+this is obvious
+
+699
+00:49:28,906 --> 00:49:33,773
+In two dimensions I can take a vector, just pick any vector 
+
+700
+00:49:34,293 --> 00:49:38,045
+make a unit vector just by shrinking it's length to unit length
+
+701
+00:49:38,145 --> 00:49:42,333
+Then I look around and see if we can find another orthogonal vector to it
+
+702
+00:49:43,105 --> 00:49:45,981
+Yeah, in fact I can find two, one point to this way one point to that way
+
+703
+00:49:46,082 --> 00:49:51,291
+But that's not a important distinction, we find one other direction
+
+704
+00:49:51,697 --> 00:49:56,401
+Or one other vector that apart from the numerical multiple
+
+705
+00:49:56,502 --> 00:49:58,489
+Apart from the numerical multiple 
+
+706
+00:49:58,605 --> 00:50:00,793
+there is one other vector which is orthogonal to it
+
+707
+00:50:00,894 --> 00:50:03,345
+So there are two mutually, 
+
+708
+00:50:03,446 --> 00:50:07,209
+the maximal number of mutually orthogonal vector you can find is two
+
+709
+00:50:08,161 --> 00:50:11,217
+If you go to three direction you can find a third one, but no more
+
+710
+00:50:11,318 --> 00:50:14,017
+If you find a fourth one, you are out of directions
+
+711
+00:50:14,882 --> 00:50:18,407
+So three-dimensional space has three orthogonal vectors
+
+712
+00:50:19,143 --> 00:50:21,727
+Four dimensional has four and so forth
+
+713
+00:50:21,828 --> 00:50:24,799
+And same thing is true for complex vector spaces
+
+714
+00:50:25,735 --> 00:50:29,638
+We describe the version of complex vector spaces
+
+715
+00:50:29,738 --> 00:50:35,785
+Which is just column vector, alpha one alpha two alpha three...
+
+716
+00:50:36,769 --> 00:50:39,521
+And their dual, which is a row vector
+
+717
+00:50:40,236 --> 00:50:43,969
+Which would make up out of the complex conjugate of the variable
+
+718
+00:50:46,609 --> 00:50:51,970
+So once we have a vector, we can start looking for vectors orthogonal to it
+
+719
+00:50:52,071 --> 00:50:54,994
+Vectors which are perpendicular in this sense
+
+720
+00:50:58,857 --> 00:51:00,828
+Find the other one that look like third one
+
+721
+00:51:00,928 --> 00:51:05,444
+look for the fourth one, however many you find
+
+722
+00:51:05,545 --> 00:51:07,676
+You will eventually run out of direction
+
+723
+00:51:07,776 --> 00:51:09,308
+That's the dimensionality of space
+
+724
+00:51:09,751 --> 00:51:14,072
+To a special case in which there are only two entries here
+
+725
+00:51:15,407 --> 00:51:17,551
+It's a two dimensional vectors space 
+
+726
+00:51:17,651 --> 00:51:20,975
+you can only find two mutually orthogonal vectors
+
+727
+00:51:22,183 --> 00:51:25,191
+You can find many pairs of mutually orthogonal vectors  
+
+728
+00:51:25,291 --> 00:51:28,856
+In real space, they are just these, these, these
+
+729
+00:51:29,752 --> 00:51:31,040
+Pointing in different directions
+
+730
+00:51:31,156 --> 00:51:33,488
+But once you find two there won't be any other one
+
+731
+00:51:34,610 --> 00:51:38,568
+Okay, so we have the idea of mutually orthogonal vectors
+
+732
+00:51:39,570 --> 00:51:43,511
+Now we have to state what is the connection between the vector space
+
+733
+00:51:43,611 --> 00:51:47,391
+and the space of possible states of a quantum system
+
+734
+00:51:51,185 --> 00:51:52,921
+The quantum system that we are gonna deal with 
+
+735
+00:51:53,021 --> 00:51:56,425
+is still very primitive and simple, a single spin
+
+736
+00:51:56,527 --> 00:52:00,289
+Until we get the hand on that, we won't move to more complicated things
+
+737
+00:52:02,577 --> 00:52:04,281
+>> Is that in the illustration that 
+
+738
+00:52:05,633 --> 00:52:09,465
+>> the orthogonal vectors have to be perpendicular to each other  
+
+739
+00:52:10,065 --> 00:52:11,369
+That's what orthogonal means
+
+740
+00:52:12,121 --> 00:52:16,881
+>> so suppose you have a qubit that tilt to a hologram
+
+741
+00:52:16,982 --> 00:52:21,569
+>> it's still three-dimensional but the system is not perpendicular
+
+742
+00:52:22,265 --> 00:52:25,833
+Perpendicular and orthogonal are synonymic terms
+
+743
+00:52:28,473 --> 00:52:31,457
+Perpendicular and orthogonal both mean right angle
+
+744
+00:52:34,281 --> 00:52:36,969
+You are confused by something but I don't know what it is 
+
+745
+00:52:39,979 --> 00:52:45,409
+Ya, ya, I know you are, but
+
+746
+00:52:47,497 --> 00:52:53,801
+Perpendicular orthogonal, right angles are, they mean all the same thing
+
+747
+00:52:54,569 --> 00:52:58,433
+>> I think when you say linearly independent it's orthogonal
+
+748
+00:52:58,537 --> 00:53:02,553
+>> but if you (inaudible)
+
+749
+00:53:03,177 --> 00:53:08,281
+That's true, let's not confuse it, this is right
+
+750
+00:53:09,331 --> 00:53:12,553
+Linearly independent that is different than orthogonal, 
+
+751
+00:53:12,654 --> 00:53:15,081
+orthogonal is linearly independent, 
+
+752
+00:53:15,186 --> 00:53:18,049
+but linearly independent is less strong than orthogonal
+
+753
+00:53:18,854 --> 00:53:22,134
+These two vectors like that they are linearly independent
+
+754
+00:53:22,238 --> 00:53:28,218
+But they are not orthogonal ,both orthgonal, okay, let's come back
+
+755
+00:53:30,650 --> 00:53:36,362
+The state of a quantum system is a postulate forming a vector space
+
+756
+00:53:36,986 --> 00:53:39,074
+Form a complex vector space 
+
+757
+00:53:39,175 --> 00:53:43,095
+In fact the space of a symble system we are discussing 
+
+758
+00:53:43,196 --> 00:53:45,599
+form a two dimensional vector space
+
+759
+00:53:48,695 --> 00:53:50,810
+Let's write down some vectors, we know some states
+
+760
+00:53:50,910 --> 00:53:55,015
+We know that for example that is a state that can be prepared 
+
+761
+00:53:55,116 --> 00:54:00,218
+in which the spin is pointing upward or downward along the z axis
+
+762
+00:54:01,647 --> 00:54:07,287
+We characterize the state by the experiment that we did together in that state
+
+763
+00:54:08,951 --> 00:54:15,471
+That experiment as the apparatus vertical upward
+
+764
+00:54:16,127 --> 00:54:20,743
+and it created a state of the system which either could have been down or up
+
+765
+00:54:20,843 --> 00:54:22,519
+But let's say it's up
+
+766
+00:54:23,665 --> 00:54:25,926
+We can label that state in a number of ways
+
+767
+00:54:26,027 --> 00:54:27,470
+We can call it up, we can call it down
+
+768
+00:54:27,571 --> 00:54:32,558
+We can call it plus... up and down is the same as plus and minus 
+
+769
+00:54:32,672 --> 00:54:35,286
+We can draw them with an arrow that is up and down
+
+770
+00:54:35,387 --> 00:54:40,670
+What other ways could we, ah we can write it as sigma z equal to plus one
+
+771
+00:54:40,771 --> 00:54:42,870
+And sigma z equal to minus one
+
+772
+00:54:42,971 --> 00:54:47,990
+They all mean the same thing, up down, plus minus
+
+773
+00:54:48,091 --> 00:54:51,126
+Sigma z equals plus one, sigma z equals minus one
+
+774
+00:54:51,227 --> 00:54:53,582
+All the same thing, alright?
+
+775
+00:54:53,683 --> 00:54:57,902
+So there are two states that we know about that can access
+
+776
+00:54:59,913 --> 00:55:04,928
+Or we can prepare it by turning the apparatus upward along the z axis
+
+777
+00:55:05,007 --> 00:55:09,692
+Let's give them names, these state of vectors in vector space 
+
+778
+00:55:09,862 --> 00:55:15,677
+according to hypothesis and it can be called, let's say up and down 
+
+779
+00:55:23,014 --> 00:55:28,414
+If this is true the vector space is simple, just two-dimensional vector space
+
+780
+00:55:29,131 --> 00:55:32,358
+And that means that any vector in that space 
+
+781
+00:55:32,500 --> 00:55:36,446
+can be written as some linear combination of up and down
+
+782
+00:55:36,580 --> 00:55:41,086
+Another words, every vector in two-dimensional space 
+
+783
+00:55:41,239 --> 00:55:46,333
+can be written in terms of two basic vectors up and down
+
+784
+00:55:48,149 --> 00:55:52,381
+So enough to write any state whatever, up and down
+
+785
+00:55:54,046 --> 00:56:02,622
+Okay, so what about those states by tilting our apparatus along the x axis
+
+786
+00:56:04,118 --> 00:56:06,590
+We get something different; it's not the same thing
+
+787
+00:56:06,722 --> 00:56:11,038
+It's not up, because up means up along the z axis
+
+788
+00:56:11,158 --> 00:56:14,686
+It's not down, because down means down along the z axis
+
+789
+00:56:14,811 --> 00:56:16,870
+And we know they are different, 
+
+790
+00:56:16,989 --> 00:56:19,582
+because we know the result of the experiment 
+
+791
+00:56:19,718 --> 00:56:22,670
+on these two different kinds of states will generally be different
+
+792
+00:56:23,758 --> 00:56:29,726
+So we can call those states technically (?) left and right 
+
+793
+00:56:29,876 --> 00:56:33,054
+It's up and down, it's right and left
+
+794
+00:56:34,294 --> 00:56:37,974
+There are two other states, we can draw them this way if you like
+
+795
+00:56:38,087 --> 00:56:44,463
+It also correspond to sigma x equals one and sigma x equals minus one
+
+796
+00:56:44,625 --> 00:56:53,527
+And we could label them if you like, label them right and left
+
+797
+00:56:53,659 --> 00:56:58,708
+Finally we know that if we could turn on apparatus 
+
+798
+00:56:58,848 --> 00:57:03,953
+so the apparatus was pointing along the y axis
+
+799
+00:57:04,069 --> 00:57:10,706
+We can access to more states, I think we can call those in or out 
+
+800
+00:57:10,845 --> 00:57:12,907
+Into the blackboard and out of the blackboard
+
+801
+00:57:13,031 --> 00:57:21,522
+So there is in and out, into the blackboard and out of the blackboard
+
+802
+00:57:21,522 --> 00:57:25,742
+And they correspond to sigma y equals plus or minus one
+
+803
+00:57:25,742 --> 00:57:30,967
+We could label them in and out
+
+804
+00:57:33,615 --> 00:57:38,752
+All of the logic that I describe to you and all of the experimental results
+
+805
+00:57:38,894 --> 00:57:43,286
+As we will see, we will not see it immediately
+
+806
+00:57:43,450 --> 00:57:46,195
+Took some time to understand all of these
+
+807
+00:57:46,351 --> 00:57:51,283
+It is all summarized by a few statements 
+
+808
+00:57:51,412 --> 00:57:55,667
+but the first of which is that space of all states 
+
+809
+00:57:55,806 --> 00:57:58,662
+of the simple systems is two-dimensional 
+
+810
+00:57:58,798 --> 00:58:04,795
+has only two independent states which means that these other things
+
+811
+00:58:04,927 --> 00:58:07,189
+can be written in terms of up and down
+
+812
+00:58:08,645 --> 00:58:14,320
+So let's go to the general linear combination of up and down 
+
+813
+00:58:14,464 --> 00:58:15,743
+and ask what they mean
+
+814
+00:58:15,876 --> 00:58:21,327
+Let's take a vector, I guess we can call it a A
+
+815
+00:58:21,458 --> 00:58:26,927
+which is a form, the coefficient, the complex coefficient alpha one
+
+816
+00:58:28,250 --> 00:58:30,960
+times up plus another complex 
+
+817
+00:58:31,099 --> 00:58:38,557
+I suppose we should call this alpha up, alpha down times down
+
+818
+00:58:38,697 --> 00:58:46,033
+The alphas are complex numbers, the complex vector space we multiply
+
+819
+00:58:46,149 --> 00:58:49,726
+It could be real numbers, but in general they will be complex numbers
+
+820
+00:58:49,858 --> 00:58:55,260
+Let us suppose we knew what that meant
+
+821
+00:58:55,424 --> 00:58:58,237
+What kind of state is that, where it came from
+
+822
+00:58:58,390 --> 00:59:03,166
+Some new beasts, it's not up, it's not down somewhere in between
+
+823
+00:59:05,535 --> 00:59:10,848
+Next postulate, the next postulate is that if we were to measure up and down
+
+824
+00:59:10,979 --> 00:59:14,559
+If we were, if somebody prepare us with a electron in this state
+
+825
+00:59:14,729 --> 00:59:19,967
+And we measure up and down, we will find probability up and down 
+
+826
+00:59:20,099 --> 00:59:24,863
+And those probabilities would be probability for up, 
+
+827
+00:59:30,415 --> 00:59:35,679
+It's the square of the magnitude of these coefficient 
+
+828
+00:59:35,797 --> 00:59:41,792
+And the probability for down is equal to alpha star down and alpha down
+
+829
+00:59:41,925 --> 00:59:46,368
+Another words, it's basically the square of the coefficient
+
+830
+00:59:46,459 --> 00:59:54,049
+Or the square of the component of A in the direction up and down
+
+831
+00:59:54,159 --> 00:59:55,919
+It's alpha, 
+
+832
+00:59:56,049 --> 01:00:00,549
+it's essentially the components of the general vector along the two axis
+
+833
+01:00:00,699 --> 01:00:02,455
+Up and down
+
+834
+01:00:06,262 --> 01:00:09,034
+There is something that I failed to tell you
+
+835
+01:00:09,160 --> 01:00:11,074
+It's also a postulate, there are many many postulates 
+
+836
+01:00:11,210 --> 01:00:13,451
+But you can see they fit together in a neat package
+
+837
+01:00:13,590 --> 01:00:18,027
+There are probably a few postulates which I'm saying 
+
+838
+01:00:22,430 --> 01:00:24,556
+I bet we can reduce it down to four postulates, four axioms
+
+839
+01:00:24,679 --> 01:00:27,660
+But rather than try an axiom and applies it
+
+840
+01:00:31,636 --> 01:00:33,140
+Do a little more informally
+
+841
+01:00:33,269 --> 01:00:37,968
+What's the relation between up and down?
+
+842
+01:00:39,620 --> 01:00:42,972
+are they negative to each other?
+
+843
+01:00:43,112 --> 01:00:47,080
+No, they are orthogonal, now that's a postulate
+
+844
+01:00:47,220 --> 01:00:52,064
+The basic postulate is that the thing is measurably different 
+
+845
+01:00:52,185 --> 01:00:57,193
+the two states are such you can cleanly tell the difference 
+
+846
+01:00:57,327 --> 01:00:59,159
+between them by experiment
+
+847
+01:00:59,159 --> 01:01:00,558
+They are orthogonal, 
+
+848
+01:01:00,686 --> 01:01:07,423
+orthogonality literally means they are sufficiently different
+
+849
+01:01:07,565 --> 01:01:12,585
+That you can, with a single experiment or probably or maybe a few experiment
+
+850
+01:01:12,709 --> 01:01:14,035
+to tell the difference between them uniquely
+
+851
+01:01:14,185 --> 01:01:18,723
+I will tell you what it correspond to a set
+
+852
+01:01:21,348 --> 01:01:26,574
+You might say that two sets are orthogonal if they don't share any elements
+
+853
+01:01:26,684 --> 01:01:29,734
+This is not a standard terminology, but you might say it anyway
+
+854
+01:01:29,867 --> 01:01:31,992
+They are orthogonal they do not share any elements
+
+855
+01:01:32,806 --> 01:01:34,839
+That mean they are distinctively different
+
+856
+01:01:34,970 --> 01:01:38,552
+There is no chance that an experiment would confuse two of them
+
+857
+01:01:38,686 --> 01:01:43,575
+Experiment that a nice experiment to distinguish them 
+
+858
+01:01:43,710 --> 01:01:45,815
+will not lead to any ambiguity
+
+859
+01:01:45,979 --> 01:01:47,711
+The same is true for up and down
+
+860
+01:01:47,842 --> 01:01:49,680
+There is distinctly different of up and down
+
+861
+01:01:49,827 --> 01:01:51,543
+If you measure up, you will measure up again and again and again
+
+862
+01:01:51,684 --> 01:01:54,943
+And the version of that in quantum mechanics
+
+863
+01:01:55,069 --> 01:01:59,511
+Or the implication of that in quantum mechanics
+
+864
+01:01:59,662 --> 01:02:03,455
+Or the vectors is the thing that correspond to 
+
+865
+01:02:03,569 --> 01:02:08,823
+physically unambiguously different situation of orthogonal to each other
+
+866
+01:02:08,953 --> 01:02:12,247
+So up and down, or orthogonal to each other
+
+867
+01:02:14,039 --> 01:02:18,135
+What if we have a combination of up and down was some coefficient
+
+868
+01:02:18,265 --> 01:02:22,359
+Then it's the probability of be up and probability to be down
+
+869
+01:02:22,463 --> 01:02:28,471
+And the probability are given by alpha star alpha up
+
+870
+01:02:28,618 --> 01:02:34,729
+And alpha star alpha down again, this is a postulate
+
+871
+01:02:34,839 --> 01:02:40,058
+We will see in a moment what it correspond to
+
+872
+01:02:40,058 --> 01:02:42,366
+Well, what's the relationship between 
+
+873
+01:02:42,461 --> 01:02:44,157
+the probability for up and probability for down
+
+874
+01:02:44,283 --> 01:02:46,943
+The answer is if we add them we get one
+
+875
+01:02:47,078 --> 01:02:53,878
+And therefore alpha star alpha plus beta star beta is equal to one
+
+876
+01:02:55,637 --> 01:02:59,361
+Any reasonable state of a system which has a total probability one for
+
+877
+01:02:59,492 --> 01:03:01,496
+All the different things that can happen
+
+878
+01:03:02,296 --> 01:03:04,537
+should satisfy the sum of the probabilities 
+
+879
+01:03:04,714 --> 01:03:07,307
+or the distinct probabilities should add up to one 
+
+880
+01:03:07,422 --> 01:03:16,875
+So that said, alpha star alpha plus beta, not beta
+
+881
+01:03:17,006 --> 01:03:21,923
+Alpha up star up, alpha down star alpha down
+
+882
+01:03:22,048 --> 01:03:26,204
+Did I use beta before? Should equal to one
+
+883
+01:03:26,345 --> 01:03:33,428
+But that's equivalent to the statement of inner product A with itself
+
+884
+01:03:33,538 --> 01:03:36,879
+is equal to one
+
+885
+01:03:39,608 --> 01:03:40,636
+Only to think about it
+
+886
+01:03:44,843 --> 01:03:46,485
+Prove this
+
+887
+01:03:51,392 --> 01:03:56,491
+Prove that alpha star alpha summed over up and down 
+
+888
+01:03:56,618 --> 01:03:59,354
+is equal to the inner product of A with itself
+
+889
+01:03:59,478 --> 01:04:01,338
+It does follow from the postulate
+
+890
+01:04:04,682 --> 01:04:08,970
+And the assumption that u and d are perpendicular unit vectors
+
+891
+01:04:09,095 --> 01:04:14,506
+u and d are perpendicular unit vector like that assumption 
+
+892
+01:04:14,610 --> 01:04:15,962
+that is orthogonal to each other
+
+893
+01:04:16,095 --> 01:04:18,466
+That unit vectors, if they are not unit vectors 
+
+894
+01:04:18,620 --> 01:04:21,258
+you can change them into unit vectors
+
+895
+01:04:21,387 --> 01:04:26,058
+And then you can prove that the inner product of a vector with itself 
+
+896
+01:04:26,188 --> 01:04:30,972
+is just the sum of the squares of the conjugate times itself
+
+897
+01:04:31,110 --> 01:04:34,735
+That's a little thing to prove 
+
+898
+01:04:34,868 --> 01:04:40,987
+But what does that say, that says the physical state correspond to
+
+899
+01:04:41,116 --> 01:04:44,804
+a vector in a vector space with a unit length, a unit vector
+
+900
+01:04:45,560 --> 01:04:49,788
+A unit standing for the fact that the total probability is one
+
+901
+01:04:50,885 --> 01:05:00,716
+So states are only equal to vector in a vector space but they are unit vectors
+
+902
+01:05:02,415 --> 01:05:12,479
+The other term for unit vector is normalized vectors, normalized vectors
+
+903
+01:05:13,639 --> 01:05:16,103
+Normalized is another word for unit
+
+904
+01:05:17,023 --> 01:05:22,879
+So all physical states, all states or what you can do 
+
+905
+01:05:23,016 --> 01:05:25,855
+to that electron spin or anything else
+
+906
+01:05:26,991 --> 01:05:29,167
+Correspond to unit vectors
+
+907
+01:05:34,023 --> 01:05:42,111
+And given any such unit vectors the probability associate with it are
+
+908
+01:05:42,249 --> 01:05:44,615
+alpha star alpha up, alpha star alpha down
+
+909
+01:05:44,761 --> 01:05:48,927
+So that's a bit of information 
+
+910
+01:05:53,816 --> 01:05:58,910
+But wait a minute, what happen to these other vectors right and left?
+
+911
+01:05:58,910 --> 01:06:01,525
+What happen to right and left?
+
+912
+01:06:06,275 --> 01:06:06,405
+Right and left seem like different state 
+
+913
+01:06:06,405 --> 01:06:08,828
+But according to the postulate, 
+
+914
+01:06:10,145 --> 01:06:14,157
+right and left must be linearly combination of up and down
+
+915
+01:06:14,299 --> 01:06:19,485
+It's not too surprising because if you prepare right or left
+
+916
+01:06:19,622 --> 01:06:23,189
+then measure up or down, you get plus one or minus one
+
+917
+01:06:24,060 --> 01:06:26,252
+That's all it is, plus one or minus one
+
+918
+01:06:26,393 --> 01:06:29,685
+So it's not too surprising whatever left or right is
+
+919
+01:06:29,828 --> 01:06:32,864
+It's somehow a combination of up and down
+
+920
+01:06:34,012 --> 01:06:43,120
+And that statement is buried in the properties of vectors
+
+921
+01:06:43,120 --> 01:06:47,942
+So let's look at the state left and also the state right
+
+922
+01:06:48,117 --> 01:06:50,160
+What do we know about it?
+
+923
+01:06:50,306 --> 01:06:59,270
+Well, we know that it must be a combination alpha up up plus alpha down down
+
+924
+01:06:59,410 --> 01:07:05,380
+We can also write that in the form of column vector alpha up and alpha down
+
+925
+01:07:07,080 --> 01:07:09,020
+Number one, 
+
+926
+01:07:09,150 --> 01:07:15,460
+number two, supposing electron is created pointing along the right direction
+
+927
+01:07:16,610 --> 01:07:20,870
+The x axis, what do the probability for it to be up and down? Remember?
+
+928
+01:07:23,450 --> 01:07:31,260
+Half, half, that means alpha up star alpha up must equal to half
+
+929
+01:07:31,400 --> 01:07:36,870
+And alpha star down alpha down must equal to half
+
+930
+01:07:36,990 --> 01:07:43,420
+Let's make a guess, let's make a guess, the simplest guess would be to put
+
+931
+01:07:47,170 --> 01:07:50,570
+one over square root of two and one over square of two here
+
+932
+01:07:51,740 --> 01:07:56,623
+Alpha up is one over square of two, if alpha up is one over square of two
+
+933
+01:07:56,738 --> 01:08:00,982
+What is alpha star alpha? One half
+
+934
+01:08:02,591 --> 01:08:03,894
+This one is also one half
+
+935
+01:08:04,027 --> 01:08:06,545
+Now we could put, we could put some other things
+
+936
+01:08:06,673 --> 01:08:08,526
+There is one ambiguity is there
+
+937
+01:08:08,672 --> 01:08:10,417
+We could put a minus sign here
+
+938
+01:08:11,286 --> 01:08:14,631
+Or we can put a complex coefficient in front of here
+
+939
+01:08:14,762 --> 01:08:17,646
+Without changing the magnitude of it
+
+940
+01:08:17,777 --> 01:08:20,446
+We will come back to that, we will come back to what that means
+
+941
+01:08:21,518 --> 01:08:23,926
+We will come back to what that ambiguity means
+
+942
+01:08:25,134 --> 01:08:30,823
+But let's take this as a working hypothesis for what the state right is
+
+943
+01:08:30,975 --> 01:08:34,140
+That lead us to the state left
+
+944
+01:08:34,140 --> 01:08:39,664
+What do we know about left?
+
+945
+01:08:39,806 --> 01:08:46,130
+Well, right or left is physically distinguishable by a single experiment
+
+946
+01:08:46,264 --> 01:08:51,538
+You can orient your apparatus along the x direction 
+
+947
+01:08:51,671 --> 01:08:58,602
+Measure sigma x, and determine unambiguously whether it correspond to right or left
+
+948
+01:08:58,745 --> 01:09:02,434
+What does it mean about the vector right and left?
+
+949
+01:09:02,565 --> 01:09:04,572
+It means they are orthogonal 
+
+950
+01:09:05,356 --> 01:09:10,023
+Orthogonal or physically measurable distinct are the same things
+
+951
+01:09:10,153 --> 01:09:15,548
+So that tells us that left right should be equal to zero
+
+952
+01:09:15,665 --> 01:09:23,008
+Incidentally we have assumed that up down is equal to zero
+
+953
+01:09:23,918 --> 01:09:28,156
+Up down, orthogonal, by symmetrically 
+
+954
+01:09:28,292 --> 01:09:31,860
+it's nothing different between the x axis and z axis, 
+
+955
+01:09:32,004 --> 01:09:35,826
+so if the two vector up and down are orthogonal stands for reason that
+
+956
+01:09:35,826 --> 01:09:38,116
+two vectors left and right must be orthogonal
+
+957
+01:09:38,253 --> 01:09:43,734
+here's right, is there a vector orthogonal to it, ya?
+
+958
+01:09:43,870 --> 01:09:48,312
+There is a vector which is orthogonal to it, what is it?
+
+959
+01:09:48,434 --> 01:09:56,044
+One over square of two up, minus one over square of two down
+
+960
+01:09:57,377 --> 01:10:01,412
+Now it's the ambiguous to put the minus sign here or here, 
+
+961
+01:10:01,542 --> 01:10:03,340
+Either way would work
+
+962
+01:10:03,481 --> 01:10:08,332
+We will find out there is no physical difference between those two possibilities
+
+963
+01:10:08,475 --> 01:10:16,526
+We will find out later there is no physics, and the overall sign or a vector
+
+964
+01:10:16,526 --> 01:10:19,386
+So here is one which is orthogonal
+
+965
+01:10:19,514 --> 01:10:21,633
+How do we check this is orthogonal to that?
+
+966
+01:10:21,765 --> 01:10:29,955
+Well, let's write the row, here's a column vector describing right
+
+967
+01:10:30,097 --> 01:10:33,915
+Let's write down the row vector on it,
+
+968
+01:10:34,022 --> 01:10:35,723
+That's not the column vector, here is the column vector
+
+969
+01:10:35,855 --> 01:10:39,011
+The column vector describing right is one over square of two
+
+970
+01:10:39,163 --> 01:10:43,395
+One over square of two, that's these two
+
+971
+01:10:43,540 --> 01:10:46,579
+What is the row vector describing left
+
+972
+01:10:46,707 --> 01:10:48,155
+If we want to take the inner product
+
+973
+01:10:48,294 --> 01:10:51,690
+We want to combine the row vector with the column vector
+
+974
+01:10:51,840 --> 01:10:55,234
+So the row vector describing this right over here
+
+975
+01:10:55,371 --> 01:11:00,420
+is one over square root of two minus one over square of two
+
+976
+01:11:04,915 --> 01:11:07,515
+And to take the inner product between them
+
+977
+01:11:07,644 --> 01:11:11,715
+You take the product of first coefficient times the coefficient
+
+978
+01:11:11,836 --> 01:11:14,147
+Plus the product of the second one times the second one
+
+979
+01:11:14,261 --> 01:11:17,259
+Standard rules, by taking the inner product 
+
+980
+01:11:17,380 --> 01:11:19,332
+between a column vector and a row vector
+
+981
+01:11:19,483 --> 01:11:23,067
+You match the first component with the first component multiply them, 
+
+982
+01:11:23,209 --> 01:11:26,003
+second component with the second component, multiply them
+
+983
+01:11:26,130 --> 01:11:30,179
+and go right down to the, to all the components and add them up
+
+984
+01:11:31,884 --> 01:11:33,067
+okay, so what's the answer?
+
+985
+01:11:33,229 --> 01:11:36,772
+One half, sorry, one over square root of two
+
+986
+01:11:36,904 --> 01:11:40,707
+One over square root of two is half minus, one over square of two
+
+987
+01:11:42,339 --> 01:11:43,643
+This inner product is zero
+
+988
+01:11:43,759 --> 01:11:48,612
+So we found a second vector which correspond to right and left
+
+989
+01:11:48,750 --> 01:11:51,035
+A candidate if you like for right and left
+
+990
+01:11:51,200 --> 01:11:56,515
+And what's more you will notice that this vector also has the property
+
+991
+01:11:56,647 --> 01:12:03,496
+That the probability for it to be up and down is equal to half for each one
+
+992
+01:12:03,650 --> 01:12:08,035
+Why? Because the square of this one half, 
+
+993
+01:12:08,151 --> 01:12:11,875
+and the square of the magnitude of this one is one half
+
+994
+01:12:12,007 --> 01:12:16,937
+So we have a nice symmetrical relationship between left right and up and down
+
+995
+01:12:17,063 --> 01:12:19,771
+Incidentally it's kind of interesting 
+
+996
+01:12:19,898 --> 01:12:23,013
+Supposing them, where is my eraser?
+
+997
+01:12:30,834 --> 01:12:34,594
+Alright, it's kind of interesting, I've written right and left in terms of up and down
+
+998
+01:12:34,733 --> 01:12:38,648
+I could of course to write up and down in terms of right and left
+
+999
+01:12:38,778 --> 01:12:40,058
+Let's see what we get
+
+1000
+01:12:40,204 --> 01:12:44,690
+If we add these two equations the downs were canceled
+
+1001
+01:12:44,813 --> 01:12:46,442
+And we will just get up
+
+1002
+01:12:46,600 --> 01:12:51,154
+We will get two over square, we will get square two that's two over the square
+
+1003
+01:12:51,298 --> 01:12:55,794
+two times up equals to right plus left
+
+1004
+01:12:55,927 --> 01:12:57,890
+And then divided by square of two
+
+1005
+01:12:59,874 --> 01:13:08,586
+And we will find that down is equal to right minus left over square of two
+
+1006
+01:13:08,716 --> 01:13:12,166
+So you see it's completely reciprocal relationship between them
+
+1007
+01:13:13,366 --> 01:13:21,386
+If we began our experiments with the apparatus along the x direction
+
+1008
+01:13:21,526 --> 01:13:26,376
+We might have started, we might have started with left and right
+
+1009
+01:13:26,516 --> 01:13:30,856
+And come to the conclusion that up and down are combination of left and right
+
+1010
+01:13:32,046 --> 01:13:35,386
+Okay, that leaves in and out, what about in and out?
+
+1011
+01:13:36,506 --> 01:13:41,546
+Is there a third pair of vectors, in and out?
+
+1012
+01:13:41,676 --> 01:13:49,356
+Which stand in the same relationship to right and left and to up and down
+
+1013
+01:13:50,976 --> 01:13:54,816
+As they stand to each other, there is a third combination which has
+
+1014
+01:13:56,046 --> 01:13:58,856
+Which is symmetrically defined
+
+1015
+01:13:58,976 --> 01:14:00,536
+Let's put it up here
+
+1016
+01:14:01,546 --> 01:14:07,536
+We have up and down, and they are orthogonal to each other
+
+1017
+01:14:08,646 --> 01:14:13,576
+We have right and left, right which is equal to one over square of two
+
+1018
+01:14:13,696 --> 01:14:16,876
+We can write it as up plus down, and left
+
+1019
+01:14:21,176 --> 01:14:29,705
+And same thing one over square of two times up minus down
+
+1020
+01:14:29,848 --> 01:14:34,374
+We also have right left equal to zero
+
+1021
+01:14:34,515 --> 01:14:40,114
+More over we have something that we are not going to write
+
+1022
+01:14:40,225 --> 01:14:42,988
+But I will say it anyway
+
+1023
+01:14:43,103 --> 01:14:46,540
+If you start in right and you say what's the probability for up and down?
+
+1024
+01:14:46,764 --> 01:14:48,612
+It's one half
+
+1025
+01:14:48,744 --> 01:14:51,892
+If you start left and you ask the probability for up and down
+
+1026
+01:14:51,997 --> 01:14:53,164
+It's one half
+
+1027
+01:14:53,270 --> 01:14:55,468
+What happen if you start with up and down
+
+1028
+01:14:55,602 --> 01:14:57,132
+What's the probability for right and left?
+
+1029
+01:15:01,180 --> 01:15:03,780
+Well, it's also one half
+
+1030
+01:15:03,897 --> 01:15:06,469
+We know it's one half from the physics of the situation
+
+1031
+01:15:06,578 --> 01:15:11,275
+But it's also true if we rewrite up and down in terms of right and left
+
+1032
+01:15:11,410 --> 01:15:14,540
+The coefficients are also one over square of two
+
+1033
+01:15:14,681 --> 01:15:18,076
+So they are nicely symmetrical to each other
+
+1034
+01:15:18,206 --> 01:15:22,084
+Alright so that leaves us with the last possibility
+
+1035
+01:15:22,210 --> 01:15:25,925
+Or the last perpendicular direction in and out
+
+1036
+01:15:32,081 --> 01:15:36,865
+Okay so let's try to guess, it's gonna have an up
+
+1037
+01:15:37,021 --> 01:15:43,010
+And it's gonna have plus and down
+
+1038
+01:15:44,474 --> 01:15:46,586
+But it's gonna be some coefficient here
+
+1039
+01:15:46,701 --> 01:15:48,578
+And we don't know what those coefficients are yet
+
+1040
+01:15:50,082 --> 01:15:52,108
+What do we know about the coefficients?
+
+1041
+01:15:53,076 --> 01:15:56,860
+The complex in general, in general they are complex 
+
+1042
+01:15:58,226 --> 01:16:01,530
+>> there's not just be, the square would be one half
+
+1043
+01:16:01,671 --> 01:16:04,954
+The square would just, or the magnitude of the square has to be one half
+
+1044
+01:16:06,985 --> 01:16:10,439
+We also know that the coefficient here have to be such
+
+1045
+01:16:10,572 --> 01:16:13,537
+That in and out are perpendicular to each other
+
+1046
+01:16:16,918 --> 01:16:22,574
+And we also should find that if we rewrite in and out
+
+1047
+01:16:23,693 --> 01:16:29,946
+in terms of left and right, the coefficient should also have modulus one half
+
+1048
+01:16:30,123 --> 01:16:31,726
+just by symmetry
+
+1049
+01:16:31,726 --> 01:16:35,106
+Turns out that enough to determine them completely
+
+1050
+01:16:35,106 --> 01:16:37,097
+I'm not gonna prove it that's a homework assignment 
+
+1051
+01:16:37,234 --> 01:16:38,831
+but that's nice homework assignment
+
+1052
+01:16:38,970 --> 01:16:40,771
+Let's see what the requirements are
+
+1053
+01:16:40,928 --> 01:16:45,104
+The requirements are that in out equals to zero
+
+1054
+01:16:45,218 --> 01:16:52,104
+That both in or out when written in terms of up or down
+
+1055
+01:16:54,629 --> 01:16:59,898
+Should have coefficients whose magnitude is a half
+
+1056
+01:17:03,110 --> 01:17:05,052
+Square magnitude is a half
+
+1057
+01:17:05,202 --> 01:17:08,539
+When also when written in terms of left and right
+
+1058
+01:17:11,268 --> 01:17:15,084
+The same corresponding coefficients here
+
+1059
+01:17:15,341 --> 01:17:18,443
+Should have magnitude plus or minus a half
+
+1060
+01:17:18,570 --> 01:17:24,620
+That is enough to determine the coefficient in terms of up and down
+
+1061
+01:17:24,762 --> 01:17:28,301
+With a small ambiguity which is not interesting 
+
+1062
+01:17:28,421 --> 01:17:30,357
+I will tell you later what that ambiguity is
+
+1063
+01:17:30,503 --> 01:17:32,061
+There's no physics in it
+
+1064
+01:17:32,893 --> 01:17:36,749
+First of all is the overall sign of the vector hat has no physics
+
+1065
+01:17:36,876 --> 01:17:38,254
+We will see and find out
+
+1066
+01:17:38,370 --> 01:17:42,897
+Alright what is the solution? The solution is the one here
+
+1067
+01:17:43,005 --> 01:17:47,505
+And the i here, with a square root of two you have to put
+
+1068
+01:17:47,619 --> 01:17:50,598
+one over square of two, and one over square of two
+
+1069
+01:17:53,527 --> 01:18:04,693
+And out is the same thing, up, minus i over square of two, down
+
+1070
+01:18:06,677 --> 01:18:09,535
+Let's write them in terms of column and row vectors 
+
+1071
+01:18:09,671 --> 01:18:13,719
+>> so that will be the i over square of two on the in vector?
+
+1072
+01:18:14,839 --> 01:18:21,335
+Well i one yeah, is that what you are asking?
+
+1073
+01:18:22,447 --> 01:18:25,463
+Actually I had it right, it was one times i
+
+1074
+01:18:31,338 --> 01:18:33,932
+We can write these in terms of column vectors
+
+1075
+01:18:34,067 --> 01:18:39,116
+Let's write the various column vectors, up, what would you write for up?
+
+1076
+01:18:40,403 --> 01:18:50,700
+Well, we can write one zero, up is just up with no down component
+
+1077
+01:18:50,816 --> 01:18:59,724
+Down is just zero one, a one in the down place and a zero in the up place
+
+1078
+01:18:59,841 --> 01:19:07,500
+What about right? It's equal to one over square root of two
+
+1079
+01:19:07,660 --> 01:19:09,460
+One over square root of two
+
+1080
+01:19:09,601 --> 01:19:18,636
+Left, that's equal to one over square root of two 
+
+1081
+01:19:18,767 --> 01:19:21,492
+minus one over square root of two
+
+1082
+01:19:22,940 --> 01:19:31,372
+Now let's put in, in is one over square root of two,
+
+1083
+01:19:31,488 --> 01:19:39,149
+i over square root of two and right, sorry
+
+1084
+01:19:39,270 --> 01:19:44,332
+Out is equal to one over square root of two minus i over square root of two
+
+1085
+01:19:47,636 --> 01:19:55,564
+First question, is this orthogonal to this? How do we check?
+
+1086
+01:19:55,716 --> 01:19:59,677
+We take this times the complex conjugate of this
+
+1087
+01:19:59,800 --> 01:20:03,204
+And take this times the complex conjugate of this
+
+1088
+01:20:03,317 --> 01:20:06,103
+That's the rule of caluculating inner product
+
+1089
+01:20:06,103 --> 01:20:09,304
+We could constructing the row vector, we don't need to
+
+1090
+01:20:09,431 --> 01:20:12,047
+No let's, let's, let's, we don't need to
+
+1091
+01:20:12,169 --> 01:20:17,273
+Remember the row vector has complex conjugate entries
+
+1092
+01:20:18,851 --> 01:20:21,132
+But it's easy enough to do the inner product
+
+1093
+01:20:21,274 --> 01:20:26,174
+The inner product is the sum of the product of the entries
+
+1094
+01:20:27,287 --> 01:20:30,575
+times their complex conjugate
+
+1095
+01:20:31,487 --> 01:20:34,583
+Alright so one of these has to be the complex conjugate
+
+1096
+01:20:34,583 --> 01:20:37,533
+What's the product of these two complex conjugates?
+
+1097
+01:20:40,609 --> 01:20:43,314
+One half, it's just one half
+
+1098
+01:20:44,202 --> 01:20:47,003
+So this one times this gives you a one half
+
+1099
+01:20:47,003 --> 01:20:51,288
+And how about this times the complex conjugate of this?
+
+1100
+01:20:51,427 --> 01:20:55,618
+Minus one half, minus one half
+
+1101
+01:20:55,773 --> 01:21:00,013
+Minus sign over two, what is the complex conjugate of i over square root of two
+
+1102
+01:21:01,670 --> 01:21:03,404
+Minus sign over square root of two, 
+
+1103
+01:21:03,530 --> 01:21:05,494
+so we have to multiply minus sign over square root of two
+
+1104
+01:21:06,186 --> 01:21:07,378
+times another minus sign over the square root of two
+
+1105
+01:21:07,764 --> 01:21:12,520
+which gives us minus a half, i times i is minus one
+
+1106
+01:21:12,520 --> 01:21:17,711
+So that gives us minus a half, if we add them up we get zero
+
+1107
+01:21:17,862 --> 01:21:21,315
+So yes, these two are orthogonal to each other
+
+1108
+01:21:23,609 --> 01:21:27,177
+The magnitude of the coefficients here
+
+1109
+01:21:27,310 --> 01:21:31,352
+the square of the magnitude of the coefficient here is equal to a half
+
+1110
+01:21:31,520 --> 01:21:35,765
+which proves the in states or the out state 
+
+1111
+01:21:35,910 --> 01:21:39,365
+the probability of being up and down is one half
+
+1112
+01:21:40,789 --> 01:21:44,727
+How about the probability of being left or right?
+
+1113
+01:21:44,843 --> 01:21:47,071
+How might you figure that out?
+
+1114
+01:21:51,271 --> 01:21:51,858
+Say it again?
+
+1115
+01:21:55,055 --> 01:21:59,360
+Definition of i is the square root of minus one
+
+1116
+01:21:59,360 --> 01:22:03,559
+So i times i is always minus one
+
+1117
+01:22:06,434 --> 01:22:10,075
+i is not, oh sorry, this is
+
+1118
+01:22:10,207 --> 01:22:12,524
+This i is not in
+
+1119
+01:22:13,947 --> 01:22:30,411
+Okay, I and Out, Right and Left, Up and that's the way it is, Down
+
+1120
+01:22:30,540 --> 01:22:32,947
+And go back through out all the pages and change it
+
+1121
+01:22:36,722 --> 01:22:40,378
+Actually we can could have change it more easily, just change this i to capital I
+
+1122
+01:22:40,493 --> 01:22:43,047
+But that would be, that would be bad form
+
+1123
+01:22:43,176 --> 01:22:47,588
+>> Is there anything about this coordinate system 
+
+1124
+01:22:47,690 --> 01:22:51,450
+>> that implying a left or right hand coordinate system?
+
+1125
+01:22:54,496 --> 01:22:57,136
+Very very good question and the answer is yes
+
+1126
+01:22:57,259 --> 01:23:00,836
+But we will come to it, yes that's a very very good question
+
+1127
+01:23:00,977 --> 01:23:09,134
+What is this in here is telling us that it's a right hand coordinate system
+
+1128
+01:23:09,280 --> 01:23:10,926
+That or a left hand coordinate system
+
+1129
+01:23:10,926 --> 01:23:14,187
+And I didn't want to go there yet, but we will come to it
+
+1130
+01:23:14,332 --> 01:23:18,132
+We will come to it when we explore the Pauli matrices 
+
+1131
+01:23:19,080 --> 01:23:24,256
+For the moment, we just, we are doing, we are sort of guessing away
+
+1132
+01:23:24,256 --> 01:23:27,447
+Bumbling through, trying to find the right vectors 
+
+1133
+01:23:27,585 --> 01:23:31,931
+to describe the various states of the system
+
+1134
+01:23:34,564 --> 01:23:37,539
+Okay, this is my proposal if you like
+
+1135
+01:23:37,667 --> 01:23:41,746
+My best guess for the moment for what the states up down
+
+1136
+01:23:41,746 --> 01:23:47,169
+Those are basic, we start with those, in terms of those right and left R 
+
+1137
+01:23:47,170 --> 01:23:48,656
+and not in and out R
+
+1138
+01:23:48,656 --> 01:23:51,395
+Now what you could do, 
+
+1139
+01:23:52,592 --> 01:23:58,565
+we saw that you could rewrite that up and down in terms of left and right
+
+1140
+01:23:58,678 --> 01:24:01,394
+I've shown you how to do that 
+
+1141
+01:24:01,534 --> 01:24:06,536
+And that means you could write i and o in terms of left and right
+
+1142
+01:24:08,264 --> 01:24:11,684
+You could check what the coefficients are
+
+1143
+01:24:11,805 --> 01:24:15,224
+I hesitate to do it because I'm sure of bumble it
+
+1144
+01:24:15,356 --> 01:24:20,874
+In the other hand I tended to do it because I'm not sure to get it right
+
+1145
+01:24:22,081 --> 01:24:25,836
+I will take one shot at it, one shot and if it doesn't work out
+
+1146
+01:24:31,875 --> 01:24:36,954
+Okay, up is left plus right, down is left minus right
+
+1147
+01:24:37,096 --> 01:24:38,529
+With a square root of two
+
+1148
+01:24:38,672 --> 01:24:41,238
+So let's see if we can figure out what in is first
+
+1149
+01:24:41,349 --> 01:24:46,957
+Let's just do in, in is one over square root of two times up
+
+1150
+01:24:47,077 --> 01:24:54,309
+What did I say up was? Up I said was left plus
+
+1151
+01:25:01,029 --> 01:25:07,750
+is left plus right, left plus right
+
+1152
+01:25:11,308 --> 01:25:13,452
+But with a one over square root of two
+
+1153
+01:25:15,012 --> 01:25:17,180
+That gives me one half
+
+1154
+01:25:17,313 --> 01:25:26,980
+It's left over two, plus right over two, that's scary
+
+1155
+01:25:28,296 --> 01:25:37,167
+And then plus i over square root of two times down
+
+1156
+01:25:37,282 --> 01:25:38,773
+Anybody remember what down was?
+
+1157
+01:25:39,866 --> 01:25:43,093
+Left minus right over here, let's
+
+1158
+01:25:43,234 --> 01:25:55,927
+That will give me left, right over another square root of two
+
+1159
+01:25:56,068 --> 01:26:00,255
+minus left over another square root of two
+
+1160
+01:26:03,839 --> 01:26:05,767
+So the whole thing look like
+
+1161
+01:26:05,919 --> 01:26:09,275
+>>Is that two one halves, 
+
+1162
+01:26:11,987 --> 01:26:16,345
+>>No, the second term, no, let's go back, right there
+
+1163
+01:26:16,478 --> 01:26:18,783
+>>You get a half and then you got a two
+
+1164
+01:26:22,744 --> 01:26:31,869
+And this could just be one half, the square of two right
+
+1165
+01:26:32,913 --> 01:26:34,139
+Did I have it right?
+
+1166
+01:26:35,709 --> 01:26:39,910
+Okay so what do we get, we get the coefficient times the left
+
+1167
+01:26:40,055 --> 01:26:58,918
+So here we are, I is equal to one half, one minus i over two
+
+1168
+01:26:59,066 --> 01:27:09,672
+Was that right? One minus i over two times left plus
+
+1169
+01:27:09,808 --> 01:27:14,726
+I think it's one plus i over two times right
+
+1170
+01:27:17,322 --> 01:27:21,103
+>>I think you would write O instead of I?
+
+1171
+01:27:21,221 --> 01:27:23,855
+Here? I think we are doing I
+
+1172
+01:27:23,975 --> 01:27:28,967
+But I'm not sure, doesn't matter
+
+1173
+01:27:32,855 --> 01:27:35,344
+Uh, I think we were doing this one
+
+1174
+01:27:35,468 --> 01:27:40,463
+Up is left plus right, and down is left minus right
+
+1175
+01:27:40,592 --> 01:27:42,223
+The same i
+
+1176
+01:27:44,135 --> 01:27:50,383
+Okay, now, what's the magnitude of the two coefficients here?
+
+1177
+01:27:50,492 --> 01:27:53,671
+Then times it's complex conjugate
+
+1178
+01:27:53,806 --> 01:27:56,999
+Let's check, I don't see any square root of two in these things, 
+
+1179
+01:27:56,999 --> 01:27:58,373
+Do you see any square root of two here?
+
+1180
+01:27:58,490 --> 01:28:01,981
+You might have expected some square root of two huh?
+
+1181
+01:28:02,155 --> 01:28:08,326
+Nevertheless, I maintain you take this kind of complex conjugate 
+
+1182
+01:28:08,440 --> 01:28:09,982
+I hope that was true
+
+1183
+01:28:10,119 --> 01:28:14,558
+I maintain that if you take this kind of complex conjugate
+
+1184
+01:28:14,702 --> 01:28:17,641
+You will get one half, let's check it
+
+1185
+01:28:17,780 --> 01:28:26,521
+It's one minus i, times one plus i over, two times two is four
+
+1186
+01:28:27,713 --> 01:28:32,909
+One minus i plus one plus i, where is the law?
+
+1187
+01:28:33,026 --> 01:28:38,307
+It's two, it's two over four, which equal to one half
+
+1188
+01:28:39,908 --> 01:28:41,979
+Another word, this coefficient here, 
+
+1189
+01:28:42,083 --> 01:28:44,849
+although it does not contain any explicit square root of two
+
+1190
+01:28:45,894 --> 01:28:49,429
+It times it's complex conjugate is equal to one over two
+
+1191
+01:28:49,429 --> 01:28:53,424
+So the magnitude of this complex number here
+
+1192
+01:28:53,533 --> 01:28:55,886
+is one over the square root of two
+
+1193
+01:28:56,015 --> 01:28:59,699
+It's written in the form that you don't see any explicit one over square root of two
+
+1194
+01:28:59,842 --> 01:29:03,289
+But the magnitude of this one over square root of two
+
+1195
+01:29:03,289 --> 01:29:05,587
+And so is the magnitude of this
+
+1196
+01:29:05,725 --> 01:29:14,286
+The implication is that if you started in the state I, into the blackboard
+
+1197
+01:29:15,502 --> 01:29:17,807
+And instead of measuring up or down
+
+1198
+01:29:18,649 --> 01:29:24,591
+You measure left or right, the probability would be a half, alright?
+
+1199
+01:29:24,721 --> 01:29:32,083
+So we found three mutually relate, not, orthogonal to each other
+
+1200
+01:29:32,251 --> 01:29:35,280
+Up and down is not orthogonal to left and right
+
+1201
+01:29:35,415 --> 01:29:38,632
+They are orthogonal to each other 
+
+1202
+01:29:38,754 --> 01:29:41,496
+But they are not orthogonal in the vertical direction
+
+1203
+01:29:41,630 --> 01:29:48,099
+But each one, if expanded in any of the others
+
+1204
+01:29:48,099 --> 01:29:53,091
+would have coefficient whose magnitude was one over the square root of two
+
+1205
+01:29:54,623 --> 01:29:57,613
+So they are symmetrically related in that sense
+
+1206
+01:30:00,045 --> 01:30:04,957
+And what does it means?
+
+1207
+01:30:05,100 --> 01:30:08,379
+In effect, if you start with anyone one of them
+
+1208
+01:30:08,514 --> 01:30:12,069
+And measure the other component, if you start with up or down
+
+1209
+01:30:12,188 --> 01:30:17,789
+And measure sigma x and sigma y, you will get probability a half
+
+1210
+01:30:18,893 --> 01:30:23,619
+No matter what you start with, any one of these three combination
+
+1211
+01:30:23,619 --> 01:30:28,832
+Any one of these six combination and measure a perpendicular combination 
+
+1212
+01:30:28,943 --> 01:30:31,873
+you always get probability plus or minus a half
+
+1213
+01:30:32,031 --> 01:30:37,796
+Now I've put in here some postulates about what probabilities are
+
+1214
+01:30:37,937 --> 01:30:42,786
+without telling you, but I think we were coming along pretty well
+
+1215
+01:30:42,915 --> 01:30:45,586
+We have some mathematics here which is telling us
+
+1216
+01:30:45,718 --> 01:30:51,170
+That these three collections, or pairs of vectors
+
+1217
+01:30:51,354 --> 01:30:55,298
+are nicely symmetrically related to each other 
+
+1218
+01:31:08,830 --> 01:31:13,155
+That's the most important fact, yes,
+
+1219
+01:31:23,660 --> 01:31:28,323
+You know we don't have to, this is orthogonal to this
+
+1220
+01:31:28,432 --> 01:31:39,260
+Oh sorry, three bases, three bases at angles with respect to each other
+
+1221
+01:31:40,761 --> 01:31:45,138
+That's a good question, the question is could we find, excellent question
+
+1222
+01:31:45,256 --> 01:31:50,283
+Could we find another double 
+
+1223
+01:31:51,067 --> 01:31:57,652
+Let's call it big and little, no, we are already used the l
+
+1224
+01:31:57,814 --> 01:32:02,710
+Uh, fat and skinny, fat and skinny
+
+1225
+01:32:02,710 --> 01:32:10,170
+Can we find another pair such that fact is orthogonal to skinny
+
+1226
+01:32:11,631 --> 01:32:16,313
+And the inner product that's what it actually came down to
+
+1227
+01:32:16,479 --> 01:32:23,961
+Or that the expansion coefficients of each one in terms of the other kind of bases
+
+1228
+01:32:24,122 --> 01:32:26,769
+are always equal to one over square root of two 
+
+1229
+01:32:26,907 --> 01:32:29,065
+or always one half in magnitude?
+
+1230
+01:32:31,193 --> 01:32:35,673
+The answer is no, there is no third, there is no fourth combination
+
+1231
+01:32:35,789 --> 01:32:39,609
+that's in the same relationship, that's not obvious, that's not obvious
+
+1232
+01:32:41,642 --> 01:32:43,873
+It is a fact that we live in a three-dimensional world
+
+1233
+01:32:44,008 --> 01:32:48,825
+It's exactly the fact that we live in a three-dimensional world right?
+
+1234
+01:32:50,321 --> 01:32:53,177
+It's exactly the fact that the statement of 
+
+1235
+01:32:53,178 --> 01:32:55,970
+three-dimension of space can be represented
+
+1236
+01:32:55,970 --> 01:33:02,726
+in two-dimensional, in two-dimensional vector space terms
+
+1237
+01:33:02,870 --> 01:33:05,570
+Alright let me tell you something else, which is true
+
+1238
+01:33:07,098 --> 01:33:12,490
+If I give you a column vector, let's say a column vector 
+
+1239
+01:33:13,578 --> 01:33:15,964
+Alpha one, alpha two
+
+1240
+01:33:16,100 --> 01:33:21,515
+Or it's just the coefficient of the expansion alpha up or alpha down
+
+1241
+01:33:21,643 --> 01:33:22,506
+If you like
+
+1242
+01:33:24,656 --> 01:33:29,802
+The question is how much freedom is there in the alphas 
+
+1243
+01:33:29,932 --> 01:33:35,498
+such that it doesn't change the physical nature of the state? How much freedom?
+
+1244
+01:33:35,641 --> 01:33:40,139
+Does every combination of alpha up and alpha down 
+
+1245
+01:33:40,270 --> 01:33:41,905
+correspond to a different state?
+
+1246
+01:33:42,032 --> 01:33:42,903
+The answer is no
+
+1247
+01:33:43,039 --> 01:33:49,160
+First of all, the total probability has to add up to one
+
+1248
+01:33:49,330 --> 01:33:51,296
+So that's one constraint right there 
+
+1249
+01:33:51,447 --> 01:33:59,337
+that alpha up star alpha up plus alpha down star alpha down is equal to one
+
+1250
+01:34:00,665 --> 01:34:03,172
+That's another fact that we have not got to yet
+
+1251
+01:34:03,304 --> 01:34:08,713
+But we will find that every physically observable quantity 
+
+1252
+01:34:08,840 --> 01:34:12,137
+always associate with a state
+
+1253
+01:34:12,258 --> 01:34:17,583
+Always involve an alpha times the complex conjugate alpha
+
+1254
+01:34:17,721 --> 01:34:22,342
+You will find that, it's, we won't put it in
+
+1255
+01:34:22,487 --> 01:34:25,862
+It will emerge just as the consequences of the postulate
+
+1256
+01:34:25,996 --> 01:34:33,852
+But what it says is that if you multiply both of the alphas here
+
+1257
+01:34:34,010 --> 01:34:38,997
+By the same phase factor, does anybody know what are the phase factors?
+
+1258
+01:34:39,124 --> 01:34:44,530
+The phase factor was a complex number of the form e to the i theta
+
+1259
+01:34:45,802 --> 01:34:51,738
+of unit length, doesn't change the magnitude of either coefficient here
+
+1260
+01:34:51,870 --> 01:34:57,968
+That if we multiply every entries by the same phase factor
+
+1261
+01:34:57,968 --> 01:35:01,020
+It doesn't affect anything, that means that 
+
+1262
+01:35:01,158 --> 01:35:03,635
+if I just give you two complex numbers here 
+
+1263
+01:35:03,767 --> 01:35:07,959
+there are two redundant piece of information 
+
+1264
+01:35:08,094 --> 01:35:12,240
+that really don't have anything to do with physical character of the states
+
+1265
+01:35:12,359 --> 01:35:15,384
+First is the over all magnitude, 
+
+1266
+01:35:16,594 --> 01:35:20,442
+because the over all magnitude should always be such that
+
+1267
+01:35:20,587 --> 01:35:22,568
+that sum of these square roots add up to one
+
+1268
+01:35:23,568 --> 01:35:29,893
+So that means one core constraint if you like, and the redundancy
+
+1269
+01:35:30,033 --> 01:35:35,794
+The redundancy is that if you multiply both entries by the same phase factor here
+
+1270
+01:35:35,937 --> 01:35:37,947
+It also doesn't change the states
+
+1271
+01:35:39,284 --> 01:35:40,253
+So then you could ask, 
+
+1272
+01:35:40,393 --> 01:35:47,158
+how many independent variables are there which characterize the state of a system?
+
+1273
+01:35:47,158 --> 01:35:50,200
+Of this system, how many of them are there?
+
+1274
+01:35:50,358 --> 01:35:55,829
+Well, let's count, there are two independent variables 
+
+1275
+01:35:55,962 --> 01:35:59,395
+If we don't worry about either of this constrain over here
+
+1276
+01:35:59,514 --> 01:36:03,118
+How many things does it take to characterize two complex numbers?
+
+1277
+01:36:04,219 --> 01:36:07,059
+Four, four real numbers, right?
+
+1278
+01:36:07,949 --> 01:36:14,163
+But now, one of them doesn't count, because we have to satisfy the constrain
+
+1279
+01:36:14,305 --> 01:36:16,899
+That the total length of this must be equal to one
+
+1280
+01:36:17,049 --> 01:36:21,876
+One of them doesn't count, but also the another one doesn't could because 
+
+1281
+01:36:22,004 --> 01:36:25,812
+The overall phase if we are to multiply everything by the same phase factor
+
+1282
+01:36:25,961 --> 01:36:29,941
+Here it also doesn't count, doesn't change the nature of the states
+
+1283
+01:36:30,137 --> 01:36:37,688
+So two of those four parameters are irrelevant 
+
+1284
+01:36:37,816 --> 01:36:39,508
+to the physical character of the states
+
+1285
+01:36:39,638 --> 01:36:41,888
+How many of that leave over? Two
+
+1286
+01:36:42,010 --> 01:36:44,276
+Two real numbers
+
+1287
+01:36:44,421 --> 01:36:50,260
+How many numbers does it take to characterize the direction of a unit vector?
+
+1288
+01:36:52,404 --> 01:36:53,798
+Two 
+
+1289
+01:36:53,932 --> 01:36:57,908
+What do they call? Longitude and latitude or something like that
+
+1290
+01:36:58,042 --> 01:37:00,869
+Just the direction of the vector can be characterized by the two angles
+
+1291
+01:37:02,144 --> 01:37:05,657
+These two pairs of number are the same 
+
+1292
+01:37:06,484 --> 01:37:11,444
+The fact that it takes two real parameters 
+
+1293
+01:37:11,569 --> 01:37:16,461
+to describe a two-component vector like this
+
+1294
+01:37:16,579 --> 01:37:19,391
+is closely related to the fact 
+
+1295
+01:37:19,392 --> 01:37:25,560
+it takes two real angles to describe the direction of a three-vector
+
+1296
+01:37:25,731 --> 01:37:28,267
+in ordinary three-dimensional space 
+
+1297
+01:37:29,581 --> 01:37:35,866
+If we would have added more components here, it would be more complicated
+
+1298
+01:37:35,997 --> 01:37:40,547
+Yes there is a deep connection between the fact that
+
+1299
+01:37:40,697 --> 01:37:43,155
+Very deep connection between the facts that 
+
+1300
+01:37:43,294 --> 01:37:47,419
+we only find three independent combination of this
+
+1301
+01:37:48,771 --> 01:37:51,237
+Three independent combinations, and the fat and skinny 
+
+1302
+01:37:51,362 --> 01:37:56,795
+We can't find fat and skinny basically they won't be there
+
+1303
+01:37:56,926 --> 01:38:00,275
+Not without increasing the dimensionality of the vector space
+
+1304
+01:38:00,445 --> 01:38:04,475
+That's in fact very deeply connected with three-dimensional space
+
+1305
+01:38:05,779 --> 01:38:10,363
+Space was nine dimensional or something like that 
+
+1306
+01:38:10,509 --> 01:38:13,443
+We would not be able to represent 
+
+1307
+01:38:13,577 --> 01:38:17,339
+the direction of a little arrow in it quantum mechanically
+
+1308
+01:38:17,470 --> 01:38:19,243
+Like two component vectors 
+
+1309
+01:38:20,348 --> 01:38:22,348
+We will need more components 
+
+1310
+01:38:23,451 --> 01:38:29,051
+>> it seems like just physically you would take three because 
+
+1311
+01:38:29,158 --> 01:38:31,899
+>> two would specify the collection but you could say 
+
+1312
+01:38:32,030 --> 01:38:34,028
+>> whether it is plus one or minus one
+
+1313
+01:38:35,220 --> 01:38:37,603
+No no no, the plus one or minus one
+
+1314
+01:38:38,603 --> 01:38:40,963
+>> inherited from the space right here
+
+1315
+01:38:41,096 --> 01:38:42,787
+Yeah
+
+1316
+01:38:42,928 --> 01:38:48,894
+>> How does it stay alive if you have three complex numbers in vector space
+
+1317
+01:38:49,089 --> 01:38:51,759
+You mean if you want to study some higher dimensinoal space?
+
+1318
+01:38:51,907 --> 01:38:53,962
+Oh god we have to figure it out that how many questions 
+
+1319
+01:38:54,103 --> 01:38:56,108
+and how many directions and how many parameters are there to
+
+1320
+01:38:57,086 --> 01:39:02,674
+That's more complicated, that we are not gonna try 
+
+1321
+01:39:04,962 --> 01:39:10,835
+I got to tell you I got really scared when I realize 
+
+1322
+01:39:10,964 --> 01:39:13,244
+we won't get any square root of two by doing this
+
+1323
+01:39:14,387 --> 01:39:28,883
+>>this map is based on three space? (inaudible)
+
+1324
+01:39:29,016 --> 01:39:31,291
+Yes it is, all of what you said is true
+
+1325
+01:39:31,428 --> 01:39:33,970
+>> If you say that there is nine dimensions, 
+
+1326
+01:39:34,077 --> 01:39:37,405
+>> would this experiment still agrees?
+
+1327
+01:39:41,853 --> 01:39:42,012
+It would be a version of it, It would be a version of it,
+
+1328
+01:39:42,012 --> 01:39:44,254
+It would be more complicated and 
+
+1329
+01:39:44,389 --> 01:39:50,237
+you couldn't describe the spin of a particle by just by two components like this
+
+1330
+01:39:50,382 --> 01:39:51,885
+It will take more components
+
+1331
+01:39:51,885 --> 01:39:53,586
+>> What would be the apparatus of it?
+
+1332
+01:39:53,695 --> 01:39:59,345
+Spinner theory, similar things, similar things
+
+1333
+01:40:01,313 --> 01:40:05,489
+Don't try to, look, this is enough for now
+
+1334
+01:40:05,631 --> 01:40:12,594
+Understanding this, if we run to four dimensional space like this
+
+1335
+01:40:12,752 --> 01:40:14,545
+We would need four component object but ...
+
+1336
+01:40:14,680 --> 01:40:19,025
+The three to four would be 
+
+1337
+01:40:19,151 --> 01:40:23,697
+>> You said the states which was corresponded to 
+
+1338
+01:40:23,814 --> 01:40:27,569
+>> what about the (inaudible)
+
+1339
+01:40:31,426 --> 01:40:37,432
+But of course if you add two unit vectors you can get a none unit vector, you can
+
+1340
+01:40:38,425 --> 01:40:41,597
+But then, the rule of the state of the system are divided through 
+
+1341
+01:40:41,726 --> 01:40:45,401
+divided through by a overall factor until it's normalized
+
+1342
+01:40:45,401 --> 01:40:51,126
+They have a same significance as 
+
+1343
+01:40:51,258 --> 01:40:54,883
+probability distribution which don't summed up to one
+
+1344
+01:40:56,114 --> 01:40:59,612
+You can always go back and say somehow somewhere along the line
+
+1345
+01:40:59,746 --> 01:41:04,124
+I got some answers for probabilities which add up to something greater than one
+
+1346
+01:41:04,273 --> 01:41:06,364
+I will just divide through by
+
+1347
+01:41:06,365 --> 01:41:11,631
+tell the probabilities to find the normalized probabilitie distributions
+
+1348
+01:41:11,631 --> 01:41:17,909
+So in intermediate steps of calculation might well be 
+
+1349
+01:41:18,047 --> 01:41:20,391
+presents of vectors which are not normalized
+
+1350
+01:41:20,522 --> 01:41:23,607
+But at the end of the day, the states of the systems are normalized vectors
+
+1351
+01:41:23,736 --> 01:41:31,006
+Normalized vectors, and with no memories of of their overall phases is
+
+1352
+01:41:31,125 --> 01:41:32,692
+There is a mathematical term for that 
+
+1353
+01:41:37,388 --> 01:41:38,261
+Questions?
+
+1354
+01:41:38,408 --> 01:41:41,167
+I've gone through a lot of stuffs
+
+1355
+01:41:43,598 --> 01:41:46,078
+We will make it more precise 
+
+1356
+01:41:46,214 --> 01:41:49,977
+And the next time when we discuss observables 
+
+1357
+01:41:50,076 --> 01:41:54,102
+In particular when we discuss what the mathematical nature 
+
+1358
+01:41:54,229 --> 01:41:57,341
+of these sigma x and sigma y and the sigma z-s are 
+
+1359
+01:41:57,341 --> 01:42:02,347
+For the moment we just specify them sort of by experiment
+
+1360
+01:42:02,482 --> 01:42:06,221
+So you hold your apparatus this way and measure something call sigma x
+
+1361
+01:42:06,221 --> 01:42:08,994
+And you hold it that way and measure something call sigma y
+
+1362
+01:42:09,120 --> 01:42:12,718
+And we use some symmetries namely 
+
+1363
+01:42:12,840 --> 01:42:16,115
+the equivalence of different directions of space 
+
+1364
+01:42:16,270 --> 01:42:32,597
+to guide us into finding expressions for the various physical vectors 
+
+1365
+01:42:32,755 --> 01:42:35,014
+describing different orientation of the spins
+
+1366
+01:42:35,151 --> 01:42:37,598
+But we haven't been very rigorous about it
+
+1367
+01:42:37,729 --> 01:42:41,158
+It's been no, I've made no pretense of really 
+
+1368
+01:42:41,289 --> 01:42:43,950
+a mathematical clear theorization of these things
+
+1369
+01:42:45,118 --> 01:42:48,542
+Sort of see to the plan and guessing to a logic stance
+
+1370
+01:42:48,710 --> 01:42:52,333
+Next time we will make some rigorous postulates 
+
+1371
+01:42:53,350 --> 01:42:55,766
+about what these things really means
+
+1372
+01:42:55,874 --> 01:43:03,157
+And their relationship, these things and these things 
+
+1373
+01:43:03,289 --> 01:43:05,726
+and what the relationship between them is
+
+1374
+01:43:05,863 --> 01:43:11,301
+The vectors and the things that you measure, these are the states
+
+1375
+01:43:11,301 --> 01:43:13,137
+But these are the things you measure about
+
+1376
+01:43:13,257 --> 01:43:16,212
+And the question is what is the connection between them
+
+1377
+01:43:16,345 --> 01:43:19,439
+Okay, any more question about this?
+
+1378
+01:43:19,567 --> 01:43:27,494
+>> About these lectures like the sequence on the web
+
+1379
+01:43:27,625 --> 01:43:29,283
+I imagine they are, but I don't remember, 
+
+1380
+01:43:29,424 --> 01:43:33,266
+there is not only one way to think about quantum mechanics, so I bet they are
+
+1381
+01:43:33,403 --> 01:43:38,097
+And you know if you sitting through this for the third time that's your problem
+
+1382
+01:43:39,301 --> 01:43:43,785
+Believe me, I'm sitting through it for the
+
+1383
+01:43:47,904 --> 01:43:51,273
+>> was that the phase factor that we could ignore?
+
+1384
+01:43:51,388 --> 01:43:52,936
+The answer is yes, I think so
+
+1385
+01:43:55,040 --> 01:43:57,944
+>> was that the phase factor we are gonna be doing anything?
+
+1386
+01:44:00,448 --> 01:44:07,655
+Well, mostly we would be saying, look, it doesn't matter, it doesn't matter
+
+1387
+01:44:09,287 --> 01:44:14,174
+The, okay, let's talk about the mathematics of ignoring something
+
+1388
+01:44:17,918 --> 01:44:20,496
+Ya, that's right
+
+1389
+01:44:24,041 --> 01:44:33,315
+You know that's true, let's talk about the mathematics and ignoring things from
+
+1390
+01:44:38,082 --> 01:44:41,050
+Alright the point is zero dimension right?
+
+1391
+01:44:43,763 --> 01:44:47,778
+A circle is one dimensional, there is one parameter and an angle on it
+
+1392
+01:44:47,896 --> 01:44:51,147
+But supposing I tell you there is no significance 
+
+1393
+01:44:51,260 --> 01:44:52,856
+to tell you where you are on that circle
+
+1394
+01:44:52,990 --> 01:44:57,310
+There is no significance whatever or points on that circle 
+
+1395
+01:44:57,429 --> 01:44:59,652
+equivalent to every other point
+
+1396
+01:44:59,791 --> 01:45:03,739
+And you might say, well, for all interesting questions
+
+1397
+01:45:03,874 --> 01:45:05,507
+A circle is just a point 
+
+1398
+01:45:05,647 --> 01:45:09,050
+If you can ignore where you are on the circle 
+
+1399
+01:45:10,226 --> 01:45:13,019
+There is only one point on the circle 
+
+1400
+01:45:13,169 --> 01:45:16,227
+You are either on the circle, if you are on the circle 
+
+1401
+01:45:16,341 --> 01:45:17,875
+The circle is one point 
+
+1402
+01:45:18,016 --> 01:45:22,987
+You can say the same thing about 
+
+1403
+01:45:23,103 --> 01:45:25,699
+That's another example, what's the other example?
+
+1404
+01:45:28,731 --> 01:45:32,971
+No, let's take this example 
+
+1405
+01:45:33,073 --> 01:45:38,284
+If you have, what is that complex number?
+
+1406
+01:45:38,418 --> 01:45:42,347
+A complex number is a point on the plane
+
+1407
+01:45:42,478 --> 01:45:47,571
+But for some reason the angle where you are on the plane doesn't matter
+
+1408
+01:45:47,767 --> 01:45:49,984
+The only thing that's interesting is the distance 
+
+1409
+01:45:50,844 --> 01:45:54,174
+But now supposing you have two complex numbers 
+
+1410
+01:45:54,304 --> 01:45:57,359
+And all I tell you is that if you have two complex numbers 
+
+1411
+01:45:57,489 --> 01:46:02,252
+The thing which doesn't matter is the sum of their phases
+
+1412
+01:46:03,346 --> 01:46:06,233
+The sum of their phases, the sum of their angles
+
+1413
+01:46:06,374 --> 01:46:10,914
+Then there is still one angle left over which maybe important
+
+1414
+01:46:11,050 --> 01:46:13,434
+The difference of the angles 
+
+1415
+01:46:13,567 --> 01:46:15,708
+So I have two complex numbers 
+
+1416
+01:46:15,846 --> 01:46:19,714
+And I tell you, for reason that I haven't specify yet 
+
+1417
+01:46:20,580 --> 01:46:24,260
+That the overall phase which can be thought of the sum of the phase angle
+
+1418
+01:46:24,399 --> 01:46:27,691
+If the sum of the phase angle for whatever the reason 
+
+1419
+01:46:27,807 --> 01:46:30,470
+plays no role in the physics of the situation
+
+1420
+01:46:30,470 --> 01:46:33,648
+There is still the difference of the angle there
+
+1421
+01:46:33,800 --> 01:46:37,165
+That's exactly what the case is, the sum of the angle
+
+1422
+01:46:37,305 --> 01:46:41,876
+You know the complex numbers is that going to these entries here
+
+1423
+01:46:42,016 --> 01:46:43,949
+is of no physical significance
+
+1424
+01:46:44,103 --> 01:46:49,816
+We counted up four real parameters for two complex numbers
+
+1425
+01:46:49,931 --> 01:46:53,956
+The overall magnitudes of it doesn't count because we divide that out
+
+1426
+01:46:53,956 --> 01:46:56,646
+That removes one of them
+
+1427
+01:46:56,646 --> 01:47:00,694
+And then the sum of the angle doesn't count for whatever reasons
+
+1428
+01:47:02,356 --> 01:47:06,014
+That removes the other one that leaves you with two real numbers
+
+1429
+01:47:06,135 --> 01:47:10,407
+And that's in correspondence with the two real number it takes
+
+1430
+01:47:10,536 --> 01:47:12,763
+to pick the direction in space
+
+1431
+01:47:13,856 --> 01:47:18,997
+A lot of subtlety, but nothing really difficult
+
+1432
+01:47:19,133 --> 01:47:20,549
+The mathematic is really easy
+
+1433
+01:47:20,674 --> 01:47:23,275
+The mathematic for quantum mechanics is easier 
+
+1434
+01:47:23,404 --> 01:47:25,502
+than the mathematic for classical physics
+
+1435
+01:47:26,750 --> 01:47:31,479
+Two by two matrices are very simple
+
+1436
+01:47:31,625 --> 01:47:34,698
+Mathematic is easier, it's unfamiliar 
+
+1437
+01:47:39,919 --> 01:47:44,278
+>> there's something that always been lately unsettling
+
+1438
+01:47:44,405 --> 01:47:48,891
+>> when we get to the heart of the idea of up and down
+
+1439
+01:47:49,009 --> 01:47:52,342
+>> are along a single axis, one pointing this way one pointing that way
+
+1440
+01:47:52,467 --> 01:47:54,217
+>> Why they would be orthogonal now?
+
+1441
+01:47:56,219 --> 01:47:59,332
+Orthogonal doesn't mean perpendicular in three-dimensional space
+
+1442
+01:47:59,451 --> 01:48:01,179
+It means physically distinguishable
+
+1443
+01:48:01,179 --> 01:48:05,851
+It means unambiguously distinguishable 
+
+1444
+01:48:05,969 --> 01:48:11,028
+Left and right are not distinctly distinguishable uniquely from up and down
+
+1445
+01:48:11,164 --> 01:48:18,183
+Why? Because if you have a thing oriented along left and you measure up and down
+
+1446
+01:48:18,290 --> 01:48:19,475
+You might get up
+
+1447
+01:48:19,596 --> 01:48:27,127
+>> So you think of two orthogonal axis being two independent variables
+
+1448
+01:48:27,243 --> 01:48:28,729
+>> you could vary independantly?
+
+1449
+01:48:28,729 --> 01:48:35,518
+Yes, that's right, you could vary independently the probability of up and down
+
+1450
+01:48:35,638 --> 01:48:39,255
+Of course they have to add up to one, alright?
+
+1451
+01:48:39,385 --> 01:48:41,325
+They have to add up to one, 
+
+1452
+01:48:41,453 --> 01:48:44,755
+but ignoring the question of whether they add up to one
+
+1453
+01:48:44,920 --> 01:48:51,225
+You have the freedom to independently vary the coefficient in terms of u
+
+1454
+01:48:51,325 --> 01:48:53,439
+The coefficient in term of the d
+
+1455
+01:48:53,439 --> 01:48:59,809
+And in fact they have to add up to one, it is a fact
+
+1456
+01:49:01,152 --> 01:49:05,939
+Don't confuse orthogonality in space of states
+
+1457
+01:49:05,939 --> 01:49:13,023
+with orthogonality in three-dimensional space
+
+1458
+01:49:14,039 --> 01:49:23,753
+The analog idea in phase space or in configuration space of classical system
+
+1459
+01:49:24,962 --> 01:49:30,133
+Orthogonality of two probability distribution
+
+1460
+01:49:31,456 --> 01:49:35,135
+Let's think of, suppose you have phase space
+
+1461
+01:49:35,259 --> 01:49:39,065
+Or configuration space of some classical system, the phase space
+
+1462
+01:49:40,280 --> 01:49:42,824
+And I give you a probability distribution
+
+1463
+01:49:42,957 --> 01:49:47,659
+A simple probability distribution might be zero everywhere except for some patch
+
+1464
+01:49:47,659 --> 01:49:51,761
+Where the probability is uniform
+
+1465
+01:49:51,902 --> 01:50:01,664
+Okay, the analog of orthogonality between two distinct probability distribution
+
+1466
+01:50:01,831 --> 01:50:06,720
+is that they don't overlap, they are non-overlapping 
+
+1467
+01:50:09,823 --> 01:50:12,111
+There is no ambiguity
+
+1468
+01:50:14,479 --> 01:50:18,847
+That's the analog of orthogonality
+
+1469
+01:50:19,001 --> 01:50:21,919
+Up and down don't relap
+
+1470
+01:50:22,050 --> 01:50:24,031
+If you are up, not down, if you are down, not up
+
+1471
+01:50:25,828 --> 01:50:30,431
+Now if you think about, there is a situation 
+
+1472
+01:50:30,572 --> 01:50:37,167
+in which orthogonality is the same in space and in the space of states
+
+1473
+01:50:37,306 --> 01:50:38,981
+It's the polarization of the photons
+
+1474
+01:50:40,177 --> 01:50:43,035
+Polarization of photons is a little bit different 
+
+1475
+01:50:43,180 --> 01:50:46,660
+We will get to it because it's a little more complicated
+
+1476
+01:50:48,492 --> 01:50:57,462
+A little better if we have different word for perpendicularity in space
+
+1477
+01:50:57,599 --> 01:51:02,004
+Or orthogonality in space of state, different concepts
+
+1478
+01:51:06,909 --> 01:51:11,348
+I mean, it's very much what's going on here that 
+
+1479
+01:51:11,497 --> 01:51:25,588
+Being oriented along right, can I do an experiment
+
+1480
+01:51:25,716 --> 01:51:31,689
+which can distinguish between a spin pointing up and a spin pointing down?
+
+1481
+01:51:32,897 --> 01:51:36,491
+Yes, you can bring your apparatus over to it, detect it
+
+1482
+01:51:36,645 --> 01:51:41,381
+If it's up, it will point one, if it's down, it will point minus one
+
+1483
+01:51:41,484 --> 01:51:42,837
+It will give you a minus one
+
+1484
+01:51:43,008 --> 01:51:47,349
+Can you use that apparatus to tell you uniquely the difference 
+
+1485
+01:51:47,349 --> 01:51:53,449
+between a spin pointing in the x axis or the spin pointing along the z axis?
+
+1486
+01:51:53,606 --> 01:51:56,515
+What would you do to tell the difference?
+
+1487
+01:51:56,649 --> 01:51:58,573
+What would you measure?
+
+1488
+01:51:58,717 --> 01:52:03,229
+No matter what you measure, it's not gonna uniquely tell you the difference
+
+1489
+01:52:03,229 --> 01:52:08,086
+If you measure sigma z, you will get plus one, 
+
+1490
+01:52:08,213 --> 01:52:10,668
+but it doesn't tell you anything about sigma x
+
+1491
+01:52:10,804 --> 01:52:16,252
+It doesn't, you could have gotten sigma z equals to plus one because
+
+1492
+01:52:16,383 --> 01:52:21,500
+it was pointing along the z axis and you got a certainty one
+
+1493
+01:52:21,655 --> 01:52:26,759
+Or it was pointing along the x axis with a probability of a half of pointing up
+
+1494
+01:52:26,759 --> 01:52:30,245
+There is no way to tell
+
+1495
+01:52:30,377 --> 01:52:33,223
+There is no way to tell by a single, well-defined experiment
+
+1496
+01:52:33,377 --> 01:52:38,199
+Where the spin was pointing, let's say, up, or out
+
+1497
+01:52:39,654 --> 01:52:45,264
+>>What if you measure the photon can tell you of that?
+
+1498
+01:52:45,264 --> 01:52:50,648
+With one experiment of photon either will it come on and off
+
+1499
+01:52:50,804 --> 01:52:53,020
+From that you can not tell uniquely
+
+1500
+01:52:53,187 --> 01:52:59,745
+No you can not tell
+
+1501
+01:52:59,896 --> 01:53:02,727
+That's exactly the same as measuring the spin
+
+1502
+01:53:02,877 --> 01:53:05,600
+If you get up in your measurement 
+
+1503
+01:53:05,750 --> 01:53:09,304
+If does not tell you whether it's initially up 
+
+1504
+01:53:09,304 --> 01:53:13,471
+Or was initially side way with a probability half up
+
+1505
+01:53:13,609 --> 01:53:20,672
+There is no unique single experiment you can do to distinguish this from this
+
+1506
+01:53:20,778 --> 01:53:24,694
+There is a experiment you can do to distinguish this from this
+
+1507
+01:53:24,694 --> 01:53:28,763
+That's what makes up and down orthogonal 
+
+1508
+01:53:28,923 --> 01:53:31,267
+But down and left not orthogonal
+
+1509
+01:53:31,400 --> 01:53:34,205
+They overlapped, they overlapped
+
+1510
+01:53:34,333 --> 01:53:38,061
+And in fact the probability that if you were in left
+
+1511
+01:53:38,192 --> 01:53:40,701
+That you measure down when you measure sigma z
+
+1512
+01:53:40,829 --> 01:53:44,096
+That's a measure of the overlap between them
+
+1513
+01:53:46,380 --> 01:53:50,529
+They are overlapped which means in technical language they are not orthogonal
+
+1514
+01:53:53,354 --> 01:54:02,875
+>> You originally said you didn't know it was perpendicular to upper z, 
+
+1515
+01:54:02,876 --> 01:54:06,314
+>>and we measured that out
+
+1516
+01:54:06,314 --> 01:54:11,756
+What we are trying to do is confirm the proposition which has been up 
+
+1517
+01:54:11,892 --> 01:54:18,535
+Or the z component of the spin is up or the x component of the spin is up
+
+1518
+01:54:19,731 --> 01:54:22,142
+That's a single proposition, it's not two proposition
+
+1519
+01:54:22,287 --> 01:54:30,356
+It's been up, or it's been up along z, or it's up along x
+
+1520
+01:54:30,463 --> 01:54:34,753
+It's a single proposition if the first detection 
+
+1521
+01:54:34,870 --> 01:54:37,165
+measured the spin up along the z axis, we are finished
+
+1522
+01:54:46,446 --> 01:54:51,708
+And since we set up before hand, we know in that case we would did
+
+1523
+01:54:51,838 --> 01:54:53,649
+At the right hand side
+
+1524
+01:54:54,790 --> 01:54:55,455
+Okay
+
+1525
+01:54:55,592 --> 01:55:02,956
+>> Would it be right to summarize that propositions are not commutative?
+
+1526
+01:55:04,814 --> 01:55:15,529
+Uh, yeah, propositions technically correspond to projection operators
+
+1527
+01:55:15,652 --> 01:55:17,433
+Projection operators are not commutative
+
+1528
+01:55:19,689 --> 01:55:28,009
+It would be proper to summarize that, it's part of the point you know
+
+1529
+01:55:28,139 --> 01:55:30,987
+Depends on which order you
+
+1530
+01:55:31,953 --> 01:55:34,321
+>> So you caution us of trying to visualize 
+
+1531
+01:55:36,481 --> 01:55:42,025
+>> So is the sigma along the z axis or on x axis
+
+1532
+01:55:42,162 --> 01:55:43,969
+>> Isn't that a visualization?
+
+1533
+01:55:44,094 --> 01:55:47,849
+It is, it is, it is, it is ,it is
+
+1534
+01:55:52,889 --> 01:56:00,553
+Well ,you know, yeah, you know it is , it is a visualization
+
+1535
+01:56:01,649 --> 01:56:08,137
+Do keep in mind though this interesting fact that on the average
+
+1536
+01:56:09,097 --> 01:56:13,865
+The spins, if you measure many of them, many many of them,
+
+1537
+01:56:14,000 --> 01:56:21,129
+The average value do behave like a component of a little vector
+
+1538
+01:56:21,254 --> 01:56:26,537
+In particular if you take a large number of these things
+
+1539
+01:56:26,670 --> 01:56:29,929
+And you make sure if they all pointing upward
+
+1540
+01:56:30,064 --> 01:56:35,177
+And then you measure some oblique component of them
+
+1541
+01:56:35,300 --> 01:56:42,249
+with your apparatus being tilted, then the average that you will get
+
+1542
+01:56:42,386 --> 01:56:49,385
+for the oblique component would just be the projection of upright vector
+
+1543
+01:56:49,536 --> 01:56:51,256
+on to the oblique direction
+
+1544
+01:56:51,256 --> 01:56:53,665
+And exactly as if you are measuring the component of a vector
+
+1545
+01:56:53,784 --> 01:57:00,881
+So the upshot is, if you have a large number of them
+
+1546
+01:57:00,998 --> 01:57:10,156
+In many cases you can visualize with classical physics, after all
+
+1547
+01:57:10,156 --> 01:57:14,295
+Classical physics is still to large extend the approximation of systems
+
+1548
+01:57:14,450 --> 01:57:18,220
+which consists of many many parts which all behave 
+
+1549
+01:57:19,348 --> 01:57:21,896
+simultaneously the same way
+
+1550
+01:57:21,896 --> 01:57:34,727
+>> More question, is there any properties which describe this unique 
+
+1551
+01:57:34,870 --> 01:57:39,859
+>>relationship between that (inaudible)
+
+1552
+01:57:40,072 --> 01:57:43,156
+well, I suppose, I suppose there is
+
+1553
+01:57:43,286 --> 01:57:45,715
+You better be more specific then that
+
+1554
+01:57:50,081 --> 01:57:54,663
+Eigen invariants does have to do with phase factor here
+
+1555
+01:57:54,771 --> 01:57:57,060
+Well it does have to do with them
+
+1556
+01:57:57,195 --> 01:57:58,906
+But it does have to do with them
+
+1557
+01:57:59,036 --> 01:58:05,128
+But we can't get into that right now
+
+1558
+01:58:06,424 --> 01:58:10,392
+>> Things which get me confused about 
+
+1559
+01:58:10,526 --> 01:58:13,944
+>> calling the measurement of the (inaudible), in classical sense that
+
+1560
+01:58:14,084 --> 01:58:25,132
+>> but it's not like, you can't really say what value before we do the measure
+
+1561
+01:58:25,264 --> 01:58:27,486
+>> we can only say what it is after you do the experiment
+
+1562
+01:58:27,604 --> 01:58:32,590
+but then, once we measure it, we can measure it again
+
+1563
+01:58:32,738 --> 01:58:35,366
+And the same thing again, that will be consistency
+
+1564
+01:58:35,507 --> 01:58:40,483
+>>Put it in a certain state that we will
+
+1565
+01:58:40,615 --> 01:58:44,674
+>> If we get the same exact preparation over and over again
+
+1566
+01:58:44,811 --> 01:58:46,266
+>> it will give you a distribution
+
+1567
+01:58:47,658 --> 01:58:53,193
+That's right, you can't always think that a system has a property
+
+1568
+01:58:53,329 --> 01:58:55,322
+It's just your job to find out what it is
+
+1569
+01:59:00,018 --> 01:59:03,498
+For more, please visit us at Stanford.edu
+

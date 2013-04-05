@@ -1,0 +1,7961 @@
+﻿1
+00:00:05,586 --> 00:00:08,383
+Stanford University
+
+2
+00:00:08,626 --> 00:00:13,132
+Alright  we start to explore entanglement
+
+3
+00:00:13,239 --> 00:00:19,491
+I had actually started to think about doing Bell's theorem  this  tonight
+
+4
+00:00:19,563 --> 00:00:25,394
+But I decided not to do it yet
+
+5
+00:00:25,624 --> 00:00:29,686
+It's a complicate story  it  the Bell's theorem
+
+6
+00:00:29,867 --> 00:00:31,777
+It's very lovely
+
+7
+00:00:31,956 --> 00:00:36,735
+But more important thing that the theorem itself is what it says
+
+8
+00:00:36,874 --> 00:00:42,615
+So I wanted to get as much as possible tonight to what it says
+
+9
+00:00:42,753 --> 00:00:50,522
+And what entanglement has to tell us about the nature of systems
+
+10
+00:00:50,629 --> 00:00:53,828
+Sometimes people say the nature of reality
+
+11
+00:00:53,931 --> 00:00:55,624
+I don't like the word reality
+
+12
+00:00:55,767 --> 00:00:59,391
+I think it's misleading
+
+13
+00:00:59,499 --> 00:01:06,458
+Ok  um  if you look on the Internet
+
+14
+00:01:06,532 --> 00:01:10,405
+And the messages you guys send back and forth
+
+15
+00:01:10,513 --> 00:01:12,542
+They are very interesting
+
+16
+00:01:12,685 --> 00:01:16,597
+many of them have some very interesting points of them
+
+17
+00:01:16,670 --> 00:01:19,436
+There is terminology which I would discourage
+
+18
+00:01:19,540 --> 00:01:23,864
+at least you know what I mean with greater precession
+
+19
+00:01:24,003 --> 00:01:26,511
+And I see that's all over the place
+
+20
+00:01:26,621 --> 00:01:28,906
+People say entanglement a share
+
+21
+00:01:29,089 --> 00:01:33,168
+when two quantum system share the same sharing state
+
+22
+00:01:33,275 --> 00:01:37,224
+I never understood what that means to share a state
+
+23
+00:01:37,372 --> 00:01:41,748
+Um  quantum systems have states
+
+24
+00:01:41,896 --> 00:01:45,969
+If they are composite quantum systems  they have states
+
+25
+00:01:46,072 --> 00:01:48,367
+You can say that quantum systems
+
+26
+00:01:48,477 --> 00:01:49,389
+a pair of quantum systems
+
+27
+00:01:49,502 --> 00:01:53,602
+when they make giving quantum systems share a state if you like
+
+28
+00:01:53,712 --> 00:01:56,277
+But it just means a state of composite system
+
+29
+00:01:56,419 --> 00:02:02,632
+The important idea about entanglement
+
+30
+00:02:02,735 --> 00:02:06,044
+is not so much that systems share a state
+
+31
+00:02:06,154 --> 00:02:07,551
+That they always do
+
+32
+00:02:07,697 --> 00:02:14,145
+It's the important thing that they are not described by a product state
+
+33
+00:02:14,292 --> 00:02:19,072
+A product state being a state in which the wavefunction of the system
+
+34
+00:02:19,178 --> 00:02:19,999
+And we will talk about wave
+
+35
+00:02:20,080 --> 00:02:21,638
+Have we talked about wavefunctions very much?
+
+36
+00:02:21,741 --> 00:02:23,632
+I don't think we have
+
+37
+00:02:23,779 --> 00:02:27,148
+Let's begin by talking about wavefunctions
+
+38
+00:02:27,252 --> 00:02:30,791
+And then I want to move the concept of density matrix
+
+39
+00:02:30,946 --> 00:02:35,188
+This would make it much easier for us to think about entanglement
+
+40
+00:02:35,296 --> 00:02:37,628
+First of all  notion of wavefunction
+
+41
+00:02:37,735 --> 00:02:45,645
+A wavefunction may or may not have anything to do with waves
+
+42
+00:02:45,795 --> 00:02:54,506
+The concept grew historically out of the quantum mechanics of particles
+
+43
+00:02:54,646 --> 00:02:58,896
+and relation of probability description of them in terms of waves
+
+44
+00:02:59,042 --> 00:03:04,574
+but the  the logical concept of a wavefunction
+
+45
+00:03:04,718 --> 00:03:07,757
+is one that you can apply to any quantum system
+
+46
+00:03:07,902 --> 00:03:09,500
+and in general it doesn't have to do
+
+47
+00:03:09,607 --> 00:03:12,796
+with wave motion of any particular kind
+
+48
+00:03:12,939 --> 00:03:16,907
+The basic idea of a wavefunction is following
+
+49
+00:03:17,012 --> 00:03:18,542
+You have a quantum state
+
+50
+00:03:18,649 --> 00:03:31,797
+Let's call the quantum state  capital Psi
+
+51
+00:03:31,868 --> 00:03:38,806
+I'll use the letter capital Psi to denote a generic quantum state of the system
+
+52
+00:03:38,911 --> 00:03:41,385
+I think previously I've been using As Bs
+
+53
+00:03:41,454 --> 00:03:44,177
+But I am starting to use Psi
+
+54
+00:03:44,322 --> 00:03:47,795
+As a generic quantum state  pretty much any system
+
+55
+00:03:47,899 --> 00:03:51,959
+and also I have a basis system
+
+56
+00:03:52,100 --> 00:03:55,174
+The basis system is typically labeled
+
+57
+00:03:55,242 --> 00:03:59,330
+by a collection of eigenvalues of something
+
+58
+00:03:59,471 --> 00:04:05,512
+It might be labeled by one or more variables
+
+59
+00:04:05,653 --> 00:04:10,457
+If there are several commuting operators in the system
+
+60
+00:04:10,566 --> 00:04:15,790
+you can specify simultaneously the eigenvalues of more than one thing
+
+61
+00:04:15,933 --> 00:04:18,927
+and in many cases  you want to do that
+
+62
+00:04:19,038 --> 00:04:21,795
+In the basis vectors in those cases are labeled
+
+63
+00:04:21,935 --> 00:04:24,927
+by a collection of observables
+
+64
+00:04:25,115 --> 00:04:29,775
+or collection of eigenvalues of perhaps several quantities
+
+65
+00:04:29,929 --> 00:04:31,300
+I'll give you an example
+
+66
+00:04:31,411 --> 00:04:38,119
+If you're talking about the motion of a particle
+
+67
+00:04:38,265 --> 00:04:45,181
+then the X and Y and Z coordinates of a particle are commuting variables
+
+68
+00:04:45,289 --> 00:04:48,404
+The things that don't commute are the components of momentum
+
+69
+00:04:48,511 --> 00:04:49,889
+with the components of position
+
+70
+00:04:49,963 --> 00:04:51,168
+I know we haven't done this yet
+
+71
+00:04:51,276 --> 00:04:54,962
+But the other hand
+
+72
+00:04:55,070 --> 00:04:58,434
+the three components of positional commute with each other
+
+73
+00:04:58,481 --> 00:05:02,764
+That means they can be specified simultaneously
+
+74
+00:05:02,872 --> 00:05:07,485
+A useful basis for studying the quantum mechanics of a particle
+
+75
+00:05:07,593 --> 00:05:13,972
+is a basis which is labeled by the three coordinates of the particle
+
+76
+00:05:20,113 --> 00:05:26,408
+We've  I'll give a hand
+
+77
+00:05:26,516 --> 00:05:28,339
+Alright  so we have a basis
+
+78
+00:05:28,480 --> 00:05:33,660
+And the basis is labeled by a collection of eigenvalues
+
+79
+00:05:33,736 --> 00:05:35,176
+Let's labeled them
+
+80
+00:05:35,283 --> 00:05:36,918
+This don't have a decent pen
+
+81
+00:05:37,022 --> 00:05:42,068
+Alright  a b c  however many commuting variables
+
+82
+00:05:42,210 --> 00:05:50,814
+there are that need to be specified in order to specify a system
+
+83
+00:05:50,924 --> 00:05:55,842
+and the inner product of the basis vector
+
+84
+00:05:55,947 --> 00:05:59,966
+with the state of the system itself is called the wave function
+
+85
+00:06:00,112 --> 00:06:05,570
+In fact we can write that psi since these objects here form a basis
+
+86
+00:06:05,677 --> 00:06:08,989
+we can say that this is a sum
+
+87
+00:06:09,098 --> 00:06:12,979
+I still don't have a decent pen?
+
+88
+00:06:13,084 --> 00:06:15,863
+A little bit better
+
+89
+00:06:15,973 --> 00:06:18,061
+For sum over the basis vectors
+
+90
+00:06:18,207 --> 00:06:22,914
+which means a sum over this collection of eigenvalues a b¡­
+
+91
+00:06:23,062 --> 00:06:33,049
+of the inner product of the basis vectors with the state vector
+
+92
+00:06:33,158 --> 00:06:39,048
+times the basis vectors
+
+93
+00:06:39,122 --> 00:06:42,437
+I've rewritten this equation is kind of equation down before
+
+94
+00:06:42,505 --> 00:06:45,202
+What it says is that the expansion coefficients
+
+95
+00:06:45,247 --> 00:06:48,652
+that you use to expand a vector in basis vectors are
+
+96
+00:06:48,724 --> 00:06:53,283
+just the inner products of the vector with the basis vectors
+
+97
+00:06:53,353 --> 00:06:58,625
+this subject is called the wave function right here
+
+98
+00:06:58,733 --> 00:07:05,430
+and it's a function of the a's b's and c's
+
+99
+00:07:05,501 --> 00:07:06,276
+So let's give it a name
+
+100
+00:07:06,381 --> 00:07:12,984
+Let's call a little psi of abc and so forth
+
+101
+00:07:13,126 --> 00:07:16,622
+It's called the wave function
+
+102
+00:07:16,765 --> 00:07:21,669
+and defined in such a way that the state vector psi
+
+103
+00:07:21,818 --> 00:07:26,879
+is equal to the sum of a of all the indices
+
+104
+00:07:26,979 --> 00:07:30,444
+which takes the specified the basis
+
+105
+00:07:30,517 --> 00:07:34,621
+times psi of a b and c and so forth
+
+106
+00:07:34,729 --> 00:07:50,489
+Psi of a b and c of coordinates  of the coordinates
+
+107
+00:07:54,593 --> 00:08:00,536
+An example if we just talking about a single spin
+
+108
+00:08:00,685 --> 00:08:04,264
+Then  in a complete set of commuting variables necessary
+
+109
+00:08:04,343 --> 00:08:06,791
+to specify a vector
+
+110
+00:08:06,898 --> 00:08:10,749
+is for example just Sigma Z  Z component of a spin
+
+111
+00:08:10,894 --> 00:08:14,883
+and the psi would just be the probability amplitudes
+
+112
+00:08:15,025 --> 00:08:17,466
+for the spin to be up or the spin to be down
+
+113
+00:08:17,579 --> 00:08:21,904
+the function of one variable that variable take on the values up and down
+
+114
+00:08:22,007 --> 00:08:28,565
+if we had two spins then we would label a basis of vectors with ups
+
+115
+00:08:28,672 --> 00:08:32,444
+for once up and down for one spin ups and downs for the other spin
+
+116
+00:08:32,555 --> 00:08:36,417
+and we'll take two labels to label a state vector  not just one
+
+117
+00:08:36,525 --> 00:08:39,193
+The two labels would be the labels of the two spins
+
+118
+00:08:39,301 --> 00:08:41,879
+and that's all I we were talking about here
+
+119
+00:08:41,985 --> 00:08:47,418
+might take multiple labels to label a spin at the labels basis vector
+
+120
+00:08:47,525 --> 00:08:51,808
+and if so just display them here and then by definition
+
+121
+00:08:51,953 --> 00:08:54,630
+this pure definition the wave function of the system
+
+122
+00:08:54,735 --> 00:08:56,044
+You can think of it two ways
+
+123
+00:08:56,153 --> 00:09:00,123
+You can think of it as the set of coefficients
+
+124
+00:09:00,192 --> 00:09:04,366
+The set of coefficients that you use to expand an arbitrary vector
+
+125
+00:09:04,469 --> 00:09:06,461
+in terms of the basis vectors
+
+126
+00:09:06,534 --> 00:09:10,572
+Or you can think of them as the inner products
+
+127
+00:09:10,683 --> 00:09:17,475
+the inner products of the state vector with the basis vectors themselves
+
+128
+00:09:17,617 --> 00:09:19,514
+That is called the wave function
+
+129
+00:09:19,660 --> 00:09:22,025
+And Schrodinger's wave function is a special case of it
+
+130
+00:09:22,134 --> 00:09:26,165
+which we will not get to for the moment
+
+131
+00:09:26,272 --> 00:09:29,538
+but it is a special case of it
+
+132
+00:09:29,573 --> 00:09:33,155
+Question? Okay
+
+133
+00:09:33,336 --> 00:09:37,112
+So if you know the wave function of the system
+
+134
+00:09:37,175 --> 00:09:40,822
+you know its state vector and you can compute all sorts of things
+
+135
+00:09:40,857 --> 00:09:50,807
+You can compute expectation values and all sorts of things
+
+136
+00:09:50,914 --> 00:09:52,066
+Yeah?
+
+137
+00:09:52,172 --> 00:09:56,099
+>>This looks like a little like Fourier transform in some basis
+
+138
+00:09:56,204 --> 00:09:58,461
+>>Is Fourier transform? 
+
+139
+00:09:58,606 --> 00:10:06,898
+Yeah  it is a Fourier transform for the case of position momentum  yes
+
+140
+00:10:07,043 --> 00:10:11,204
+>>So that can be going back and forth
+
+141
+00:10:11,311 --> 00:10:14,749
+The Fourier transform is going back and forth
+
+142
+00:10:14,855 --> 00:10:18,438
+between different basis sets  okay?
+
+143
+00:10:18,544 --> 00:10:21,354
+Here  have chosen a particular basis set
+
+144
+00:10:21,458 --> 00:10:27,469
+Supposing I want to use a different basis instead of Sigma Z Sigma X
+
+145
+00:10:27,576 --> 00:10:30,800
+Then I would have to transform these wave functions somehow
+
+146
+00:10:30,912 --> 00:10:33,241
+they look different in the X basis and that's
+
+147
+00:10:33,385 --> 00:10:36,477
+that's the analog of Fourier transform
+
+148
+00:10:36,622 --> 00:10:38,638
+okay
+
+149
+00:10:38,784 --> 00:10:44,472
+Now I want to introduce a concept called the density matrix
+
+150
+00:10:44,541 --> 00:10:48,226
+If we have just a single system
+
+151
+00:10:48,366 --> 00:10:51,835
+this is the way we think about the state of the system
+
+152
+00:10:51,905 --> 00:10:55,215
+Let's talk about expectation values
+
+153
+00:10:55,357 --> 00:11:02,703
+Supposing we have some observable  let's call it L
+
+154
+00:11:02,775 --> 00:11:06,412
+It's some observable and it has matrix elements
+
+155
+00:11:06,519 --> 00:11:08,610
+What does matrix elements mean
+
+156
+00:11:08,754 --> 00:11:11,627
+They mean  if this is a basis vector
+
+157
+00:11:11,735 --> 00:11:14,323
+I won't bother writing out multiple labels
+
+158
+00:11:14,392 --> 00:11:17,800
+Let's just put one label L summarizing all labels
+
+159
+00:11:17,871 --> 00:11:24,607
+and another label over here a prime
+
+160
+00:11:24,647 --> 00:11:29,040
+These are called the matrix elements of the observable
+
+161
+00:11:29,110 --> 00:11:31,091
+The matrix elements of the observable
+
+162
+00:11:31,199 --> 00:11:33,023
+observable acts on a basis vector
+
+163
+00:11:33,099 --> 00:11:35,966
+and then you project it onto one of the basis vector
+
+164
+00:11:36,038 --> 00:11:44,516
+and that's called L  I suppose a prime a
+
+165
+00:11:44,585 --> 00:11:46,738
+Just notation
+
+166
+00:11:46,777 --> 00:11:51,970
+Okay now supposing I want to calculate the expectation value of L
+
+167
+00:11:52,042 --> 00:11:55,741
+in a state whose wave function is psi
+
+168
+00:11:55,846 --> 00:11:57,514
+Let's see how we do that
+
+169
+00:11:57,556 --> 00:11:58,824
+We take a psi
+
+170
+00:11:58,897 --> 00:11:59,386
+I am going to as I said
+
+171
+00:11:59,462 --> 00:12:03,241
+I'm just going to restrict myself to a single  a single a here
+
+172
+00:12:03,396 --> 00:12:07,106
+but the same thing withhold the multiple a's
+
+173
+00:12:07,245 --> 00:12:11,819
+So what we do we take the state vector on the left  the ket vector 
+
+174
+00:12:11,930 --> 00:12:15,218
+the ket vector  maybe we should write up a vector here
+
+175
+00:12:15,289 --> 00:12:17,991
+Sorry  the bra vector  bra vector  this is the ket vector
+
+176
+00:12:18,101 --> 00:12:22,634
+The bra vector is the sum over a and b
+
+177
+00:12:22,819 --> 00:12:24,929
+But you know I want to use different indices here
+
+178
+00:12:25,072 --> 00:12:27,144
+I want to call them a prime and b prime
+
+179
+00:12:27,354 --> 00:12:30,285
+They being summed over so it does matter what I call them
+
+180
+00:12:30,441 --> 00:12:32,231
+I just don't want to confuse with these
+
+181
+00:12:32,338 --> 00:12:42,965
+and then we are going to have our bra vectors a b c all
+
+182
+00:12:43,068 --> 00:12:50,099
+times  I am putting a psi here  psi star
+
+183
+00:12:50,208 --> 00:12:53,185
+So exactly the same kind of expression for the bra vector
+
+184
+00:12:53,256 --> 00:12:57,523
+except complex conjugate it coefficients
+
+185
+00:12:57,628 --> 00:13:06,796
+Good  now let's calculate psi L psi
+
+186
+00:13:06,903 --> 00:13:08,405
+That's the expectation value
+
+187
+00:13:08,513 --> 00:13:11,723
+or the average value of L in the quantum state psi
+
+188
+00:13:11,795 --> 00:13:14,416
+And we do it just by plugging in
+
+189
+00:13:14,522 --> 00:13:19,569
+The left bra vector here is the sum of single index
+
+190
+00:13:19,712 --> 00:13:29,153
+a prime  a prime  psi of a prime that constructs the bra vector
+
+191
+00:13:29,261 --> 00:13:32,517
+The ket vector I will have to write another sum
+
+192
+00:13:32,591 --> 00:13:40,611
+a sum over a  psi of a times a
+
+193
+00:13:40,684 --> 00:13:45,982
+Summing on a turns this into the ket vector psi  capital psi
+
+194
+00:13:46,092 --> 00:13:50,005
+Summing over a prime turns us into the bra vector
+
+195
+00:13:50,073 --> 00:13:51,915
+the corresponding bra vector
+
+196
+00:13:52,018 --> 00:13:56,860
+and in between we sandwich L 
+
+197
+00:13:56,968 --> 00:14:02,376
+Now  hu  somebody please correct me what I write that wrong
+
+198
+00:14:02,484 --> 00:14:05,355
+Psi star
+
+199
+00:14:05,462 --> 00:14:11,499
+We take the psi's and the psi stars out of the expression
+
+200
+00:14:11,642 --> 00:14:16,578
+They're just numbers and so the whole thing is sum of a prime and a
+
+201
+00:14:16,720 --> 00:14:24,896
+Psi star of a prime  psi of a times the inner product
+
+202
+00:14:25,003 --> 00:14:28,572
+or the sandwich a prime L a
+
+203
+00:14:28,646 --> 00:14:35,443
+That's exactly the matrix element of L between a and a prime
+
+204
+00:14:35,556 --> 00:14:42,774
+So that's L which one is a prime a I think
+
+205
+00:14:42,848 --> 00:14:48,256
+And  this reduces every expectation value to a calculation
+
+206
+00:14:48,327 --> 00:14:55,189
+in terms of wave functions a psi  with a psi or with a psi star
+
+207
+00:14:55,333 --> 00:14:59,805
+times a matrix element of the observable that were interested in
+
+208
+00:14:59,911 --> 00:15:05,777
+So this is the basic formula for the expectation value of anything
+
+209
+00:15:05,885 --> 00:15:10,297
+that we might be interested in
+
+210
+00:15:10,403 --> 00:15:13,727
+Basically all of quantum mechanics is contained in there
+
+211
+00:15:13,803 --> 00:15:16,216
+the expectation value of everything in the world
+
+212
+00:15:16,325 --> 00:15:21,179
+That's  that's just about everything we ever may want to be interested in
+
+213
+00:15:21,249 --> 00:15:27,653
+And so let's put this equation over here and keep it over here
+
+214
+00:15:27,726 --> 00:15:32,646
+Now supposing we have a composite system
+
+215
+00:15:32,717 --> 00:15:40,325
+composed of two subsystems  let's call them Alice's and Bob's subsystems
+
+216
+00:15:40,402 --> 00:15:43,525
+Alright  Alice has control of one of them
+
+217
+00:15:43,590 --> 00:15:46,767
+Bob has control of the other
+
+218
+00:15:46,840 --> 00:15:49,855
+and maybe even there are times when 
+
+219
+00:15:49,923 --> 00:15:54,535
+when they don't have control of them
+
+220
+00:15:54,644 --> 00:15:59,636
+but we just call them 2 subsystems  Alice's and Bob's
+
+221
+00:15:59,743 --> 00:16:07,269
+In fact let's use a now
+
+222
+00:16:07,339 --> 00:16:13,540
+to represent a complete set of observables for Alice's subsystem
+
+223
+00:16:13,873 --> 00:16:16,401
+Everything that Alice needs to know
+
+224
+00:16:16,509 --> 00:16:20,241
+in order to specify a basis for her subsystem
+
+225
+00:16:20,346 --> 00:16:24,625
+And b are the set of variables for Bob's subsystem
+
+226
+00:16:24,735 --> 00:16:26,408
+When we talk about spin I think
+
+227
+00:16:26,451 --> 00:16:32,965
+we called Alice's variable Tau and Bob's variable Sigma
+
+228
+00:16:33,069 --> 00:16:34,589
+if I remember correctly
+
+229
+00:16:34,692 --> 00:16:37,864
+but we just  these are a complete set of things
+
+230
+00:16:37,966 --> 00:16:40,048
+A complete set of variables for Alice
+
+231
+00:16:40,117 --> 00:16:42,922
+and this is a complete set of variables for Bob
+
+232
+00:16:43,064 --> 00:16:48,322
+Alice's states for her subsystem would look like this
+
+233
+00:16:48,393 --> 00:16:49,581
+Bob's would like that
+
+234
+00:16:49,991 --> 00:16:51,640
+we may use a different notation
+
+235
+00:16:51,957 --> 00:16:55,519
+so we don't wind up confusing to two vector spaces
+
+236
+00:16:55,629 --> 00:16:58,452
+But then this is a composite vector space
+
+237
+00:16:58,559 --> 00:17:00,718
+The composite vector space is the vector space
+
+238
+00:17:00,794 --> 00:17:03,231
+describing the composite system
+
+239
+00:17:03,306 --> 00:17:09,884
+and that has a basis which consists of an a and b
+
+240
+00:17:09,992 --> 00:17:14,389
+when a runs over all its values and B runs of all its values
+
+241
+00:17:14,531 --> 00:17:19,656
+We have a complete basis of the combined system
+
+242
+00:17:19,800 --> 00:17:24,725
+Okay so now let's talk about wave functions of the composite system
+
+243
+00:17:24,834 --> 00:17:29,065
+Again we have a state vector
+
+244
+00:17:29,138 --> 00:17:31,636
+The state vector psi is a state vector
+
+245
+00:17:31,742 --> 00:17:36,767
+in the composite in the tensor product space
+
+246
+00:17:36,876 --> 00:17:42,026
+The space made by tensor producting a's and b's together
+
+247
+00:17:42,134 --> 00:17:45,059
+It has  as its basis vectors
+
+248
+00:17:45,127 --> 00:17:48,961
+a basis vector from a and a basis vector from b
+
+249
+00:17:49,033 --> 00:17:51,995
+And now I want to define in the same way
+
+250
+00:17:52,098 --> 00:17:56,618
+the notion of a composite wave function
+
+251
+00:17:56,724 --> 00:18:04,067
+So what is it? It's just the inner product of psi with the basis vectors
+
+252
+00:18:04,171 --> 00:18:05,703
+And what's the function of?
+
+253
+00:18:05,779 --> 00:18:09,583
+Its now a function of two sets of variables  of two variables
+
+254
+00:18:09,656 --> 00:18:12,897
+psi of a and b  different b here
+
+255
+00:18:13,011 --> 00:18:16,357
+This  we are okay  here it is
+
+256
+00:18:16,394 --> 00:18:22,437
+It's a function of the variables of the two subsystems
+
+257
+00:18:22,510 --> 00:18:24,411
+It depends on two of them
+
+258
+00:18:24,485 --> 00:18:25,924
+Okay  that's the wave function
+
+259
+00:18:25,967 --> 00:18:29,122
+Now we have notion of a wave function of a composite system
+
+260
+00:18:29,229 --> 00:18:34,586
+And let's talk about observables of a composite system
+
+261
+00:18:34,693 --> 00:18:39,974
+The observables of a composite system
+
+262
+00:18:40,079 --> 00:18:43,560
+first of all among those variables are the ones
+
+263
+00:18:43,663 --> 00:18:48,516
+which would describe the separate subsystems by themselves
+
+264
+00:18:48,622 --> 00:18:55,465
+So let's suppose that L and M are two observables
+
+265
+00:18:55,511 --> 00:19:01,417
+One of them having to do with Alice's subsystem  Alice
+
+266
+00:19:01,560 --> 00:19:04,474
+and the other one having to do with Bob subsystem
+
+267
+00:19:04,584 --> 00:19:07,147
+I could call them L sub a and L sub b
+
+268
+00:19:07,252 --> 00:19:09,530
+But I want to go call them L and M
+
+269
+00:19:09,671 --> 00:19:18,395
+How do we represent observables acting on the composite space of states
+
+270
+00:19:18,502 --> 00:19:20,420
+The answer is simple
+
+271
+00:19:20,524 --> 00:19:24,367
+The operators associated with Alice's subsystem
+
+272
+00:19:24,511 --> 00:19:29,684
+act on Alice's piece of the state vector
+
+273
+00:19:29,794 --> 00:19:33,705
+and leave Bob's piece of the state vector unchanged
+
+274
+00:19:33,812 --> 00:19:36,428
+That's all we did when we did spins
+
+275
+00:19:36,466 --> 00:19:42,440
+we said Bob's Sigma matrices acted on his half of the wave function
+
+276
+00:19:42,589 --> 00:19:44,540
+or his half of the basis vectors
+
+277
+00:19:44,644 --> 00:19:49,636
+and were completely passive or Alice's pieces of the state vector
+
+278
+00:19:49,743 --> 00:19:53,903
+was completely passive just bypassed by these operators
+
+279
+00:19:53,975 --> 00:20:04,501
+So what that says  what that says is that Alice's observables are matrices
+
+280
+00:20:04,867 --> 00:20:16,849
+The matrices that can be written as L of a prime b prime  just like L here
+
+281
+00:20:16,918 --> 00:20:19,452
+has a prime variable and unprimed variable
+
+282
+00:20:19,557 --> 00:20:25,106
+But now the single index is replaced by two indices and a and b
+
+283
+00:20:25,178 --> 00:20:26,430
+What does this correspond to?
+
+284
+00:20:26,534 --> 00:20:36,924
+This corresponds to the sandwich a prime b prime L a b
+
+285
+00:20:37,031 --> 00:20:39,199
+Whatever a  whatever a stands for
+
+286
+00:20:39,307 --> 00:20:44,552
+But L only belongs to Alice's space of states
+
+287
+00:20:44,627 --> 00:20:46,522
+only belongs to Alice's system
+
+288
+00:20:46,594 --> 00:20:51,913
+So the question is what then do we say about this matrix here to say
+
+289
+00:20:52,010 --> 00:20:58,838
+to indicate that it has no effect on Bob's variables
+
+290
+00:20:58,980 --> 00:21:01,128
+Answer is simple
+
+291
+00:21:01,192 --> 00:21:12,873
+We make it proportional to the identity matrix in Bob's variables
+
+292
+00:21:12,980 --> 00:21:19,342
+The identity operator  identity operator in a space is the operator
+
+293
+00:21:19,452 --> 00:21:22,794
+whose matrix elements are the Kronecker Delta symbol
+
+294
+00:21:22,866 --> 00:21:24,754
+That's the identity operator
+
+295
+00:21:24,860 --> 00:21:30,065
+And the identity operator on a subsystem does nothing to that subsystem
+
+296
+00:21:30,099 --> 00:21:34,094
+The identity operator simply gives the same vector back
+
+297
+00:21:34,164 --> 00:21:37,726
+In other words if you apply the identity operator it does nothing
+
+298
+00:21:37,798 --> 00:21:40,541
+But now what we are doing is applying the identity operator
+
+299
+00:21:40,612 --> 00:21:42,911
+on Bob's half of the system
+
+300
+00:21:43,021 --> 00:21:46,807
+but the observable that supposed to be associated
+
+301
+00:21:46,912 --> 00:21:49,047
+with Alice's half of the subsystem
+
+302
+00:21:49,153 --> 00:21:54,340
+is represented by the same matrix that she would've used
+
+303
+00:21:54,446 --> 00:21:58,113
+as she have not even known about Bob
+
+304
+00:21:58,185 --> 00:22:00,097
+As she have not even known about Bob
+
+305
+00:22:00,169 --> 00:22:07,479
+she would've used the matrix a L a prime and a to describe her observable
+
+306
+00:22:07,547 --> 00:22:10,287
+how does she describe it in the bigger Hilbert space? 
+
+307
+00:22:10,357 --> 00:22:12,957
+She says it does nothing to Bob's variables
+
+308
+00:22:13,030 --> 00:22:17,477
+and so it's just the identity matrix and Bob's half of the space
+
+309
+00:22:17,590 --> 00:22:21,609
+That's Alice's variables
+
+310
+00:22:21,716 --> 00:22:24,261
+We can say the same thing about Bob's
+
+311
+00:22:24,332 --> 00:22:30,574
+M of a prime and b prime and a and b
+
+312
+00:22:30,687 --> 00:22:35,460
+just equal to the Kronecker  Delta of Alice's variables
+
+313
+00:22:35,530 --> 00:22:40,812
+times the matrix that Bob would've used
+
+314
+00:22:40,885 --> 00:22:46,744
+to describe the subsystem having not known anything about Alice
+
+315
+00:22:46,857 --> 00:22:55,827
+Okay  let's prove some things about the about the setup here
+
+316
+00:22:55,901 --> 00:22:57,525
+First of all  let's calculate
+
+317
+00:22:57,631 --> 00:23:03,418
+expectation values of Alice's variables in a product state
+
+318
+00:23:03,557 --> 00:23:04,957
+A product state is one
+
+319
+00:23:05,032 --> 00:23:08,817
+in which the two systems are not entangled with each other
+
+320
+00:23:08,962 --> 00:23:15,426
+unless you  what we get
+
+321
+00:23:15,500 --> 00:23:20,084
+What would you expect to get if you have in un-entangled state
+
+322
+00:23:20,194 --> 00:23:23,402
+describing Alice's and Bob's subsystems
+
+323
+00:23:23,510 --> 00:23:31,948
+and you consider the expectation value of Alice's variable
+
+324
+00:23:32,017 --> 00:23:36,806
+We get exactly what you've gotten  had Bob not been there all together
+
+325
+00:23:36,912 --> 00:23:38,274
+So let's check that out
+
+326
+00:23:38,347 --> 00:23:42,177
+What do I mean first of all by a product state?
+
+327
+00:23:42,279 --> 00:23:44,000
+I explained the product state was
+
+328
+00:23:44,112 --> 00:23:45,872
+But now let me explain what a product state is
+
+329
+00:23:45,978 --> 00:23:49,636
+in the language of wave functions  is very simple
+
+330
+00:23:49,741 --> 00:23:53,829
+It  means that the wave function is a product of two wave functions
+
+331
+00:23:53,931 --> 00:23:56,210
+one from Alice and one from Bob
+
+332
+00:23:56,280 --> 00:23:57,927
+That's all it means
+
+333
+00:23:58,002 --> 00:24:04,100
+A product state is one whose wave function psi of a and b
+
+334
+00:24:04,208 --> 00:24:07,750
+Alice's and Bob's variables  is just a product
+
+335
+00:24:07,893 --> 00:24:10,224
+So let's see how shall we denote that
+
+336
+00:24:10,298 --> 00:24:23,756
+Let's call it  well let's just call it psi Alice of A and phi Bob of B
+
+337
+00:24:23,803 --> 00:24:25,252
+It factorizes
+
+338
+00:24:25,359 --> 00:24:28,253
+It's a product of two functions 
+
+339
+00:24:28,357 --> 00:24:30,230
+It's a function of two variables
+
+340
+00:24:30,337 --> 00:24:34,460
+but it's a product of two functions each of one variable
+
+341
+00:24:34,568 --> 00:24:38,580
+it's pretty clear that if you factorizes like this
+
+342
+00:24:38,685 --> 00:24:42,341
+then Alice can think of this as the wave function for her subsystem
+
+343
+00:24:42,413 --> 00:24:46,817
+and Bob thinks of this as the wave function for his subsystem
+
+344
+00:24:47,208 --> 00:24:52,825
+Okay  let's calculate now Alice's expectation value of L
+
+345
+00:24:52,898 --> 00:24:55,060
+if this happens to be the wave function
+
+346
+00:24:55,129 --> 00:24:56,950
+So what do we do? We first takes psi
+
+347
+00:24:57,025 --> 00:24:58,441
+We are going to make a sandwich
+
+348
+00:24:58,549 --> 00:24:59,257
+We are making a sandwich
+
+349
+00:24:59,332 --> 00:25:02,014
+with the psi star on one side the psi on the other side
+
+350
+00:25:02,851 --> 00:25:05,014
+and L in between
+
+351
+00:25:05,124 --> 00:25:13,824
+So that's psi star  that's psi star of Alice of a prime
+
+352
+00:25:13,933 --> 00:25:18,159
+Phi star Bob of b prime
+
+353
+00:25:18,230 --> 00:25:25,747
+This is  where we write it? Here
+
+354
+00:25:25,854 --> 00:25:28,406
+That's the complex conjugate of the wave function
+
+355
+00:25:28,513 --> 00:25:31,113
+As a function of a prime b prime
+
+356
+00:25:31,180 --> 00:25:32,882
+What next?
+
+357
+00:25:32,950 --> 00:25:42,807
+Next we put in to the sandwich L of a prime b prime a and b
+
+358
+00:25:42,950 --> 00:25:43,976
+It's a matrix
+
+359
+00:25:44,085 --> 00:25:46,089
+One entry here  one entry here
+
+360
+00:25:46,193 --> 00:25:47,364
+But it's simple
+
+361
+00:25:47,510 --> 00:25:55,920
+It's just L of a prime and a times Delta b b prime
+
+362
+00:25:56,028 --> 00:25:58,268
+and then we close it up with the other half of the sandwich
+
+363
+00:25:58,419 --> 00:26:05,876
+which is this up here  psi A of a  phi B of b
+
+364
+00:26:05,983 --> 00:26:10,076
+Now we sum  as always we sum over everything in sight
+
+365
+00:26:10,183 --> 00:26:14,774
+a prime  a  b prime  b
+
+366
+00:26:14,843 --> 00:26:17,428
+That's the rule for calculating an expectation value
+
+367
+00:26:17,499 --> 00:26:19,357
+So what do we get?
+
+368
+00:26:19,464 --> 00:26:26,730
+First of all the Delta b b prime  that tells us to set b prime equal to b
+
+369
+00:26:26,805 --> 00:26:27,720
+So let's do that
+
+370
+00:26:27,823 --> 00:26:30,158
+First of all  let's do that
+
+371
+00:26:30,229 --> 00:26:32,697
+I'll just erase
+
+372
+00:26:32,765 --> 00:26:34,661
+So b prime equal to b
+
+373
+00:26:34,731 --> 00:26:37,964
+Alright  I'll let you write down your notes if you want
+
+374
+00:26:38,108 --> 00:26:42,168
+So b prime equal to b and remove the Kronecker Delta
+
+375
+00:26:42,274 --> 00:26:44,080
+Now b is equal to b prime
+
+376
+00:26:44,184 --> 00:26:50,538
+Then notice the only thing it depends on B is phi star B and phi B
+
+377
+00:26:50,608 --> 00:26:55,314
+What the sum over b prime was done when I said b equal to b prime
+
+378
+00:26:55,418 --> 00:26:58,814
+Then we sum over be of phi star phi
+
+379
+00:26:58,885 --> 00:27:00,563
+What does that give?
+
+380
+00:27:00,669 --> 00:27:02,032
+One
+
+381
+00:27:02,104 --> 00:27:06,879
+Under the assumption of course that Bob's wave functions is normalized
+
+382
+00:27:06,983 --> 00:27:11,072
+Under the assumption that Bob's half of the way functions is normalized
+
+383
+00:27:11,181 --> 00:27:15,356
+So that his total probability for his all his measurements
+
+384
+00:27:15,459 --> 00:27:16,742
+he could do is one
+
+385
+00:27:16,849 --> 00:27:22,215
+Then sum over b of phi star of B times phi of B is just one
+
+386
+00:27:22,316 --> 00:27:24,293
+And what does the whole thing reduce to?
+
+387
+00:27:24,369 --> 00:27:28,393
+The whole thing reduces to exactly what's up there
+
+388
+00:27:28,434 --> 00:27:31,756
+We can remove the phi's
+
+389
+00:27:31,826 --> 00:27:38,290
+Take them out  bring down here
+
+390
+00:27:38,397 --> 00:27:42,346
+That sum was just one  and the rest of it is just exactly
+
+391
+00:27:42,454 --> 00:27:45,597
+what's up on the top of the blackboard there
+
+392
+00:27:45,744 --> 00:27:48,840
+Another words in a product state the expectation value
+
+393
+00:27:48,984 --> 00:27:53,407
+of any of Alice's operators are exactly the same
+
+394
+00:27:53,516 --> 00:27:58,101
+as if Bob wasn't there
+
+395
+00:27:58,202 --> 00:28:00,239
+And it doesn't matter what Bob's wave function is
+
+396
+00:28:00,347 --> 00:28:03,858
+as long as it's a product
+
+397
+00:28:03,964 --> 00:28:09,228
+What about the one of Bob's expectation values
+
+398
+00:28:09,298 --> 00:28:12,494
+Or what happens if we stuck a  Bob operator in there?
+
+399
+00:28:12,599 --> 00:28:16,696
+Well  then instead of the Kronecker Delta of b-s
+
+400
+00:28:16,836 --> 00:28:20,809
+let's go back b and b prime
+
+401
+00:28:20,917 --> 00:28:27,363
+the b and b prime  b and b prime  b prime over here
+
+402
+00:28:27,470 --> 00:28:32,941
+And instead of L  in a prime  L we would have M of b and b prime
+
+403
+00:28:33,022 --> 00:28:35,310
+Delta a  a prime
+
+404
+00:28:35,384 --> 00:28:40,227
+and now we would set a prime equal to a
+
+405
+00:28:40,300 --> 00:28:43,341
+Sum  that would again give us one
+
+406
+00:28:43,383 --> 00:28:44,340
+and we will get the same
+
+407
+00:28:44,414 --> 00:28:51,848
+We'll get basically the same thing that I wrote up here
+
+408
+00:28:51,919 --> 00:29:01,667
+Bob  except it would be Bob's wave function phi star 
+
+409
+00:29:01,773 --> 00:29:13,403
+Bob of b prime  M of b prime  b  times phi Bob of b
+
+410
+00:29:13,473 --> 00:29:16,806
+which is exactly what Bob would've done
+
+411
+00:29:16,877 --> 00:29:18,599
+had not known about Alice
+
+412
+00:29:18,745 --> 00:29:24,353
+So product states are really just that the states
+
+413
+00:29:24,460 --> 00:29:28,861
+in which one party just doesn't know about the other
+
+414
+00:29:28,932 --> 00:29:38,272
+is no correlation  is no information in one of them about the other
+
+415
+00:29:38,374 --> 00:29:43,461
+Ok. We can say a little bit more about correlation
+
+416
+00:29:43,565 --> 00:29:48,291
+Let's suppose now what that we are interested in
+
+417
+00:29:48,364 --> 00:29:52,897
+the product of an Alice variable and a Bob variable
+
+418
+00:29:53,001 --> 00:29:57,122
+we are interested in the expectation value of L times M
+
+419
+00:29:57,192 --> 00:29:59,088
+Let's see what we get
+
+420
+00:29:59,163 --> 00:30:03,609
+Expectation in a product state  strictly product state for the moment
+
+421
+00:30:03,651 --> 00:30:06,751
+We go back up to here
+
+422
+00:30:06,822 --> 00:30:12,177
+and now instead of writing M b   this should be b  b prime
+
+423
+00:30:12,286 --> 00:30:14,656
+This should be b prime
+
+424
+00:30:14,725 --> 00:30:20,381
+Instead of Delta of a and a prime  if we would take the product of L and M
+
+425
+00:30:20,449 --> 00:30:26,302
+Then what I put here?
+
+426
+00:30:26,410 --> 00:30:29,199
+L
+
+427
+00:30:29,268 --> 00:30:30,909
+If I'm interested in the operator
+
+428
+00:30:31,015 --> 00:30:35,427
+which represents the product of two variables
+
+429
+00:30:35,534 --> 00:30:37,331
+One for Alice and one for Bob
+
+430
+00:30:37,392 --> 00:30:40,872
+instead of putting the unit operator up here for Alice
+
+431
+00:30:40,943 --> 00:30:55,403
+I will simply put in Alice's operator  not M  L
+
+432
+00:30:55,477 --> 00:30:57,095
+Now this just factorizes
+
+433
+00:30:57,236 --> 00:30:58,719
+Let's look at all the a dependence
+
+434
+00:30:58,790 --> 00:31:03,863
+Here's a dependence
+
+435
+00:31:03,932 --> 00:31:07,565
+That factorizes let's completely separate from the b dependence
+
+436
+00:31:07,673 --> 00:31:09,867
+I could take everything with a b dependence
+
+437
+00:31:09,938 --> 00:31:11,564
+and put on one side
+
+438
+00:31:11,707 --> 00:31:14,087
+Everything with an a dependence put on the other side
+
+439
+00:31:14,196 --> 00:31:20,281
+and do the a and b summations independently
+
+440
+00:31:20,316 --> 00:31:27,422
+Can you see that? That  let's write that out
+
+441
+00:31:27,532 --> 00:31:39,386
+Sum of a prime  a  b prime  b  of psi Alice star of a prime L a a prime
+
+442
+00:31:39,453 --> 00:31:42,308
+psi Alice of a
+
+443
+00:31:42,382 --> 00:31:59,349
+all times phi Bob star of b prime  M of  b  b prime and phi of b
+
+444
+00:31:59,451 --> 00:32:05,114
+The sums can be done quite independently
+
+445
+00:32:05,221 --> 00:32:06,655
+We can put the sum over here
+
+446
+00:32:06,761 --> 00:32:09,932
+Same thing  I haven't changed it  with summing over everything
+
+447
+00:32:10,006 --> 00:32:12,013
+b's and a's
+
+448
+00:32:12,083 --> 00:32:14,378
+And we see all we get is just a product
+
+449
+00:32:14,485 --> 00:32:17,726
+We get the product of the expectation value of L
+
+450
+00:32:17,903 --> 00:32:21,505
+times the expectation value of M
+
+451
+00:32:21,573 --> 00:32:24,546
+Not surprising if we have a product state
+
+452
+00:32:24,654 --> 00:32:28,554
+and Alice does her measurement and Bob does his measurement
+
+453
+00:32:28,623 --> 00:32:30,917
+and we then come together and compare the measurements
+
+454
+00:32:30,986 --> 00:32:34,092
+and ask what was a product of the measurements
+
+455
+00:32:34,162 --> 00:32:37,543
+The expectation value will just be the product
+
+456
+00:32:37,614 --> 00:32:40,316
+The expectation value of the product operator
+
+457
+00:32:40,423 --> 00:32:42,796
+will be the product of expectation values
+
+458
+00:32:42,895 --> 00:32:44,363
+We can write this this way
+
+459
+00:32:44,475 --> 00:32:56,923
+Let's write it in a form for product states
+
+460
+00:32:56,992 --> 00:33:02,947
+for product  let's call product states
+
+461
+00:33:03,014 --> 00:33:07,291
+The expectation value of L and times M
+
+462
+00:33:07,437 --> 00:33:11,928
+Now remember L belongs to Alice  M belongs to Bob
+
+463
+00:33:11,996 --> 00:33:17,012
+and they operate in different halves of the system
+
+464
+00:33:17,120 --> 00:33:19,492
+The expectation value of L times M
+
+465
+00:33:19,636 --> 00:33:27,110
+is just the expectation value of L times the expectation value of M
+
+466
+00:33:27,219 --> 00:33:33,913
+Now  is this something that we expect always be true for every state?
+
+467
+00:33:33,953 --> 00:33:39,594
+That the expectation value in fact even in classical probability theory
+
+468
+00:33:39,731 --> 00:33:43,292
+if we have a probability distribution for two variables
+
+469
+00:33:43,361 --> 00:33:47,527
+in general is it true that the average of the product
+
+470
+00:33:47,596 --> 00:33:49,472
+is the product of the average?
+
+471
+00:33:49,541 --> 00:33:50,941
+>>The variables are already there
+
+472
+00:33:51,045 --> 00:33:54,886
+Which means what becomes of the probability distribution
+
+473
+00:33:54,993 --> 00:33:56,167
+>>Exactly what you've written there
+
+474
+00:33:56,237 --> 00:33:58,320
+It means that factorizes
+
+475
+00:33:58,391 --> 00:33:59,913
+It means the probability distribution
+
+476
+00:33:59,984 --> 00:34:02,790
+is the product of 2 probability distributions
+
+477
+00:34:02,861 --> 00:34:06,666
+Alright  well  what if it's not true?
+
+478
+00:34:06,739 --> 00:34:09,979
+What if the probability distribution does not factorize
+
+479
+00:34:10,054 --> 00:34:12,874
+Then this quantity here
+
+480
+00:34:12,945 --> 00:34:16,997
+The difference between the average of L times M
+
+481
+00:34:17,072 --> 00:34:19,226
+And the product of averages of L and M
+
+482
+00:34:19,300 --> 00:34:22,637
+is called the correlation between L and M
+
+483
+00:34:22,820 --> 00:34:28,221
+is called the correlation
+
+484
+00:34:28,296 --> 00:34:31,627
+and is a measure of how much these variables are correlated
+
+485
+00:34:31,698 --> 00:34:34,080
+We will see some examples
+
+486
+00:34:34,152 --> 00:34:38,495
+This is called correlation and whenever the correlation
+
+487
+00:34:38,567 --> 00:34:42,595
+whenever there is anything in the system
+
+488
+00:34:42,642 --> 00:34:45,326
+and Alice variable and a Bob variable
+
+489
+00:34:45,397 --> 00:34:49,314
+whose correlation is not zero
+
+490
+00:34:49,386 --> 00:34:53,849
+That's an indication of entanglement
+
+491
+00:34:53,887 --> 00:34:56,173
+If you can find any pair of variables
+
+492
+00:34:56,250 --> 00:34:58,910
+one of Alice's and one of Bob's
+
+493
+00:34:58,986 --> 00:35:03,842
+such that the average of the product is not the product of the averages
+
+494
+00:35:03,914 --> 00:35:17,511
+Then you're experiencing entanglement
+
+495
+00:35:17,619 --> 00:35:23,347
+I think we did an example last time
+
+496
+00:35:23,416 --> 00:35:25,859
+We took what I call the singlet state
+
+497
+00:35:25,937 --> 00:35:38,391
+which was up down minus down up over the square root of two
+
+498
+00:35:38,499 --> 00:35:41,148
+This is psi and this is not a product state
+
+499
+00:35:41,223 --> 00:35:49,833
+and in the state we took the expectation value of Bob's variable  Sigma Z
+
+500
+00:35:49,904 --> 00:35:53,971
+We took the expectation value of Alice's variable
+
+501
+00:35:54,076 --> 00:35:56,373
+which I think was Tau Z
+
+502
+00:35:56,479 --> 00:35:57,874
+You remember what these were?
+
+503
+00:35:57,944 --> 00:36:03,314
+What's the average value of Bob's variable?
+
+504
+00:36:03,354 --> 00:36:07,866
+Let's say the first entry here  the first entry stands for Bob
+
+505
+00:36:07,973 --> 00:36:14,317
+is Bob  Bob  this is Alice
+
+506
+00:36:14,388 --> 00:36:20,517
+Well what would you guess in the state the average of Sigma Z is?
+
+507
+00:36:20,587 --> 00:36:24,375
+Not the state  but the combined state
+
+508
+00:36:24,479 --> 00:36:24,544
+>>Zero
+
+509
+00:36:24,585 --> 00:36:25,482
+No.
+
+510
+00:36:25,531 --> 00:36:27,878
+Zero? Why is zero?
+
+511
+00:36:27,953 --> 00:36:32,735
+Because it has as much probability of being up as being down
+
+512
+00:36:32,807 --> 00:36:34,078
+Has probability one over
+
+513
+00:36:34,146 --> 00:36:38,144
+has probability one half to be up and one have to be down
+
+514
+00:36:38,213 --> 00:36:41,490
+So the average of Bob's variable is zero
+
+515
+00:36:41,560 --> 00:36:44,640
+I think we work that out last time
+
+516
+00:36:44,713 --> 00:36:47,528
+What about Alice's variable?
+
+517
+00:36:47,636 --> 00:36:52,683
+It's also up as much as it's down
+
+518
+00:36:52,755 --> 00:36:55,367
+It's also expectation values zero
+
+519
+00:36:55,437 --> 00:36:57,309
+What about?
+
+520
+00:36:57,385 --> 00:37:03,231
+So first step  both of these are zero in this case
+
+521
+00:37:03,338 --> 00:37:05,269
+What about the product?
+
+522
+00:37:05,377 --> 00:37:09,367
+What about the product of Sigma Z and Tau Z?
+
+523
+00:37:09,469 --> 00:37:12,437
+What its average value?
+
+524
+00:37:12,508 --> 00:37:15,396
+Well  we worked that out last time
+
+525
+00:37:15,475 --> 00:37:16,664
+We've gotten the answer
+
+526
+00:37:16,773 --> 00:37:17,617
+Anybody remember the answer?
+
+527
+00:37:17,688 --> 00:37:18,258
+>>Minus one
+
+528
+00:37:18,367 --> 00:37:19,467
+Minus one
+
+529
+00:37:19,540 --> 00:37:21,229
+But you can just look at this thing
+
+530
+00:37:21,298 --> 00:37:25,705
+and you can say in both vectors here  the spins are opposite
+
+531
+00:37:25,775 --> 00:37:29,487
+So in either case here  the product of the spins is minus one
+
+532
+00:37:29,587 --> 00:37:34,513
+It's pretty clear that this whole thing is an eigenvector of the product
+
+533
+00:37:34,621 --> 00:37:39,227
+because on either vector here  the product is minus one
+
+534
+00:37:39,337 --> 00:37:45,986
+Act with Sigma Z  you get  you know what would happen
+
+535
+00:37:46,056 --> 00:37:49,466
+So you'll just change sign
+
+536
+00:37:49,538 --> 00:37:54,837
+So yes this has the product of Sigma Z is equal to one
+
+537
+00:37:54,947 --> 00:37:57,650
+Minus one  excuse me
+
+538
+00:37:57,723 --> 00:38:00,703
+So they are entangled
+
+539
+00:38:00,775 --> 00:38:04,212
+In fact  in this case where we call maximally entangled
+
+540
+00:38:04,281 --> 00:38:05,898
+They are very entangled
+
+541
+00:38:05,965 --> 00:38:09,818
+If you can find any pair of variables
+
+542
+00:38:09,889 --> 00:38:12,497
+which are correlated in this form
+
+543
+00:38:12,568 --> 00:38:14,538
+the quantum state is entangled
+
+544
+00:38:14,610 --> 00:38:18,696
+Do you remember now here it's completely obvious
+
+545
+00:38:18,805 --> 00:38:20,952
+that the average of Sigma Z is zero
+
+546
+00:38:21,058 --> 00:38:22,705
+for just the reasons I said
+
+547
+00:38:22,776 --> 00:38:25,658
+For Sigma Z and Tau Z
+
+548
+00:38:25,734 --> 00:38:27,906
+Up appears as much is down for Bob
+
+549
+00:38:28,017 --> 00:38:30,896
+and down appears as much is up for Alice
+
+550
+00:38:31,005 --> 00:38:33,058
+and so it's clear the average is zero
+
+551
+00:38:33,168 --> 00:38:42,031
+What about the average of Sigma X? Do you remember?
+
+552
+00:38:42,139 --> 00:38:46,199
+Zero  but that's not obvious  is it?
+
+553
+00:38:46,303 --> 00:38:48,931
+That's not obvious
+
+554
+00:38:49,033 --> 00:38:52,392
+But we did it last time  go back to your notes
+
+555
+00:38:52,497 --> 00:38:59,086
+And you'll discover not only is the expectation value of Sigma Z zero
+
+556
+00:38:59,156 --> 00:39:02,728
+but Sigma X is also equal to zero  the average
+
+557
+00:39:02,832 --> 00:39:04,684
+On the other hand you also find
+
+558
+00:39:04,796 --> 00:39:09,775
+that the product of Bob Sigma X and Alice's Tau X
+
+559
+00:39:09,843 --> 00:39:13,223
+is again equal to minus one
+
+560
+00:39:13,294 --> 00:39:18,006
+So the Sigma Z's and the Tau Z's are correlated
+
+561
+00:39:18,079 --> 00:39:20,499
+Sigma X's and the Tau X's correlated
+
+562
+00:39:20,607 --> 00:39:23,511
+and what about Y? same thing
+
+563
+00:39:23,615 --> 00:39:25,053
+Same exact thing
+
+564
+00:39:25,162 --> 00:39:26,020
+You work that out
+
+565
+00:39:26,127 --> 00:39:27,809
+We know what these operators do
+
+566
+00:39:27,883 --> 00:39:29,364
+You can apply them to the states
+
+567
+00:39:29,438 --> 00:39:32,173
+and calculate what the expectation value is
+
+568
+00:39:32,280 --> 00:39:36,841
+So the state is a highly  a highly entangled  a highly correlated state
+
+569
+00:39:36,910 --> 00:39:39,751
+being correlated and being entangled are basically the same idea
+
+570
+00:39:39,861 --> 00:39:41,567
+>>Question?
+
+571
+00:39:41,634 --> 00:39:42,393
+Yeah?
+
+572
+00:39:42,465 --> 00:39:46,361
+>>In the general case  if you put the L in the end of M
+
+573
+00:39:46,468 --> 00:39:48,592
+>>say equal to each other
+
+574
+00:39:48,839 --> 00:39:54,519
+>> put the L in the M's  LM
+
+575
+00:39:54,625 --> 00:40:03,055
+>> minus bracket L bracket M equals ML minus the second  (mumble) 
+
+576
+00:40:03,128 --> 00:40:03,774
+No
+
+577
+00:40:03,881 --> 00:40:05,167
+>> It just put the L in the end
+
+578
+00:40:05,274 --> 00:40:06,057
+Oh  yeah
+
+579
+00:40:06,129 --> 00:40:07,279
+>>That's equal  right?
+
+580
+00:40:07,351 --> 00:40:08,392
+You can show
+
+581
+00:40:08,499 --> 00:40:09,966
+>>Ok. So
+
+582
+00:40:10,071 --> 00:40:11,500
+Alright 
+
+583
+00:40:11,605 --> 00:40:14,738
+It's a point there which I may not mention
+
+584
+00:40:14,811 --> 00:40:17,828
+All operators are associated with one system
+
+585
+00:40:17,977 --> 00:40:21,921
+commute with all operators associated with the other system
+
+586
+00:40:22,028 --> 00:40:25,415
+So it doesn't matter in which order you write them
+
+587
+00:40:25,489 --> 00:40:27,897
+That's independent of whether the system is entangled
+
+588
+00:40:28,004 --> 00:40:30,399
+It doesn't the matter which order you write them
+
+589
+00:40:30,468 --> 00:40:31,248
+>>Excuse me
+
+590
+00:40:31,318 --> 00:40:32,090
+Yeah?
+
+591
+00:40:32,203 --> 00:40:35,194
+>>I guess I am missing something
+
+592
+00:40:35,262 --> 00:40:36,368
+>>When you wrote that down
+
+593
+00:40:36,472 --> 00:40:39,448
+>>you show how the state if you have a product state that
+
+594
+00:40:39,554 --> 00:40:42,100
+>>when L is a state in Alice's M
+
+595
+00:40:42,210 --> 00:40:43,549
+Yeah  then this is equal to zero
+
+596
+00:40:43,654 --> 00:40:45,431
+>>And that's equal to zero
+
+597
+00:40:45,502 --> 00:40:49,732
+>>What does L M mean? Is that a product state?
+
+598
+00:40:49,805 --> 00:40:51,563
+This? No
+
+599
+00:40:51,671 --> 00:40:52,504
+>>What is it? In general
+
+600
+00:40:52,614 --> 00:40:53,441
+The state is  these are the states
+
+601
+00:40:53,548 --> 00:40:55,427
+These are the observables
+
+602
+00:40:55,497 --> 00:40:56,165
+>>Right?
+
+603
+00:40:56,273 --> 00:40:57,063
+Right
+
+604
+00:40:57,169 --> 00:40:59,042
+>>Isn't that LM a product state?
+
+605
+00:40:59,112 --> 00:41:02,836
+No. L's and M's are not states
+
+606
+00:41:02,946 --> 00:41:05,585
+>>Observables
+
+607
+00:41:05,693 --> 00:41:09,247
+Yeah  there are psi's in here
+
+608
+00:41:09,317 --> 00:41:10,114
+>>Ok
+
+609
+00:41:10,218 --> 00:41:19,626
+This is the statement about the state vectors
+
+610
+00:41:19,730 --> 00:41:23,522
+Right
+
+611
+00:41:23,633 --> 00:41:27,771
+Ok  one other point is what just noticing
+
+612
+00:41:27,839 --> 00:41:31,065
+When I say things are correlated  the spins are correlated
+
+613
+00:41:31,167 --> 00:41:34,207
+I mean it  what I mean is that you can learn something
+
+614
+00:41:34,275 --> 00:41:37,873
+about one variable by looking at the other
+
+615
+00:41:37,980 --> 00:41:41,331
+If you know this is a state  if you happen to know that this is the state
+
+616
+00:41:41,402 --> 00:41:47,077
+then if you know Bob's  if you measure Bob's variable
+
+617
+00:41:47,147 --> 00:41:51,977
+and you find out that it's up then in that component of the state
+
+618
+00:41:52,081 --> 00:41:54,845
+which is the only one left at the measure Bob
+
+619
+00:41:54,950 --> 00:41:57,149
+Alice is down
+
+620
+00:41:57,217 --> 00:42:00,290
+In a product state  you learn nothing about one system
+
+621
+00:42:00,432 --> 00:42:02,387
+by measuring anything about the other
+
+622
+00:42:02,496 --> 00:42:06,161
+In a highly entangled state you learn a great deal about one system
+
+623
+00:42:06,269 --> 00:42:09,421
+by measuring the other one
+
+624
+00:42:09,529 --> 00:42:12,352
+That's what entanglement means
+
+625
+00:42:12,461 --> 00:42:15,508
+In the other hand  it may also follow  it may also be true
+
+626
+00:42:15,614 --> 00:42:18,640
+that in a highly entangled state before hand
+
+627
+00:42:18,710 --> 00:42:20,392
+if you happen to know the state
+
+628
+00:42:20,502 --> 00:42:26,711
+you may know very little about each individual piece
+
+629
+00:42:26,783 --> 00:42:30,559
+For example in the singlet state here
+
+630
+00:42:30,630 --> 00:42:36,342
+there is  what is it the probability that Bob's variable is up
+
+631
+00:42:36,450 --> 00:42:37,510
+One half 
+
+632
+00:42:37,583 --> 00:42:40,938
+What is the probability Bob's variable is down
+
+633
+00:42:41,048 --> 00:42:42,621
+One half
+
+634
+00:42:42,731 --> 00:42:48,923
+So when the state knowing  knowing everything about the state
+
+635
+00:42:49,031 --> 00:42:52,586
+you still know nothing about whether Bob measures up or down
+
+636
+00:42:52,694 --> 00:42:55,060
+if he does the measurement
+
+637
+00:42:55,132 --> 00:42:57,263
+Curious  you know nothing at all
+
+638
+00:42:57,370 --> 00:42:59,569
+about whether Bob measures up or down
+
+639
+00:42:59,713 --> 00:43:01,016
+You know nothing at all about
+
+640
+00:43:01,084 --> 00:43:02,941
+what Alice measures up or down
+
+641
+00:43:03,012 --> 00:43:07,106
+But you know everything about the product of them
+
+642
+00:43:07,213 --> 00:43:10,907
+that if Bob does his measurement  Alice does her measurement
+
+643
+00:43:11,014 --> 00:43:14,725
+and you compare them afterwards every single time
+
+644
+00:43:14,829 --> 00:43:17,609
+If this is the state that you put the system into
+
+645
+00:43:17,678 --> 00:43:20,657
+the product will be minus
+
+646
+00:43:20,765 --> 00:43:24,642
+So this is an example of this odd thing quantum mechanics
+
+647
+00:43:24,716 --> 00:43:28,532
+You can know everything about a composite system
+
+648
+00:43:28,606 --> 00:43:32,293
+and know nothing about the pieces
+
+649
+00:43:32,400 --> 00:43:34,492
+That's what this is telling you
+
+650
+00:43:34,599 --> 00:43:36,991
+You know everything  when I say you know everything
+
+651
+00:43:37,060 --> 00:43:41,389
+I mean you know as much as quantum mechanics allows you to know
+
+652
+00:43:41,499 --> 00:43:42,389
+This is the state of the system
+
+653
+00:43:42,497 --> 00:43:44,485
+you are not gonna do any better than that
+
+654
+00:43:44,556 --> 00:43:48,329
+That's all there is to know about it
+
+655
+00:43:48,430 --> 00:43:51,970
+What you know about it is that Sigma times Tau
+
+656
+00:43:52,047 --> 00:43:54,144
+whether will it be Sigma X or Tau X
+
+657
+00:43:54,394 --> 00:43:57,336
+It is true for the XY or Z component separately
+
+658
+00:43:57,446 --> 00:44:02,853
+that the product of Alice's variable and Bob's variable is minus one
+
+659
+00:44:02,954 --> 00:44:04,280
+That's a lot to know
+
+660
+00:44:04,390 --> 00:44:06,661
+But it's not as much as you would know classically
+
+661
+00:44:06,768 --> 00:44:09,006
+Classically  if you know everything about a system
+
+662
+00:44:09,113 --> 00:44:11,706
+you would know everything about the constituents
+
+663
+00:44:11,809 --> 00:44:15,101
+as well as things that you could measure about that
+
+664
+00:44:15,208 --> 00:44:17,202
+you could combine together
+
+665
+00:44:17,311 --> 00:44:18,649
+In quantum mechanics you can't know
+
+666
+00:44:18,755 --> 00:44:21,540
+Either you can say you can't know everything
+
+667
+00:44:21,648 --> 00:44:26,172
+or to the extent that everything is everything you can know
+
+668
+00:44:26,316 --> 00:44:29,750
+In this case  you know everything about the combined system
+
+669
+00:44:29,858 --> 00:44:32,029
+and you know nothing about its constituents
+
+670
+00:44:32,175 --> 00:44:36,783
+That's the really odd thing about entanglement
+
+671
+00:44:36,923 --> 00:44:42,884
+That's extremely odd property of quantum mechanics
+
+672
+00:44:43,024 --> 00:44:54,089
+That allows such nonsense
+
+673
+00:44:54,308 --> 00:45:02,063
+>>With that speech you can't separate the components of the system
+
+674
+00:45:02,173 --> 00:45:04,738
+>>without information gotten from each other?
+
+675
+00:45:04,843 --> 00:45:09,185
+Yeah  yeah  it does mean that
+
+676
+00:45:09,327 --> 00:45:15,104
+>>When you write LM  I am gotten confused
+
+677
+00:45:15,245 --> 00:45:21,952
+>>Is that measure M and then measure L?
+
+678
+00:45:22,053 --> 00:45:23,004
+No  no  no
+
+679
+00:45:23,111 --> 00:45:24,895
+>>It's the product L and M?
+
+680
+00:45:24,968 --> 00:45:27,040
+Ok  let's be very clear
+
+681
+00:45:27,147 --> 00:45:28,076
+Let's be very clear
+
+682
+00:45:28,189 --> 00:45:33,413
+The operation  the operation mathematical operation
+
+683
+00:45:33,520 --> 00:45:36,299
+of multiplying a state vector by an operator
+
+684
+00:45:36,408 --> 00:45:41,088
+is not that anything to do with the actual physical act of measuring it
+
+685
+00:45:41,233 --> 00:45:43,022
+>>I know  but the syntax looks the same
+
+686
+00:45:43,166 --> 00:45:50,544
+The syntax is not the same
+
+687
+00:45:50,689 --> 00:45:52,606
+The syntax  I'm not sure what syntax means
+
+688
+00:45:52,713 --> 00:45:54,262
+I assume it means the words
+
+689
+00:45:54,402 --> 00:45:58,785
+>>It just means how interprete M and L on the board  that's all
+
+690
+00:45:58,929 --> 00:46:03,746
+>>The product of the operators
+
+691
+00:46:03,855 --> 00:46:06,155
+Yes  yes  it means you act first with M and then L
+
+692
+00:46:06,262 --> 00:46:07,132
+>>Ok
+
+693
+00:46:07,240 --> 00:46:08,489
+>>That's enough
+
+694
+00:46:08,593 --> 00:46:11,258
+Yeah  but it doesn't mean you've measured them
+
+695
+00:46:11,403 --> 00:46:17,897
+That means is just a mathematical thing  right?
+
+696
+00:46:18,039 --> 00:46:21,616
+The same is true in the classical mechanics
+
+697
+00:46:21,690 --> 00:46:26,339
+I can multiply the momentum of something by the position of something else
+
+698
+00:46:26,449 --> 00:46:27,616
+That doesn't mean I measure them
+
+699
+00:46:27,724 --> 00:46:31,808
+just because of I multiply the two things together
+
+700
+00:46:31,916 --> 00:46:33,659
+Physical act of measurement
+
+701
+00:46:33,765 --> 00:46:37,793
+It's not the operators which act on the states
+
+702
+00:46:37,899 --> 00:46:43,069
+It's the detectors or apparatuses which act on the system
+
+703
+00:46:43,184 --> 00:46:46,382
+So in words when you do a measurement
+
+704
+00:46:46,486 --> 00:46:53,232
+a detector or an apparatus acts on the system and gives result
+
+705
+00:46:53,340 --> 00:47:02,277
+In the space of states  a operator acts on a vector
+
+706
+00:47:02,384 --> 00:47:05,891
+not a detector acting on the system
+
+707
+00:47:05,997 --> 00:47:07,448
+Quite different concepts
+
+708
+00:47:07,595 --> 00:47:09,982
+Yeah?
+
+709
+00:47:10,089 --> 00:47:16,312
+>>If we make a measurement on electrons
+
+710
+00:47:16,418 --> 00:47:19,209
+>>unless we already know how it's been prepared
+
+711
+00:47:19,315 --> 00:47:21,427
+>>which is a special case
+
+712
+00:47:21,533 --> 00:47:25,575
+>>In that case we can describe the state
+
+713
+00:47:25,682 --> 00:47:27,452
+>>as linear combination of basis vectors
+
+714
+00:47:27,560 --> 00:47:28,135
+Yeah
+
+715
+00:47:28,246 --> 00:47:31,722
+>>But  before we make a measurement  we might know nothing about
+
+716
+00:47:31,828 --> 00:47:33,701
+>>We might know a little bit about it
+
+717
+00:47:33,812 --> 00:47:36,781
+>>No matter how much we know  we have to
+
+718
+00:47:36,850 --> 00:47:38,946
+>>expressed in terms of probabilities
+
+719
+00:47:39,053 --> 00:47:41,000
+>>Not in terms of the vectors?
+
+720
+00:47:41,107 --> 00:47:41,891
+Yes
+
+721
+00:47:42,000 --> 00:47:48,049
+>>And so in case there's a correlation between two electrons
+
+722
+00:47:48,158 --> 00:47:50,820
+>>Let's say it's not a pure correlation
+
+723
+00:47:50,934 --> 00:47:52,716
+>>It's a partial
+
+724
+00:47:52,825 --> 00:47:54,609
+>>It's not a product
+
+725
+00:47:54,700 --> 00:47:57,360
+>>It's not an truly intrinsic state in somewhere between
+
+726
+00:47:57,468 --> 00:47:58,254
+It's not a what?
+
+727
+00:47:58,361 --> 00:48:00,590
+>>A singlet state  for example
+
+728
+00:48:00,666 --> 00:48:02,920
+It's a somewhat entangled state
+
+729
+00:48:03,027 --> 00:48:03,944
+>>Exactly
+
+730
+00:48:04,050 --> 00:48:08,166
+>>So  if  then after we make the Sigma measurement
+
+731
+00:48:08,268 --> 00:48:12,349
+>>and we want to describe the Tau of electron
+
+732
+00:48:12,452 --> 00:48:17,144
+>>we still have to describe Tau in terms of probabilities
+
+733
+00:48:17,187 --> 00:48:22,706
+>>You wouldn't be able to specify in terms of a combination
+
+734
+00:48:22,816 --> 00:48:26,003
+Ok. I am not exactly sure what you are getting yet
+
+735
+00:48:26,149 --> 00:48:28,955
+But maybe this will help
+
+736
+00:48:29,061 --> 00:48:33,664
+If we have the quantum state of a single spin
+
+737
+00:48:33,737 --> 00:48:35,739
+Let's suppose somebody told us
+
+738
+00:48:35,848 --> 00:48:39,843
+what the state of the quantum state of the spin was
+
+739
+00:48:39,985 --> 00:48:44,923
+then for any quantum state there is always an observable
+
+740
+00:48:45,031 --> 00:48:47,801
+in particular some component of Sigma
+
+741
+00:48:47,900 --> 00:48:51,155
+which is definite  which is predictable
+
+742
+00:48:51,262 --> 00:48:56,410
+Every part  that's obvious for the states up and down
+
+743
+00:48:56,517 --> 00:48:58,823
+It's obvious for the states left and right
+
+744
+00:48:58,968 --> 00:49:02,743
+To the state up if you measure Sigma Z is definite
+
+745
+00:49:02,849 --> 00:49:06,604
+If you measure  if you know that the state is right
+
+746
+00:49:06,708 --> 00:49:09,666
+and you measure Sigma X  it's definite
+
+747
+00:49:09,776 --> 00:49:10,961
+This is more general
+
+748
+00:49:11,068 --> 00:49:14,493
+Given any quantum state whatever of the spin
+
+749
+00:49:14,598 --> 00:49:17,232
+there exists a direction that you can prove
+
+750
+00:49:17,375 --> 00:49:22,386
+that there exists direction for which the spin is definite  okay?
+
+751
+00:49:22,526 --> 00:49:26,431
+Curiously when you combine the system together into
+
+752
+00:49:26,534 --> 00:49:28,825
+an entangled state like this
+
+753
+00:49:28,933 --> 00:49:33,306
+There is no direction in which the spin is definite
+
+754
+00:49:33,413 --> 00:49:37,960
+In fact there is no direction Sigma X for one of the spins
+
+755
+00:49:38,067 --> 00:49:41,728
+Each one of the spins either Alice's or Bob's
+
+756
+00:49:41,877 --> 00:49:46,948
+has average value zero in every direction
+
+757
+00:49:47,089 --> 00:49:50,920
+No matter what direction you pick  X  Y  Z or anything in between
+
+758
+00:49:51,062 --> 00:49:55,643
+the average of the spin the Bob's spin in the state is zero
+
+759
+00:49:55,785 --> 00:49:59,353
+so  in his quantum state in which Bob can say nothing
+
+760
+00:49:59,499 --> 00:50:01,364
+what he cannot know what quantum state fully
+
+761
+00:50:01,502 --> 00:50:07,092
+and as I said has equal probability for up and down in every direction
+
+762
+00:50:07,230 --> 00:50:10,808
+I'm not sure if that's what you're addressing or not
+
+763
+00:50:10,918 --> 00:50:16,342
+>>My question in that show if you have a partial correlation
+
+764
+00:50:16,482 --> 00:50:17,813
+Partial  Ok
+
+765
+00:50:17,918 --> 00:50:20,064
+>>Somewhere between zero and one
+
+766
+00:50:20,171 --> 00:50:24,141
+So we put a big number here and a small number here
+
+767
+00:50:24,285 --> 00:50:25,484
+>>We measured one and
+
+768
+00:50:25,623 --> 00:50:29,667
+>>then the other quickly expressed as pure probability
+
+769
+00:50:29,777 --> 00:50:31,286
+>>as Sigma X and Sigma Y
+
+770
+00:50:31,392 --> 00:50:37,878
+Yes  we can calculate all the probabilities  calculate them  yeah
+
+771
+00:50:37,989 --> 00:50:39,446
+Okay
+
+772
+00:50:39,555 --> 00:50:41,354
+>>Did you remind us the physical
+
+773
+00:50:41,459 --> 00:50:42,390
+What is that?
+
+774
+00:50:42,495 --> 00:50:43,573
+>>the singlet state
+
+775
+00:50:43,681 --> 00:50:44,709
+Say it again?
+
+776
+00:50:44,812 --> 00:50:47,956
+>>What would be inventible physical experiment
+
+777
+00:50:48,066 --> 00:50:49,432
+>>corresponds to singlet state?
+
+778
+00:50:49,535 --> 00:50:55,788
+Good  that's an obviously important question
+
+779
+00:50:55,895 --> 00:50:59,250
+Another way to ask is how would you prepare a state
+
+780
+00:50:59,351 --> 00:51:00,822
+a system in the singlet state
+
+781
+00:51:00,934 --> 00:51:05,777
+Alright  I'll tell you have something about the singlet state
+
+782
+00:51:05,882 --> 00:51:08,561
+The singlet state has the property
+
+783
+00:51:08,668 --> 00:51:11,431
+that it's an eigenvector of a certain operator
+
+784
+00:51:11,537 --> 00:51:12,997
+It's eigenvector many operators
+
+785
+00:51:13,105 --> 00:51:17,683
+but in particular it's an eigenvector of Sigma X Tau X
+
+786
+00:51:17,799 --> 00:51:18,587
+You can prove it
+
+787
+00:51:18,695 --> 00:51:22,001
+It's actually an eigenvector of Sigma X Tau X
+
+788
+00:51:22,140 --> 00:51:25,929
+It's an eigenvector of Sigma Y Tau Y
+
+789
+00:51:26,070 --> 00:51:29,294
+And it's an eigenvector of Sigma Z Tau Z
+
+790
+00:51:29,404 --> 00:51:32,227
+What's the eigenvalue for each one of these?
+
+791
+00:51:32,303 --> 00:51:36,030
+Minus one  and the eigenvalues are the same for all of them 
+
+792
+00:51:36,104 --> 00:51:39,655
+That means that it's an eigenvector of any linear 
+
+793
+00:51:39,755 --> 00:51:43,203
+any combination of these with eigenvalue minus one
+
+794
+00:51:43,273 --> 00:51:45,346
+Any one of them acts on the singlet state
+
+795
+00:51:45,454 --> 00:51:47,477
+gets back minus the singlet state
+
+796
+00:51:47,550 --> 00:51:51,332
+Any combination of them will get back minus singlet state
+
+797
+00:51:51,436 --> 00:51:54,938
+So in particular if I take this object here
+
+798
+00:51:55,043 --> 00:51:59,605
+the singlet state is also an eigenvector of this
+
+799
+00:51:59,712 --> 00:52:02,353
+Now this is a funny thing
+
+800
+00:52:02,464 --> 00:52:06,637
+Alice and Bob can't easily measure this whole quantity here
+
+801
+00:52:06,735 --> 00:52:12,930
+Why? because Alice can't measure Tau X and Tau Y simultaneously
+
+802
+00:52:13,038 --> 00:52:17,843
+By separate measurements  this would be hard to measure
+
+803
+00:52:17,951 --> 00:52:20,837
+It can't be measured by separate measurements
+
+804
+00:52:20,944 --> 00:52:23,866
+Why? Because no separate measurement
+
+805
+00:52:23,977 --> 00:52:26,570
+can measure Tau X and Tau Y at the same time
+
+806
+00:52:26,665 --> 00:52:27,960
+or Tau Z at the same time
+
+807
+00:52:28,068 --> 00:52:31,986
+But this object is a perfectly good Hermitian operator
+
+808
+00:52:32,095 --> 00:52:35,050
+and there must exist a way of measuring it
+
+809
+00:52:35,158 --> 00:52:37,288
+But more to the point right now
+
+810
+00:52:37,397 --> 00:52:40,141
+there's a way of preparing a state
+
+811
+00:52:40,250 --> 00:52:43,351
+which is an eigenvector of this
+
+812
+00:52:43,453 --> 00:52:44,644
+Now  what's state?
+
+813
+00:52:44,718 --> 00:52:45,645
+The singlet state
+
+814
+00:52:45,725 --> 00:52:49,655
+The singlet state is an eigenvector of the object
+
+815
+00:52:49,656 --> 00:52:51,573
+with eigenvalue minus three
+
+816
+00:52:51,653 --> 00:52:55,014
+It's an eigenvalue of this one with minus one  this one with minus one
+
+817
+00:52:55,122 --> 00:52:56,862
+and this one with minus one
+
+818
+00:52:56,971 --> 00:52:59,375
+The whole thing has eigenvalue minus three
+
+819
+00:52:59,487 --> 00:53:05,864
+The point is the eigenvectors of this product  of a sum of products here
+
+820
+00:53:05,968 --> 00:53:10,356
+include the the singlet state is a particular one
+
+821
+00:53:10,465 --> 00:53:11,311
+You can also write this
+
+822
+00:53:11,419 --> 00:53:15,056
+It's just Sigma dot Tau
+
+823
+00:53:15,163 --> 00:53:19,194
+Sigma X Tau X  Sigma Y Tau Y   Sigma Z Tau Z
+
+824
+00:53:19,278 --> 00:53:23,813
+that uses ordinary classical vectors you are writing Sigma dot Tau
+
+825
+00:53:23,915 --> 00:53:27,110
+Now if you take two electrons  each one has a spin
+
+826
+00:53:27,218 --> 00:53:31,230
+In a very very far apart  they don't interact with each other
+
+827
+00:53:31,340 --> 00:53:36,087
+There is no energy associated with the interaction between them
+
+828
+00:53:36,197 --> 00:53:39,042
+But as you bring them together  there are all sorts of energies
+
+829
+00:53:39,134 --> 00:53:42,381
+One energy for example is just Coulomb energy between them
+
+830
+00:53:42,488 --> 00:53:44,088
+Product of the charges
+
+831
+00:53:44,161 --> 00:53:48,131
+There is also an energy associated with the spins
+
+832
+00:53:48,215 --> 00:53:50,723
+and one of the terms of the energy associated with the spin
+
+833
+00:53:50,860 --> 00:53:52,872
+is just the dot product of the spins
+
+834
+00:53:52,971 --> 00:53:54,648
+The spins are aligned  you get
+
+835
+00:53:54,717 --> 00:53:58,248
+If this is aligned  you get one value
+
+836
+00:53:58,357 --> 00:54:01,140
+If this is anti-aligned  you get the other value
+
+837
+00:54:01,247 --> 00:54:11,805
+Ang so Sigma dot tau is a piece of the Hamiltonian of the two spin system
+
+838
+00:54:11,908 --> 00:54:15,818
+In the singlet state  it's minimum
+
+839
+00:54:15,891 --> 00:54:18,429
+The three other states called the triplet states
+
+840
+00:54:18,542 --> 00:54:22,246
+in which it is maximum
+
+841
+00:54:22,353 --> 00:54:26,073
+So the energy is lowest in the singlet state
+
+842
+00:54:26,176 --> 00:54:30,338
+The spins are trying to get anti-aligned with each other
+
+843
+00:54:30,445 --> 00:54:34,440
+But in every direction  not just the z direction  every direction
+
+844
+00:54:34,547 --> 00:54:37,518
+and eventually compromise on the singlet state
+
+845
+00:54:37,662 --> 00:54:42,714
+So you have two energy levels associated with the spin of an electron
+
+846
+00:54:42,856 --> 00:54:46,136
+These two energy in hydrogen
+
+847
+00:54:46,238 --> 00:54:48,785
+Or in a Positronium   even better
+
+848
+00:54:48,900 --> 00:54:52,065
+In Positronium  you have the aligned and anti-aligned spins
+
+849
+00:54:52,212 --> 00:54:56,630
+and they have different energy levels  singlet  triplet
+
+850
+00:54:56,738 --> 00:55:01,623
+If you bring two electrons together
+
+851
+00:55:01,768 --> 00:55:06,064
+then any state can be written in terms of the singlet triplet states
+
+852
+00:55:06,172 --> 00:55:10,913
+Even a product state can be represented as a sum of singlet triplet states
+
+853
+00:55:11,017 --> 00:55:16,936
+What happens when you bring electrons together after a period
+
+854
+00:55:17,043 --> 00:55:21,275
+if they are in the triplet state with the high energy?
+
+855
+00:55:21,389 --> 00:55:25,901
+What happens the higher energy states after a while?
+
+856
+00:55:25,983 --> 00:55:29,796
+They emit a photon and go to the lower energy state
+
+857
+00:55:29,869 --> 00:55:34,361
+So if you take two spins which may be in a product state
+
+858
+00:55:34,472 --> 00:55:36,828
+And  you bring them together and wait a long time
+
+859
+00:55:36,969 --> 00:55:40,077
+a photon may or may not be admitted
+
+860
+00:55:40,215 --> 00:55:44,430
+If the system is in the singlet state  no emission
+
+861
+00:55:44,535 --> 00:55:47,885
+If it's in the triplet state it emits  gives off a photon
+
+862
+00:55:47,994 --> 00:55:50,293
+and winds up in the singlet state
+
+863
+00:55:50,400 --> 00:55:53,288
+So this would be a way of preparing the system
+
+864
+00:55:53,397 --> 00:55:54,738
+in the singlet state
+
+865
+00:55:54,839 --> 00:55:57,966
+We just take the two electrons and wait until they radiate a photon
+
+866
+00:55:58,041 --> 00:56:01,226
+Wait long enough  they do or don't radiate a photon
+
+867
+00:56:01,332 --> 00:56:06,971
+But if you wait long enough  you'll know that it's in the singlet state
+
+868
+00:56:07,078 --> 00:56:10,658
+So that's A experiment  that's an experiment 
+
+869
+00:56:10,769 --> 00:56:17,077
+Another way  now this one so this one is very very far-fetched
+
+870
+00:56:17,152 --> 00:56:19,384
+extremely far-fetched
+
+871
+00:56:19,454 --> 00:56:22,634
+The energy in the singlet state is less than the energy
+
+872
+00:56:22,741 --> 00:56:24,149
+and the other three states
+
+873
+00:56:24,256 --> 00:56:28,028
+There are four possible states altogether
+
+874
+00:56:28,116 --> 00:56:31,723
+four possible basis states singlet and three triplet
+
+875
+00:56:31,867 --> 00:56:35,076
+The energy of the singlet is lowest
+
+876
+00:56:35,184 --> 00:56:37,547
+So you just take your composite system
+
+877
+00:56:37,619 --> 00:56:41,333
+and you put it on a scale and you measure its mass
+
+878
+00:56:41,440 --> 00:56:42,914
+Mass is energy
+
+879
+00:56:43,058 --> 00:56:44,523
+When you measured its mass
+
+880
+00:56:44,633 --> 00:56:48,491
+you measured whether it's energy is the energy of the singlet state
+
+881
+00:56:48,603 --> 00:56:50,218
+or the triplet state
+
+882
+00:56:50,327 --> 00:56:55,820
+and that constitute a measurement or constitutes a preparation device
+
+883
+00:56:55,929 --> 00:57:00,703
+are measurement of   basically its variable
+
+884
+00:57:00,777 --> 00:57:04,346
+but if you like the difference between singlet triplet
+
+885
+00:57:04,435 --> 00:57:08,383
+So  yeah  there are ways of preparing systems in the singlet or triplet
+
+886
+00:57:08,455 --> 00:57:10,010
+in singlet state
+
+887
+00:57:10,116 --> 00:57:15,036
+Always  in fact  if you bring the systems together and you wait a while
+
+888
+00:57:15,132 --> 00:57:19,665
+it's very difficult to have anything but the singlet state
+
+889
+00:57:19,772 --> 00:57:22,570
+Then once you've made that singlet state
+
+890
+00:57:22,680 --> 00:57:25,601
+if you grab the electrons without turning the spins
+
+891
+00:57:25,704 --> 00:57:27,273
+if you grab them somehow in a way
+
+892
+00:57:27,350 --> 00:57:31,365
+that doesn't put any torque on the spins and pull them apart
+
+893
+00:57:31,466 --> 00:57:37,137
+You now have two separate electrons for example  in the singlet state
+
+894
+00:57:37,211 --> 00:57:40,484
+So it's not a terribly hard thing to do
+
+895
+00:57:40,589 --> 00:57:46,752
+>> With the spin value  actual you can assign the energy to the entanglement
+
+896
+00:57:46,859 --> 00:57:50,968
+Yes  in this case  yes  in this case  yes
+
+897
+00:57:51,060 --> 00:57:59,668
+But  well you what you can say is the lower energy is certainly entangled
+
+898
+00:57:59,778 --> 00:58:01,933
+The lowest energy state  the one that seeks
+
+899
+00:58:02,019 --> 00:58:04,716
+the one to get to by
+
+900
+00:58:04,795 --> 00:58:06,987
+It doesn't have to be radiating a photon
+
+901
+00:58:07,092 --> 00:58:12,463
+Any mechanism by which the system can lower its energy
+
+902
+00:58:12,572 --> 00:58:17,989
+emitting a phonon   or doing interacting with the crystal lattice
+
+903
+00:58:18,092 --> 00:58:22,072
+anything to lower its energy will leave in the singlet state
+
+904
+00:58:22,213 --> 00:58:25,538
+So I think the right thing to say is
+
+905
+00:58:25,657 --> 00:58:29,551
+that the lower energy state is entangled
+
+906
+00:58:29,695 --> 00:58:32,021
+That's almost always the case
+
+907
+00:58:32,122 --> 00:58:42,120
+that the states of lowest energy are highly entangled between systems
+
+908
+00:58:42,229 --> 00:58:47,648
+Okay  so we  next question  is there a measure
+
+909
+00:58:47,759 --> 00:58:51,841
+a quantitative measure of the degree of entanglement
+
+910
+00:58:51,940 --> 00:58:59,887
+is there a way of taking a state and determining whether it's an entangled
+
+911
+00:59:00,038 --> 00:59:03,563
+and to measure how much entangled
+
+912
+00:59:03,672 --> 00:59:06,648
+That brings us to a concept called the density matrix
+
+913
+00:59:06,793 --> 00:59:08,084
+which I am probably gonna
+
+914
+00:59:08,191 --> 00:59:15,971
+It's getting later than I thought so I want to go over this little quickly
+
+915
+00:59:16,043 --> 00:59:21,308
+but I think we can we can do it
+
+916
+00:59:21,384 --> 00:59:26,375
+Let's define an object called Alice's density matrix
+
+917
+00:59:26,451 --> 00:59:31,334
+Alice's density matrix is a quantity
+
+918
+00:59:31,415 --> 00:59:36,554
+which even in an entangled state is as complete a description
+
+919
+00:59:36,696 --> 00:59:41,185
+of Alice's system for the purposes of Alice's measurements
+
+920
+00:59:41,294 --> 00:59:43,636
+as Alice can ever get
+
+921
+00:59:43,784 --> 00:59:48,320
+It's not a wave function if it was unentangled
+
+922
+00:59:48,393 --> 00:59:51,523
+the wave function would be the best description she could have
+
+923
+00:59:51,628 --> 00:59:55,360
+But for an entangled system you cannot extract out
+
+924
+00:59:55,468 --> 00:59:58,556
+a wave function for either piece of the entangled system
+
+925
+00:59:58,670 --> 01:00:02,579
+The best you could do is something called the of the density matrix
+
+926
+01:00:02,683 --> 01:00:04,236
+We actually had it up here
+
+927
+01:00:04,345 --> 01:00:06,091
+Let me go back to it
+
+928
+01:00:06,201 --> 01:00:09,801
+Let's talk about all of Alice's experiments
+
+929
+01:00:09,884 --> 01:00:13,526
+that she can do without measuring anything
+
+930
+01:00:13,592 --> 01:00:16,947
+about Bob's electron or Bob's system
+
+931
+01:00:17,048 --> 01:00:19,861
+Let's imagine they separated the systems
+
+932
+01:00:19,960 --> 01:00:21,890
+Bob has his Alice has her
+
+933
+01:00:21,961 --> 01:00:24,746
+and Alice can do all the experiments she likes
+
+934
+01:00:24,894 --> 01:00:27,830
+and measure any one of these L observables
+
+935
+01:00:27,900 --> 01:00:31,727
+L standing for Alice  Ok
+
+936
+01:00:31,831 --> 01:00:37,616
+How does she describe all the possible expectation values of everything
+
+937
+01:00:37,686 --> 01:00:38,718
+that she can ever measure
+
+938
+01:00:38,774 --> 01:00:39,931
+So we had a formula before
+
+939
+01:00:40,000 --> 01:00:41,875
+I am going to rewrite it
+
+940
+01:00:41,979 --> 01:00:53,512
+Expectation value of L is psi star of alpha prime  Beta prime 
+
+941
+01:00:55,135 --> 01:00:59,079
+Or a prime  b prime
+
+942
+01:00:59,192 --> 01:01:00,643
+This is the combined system
+
+943
+01:01:00,714 --> 01:01:02,838
+We are going back to the combined system now
+
+944
+01:01:02,950 --> 01:01:12,829
+L a prime a psi a b
+
+945
+01:01:12,900 --> 01:01:17,856
+But we set b is equal to b prime
+
+946
+01:01:17,963 --> 01:01:20,083
+Or we like  we can leave the b prime here
+
+947
+01:01:20,189 --> 01:01:24,001
+And put a Kronecker Delta b and b prime
+
+948
+01:01:24,071 --> 01:01:30,042
+This is one of Alice's variables  and so as far as Bob goes
+
+949
+01:01:30,149 --> 01:01:31,519
+it's just a unit operator
+
+950
+01:01:31,626 --> 01:01:34,316
+It does nothing for Bob's piece of the wave function
+
+951
+01:01:34,424 --> 01:01:38,304
+and that just says  stick b equal to b prime
+
+952
+01:01:38,383 --> 01:01:41,209
+Okay look at this quantity right over here
+
+953
+01:01:41,316 --> 01:01:43,201
+Let's take L on the outside
+
+954
+01:01:43,311 --> 01:01:47,481
+Let's take L of a prime and a out there  isolated off
+
+955
+01:01:47,586 --> 01:01:51,519
+We have to sum this over b
+
+956
+01:01:51,625 --> 01:01:52,913
+We sum over everything
+
+957
+01:01:53,021 --> 01:02:00,181
+We sum this over b and here is a quantity right here
+
+958
+01:02:00,256 --> 01:02:04,777
+that depends on a prime a and a multiply something else
+
+959
+01:02:04,886 --> 01:02:06,744
+that depends on a and a prime
+
+960
+01:02:06,869 --> 01:02:09,840
+But it doesn't depend on b   we've summed over b
+
+961
+01:02:09,981 --> 01:02:14,465
+Once you summed over b  it doesn't depend on b anymore
+
+962
+01:02:14,572 --> 01:02:16,694
+So this object over here is a function
+
+963
+01:02:16,834 --> 01:02:21,387
+only of Alice's coordinates a and a prime
+
+964
+01:02:21,529 --> 01:02:24,660
+It of course to calculate it
+
+965
+01:02:24,769 --> 01:02:26,839
+you may have to know more about the wave function
+
+966
+01:02:26,924 --> 01:02:29,313
+But once you've calculated it
+
+967
+01:02:29,384 --> 01:02:32,028
+that's all that Alice ever needs to know
+
+968
+01:02:32,117 --> 01:02:35,592
+to calculate anything about her half of the system
+
+969
+01:02:35,698 --> 01:02:37,280
+So let's give it a name
+
+970
+01:02:37,387 --> 01:02:48,636
+It's the sum over b  psi star of a prime b  psi of a b
+
+971
+01:02:48,745 --> 01:02:51,371
+It doesn't depend on b degrees of freedom at all anymore
+
+972
+01:02:51,478 --> 01:02:53,004
+Bob's degrees of freedom
+
+973
+01:02:53,091 --> 01:02:55,861
+It's called the density matrix
+
+974
+01:02:55,964 --> 01:03:00,625
+That's a function  a thing which depends on a prime and a
+
+975
+01:03:00,718 --> 01:03:04,454
+It's a matrix  it's a matrix that has two entries
+
+976
+01:03:04,598 --> 01:03:13,336
+Any matrix can be thought of as a function of a row and a column
+
+977
+01:03:13,429 --> 01:03:15,260
+This is a density matrix
+
+978
+01:03:15,363 --> 01:03:17,113
+and if we know the density matrix
+
+979
+01:03:17,223 --> 01:03:19,236
+it doesn't matter where it came from
+
+980
+01:03:19,337 --> 01:03:22,805
+It doesn't matter what Bob state was if we know row in a row
+
+981
+01:03:22,910 --> 01:03:26,002
+Then we know that the expectation is right the formula
+
+982
+01:03:26,114 --> 01:03:28,583
+The expectation value of L is equal to
+
+983
+01:03:28,682 --> 01:03:37,349
+the sum of rho of a prime and a  L of a and a prime
+
+984
+01:03:37,450 --> 01:03:38,791
+I think I have one of them backwards
+
+985
+01:03:38,888 --> 01:03:41,003
+It doesn't matter
+
+986
+01:03:41,147 --> 01:03:44,579
+So Alice  if she knew this density matrix
+
+987
+01:03:44,688 --> 01:03:47,251
+could forget about Bob completely
+
+988
+01:03:47,354 --> 01:03:51,837
+and say I know everything there is to know about my subsystem
+
+989
+01:03:51,944 --> 01:03:55,981
+and here it is  Ok
+
+990
+01:03:56,088 --> 01:04:05,707
+What is rho of a and a prime if we start with a pure state
+
+991
+01:04:05,815 --> 01:04:11,802
+Supposing we started with a pure state
+
+992
+01:04:11,879 --> 01:04:13,825
+You are getting exhausted?
+
+993
+01:04:13,930 --> 01:04:20,064
+No? This is quantum mechanics for you  sorry  but this is it
+
+994
+01:04:20,173 --> 01:04:23,117
+>> (laugh)
+
+995
+01:04:23,216 --> 01:04:25,219
+I can't make it easier
+
+996
+01:04:25,327 --> 01:04:27,605
+This is the easiest I can make it
+
+997
+01:04:27,695 --> 01:04:30,363
+Alright  you are going to sit down with it  you'll go through it
+
+998
+01:04:30,470 --> 01:04:33,000
+and penetrate it
+
+999
+01:04:33,071 --> 01:04:38,091
+But I'll do my best  okay.
+
+1000
+01:04:38,159 --> 01:04:43,581
+This is the notion of density matrix
+
+1001
+01:04:43,650 --> 01:04:48,922
+What if psi is a pure state?
+
+1002
+01:04:49,024 --> 01:04:51,774
+What can we say about this density matrix?
+
+1003
+01:04:51,879 --> 01:04:55,177
+So let's go back and see exactly what it says
+
+1004
+01:04:55,282 --> 01:04:56,954
+If psi is  I am sorry
+
+1005
+01:04:57,040 --> 01:04:59,035
+What if psi is a product state
+
+1006
+01:04:59,120 --> 01:05:03,371
+If psi is a product state it means the wave function factorizes
+
+1007
+01:05:03,479 --> 01:05:04,983
+So let's go back  here we are
+
+1008
+01:05:05,088 --> 01:05:07,215
+Here is the density matrix
+
+1009
+01:05:07,359 --> 01:05:11,386
+The wave function factorizes into  this is a b prime
+
+1010
+01:05:11,487 --> 01:05:12,630
+That's right  that's correct
+
+1011
+01:05:12,706 --> 01:05:17,370
+>>The density matrix you summed over a prime and a is a double sum
+
+1012
+01:05:17,482 --> 01:05:19,320
+Not in the density matrix
+
+1013
+01:05:19,428 --> 01:05:20,273
+>>Why
+
+1014
+01:05:20,380 --> 01:05:23,435
+In this one  yes  it's a double sum
+
+1015
+01:05:23,541 --> 01:05:26,127
+It's a double sum but only involves rho
+
+1016
+01:05:26,233 --> 01:05:29,626
+So let's erase this for a moment
+
+1017
+01:05:29,672 --> 01:05:33,229
+and see what we learn about this creature called the density matrix
+
+1018
+01:05:33,309 --> 01:05:35,453
+if psi is a product vector
+
+1019
+01:05:35,561 --> 01:05:37,972
+It must have is a special form somehow
+
+1020
+01:05:38,080 --> 01:05:45,850
+So let's say that psi is a product of Alice's wave function
+
+1021
+01:05:45,931 --> 01:05:47,155
+times Bob's wave function
+
+1022
+01:05:47,229 --> 01:05:48,396
+I forget which one is which now
+
+1023
+01:05:48,465 --> 01:05:50,715
+Was psi Alice or psi Bob?
+
+1024
+01:05:50,804 --> 01:05:52,774
+Psi with Bob?
+
+1025
+01:05:52,880 --> 01:05:55,520
+Psi is Alice  Ok
+
+1026
+01:05:55,628 --> 01:05:58,203
+It doesn't matter  we can change it now
+
+1027
+01:05:58,310 --> 01:06:07,224
+So the complex conjugate here is Alice's wave function times
+
+1028
+01:06:07,333 --> 01:06:08,540
+This is not the wave function of Alice's
+
+1029
+01:06:08,801 --> 01:06:11,265
+This is the wave function of Alice's spin  incidentally
+
+1030
+01:06:11,353 --> 01:06:13,058
+But I will call it as Alice's wave function
+
+1031
+01:06:13,826 --> 01:06:18,428
+Alice's wave function times Bob's wave function  the complex conjugate
+
+1032
+01:06:18,472 --> 01:06:25,853
+And then we multiply that by the non complex conjugate of thing
+
+1033
+01:06:25,874 --> 01:06:27,472
+Let me put them in the opposite order
+
+1034
+01:06:27,530 --> 01:06:31,753
+Phi of b  notice we identified b with b here
+
+1035
+01:06:31,781 --> 01:06:38,554
+It's not b and b prime  and this is prime  Psi a
+
+1036
+01:06:39,844 --> 01:06:42,315
+Each one of these factorizes 
+
+1037
+01:06:42,426 --> 01:06:45,158
+this factorizes into a function of 'a prime' and b
+
+1038
+01:06:45,226 --> 01:06:46,551
+And this one into a function of b and a
+
+1039
+01:06:49,439 --> 01:06:50,991
+And now we sum over b
+
+1040
+01:06:52,002 --> 01:06:56,611
+What does this sum of b? Of Phi star phi? One right?
+
+1041
+01:06:56,631 --> 01:07:00,140
+Okay so now we can take this out  throw it out
+
+1042
+01:07:01,181 --> 01:07:05,452
+And here is what we find  we find that for a product state 
+
+1043
+01:07:05,473 --> 01:07:07,164
+Only for product state  
+
+1044
+01:07:07,248 --> 01:07:14,399
+that Rho is simply made up out of Alice's half of the wave function
+
+1045
+01:07:14,422 --> 01:07:18,658
+Without any regard to Bob  she doesn't need to know anything about Bob
+
+1046
+01:07:20,087 --> 01:07:23,709
+This is not too surprising that she didn't need to know anything about Bob
+
+1047
+01:07:23,772 --> 01:07:26,755
+After all it's a product wave function 
+
+1048
+01:07:26,830 --> 01:07:36,032
+And the density matrix is just a product of the complex conjugate 
+
+1049
+01:07:36,076 --> 01:07:38,175
+of the wave function with the wave function itself 
+
+1050
+01:07:38,247 --> 01:07:41,455
+Two different a-s though  an a and a prime
+
+1051
+01:07:42,391 --> 01:07:47,481
+Alright what can we say about a matrix like this
+
+1052
+01:07:47,509 --> 01:07:49,604
+Let's call this matrix  let's call it
+
+1053
+01:07:50,305 --> 01:07:54,967
+I think it's actually Rho of  let's call it Rho of a and a prime
+
+1054
+01:07:55,823 --> 01:08:00,706
+Just call it Rho of a and switch the order  but that's just the definition
+
+1055
+01:08:00,737 --> 01:08:07,692
+Let's take this Rho  it's a matrix and act with it on a column vector 
+
+1056
+01:08:07,725 --> 01:08:11,253
+How do you act if you know the components of a matrix
+
+1057
+01:08:11,357 --> 01:08:15,109
+How do you act on a column vector? So let's suppose this is a matrix
+
+1058
+01:08:16,293 --> 01:08:22,597
+Ya Rho 11  just a second  Rho 12 so forth  Rho 21 
+
+1059
+01:08:22,666 --> 01:08:24,822
+we made a matrix out of it
+
+1060
+01:08:24,897 --> 01:08:27,469
+>> Do you wanna erase the transformation sign there on the far?
+
+1061
+01:08:27,548 --> 01:08:32,985
+Ya I do  good point  excellent 
+
+1062
+01:08:34,218 --> 01:08:38,606
+Alright so we have Rho  it's made up out of Alice's wave function
+
+1063
+01:08:40,110 --> 01:08:43,622
+And I maintain that this density matrix  
+
+1064
+01:08:43,722 --> 01:08:47,183
+All of these matrix has an eigenvector 
+
+1065
+01:08:48,536 --> 01:08:52,623
+I maintain all over that there is one and only one eigenvector
+
+1066
+01:08:52,653 --> 01:08:55,175
+With non zero eigenvalue 
+
+1067
+01:08:55,264 --> 01:09:07,444
+And that the eigenvalue is plus one  somebody say right? Good
+
+1068
+01:09:07,470 --> 01:09:12,149
+Okay  let's prove it  I will tell you exactly what that eigenvector is 
+
+1069
+01:09:12,177 --> 01:09:18,953
+It's Psi a  it's Psi itself  so let's check that out
+
+1070
+01:09:18,977 --> 01:09:23,967
+Let's multiply this by Psi of a prime in fact 
+
+1071
+01:09:24,012 --> 01:09:26,822
+And sum it over a prime  this is matrix  
+
+1072
+01:09:26,879 --> 01:09:32,202
+this is the process of multiplying a column vector by a matrix
+
+1073
+01:09:32,247 --> 01:09:36,452
+That's the way you do it  you write down the matrix 
+
+1074
+01:09:36,543 --> 01:09:44,191
+You write down the column vector and you sum over the element between them
+
+1075
+01:09:45,431 --> 01:09:47,975
+Okay let's see if we can see what we get
+
+1076
+01:09:48,063 --> 01:09:54,682
+Oh this is the action of Rho on Psi  okay
+
+1077
+01:09:54,760 --> 01:09:57,348
+So let's do it  Rho is Rho
+
+1078
+01:09:58,754 --> 01:10:04,952
+Now let's multiply it by Psi of a prime
+
+1079
+01:10:07,210 --> 01:10:11,098
+And now let's sum over a prime  what do we get?
+
+1080
+01:10:13,394 --> 01:10:19,875
+Psi star of a prime times Psi of a prime sum over a prime is? One  right?
+
+1081
+01:10:19,896 --> 01:10:23,283
+So it all comes out to just be Psi
+
+1082
+01:10:23,364 --> 01:10:25,539
+So this is Psi  
+
+1083
+01:10:28,275 --> 01:10:29,675
+What does that tell you about eigenvector
+
+1084
+01:10:29,820 --> 01:10:33,614
+and eigenvalues of the density matrix?
+
+1085
+01:10:33,828 --> 01:10:37,283
+It tells you that the original wave function is 
+
+1086
+01:10:37,354 --> 01:10:41,165
+an eigenvalue of the density matrix of eigenvalue plus one 
+
+1087
+01:10:43,002 --> 01:10:46,910
+Let me prove now that all vectors perpendicular 
+
+1088
+01:10:46,936 --> 01:10:50,343
+There are n minus one if the dimensionality of the space is n
+
+1089
+01:10:50,422 --> 01:10:55,987
+Then this is the one eigenvector out of n  which is eigenvalue one
+
+1090
+01:10:56,013 --> 01:10:59,759
+Let's take any vector now which is perpendicular
+
+1091
+01:10:59,866 --> 01:11:02,924
+which is orthogonal to Psi
+
+1092
+01:11:03,034 --> 01:11:05,537
+To Psi a  to Alice's wave function 
+
+1093
+01:11:05,649 --> 01:11:09,656
+Let's call it Psi a tilde  
+
+1094
+01:11:09,686 --> 01:11:14,134
+tilde now means it's orthogonal to the original Alice' vector
+
+1095
+01:11:14,172 --> 01:11:20,366
+Now what is this inner product? Zero right?
+
+1096
+01:11:22,046 --> 01:11:29,171
+So we find out that Rho on Psi tilde is zero
+
+1097
+01:11:29,207 --> 01:11:33,843
+That means any vector perpendicular to Alice's vector 
+
+1098
+01:11:33,938 --> 01:11:37,099
+is an eigenvector with eigenvalue zero
+
+1099
+01:11:37,195 --> 01:11:44,850
+The original state of Alice's spin is an eigenvalue with plus one 
+
+1100
+01:11:44,876 --> 01:11:50,181
+Conclusion? The density matrix for a pure state has one 
+
+1101
+01:11:50,275 --> 01:11:54,300
+and only one non zero eigenvalue and it's equal to one
+
+1102
+01:11:59,727 --> 01:12:03,060
+What if it's not a product state?
+
+1103
+01:12:03,932 --> 01:12:12,881
+If it's not a product state then you will find a collection of eigenvalues
+
+1104
+01:12:12,938 --> 01:12:16,611
+In fact in general there will be all of the eigenvalues
+
+1105
+01:12:16,719 --> 01:12:19,246
+in general with non-zero
+
+1106
+01:12:20,241 --> 01:12:27,715
+Of the density matrix  you can try this out for the two spin system
+
+1107
+01:12:27,741 --> 01:12:31,605
+Work out the density matrix of Alice's spin
+
+1108
+01:12:31,749 --> 01:12:34,058
+the density matrix for Bob's spin
+
+1109
+01:12:34,164 --> 01:12:36,937
+And you will find out that they are quite different
+
+1110
+01:12:37,057 --> 01:12:39,137
+They don't have the single eigenvector which is non-zero 
+
+1111
+01:12:39,210 --> 01:12:41,714
+They have a pair of eigenvectors which are non-zero 
+
+1112
+01:12:41,810 --> 01:12:47,979
+So what we learn is that this information in the density matrix 
+
+1113
+01:12:48,007 --> 01:12:51,460
+and in particular in the eigenvalues of the density matrix 
+
+1114
+01:12:51,532 --> 01:12:54,943
+Which tell you whether it's a great deal of entanglement or not
+
+1115
+01:12:56,084 --> 01:12:59,060
+The more eigenvectors which are non zero 
+
+1116
+01:12:59,123 --> 01:13:01,275
+The more entangled it is 
+
+1117
+01:13:01,332 --> 01:13:03,960
+If there is only one eigenvector which is non zero 
+
+1118
+01:13:03,960 --> 01:13:06,318
+It's not entangled at all
+
+1119
+01:13:07,178 --> 01:13:13,238
+And Alice's half of the wave function is just that eigenvector
+
+1120
+01:13:14,438 --> 01:13:19,519
+If they are entangled then one finds the more they are entangled 
+
+1121
+01:13:19,551 --> 01:13:21,897
+the more eigenvalues you'll find 
+
+1122
+01:13:23,220 --> 01:13:26,672
+And the maximum entanglement is when all the eigenvectors are equal 
+
+1123
+01:13:27,199 --> 01:13:29,418
+When all the eigenvectors are equal  all eigenvalues  
+
+1124
+01:13:29,796 --> 01:13:34,981
+when all the eigenvalues are equal  that's maximal entanglement 
+
+1125
+01:13:35,366 --> 01:13:42,361
+Take the singlet state  work out the density matrix of Alice's spin
+
+1126
+01:13:42,741 --> 01:13:47,029
+And what you will find is that it has two eigenvalues 
+
+1127
+01:13:47,400 --> 01:13:51,743
+Each of which is a half  equal and equal to a half 
+
+1128
+01:13:52,213 --> 01:13:56,596
+So that's a test  that's the way to test 
+
+1129
+01:13:56,947 --> 01:13:59,882
+whether the system does or doesn't have entanglement 
+
+1130
+01:14:00,203 --> 01:14:04,325
+Calculate the density matrix and study it's eigenvalues
+
+1131
+01:14:04,650 --> 01:14:07,557
+The maximum entanglement is when they are all equal
+
+1132
+01:14:09,183 --> 01:14:14,174
+When they are equal  they are equal to one over n  you can prove that
+
+1133
+01:14:14,543 --> 01:14:18,728
+When n is the dimensionality of the space  one over n
+
+1134
+01:14:20,492 --> 01:14:25,294
+Okay that's entanglement quantified
+
+1135
+01:14:28,814 --> 01:14:30,717
+can even be a little more quantitative
+
+1136
+01:14:31,084 --> 01:14:33,350
+Even be a little more quantitative 
+
+1137
+01:14:38,619 --> 01:14:39,958
+No  let's not do that now
+
+1138
+01:14:40,323 --> 01:14:43,038
+I will write a more quantitative condition of notes
+
+1139
+01:14:56,694 --> 01:14:59,425
+Let's very quickly go through the connection
+
+1140
+01:14:59,772 --> 01:15:01,498
+between measurement and entanglement 
+
+1141
+01:15:01,781 --> 01:15:03,993
+There is a deep connection between measurement and entanglement 
+
+1142
+01:15:04,375 --> 01:15:08,161
+Basically measurement is the process of entangling  
+
+1143
+01:15:08,503 --> 01:15:12,345
+of starting with a product state  a product state of what and what 
+
+1144
+01:15:12,704 --> 01:15:16,338
+A product state of a system and the apparatus
+
+1145
+01:15:16,695 --> 01:15:20,106
+The apparatus is in a definite state to begin with
+
+1146
+01:15:20,417 --> 01:15:22,146
+And the system is in definite state 
+
+1147
+01:15:22,477 --> 01:15:24,426
+What state is the apparatus in?
+
+1148
+01:15:24,789 --> 01:15:29,105
+Well  the apparatus might be something which detect something or other
+
+1149
+01:15:29,440 --> 01:15:32,360
+and if it's not detecting  you might put it into some neutral state 
+
+1150
+01:15:32,699 --> 01:15:35,217
+some neutral state which is the starting state  the undetected state
+
+1151
+01:15:37,335 --> 01:15:38,744
+the neutral state of the apparatus 
+
+1152
+01:15:39,098 --> 01:15:42,289
+And now you bring the system you are interested in
+
+1153
+01:15:42,646 --> 01:15:46,119
+Right up to the apparatus  it does something to the apparatus
+
+1154
+01:15:46,452 --> 01:15:48,175
+Something happens to the system itself 
+
+1155
+01:15:48,538 --> 01:15:52,401
+And what's left over is an entangled state between the two of them
+
+1156
+01:15:52,740 --> 01:15:53,777
+So I'll give you an example
+
+1157
+01:15:54,162 --> 01:15:57,744
+I'm going to think of the apparatus as a very simple system
+
+1158
+01:15:58,061 --> 01:15:59,186
+With only two states
+
+1159
+01:16:03,041 --> 01:16:04,944
+Let's  let me find my notes here
+
+1160
+01:16:13,521 --> 01:16:17,694
+Ya  my system is a spin and my apparatus also happens
+
+1161
+01:16:17,994 --> 01:16:19,210
+to have only two states
+
+1162
+01:16:19,488 --> 01:16:20,502
+You can think of it as another spin if you like 
+
+1163
+01:16:21,854 --> 01:16:23,846
+In fact they could be Alice's and Bob's
+
+1164
+01:16:24,175 --> 01:16:27,527
+But you could also think of it as a more complex system
+
+1165
+01:16:29,637 --> 01:16:32,039
+But for simplicity it only has two states
+
+1166
+01:16:34,975 --> 01:16:41,663
+Here's the apparatus  it has only two states  let's say zero and one now
+
+1167
+01:16:42,011 --> 01:16:47,381
+Zero is the state before the apparatus is switch on  when it's switch on 
+
+1168
+01:16:47,724 --> 01:16:52,646
+It has not detected anything  it always starts out in the state zero 
+
+1169
+01:16:53,005 --> 01:16:55,190
+And if it's not in the state zero give it a shove
+
+1170
+01:16:55,541 --> 01:16:57,104
+and put it in the state zero
+
+1171
+01:16:57,437 --> 01:17:01,285
+Otherwise it's not  otherwise  you know  
+
+1172
+01:17:01,646 --> 01:17:03,644
+you have to start your apparatus in a know state
+
+1173
+01:17:04,011 --> 01:17:05,971
+Otherwise you are not going to be able to do a measurement 
+
+1174
+01:17:06,308 --> 01:17:09,418
+So it has zero and one  for it starts out zero
+
+1175
+01:17:09,772 --> 01:17:14,244
+And we have our spin  here's a spin
+
+1176
+01:17:14,585 --> 01:17:15,876
+and we are gonna do a measurement on it
+
+1177
+01:17:16,217 --> 01:17:20,451
+Supposing the spin is in the up state  
+
+1178
+01:17:22,524 --> 01:17:25,573
+and the apparatus of course begins in the zero state
+
+1179
+01:17:25,914 --> 01:17:29,266
+So we represent that by a combined ket vector 
+
+1180
+01:17:29,575 --> 01:17:35,380
+A combined ket vector is in a tensor product of the spin Hilbert space 
+
+1181
+01:17:35,724 --> 01:17:37,269
+and the detector Hilbert space
+
+1182
+01:17:38,796 --> 01:17:44,737
+Up and zero  if the spin comes in  to begin with down
+
+1183
+01:17:46,121 --> 01:17:49,464
+And then you start out in the state down zero
+
+1184
+01:17:52,176 --> 01:17:56,460
+Why? Because you start out with a detector in the neutral state 
+
+1185
+01:17:58,037 --> 01:18:02,056
+Now I'm not going to tell you in detail what the interaction is 
+
+1186
+01:18:02,410 --> 01:18:05,006
+between the detector and the spin
+
+1187
+01:18:05,350 --> 01:18:09,357
+That could involve magnetic fields and other kinds of things
+
+1188
+01:18:09,688 --> 01:18:12,086
+causing an influence between the detector 
+
+1189
+01:18:12,423 --> 01:18:16,852
+But I am going to tell you  that if you bring a spin into the detector
+
+1190
+01:18:17,189 --> 01:18:19,836
+And then take a spin out of the detector
+
+1191
+01:18:20,210 --> 01:18:23,444
+I'll tell you what state is left over
+
+1192
+01:18:23,809 --> 01:18:27,405
+So in particular  and I am making this up of course 
+
+1193
+01:18:27,713 --> 01:18:32,791
+I am making up a rule which would be a good detector
+
+1194
+01:18:33,123 --> 01:18:34,671
+Which would be a good detector
+
+1195
+01:18:34,969 --> 01:18:40,049
+Namely  if the spin  if the system starts  
+
+1196
+01:18:40,378 --> 01:18:43,346
+that the combined system starts in the state |u zero>
+
+1197
+01:18:43,687 --> 01:18:51,365
+Then the detector feels the spin and it jumps to state one
+
+1198
+01:18:51,681 --> 01:18:55,237
+It goes to state |u one>
+
+1199
+01:18:55,535 --> 01:19:01,568
+Nothing happens to the spin  it just activates the detector 
+
+1200
+01:19:01,930 --> 01:19:06,806
+On the other hand  if the spin is down  it doesn't activate the detector
+
+1201
+01:19:07,113 --> 01:19:15,515
+That's my rule  so this goes to |down one>  no |down zero>  |down zero>
+
+1202
+01:19:18,703 --> 01:19:21,178
+And that's a very good detector of up-ness and down-ness
+
+1203
+01:19:21,502 --> 01:19:25,459
+But now let's start with a superposition of up and down
+
+1204
+01:19:25,803 --> 01:19:36,123
+Let's take alpha up times |up> plus alpha down times |down>
+
+1205
+01:19:36,453 --> 01:19:39,835
+Somebody now brought us a spin and they superposition its state
+
+1206
+01:19:40,152 --> 01:19:44,063
+A general quantum state  but of course the detector starts out zero
+
+1207
+01:19:47,744 --> 01:19:53,270
+So that's the starting state  what happens after the detector acts?
+
+1208
+01:19:53,616 --> 01:19:59,099
+Well if the state is |u zero>  it goes to |u one>
+
+1209
+01:19:59,452 --> 01:20:05,390
+So that means it goes to alpha sub u times |u one>
+
+1210
+01:20:07,304 --> 01:20:15,581
+Plus alpha sub down |down zero>
+
+1211
+01:20:20,236 --> 01:20:22,260
+This all of a sudden has become an entangled state
+
+1212
+01:20:22,621 --> 01:20:28,939
+It's an entangled state if it's up  if the spin is up  the detector is up
+
+1213
+01:20:29,300 --> 01:20:30,323
+The detector is one 
+
+1214
+01:20:30,660 --> 01:20:34,275
+If the spin is down  the detector is zero 
+
+1215
+01:20:34,620 --> 01:20:38,503
+That is an entangled state  why is it an entangled state 
+
+1216
+01:20:38,855 --> 01:20:41,868
+It's an entangled state because by looking at the detector 
+
+1217
+01:20:42,216 --> 01:20:44,132
+You can tell what the spin is doing 
+
+1218
+01:20:44,431 --> 01:20:46,307
+In fact that is what a measurement is 
+
+1219
+01:20:46,609 --> 01:20:50,404
+A measurement is an interaction between a system and an apparatus
+
+1220
+01:20:50,725 --> 01:20:57,308
+that leaves the apparatus in a state that depends on the 
+
+1221
+01:20:57,642 --> 01:21:00,227
+whatever it is measuring about the system 
+
+1222
+01:21:01,476 --> 01:21:03,171
+So from one point of view you can just say
+
+1223
+01:21:03,509 --> 01:21:05,827
+Well look  this is exactly what I knew a measurement always was
+
+1224
+01:21:07,587 --> 01:21:09,955
+It just  it leaves  
+
+1225
+01:21:10,265 --> 01:21:12,060
+It's just the process that leaves a record
+
+1226
+01:21:12,438 --> 01:21:15,580
+on the apparatus of what the initial state was
+
+1227
+01:21:15,923 --> 01:21:19,252
+Of the spin  but from another point of view 
+
+1228
+01:21:19,589 --> 01:21:22,603
+It's the physics of a combined system 
+
+1229
+01:21:22,943 --> 01:21:25,980
+that combined system being a spin and the apparatus 
+
+1230
+01:21:26,325 --> 01:21:29,372
+Which leaves them in a highly entangled state 
+
+1231
+01:21:29,742 --> 01:21:36,167
+So entangled that by looking at the detector you can tell what the spin is
+
+1232
+01:21:36,507 --> 01:21:40,616
+So entanglement and measurement are really the same thing 
+
+1233
+01:21:40,943 --> 01:21:46,275
+And in fact to measure a spin  you really only need another spin
+
+1234
+01:21:46,607 --> 01:21:50,522
+And this detector here could just be a spin
+
+1235
+01:21:50,852 --> 01:21:53,093
+And one and zero could be up and down 
+
+1236
+01:21:53,171 --> 01:21:58,601
+So we had this kind of concoction here where exactly this happen 
+
+1237
+01:21:58,675 --> 01:22:02,579
+It would take only one spin to be a detector or an apparatus 
+
+1238
+01:22:02,720 --> 01:22:05,464
+Which could measure another spin
+
+1239
+01:22:05,605 --> 01:22:12,844
+But in general this is the nature of measurement 
+
+1240
+01:22:12,955 --> 01:22:16,360
+that it entangles system together 
+
+1241
+01:22:16,467 --> 01:22:19,814
+that entangles in particular apparatus with the system
+
+1242
+01:22:19,921 --> 01:22:33,218
+Is that clear? It should be very clear  and that's all
+
+1243
+01:22:33,359 --> 01:22:35,035
+That's one way of thinking about measurement 
+
+1244
+01:22:35,139 --> 01:22:36,642
+And in this language in which 
+
+1245
+01:22:36,749 --> 01:22:39,398
+you think of the system and the apparatus together
+
+1246
+01:22:39,498 --> 01:22:42,655
+You never speak about the collapse of a wave function 
+
+1247
+01:22:42,760 --> 01:22:45,641
+You speak about the development of entanglement 
+
+1248
+01:22:45,751 --> 01:22:50,184
+If you don't want to include the apparatus into your system
+
+1249
+01:22:50,287 --> 01:22:55,470
+Then the only thing to say is that after the experiment is done
+
+1250
+01:22:55,579 --> 01:22:58,519
+The system is either up or down 
+
+1251
+01:22:58,880 --> 01:23:03,299
+And you get  which one do you pick? You pick the one that you record
+
+1252
+01:23:03,669 --> 01:23:06,140
+But the one that you record is the one that recorded by the apparatus
+
+1253
+01:23:06,489 --> 01:23:10,012
+So thinking about just the system by itself
+
+1254
+01:23:10,337 --> 01:23:13,368
+You will have to have this rule that the wave function collapses
+
+1255
+01:23:13,728 --> 01:23:17,968
+Thinking about the system plus apparatus  the same physics is described 
+
+1256
+01:23:18,377 --> 01:23:22,120
+by the development of entanglement between the system and apparatus 
+
+1257
+01:23:24,259 --> 01:23:29,275
+>> So in that case would be a mixed state  a lot of states
+
+1258
+01:23:29,656 --> 01:23:33,051
+>> what can you see in the meter of the apparatus  the one that is zero?
+
+1259
+01:23:34,442 --> 01:23:42,454
+Okay  now you are another detector  this is the hierarchy of detection 
+
+1260
+01:23:43,734 --> 01:23:45,550
+Or the hierarchy of the measurement
+
+1261
+01:23:45,879 --> 01:23:49,430
+Here is the spin  here is the apparatus
+
+1262
+01:23:49,785 --> 01:23:54,316
+But we are not finished  we still have to look at the apparatus
+
+1263
+01:23:54,679 --> 01:23:57,236
+We haven't gotten any where until we look at the apparatus right?
+
+1264
+01:23:57,608 --> 01:23:59,756
+Alright  well what's gonna happen?
+
+1265
+01:24:00,106 --> 01:24:03,524
+Again we are gonna have to say when we look at the apparatus 
+
+1266
+01:24:03,852 --> 01:24:06,572
+We wind up collapsing the wave function 
+
+1267
+01:24:06,909 --> 01:24:09,996
+to one of these two pieces of the entangled states
+
+1268
+01:24:10,343 --> 01:24:15,987
+Or we can say  include the eyeball into the system 
+
+1269
+01:24:16,346 --> 01:24:19,778
+In that case  we should have included another system here 
+
+1270
+01:24:20,110 --> 01:24:24,540
+The eyeball  and the eyeball  I don't know  how do they start?
+
+1271
+01:24:24,887 --> 01:24:26,284
+It started  um  
+
+1272
+01:24:33,348 --> 01:24:35,124
+It also has two states
+
+1273
+01:24:35,411 --> 01:24:39,299
+the two states correspond to the two possible answers
+
+1274
+01:24:39,603 --> 01:24:43,532
+that the brain up there  there is also a brain up here >> oh no
+
+1275
+01:24:45,776 --> 01:24:49,052
+Two states of the brain  one state of the brain says 
+
+1276
+01:24:49,395 --> 01:24:52,941
+I saw the apparatus with a zero
+
+1277
+01:24:53,277 --> 01:24:57,181
+The other state of the brain says I saw the apparatus with a one 
+
+1278
+01:24:58,932 --> 01:25:02,468
+If we want to include the observer as well as the apparatus 
+
+1279
+01:25:02,815 --> 01:25:04,788
+We have to include another factor here 
+
+1280
+01:25:05,174 --> 01:25:09,240
+And that factor has to depend on the state of the brain
+
+1281
+01:25:09,590 --> 01:25:12,088
+Let's call it b not  it starts b not
+
+1282
+01:25:13,976 --> 01:25:16,696
+which is the brain before you look at anything
+
+1283
+01:25:18,070 --> 01:25:22,643
+And then it goes to b one over here or b not over here
+
+1284
+01:25:24,115 --> 01:25:28,595
+It's now become a system which is entangled with the eye and brain 
+
+1285
+01:25:30,716 --> 01:25:32,011
+You can say wait a minute now 
+
+1286
+01:25:32,379 --> 01:25:35,379
+We now have this entangled state we describe it all 
+
+1287
+01:25:35,684 --> 01:25:37,628
+by the quantum mechanics of the entanglement 
+
+1288
+01:25:37,942 --> 01:25:43,142
+between spin and apparatus  and then latter on between apparatus spin
+
+1289
+01:25:43,458 --> 01:25:46,453
+and eyeball  it's all been described by quantum mechanics
+
+1290
+01:25:48,022 --> 01:25:49,928
+But you may not be satisfied 
+
+1291
+01:25:50,327 --> 01:25:53,907
+You may worry about if other fellows who comes in  in the room
+
+1292
+01:25:54,308 --> 01:25:57,835
+Takes a look  and asks you what did you see
+
+1293
+01:25:58,203 --> 01:26:05,468
+So somebody else comes in  and ask you okay Charlie what did you measure?
+
+1294
+01:26:08,660 --> 01:26:17,545
+And in the process  collapses the wave function of the spin  apparatus
+
+1295
+01:26:17,877 --> 01:26:19,561
+What is it's name? Give it a name  
+
+1296
+01:26:20,869 --> 01:26:24,018
+No  no no  this is Charlie  he comes in afterwards
+
+1297
+01:26:24,331 --> 01:26:31,392
+Wigner  Wiggy  there was a Wigner that says Schrodinger right?
+
+1298
+01:26:32,603 --> 01:26:39,019
+So Schrodinger  I don't know  which one of these has ears
+
+1299
+01:26:41,819 --> 01:26:44,171
+This is the atom  this is the atom 
+
+1300
+01:26:44,501 --> 01:26:47,507
+The cat  he doesn't look at the atom
+
+1301
+01:26:47,805 --> 01:26:51,127
+But he gets hit  something happens  something happens to them on the atom
+
+1302
+01:26:51,480 --> 01:26:55,737
+So here's the detector  the cat is the detector
+
+1303
+01:26:59,178 --> 01:27:01,162
+Here Schrodinger who looks into the box
+
+1304
+01:27:01,496 --> 01:27:03,410
+here's Wigner who looks at Schrodinger
+
+1305
+01:27:03,741 --> 01:27:06,794
+And there is a hierarchy here  the hierarchy 
+
+1306
+01:27:07,101 --> 01:27:10,151
+where you decide to break the hierarchy?
+
+1307
+01:27:10,476 --> 01:27:12,114
+Where you decide to break the hierarchy 
+
+1308
+01:27:13,514 --> 01:27:18,409
+determines at what stage you will say the wave function collapse?
+
+1309
+01:27:20,418 --> 01:27:25,575
+If you like  I suppose at some stage
+
+1310
+01:27:25,980 --> 01:27:27,687
+you would say the wave function collapse
+
+1311
+01:27:28,967 --> 01:27:30,287
+When the last person look at it
+
+1312
+01:27:30,619 --> 01:27:33,495
+But you could always include that last person into the system 
+
+1313
+01:27:33,828 --> 01:27:35,807
+Then no collapse happens
+
+1314
+01:27:36,121 --> 01:27:39,559
+but then in order to make sense out of the whole thing
+
+1315
+01:27:39,876 --> 01:27:42,783
+Again you have to imagine some other person 
+
+1316
+01:27:43,072 --> 01:27:46,867
+So you always have to imagine a hierarchy of observation 
+
+1317
+01:27:48,117 --> 01:27:50,109
+And then with such a hierarchy of observation 
+
+1318
+01:27:50,441 --> 01:27:56,396
+the world is built like a onion  things inside
+
+1319
+01:27:56,741 --> 01:27:57,885
+next thing out  next thing out
+
+1320
+01:27:59,172 --> 01:28:03,105
+And each things get to observed   what's the inside of it?
+
+1321
+01:28:05,273 --> 01:28:07,633
+>>Question  what is the process
+
+1322
+01:28:07,941 --> 01:28:10,962
+>>when we are moving with the classical world
+
+1323
+01:28:11,304 --> 01:28:16,243
+>>and one of those people actually see definite items because
+
+1324
+01:28:17,396 --> 01:28:26,342
+Well I don't know  I don't think there is any sharp line
+
+1325
+01:28:26,685 --> 01:28:28,181
+I don't think there is any sharp line
+
+1326
+01:28:28,520 --> 01:28:37,512
+We tend to describe a big system as having little uncertainty 
+
+1327
+01:28:39,936 --> 01:28:45,823
+but I'm not sure that anything really different happens 
+
+1328
+01:28:46,180 --> 01:28:52,476
+When a electron looks at another electron 
+
+1329
+01:28:52,816 --> 01:28:55,309
+Or when a cat looks at a electron 
+
+1330
+01:28:55,638 --> 01:28:58,712
+I think the physics or the mathematical description 
+
+1331
+01:28:59,037 --> 01:29:03,449
+I think it's the same description or at least 
+
+1332
+01:29:03,764 --> 01:29:06,904
+if we want to say something special happens when the cat looks
+
+1333
+01:29:07,279 --> 01:29:08,696
+Well it's not well described by quantum mechanics
+
+1334
+01:29:09,060 --> 01:29:10,876
+We have to introduce some thing about cats
+
+1335
+01:29:11,229 --> 01:29:15,183
+that doesn't contain within quantum mechanics
+
+1336
+01:29:15,560 --> 01:29:16,585
+And personally I don't believe 
+
+1337
+01:29:16,898 --> 01:29:18,456
+there is anything about cats which is not contained
+
+1338
+01:29:18,800 --> 01:29:19,747
+within quantum mechanics
+
+1339
+01:29:20,103 --> 01:29:21,960
+So I'm happy with this description 
+
+1340
+01:29:22,265 --> 01:29:26,352
+I'm happy with this description  what makes me happy is that 
+
+1341
+01:29:26,731 --> 01:29:28,877
+it doesn't matter where you draw the line
+
+1342
+01:29:29,179 --> 01:29:34,433
+You can draw the line in one place or the next place or the next place 
+
+1343
+01:29:34,712 --> 01:29:36,468
+And the result would be consistent 
+
+1344
+01:29:36,820 --> 01:29:39,814
+If the cat saw the spin up
+
+1345
+01:29:40,138 --> 01:29:43,393
+Schrodinger would see the cat having seen the spin up
+
+1346
+01:29:43,742 --> 01:29:46,331
+And Wigner would have seen Schrodinger
+
+1347
+01:29:46,608 --> 01:29:48,335
+having the cat having seen the spin up
+
+1348
+01:29:48,688 --> 01:29:50,991
+That's what the nature of the state is 
+
+1349
+01:29:51,276 --> 01:29:53,725
+So that define satisfyingly 
+
+1350
+01:29:54,026 --> 01:29:58,232
+that you don't ever have to say where you draw the line
+
+1351
+01:29:58,528 --> 01:30:02,231
+And until you draw the line  you would put the line as far out as you like
+
+1352
+01:30:02,554 --> 01:30:05,605
+Until you draw the line  everything is described 
+
+1353
+01:30:05,922 --> 01:30:08,360
+by the rules of a conventional quantum mechanics
+
+1354
+01:30:10,080 --> 01:30:12,267
+>> So unless you puts the cat  you definitely draw the line 
+
+1355
+01:30:13,353 --> 01:30:18,741
+Well okay  I mean  look I think at some stage 
+
+1356
+01:30:19,083 --> 01:30:21,867
+you have to decide for yourself how you think about this 
+
+1357
+01:30:22,202 --> 01:30:27,516
+I'm not going to try to push my interpretation of quantum mechanics on you
+
+1358
+01:30:27,892 --> 01:30:36,235
+Particularly since  I don't know what to say about it except this
+
+1359
+01:30:37,779 --> 01:30:39,564
+That seems to disturb a lot of people 
+
+1360
+01:30:39,884 --> 01:30:44,521
+This whole business of systems for which 
+
+1361
+01:30:44,860 --> 01:30:46,999
+you could know as much as can be known
+
+1362
+01:30:47,320 --> 01:30:49,055
+And know nothing about the parts of the system
+
+1363
+01:30:49,349 --> 01:30:50,687
+That seems to disturb people
+
+1364
+01:30:51,015 --> 01:30:54,007
+Is it disturbing? I  
+
+1365
+01:30:54,310 --> 01:30:58,054
+When Finding() was asked whether he thought 
+
+1366
+01:30:58,354 --> 01:30:59,734
+there is a problem with quantum mechanics  
+
+1367
+01:31:00,036 --> 01:31:02,250
+he's answer was that the problem was so big 
+
+1368
+01:31:02,555 --> 01:31:03,886
+that you could tell if there is a problem
+
+1369
+01:31:04,232 --> 01:31:08,065
+He knew how to use it  he knew how to predict with it
+
+1370
+01:31:08,418 --> 01:31:10,641
+He could predict anything he wanted to predict 
+
+1371
+01:31:10,975 --> 01:31:15,027
+Though that have an answer and he didn't expect 
+
+1372
+01:31:15,353 --> 01:31:17,275
+I'm not actually speaking about myself now
+
+1373
+01:31:17,633 --> 01:31:20,171
+But in for him
+
+1374
+01:31:20,519 --> 01:31:23,318
+he did not expect the quantum mechanics would ever go wrong
+
+1375
+01:31:23,653 --> 01:31:26,073
+That the rules would always be satisfied  
+
+1376
+01:31:26,413 --> 01:31:31,590
+but is there a problem because of this sense of unreality 
+
+1377
+01:31:31,948 --> 01:31:36,664
+about where actual objectively  where objectively does something happen
+
+1378
+01:31:36,993 --> 01:31:40,752
+Does this objective 'death of the cat' happen
+
+1379
+01:31:41,071 --> 01:31:42,973
+when the cat looks at the atom
+
+1380
+01:31:43,295 --> 01:31:44,811
+Or is it when Schrodinger looks at the cat 
+
+1381
+01:31:45,152 --> 01:31:46,999
+Or was it Wigner looks at Schrodinger 
+
+1382
+01:31:47,352 --> 01:31:50,032
+Where does the objective phenomena happen?
+
+1383
+01:31:50,358 --> 01:31:54,811
+And maybe we are just playing with words there 
+
+1384
+01:31:55,155 --> 01:31:57,323
+Maybe we are playing with words  
+
+1385
+01:31:57,665 --> 01:32:00,604
+trying to use words in a context where they don't apply
+
+1386
+01:32:00,958 --> 01:32:04,309
+You have to decide that yourself  my goal is to give you the tools 
+
+1387
+01:32:04,658 --> 01:32:06,379
+to be able to ask the question  
+
+1388
+01:32:07,947 --> 01:32:11,611
+I doubt seriously you are gonna answer the question even for yourself
+
+1389
+01:32:11,950 --> 01:32:16,539
+You would probably come away feeling as uncomfortable about it
+
+1390
+01:32:16,893 --> 01:32:18,659
+But you will know why you are uncomfortable 
+
+1391
+01:32:19,004 --> 01:32:21,435
+You know what is it with some precision 
+
+1392
+01:32:21,784 --> 01:32:23,196
+that's making you uncomfortable about it
+
+1393
+01:32:23,506 --> 01:32:24,967
+At least I hope  at least that's my goal
+
+1394
+01:32:26,692 --> 01:32:27,460
+Alright
+
+1395
+01:32:28,643 --> 01:32:32,429
+>> In the equation you dealt there with the eye
+
+1396
+01:32:32,829 --> 01:32:36,209
+>> forget about Schrodinger  just the eye
+
+1397
+01:32:36,629 --> 01:32:40,909
+>> the equation that you wrote implies there is a correlation 
+
+1398
+01:32:41,259 --> 01:32:44,909
+>> of one commutative state of system the apparatus 
+
+1399
+01:32:45,619 --> 01:32:48,909
+>> could (inaudible)  and the state of the eye
+
+1400
+01:32:49,349 --> 01:32:54,289
+Ya so the eye has become entangled with the rest of the system
+
+1401
+01:32:54,629 --> 01:32:57,119
+>> So it was as though your vision weren't so good
+
+1402
+01:32:57,459 --> 01:33:00,039
+(laughing) that's what you call a weak measurement 
+
+1403
+01:33:02,269 --> 01:33:06,189
+Ya  look  that can happen that could be partial
+
+1404
+01:33:06,629 --> 01:33:08,349
+It can be partial entanglement for sure 
+
+1405
+01:33:08,729 --> 01:33:12,199
+I've given you a kind of idealized situation  alright
+
+1406
+01:33:12,529 --> 01:33:17,869
+No it's a serious question  people talk about it
+
+1407
+01:33:18,219 --> 01:33:20,619
+>> So I'm not quite sure with what the eye was saying?
+
+1408
+01:33:20,969 --> 01:33:26,039
+No no  okay  there could be several reasons why your eye was not good
+
+1409
+01:33:26,399 --> 01:33:27,329
+First of all you could be  
+
+1410
+01:33:27,639 --> 01:33:29,429
+that the interaction with the apparatus would be simply to weak
+
+1411
+01:33:29,789 --> 01:33:32,739
+That there wasn't enough room for the interaction 
+
+1412
+01:33:33,079 --> 01:33:34,209
+It wasn't that your eyes were bad  
+
+1413
+01:33:34,569 --> 01:33:36,749
+it's just wasn't coupling between the two systems
+
+1414
+01:33:37,079 --> 01:33:39,579
+And then you only get partial information 
+
+1415
+01:33:39,929 --> 01:33:44,099
+Or it could be that your eye is bare because you have Cataract let's say
+
+1416
+01:33:44,439 --> 01:33:49,189
+Alright in that case  the eye did a measurement  
+
+1417
+01:33:49,579 --> 01:33:54,719
+it became entangled with the system completely 
+
+1418
+01:33:55,049 --> 01:34:00,909
+it's just the connection between the stuff in you eye 
+
+1419
+01:34:01,239 --> 01:34:07,459
+And your brain wasn't good enough to send the signal back to your brain 
+
+1420
+01:34:07,819 --> 01:34:14,029
+So the correlation happen but it was a bit messy
+
+1421
+01:34:14,369 --> 01:34:17,308
+>> Was that detector efficiency problem?
+
+1422
+01:34:17,670 --> 01:34:20,848
+That  sometimes it's the detector efficiency problem
+
+1423
+01:34:21,159 --> 01:34:25,335
+Sometimes it's the problem  well detector efficiency could have to do
+
+1424
+01:34:25,672 --> 01:34:27,868
+with the strength of interaction with the system
+
+1425
+01:34:28,199 --> 01:34:31,010
+Or it could just be it's too hard to get the signal out
+
+1426
+01:34:31,336 --> 01:34:33,379
+So I'm not sure what detector efficiency really means?
+
+1427
+01:34:33,701 --> 01:34:35,517
+But I could think of several things
+
+1428
+01:34:35,878 --> 01:34:38,055
+One is the signal is there and imprint itself into the system
+
+1429
+01:34:38,449 --> 01:34:40,878
+And you personally have a hard time getting it out 
+
+1430
+01:34:41,207 --> 01:34:44,254
+the other is that the interaction was not strong enough 
+
+1431
+01:34:44,664 --> 01:34:48,169
+to really establish a full entanglement between the systems
+
+1432
+01:34:48,536 --> 01:34:49,654
+both can happen
+
+1433
+01:34:50,019 --> 01:34:52,796
+>> Would they bother be watching adult movie(?) ?
+
+1434
+01:34:54,354 --> 01:34:58,376
+>> Would they know the detector 
+
+1435
+01:34:58,732 --> 01:35:00,873
+You can think of all sort of the variance on this
+
+1436
+01:35:05,170 --> 01:35:06,931
+>> but let's say a bad detector and entanglement 
+
+1437
+01:35:07,270 --> 01:35:10,123
+>> and then I have a perfectly detector later on would it ...
+
+1438
+01:35:12,018 --> 01:35:16,344
+I think  I guess the weakest link is where you 
+
+1439
+01:35:19,384 --> 01:35:21,128
+Alright let's talk about locality
+
+1440
+01:35:21,448 --> 01:35:24,248
+Let's talk about locality and entanglement
+
+1441
+01:35:24,599 --> 01:35:27,424
+which is really where people got hung up
+
+1442
+01:35:28,880 --> 01:35:31,296
+And the villain  the arch villain here
+
+1443
+01:35:33,074 --> 01:35:41,802
+who really tangle things badly was Einstein
+
+1444
+01:35:43,450 --> 01:35:46,216
+Einstein not that he asked the question of course 
+
+1445
+01:35:46,577 --> 01:35:49,066
+he asked a wonderful question about the entangled systems
+
+1446
+01:35:49,397 --> 01:35:51,996
+Really are understanding the entanglement 
+
+1447
+01:35:52,387 --> 01:35:55,815
+Then much of what we think about it and curious about it 
+
+1448
+01:35:56,121 --> 01:35:59,551
+goes back to Einstein's question 1933
+
+1449
+01:36:01,136 --> 01:36:05,686
+who was very much puzzled by the idea that you can have a system 
+
+1450
+01:36:06,036 --> 01:36:07,035
+about which you know everything
+
+1451
+01:36:07,366 --> 01:36:09,123
+and yet you know nothing about the components of it
+
+1452
+01:36:10,282 --> 01:36:14,643
+and he wrote a paper  simply complaining about it
+
+1453
+01:36:15,016 --> 01:36:17,355
+I don't know if he was the first one
+
+1454
+01:36:17,695 --> 01:36:19,906
+to notice the phenomena of entanglement
+
+1455
+01:36:20,211 --> 01:36:25,595
+I have a feeling not  he was the first one to get really exercised by it
+
+1456
+01:36:25,946 --> 01:36:28,186
+and say something is very peculiar here
+
+1457
+01:36:28,531 --> 01:36:34,059
+That I find quite okay  he then use the term 
+
+1458
+01:36:34,395 --> 01:36:39,986
+What was the term again? Spooky action out of distance 
+
+1459
+01:36:40,314 --> 01:36:44,477
+And that got everybody confused afterwards
+
+1460
+01:36:44,818 --> 01:36:49,528
+Because Einstein knew exactly what action out of distance meant
+
+1461
+01:36:49,858 --> 01:36:56,444
+And it didn't mean what he meant when he is using it in this context 
+
+1462
+01:36:56,780 --> 01:37:00,499
+Action out of distance literally means forces
+
+1463
+01:37:00,830 --> 01:37:02,955
+between systems at a distance
+
+1464
+01:37:03,299 --> 01:37:07,932
+The ability to affect the outcome of a experiment at one place 
+
+1465
+01:37:08,262 --> 01:37:11,610
+by doing something at another place 
+
+1466
+01:37:11,945 --> 01:37:16,028
+Action out of distance  the columb(?) force between electrons
+
+1467
+01:37:16,370 --> 01:37:20,028
+Now of course in the real world it's not action out of distance 
+
+1468
+01:37:20,372 --> 01:37:24,209
+But in Newton's word  well Newton didn't know about electrons
+
+1469
+01:37:24,561 --> 01:37:26,177
+Newton knew about gravity
+
+1470
+01:37:26,609 --> 01:37:27,585
+In Newton's world
+
+1471
+01:37:28,015 --> 01:37:30,553
+the gravitational interaction was action out of distance 
+
+1472
+01:37:30,914 --> 01:37:34,596
+And the meaning of that from our point of view is
+
+1473
+01:37:35,008 --> 01:37:40,792
+Something came along and gave the sun a sudden shove  
+
+1474
+01:37:41,130 --> 01:37:45,547
+we would know it instantly for the simple reason that 
+
+1475
+01:37:45,906 --> 01:37:49,439
+the orbit of the earth would instantly react
+
+1476
+01:37:49,844 --> 01:37:52,289
+to the change in the position of the sun
+
+1477
+01:37:52,598 --> 01:37:54,251
+The force on the earth will instantly react
+
+1478
+01:37:54,587 --> 01:37:59,366
+And so every measurement of everything you might want to measure
+
+1479
+01:37:59,709 --> 01:38:06,472
+Would be to some extent to another modified by the sudden change 
+
+1480
+01:38:06,817 --> 01:38:08,481
+in the orbit of the sun
+
+1481
+01:38:08,829 --> 01:38:10,518
+That's what action out of distance meant 
+
+1482
+01:38:10,886 --> 01:38:14,127
+The ability if you like  to send the signal
+
+1483
+01:38:14,456 --> 01:38:17,003
+By shoving the sun you are sending the signal to earth
+
+1484
+01:38:17,346 --> 01:38:18,715
+And you are sending it instantaneously
+
+1485
+01:38:19,077 --> 01:38:20,259
+if there is an action out of distance
+
+1486
+01:38:22,497 --> 01:38:26,828
+Einstein must have known  I am certain that he knew that
+
+1487
+01:38:27,161 --> 01:38:31,800
+Entanglement did not entail action out of distance in that sense
+
+1488
+01:38:33,583 --> 01:38:40,382
+What one can do  what one can work out is supposing you start
+
+1489
+01:38:40,680 --> 01:38:43,585
+I will give you something you can try to play with
+
+1490
+01:38:43,941 --> 01:38:45,251
+And see if you can work it out
+
+1491
+01:38:45,605 --> 01:38:48,704
+Supposing you start with a system which is a two part system 
+
+1492
+01:38:49,269 --> 01:38:51,808
+It has as wave function Psi of a and b
+
+1493
+01:38:52,163 --> 01:38:56,948
+And from that system you can construct a density...
+
+1494
+01:38:57,244 --> 01:39:02,431
+It's Alice and Bob  you can construct a density matrix with Rho for Alice
+
+1495
+01:39:03,875 --> 01:39:07,714
+That density matrix contains every possible 
+
+1496
+01:39:08,066 --> 01:39:16,663
+Oh statistical prediction that Alice can every make for her sub system a
+
+1497
+01:39:17,010 --> 01:39:21,798
+Now let's imagine that Alice and Bob took their subsystems
+
+1498
+01:39:22,153 --> 01:39:27,833
+Alice went to a distant planet  Bob stay in Palo Alto
+
+1499
+01:39:28,189 --> 01:39:31,090
+And they are very far from one another 
+
+1500
+01:39:31,451 --> 01:39:35,085
+So far that would take light four years to get from one place to another 
+
+1501
+01:39:36,517 --> 01:39:40,862
+Bob does an experiment  that's means now 
+
+1502
+01:39:41,189 --> 01:39:43,998
+This is an  this could be an entangled state 
+
+1503
+01:39:44,351 --> 01:39:45,782
+This is not a non-entangled state
+
+1504
+01:39:46,105 --> 01:39:48,631
+Bob does an experiment
+
+1505
+01:39:48,953 --> 01:39:53,720
+and that has an effect on his half of the system here
+
+1506
+01:39:54,039 --> 01:39:58,352
+But it has no effect whatever on Alice's density matrix
+
+1507
+01:39:58,704 --> 01:40:00,832
+Perhaps I can prove that  I'm not gonna prove that tonight 
+
+1508
+01:40:01,160 --> 01:40:10,258
+It's not too hard to prove that any physically allowable change 
+
+1509
+01:40:10,575 --> 01:40:14,333
+in this wave function which only involves Bob's half of it
+
+1510
+01:40:14,668 --> 01:40:19,043
+The process of interacting with some other system or whatever it is
+
+1511
+01:40:19,394 --> 01:40:21,683
+Bob gives it an electron or not  whatever he does to it 
+
+1512
+01:40:22,029 --> 01:40:26,927
+He will not have any effect on Alice's density matrix 
+
+1513
+01:40:27,204 --> 01:40:30,170
+That's the way quantum mechanics really put together 
+
+1514
+01:40:30,530 --> 01:40:36,191
+And the implication is that anything that Bob does suddenly  
+
+1515
+01:40:36,538 --> 01:40:42,368
+at a fixed instance of time  will not have any effect on any prediction 
+
+1516
+01:40:42,712 --> 01:40:44,719
+or the success of any prediction  
+
+1517
+01:40:45,080 --> 01:40:49,477
+would have not effect on the statistical probabilities of Alice 
+
+1518
+01:40:49,820 --> 01:40:52,565
+measuring anything about a  it just will not
+
+1519
+01:40:56,657 --> 01:40:59,293
+So in that sense  it was impossible
+
+1520
+01:40:59,664 --> 01:41:03,045
+for Bob to send the message to Alice suddenly
+
+1521
+01:41:03,380 --> 01:41:06,230
+Now of course he can do an experiment on his sub system 
+
+1522
+01:41:07,837 --> 01:41:09,690
+And after he has done the experiment 
+
+1523
+01:41:10,037 --> 01:41:12,600
+he can then send the telegraph to Alice far away  
+
+1524
+01:41:12,927 --> 01:41:15,573
+in a standard way that you send messages  
+
+1525
+01:41:15,937 --> 01:41:17,941
+and tell her what the result again
+
+1526
+01:41:18,316 --> 01:41:24,689
+This is an entangled state  it could be |up down> minus |down up>
+
+1527
+01:41:27,569 --> 01:41:32,384
+When Bob does an measurement on his spin 
+
+1528
+01:41:32,709 --> 01:41:35,176
+it has not effect on Alice's density matrix 
+
+1529
+01:41:35,526 --> 01:41:39,500
+He can then send Alice a message and then say look I saw it down
+
+1530
+01:41:39,834 --> 01:41:43,576
+And Alice will say ah  ya  that's because I saw up
+
+1531
+01:41:43,921 --> 01:41:47,048
+It will correlate it  I thought they will correlated
+
+1532
+01:41:47,384 --> 01:41:48,639
+and you just confirm that
+
+1533
+01:41:48,972 --> 01:41:52,311
+I measure it up  but a few months ago 
+
+1534
+01:41:52,637 --> 01:41:54,592
+and in fact I'm now getting you a telegram
+
+1535
+01:41:54,935 --> 01:41:59,466
+And it tells me that you got down and that's consistent
+
+1536
+01:41:59,810 --> 01:42:00,992
+everything was fine
+
+1537
+01:42:01,352 --> 01:42:03,400
+Nobody sends any message faster than the speed of light 
+
+1538
+01:42:03,735 --> 01:42:10,494
+The mere fact that when  Bob measure his variable
+
+1539
+01:42:10,820 --> 01:42:13,238
+He instantly know something about Alice
+
+1540
+01:42:13,611 --> 01:42:17,869
+It's no source of anxiety for locality
+
+1541
+01:42:18,208 --> 01:42:24,594
+This would happen for nickels and dimes for a perfectly classical system 
+
+1542
+01:42:24,915 --> 01:42:28,010
+The peculiarity is different than that  
+
+1543
+01:42:28,335 --> 01:42:30,378
+the peculiarity has to do with this idea that 
+
+1544
+01:42:30,694 --> 01:42:33,258
+you can know anything about a system and yet know nothing about it's parts
+
+1545
+01:42:33,564 --> 01:42:40,765
+What is it then if this locality 
+
+1546
+01:42:41,106 --> 01:42:44,173
+the standard physicist definition of locality is not at risk
+
+1547
+01:42:44,533 --> 01:42:50,130
+And you can't send signal faster... what is it that Einstein meant
+
+1548
+01:42:50,471 --> 01:42:52,147
+And what did Bell meant  
+
+1549
+01:42:52,518 --> 01:42:54,754
+and what did all the other people who talk about these thing mean 
+
+1550
+01:42:55,074 --> 01:43:01,893
+when they said entanglement entails a degree of non-locality
+
+1551
+01:43:02,228 --> 01:43:05,357
+So I will try to explain to you by imagining a game 
+
+1552
+01:43:07,029 --> 01:43:11,376
+>>Question? If Bob makes a measurement and Alice did not 
+
+1553
+01:43:11,714 --> 01:43:15,313
+>>Can Bob send Alice a message after his measurement?
+
+1554
+01:43:15,656 --> 01:43:20,952
+>> Will that information along be enough to change Alice's density matrix
+
+1555
+01:43:21,286 --> 01:43:22,584
+To be enough for what?
+
+1556
+01:43:22,892 --> 01:43:24,881
+>>to change Alice's density matrix
+
+1557
+01:43:25,222 --> 01:43:29,176
+Oh yeah  if Alice sends  if Bob sends a real message
+
+1558
+01:43:29,506 --> 01:43:31,040
+and Alice hasn't look yet
+
+1559
+01:43:31,371 --> 01:43:37,964
+Okay so let's say  Alice has not look  she doesn't know anything yet 
+
+1560
+01:43:38,320 --> 01:43:42,092
+And as far as she is concerns the density matrix is consistent to that
+
+1561
+01:43:42,485 --> 01:43:44,164
+And basically tells her nothing  
+
+1562
+01:43:44,539 --> 01:43:45,676
+that's the density matrix which 
+
+1563
+01:43:46,009 --> 01:43:47,740
+doesn't got very much information in it about her spin
+
+1564
+01:43:48,074 --> 01:43:52,733
+And then she gets a telegram from Bob  saying my spin was up
+
+1565
+01:43:53,098 --> 01:43:57,794
+As far as Alice's concern  that collapses her density matrix and tells her
+
+1566
+01:43:58,129 --> 01:44:00,857
+her spin is down  so there after  
+
+1567
+01:44:01,202 --> 01:44:04,839
+she still will use the density matrix which says her spin is down
+
+1568
+01:44:05,140 --> 01:44:09,302
+So yes  once a message has time to go between them
+
+1569
+01:44:09,641 --> 01:44:13,094
+Yes then she will know something she didn't know before 
+
+1570
+01:44:14,646 --> 01:44:18,947
+And she will therefore update her density matrix 
+
+1571
+01:44:19,302 --> 01:44:22,319
+But that would only take place after 
+
+1572
+01:44:22,640 --> 01:44:26,864
+there's been insufficient time to for the signal to propagate
+
+1573
+01:44:28,767 --> 01:44:33,361
+>> If I understand correctly  the statement we are making here
+
+1574
+01:44:33,766 --> 01:44:38,301
+>> is about the expected value of these experiments right?
+
+1575
+01:44:38,611 --> 01:44:40,551
+>> When you realize it once 
+
+1576
+01:44:40,867 --> 01:44:43,923
+>> you are not actually getting the expected value  but you are gonna get
+
+1577
+01:44:44,283 --> 01:44:48,487
+>> but this also holds for every value not just the expected values right?
+
+1578
+01:44:50,689 --> 01:44:54,425
+No  expected or expectation value or whatever you want to call them  
+
+1579
+01:44:54,781 --> 01:44:59,283
+average values  if you know the average values of all variables
+
+1580
+01:44:59,643 --> 01:45:01,076
+You don't need to know  let's okay
+
+1581
+01:45:01,441 --> 01:45:04,600
+Supposing we have one variable that we are interested in 
+
+1582
+01:45:04,929 --> 01:45:10,103
+Let's call it L again  if we know the average value of L
+
+1583
+01:45:11,295 --> 01:45:15,820
+The average value of L square  the average value of L cubed 
+
+1584
+01:45:16,173 --> 01:45:19,821
+Dot dot dot  we know the whole probability distribution of L
+
+1585
+01:45:20,140 --> 01:45:22,757
+This is called knowing the moments  
+
+1586
+01:45:23,085 --> 01:45:25,166
+all of the moments of a probability distribution
+
+1587
+01:45:25,504 --> 01:45:28,694
+If we know all the expectation values of L  L squared L cubed
+
+1588
+01:45:31,575 --> 01:45:34,615
+Actually for a single spin  you only need the spin and the spin's square 
+
+1589
+01:45:34,976 --> 01:45:39,144
+Then you know the full probability distribution 
+
+1590
+01:45:39,512 --> 01:45:41,560
+Once you know the full probability distribution that's all you can know 
+
+1591
+01:45:43,328 --> 01:45:49,747
+So knowing all  knowing a full set of expectation values like this
+
+1592
+01:45:50,084 --> 01:45:52,643
+is knowing everything I was to know about the system 
+
+1593
+01:45:54,651 --> 01:45:58,521
+>> but the actual realization of the experiment that happens towards it
+
+1594
+01:45:58,894 --> 01:46:00,149
+Oh that's right  yeah  that's right
+
+1595
+01:46:01,482 --> 01:46:03,249
+>> they are still guaranteed to be opposite right?
+
+1596
+01:46:09,561 --> 01:46:10,601
+They are guaranteed to be opposite  yes
+
+1597
+01:46:10,936 --> 01:46:15,857
+But Alice doesn't update her information about  until she gets 
+
+1598
+01:46:16,094 --> 01:46:20,030
+Before Alice get the information  as far as she knows it's half a half
+
+1599
+01:46:20,382 --> 01:46:22,128
+But let's try to do a little bit better 
+
+1600
+01:46:22,614 --> 01:46:28,574
+Alice and Bob are now going to each have many spins  alright
+
+1601
+01:46:28,940 --> 01:46:33,125
+So Charlie is gonna give each of them many entangled pairs
+
+1602
+01:46:35,506 --> 01:46:41,551
+So Alice has spin number one  and Bob has his spin number one
+
+1603
+01:46:41,900 --> 01:46:45,717
+And they are in the relationship of being entangled 
+
+1604
+01:46:47,957 --> 01:46:52,021
+Also Alice has spin number two which is not entangled with spin number one
+
+1605
+01:46:52,323 --> 01:46:56,068
+But it happens to be entangled with Bob's spin number two
+
+1606
+01:46:57,180 --> 01:47:00,404
+Charlie gave them a whole series of these 
+
+1607
+01:47:06,940 --> 01:47:10,460
+So they can do statistical experiment and collect statistics
+
+1608
+01:47:15,885 --> 01:47:19,596
+When they've collected statistics they will discover that 
+
+1609
+01:47:19,940 --> 01:47:22,517
+every time Bob is up Alice is down
+
+1610
+01:47:22,853 --> 01:47:25,066
+Every time Bob is down Alice up
+
+1611
+01:47:25,391 --> 01:47:27,124
+But they can do a lot more than that 
+
+1612
+01:47:27,473 --> 01:47:31,696
+They can  let's see what's a good example for what can be done
+
+1613
+01:47:36,091 --> 01:47:41,717
+Ya right  good  Bob does all of his experiments here
+
+1614
+01:47:42,084 --> 01:47:43,283
+at some instance of time
+
+1615
+01:47:43,633 --> 01:47:45,241
+And finds out every one of these  
+
+1616
+01:47:45,567 --> 01:47:47,625
+finds out exactly what everyone of them is doing 
+
+1617
+01:47:47,977 --> 01:47:52,779
+Does that convey any information at all to Alice about 
+
+1618
+01:47:53,117 --> 01:47:56,503
+which she knows that just about half of them are up
+
+1619
+01:47:56,813 --> 01:47:57,823
+and half of them are down
+
+1620
+01:47:59,015 --> 01:48:00,951
+Bob goes in mixed measurement  
+
+1621
+01:48:01,292 --> 01:48:03,767
+he does his measurement on every single one of them
+
+1622
+01:48:04,094 --> 01:48:09,470
+Does Alice know anything afterward that she didn't know before? No
+
+1623
+01:48:09,816 --> 01:48:13,911
+Does anything surprising happen when she measures these things? 
+
+1624
+01:48:14,068 --> 01:48:18,023
+Does the statistic of these thing over here in any way change 
+
+1625
+01:48:18,359 --> 01:48:21,030
+because Bob measure this things?
+
+1626
+01:48:21,382 --> 01:48:23,063
+No  there will be no statistical difference
+
+1627
+01:48:23,441 --> 01:48:25,139
+Bob can do his measurement
+
+1628
+01:48:26,427 --> 01:48:28,446
+throw his measurement in the waste paper basket 
+
+1629
+01:48:28,768 --> 01:48:30,759
+But he's measured every single one of these 
+
+1630
+01:48:31,127 --> 01:48:34,765
+He has no influence at all on what Alice measures 
+
+1631
+01:48:35,097 --> 01:48:41,249
+But if Bob sends a message to Alice before she does her measurement 
+
+1632
+01:48:41,621 --> 01:48:46,124
+And says spin one came out plus  spin two came out minus bla bla bla
+
+1633
+01:48:46,498 --> 01:48:49,550
+Then instantly Alice knows everything about these
+
+1634
+01:48:49,875 --> 01:48:54,028
+In fact he could say sigma z equals plus one 
+
+1635
+01:48:54,375 --> 01:48:57,334
+But he decided over here not to measure sigma z 
+
+1636
+01:48:57,665 --> 01:48:59,988
+So I'm gonna measure sigma x over here  minus one 
+
+1637
+01:49:00,331 --> 01:49:03,394
+And over here he measure sigma y equals plus one 
+
+1638
+01:49:04,968 --> 01:49:10,690
+Having made these measurements without informing Alice in any way
+
+1639
+01:49:11,074 --> 01:49:14,138
+Does nothing whatever to the statistic of her measurement 
+
+1640
+01:49:14,444 --> 01:49:20,574
+But if he now senses them  she can now decide
+
+1641
+01:49:20,938 --> 01:49:22,935
+She can decide to measure anything she wants 
+
+1642
+01:49:23,262 --> 01:49:24,775
+But if she decides to measure sigma z 
+
+1643
+01:49:25,106 --> 01:49:29,688
+because she knew that Bob got plus one here and sigma x for this one
+
+1644
+01:49:30,021 --> 01:49:31,280
+And sigma y for this one
+
+1645
+01:49:31,629 --> 01:49:35,390
+we will find that in every case that they are opposite
+
+1646
+01:49:35,760 --> 01:49:39,743
+>> Are you saying that Bob send the message  I'm not sure I understand
+
+1647
+01:49:40,055 --> 01:49:41,063
+Yes it's a telegram 
+
+1648
+01:49:41,392 --> 01:49:43,504
+>> there is not he sending that is receiving at the (inaudible)
+
+1649
+01:49:43,842 --> 01:49:45,039
+well of course yes 
+
+1650
+01:49:45,378 --> 01:49:45,967
+>> How can you be sure?
+
+1651
+01:49:46,384 --> 01:49:49,231
+Well the important point is that it takes time to send the message 
+
+1652
+01:49:53,751 --> 01:49:59,227
+What? I missed  okay  well yes that was a problem 
+
+1653
+01:50:01,256 --> 01:50:06,306
+>> I don't know...it seems like the feeling of spooky action distances
+
+1654
+01:50:06,644 --> 01:50:08,825
+>>comes not from ... 
+
+1655
+01:50:10,360 --> 01:50:13,265
+>> But it's also sticky about the inside the spectator (?)
+
+1656
+01:50:13,624 --> 01:50:15,233
+>>there is two sepralities
+
+1657
+01:50:15,567 --> 01:50:20,350
+Well  I will try to give you a precise definition 
+
+1658
+01:50:22,726 --> 01:50:28,302
+There is a theorem looking here  I don't know that the theorem has ever 
+
+1659
+01:50:28,666 --> 01:50:31,817
+been discussed in the computer science community
+
+1660
+01:50:32,144 --> 01:50:34,540
+It's kind of a computer science theorem 
+
+1661
+01:50:36,054 --> 01:50:38,847
+whether anybody has actually discussed it 
+
+1662
+01:50:39,172 --> 01:50:40,930
+in a language I'm gonna tell you now I don't know
+
+1663
+01:50:41,309 --> 01:50:43,852
+And I don't really quite know how to formulate it
+
+1664
+01:50:44,178 --> 01:50:45,773
+as a theorem I've never tried
+
+1665
+01:50:47,871 --> 01:50:52,767
+But I think I can capture the essence of what this theorem would say
+
+1666
+01:50:53,096 --> 01:50:55,635
+If only the theorem could be made precise 
+
+1667
+01:50:57,912 --> 01:50:59,517
+We have ten minutes to try to do this 
+
+1668
+01:50:59,914 --> 01:51:02,487
+We go over it a little bit  we will do that 
+
+1669
+01:51:05,457 --> 01:51:06,789
+Here is a game I wanna play 
+
+1670
+01:51:07,162 --> 01:51:12,380
+I want  I'm gonna write a computer program  my computer 
+
+1671
+01:51:12,706 --> 01:51:15,421
+My computer has a screen  okay it has a screen 
+
+1672
+01:51:15,784 --> 01:51:18,189
+and all the usual thing that a computer have
+
+1673
+01:51:18,510 --> 01:51:21,053
+Over here on the screen there is a little blackbox 
+
+1674
+01:51:21,377 --> 01:51:25,909
+And that little blackbox is called spin  you can't see inside it
+
+1675
+01:51:26,271 --> 01:51:27,429
+But there is something in it 
+
+1676
+01:51:27,770 --> 01:51:33,912
+And in here is apparatus A  an apparatus A 
+
+1677
+01:51:34,236 --> 01:51:36,346
+you can see what it's doing and so forth
+
+1678
+01:51:37,714 --> 01:51:39,865
+It's got a zero  I can measure zero or one
+
+1679
+01:51:40,189 --> 01:51:45,047
+Now here's the game  the memory stores two things
+
+1680
+01:51:45,368 --> 01:51:48,882
+The memory store information about the spin 
+
+1681
+01:51:49,258 --> 01:51:51,469
+This is a completely classical computer 
+
+1682
+01:51:51,786 --> 01:51:55,658
+The game we are gonna play is I'm gonna fool you into thinking 
+
+1683
+01:51:56,000 --> 01:51:58,033
+it's really a quantum mechanics system in here
+
+1684
+01:51:59,495 --> 01:52:00,185
+How are we gonna do that?
+
+1685
+01:52:00,524 --> 01:52:04,129
+We are gonna do it by I'm going to write a computer program 
+
+1686
+01:52:04,466 --> 01:52:08,147
+which completely simulates  the classical computer program
+
+1687
+01:52:08,510 --> 01:52:13,827
+It completely simulates what happens when the apparatus look at a spin
+
+1688
+01:52:14,149 --> 01:52:16,235
+Okay so here's the way it's gonna go 
+
+1689
+01:52:18,656 --> 01:52:21,019
+We are going to start just for convenience 
+
+1690
+01:52:21,337 --> 01:52:23,819
+We will start with the spin in a known state
+
+1691
+01:52:25,139 --> 01:52:30,750
+So the apparatus or the computer program  it's not important 
+
+1692
+01:52:31,103 --> 01:52:34,121
+But the computer program let's say its starts out with a spin up 
+
+1693
+01:52:34,436 --> 01:52:35,795
+or whatever it's doing
+
+1694
+01:52:37,385 --> 01:52:42,123
+The apparatus can either reads zero or one 
+
+1695
+01:52:42,447 --> 01:52:45,563
+There is a button over here in this
+
+1696
+01:52:45,926 --> 01:52:48,107
+There is a button over here that you touch
+
+1697
+01:52:48,451 --> 01:52:53,119
+And that button is M  means you measure  means measurement 
+
+1698
+01:52:53,506 --> 01:52:55,623
+So when you touch that button over here 
+
+1699
+01:52:55,951 --> 01:52:57,767
+The apparatus measures the spin 
+
+1700
+01:52:58,071 --> 01:53:01,748
+The computer records two things
+
+1701
+01:53:02,068 --> 01:53:06,561
+It records the state vector of the spin  how does it do that?
+
+1702
+01:53:06,898 --> 01:53:09,269
+By providing two complex numbers  
+
+1703
+01:53:09,587 --> 01:53:14,466
+stored into computers are two complex numbers alpha up and alpha down 
+
+1704
+01:53:14,816 --> 01:53:19,229
+Subject to the constraint that alpha star alpha plus alpha star alpha
+
+1705
+01:53:19,514 --> 01:53:20,558
+is equal to one
+
+1706
+01:53:20,915 --> 01:53:23,038
+So it stores in information
+
+1707
+01:53:23,370 --> 01:53:26,286
+which is equivalent to the state vector of the spin
+
+1708
+01:53:26,596 --> 01:53:29,350
+And the other thing it stores is the direction
+
+1709
+01:53:29,690 --> 01:53:31,534
+that you point the apparatus
+
+1710
+01:53:31,896 --> 01:53:35,478
+You can move the apparatus around by playing with the computer
+
+1711
+01:53:35,839 --> 01:53:39,246
+Not moving it around but you can reorient it in any directions
+
+1712
+01:53:39,581 --> 01:53:40,526
+that you like
+
+1713
+01:53:40,901 --> 01:53:42,822
+You start with a spin up
+
+1714
+01:53:43,141 --> 01:53:46,144
+now this spin might be interacting with a magnetic field
+
+1715
+01:53:46,474 --> 01:53:48,030
+Or whatever it's happening to it
+
+1716
+01:53:48,370 --> 01:53:50,950
+The computer solves the Schrodinger equation 
+
+1717
+01:53:51,283 --> 01:53:53,870
+In solving the Schrodinger equation for the spin
+
+1718
+01:53:54,193 --> 01:53:57,014
+that means it updates the state of the spin
+
+1719
+01:53:57,349 --> 01:54:00,430
+you start with a particular state  but it's now what it is
+
+1720
+01:54:00,807 --> 01:54:05,030
+And after a time to it  it update the spin  it updates the state
+
+1721
+01:54:05,368 --> 01:54:10,152
+So the computer now know what alpha is after a certain time is elapsed 
+
+1722
+01:54:10,474 --> 01:54:18,231
+Then you punch the measure button and the computer takes the state
+
+1723
+01:54:18,571 --> 01:54:21,054
+turns it into a pair of probabilities
+
+1724
+01:54:21,408 --> 01:54:24,310
+alpha star alpha up  alpha star alpha down
+
+1725
+01:54:24,643 --> 01:54:28,365
+The computer now knows that the probability for up and down
+
+1726
+01:54:28,714 --> 01:54:31,549
+And it also has a random number generator 
+
+1727
+01:54:31,896 --> 01:54:35,533
+Random number generator or a dime doesn't and they work very well 
+
+1728
+01:54:35,882 --> 01:54:37,819
+with the random number generator 
+
+1729
+01:54:38,154 --> 01:54:41,469
+it then take the probability alpha up and alpha down
+
+1730
+01:54:41,828 --> 01:54:44,189
+And spit out the number plus or minus one 
+
+1731
+01:54:44,529 --> 01:54:50,116
+with probability alpha star alpha and alpha star alpha
+
+1732
+01:54:50,435 --> 01:54:52,788
+So we just simulate the quantum mechanics 
+
+1733
+01:54:53,156 --> 01:54:54,834
+by having a random number generator
+
+1734
+01:54:55,177 --> 01:55:00,158
+That either spits out plus one or minus one  
+
+1735
+01:55:00,481 --> 01:55:03,725
+but with a probability that's given by alpha star alpha 
+
+1736
+01:55:04,078 --> 01:55:08,353
+But then the computer then whatever the answer is 
+
+1737
+01:55:08,748 --> 01:55:11,536
+Whatever the answer that the apparatus spit out
+
+1738
+01:55:11,873 --> 01:55:16,059
+The computer then updates once again the state of the spin 
+
+1739
+01:55:16,372 --> 01:55:21,422
+And says it is in the state that the apparatus measure 
+
+1740
+01:55:21,742 --> 01:55:25,847
+So if the apparatus spits out plus one along some axis 
+
+1741
+01:55:26,180 --> 01:55:28,867
+You get to turn the apparatus
+
+1742
+01:55:29,195 --> 01:55:35,239
+but of course if you get to turn the apparatus
+
+1743
+01:55:35,575 --> 01:55:37,455
+you have to do a slightly complicated calculation 
+
+1744
+01:55:37,777 --> 01:55:40,292
+to find out what this statistics are  
+
+1745
+01:55:40,636 --> 01:55:43,587
+but once you've done it  whatever the answer is
+
+1746
+01:55:43,906 --> 01:55:48,668
+The computer goes back and update the state of the spin 
+
+1747
+01:55:49,019 --> 01:55:51,723
+to make it consistent with what the apparatus measure
+
+1748
+01:55:52,073 --> 01:55:53,974
+You can do this  you can try to write a program 
+
+1749
+01:55:54,334 --> 01:55:56,579
+and it's a program that could be written
+
+1750
+01:55:56,898 --> 01:55:58,571
+It's probably not even terribly complicated 
+
+1751
+01:55:58,910 --> 01:56:05,586
+And if you  only got to look at the measuring button  decide to measure
+
+1752
+01:56:05,939 --> 01:56:09,979
+And look at the outcome  you would get everything exactly equivalent 
+
+1753
+01:56:10,302 --> 01:56:12,517
+to the extent of a random number generator  
+
+1754
+01:56:12,867 --> 01:56:14,874
+can be a good faithful random number generator
+
+1755
+01:56:15,210 --> 01:56:18,442
+You will completely simulate the quantum mechanics of the system 
+
+1756
+01:56:20,148 --> 01:56:22,803
+What this is that quantum mechanics system 
+
+1757
+01:56:23,129 --> 01:56:25,386
+can be a special case of classical physics
+
+1758
+01:56:25,702 --> 01:56:26,690
+So what's going on? 
+
+1759
+01:56:27,042 --> 01:56:28,450
+What the quantum mechanics system
+
+1760
+01:56:28,877 --> 01:56:30,106
+can be a special case of classical mechanics
+
+1761
+01:56:30,426 --> 01:56:34,877
+what is all this confusion about quantum mechanics spin?
+
+1762
+01:56:35,241 --> 01:56:38,301
+Logically different  alright
+
+1763
+01:56:38,695 --> 01:56:43,002
+Now we want to play the same game with a pair of spins
+
+1764
+01:56:43,333 --> 01:56:49,858
+>>quantum mechanics is a special case of a classical mechanics
+
+1765
+01:56:50,192 --> 01:56:52,058
+>> but in the former class  everything was deterministic 
+
+1766
+01:56:52,391 --> 01:56:53,768
+>> and then introducing probability
+
+1767
+01:56:55,483 --> 01:56:56,250
+Okay but it's only  yay a  
+
+1768
+01:56:56,576 --> 01:57:00,747
+it's a classical computer and it's using a classical number generator 
+
+1769
+01:57:01,123 --> 01:57:03,522
+A classical random number generator alright?
+
+1770
+01:57:03,876 --> 01:57:07,754
+So you don't have to add in another  but the difference between 
+
+1771
+01:57:08,134 --> 01:57:10,450
+quantum mechanics and classical mechanics isn't randomness
+
+1772
+01:57:10,784 --> 01:57:12,987
+You can generate all sorts of random number generators 
+
+1773
+01:57:13,322 --> 01:57:16,747
+that would easily fool you into thinking if they are really random
+
+1774
+01:57:17,122 --> 01:57:21,808
+Cause any real random number generator  the numbers come from somewhere
+
+1775
+01:57:22,170 --> 01:57:23,736
+So they are not strictly random 
+
+1776
+01:57:24,084 --> 01:57:27,624
+But you can sure make a random number generator that would fool anybody
+
+1777
+01:57:29,104 --> 01:57:31,336
+So ya  you can build  
+
+1778
+01:57:31,645 --> 01:57:36,479
+you can build a computer program to simulates the quantum mechanics 
+
+1779
+01:57:36,766 --> 01:57:42,375
+basically of any systems that you like by the same method  okay?
+
+1780
+01:57:42,712 --> 01:57:44,391
+But now supposing you wanted to
+
+1781
+01:57:44,745 --> 01:57:47,935
+simulate a system consisting of two electrons
+
+1782
+01:57:48,237 --> 01:57:50,255
+There is two electrons two boxes here
+
+1783
+01:57:50,617 --> 01:57:52,944
+And you wanted to do it with two computers 
+
+1784
+01:57:53,268 --> 01:57:58,406
+And in the process of taking the electron apart from each other
+
+1785
+01:57:58,760 --> 01:58:02,581
+So as to ask this question about  you want to take the computers 
+
+1786
+01:58:02,943 --> 01:58:08,433
+You want to encode the information about Alice's spin in one computer 
+
+1787
+01:58:08,775 --> 01:58:13,683
+And Bob's spin in other computer  physically separated them
+
+1788
+01:58:14,024 --> 01:58:19,229
+And ask can these computers simulates quantum mechanics?
+
+1789
+01:58:19,592 --> 01:58:20,733
+So I will tell you want the answer is
+
+1790
+01:58:21,094 --> 01:58:27,057
+As long as the spin are in a product state 
+
+1791
+01:58:27,409 --> 01:58:29,393
+As long as they start in a product state
+
+1792
+01:58:29,724 --> 01:58:31,136
+and they don't interact with each other
+
+1793
+01:58:31,464 --> 01:58:32,968
+And therefore stay in a product state 
+
+1794
+01:58:33,319 --> 01:58:34,745
+Then you can do it  
+
+1795
+01:58:35,040 --> 01:58:39,962
+then you can put all of the information about Bob's spin in here
+
+1796
+01:58:40,288 --> 01:58:42,915
+Or all the information about Alice's spin in here
+
+1797
+01:58:43,300 --> 01:58:46,974
+Likewise you can have Bob's apparatus over here
+
+1798
+01:58:47,336 --> 01:58:50,600
+You can have Alice's apparatus over here  a little black box
+
+1799
+01:58:50,930 --> 01:58:56,737
+And it's just basically two identical versions of what I said before 
+
+1800
+01:58:58,260 --> 01:59:00,857
+You can take the computer physically separate them
+
+1801
+01:59:01,192 --> 01:59:05,547
+Do experiments on each one and they would completely agree with
+
+1802
+01:59:05,910 --> 01:59:08,969
+the result of quantum mechanics  because if they are in a product state 
+
+1803
+01:59:09,327 --> 01:59:12,344
+One doesn't care about the other  but then you say 
+
+1804
+01:59:12,698 --> 01:59:16,037
+what if I wanted to put these two spins in a entangled state 
+
+1805
+01:59:16,388 --> 01:59:20,935
+Well first of all  to put them in a entangled state 
+
+1806
+01:59:21,274 --> 01:59:24,559
+you can not do it without bringing the computers together
+
+1807
+01:59:24,903 --> 01:59:27,903
+Bringing the computers together so that they talk to each other
+
+1808
+01:59:29,487 --> 01:59:34,320
+You can record in the combined computer system now they brought together
+
+1809
+01:59:34,672 --> 01:59:46,032
+How many numbers does it take to specify the state of two spin system? Six
+
+1810
+01:59:47,512 --> 01:59:50,451
+So you record six numbers in the computer here 
+
+1811
+01:59:52,300 --> 01:59:54,685
+Six numbers are recorded in the computer 
+
+1812
+01:59:55,004 --> 02:00:04,319
+And some numbers to reflect the orientations of various apparatuses 
+
+1813
+02:00:04,717 --> 02:00:05,822
+that you might conceive of 
+
+1814
+02:00:06,173 --> 02:00:08,790
+And then you try to split the computer in two
+
+1815
+02:00:09,078 --> 02:00:15,615
+Keeping Alice's information in here and Bob's information in here
+
+1816
+02:00:15,940 --> 02:00:18,558
+separate them and try to simulate 
+
+1817
+02:00:18,938 --> 02:00:23,078
+the quantum mechanics of the entangled system
+
+1818
+02:00:23,404 --> 02:00:27,172
+Bell's theorem is what tell you that you can not do this 
+
+1819
+02:00:27,515 --> 02:00:34,998
+unless there are instantaneous action out of distance phenomena 
+
+1820
+02:00:35,329 --> 02:00:38,145
+taking place between the... wires between the computers so to speak
+
+1821
+02:00:38,486 --> 02:00:41,102
+Hidden wires that have to be part of the system 
+
+1822
+02:00:41,453 --> 02:00:43,510
+connecting the computers together 
+
+1823
+02:00:43,836 --> 02:00:50,434
+you cannot simulate the quantum mechanics with a classical computer system
+
+1824
+02:00:50,764 --> 02:00:55,287
+You can't simulates the quantum mechanics of an entangled system 
+
+1825
+02:00:55,648 --> 02:01:01,972
+Unless it's really just one computer  really one computer means 
+
+1826
+02:01:02,307 --> 02:01:05,525
+That signal can be transmitted back and forth basically instantly 
+
+1827
+02:01:05,850 --> 02:01:08,544
+That's what Bell's theorem really says
+
+1828
+02:01:08,901 --> 02:01:12,629
+Now is this a form of non-locality?
+
+1829
+02:01:12,981 --> 02:01:18,297
+Well you might think that if you really have to have these wires there
+
+1830
+02:01:19,827 --> 02:01:21,151
+To simulate quantum mechanics 
+
+1831
+02:01:21,535 --> 02:01:24,671
+Then why can't you send the instantaneous message through these wires?
+
+1832
+02:01:25,008 --> 02:01:29,710
+Of course you can,  but not if you only allow yourself 
+
+1833
+02:01:30,043 --> 02:01:32,993
+to do the thing which quantum mechanics permits
+
+1834
+02:01:33,330 --> 02:01:35,694
+For example there are things that quantum mechanics doesn't permit
+
+1835
+02:01:36,051 --> 02:01:37,071
+It doesn't allow you 
+
+1836
+02:01:37,429 --> 02:01:39,569
+to measure the x and y component of the spin simultaneously
+
+1837
+02:01:41,202 --> 02:01:44,099
+All kinds of thing that does not permit you to do
+
+1838
+02:01:44,467 --> 02:01:47,294
+Because they correspond to non-commutating operators
+
+1839
+02:01:47,668 --> 02:01:51,394
+But if you restrict yourself to the measurement which quantum mechanics
+
+1840
+02:01:51,762 --> 02:01:55,283
+allows you to do on either one of these  or any combination of them
+
+1841
+02:01:55,712 --> 02:01:58,241
+Then it's a very magical and special fact 
+
+1842
+02:01:58,581 --> 02:02:02,361
+That you can not send information faster than speed of light 
+
+1843
+02:02:02,681 --> 02:02:06,672
+You can not send information instantaneously by this computer set up
+
+1844
+02:02:07,107 --> 02:02:11,515
+>> What if you assign a probability but conditional probability
+
+1845
+02:02:11,833 --> 02:02:16,647
+Doesn't matter  doesn't matter  if you want to simulate a quantum system 
+
+1846
+02:02:17,018 --> 02:02:19,361
+with a classical system of computers 
+
+1847
+02:02:19,717 --> 02:02:22,363
+And you want to study entangled systems 
+
+1848
+02:02:22,711 --> 02:02:24,805
+That computers have to be able to
+
+1849
+02:02:25,181 --> 02:02:27,158
+communicate with each other instantaneously
+
+1850
+02:02:27,488 --> 02:02:29,226
+That's the content of Bell's theorem 
+
+1851
+02:02:29,580 --> 02:02:34,268
+Now does that mean that there is any action  spooky action out of distance
+
+1852
+02:02:34,621 --> 02:02:37,990
+Or does it just mean that you have gotten yourselves into trouble 
+
+1853
+02:02:38,275 --> 02:02:42,622
+by trying to simulate quantum mechanics with classical mechanics
+
+1854
+02:02:42,974 --> 02:02:46,263
+And my view is that you've gotten yourselves into trouble 
+
+1855
+02:02:46,629 --> 02:02:50,425
+by trying to simulate something which just doesn't want to be 
+
+1856
+02:02:50,772 --> 02:02:52,697
+describe by a classical computer systems
+
+1857
+02:02:53,010 --> 02:02:55,257
+And it's a deep and interesting fact about quantum mechanics 
+
+1858
+02:02:55,606 --> 02:03:02,046
+Einstein's view was that this is basically evidence 
+
+1859
+02:03:02,376 --> 02:03:05,609
+that the description is incomplete
+
+1860
+02:03:05,946 --> 02:03:09,703
+And there are other variables for the system
+
+1861
+02:03:10,055 --> 02:03:15,092
+And Bell's conclusion was those variables have to be hidden wires 
+
+1862
+02:03:15,407 --> 02:03:16,963
+that connect distant places
+
+1863
+02:03:18,339 --> 02:03:24,716
+So you can take it for however you see it yourselves 
+
+1864
+02:03:25,128 --> 02:03:27,363
+>> If you have a quantum computer there  
+
+1865
+02:03:27,690 --> 02:03:29,595
+>> and let's say when you have the states
+
+1866
+02:03:29,962 --> 02:03:31,709
+If you have a quantum computer you can do it
+
+1867
+02:03:31,998 --> 02:03:34,339
+>> and you separated it right
+
+1868
+02:03:34,659 --> 02:03:37,036
+>> now when you look at Bob's computer
+
+1869
+02:03:37,359 --> 02:03:39,301
+>>you know something about Alice's right?
+
+1870
+02:03:39,658 --> 02:03:40,893
+>> but can't really still send
+
+1871
+02:03:41,222 --> 02:03:44,276
+It's the same problem  but look all the quantum computer 
+
+1872
+02:03:44,638 --> 02:03:47,444
+It's an electron in this computer
+
+1873
+02:03:47,803 --> 02:03:49,623
+and electron (in that computer) that is all it is
+
+1874
+02:03:49,976 --> 02:03:53,587
+It's just a quantum system right  it's just a true quantum system
+
+1875
+02:03:53,963 --> 02:03:57,563
+Quantum system  and each one of these which has just been entangled 
+
+1876
+02:03:57,891 --> 02:03:59,411
+That's all what a quantum computer is 
+
+1877
+02:03:59,770 --> 02:04:00,931
+It's a quantum mechanical system 
+
+1878
+02:04:01,257 --> 02:04:06,993
+which can reflect the logical structure of quantum mechanics
+
+1879
+02:04:07,311 --> 02:04:08,337
+And the way to make it  
+
+1880
+02:04:08,687 --> 02:04:12,241
+is by actually making a pair of entangled electrons in there
+
+1881
+02:04:12,594 --> 02:04:15,002
+Something real has to be entangled between them
+
+1882
+02:04:15,316 --> 02:04:20,471
+And it can't be simulated by a fake computer program 
+
+1883
+02:04:20,812 --> 02:04:24,246
+unless the computer has this property of 
+
+1884
+02:04:24,591 --> 02:04:27,255
+>> (inaudible)
+
+1885
+02:04:27,561 --> 02:04:30,887
+Sure  alright
+
+1886
+02:04:31,282 --> 02:04:36,856
+>> You could sort of hack this problem away using an analogy
+
+1887
+02:04:37,209 --> 02:04:41,400
+>> supre random number generators all synchronized 
+
+1888
+02:04:41,721 --> 02:04:45,511
+>> so there are actually not they will be random 
+
+1889
+02:04:49,903 --> 02:04:54,605
+What you can't do is synchronize them in advance 
+
+1890
+02:04:56,343 --> 02:04:59,484
+and then not let them interact with each other 
+
+1891
+02:04:59,824 --> 02:05:03,386
+That wont' do it  the random number have to be
+
+1892
+02:05:03,740 --> 02:05:06,986
+The random number generator have to be such that what this one measures
+
+1893
+02:05:07,322 --> 02:05:09,258
+respond to what that one measure
+
+1894
+02:05:09,599 --> 02:05:12,890
+>> Like for example  what I meant was 
+
+1895
+02:05:14,506 --> 02:05:18,354
+>> the random number generator are synchronized at the beginning 
+
+1896
+02:05:18,597 --> 02:05:22,604
+>> and whenever you measure  because they are synchronized
+
+1897
+02:05:22,922 --> 02:05:26,986
+>> they will always generate up and down reversed
+
+1898
+02:05:30,418 --> 02:05:33,994
+No  it's simply not enough  this is what the theorem says
+
+1899
+02:05:34,325 --> 02:05:39,110
+It is not enough to synchronize them in advance and then take them apart
+
+1900
+02:05:39,404 --> 02:05:41,822
+They've got to continue to interact with each other 
+
+1901
+02:05:42,179 --> 02:05:45,990
+That's what it says  that they must continue to interact with each other
+
+1902
+02:05:46,314 --> 02:05:47,810
+and feed information back and forth
+
+1903
+02:05:54,892 --> 02:05:58,326
+>> The problem was delay choice if you put a Bell 
+
+1904
+02:05:58,680 --> 02:06:05,597
+>>Then instantaneously Alice
+
+1905
+02:06:07,366 --> 02:06:09,741
+>> four light years away  and that (?)
+
+1906
+02:06:11,611 --> 02:06:12,909
+I told you everything I know about it
+
+1907
+02:06:13,244 --> 02:06:16,836
+And what I know about it is that there is nothing Bob could do
+
+1908
+02:06:17,190 --> 02:06:20,992
+which can influence the statistics of Alice's measurements
+
+1909
+02:06:21,327 --> 02:06:24,358
+without sending her a measure
+
+1910
+02:06:24,737 --> 02:06:28,243
+>> (inaudible)
+
+1911
+02:06:33,485 --> 02:06:35,912
+Alright two more questions 
+
+1912
+02:06:43,435 --> 02:06:47,866
+>> you said we can classically simulate quantum mechanics?
+
+1913
+02:06:48,197 --> 02:06:51,796
+Yes you can classically simulate quantum mechanics
+
+1914
+02:06:52,137 --> 02:06:55,842
+But you basically have to do it with in a single computer
+
+1915
+02:06:56,175 --> 02:06:58,356
+Where all parts of it speaks to every other parts
+
+1916
+02:06:58,727 --> 02:07:00,872
+You can not physically take them apart 
+
+1917
+02:07:01,202 --> 02:07:03,562
+the way you would want to take the quantum systems apart
+
+1918
+02:07:03,894 --> 02:07:07,628
+>>
+
+1919
+02:07:07,994 --> 02:07:11,280
+>>
+
+1920
+02:07:11,626 --> 02:07:14,325
+>>
+
+1921
+02:07:14,661 --> 02:07:16,972
+>>
+
+1922
+02:07:21,777 --> 02:07:27,008
+No  no  In an entangled system Bob can do his measurement  
+
+1923
+02:07:27,335 --> 02:07:28,931
+Alice can do her measurements
+
+1924
+02:07:29,256 --> 02:07:31,643
+But there are other things that can be measured 
+
+1925
+02:07:31,977 --> 02:07:34,660
+beside just the things that Alice would measure 
+
+1926
+02:07:34,997 --> 02:07:37,791
+on her system or the thing Bob would measure
+
+1927
+02:07:38,151 --> 02:07:41,696
+For example  neither Bob nor Alice by themselves
+
+1928
+02:07:42,116 --> 02:07:46,372
+can measure sigma x times tau x
+
+1929
+02:07:46,721 --> 02:07:47,890
+It takes both of them to do it
+
+1930
+02:07:48,240 --> 02:07:51,011
+It takes both detectors  it takes both apparatuses 
+
+1931
+02:07:51,359 --> 02:07:54,277
+to make a measurement of sigma x times tau x
+
+1932
+02:07:54,628 --> 02:07:56,957
+This is something that you can not measure 
+
+1933
+02:07:57,306 --> 02:07:59,600
+Now you can measure with two apparatuses 
+
+1934
+02:07:59,926 --> 02:08:02,341
+The question is are there anything you could measure 
+
+1935
+02:08:02,637 --> 02:08:05,447
+That you couldn't measure even with those two apparatuses
+
+1936
+02:08:05,772 --> 02:08:12,638
+And yes there are  sigma x tau x plus sigma y tau y plus sigma z tau z
+
+1937
+02:08:12,982 --> 02:08:17,551
+is something that can not even be measured by using both apparatuses 
+
+1938
+02:08:17,914 --> 02:08:21,642
+It takes a new kind of apparatus which is not a combination 
+
+1939
+02:08:21,972 --> 02:08:24,355
+of Alice's and Bob's original apparatuses 
+
+1940
+02:08:24,692 --> 02:08:28,324
+Which each measures a Bob's thing and an Alice's thing
+
+1941
+02:08:29,955 --> 02:08:31,635
+>> Can Bob measure the entanglement 
+
+1942
+02:08:33,188 --> 02:08:34,772
+Nobody can measure entanglement 
+
+1943
+02:08:40,795 --> 02:08:48,478
+No  Bob can discover that he's got  nobody can do anything with one event
+
+1944
+02:08:50,005 --> 02:08:52,413
+But if you have a whole replication like I describe
+
+1945
+02:08:52,780 --> 02:08:54,365
+where did I describe it?
+
+1946
+02:08:54,682 --> 02:08:56,760
+Well we have many replica of the same thing 
+
+1947
+02:08:58,109 --> 02:08:59,845
+Many replica of the same thing  
+
+1948
+02:09:00,212 --> 02:09:06,287
+then Bob can discover the fact that his state is entangled with something 
+
+1949
+02:09:06,615 --> 02:09:08,271
+And the way he does it
+
+1950
+02:09:08,577 --> 02:09:12,175
+is he says let me search around for a direction in space
+
+1951
+02:09:12,492 --> 02:09:16,405
+For which the spins are definitely align in some direction
+
+1952
+02:09:16,748 --> 02:09:17,404
+Here is what he knows 
+
+1953
+02:09:17,732 --> 02:09:20,114
+He knows that all the system were prepared in the same way
+
+1954
+02:09:21,513 --> 02:09:24,041
+They are all identical  each pairs is identical... 
+
+1955
+02:09:24,371 --> 02:09:26,705
+each pair is identical to each other pair
+
+1956
+02:09:27,084 --> 02:09:31,337
+And he's wondering could each one of these be in a product state?
+
+1957
+02:09:31,812 --> 02:09:34,367
+Same product state for this one  same product state for that one 
+
+1958
+02:09:34,675 --> 02:09:35,867
+Same product state for that one 
+
+1959
+02:09:36,216 --> 02:09:39,524
+If there have inner product state then Bob can search around
+
+1960
+02:09:39,833 --> 02:09:42,658
+He's got enough version of it  enough trials 
+
+1961
+02:09:43,054 --> 02:09:45,531
+that he can go on and on with experiments for ever 
+
+1962
+02:09:45,889 --> 02:09:49,712
+And he could search around for a direction where 
+
+1963
+02:09:50,086 --> 02:09:52,046
+when he measures the spin his spin
+
+1964
+02:09:52,373 --> 02:09:54,669
+He always discover that it's up
+
+1965
+02:09:55,033 --> 02:09:59,042
+Now the first time he maybe in the wrong direction 
+
+1966
+02:09:59,435 --> 02:10:00,537
+And he will find down 
+
+1967
+02:10:00,903 --> 02:10:04,550
+Next time he may find up and try again it would be down  wrong direction
+
+1968
+02:10:04,886 --> 02:10:08,110
+It keeps searching around  if it's a product state
+
+1969
+02:10:08,473 --> 02:10:09,875
+he would eventually find 
+
+1970
+02:10:10,232 --> 02:10:15,905
+the direction where the spin would continue to be up up up up
+
+1971
+02:10:16,250 --> 02:10:17,066
+after he's found it
+
+1972
+02:10:17,434 --> 02:10:20,560
+If it's in an entangled state  no matter what directions he measures
+
+1973
+02:10:20,910 --> 02:10:24,088
+He will always find the spin are random okay
+
+1974
+02:10:26,447 --> 02:10:28,136
+That's the character of it
+
+1975
+02:10:31,504 --> 02:10:33,455
+>> And that's a seperate measurement right?
+
+1976
+02:10:33,792 --> 02:10:35,664
+>> on separate discrete measurement right?
+
+1977
+02:10:36,030 --> 02:10:37,248
+>> If not the measurement are the same thing
+
+1978
+02:10:37,653 --> 02:10:40,895
+No you've got to have ensemble of identical system
+
+1979
+02:10:41,246 --> 02:10:43,272
+to do anything like this
+
+1980
+02:10:43,635 --> 02:10:46,184
+You just prepare each one the same way
+
+1981
+02:10:46,520 --> 02:10:47,912
+You do a experiment 
+
+1982
+02:10:48,255 --> 02:10:49,584
+He doesn't care about Alice 
+
+1983
+02:10:49,922 --> 02:10:52,040
+he's just gonna measure his spin along some axis
+
+1984
+02:10:52,384 --> 02:10:54,464
+Another one axis  another one axis
+
+1985
+02:10:54,752 --> 02:10:57,856
+Until he find the one way  he keeps repeatedly getting the same answer
+
+1986
+02:10:58,189 --> 02:11:01,392
+And then he said that's the direction that spin is polarized 
+
+1987
+02:11:01,704 --> 02:11:04,030
+And then he keeps doing it and finds consistency 
+
+1988
+02:11:04,366 --> 02:11:07,960
+He will never find that unless he  says a product state
+
+1989
+02:11:08,300 --> 02:11:15,539
+So it's pretty interesting stuff  hard stuff
+
+1990
+02:11:15,887 --> 02:11:20,555
+For more  please visit us at Stanford.edu
+
+

@@ -1,0 +1,4997 @@
+﻿1
+00:00:05,415 --> 00:00:07,287
+Stanford University 
+
+2
+00:00:10,463 --> 00:00:12,808
+Going way beyond the course 
+
+3
+00:00:17,630 --> 00:00:21,312
+The model we talk about is Hamiltonian for energy
+
+4
+00:00:21,564 --> 00:00:23,670
+Is just C time P
+
+5
+00:00:27,527 --> 00:00:30,105
+P could be positive or negative 
+
+6
+00:00:31,859 --> 00:00:35,913
+The wave function for a given P is just e to the IPX
+
+7
+00:00:37,266 --> 00:00:43,328
+And is nothing better about e to the plus IPX 
+
+8
+00:00:43,552 --> 00:00:49,095
+Or P being positive or negative they are both perfectly acceptable plain waves
+
+9
+00:00:49,310 --> 00:00:51,875
+But one of them has positive energy 
+
+10
+00:00:52,102 --> 00:00:53,282
+And one of them has negative energy
+
+11
+00:00:56,158 --> 00:00:58,248
+Just reading off here
+
+12
+00:00:58,500 --> 00:01:04,780
+Now negative energy is not such a good thing in the real world 
+
+13
+00:01:05,029 --> 00:01:07,805
+Negative energy is not such a good thing in the real world 
+
+14
+00:01:08,037 --> 00:01:13,347
+because if there were particles of negative energy 
+
+15
+00:01:13,579 --> 00:01:18,620
+The world will be unstable the vacuum would not be,
+
+16
+00:01:18,833 --> 00:01:23,200
+an empty space would not be the state of lowest energy 
+
+17
+00:01:23,437 --> 00:01:29,100
+you could take empty space which we could say has zero energy 
+
+18
+00:01:29,333 --> 00:01:32,711
+and just start putting in particles of negative energy 
+
+19
+00:01:32,936 --> 00:01:36,276
+Particles of negative energy will lower the energy and 
+
+20
+00:01:36,521 --> 00:01:41,051
+anything that lowers the energy tends to be favored 
+
+21
+00:01:41,265 --> 00:01:44,163
+You can make lots and lots particles, more and more particles 
+
+22
+00:01:44,407 --> 00:01:45,826
+more and more negative energy 
+
+23
+00:01:47,356 --> 00:01:50,275
+you have to get some positive energy from someplace 
+
+24
+00:01:51,602 --> 00:01:53,430
+You have to get some positive energy from someplace 
+
+25
+00:01:53,704 --> 00:01:55,851
+But you could for example radiate photons 
+
+26
+00:01:56,098 --> 00:01:59,418
+And at the same time produce more and more of these negative energy 
+
+27
+00:01:59,645 --> 00:02:02,971
+Particles, if there were particles of negative energy
+
+28
+00:02:03,193 --> 00:02:05,917
+The empty space would just be unstable 
+
+29
+00:02:06,123 --> 00:02:09,250
+Unstable with respect to creating more and more 
+
+30
+00:02:09,250 --> 00:02:13,576
+positive and negative energy particles 
+
+31
+00:02:13,839 --> 00:02:17,202
+You can, you have to conserve energy so you have to do both 
+
+32
+00:02:19,190 --> 00:02:21,941
+If there is only positive energy particles by contrast 
+
+33
+00:02:22,194 --> 00:02:29,086
+there is no way that energy conservation will allow you to make them 
+
+34
+00:02:29,326 --> 00:02:33,497
+If they are the only positive energy particles in the vacuum has zero energy 
+
+35
+00:02:33,731 --> 00:02:37,654
+it's the lowest energy state and nothing can happen to it to create particles
+
+36
+00:02:37,654 --> 00:02:43,808
+so good stable world requires all particles to have positive energy 
+
+37
+00:02:44,055 --> 00:02:47,204
+relative to the vacuum, this is not a good stable world 
+
+38
+00:02:47,404 --> 00:02:50,278
+okay so what you do about it? 
+
+39
+00:02:50,495 --> 00:02:55,696
+Well it was Dirac who understood what to do about it 
+
+40
+00:02:55,912 --> 00:02:59,587
+but only in the case of fermions, now what are the fermions?
+
+41
+00:02:59,790 --> 00:03:04,747
+Fermions are simply particles that cannot be in the same state
+
+42
+00:03:05,003 --> 00:03:06,925
+Two of them cannot be in the same state 
+
+43
+00:03:07,172 --> 00:03:09,744
+That's a rule, where that rule came from?
+
+44
+00:03:09,997 --> 00:03:13,059
+It comes from relativistic quantum field theory 
+
+45
+00:03:13,269 --> 00:03:17,907
+But it's the same as the Pauli exclusion principle 
+
+46
+00:03:18,132 --> 00:03:20,213
+If you know a little bit about chemistry 
+
+47
+00:03:20,426 --> 00:03:23,597
+you know that the two electrons in an atom can't be in the same state 
+
+48
+00:03:25,183 --> 00:03:31,623
+and you have to fill the atoms with particles of different energies 
+
+49
+00:03:31,879 --> 00:03:36,507
+Different states, and the same is generally true 
+
+50
+00:03:36,829 --> 00:03:41,658
+Particles that participate in the Pauli exclusion principle 
+
+51
+00:03:41,875 --> 00:03:43,049
+are called fermions 
+
+52
+00:03:43,250 --> 00:03:45,129
+Why are they called fermions I don't know 
+
+53
+00:03:45,338 --> 00:03:48,675
+They should be called Pauli-on such obviously should be called Pauli-ons
+
+54
+00:03:48,969 --> 00:03:54,024
+And particles which don't participate in a exclusion principle 
+
+55
+00:03:54,246 --> 00:03:59,661
+are called bosons, but of course properly they should be called Einstein-ons 
+
+56
+00:03:59,876 --> 00:04:02,295
+But it was Einstein for studying them
+
+57
+00:04:03,797 --> 00:04:09,130
+Nevermind, fermions and bosons, fermions can't be put in the same state 
+
+58
+00:04:09,356 --> 00:04:13,473
+bosons can, so Dirac said, look I have a very simple solution to all of this
+
+59
+00:04:13,690 --> 00:04:17,531
+just imagine that the vacuum empty space 
+
+60
+00:04:17,790 --> 00:04:22,053
+is really a state in which all the particles of negative energy 
+
+61
+00:04:22,323 --> 00:04:26,074
+are present simultaneously filling up the vacuum 
+
+62
+00:04:26,316 --> 00:04:30,128
+you simply can't put any more in because you are not allowed 
+
+63
+00:04:30,364 --> 00:04:32,484
+to put particles in the same state
+
+64
+00:04:32,484 --> 00:04:34,511
+but everything else is empty 
+
+65
+00:04:34,732 --> 00:04:38,548
+In fact if you were to say, think about that for moment 
+
+66
+00:04:38,763 --> 00:04:44,774
+let's assume that the real vacuum is a state of absolute lowest energy 
+
+67
+00:04:46,464 --> 00:04:49,649
+absolute lowest energy, now take absolute empty space 
+
+68
+00:04:49,926 --> 00:04:52,356
+would you think of is ordinarily empty space? 
+
+69
+00:04:52,578 --> 00:04:53,949
+Is that the state of lowest energy?
+
+70
+00:04:54,178 --> 00:04:58,811
+No, I can put one particle of negative energy in, lower the energy 
+
+71
+00:04:59,017 --> 00:05:02,311
+So there are state of lower energy 
+
+72
+00:05:02,545 --> 00:05:07,478
+Whatever state you say I will find another negative energy particles to put into it
+
+73
+00:05:08,735 --> 00:05:10,143
+and lower its energy,
+
+74
+00:05:10,353 --> 00:05:13,586
+the only way to have the state of absolute lowest energy 
+
+75
+00:05:13,790 --> 00:05:19,385
+is to simply fill it, full, full of all the particles which have negative energy 
+
+76
+00:05:19,642 --> 00:05:22,103
+another words all the particles with negative momentum 
+
+77
+00:05:23,460 --> 00:05:27,055
+sounds crazy but it turned out to be right 
+
+78
+00:05:27,309 --> 00:05:31,823
+but you can only do that with particles which have the property 
+
+79
+00:05:32,056 --> 00:05:34,802
+that you can't put more than one of them into the same state 
+
+80
+00:05:35,066 --> 00:05:39,424
+If you can put more than one into the same state it would be no inability 
+
+81
+00:05:39,685 --> 00:05:42,859
+to keep dumping negative energy particles into the vacuum 
+
+82
+00:05:44,291 --> 00:05:49,069
+so this is a reasonable theory, it's Dirac's
+
+83
+00:05:49,308 --> 00:05:55,236
+It's a very simple basic baby version of the Dirac equation of what it is 
+
+84
+00:05:56,604 --> 00:06:00,680
+and it's okay theory for neutrinos 
+
+85
+00:06:00,909 --> 00:06:04,348
+Or for one-dimensional neutrinos 
+
+86
+00:06:04,579 --> 00:06:07,016
+It is not a good theory for photons 
+
+87
+00:06:07,316 --> 00:06:13,113
+photons are bosons and you simply can't play the same game 
+
+88
+00:06:13,343 --> 00:06:15,450
+if there were negative energy bosons 
+
+89
+00:06:15,658 --> 00:06:17,781
+you could simply dump them into the same state 
+
+90
+00:06:17,997 --> 00:06:20,961
+more and more and more of them, it would simply destabilize the world 
+
+91
+00:06:21,216 --> 00:06:24,097
+So no this is not good theory of bosons
+
+92
+00:06:24,327 --> 00:06:26,405
+It's a good theory for fermions 
+
+93
+00:06:28,038 --> 00:06:33,801
+but that's taking us way beyond this course, this course of material 
+
+94
+00:06:34,025 --> 00:06:41,418
+We've covered in a sense, a lot about the foundations of quantum mechanics
+
+95
+00:06:41,690 --> 00:06:43,709
+and very simple quantum mechanical systems 
+
+96
+00:06:43,933 --> 00:06:47,523
+We've covered almost nothing about 
+
+97
+00:06:47,741 --> 00:06:51,887
+what we could call the applications of quantum mechanics 
+
+98
+00:06:52,106 --> 00:06:53,875
+Not even the applications of quantum mechanics 
+
+99
+00:06:54,092 --> 00:06:56,636
+but studying quantum mechanical systems 
+
+100
+00:06:56,887 --> 00:07:00,092
+we didn't even get to the harmonic oscillator that's a disgrace 
+
+101
+00:07:01,604 --> 00:07:04,661
+but when I finish with quantum mechanics 
+
+102
+00:07:04,891 --> 00:07:07,141
+next quarter we are gonna to do relativity and field theory 
+
+103
+00:07:07,395 --> 00:07:10,279
+but then we are going to have to come back to quantum mechanics 
+
+104
+00:07:10,547 --> 00:07:16,780
+in order to study more about the basic structures 
+
+105
+00:07:17,021 --> 00:07:18,436
+that appear in quantum mechanics
+
+106
+00:07:19,821 --> 00:07:24,039
+So it's sort of embarrassing to teach a whole course in quantum mechanics 
+
+107
+00:07:24,304 --> 00:07:25,905
+and never get to the harmonic oscillator 
+
+108
+00:07:26,105 --> 00:07:28,612
+but that's where we are 
+
+109
+00:07:30,774 --> 00:07:34,489
+So you can ask your money back I don't know
+
+110
+00:07:38,645 --> 00:07:44,467
+On the other hand, it does seem people have a lot of fun with entanglement 
+
+111
+00:07:44,685 --> 00:07:51,621
+I didn't expect such a, a response particularly to this
+
+112
+00:07:51,848 --> 00:07:53,901
+Some of them are extremely interesting and well done 
+
+113
+00:07:54,103 --> 00:07:58,168
+Some of the chatter back and forth on the Internet 
+
+114
+00:07:58,396 --> 00:08:03,980
+I actually did follow it and sometimes it was a generally good 
+
+115
+00:08:04,197 --> 00:08:05,837
+and sometimes excellent 
+
+116
+00:08:06,215 --> 00:08:12,131
+so I, got some some sense of satisfaction of teaching that 
+
+117
+00:08:15,235 --> 00:08:19,347
+We will go on a little bit today about Schrodinger equation 
+
+118
+00:08:20,595 --> 00:08:24,451
+not the general Schrodinger equation but special Schrodinger equation
+
+119
+00:08:24,657 --> 00:08:26,067
+That Schrodinger actually wrote down 
+
+120
+00:08:27,251 --> 00:08:31,219
+The connection with the things we've learned up till now is the wave function 
+
+121
+00:08:32,719 --> 00:08:36,801
+And the wave function is simply the amplitude that 
+
+122
+00:08:37,025 --> 00:08:39,569
+the particle is located at a particular position 
+
+123
+00:08:39,844 --> 00:08:46,435
+in other words it's the inner product of whatever state vector happens to be 
+
+124
+00:08:46,653 --> 00:08:48,811
+with the state of definite position 
+
+125
+00:08:56,652 --> 00:09:00,115
+We can also write a momentum space wave function 
+
+126
+00:09:00,348 --> 00:09:05,668
+The momentum space wave function just the 
+
+127
+00:09:05,896 --> 00:09:08,923
+projection of the same state whatever it happens to be 
+
+128
+00:09:09,203 --> 00:09:13,080
+onto a momentum eigenstate, eigenvector 
+
+129
+00:09:14,232 --> 00:09:19,180
+momentum eigen vectors and the position eigenvectors 
+
+130
+00:09:19,416 --> 00:09:24,802
+Or rather the momentum wave function position wave function are related 
+
+131
+00:09:25,023 --> 00:09:27,282
+and they are related by Fourier transform 
+
+132
+00:09:28,386 --> 00:09:32,634
+That's the basic structure of position and momentum 
+
+133
+00:09:32,862 --> 00:09:37,613
+If the particle has more than one direction to move in for example 
+
+134
+00:09:37,860 --> 00:09:40,111
+let's suppose it can move in the x-y plane
+
+135
+00:09:40,323 --> 00:09:46,880
+then you characterize the position of a particle by two coordinates
+
+136
+00:09:47,111 --> 00:09:51,082
+The two coordinates communed 
+
+137
+00:09:51,298 --> 00:09:57,276
+you can't measure both the X and Y position of a particle simultaneously 
+
+138
+00:09:57,571 --> 00:10:03,251
+Now is that something that follows automatically from 
+
+139
+00:10:03,466 --> 00:10:04,554
+what we set up till now?
+
+140
+00:10:04,793 --> 00:10:08,155
+No, not at all, it's really an empirical fact 
+
+141
+00:10:08,429 --> 00:10:13,084
+It's an empirical fact that the structure of the quantum mechanics of particles
+
+142
+00:10:14,300 --> 00:10:21,934
+only conforms to, to experiment if we assume that 
+
+143
+00:10:22,160 --> 00:10:27,605
+the different coordinates with different directions 
+
+144
+00:10:27,823 --> 00:10:29,511
+the particle can move and commute 
+
+145
+00:10:29,737 --> 00:10:34,033
+That means the wave function is not really a function not of a single variable 
+
+146
+00:10:34,318 --> 00:10:35,890
+but a functional collection of variables 
+
+147
+00:10:36,121 --> 00:10:39,895
+the collection of variables being the position in the 
+
+148
+00:10:40,091 --> 00:10:41,527
+various coordinates of the particle
+
+149
+00:10:41,758 --> 00:10:47,086
+If we have several particles then the wave function becomes 
+
+150
+00:10:47,313 --> 00:10:49,790
+a function of the coordinates of all the particles 
+
+151
+00:10:51,087 --> 00:10:52,105
+We are not gonna go into that today 
+
+152
+00:10:52,105 --> 00:10:58,610
+it's the, I just tell you that the wave function thought of 
+
+153
+00:10:58,809 --> 00:11:01,470
+the wave function of a collection of particles 
+
+154
+00:11:01,744 --> 00:11:06,401
+It is not a function of three-dimensional space 
+
+155
+00:11:06,649 --> 00:11:11,639
+It's a function of all of the coordinates of all of the particles 
+
+156
+00:11:11,910 --> 00:11:16,909
+In the same way the phase space the phase space of a particle 
+
+157
+00:11:17,155 --> 00:11:21,682
+is described by a collection of a large number of coordinates and momenta 
+
+158
+00:11:21,917 --> 00:11:25,405
+in the case of classical physics, the wave function of a particle 
+
+159
+00:11:25,658 --> 00:11:27,626
+is a collection of a system, 
+
+160
+00:11:27,847 --> 00:11:33,659
+It's a collection of a, the function of the collection of all the coordinates 
+
+161
+00:11:33,859 --> 00:11:36,980
+So for example if you have 10 to the 23rd particles 
+
+162
+00:11:37,210 --> 00:11:40,873
+Psi would be a function of 10 to the 23rd coordinates 
+
+163
+00:11:42,261 --> 00:11:46,133
+So that's, that's the basic structure 
+
+164
+00:11:46,365 --> 00:11:50,755
+and you can go to momentum space by Fourier transform 
+
+165
+00:11:50,971 --> 00:11:53,501
+and write the wave function instead 
+
+166
+00:11:53,716 --> 00:11:57,147
+As a wave function of all of the momenta of all particles 
+
+167
+00:11:57,363 --> 00:12:01,682
+you can even have mixed situations mixed representations 
+
+168
+00:12:01,897 --> 00:12:06,831
+Where you may describe a wave function in terms of coordinates 
+
+169
+00:12:07,047 --> 00:12:10,067
+of some of the particles and momenta of the other particles
+
+170
+00:12:10,309 --> 00:12:11,758
+This is also allowed
+
+171
+00:12:11,972 --> 00:12:16,477
+But we are gonna focus on the case of one-dimensional motion again 
+
+172
+00:12:16,746 --> 00:12:21,884
+We will come back to that and just discuss the behavior of the wave function
+
+173
+00:12:22,097 --> 00:12:24,286
+It's properties, just a little bit 
+
+174
+00:12:24,558 --> 00:12:26,932
+Mainly properties in Schrodinger equation 
+
+175
+00:12:27,142 --> 00:12:30,164
+First the uncertainty principle 
+
+176
+00:12:36,780 --> 00:12:38,492
+Where does the uncertainty principle come from?
+
+177
+00:12:38,709 --> 00:12:42,684
+It comes from the fact that x and coordinate p don't commute 
+
+178
+00:12:42,951 --> 00:12:47,412
+whenever two coordinates or two observables don't commute 
+
+179
+00:12:47,644 --> 00:12:50,804
+It becomes impossible to measure both of them simultaneously 
+
+180
+00:12:51,061 --> 00:12:57,203
+because there are in eigenvectors which are eigenvectors of both observables
+
+181
+00:12:57,417 --> 00:13:03,655
+In particular the eigenvectors of X are extremely different
+
+182
+00:13:03,862 --> 00:13:08,790
+Every eigenvector of X is extremely different from every eigenvector of p
+
+183
+00:13:09,010 --> 00:13:15,635
+The eigenvectors of X are sharp narrow highly localized functions in space
+
+184
+00:13:15,860 --> 00:13:20,149
+And the eigenvectors of momentum first of all complex 
+
+185
+00:13:20,376 --> 00:13:23,922
+e to the IPX, but their real and imaginary parts 
+
+186
+00:13:24,188 --> 00:13:28,728
+are oscillations over all of the space
+
+187
+00:13:29,039 --> 00:13:31,311
+And so it's space filling 
+
+188
+00:13:32,799 --> 00:13:36,856
+They are not space filling, it's not that the particle fills space 
+
+189
+00:13:37,062 --> 00:13:41,714
+It's just the particle is every where equally likely to be everywhere
+
+190
+00:13:41,938 --> 00:13:43,250
+when it's momentum is known
+
+191
+00:13:43,450 --> 00:13:48,867
+So that's the most primitive observation of the uncertainty principle
+
+192
+00:13:49,089 --> 00:13:50,994
+If you know the position of the particle
+
+193
+00:13:51,218 --> 00:13:53,258
+You certainly don't know it's momentum or 
+
+194
+00:13:53,465 --> 00:13:55,415
+If a particle is in a position eigenstate
+
+195
+00:13:55,415 --> 00:13:58,544
+It's very far from momentum eigenstate 
+
+196
+00:13:58,786 --> 00:14:01,202
+If it is momentum eigenstate, it's very far from a position eigenstate 
+
+197
+00:14:03,124 --> 00:14:04,879
+That's the most primitive version of it
+
+198
+00:14:06,049 --> 00:14:08,123
+You can say more qualitatively 
+
+199
+00:14:08,345 --> 00:14:10,069
+You can say more qualitatively 
+
+200
+00:14:10,287 --> 00:14:12,456
+And then we will come to quantitative, 
+
+201
+00:14:12,692 --> 00:14:15,155
+come to quantitative for precise theorem at the moment 
+
+202
+00:14:16,355 --> 00:14:23,012
+But if we look at the wave function as a function of x
+
+203
+00:14:23,218 --> 00:14:33,747
+And it's relationship by Fourier transform dP over the square root of 2 pi
+
+204
+00:14:34,971 --> 00:14:41,669
+Psi twiddle of p, e to the ipx
+
+205
+00:14:42,875 --> 00:14:45,963
+And I won't bother writing the other relationship
+
+206
+00:14:46,175 --> 00:14:49,403
+The other relationship is the one that writes psi of p in terms of psi of x
+
+207
+00:14:52,195 --> 00:14:59,956
+And just start fooling around, trying to construct Psi of p or Psi of x
+
+208
+00:15:00,207 --> 00:15:03,259
+One from the other by Fourier transform 
+
+209
+00:15:03,489 --> 00:15:11,509
+And you will very quickly discover that the narrower the distribution in x
+
+210
+00:15:11,789 --> 00:15:16,201
+The boarder the distribution in p will be
+
+211
+00:15:16,405 --> 00:15:19,481
+That's the property just of the Fourier analysis 
+
+212
+00:15:19,709 --> 00:15:26,378
+That the narrower psi of x is
+
+213
+00:15:26,653 --> 00:15:28,946
+The boarder psi of p is, and vice versa
+
+214
+00:15:30,283 --> 00:15:34,219
+That psi of P is very narrow, it means that it just 
+
+215
+00:15:34,424 --> 00:15:36,442
+It's just basically a single plane wave, 
+
+216
+00:15:36,786 --> 00:15:41,557
+It is very broad in x, and so that's a pattern of Fourier transform 
+
+217
+00:15:41,831 --> 00:15:47,119
+The narrower the function is, the broader it's Fourier transform is
+
+218
+00:15:47,345 --> 00:15:51,079
+That's the qualitative understanding of the uncertainty principle 
+
+219
+00:15:51,305 --> 00:15:53,319
+But let's try to do it a little bit better 
+
+220
+00:15:53,534 --> 00:16:00,656
+Let's try to see if we can define the notion of uncertainty
+
+221
+00:16:02,073 --> 00:16:05,228
+And then to see if we can prove a theorem 
+
+222
+00:16:06,398 --> 00:16:10,733
+I'm gonna prove a slightly simplified version of the theorem 
+
+223
+00:16:11,044 --> 00:16:14,651
+mostly because there's just too much on the blackboard 
+
+224
+00:16:14,892 --> 00:16:16,439
+if I prove the full general theorem 
+
+225
+00:16:16,649 --> 00:16:18,567
+I will prove a simplified version of it 
+
+226
+00:16:18,788 --> 00:16:22,070
+But the simplified version of it contains the basic ingredients 
+
+227
+00:16:22,303 --> 00:16:28,131
+Alright first of all, what is meant by the uncertainty in a variable?
+
+228
+00:16:29,424 --> 00:16:32,313
+You have some distribution for that variable 
+
+229
+00:16:33,497 --> 00:16:39,292
+and the first thing to do before discussing the uncertainty in it 
+
+230
+00:16:39,528 --> 00:16:48,607
+is shift the axes so that the average of x, let's say this is
+
+231
+00:16:48,817 --> 00:16:53,470
+Let's say this is X, so that the average of X is zero 
+
+232
+00:16:53,719 --> 00:16:57,821
+you can always do that, if the average of X is not zero 
+
+233
+00:16:58,030 --> 00:17:00,302
+Let's suppose you have some wave function like that
+
+234
+00:17:00,528 --> 00:17:02,679
+X equals to zero is over here 
+
+235
+00:17:03,916 --> 00:17:06,216
+If you put your center of coordinates over here 
+
+236
+00:17:06,418 --> 00:17:10,384
+Obviously the average of X the expectation value of X will be negative 
+
+237
+00:17:10,591 --> 00:17:18,568
+If you put your coordinates over here, the the average of X will clearly be positive
+
+238
+00:17:18,779 --> 00:17:22,562
+and as you move the origin, you will eventually find the position 
+
+239
+00:17:22,756 --> 00:17:25,658
+where the average of X is exactly equal to zero so
+
+240
+00:17:25,898 --> 00:17:32,620
+Let's simplify our story by shifting coordinates 
+
+241
+00:17:32,864 --> 00:17:34,936
+It's just a shift of coordinates, just shifting our coordinates 
+
+242
+00:17:35,191 --> 00:17:38,608
+until the average value of X is equal to zero
+
+243
+00:17:39,800 --> 00:17:41,648
+average of X is equal to zero
+
+244
+00:17:44,032 --> 00:17:50,011
+Then what would, we've done it, the average of x is equal to zero 
+
+245
+00:17:51,940 --> 00:17:56,551
+what is the uncertainty? the uncertainty by definition 
+
+246
+00:17:56,766 --> 00:17:59,327
+is the average of X square, 
+
+247
+00:18:00,495 --> 00:18:05,979
+and looking at the average of X, is zero because anything on this side 
+
+248
+00:18:06,185 --> 00:18:08,027
+is balanced by something on this side 
+
+249
+00:18:08,247 --> 00:18:10,971
+X is positive over here X is negative over here 
+
+250
+00:18:11,231 --> 00:18:15,046
+so looking at the average of it the average will cancel 
+
+251
+00:18:15,280 --> 00:18:17,304
+if you choose your axes in the right place
+
+252
+00:18:17,515 --> 00:18:22,762
+But the average of X square, X square measured relative to this 
+
+253
+00:18:23,033 --> 00:18:26,706
+located x here, will not be zero
+
+254
+00:18:26,923 --> 00:18:31,510
+X squared is nonzero here, x square is nonzero here 
+
+255
+00:18:31,728 --> 00:18:35,813
+In fact that's the only place where the X square is zero 
+
+256
+00:18:36,020 --> 00:18:39,325
+Just right at the origin, so there is no way that the average of X squared 
+
+257
+00:18:39,546 --> 00:18:41,828
+can be, can be zero 
+
+258
+00:18:43,064 --> 00:18:46,133
+in fact the broader the wave function, 
+
+259
+00:18:46,346 --> 00:18:50,194
+the larger the expectation value of X squared will be 
+
+260
+00:18:51,540 --> 00:18:59,949
+That's clear, so a good measure, a good measure of the width of the distribution
+
+261
+00:19:00,187 --> 00:19:02,781
+You can call the uncertainty of x, 
+
+262
+00:19:03,033 --> 00:19:05,214
+and that is the definition really of the uncertainty of an x
+
+263
+00:19:05,424 --> 00:19:08,906
+It's the average of X squared 
+
+264
+00:19:13,805 --> 00:19:19,102
+the average value of X squared with a given probability distribution 
+
+265
+00:19:19,311 --> 00:19:23,596
+Given that the average of x itself is equal to zero 
+
+266
+00:19:23,824 --> 00:19:28,383
+That is the uncertainty of X, 
+
+267
+00:19:43,761 --> 00:19:44,770
+And that's just called a positive number, delta X squared
+
+268
+00:19:45,005 --> 00:19:50,595
+and the broader the distribution the larger it will be 
+
+269
+00:19:50,816 --> 00:19:55,444
+How do you calculate it if you know the wave function?
+
+270
+00:19:55,747 --> 00:20:02,407
+Very simply you take the integral of Psi star psi of x
+
+271
+00:20:02,605 --> 00:20:08,055
+That's the probability to find the particle at X, times X squared 
+
+272
+00:20:08,253 --> 00:20:12,475
+that's the expectation value of X squared 
+
+273
+00:20:12,659 --> 00:20:14,931
+That is the average of X squared
+
+274
+00:20:15,128 --> 00:20:18,912
+The probability to find the particle at position X times X squared 
+
+275
+00:20:19,137 --> 00:20:24,036
+that's the definition of the square of the uncertainty 
+
+276
+00:20:24,256 --> 00:20:26,506
+that's the square of the uncertainty of X 
+
+277
+00:20:26,726 --> 00:20:30,176
+What does it say? It's the definition but it's a good definition
+
+278
+00:20:37,616 --> 00:20:40,206
+Let me rewrite it up here,
+
+279
+00:20:41,729 --> 00:20:46,713
+Delta x and I will square it, is equal to the integral of psi star psi
+
+280
+00:20:47,770 --> 00:20:55,248
+Times X squared dx, alright now what about the uncertainty in momentum? 
+
+281
+00:20:55,424 --> 00:20:59,187
+the uncertainty in momentum is defined in a very similar way 
+
+282
+00:21:01,941 --> 00:21:12,835
+Oh, one other point, and this is equal to psi X squared psi
+
+283
+00:21:14,245 --> 00:21:19,659
+It's the expectation value in the state psi of x x squared, 
+
+284
+00:21:21,829 --> 00:21:24,038
+Thought of as a quantum mechanical
+
+285
+00:21:24,289 --> 00:21:25,703
+This is the quantum mechanical formula, 
+
+286
+00:21:25,893 --> 00:21:30,379
+the expectation value of X squared that's the uncertainty 
+
+287
+00:21:30,618 --> 00:21:33,260
+What about the uncertainty in momentum? 
+
+288
+00:21:33,540 --> 00:21:36,652
+In fact for that matter what about the uncertainty in anything? 
+
+289
+00:21:36,882 --> 00:21:41,781
+The uncertainty in anything assuming it's average is equal to zero 
+
+290
+00:21:41,984 --> 00:21:46,126
+is just the average of the square of that quantity 
+
+291
+00:21:46,319 --> 00:21:47,550
+that's the general definition 
+
+292
+00:21:47,741 --> 00:21:53,507
+Incidentally if you are if you don't want to shift the coordinates 
+
+293
+00:21:53,720 --> 00:21:55,659
+so that the average is equal to zero 
+
+294
+00:21:55,846 --> 00:22:02,013
+you can use another definition, and the other definition is that 
+
+295
+00:22:02,853 --> 00:22:07,146
+It's the expectation value of X squared minus 
+
+296
+00:22:07,346 --> 00:22:11,869
+the expectation value of x, squared
+
+297
+00:22:12,072 --> 00:22:16,447
+So two different things, the expectation value of the square of something 
+
+298
+00:22:16,652 --> 00:22:19,394
+is not the square of the expectation values
+
+299
+00:22:19,602 --> 00:22:24,482
+In particular, if the expectation value of X is equal to zero 
+
+300
+00:22:24,723 --> 00:22:28,004
+it does not follow the expectation of x square is equal to zero 
+
+301
+00:22:28,236 --> 00:22:36,267
+This is a more general definition of the square of the uncertainty in x
+
+302
+00:22:36,475 --> 00:22:41,878
+But as I said you can always shift your axes around 
+
+303
+00:22:42,068 --> 00:22:46,734
+so that this is equal to zero, I just choose this one here 
+
+304
+00:22:46,928 --> 00:22:52,028
+okay what about the expectation what about the uncertainty of momentum?
+
+305
+00:22:52,236 --> 00:22:55,869
+The uncertainty of momentum is defined in essentially the same way 
+
+306
+00:23:01,999 --> 00:23:06,775
+You can define it if you like using the Fourier transform the wave function 
+
+307
+00:23:06,973 --> 00:23:09,592
+and then it would just be, I'm not going to use this definition 
+
+308
+00:23:09,806 --> 00:23:17,302
+but let's just do it, delta p squared would be the integral psi twiddle of p
+
+309
+00:23:18,526 --> 00:23:23,385
+psi of p times P squared dP 
+
+310
+00:23:23,588 --> 00:23:27,417
+This would be the probability that the particle has momentum P 
+
+311
+00:23:27,681 --> 00:23:29,993
+times P squared integrate over p,
+
+312
+00:23:30,188 --> 00:23:33,614
+but I'm not going to do it this way 
+
+313
+00:23:33,815 --> 00:23:36,879
+What I'm gonna do is just observe this quantity over here 
+
+314
+00:23:37,074 --> 00:23:46,429
+has nothing but, psi p square psi 
+
+315
+00:23:47,829 --> 00:23:51,550
+And now I'm going to work in the position representation 
+
+316
+00:23:51,763 --> 00:23:54,958
+We can do that because we know what the operator p is
+
+317
+00:23:55,145 --> 00:23:59,194
+when it acts on a wave function psi of x,
+
+318
+00:23:59,405 --> 00:24:04,135
+what is P do? what does the operator P do 
+
+319
+00:24:04,323 --> 00:24:09,941
+when it acts on a wave function in the, in the X basis 
+
+320
+00:24:11,063 --> 00:24:15,816
+what it does, well first of all whenever you take expectation values 
+
+321
+00:24:16,048 --> 00:24:19,596
+or inner products, you will have a integral of dx to do 
+
+322
+00:24:22,408 --> 00:24:24,922
+From the bra vector here you would have psi star of x
+
+323
+00:24:25,111 --> 00:24:31,767
+The ket side of this is P squared time psi
+
+324
+00:24:31,956 --> 00:24:35,970
+What is p squared? P is minus i d by dx
+
+325
+00:24:37,204 --> 00:24:38,732
+I'm using that now, 
+
+326
+00:24:42,416 --> 00:24:47,716
+momentum operator p is minus i d by dx
+
+327
+00:24:47,947 --> 00:24:54,781
+And p square is just minus d second d by dX square, second derivative 
+
+328
+00:24:55,023 --> 00:24:56,253
+that's what a p square is,
+
+329
+00:24:56,439 --> 00:24:58,448
+twice with P once and then twice,
+
+330
+00:24:58,624 --> 00:25:14,828
+So, this is equal to the integral dx psi star of X, d second psi by d x squared 
+
+331
+00:25:15,086 --> 00:25:24,137
+with a minus sign, the minus sign coming from minus i times minus i
+
+332
+00:25:24,320 --> 00:25:27,604
+Hey, look at this and you worry a little bit 
+
+333
+00:25:29,222 --> 00:25:35,165
+There is a minus sign here, how can the uncertainty in P be negative?
+
+334
+00:25:35,393 --> 00:25:39,410
+What does it mean to have a negative uncertainty of P?
+
+335
+00:25:40,944 --> 00:25:45,187
+There is a minus sign here, what's going on? 
+
+336
+00:25:45,415 --> 00:25:49,994
+What's going on is that the integral here is negative 
+
+337
+00:25:50,189 --> 00:25:51,970
+That's all that is going on
+
+338
+00:25:52,167 --> 00:25:54,434
+How do you see that the integrals are negative?
+
+339
+00:25:54,700 --> 00:25:59,055
+You integrate by parts, so I will just remind you the rule for integrating by parts
+
+340
+00:25:59,275 --> 00:26:02,279
+is if you have, I'm gonna use this over and over 
+
+341
+00:26:03,448 --> 00:26:05,952
+Two functions F and G 
+
+342
+00:26:06,141 --> 00:26:13,037
+Then the integral F dG by dx is equal to 
+
+343
+00:26:13,037 --> 00:26:18,887
+minus the integral dF by dx, time G dx
+
+344
+00:26:20,745 --> 00:26:26,487
+This is true as long as F and G go to zero appropriately at infinity 
+
+345
+00:26:26,690 --> 00:26:32,099
+So that the boundary terms don't contribute to the integration by parts
+
+346
+00:26:33,243 --> 00:26:36,607
+Just look at the structure of it, I will use it over and over 
+
+347
+00:26:37,889 --> 00:26:40,838
+You can switch the derivative from one factor to the other factor 
+
+348
+00:26:41,124 --> 00:26:45,500
+at the cost of a minus sign, that's the, that's the basic rule
+
+349
+00:26:45,780 --> 00:26:49,896
+Okay so let's, this is a second derivative 
+
+350
+00:26:50,857 --> 00:26:54,453
+Second derivative is also of course a first derivative 
+
+351
+00:26:54,655 --> 00:26:56,991
+Namely it's the first derivative of the first derivative 
+
+352
+00:26:58,855 --> 00:27:00,279
+d psi by dx 
+
+353
+00:27:03,297 --> 00:27:06,802
+Let's do a integration by parts,
+
+354
+00:27:06,976 --> 00:27:13,250
+All we have to do is switch the d by dx to psi star and change the minus sign
+
+355
+00:27:13,493 --> 00:27:19,135
+Okay? So this becomes d X, put the dx over here,
+
+356
+00:27:20,368 --> 00:27:26,873
+the d by dx can switch to the psi star at the cost of a change of sign 
+
+357
+00:27:27,070 --> 00:27:33,493
+So this becomes plus and this becomes d psi star by dx
+
+358
+00:27:35,039 --> 00:27:39,067
+Now look what we have here, we have d psi by d X 
+
+359
+00:27:39,285 --> 00:27:40,949
+And we have d psi star by dx
+
+360
+00:27:41,143 --> 00:27:45,135
+This factor is the complex conjugate of this factor 
+
+361
+00:27:45,309 --> 00:27:47,352
+It is just complex conjugate of each other 
+
+362
+00:27:47,572 --> 00:27:51,278
+and what happens if you multiply a complex conjugate of a function 
+
+363
+00:27:51,457 --> 00:27:52,644
+by it's complex conjugate?
+
+364
+00:27:52,871 --> 00:27:56,357
+First of all it's real, and second of all it's positive 
+
+365
+00:27:56,556 --> 00:28:01,131
+So the integrand here is positive, the sign got changed
+
+366
+00:28:01,300 --> 00:28:05,064
+to plus, and this is most definitely a positive integral here 
+
+367
+00:28:05,321 --> 00:28:09,577
+so P squared, this is the expectation value of P squared 
+
+368
+00:28:13,950 --> 00:28:16,177
+>>Do we know that the average of P is zero?
+
+369
+00:28:20,726 --> 00:28:23,430
+We can always shift P until it's zero 
+
+370
+00:28:23,660 --> 00:28:24,958
+Now the real question is 
+
+371
+00:28:25,162 --> 00:28:28,281
+Can you have both the average of X and the average of P equal to zero? 
+
+372
+00:28:28,487 --> 00:28:31,265
+That's not so obvious, the answer is yes 
+
+373
+00:28:31,519 --> 00:28:38,357
+You can always, you can always shift for us to shift X equal to zero 
+
+374
+00:28:38,574 --> 00:28:40,110
+and then you can shift the p equal to zero 
+
+375
+00:28:41,393 --> 00:28:44,049
+There is a trick, you know I think of coming but 
+
+376
+00:28:44,261 --> 00:28:47,557
+let's come back to it, ask me again, I don't want to get off the track 
+
+377
+00:28:47,749 --> 00:28:56,290
+The answer is yes, you can take a wave function and shift it both in x and p
+
+378
+00:28:56,463 --> 00:28:58,801
+Until both of them have average equal to zero 
+
+379
+00:28:58,993 --> 00:29:00,730
+We will come back to it, I will explain to you why in a little while
+
+380
+00:29:00,920 --> 00:29:03,497
+But let's suppose we've done that
+
+381
+00:29:04,569 --> 00:29:13,851
+And let's see if we can find a relationship between the uncertainty in x
+
+382
+00:29:14,061 --> 00:29:16,842
+and the uncertainty, they are none in relationship
+
+383
+00:29:17,111 --> 00:29:20,271
+But it is supposed to call as a relationship in mathematics 
+
+384
+00:29:20,478 --> 00:29:23,889
+but a inequality is what I want, an inequality, 
+
+385
+00:29:23,890 --> 00:29:26,377
+the inequality should be such that
+
+386
+00:29:26,377 --> 00:29:29,095
+When delta x is small, delta p is big
+
+387
+00:29:29,270 --> 00:29:31,845
+delta p is small, delta x is big, or better yet
+
+388
+00:29:32,040 --> 00:29:36,877
+the product of delta X times Delta P cannot be smaller than what
+
+389
+00:29:37,063 --> 00:29:41,674
+Than h bar, now I've lost h bar in here 
+
+390
+00:29:41,884 --> 00:29:45,443
+Because I set it equal to one
+
+391
+00:29:45,657 --> 00:29:47,996
+We would put it back later, but if you want to put it in here 
+
+392
+00:29:48,193 --> 00:29:53,040
+Now we should probably put it in here as one of the h bar squared here 
+
+393
+00:29:53,254 --> 00:29:56,372
+The H bar squared here, and the H bar squared here 
+
+394
+00:29:56,585 --> 00:29:59,870
+but let's not, do I have the right place? yes I do 
+
+395
+00:30:01,135 --> 00:30:03,632
+But let's work with h bar equal to one and later on 
+
+396
+00:30:03,876 --> 00:30:06,859
+when we are finish I will put back the dimensional quantities 
+
+397
+00:30:07,059 --> 00:30:08,732
+Okay so here we are, 
+
+398
+00:30:11,543 --> 00:30:17,227
+What tools that we have to construct inequalities?
+
+399
+00:30:17,470 --> 00:30:21,352
+It's basically one of the zillion inequalities in mathematics 
+
+400
+00:30:21,548 --> 00:30:24,874
+but probably the most famous and most useful 
+
+401
+00:30:25,080 --> 00:30:29,209
+and the only one I know it's a particular useful is the triangle inequality 
+
+402
+00:30:31,679 --> 00:30:32,969
+Everybody know the triangle inequality?
+
+403
+00:30:34,546 --> 00:30:36,147
+Some people do, some people don't 
+
+404
+00:30:36,347 --> 00:30:40,430
+So I will tell it to you, and it comes in two forms 
+
+405
+00:30:41,654 --> 00:30:44,370
+It's a statement about triangles of all things
+
+406
+00:30:44,575 --> 00:30:48,317
+What it says is if you have a triangle 
+
+407
+00:30:48,317 --> 00:30:52,623
+that the sum of any two sides is bigger than the third side, 
+
+408
+00:30:52,832 --> 00:30:56,548
+Obviously true right? The sum of this side and this side, 
+
+409
+00:30:56,801 --> 00:30:57,878
+Why is that? 
+
+410
+00:30:58,054 --> 00:31:01,192
+Because the shortest distance between any two points is the straight line
+
+411
+00:31:01,435 --> 00:31:04,754
+So the shortest distance between these two points is this one 
+
+412
+00:31:04,951 --> 00:31:08,661
+Any other two sides or sum of the two sides is certainly bigger 
+
+413
+00:31:08,879 --> 00:31:16,936
+So if we have three sides, there is also another version of it 
+
+414
+00:31:18,026 --> 00:31:21,307
+Tell you what I think I'll prove the other version, 
+
+415
+00:31:21,307 --> 00:31:22,703
+but you know the other version pretty well
+
+416
+00:31:22,900 --> 00:31:27,207
+Also let's call this one A, let's call this one B, let's call this one C 
+
+417
+00:31:28,438 --> 00:31:41,029
+Okay so A+ B is bigger than C, 
+
+418
+00:31:42,742 --> 00:31:49,213
+or A+B is bigger than C
+
+419
+00:31:52,146 --> 00:31:56,341
+|A|+|B| is also by the same argument it is the same thing 
+
+420
+00:31:56,581 --> 00:32:02,971
+is bigger than |A+B|, if these are vectors, think of these as vectors 
+
+421
+00:32:03,189 --> 00:32:07,821
+Here's a vector A, here's a vector B
+
+422
+00:32:15,029 --> 00:32:18,678
+C is not A+B , it's A minus B in this case
+
+423
+00:32:19,682 --> 00:32:26,268
+I think I want it this way, A B C 
+
+424
+00:32:26,557 --> 00:32:33,433
+Okay still a triangle, A+B is bigger than C which is the same as saying
+
+425
+00:32:33,615 --> 00:32:39,848
+It's bigger than A+B, let's square it, let's square it
+
+426
+00:32:40,019 --> 00:32:44,461
+and this becomes A square, square the side of A, plus B square,
+
+427
+00:32:47,439 --> 00:32:57,695
+plus twice |A|, |B| is bigger than this guy over here
+
+428
+00:32:57,951 --> 00:33:01,087
+What's the square of A plus B?
+
+429
+00:33:01,296 --> 00:33:14,995
+It is A squared plus B squared plus twice the dot product of A B
+
+430
+00:33:16,468 --> 00:33:18,509
+where did they get that from? 
+
+431
+00:33:18,717 --> 00:33:28,741
+I wrote that A+B squared is just A+B dot A+B 
+
+432
+00:33:32,599 --> 00:33:35,511
+That's the square of the length of a vector and 
+
+433
+00:33:35,702 --> 00:33:41,842
+that's A squared plus B squared, plus twice the dot product of A and B 
+
+434
+00:33:43,126 --> 00:33:46,534
+and so we have now an inequality from which 
+
+435
+00:33:46,740 --> 00:33:50,183
+we can erase A square and B square from both sides
+
+436
+00:33:54,686 --> 00:33:57,430
+Here's another form of triangle inequality
+
+437
+00:33:59,422 --> 00:34:07,650
+Let's erase the two-s, what it says is if you have any two vectors 
+
+438
+00:34:08,632 --> 00:34:12,784
+Given any two vectors, here's one vector, here's another one A B 
+
+439
+00:34:14,024 --> 00:34:21,674
+That the product of the set, 
+
+440
+00:34:21,853 --> 00:34:24,058
+the length of one of them times the length of the other 
+
+441
+00:34:24,264 --> 00:34:27,314
+is always bigger than, these two disappears
+
+442
+00:34:27,521 --> 00:34:29,632
+It is bigger than the dot product 
+
+443
+00:34:32,579 --> 00:34:34,277
+There is another way to think about that 
+
+444
+00:34:37,025 --> 00:34:41,492
+What was the dot product in terms of length of A and length of B 
+
+445
+00:34:41,712 --> 00:34:42,622
+and something else
+
+446
+00:34:42,835 --> 00:34:44,653
+What else do I need to know to calculate the dot product?
+
+447
+00:34:44,838 --> 00:34:49,702
+Cosine of the angle, so A dot B is of course nothing but 
+
+448
+00:34:50,926 --> 00:34:55,437
+A B cosine of the angle 
+
+449
+00:34:55,673 --> 00:34:58,239
+Cosine of an angle is always less than one 
+
+450
+00:34:59,511 --> 00:35:03,507
+So the triangle inequality is pretty trivial, 
+
+451
+00:35:03,708 --> 00:35:09,263
+It simply says that the magnitude product of the magnitude of two vectors 
+
+452
+00:35:09,477 --> 00:35:12,382
+is always bigger than the dot product between them 
+
+453
+00:35:12,586 --> 00:35:15,690
+because the dot product always has a cosine 
+
+454
+00:35:15,858 --> 00:35:19,610
+Now this is true for vectors in two dimensions, three dimensions
+
+455
+00:35:19,898 --> 00:35:25,595
+100 zillion dimensions, it is even true for vectors in complex vector spaces 
+
+456
+00:35:26,024 --> 00:35:31,406
+It's just generally true for vectors in any kind of vector space 
+
+457
+00:35:31,649 --> 00:35:38,722
+that magnitude defined as the square root of the inner product 
+
+458
+00:35:38,883 --> 00:35:42,821
+of the vector with itself, that this inequality is true in fact 
+
+459
+00:35:44,077 --> 00:35:51,877
+Let's write this a copy, and let's square it because 
+
+460
+00:35:52,145 --> 00:35:56,257
+We are gonna use the square form, A square, B squared is greater than 
+
+461
+00:35:56,508 --> 00:36:05,483
+A dot B square, I just squared the, I might have done anything .. 
+
+462
+00:36:05,690 --> 00:36:08,667
+That's the inequality that we are gonna use
+
+463
+00:36:14,582 --> 00:36:17,387
+Yes it should be greater than or equal to, the only time it is equal 
+
+464
+00:36:17,613 --> 00:36:20,428
+is when A and B are on the same direction 
+
+465
+00:36:20,662 --> 00:36:23,691
+That's right, greater than or equal to 
+
+466
+00:36:25,147 --> 00:36:28,078
+Cosine theta is equal to, it's equal to one
+
+467
+00:36:29,467 --> 00:36:35,948
+That's going to be our, other trick, so I don't think I need this anymore 
+
+468
+00:36:36,179 --> 00:36:38,896
+We will come back to it, yeah we will
+
+469
+00:37:08,117 --> 00:37:12,875
+In a look it looks promising we have a Delta X squared here 
+
+470
+00:37:13,105 --> 00:37:17,954
+Sort of like A squared, we have a Delta P squared here sort of like B squared 
+
+471
+00:37:18,154 --> 00:37:20,834
+And we want to show that it's bigger than something 
+
+472
+00:37:21,040 --> 00:37:29,763
+So the trick is to define the right A-s and B-s in terms of psi and x and so forth
+
+473
+00:37:30,109 --> 00:37:31,683
+and then just use the theorem, 
+
+474
+00:37:31,882 --> 00:37:34,381
+but I'm going to make one simplifying assumption 
+
+475
+00:37:34,590 --> 00:37:36,845
+I've already made two simplifying assumptions 
+
+476
+00:37:37,023 --> 00:37:40,084
+that the expectation value of X and P are zero 
+
+477
+00:37:40,294 --> 00:37:43,020
+that I will show you how to arrange 
+
+478
+00:37:43,263 --> 00:37:45,380
+And that is, there is no trickery here, 
+
+479
+00:37:45,577 --> 00:37:49,205
+The simplifying assumption I'm going to make only because 
+
+480
+00:37:49,405 --> 00:37:52,537
+I don't want to fill up the blackboard with more algebra than I need 
+
+481
+00:37:52,742 --> 00:37:56,621
+Than necessary, this is something you can sit down with 
+
+482
+00:37:56,825 --> 00:37:59,643
+And go through it for the more general case 
+
+483
+00:37:59,849 --> 00:38:04,059
+I'm going to assume that the wave function psi of X is real 
+
+484
+00:38:04,277 --> 00:38:09,731
+if I didn't, we'd be chasing around psi-s and psi stars and 
+
+485
+00:38:09,975 --> 00:38:13,899
+I would eventually tire you out and you would probably 
+
+486
+00:38:14,117 --> 00:38:16,171
+lose the thread of the argument 
+
+487
+00:38:16,389 --> 00:38:18,853
+so I'm going to assume that psi is real 
+
+488
+00:38:19,159 --> 00:38:23,325
+It will save us some algebra it's not general 
+
+489
+00:38:23,571 --> 00:38:27,268
+but it's very easy to fill in the steps for complex psi
+
+490
+00:38:27,470 --> 00:38:29,477
+Easy but it takes a few more lines 
+
+491
+00:38:29,716 --> 00:38:34,831
+and I just I just after sitting down and doing it on a piece of paper 
+
+492
+00:38:35,040 --> 00:38:38,830
+I just decided it was too much for a blackboard presentations to do 
+
+493
+00:38:39,027 --> 00:38:42,167
+that if you do it for the simple case, so psi is real 
+
+494
+00:38:43,642 --> 00:38:47,065
+Okay so here we are, we can get rid of the psi stars
+
+495
+00:38:51,556 --> 00:38:53,780
+and I think I lost in the equation here 
+
+496
+00:38:54,996 --> 00:39:01,006
+Using the fact that P is minus i d by dx, we proved that 
+
+497
+00:39:01,235 --> 00:39:08,370
+this is equal to integral d psi star by dx, d psi by dx,
+
+498
+00:39:09,554 --> 00:39:12,729
+We should mind you, just quickly remind you how we did it 
+
+499
+00:39:12,956 --> 00:39:17,126
+P squared was a second derivative, well minus second derivative 
+
+500
+00:39:17,341 --> 00:39:18,823
+And then we do integration by parts 
+
+501
+00:39:19,057 --> 00:39:22,419
+Take one of the derivatives and put it over here
+
+502
+00:39:24,479 --> 00:39:27,462
+What we are trying to prove is the product of this times this 
+
+503
+00:39:27,686 --> 00:39:32,462
+is bigger than something, product of this times this is bigger than something
+
+504
+00:39:33,592 --> 00:39:39,345
+okay and to do so, is just, think of A and B as vectors, 
+
+505
+00:39:39,608 --> 00:39:43,068
+in fact you can think of A and B as either bra vectors and ket vectors
+
+506
+00:39:43,293 --> 00:39:47,529
+Since psi is real, it doesn't matter whether they are bra vectors or ket vectors
+
+507
+00:39:47,529 --> 00:39:51,193
+But here is what it gonna be, one vector A,
+
+508
+00:39:51,400 --> 00:39:56,506
+I'm writing them now in vector in the bra-ket notation
+
+509
+00:39:56,731 --> 00:40:00,566
+The triangle inequality is perfectly true for bras kets 
+
+510
+00:40:00,771 --> 00:40:02,706
+as well as for ordinary vectors
+
+511
+00:40:03,843 --> 00:40:07,827
+Alright so the vector A is going to be describe 
+
+512
+00:40:08,016 --> 00:40:15,248
+It is going to be the vector whose wave function is not psi of x, but x psi of x
+
+513
+00:40:16,410 --> 00:40:21,117
+A is the vector whose wave function is x psi,
+
+514
+00:40:21,353 --> 00:40:24,824
+That's another words it's x, operating on psi
+
+515
+00:40:25,038 --> 00:40:37,145
+And B is going to be the vector P times Psi, or basically minus i 
+
+516
+00:40:37,833 --> 00:40:46,278
+d psi by d x, when I write equals here I mean to say that 
+
+517
+00:40:46,594 --> 00:40:49,440
+A is a vector whose wave function x psi of x, 
+
+518
+00:40:49,756 --> 00:40:52,900
+B is a vector whose wave function i d psi by dx 
+
+519
+00:40:53,213 --> 00:40:55,689
+We are gonna apply the triangle inequality to that
+
+520
+00:40:57,316 --> 00:41:07,608
+Okay, notice that with this definition here delta x squared 
+
+521
+00:41:08,171 --> 00:41:14,222
+is a squared, look at it, the inner product of A with itself 
+
+522
+00:41:14,590 --> 00:41:21,548
+A squared is just the integral of psi star psi times x square 
+
+523
+00:41:21,833 --> 00:41:31,376
+So this is here A square, with this notation 
+
+524
+00:41:31,719 --> 00:41:37,753
+What about this one? This one here is essentially
+
+525
+00:41:44,358 --> 00:41:50,151
+B squared, inner product of B with itself 
+
+526
+00:41:50,527 --> 00:41:57,449
+How come I don't have a, I have a minus i d by dx here 
+
+527
+00:41:57,766 --> 00:42:03,764
+If I put minus i d by dx over here, I have a minus sign times minus sign
+
+528
+00:42:04,107 --> 00:42:06,259
+which is minus one, How come I don't get, 
+
+529
+00:42:06,260 --> 00:42:08,360
+how come I have a plus one and minus one?
+
+530
+00:42:08,673 --> 00:42:12,845
+Complex conjugation, so this is B squared, that's A squared 
+
+531
+00:42:13,130 --> 00:42:19,871
+And A square times B squared is this, it is also delta x squared 
+
+532
+00:42:20,267 --> 00:42:25,005
+times delta p squared, so delta x squared, delta p squared 
+
+533
+00:42:25,264 --> 00:42:31,433
+A squared B squared, the triangle inequality is literally talking about 
+
+534
+00:42:31,766 --> 00:42:33,653
+delta x squared, delta p squared 
+
+535
+00:42:33,908 --> 00:42:36,861
+So now let's look at the other side of the inequality here 
+
+536
+00:42:37,152 --> 00:42:41,895
+The other side of the inequality is A dot B square
+
+537
+00:42:42,256 --> 00:42:47,219
+So let's compute A dot B, it's the inner product of these two vectors 
+
+538
+00:42:47,555 --> 00:42:51,326
+and then we squared it, we take the absolute value and square it 
+
+539
+00:42:51,712 --> 00:42:55,879
+Because we take the absolute value I don't have to keep track of i-s minus i-s
+
+540
+00:42:56,187 --> 00:43:00,333
+In the end they will all go away, because they take the absolute value 
+
+541
+00:43:00,599 --> 00:43:04,345
+And so the inner product of A dot B is going to be equal
+
+542
+00:43:04,693 --> 00:43:09,073
+It is going to have an integral, oh, one thing
+
+543
+00:43:09,359 --> 00:43:12,534
+I did say that I'm going to choose psi to be real 
+
+544
+00:43:12,975 --> 00:43:16,100
+So all of these psi stars don't matter they just psi
+
+545
+00:43:16,461 --> 00:43:19,595
+Everyplace there is a psi star, you can think of it as psi
+
+546
+00:43:19,947 --> 00:43:28,498
+Okay so let's take A dot B squared that's going to be A which is psi of x, x
+
+547
+00:43:28,789 --> 00:43:31,622
+x is written as this in the opposite order
+
+548
+00:43:31,920 --> 00:43:35,928
+And then times B which is going to d psi by dx
+
+549
+00:43:38,784 --> 00:43:42,855
+As I said I'm not worried about psi-s or i-s
+
+550
+00:43:43,178 --> 00:43:47,561
+For the simple reason that in the end I'm going to take the absolute value 
+
+551
+00:43:47,925 --> 00:43:51,415
+So that doesn't play any, that will play no role 
+
+552
+00:43:53,275 --> 00:43:58,728
+And let's look at this quantity, now we have A dot B squared 
+
+553
+00:43:59,046 --> 00:44:02,681
+So I can multiply this by itself, if I want to multiply it by itself 
+
+554
+00:44:03,011 --> 00:44:06,623
+I can multiply it by another integral of the same type 
+
+555
+00:44:06,942 --> 00:44:14,874
+y d psi by dy, this is d x, this is dy,
+
+556
+00:44:15,189 --> 00:44:17,576
+What I'm doing is writing the same thing twice 
+
+557
+00:44:17,882 --> 00:44:23,598
+So if I can evaluate this I'm also evaluating this 
+
+558
+00:44:23,934 --> 00:44:34,174
+Okay so here's the trick, the trick is to say d psi by dx times psi
+
+559
+00:44:34,482 --> 00:44:37,483
+Does that ring a bell to you? d psi by dx time psi?
+
+560
+00:44:37,786 --> 00:44:40,618
+>>
+
+561
+00:44:40,931 --> 00:44:43,589
+No no no, not the derivative law, in the derivative law 
+
+562
+00:44:43,922 --> 00:44:47,602
+It was in the denominator, you are on the right track though 
+
+563
+00:44:47,913 --> 00:44:51,763
+It's the derivative of the square of psi, 
+
+564
+00:44:52,059 --> 00:44:55,180
+It's one half the derivative of the square of psi
+
+565
+00:44:55,478 --> 00:45:04,773
+Derivative of the square of psi is equal to twice psi d psi by dx
+
+566
+00:45:06,814 --> 00:45:09,884
+So apart from the fact that there are a two 
+
+567
+00:45:12,795 --> 00:45:20,926
+What we have here is x times the derivative of psi squared with respect to x 
+
+568
+00:45:21,254 --> 00:45:23,327
+Everybody see that? You are allow to if you don't
+
+569
+00:45:23,715 --> 00:45:28,820
+Okay, I can remove this psi here and replace this by psi square
+
+570
+00:45:29,209 --> 00:45:34,280
+And at the same time put a factor of two, one half,
+
+571
+00:45:36,374 --> 00:45:39,111
+That give the same thing with the other factor 
+
+572
+00:45:41,124 --> 00:45:49,959
+Same thing here, psi squared, by another factor of two 
+
+573
+00:45:50,314 --> 00:45:52,154
+which makes all together a factor of a quarter
+
+574
+00:45:53,756 --> 00:45:59,033
+And as I said this is, I don't know why I'm doing it
+
+575
+00:45:59,281 --> 00:46:01,283
+but these are just y square, 
+
+576
+00:46:01,683 --> 00:46:04,372
+but it's a square by writing the same thing down again 
+
+577
+00:46:04,804 --> 00:46:14,647
+Okay next, integration by parts, you have a derivative here 
+
+578
+00:46:14,990 --> 00:46:17,234
+It's a derivative of psi square, but still just a derivative 
+
+579
+00:46:17,531 --> 00:46:23,734
+and when you have a function times a derivative to be integrated 
+
+580
+00:46:24,027 --> 00:46:27,557
+you can switch the derivative to the other function 
+
+581
+00:46:27,925 --> 00:46:32,381
+At the cost of a sign, but really it has no cost of the sign 
+
+582
+00:46:32,709 --> 00:46:34,776
+Because this is another sign from this one over here 
+
+583
+00:46:35,081 --> 00:46:43,667
+So there is no real cost in sign, besides we're taking the absolute value 
+
+584
+00:46:43,667 --> 00:46:49,466
+So this is equal to integral of psi squared 
+
+585
+00:46:49,847 --> 00:46:59,894
+times d x by dx, and likewise overhere integral psi squared dy by dy 
+
+586
+00:47:01,801 --> 00:47:05,590
+dx by dx, that's familiar, that is just one 
+
+587
+00:47:13,233 --> 00:47:14,860
+And this is just squaring the same thing again 
+
+588
+00:47:17,695 --> 00:47:23,964
+We are finished, we are finished because what is this integral of one quarter?
+
+589
+00:47:24,277 --> 00:47:27,108
+Forget the quarter, what's the integral of psi squared?
+
+590
+00:47:27,412 --> 00:47:29,501
+Psi square is psi star psi, if psi is real
+
+591
+00:47:29,863 --> 00:47:32,528
+Psi star psi is the same as psi square
+
+592
+00:47:32,857 --> 00:47:35,578
+What's the integral of psi squared? one 
+
+593
+00:47:35,969 --> 00:47:39,870
+It is the integral of the probability of all space 
+
+594
+00:47:40,173 --> 00:47:45,937
+So each of these integrals is one if the wave function is normalized 
+
+595
+00:47:46,307 --> 00:47:48,872
+We assume that the wave function is normalized 
+
+596
+00:47:49,301 --> 00:47:51,319
+We assume the state vector is normalized 
+
+597
+00:47:51,598 --> 00:47:53,847
+This whole thing is just one quarter 
+
+598
+00:47:54,136 --> 00:48:00,933
+And we have proved now the uncertainty principle from the triangle inequality
+
+599
+00:48:03,120 --> 00:48:12,674
+That delta x squared times delta p squared is bigger than one quarter
+
+600
+00:48:17,156 --> 00:48:21,268
+One quarter I remind you came from two factors like this 
+
+601
+00:48:21,570 --> 00:48:26,025
+Or if we wish to just we can just write this is
+
+602
+00:48:26,356 --> 00:48:28,389
+We just take the square root of both sides 
+
+603
+00:48:28,687 --> 00:48:32,995
+Delta x, delta p is bigger than one half, 
+
+604
+00:48:37,273 --> 00:48:39,571
+Now what about units? 
+
+605
+00:48:39,936 --> 00:48:44,016
+x and p are not inverse to each other 
+
+606
+00:48:44,307 --> 00:48:48,361
+so the product of an x and the p can't be a pure number 
+
+607
+00:48:48,643 --> 00:48:53,397
+What is inverse to an x is a p over h bar,
+
+608
+00:48:55,281 --> 00:49:02,627
+So really this is delta p over h bar if I put back the units 
+
+609
+00:49:02,963 --> 00:49:06,581
+Or basically delta x delta p is bigger than a half h bar 
+
+610
+00:49:10,292 --> 00:49:18,360
+That's, this is the theorem that asserts the uncertainty principle
+
+611
+00:49:21,350 --> 00:49:24,639
+That's the uncertainty in position times the uncertainty momentum 
+
+612
+00:49:24,954 --> 00:49:26,745
+is bigger than h bar 
+
+613
+00:49:27,077 --> 00:49:29,826
+Now this would be true for any direction in space
+
+614
+00:49:30,138 --> 00:49:37,181
+Pick any direction in space, take or any particle any coordinate 
+
+615
+00:49:37,512 --> 00:49:39,869
+Any generalized coordinate in mechanics 
+
+616
+00:49:40,169 --> 00:49:43,815
+It's uncertainty times the uncertainty and 
+
+617
+00:49:44,114 --> 00:49:47,163
+the corresponding conjugate momentum is bigger than h bar 
+
+618
+00:49:47,520 --> 00:49:52,328
+So that's a bigger than h bar or over two as a matter of fact
+
+619
+00:49:52,618 --> 00:49:56,419
+Any questions about the uncertain about this particular version
+
+620
+00:49:56,714 --> 00:49:57,865
+of the uncertainty principal?
+
+621
+00:49:58,153 --> 00:50:00,009
+>>Yeah, another term, 
+
+622
+00:50:00,285 --> 00:50:02,643
+>> zero, right? 
+
+623
+00:50:05,681 --> 00:50:11,486
+>>after it times a variable B, it's integral of F time G minus derivative
+
+624
+00:50:11,768 --> 00:50:14,674
+>>the opposite derivative
+
+625
+00:50:24,311 --> 00:50:27,696
+Let's call it F prime G plus G prime F
+
+626
+00:50:31,550 --> 00:50:35,395
+Now if you integrate this equation right this
+
+627
+00:50:35,701 --> 00:50:40,912
+If you integrate this equation, this is the integral of F times G
+
+628
+00:50:41,202 --> 00:50:49,106
+Plus the integral of G times F is equal to the integral d by dx F G
+
+629
+00:50:49,413 --> 00:50:54,753
+But the integral of a derivative is just the difference between 
+
+630
+00:50:55,192 --> 00:50:57,994
+the integrand at the two end point of integration 
+
+631
+00:50:58,411 --> 00:51:07,903
+So this is FG between the two end points infinity and minus infinity
+
+632
+00:51:08,446 --> 00:51:11,981
+The symbol stands for FG evaluated at infinity minus 
+
+633
+00:51:12,264 --> 00:51:14,393
+FG evaluated in the other end of integration 
+
+634
+00:51:14,715 --> 00:51:21,938
+And what I am assuming is that psi goes to zero at infinity 
+
+635
+00:51:22,245 --> 00:51:24,995
+which would have to do if it is normalized 
+
+636
+00:51:25,302 --> 00:51:28,938
+If it is a integral as finite, the probability distributions is normalized 
+
+637
+00:51:29,237 --> 00:51:34,051
+It means that the wave function has to go to zero, so this is zero 
+
+638
+00:51:35,844 --> 00:51:38,918
+So this is just a rule that you can interchange 
+
+639
+00:51:39,257 --> 00:51:41,884
+where you put the derivative at the cost of a sign 
+
+640
+00:51:47,577 --> 00:51:50,645
+Okay, any other question about the uncertainty principle? 
+
+641
+00:51:53,223 --> 00:51:58,979
+>> and see I don't know if some small point in the
+
+642
+00:52:01,140 --> 00:52:03,999
+No it's not small point, 
+
+643
+00:52:04,265 --> 00:52:08,629
+when you prove that something is bigger than something else 
+
+644
+00:52:08,964 --> 00:52:12,643
+You can then ask a question can it ever be equal to that something else?
+
+645
+00:52:13,002 --> 00:52:15,102
+The answer may or may not 
+
+646
+00:52:15,392 --> 00:52:17,427
+You know, you may have prove the inequality 
+
+647
+00:52:17,721 --> 00:52:19,991
+which was not the tightest inequality we could have proved
+
+648
+00:52:20,319 --> 00:52:28,036
+Could have been somebody come along smarter and proved
+
+649
+00:52:28,332 --> 00:52:33,002
+A tighter inequality that's got a be bigger than something else
+
+650
+00:52:33,289 --> 00:52:36,195
+A stronger inequality, in this case it is not true 
+
+651
+00:52:36,517 --> 00:52:41,976
+You can't find wave functions for which delta x delta p is equal to h bar over two
+
+652
+00:52:42,312 --> 00:52:45,318
+So that co-minimal uncertainty wave packs
+
+653
+00:52:45,627 --> 00:52:48,397
+So it's really, it's not a nontrivial one
+
+654
+00:52:48,681 --> 00:52:52,040
+>> It doesn't apply to time and energy?
+
+655
+00:52:52,040 --> 00:53:01,028
+Well yes, it does, but the circumstances under which you use it 
+
+656
+00:53:01,388 --> 00:53:04,453
+are less clear and I don't really have time to explain now, 
+
+657
+00:53:04,804 --> 00:53:08,539
+at some point in these courses we will probably want to think about it 
+
+658
+00:53:08,880 --> 00:53:13,570
+but do remember that the time dependence of wave function 
+
+659
+00:53:13,888 --> 00:53:17,705
+The time dependence of a wave function psi of t is a function of time 
+
+660
+00:53:19,432 --> 00:53:23,502
+It is a sum over the eigenvectors of the energy,
+
+661
+00:53:23,796 --> 00:53:37,258
+Let's call it sum over all the energy eigenvectors of e to the minus i Et
+
+662
+00:53:37,604 --> 00:53:45,129
+That's time, times the energy eigenvector times a, times a function let's call it
+
+663
+00:53:45,442 --> 00:53:48,056
+Let's call it Phi of E,
+
+664
+00:53:48,395 --> 00:53:52,758
+So the relationship between the wave function as a function of time 
+
+665
+00:53:52,758 --> 00:53:56,750
+and the wave function as a function of energy is once again 
+
+666
+00:53:57,257 --> 00:54:00,751
+you sum up things, energy with phases like this 
+
+667
+00:54:01,092 --> 00:54:04,695
+to get things as a function of time, that's the Fourier transform relationship 
+
+668
+00:54:05,013 --> 00:54:12,485
+So it's, but exactly how you use it is, I'll give you an example of how you use it 
+
+669
+00:54:12,796 --> 00:54:15,511
+If you have some wave function moving past you
+
+670
+00:54:16,070 --> 00:54:20,435
+Moving past you and you ask how long does it take 
+
+671
+00:54:20,711 --> 00:54:23,895
+for the wave function to actually pass you 
+
+672
+00:54:24,233 --> 00:54:26,808
+and this could be a light beam incidentally
+
+673
+00:54:27,053 --> 00:54:30,632
+but how long does it take for the wave function to move past you?
+
+674
+00:54:32,437 --> 00:54:37,346
+Another words what's the uncertainty in the time in which the wave function 
+
+675
+00:54:37,637 --> 00:54:40,335
+might have maximum, maximum, 
+
+676
+00:54:40,810 --> 00:54:43,670
+how long does it take the maximum to get past you
+
+677
+00:54:44,525 --> 00:54:47,227
+that you can call delta t uncertainty in time 
+
+678
+00:54:47,552 --> 00:54:50,122
+that the wave function arrived right at your nose 
+
+679
+00:54:50,419 --> 00:54:54,190
+It's related to the uncertainty in the energy of the wave function 
+
+680
+00:54:54,548 --> 00:55:00,112
+the bigger the uncertainty in the energy, well, let's say it in the other way
+
+681
+00:55:00,449 --> 00:55:02,667
+The smaller the uncertainty in the energy, 
+
+682
+00:55:02,977 --> 00:55:07,846
+the bigger the uncertainty in when that wave packet will pass you for example
+
+683
+00:55:08,161 --> 00:55:10,860
+For example that's the energy time uncertainty relation 
+
+684
+00:55:11,169 --> 00:55:19,005
+So any pair of things which are related by Fourier expansion 
+
+685
+00:55:19,335 --> 00:55:23,487
+and this is a Fourier expansions, writing phi of t as a sum or an integral 
+
+686
+00:55:23,782 --> 00:55:29,201
+over oscillations, any two things which are related in that fashion 
+
+687
+00:55:29,531 --> 00:55:31,990
+will have the uncertainty principle 
+
+688
+00:55:31,990 --> 00:55:33,955
+There are lots of other conjugate pairs like this 
+
+689
+00:55:34,628 --> 00:55:43,278
+The angle of, supposing you have a rigid body rotating about a point
+
+690
+00:55:43,621 --> 00:55:48,345
+Where the angle theta characterizing its position, 
+
+691
+00:55:50,911 --> 00:55:53,112
+then the angle theta and the angular momentum 
+
+692
+00:55:53,447 --> 00:55:55,878
+are exactly in the same kind of relationship 
+
+693
+00:55:56,238 --> 00:55:59,813
+Uncertainty in angle times uncertainty in angular momentum 
+
+694
+00:56:00,061 --> 00:56:02,548
+This is also has h bar over two also
+
+695
+00:56:05,047 --> 00:56:07,323
+So very similar kinds of things 
+
+696
+00:56:08,926 --> 00:56:10,741
+Any other kinds of questions?
+
+697
+00:56:19,858 --> 00:56:21,907
+Let's turn to the Schrodinger equation 
+
+698
+00:56:32,043 --> 00:56:35,599
+The Schrodinger equation is a equation for the way 
+
+699
+00:56:35,902 --> 00:56:37,368
+wave function changes with time 
+
+700
+00:56:46,051 --> 00:56:50,695
+It also governs the way expectation values, 
+
+701
+00:56:51,013 --> 00:56:53,545
+if you know how the wave function changes with time 
+
+702
+00:56:53,868 --> 00:56:58,454
+Then you can try to do how the expectation values of observables 
+
+703
+00:56:58,454 --> 00:56:59,135
+change with time 
+
+704
+00:56:59,504 --> 00:57:03,474
+One of the things we would like to do is to see the relationship 
+
+705
+00:57:03,792 --> 00:57:10,497
+between the motion of wave packets governed by the Schrodinger equation 
+
+706
+00:57:10,827 --> 00:57:15,155
+and their classical counterparts namely the motion of systems 
+
+707
+00:57:15,549 --> 00:57:18,166
+Systems in this case being the particle 
+
+708
+00:57:18,507 --> 00:57:23,849
+We would like to see that as long as the wave packet is narrow 
+
+709
+00:57:24,144 --> 00:57:29,631
+and not to crazily spread out and not, you know it has a nice bell shaped curve
+
+710
+00:57:29,948 --> 00:57:34,508
+And stays a bell shaped curve for some length of time 
+
+711
+00:57:34,798 --> 00:57:40,665
+That the wave functional center of the wave function moves in a way 
+
+712
+00:57:41,049 --> 00:57:43,716
+which is familiar from classical mechanics 
+
+713
+00:57:44,011 --> 00:57:48,916
+We need to be able to do that make any relationship between the classical 
+
+714
+00:57:49,194 --> 00:57:51,875
+and the quantum mechanical things we've been talking about 
+
+715
+00:57:52,152 --> 00:57:59,744
+Okay now we talked about this, I'm gonna, let's, let's first write the
+
+716
+00:58:00,070 --> 00:58:05,229
+general Schrodinger equation, I'm gonna take you back a couple of lectures now
+
+717
+00:58:05,547 --> 00:58:07,370
+Take you back a couple of lectures 
+
+718
+00:58:07,700 --> 00:58:14,387
+and go through the derivation of how a wave packet moves 
+
+719
+00:58:16,012 --> 00:58:18,826
+The answer is the wave packet moves 
+
+720
+00:58:19,172 --> 00:58:22,795
+so the center satisfies a classical equations of motion 
+
+721
+00:58:24,533 --> 00:58:27,437
+I'm not going to do that in a new way 
+
+722
+00:58:27,758 --> 00:58:30,990
+I'm gonna go right back to the old way that we've already talked about 
+
+723
+00:58:34,882 --> 00:58:37,862
+and to do that, refresh the wall in order to know how the wave function changes
+
+724
+00:58:38,459 --> 00:58:39,989
+We need to know the Hamiltonian
+
+725
+00:58:40,279 --> 00:58:43,598
+And let's just remind ourselves how it works 
+
+726
+00:58:43,914 --> 00:58:53,478
+The way state vectors change with time 
+
+727
+00:58:55,085 --> 00:59:00,548
+i d psi dt is governed by the Hamiltonian acting on psi
+
+728
+00:59:02,265 --> 00:59:05,860
+If we let it take for our Hamiltonian 
+
+729
+00:59:08,592 --> 00:59:14,951
+P squared over two m, that's the Hamiltonian for classical particle 
+
+730
+00:59:15,229 --> 00:59:17,752
+Why we should take it for a quantum mechanical particles 
+
+731
+00:59:18,035 --> 00:59:22,145
+It's not obvious, and what might we add to that to put some 
+
+732
+00:59:22,464 --> 00:59:24,846
+To put the particle in a force field
+
+733
+00:59:25,191 --> 00:59:27,647
+We might add a potential energy function 
+
+734
+00:59:28,140 --> 00:59:31,316
+Potential energy function might be plus V of x,
+
+735
+00:59:32,974 --> 00:59:37,303
+Okay so that would be the classical Hamiltonian for particle 
+
+736
+00:59:37,627 --> 00:59:40,172
+moving in a potential energy function V of x
+
+737
+00:59:40,475 --> 00:59:44,948
+and we can take that we can lift that right from classical mechanics 
+
+738
+00:59:45,320 --> 00:59:47,651
+and think of it as a quantum mechanical Hamiltonian 
+
+739
+00:59:47,977 --> 00:59:50,273
+and then check afterwards, 
+
+740
+00:59:50,696 --> 00:59:54,969
+Is the wave packet really moving the way classical mechanics would say 
+
+741
+00:59:55,276 --> 00:59:57,491
+that the, that the classical particle moves
+
+742
+00:59:59,680 --> 01:00:05,418
+Alright, so let's try that, in a little while 
+
+743
+01:00:05,683 --> 01:00:07,570
+we will just work with this abstract equation here
+
+744
+01:00:07,850 --> 01:00:09,667
+but let's just see what it says
+
+745
+01:00:09,988 --> 01:00:12,991
+A H on psi, H on psi,
+
+746
+01:00:13,345 --> 01:00:17,218
+Instead of working with abstract ket vectors, 
+
+747
+01:00:17,537 --> 01:00:19,256
+we can work with wave functions 
+
+748
+01:00:19,530 --> 01:00:29,548
+and what this equation would say would be i d psi of x by dt is equal, 
+
+749
+01:00:31,060 --> 01:00:33,145
+Now p squared, what is p?
+
+750
+01:00:33,500 --> 01:00:36,612
+p is minus i d by dx, p squared, 
+
+751
+01:00:36,948 --> 01:00:42,846
+that's minus d by dx squared, or d second by dx squared
+
+752
+01:00:43,134 --> 01:00:51,607
+There is a one over 2m, minus one over 2m, times psi
+
+753
+01:00:52,995 --> 01:00:55,677
+But what is V of x? Is V of x an operator?
+
+754
+01:00:56,136 --> 01:00:57,896
+Yes V of x is an operator
+
+755
+01:00:58,248 --> 01:01:01,486
+by definition this is a definition now
+
+756
+01:01:01,809 --> 01:01:05,538
+I told you what the operator x does,
+
+757
+01:01:05,847 --> 01:01:12,253
+The operator x, we multiplies a wave function, just multiplies it by x 
+
+758
+01:01:13,743 --> 01:01:16,993
+The corresponding thing for a general V of x
+
+759
+01:01:17,291 --> 01:01:20,118
+is the meaning of the operator V of x,
+
+760
+01:01:20,384 --> 01:01:24,789
+is that it multiplies the wave function by V of x
+
+761
+01:01:28,664 --> 01:01:32,271
+We didn't talk about that much, we didn't talk about functions of x 
+
+762
+01:01:32,549 --> 01:01:36,045
+The function of x is just defined in the obvious way 
+
+763
+01:01:36,378 --> 01:01:41,007
+As thought of as operators, they operate on wave functions 
+
+764
+01:01:41,297 --> 01:01:43,987
+just to multiply it by d of x 
+
+765
+01:01:44,297 --> 01:01:47,044
+>>
+
+766
+01:01:48,771 --> 01:01:53,880
+Functions of operators, yes V of x is a function of position
+
+767
+01:01:55,447 --> 01:01:59,334
+X multiply psi of x, V of x, also multiplies 
+
+768
+01:01:59,633 --> 01:02:01,696
+and you can take this as definition, 
+
+769
+01:02:01,990 --> 01:02:04,833
+The, um, when you make a definition of course, 
+
+770
+01:02:05,253 --> 01:02:07,442
+you later wanna prove that it's a useful definition
+
+771
+01:02:07,780 --> 01:02:11,340
+You not just make definition, you make definitions and then show that 
+
+772
+01:02:11,684 --> 01:02:16,709
+they are the either are valuable because they are easy to work with 
+
+773
+01:02:17,045 --> 01:02:19,610
+Or they are valuable because they relate things 
+
+774
+01:02:19,925 --> 01:02:21,614
+to previous things you already knew 
+
+775
+01:02:21,920 --> 01:02:25,589
+or what I'm wanna shows is that this definition of how V of x acts 
+
+776
+01:02:25,898 --> 01:02:31,596
+That the Schrodinger equation will in fact make particles move 
+
+777
+01:02:31,930 --> 01:02:37,756
+according to classical orbits, or at least make wave packets 
+
+778
+01:02:38,144 --> 01:02:40,467
+insofar as they don't spread too much, 
+
+779
+01:02:40,777 --> 01:02:45,129
+move according to the classical equations of motion 
+
+780
+01:02:45,413 --> 01:02:51,814
+Alright so, that's one term, d sec one over 2m 
+
+781
+01:02:52,082 --> 01:03:00,606
+Second derivative of psi, and the other terms is just plus V of x, times psi of x,
+
+782
+01:03:03,675 --> 01:03:08,097
+When V of x acts on psi of x, they just multiplies it
+
+783
+01:03:08,097 --> 01:03:11,889
+And this becomes the Schrödinger equation 
+
+784
+01:03:12,339 --> 01:03:16,508
+This is the Schrödinger equation for how the wave function changes with time
+
+785
+01:03:16,821 --> 01:03:18,660
+Also depending on time, 
+
+786
+01:03:25,147 --> 01:03:30,157
+Let's at the same time write, now I want to do with this 
+
+787
+01:03:30,450 --> 01:03:33,555
+I'm gonna be interested in d psi by dt 
+
+788
+01:03:33,856 --> 01:03:36,593
+So I think I'll multiply in a way there is an i
+
+789
+01:03:36,902 --> 01:03:39,565
+What do we do? If we multiply, if you wanna get rid of an i 
+
+790
+01:03:39,866 --> 01:03:41,778
+You would multiply by minus i right? 
+
+791
+01:03:42,036 --> 01:03:44,125
+Minus i times i is one
+
+792
+01:03:44,439 --> 01:03:46,142
+We multiplied by minus i, 
+
+793
+01:03:46,420 --> 01:03:48,932
+That would give us minus sign with an i here
+
+794
+01:03:49,233 --> 01:03:58,361
+And put a minus i here, that's psi dot if you like
+
+795
+01:03:58,631 --> 01:04:07,421
+The left-hand side of psi dot, Let's also write down d psi star of x and t
+
+796
+01:04:07,785 --> 01:04:09,495
+with respect to t 
+
+797
+01:04:09,811 --> 01:04:13,209
+It is not a new equation, it's just the complex conjugate of this one 
+
+798
+01:04:13,467 --> 01:04:23,855
+and that one will be minus i over 2m, d second psi star by d x squared 
+
+799
+01:04:27,118 --> 01:04:37,261
+plus i V of x, psi of x
+
+800
+01:04:39,022 --> 01:04:43,067
+>>
+
+801
+01:04:43,358 --> 01:04:44,559
+I think I got it right,
+
+802
+01:04:44,884 --> 01:04:46,834
+Did I make a mistake?
+
+803
+01:04:48,872 --> 01:04:53,032
+Oh yeah, good, psi star
+
+804
+01:04:53,328 --> 01:04:55,984
+Those are the Schrodinger equations 
+
+805
+01:04:56,424 --> 01:04:59,190
+They are equivalent to each other, I just wrote them both
+
+806
+01:04:59,595 --> 01:05:02,954
+Because I'm gonna need them both,
+
+807
+01:05:03,294 --> 01:05:15,355
+Now what do we wanna do?
+
+808
+01:05:15,355 --> 01:05:18,988
+We want to see how various expectation values change with time 
+
+809
+01:05:19,291 --> 01:05:23,070
+If we identify the expectation value with more or less 
+
+810
+01:05:23,509 --> 01:05:25,416
+the center of the wave packet 
+
+811
+01:05:25,708 --> 01:05:28,113
+If the wave packet looks like this 
+
+812
+01:05:28,452 --> 01:05:31,846
+The center of the wave packet will be close to the expectation value 
+
+813
+01:05:32,134 --> 01:05:39,977
+And so let's identify the center of the wave packet with the expectation value 
+
+814
+01:05:40,292 --> 01:05:43,320
+and ask how expectation values change with time 
+
+815
+01:05:43,668 --> 01:05:46,678
+See if we can work it out 
+
+816
+01:05:47,018 --> 01:05:51,199
+Alright, so let's start with x, let's see if we can calculate d by dt
+
+817
+01:05:52,959 --> 01:06:04,464
+of the expectation value of x, and that of course is d by dt of the integral 
+
+818
+01:06:04,804 --> 01:06:22,591
+Psi star of x, x squared, no just x psi of x, dt, d by dt
+
+819
+01:06:23,187 --> 01:06:26,526
+Another word it's the velocity of the center of the wave packet
+
+820
+01:06:27,526 --> 01:06:31,005
+That's all this is, it's the velocity of the center of the way packet
+
+821
+01:06:31,279 --> 01:06:33,905
+Why does it change? 
+
+822
+01:06:34,234 --> 01:06:36,460
+It changes because psi changes, 
+
+823
+01:06:38,052 --> 01:06:39,836
+How do we know how psi changes? 
+
+824
+01:06:40,148 --> 01:06:43,217
+We know how psi changes, because we know the Schrödinger equation
+
+825
+01:06:43,529 --> 01:06:48,826
+So this is gonna be a little exercise, a little bit too tedious for my taste
+
+826
+01:06:49,169 --> 01:06:51,525
+To do at the blackboard, it's not very tedious
+
+827
+01:06:51,797 --> 01:06:58,041
+But still, I may cut little pieces, picks shortcuts 
+
+828
+01:06:58,369 --> 01:07:01,278
+But I will tell you when I do 
+
+829
+01:07:01,582 --> 01:07:05,718
+Okay so this is what we want to calculate 
+
+830
+01:07:06,020 --> 01:07:09,652
+and is of course x is just x, it's not dependent on time 
+
+831
+01:07:09,997 --> 01:07:12,440
+but psi star and psi are dependent on time 
+
+832
+01:07:12,727 --> 01:07:16,165
+So when I differentiate, I will get the term from each one of these 
+
+833
+01:07:16,466 --> 01:07:24,085
+and this will give me integral d psi star of this
+
+834
+01:07:24,409 --> 01:07:26,181
+I will write d by dt,
+
+835
+01:07:26,476 --> 01:07:37,023
+d psi star, x psi, plus integral psi star x psi dot 
+
+836
+01:07:39,658 --> 01:07:43,053
+One term coming from differentiating with respect to time psi star
+
+837
+01:07:43,322 --> 01:07:47,502
+Another from differentiating psi, each one has x in there
+
+838
+01:07:47,779 --> 01:07:50,752
+And now of course this is just psi star dot,
+
+839
+01:07:56,716 --> 01:08:00,637
+First thing is we don't really have to calculate both of these 
+
+840
+01:08:00,968 --> 01:08:03,314
+These are complex conjugates of each other 
+
+841
+01:08:03,645 --> 01:08:07,156
+We have psi star dot here, we have psi dot here 
+
+842
+01:08:07,465 --> 01:08:10,317
+We have psi here, psi star here, and x is real
+
+843
+01:08:10,652 --> 01:08:15,920
+So in fact, all we have to do is calculate one of them 
+
+844
+01:08:16,215 --> 01:08:19,031
+and add its complex conjugate 
+
+845
+01:08:19,353 --> 01:08:25,424
+That is all we have to do or equivalently just take twice the real part 
+
+846
+01:08:25,740 --> 01:08:29,188
+Adding something to its complex conjugate, 
+
+847
+01:08:29,513 --> 01:08:33,469
+the imaginary parts cancel, and it's twice the real part
+
+848
+01:08:33,761 --> 01:08:37,577
+So we can use that, I'm not sure I need it, but
+
+849
+01:08:37,864 --> 01:08:42,628
+let's, It's twice the real part of this 
+
+850
+01:08:42,913 --> 01:08:49,373
+Twice this, and keep in mind that we throw away anything that's imaginary
+
+851
+01:08:49,839 --> 01:08:52,641
+We throw away anything that is imaginary 
+
+852
+01:08:52,919 --> 01:08:55,575
+because we add the complex conjugate and we throw it away
+
+853
+01:08:55,878 --> 01:09:02,295
+Okay so now let's plug in d psi star by dt over here 
+
+854
+01:09:02,635 --> 01:09:09,729
+And that gives us minus i over to 2m 
+
+855
+01:09:11,679 --> 01:09:20,691
+d second psi, let's see what we do, it's a plus some psi
+
+856
+01:09:21,061 --> 01:09:23,858
+Plus i, it's the upper equation there, 
+
+857
+01:09:24,168 --> 01:09:37,956
+d second psi by d x squared, and there is a minus i V of x, psi 
+
+858
+01:09:41,608 --> 01:09:45,673
+Okay, now the first thing we can see immediately 
+
+859
+01:09:46,002 --> 01:09:50,290
+is that the term of V of x, is pure imaginary 
+
+860
+01:09:50,606 --> 01:09:55,473
+The psi star, there is an x, the psi, psi star psi is certainly real
+
+861
+01:09:55,787 --> 01:10:00,077
+x is real, V of x, the potential energy is real 
+
+862
+01:10:00,408 --> 01:10:05,198
+And there is an i there, so the first thing to conclude is that 
+
+863
+01:10:05,465 --> 01:10:10,482
+the V of x doesn't contribute at all, it doesn't contribute at all 
+
+864
+01:10:10,774 --> 01:10:14,155
+because when you multiply, you add the complex conjugate, it will cancel 
+
+865
+01:10:14,515 --> 01:10:18,691
+So in this fact in this equation we can throw this away over here
+
+866
+01:10:18,980 --> 01:10:25,097
+Psi star x, V of x psi, that's real, and imaginary part cancels 
+
+867
+01:10:25,398 --> 01:10:27,158
+So you can throw this away, 
+
+868
+01:10:35,244 --> 01:10:38,190
+Okay next what's the next? 
+
+869
+01:10:39,601 --> 01:10:43,939
+Integrate by parts, it's always the next step 
+
+870
+01:10:44,230 --> 01:10:50,226
+Always the next step integrate by parts 
+
+871
+01:10:52,874 --> 01:10:58,536
+We have here a derivative, It is the second derivative 
+
+872
+01:10:58,839 --> 01:11:00,765
+but a second derivative is also a first derivative
+
+873
+01:11:01,016 --> 01:11:06,453
+Let's write it that way d by dx, of d psi by dx,
+
+874
+01:11:06,738 --> 01:11:12,172
+incidentally partial derivatives have no, well yeah, they do mean something
+
+875
+01:11:12,489 --> 01:11:16,619
+They mean the derivatives with respect to x without changing time
+
+876
+01:11:16,974 --> 01:11:26,885
+So that's our equation and now I want to integrate by parts 
+
+877
+01:11:27,220 --> 01:11:32,067
+which means I want this d by dx over here to shift to the other factor, 
+
+878
+01:11:33,588 --> 01:11:36,871
+I wanna shift it to the other factor, I'm gonna have two terms 
+
+879
+01:11:38,485 --> 01:11:39,975
+Let's look at what those two terms are 
+
+880
+01:11:40,330 --> 01:11:44,268
+The first term, the d by dx will just hit x 
+
+881
+01:11:44,570 --> 01:11:48,458
+What does that give? What is d by dx? one 
+
+882
+01:11:49,848 --> 01:11:57,212
+So that will give me twice integral psi star 
+
+883
+01:11:57,534 --> 01:12:01,456
+The x will disappear when d by dx hits it
+
+884
+01:12:01,783 --> 01:12:07,432
+and there is d psi by dx, alright d psi by dx, 
+
+885
+01:12:12,095 --> 01:12:14,422
+This derivative got shifted to here
+
+886
+01:12:14,695 --> 01:12:18,121
+There is an i, I think over 2m right?
+
+887
+01:12:18,455 --> 01:12:23,435
+There is an i that I left out, over 2m
+
+888
+01:12:27,136 --> 01:12:28,904
+Oh, where else did I miss out?
+
+889
+01:12:29,269 --> 01:12:40,294
+Integration by parts, minus, that's one term 
+
+890
+01:12:40,586 --> 01:12:46,525
+Now again you might think this is dangerous i here
+
+891
+01:12:46,832 --> 01:12:49,607
+We should throw it away, because it's imaginary, 
+
+892
+01:12:49,864 --> 01:12:51,805
+but it's not imaginary its real
+
+893
+01:12:52,089 --> 01:12:55,545
+We will see that in a moment, 
+
+894
+01:12:55,836 --> 01:12:57,953
+we will in fact, we will see exactly what it is in a moment 
+
+895
+01:12:58,269 --> 01:13:02,568
+But lets do the other term, the other turn has an i over 2m
+
+896
+01:13:08,252 --> 01:13:15,526
+i over 2m, there will be an x, the x does not get differentiated now 
+
+897
+01:13:15,906 --> 01:13:20,267
+x and then there is d psi star of x, 
+
+898
+01:13:20,605 --> 01:13:22,375
+and now the derivative hits the psi star,
+
+899
+01:13:22,662 --> 01:13:29,873
+and we get derivative of psi star times derivative of psi
+
+900
+01:13:32,416 --> 01:13:35,231
+Okay, this derivative now hits the psi star,
+
+901
+01:13:35,601 --> 01:13:41,187
+There is an i here, an explicit i, and this is to be integrated over x 
+
+902
+01:13:41,536 --> 01:13:44,673
+Still underneath the integration here, how about this? 
+
+903
+01:13:44,965 --> 01:13:47,971
+What's the reality property of this? Is this real or imaginary? 
+
+904
+01:13:51,333 --> 01:13:55,840
+This is probably a minus, ya there is a minus 
+
+905
+01:13:59,315 --> 01:14:05,426
+But it's imaginary, this is the complex conjugate of this 
+
+906
+01:14:05,726 --> 01:14:11,813
+And x is real, so this integral here, the integral here is perfectly real 
+
+907
+01:14:12,104 --> 01:14:17,754
+it gets multiplied by minus i and then the whole thing is imaginary 
+
+908
+01:14:18,064 --> 01:14:22,921
+It will get eaten when you add the complex conjugate 
+
+909
+01:14:23,230 --> 01:14:36,505
+So the only thing that's left is this, i over 2m with a minus sign
+
+910
+01:14:38,432 --> 01:14:41,315
+Times psi star d psi by dx,
+
+911
+01:14:41,695 --> 01:14:43,790
+I'm gonna tell you exactly what this is 
+
+912
+01:14:44,178 --> 01:14:52,737
+What is minus i d by dx? It's p right? It's p
+
+913
+01:14:53,021 --> 01:14:58,745
+Minus i, d by dx is p, so what this is?
+
+914
+01:15:00,236 --> 01:15:12,021
+It's the expectation value of p divided by m
+
+915
+01:15:12,021 --> 01:15:23,035
+P over m, just look at it,  minus i d by dx is the same as p on psi
+
+916
+01:15:24,818 --> 01:15:30,054
+multiply by psi star, that's the bra vector, integrated over x 
+
+917
+01:15:30,302 --> 01:15:33,269
+That's just taking the inner product, 
+
+918
+01:15:33,544 --> 01:15:39,634
+In fact it's real, in fact it is really real 
+
+919
+01:15:39,931 --> 01:15:43,727
+It looks imaginary because of this, but if you go and study it carefully 
+
+920
+01:15:43,989 --> 01:15:45,609
+You find its real and what it is 
+
+921
+01:15:45,951 --> 01:15:48,996
+It is the expectation value of the momentum divided by m
+
+922
+01:15:49,446 --> 01:15:52,022
+So now we've proved an interesting theorem
+
+923
+01:15:52,350 --> 01:16:03,266
+We've proved that dx by dt is equal to p over m
+
+924
+01:16:04,938 --> 01:16:06,203
+We've seen this before, 
+
+925
+01:16:06,559 --> 01:16:09,559
+this is the classical relation between velocity and momentum 
+
+926
+01:16:09,868 --> 01:16:12,417
+Mass times velocity is momentum 
+
+927
+01:16:12,782 --> 01:16:16,709
+Now what we found is that this is going to be 
+
+928
+01:16:17,064 --> 01:16:19,746
+a feature of the motion of a wave packet
+
+929
+01:16:20,005 --> 01:16:23,168
+If we have a wave packet that moves in a nice way 
+
+930
+01:16:23,475 --> 01:16:24,971
+so that it holds itself together 
+
+931
+01:16:25,295 --> 01:16:27,998
+What you may or may not do, but if it does, 
+
+932
+01:16:27,998 --> 01:16:32,461
+If for an regime of parameters with a wave packet moves 
+
+933
+01:16:34,584 --> 01:16:40,363
+like a nice, nice wave packet, then we will find that 
+
+934
+01:16:40,810 --> 01:16:44,601
+the expectation value, it's momentum defined in this way 
+
+935
+01:16:44,915 --> 01:16:49,740
+will be related to the expectation value of the velocity of the wave packet
+
+936
+01:16:50,183 --> 01:16:53,535
+through the standard classical mechanical equations 
+
+937
+01:16:53,838 --> 01:17:00,093
+Okay that's half of mechanics, what's the other half of mechanics? 
+
+938
+01:17:02,160 --> 01:17:05,663
+We found that d p, oops, I just give it away
+
+939
+01:17:05,925 --> 01:17:09,890
+dx by dt is p over m, what's the other half?
+
+940
+01:17:10,202 --> 01:17:13,567
+dp by dt, that is Newton's law
+
+941
+01:17:13,898 --> 01:17:16,468
+time derivative of momentum is called force
+
+942
+01:17:16,806 --> 01:17:21,255
+So let's see if we can do the same thing with momentum 
+
+943
+01:17:21,611 --> 01:17:28,610
+>> you said that if everything is presented nicely
+
+944
+01:17:29,013 --> 01:17:34,308
+>> we didn't have a nice assumption of theorization 
+
+945
+01:17:34,653 --> 01:17:38,932
+>>it just look classically it fit in nicely
+
+946
+01:17:39,181 --> 01:17:46,866
+Right, ya, there was no there was no assumption here 
+
+947
+01:17:47,178 --> 01:17:51,482
+There will be as we'll see a certain assumption in the other equation 
+
+948
+01:17:51,887 --> 01:17:54,910
+No assumption here of that type,
+
+949
+01:17:56,917 --> 01:18:02,239
+If the wave packet is really crazy, it might not mean anything very sensible 
+
+950
+01:18:02,524 --> 01:18:05,260
+but still, that was a, 
+
+951
+01:18:10,367 --> 01:18:12,721
+Nothing I get up till now depended on 
+
+952
+01:18:13,057 --> 01:18:19,574
+the approximate notion of how wave packet moves 
+
+953
+01:18:22,767 --> 01:18:24,576
+Okay we got this, 
+
+954
+01:18:27,649 --> 01:18:30,516
+Let's see if we can get the other half
+
+955
+01:18:30,869 --> 01:18:32,655
+Now I don't guaranteed to get through it 
+
+956
+01:18:32,968 --> 01:18:38,749
+without all sorts of errors and i and minuses
+
+957
+01:18:39,064 --> 01:18:40,383
+Let's try this one, 
+
+958
+01:18:43,464 --> 01:18:49,097
+p the average of p is gotten by acting with p on psi
+
+959
+01:18:49,393 --> 01:18:54,787
+And that's minus i, that would give us minus i which I will put over here
+
+960
+01:18:55,060 --> 01:19:03,095
+But then, d by dx, d psi by dx
+
+961
+01:19:04,760 --> 01:19:08,177
+We could put the d psi, we could put the derivative over here
+
+962
+01:19:08,479 --> 01:19:11,840
+integration by parts, the sign change but I will leave it over here 
+
+963
+01:19:12,175 --> 01:19:24,926
+>>remain of x
+
+964
+01:19:25,299 --> 01:19:26,394
+>>
+
+965
+01:19:26,727 --> 01:19:27,493
+>>
+
+966
+01:19:27,811 --> 01:19:31,652
+No, no, we want the time derivative of the momentum 
+
+967
+01:19:31,979 --> 01:19:33,339
+What would you like to see? 
+
+968
+01:19:33,340 --> 01:19:35,865
+You want to see the time derivative of the momentum?
+
+969
+01:19:36,142 --> 01:19:40,949
+It is governed, let's write this equation 
+
+970
+01:19:42,685 --> 01:19:45,521
+P dot is equal to force, that's it, 
+
+971
+01:19:45,877 --> 01:19:50,240
+What is force in terms of the things I've written on the blackboard?
+
+972
+01:19:52,293 --> 01:19:58,236
+Minus dV by dx, so this is what I am gonna show,
+
+973
+01:19:58,520 --> 01:20:03,303
+minus dV by dx, but I will show it in the form that 
+
+974
+01:20:03,577 --> 01:20:08,774
+d by dt of  the expectation value of the momentum 
+
+975
+01:20:09,072 --> 01:20:14,469
+It is minus the expectation value of dV by dx,
+
+976
+01:20:17,467 --> 01:20:22,360
+dV by dx is also a function of x, since V is a function of x
+
+977
+01:20:22,627 --> 01:20:25,117
+dV by dx is a function of x,
+
+978
+01:20:25,424 --> 01:20:32,835
+It's called the force, or what this says is 
+
+979
+01:20:33,142 --> 01:20:37,788
+the average rate of change of momentum is the average of the force 
+
+980
+01:20:38,085 --> 01:20:44,298
+The force, dV by dx with a minus sign
+
+981
+01:20:44,571 --> 01:20:47,033
+Okay so that's what we wanna show,
+
+982
+01:20:47,278 --> 01:20:53,690
+We wanna show dp by dt is dv dx, that's all
+
+983
+01:20:54,004 --> 01:20:57,079
+And how we're gonna show it?
+
+984
+01:20:57,446 --> 01:21:00,125
+Once again I'm gonna show it by using Schrödinger equation 
+
+985
+01:21:00,438 --> 01:21:08,983
+It tell us how things change with time 
+
+986
+01:21:09,289 --> 01:21:23,198
+Okay so let's see now, It's a little bit unpleasant I'm not sure 
+
+987
+01:21:23,520 --> 01:21:35,484
+Alright, when I debating, let's start working it out then let's
+
+988
+01:21:35,880 --> 01:21:38,624
+At some point I may say well I know this goes away and this doesn't go away
+
+989
+01:21:39,084 --> 01:21:40,406
+We will say how it goes
+
+990
+01:21:40,730 --> 01:21:52,233
+So first of all this goes as the integral psi star dot times d psi by dx, minus i
+
+991
+01:21:52,580 --> 01:21:56,473
+And then there is another term where that come from
+
+992
+01:21:56,821 --> 01:21:59,055
+differentiating psi star with respect to time
+
+993
+01:21:59,370 --> 01:22:04,009
+There is gonna to be another term where d by dt will hit psi
+
+994
+01:22:04,280 --> 01:22:06,296
+Okay, so what will that be?
+
+995
+01:22:06,655 --> 01:22:11,819
+That will be again minus i, integral psi star,
+
+996
+01:22:12,140 --> 01:22:17,052
+Now the order of differentiation doesn't matter 
+
+997
+01:22:17,355 --> 01:22:27,447
+So this can be written as d by dx of psi dot
+
+998
+01:22:32,689 --> 01:22:35,478
+Just wondering at one point I'm gonna regret 
+
+999
+01:22:35,781 --> 01:22:37,786
+not having done integration by parts 
+
+1000
+01:22:38,120 --> 01:22:40,654
+But it won't matter because we do the integration by parts 
+
+1001
+01:22:40,962 --> 01:22:44,141
+I will regret it, I will regret it, I will just go ahead
+
+1002
+01:22:46,936 --> 01:22:48,124
+Is there an extra i? 
+
+1003
+01:22:51,641 --> 01:22:55,762
+No I don't think, no I don't think so
+
+1004
+01:22:56,155 --> 01:22:58,532
+I think it's right, okay, 
+
+1005
+01:23:02,717 --> 01:23:09,692
+Oh you know what, I think it will be convenient to integrate this one by parts 
+
+1006
+01:23:10,089 --> 01:23:15,506
+If I integrate this one by parts I will get a plus i here 
+
+1007
+01:23:15,804 --> 01:23:25,447
+and d psi star by dx here, another reason it's convenient is 
+
+1008
+01:23:25,745 --> 01:23:30,480
+because the thing in here is the complex conjugate of thing here 
+
+1009
+01:23:32,575 --> 01:23:36,943
+Psi dot star, well that's a complex conjugate of psi dot,
+
+1010
+01:23:37,247 --> 01:23:41,176
+d psi by dx, that's the complex conjugate of psi star
+
+1011
+01:23:41,549 --> 01:23:44,996
+But notice it's i times the difference
+
+1012
+01:23:45,357 --> 01:23:50,920
+What do I get when I take i times the difference of two complex conjugates?
+
+1013
+01:23:52,826 --> 01:23:54,853
+You get a real thing again
+
+1014
+01:23:56,655 --> 01:24:06,118
+So I think it's just the real part of this? 
+
+1015
+01:24:07,819 --> 01:24:12,233
+Well let's just keep going on, my eye, let's just keep going
+
+1016
+01:24:12,552 --> 01:24:16,701
+We can erase this and remember in the end
+
+1017
+01:24:18,856 --> 01:24:22,985
+That the answer has to be twice the real part of this 
+
+1018
+01:24:24,575 --> 01:24:29,648
+twice the real part of this, and we don't have to keep track of both of them 
+
+1019
+01:24:29,978 --> 01:24:34,106
+Okay now what do we do? We plug in the Schrödinger equation
+
+1020
+01:24:34,436 --> 01:24:36,684
+And pray like mad that all goes well 
+
+1021
+01:24:38,317 --> 01:24:44,215
+Okay so psi dot is equal to i over 2m
+
+1022
+01:24:46,477 --> 01:24:59,474
+d second psi by dx square minus i V of x psi,
+
+1023
+01:25:07,037 --> 01:25:10,669
+This i cancels this i gives us the minus sign
+
+1024
+01:25:11,002 --> 01:25:14,448
+Well this i here so we make minus
+
+1025
+01:25:16,287 --> 01:25:22,728
+and the i over here time the i over here, I think it will make a plus, plus
+
+1026
+01:25:27,494 --> 01:25:34,090
+We have some of the unpleasant thing, how unpleasant let's see
+
+1027
+01:25:40,076 --> 01:25:53,671
+Not too bad, this piece I believe is pure imaginary, it is, it is,
+
+1028
+01:25:54,495 --> 01:25:56,686
+This is pure imaginary over here,
+
+1029
+01:25:56,978 --> 01:26:03,802
+The way you see it, the way you see it is again integrate by parts 
+
+1030
+01:26:04,166 --> 01:26:08,841
+Just this piece here, if I integrate this piece by parts 
+
+1031
+01:26:09,183 --> 01:26:13,501
+We will get a derivative, we will get a term with a single derivative of psi
+
+1032
+01:26:13,809 --> 01:26:16,166
+And a second derivative of psi star, 
+
+1033
+01:26:16,451 --> 01:26:26,082
+Okay, what we will discover is basically the difference between a thing 
+
+1034
+01:26:26,476 --> 01:26:27,895
+and its complex conjugate 
+
+1035
+01:26:28,163 --> 01:26:33,540
+There will be a minus sign, let's just see it here, ya let's do it
+
+1036
+01:26:33,826 --> 01:26:36,755
+If I differentiate, oh sorry, integrate it by parts 
+
+1037
+01:26:37,062 --> 01:26:46,076
+That'll bring, the derivative over to here 
+
+1038
+01:26:51,437 --> 01:26:55,529
+It's pure imaginary, I know that it is 
+
+1039
+01:26:55,848 --> 01:26:59,725
+Whenever you have a quantity complex conjugated
+
+1040
+01:27:00,075 --> 01:27:03,970
+Times a derivative of the unconjugated thing you integrated 
+
+1041
+01:27:04,275 --> 01:27:05,963
+Tt's always pure imaginary,
+
+1042
+01:27:06,321 --> 01:27:08,734
+We have used this trick before 
+
+1043
+01:27:08,734 --> 01:27:10,832
+I'll just tell you right now this piece is pure imaginary 
+
+1044
+01:27:11,190 --> 01:27:13,964
+It's not gonna be of any significance 
+
+1045
+01:27:14,321 --> 01:27:27,763
+The significant piece is integral d psi star by dx, V of x psi
+
+1046
+01:27:28,101 --> 01:27:31,385
+That's all it's left after we take into account the 
+
+1047
+01:27:31,661 --> 01:27:38,271
+Little intricate details of complex conjugation V of x
+
+1048
+01:27:47,603 --> 01:27:49,867
+I can't remember whether we doubled it or not yet
+
+1049
+01:27:56,818 --> 01:28:01,942
+I think we doubled it, I think we doubled it, ya we have to double this
+
+1050
+01:28:07,210 --> 01:28:10,084
+Or add it to it's complex conjugate did I say it right?
+
+1051
+01:28:10,537 --> 01:28:13,007
+Add it to it's complex conjugate, I think
+
+1052
+01:28:14,563 --> 01:28:15,997
+In fact let's do that right now
+
+1053
+01:28:16,370 --> 01:28:25,375
+Let's add it to it's complex conjugate plus the integral of psi star V of x
+
+1054
+01:28:25,683 --> 01:28:34,622
+d psi by dx, alright let's take this and complex conjugate it
+
+1055
+01:28:34,949 --> 01:28:39,723
+I've taken this and complex conjugate this, and it is real
+
+1056
+01:28:40,010 --> 01:28:49,819
+Okay now we are almost there, we have d psi star of x dx times psi
+
+1057
+01:28:50,124 --> 01:28:52,989
+Let's pull out V of x, pull away out here 
+
+1058
+01:28:53,313 --> 01:29:06,374
+V of x times this
+
+1059
+01:29:06,786 --> 01:29:08,468
+Now what is d psi? 
+
+1060
+01:29:08,469 --> 01:29:16,131
+d psi star by dx times psi plus psi star times d psi by dx
+
+1061
+01:29:16,231 --> 01:29:18,953
+It is the derivative of psi star psi with respect to x
+
+1062
+01:29:19,378 --> 01:29:26,571
+This is derivative of psi star times psi, plus psi star times the derivative of psi
+
+1063
+01:29:26,939 --> 01:29:32,319
+That is nothing but the derivative with respect to x of psi star psi
+
+1064
+01:29:32,664 --> 01:29:34,202
+So let's put that in, 
+
+1065
+01:29:44,527 --> 01:29:50,791
+And the next step integrate by parts 
+
+1066
+01:29:52,405 --> 01:29:56,802
+Integrate by parts that will take the derivative, derivative over here
+
+1067
+01:29:57,156 --> 01:30:11,777
+And it will give me minus the integral of psi star psi, times dV of x 
+
+1068
+01:30:14,288 --> 01:30:20,273
+If I put the psi here on the right, and what is this thing?
+
+1069
+01:30:20,603 --> 01:30:28,495
+The integral of psi star psi times dV dx, that's the expectation value of dV dx
+
+1070
+01:30:30,499 --> 01:30:35,586
+This whole thing is dx minus the expectation value of dV dx
+
+1071
+01:30:35,935 --> 01:30:38,234
+In other words it's exactly this 
+
+1072
+01:30:40,015 --> 01:30:48,082
+So we found after a slight bit of painful integration by parts 
+
+1073
+01:30:48,416 --> 01:30:51,088
+a little bit of algebra, and throwing away some things 
+
+1074
+01:30:51,475 --> 01:30:53,359
+which I told you they are pure imaginary which they were 
+
+1075
+01:30:53,654 --> 01:30:59,508
+We find that dp by dt is exactly equal to minus dv by dx
+
+1076
+01:30:59,886 --> 01:31:04,328
+But in the sense of expectation values, in the sense of the expectation value
+
+1077
+01:31:06,036 --> 01:31:10,765
+You know why do I say, this this also is exact 
+
+1078
+01:31:11,074 --> 01:31:15,517
+I didn't do anything illegal here, I didn't do any approximation 
+
+1079
+01:31:21,084 --> 01:31:28,866
+I will tell you where the use or where it maybe important that 
+
+1080
+01:31:29,168 --> 01:31:30,731
+the wave packet have a nice shape 
+
+1081
+01:31:32,464 --> 01:31:41,662
+The expectation value of dV by dX is not the same as 
+
+1082
+01:31:41,943 --> 01:31:53,191
+V or d, let's just take V, the expectation value of V of x
+
+1083
+01:31:55,443 --> 01:31:57,371
+No let's call it F of x, force,
+
+1084
+01:31:57,681 --> 01:32:04,765
+The expectation value of F of x which is after all minus dV by dx
+
+1085
+01:32:05,067 --> 01:32:08,640
+The expectation value of function of x is not the same thing
+
+1086
+01:32:08,966 --> 01:32:17,320
+As the function of the expectation value of x
+
+1087
+01:32:18,901 --> 01:32:24,375
+This represents the expectation value of X at the center of the wave packet 
+
+1088
+01:32:24,669 --> 01:32:29,277
+and this is a function at the center of the wave packet 
+
+1089
+01:32:29,826 --> 01:32:32,166
+It is not the same thing as a thing we calculated in general
+
+1090
+01:32:32,486 --> 01:32:36,402
+This is the expectation value of F of x 
+
+1091
+01:32:36,765 --> 01:32:39,882
+When they give you an example with a very very different 
+
+1092
+01:32:40,175 --> 01:32:46,010
+They could be extremely different, suppose for example that 
+
+1093
+01:32:46,338 --> 01:32:52,763
+F were equal to X squared 
+
+1094
+01:32:53,059 --> 01:32:56,179
+Supposing the force happen to be X squared 
+
+1095
+01:32:56,554 --> 01:33:00,745
+And supposing the wave packet consisted of a pair of bumps 
+
+1096
+01:33:02,483 --> 01:33:06,230
+Is that what I want? I think that's what I want 
+
+1097
+01:33:06,565 --> 01:33:09,032
+Yes that is exactly what I want 
+
+1098
+01:33:09,335 --> 01:33:16,951
+What? Centered around zero. What is the expectation value of X? 
+
+1099
+01:33:18,771 --> 01:33:24,437
+What's the F of the expectation value of x? Zero right?
+
+1100
+01:33:24,760 --> 01:33:29,117
+On the other hand what was the expectation value of X squared? 
+
+1101
+01:33:30,582 --> 01:33:36,263
+So enough zero, this one has an X squared equal to the X squared of this
+
+1102
+01:33:36,603 --> 01:33:38,467
+It's certainly nonzero 
+
+1103
+01:33:38,805 --> 01:33:44,934
+So when wave packets are nice, not nice single bumps 
+
+1104
+01:33:45,259 --> 01:33:48,484
+which are mainly characterized by the center like this
+
+1105
+01:33:48,833 --> 01:33:52,511
+Then in general you could not write that 
+
+1106
+01:33:52,821 --> 01:33:58,338
+the time rate of change of the momentum is equal to 
+
+1107
+01:33:58,736 --> 01:34:03,015
+the force evaluated at the expectation value of X 
+
+1108
+01:34:03,546 --> 01:34:07,237
+It's only if the wave functions are nice 
+
+1109
+01:34:07,559 --> 01:34:14,887
+And so that concentrated over a fairly narrow range 
+
+1110
+01:34:15,247 --> 01:34:17,919
+If you concentrate over a reasonably narrow range 
+
+1111
+01:34:18,261 --> 01:34:26,424
+then the expectation value of F of X is the same as the F of the expectation value
+
+1112
+01:34:26,769 --> 01:34:33,411
+This is where we have achieved a little bit in saying 
+
+1113
+01:34:33,739 --> 01:34:35,371
+This looks like a classical equation of motion 
+
+1114
+01:34:35,699 --> 01:34:39,537
+that depends on the wave packet, they are nice and coherent and localized 
+
+1115
+01:34:39,873 --> 01:34:43,144
+One of the circumstances under which 
+
+1116
+01:34:43,406 --> 01:34:45,810
+a wave function will remain nicely localized 
+
+1117
+01:34:46,190 --> 01:34:47,848
+I will tell you what the circumstances are 
+
+1118
+01:34:48,271 --> 01:34:51,590
+The circumstances are the particle is heavy, 
+
+1119
+01:34:51,983 --> 01:34:56,732
+If the particle is heavy and takes two things 
+
+1120
+01:34:57,022 --> 01:35:02,115
+the particle being fairly heavy and the potential energy 
+
+1121
+01:35:02,422 --> 01:35:06,607
+not having too many spikes that having spikes in it or something like that 
+
+1122
+01:35:06,992 --> 01:35:09,653
+Spikes when the wave function hit spikes, 
+
+1123
+01:35:10,023 --> 01:35:13,058
+it tends to break up, for example 
+
+1124
+01:35:13,398 --> 01:35:17,650
+If you have some sort of wave function coming in a nice way,
+
+1125
+01:35:18,001 --> 01:35:20,329
+Wave packet coming in going to the right 
+
+1126
+01:35:20,647 --> 01:35:26,193
+And it hits a point structure here, what will it do?
+
+1127
+01:35:26,500 --> 01:35:31,166
+It will spread out all over the place like that 
+
+1128
+01:35:31,471 --> 01:35:35,200
+Wave function will disintegrate all over the place 
+
+1129
+01:35:35,487 --> 01:35:42,446
+If on the other hand it hits a very smooth potential of some sort 
+
+1130
+01:35:44,280 --> 01:35:47,036
+Then it will go through the smooth potential 
+
+1131
+01:35:47,326 --> 01:35:50,578
+moving more or less according to the classical equations of motion 
+
+1132
+01:35:50,882 --> 01:35:55,892
+So you know, we don't expect quantum mechanics 
+
+1133
+01:35:56,373 --> 01:35:59,010
+to reproduce classical mechanics in every possible circumstance 
+
+1134
+01:35:59,299 --> 01:36:02,963
+We expect it to reproduce quantum mechanics in circumstances 
+
+1135
+01:36:03,280 --> 01:36:09,961
+where particles are heavy and where potentials are nice and smooth 
+
+1136
+01:36:10,360 --> 01:36:13,127
+and don't cause a wave function to break up into little pieces 
+
+1137
+01:36:13,429 --> 01:36:15,616
+Or disintegrate or scatter all over the place 
+
+1138
+01:36:15,875 --> 01:36:25,241
+Okay, let's see if there are any other odds and ends that I want to 
+
+1139
+01:36:25,531 --> 01:36:29,870
+You know not tonight, we don't have time for it 
+
+1140
+01:36:37,957 --> 01:36:39,794
+>> what sort of physical situation 
+
+1141
+01:36:40,176 --> 01:36:46,488
+>> will correspond to potentials that break up the wave packet?
+
+1142
+01:36:46,831 --> 01:36:56,154
+Well, the situation which is bad tends to be when 
+
+1143
+01:36:56,454 --> 01:37:04,410
+When the potential has structures and features in it
+
+1144
+01:37:06,094 --> 01:37:09,187
+which let's say have some sign associated with them 
+
+1145
+01:37:09,485 --> 01:37:11,851
+Some structure which we could call delta x
+
+1146
+01:37:12,181 --> 01:37:14,534
+Some sign associated with the structure here 
+
+1147
+01:37:14,864 --> 01:37:18,941
+And where delta x is significantly smaller 
+
+1148
+01:37:19,341 --> 01:37:22,941
+than the uncertainty in position of the particle 
+
+1149
+01:37:24,565 --> 01:37:30,395
+If the structures of the, what do we wanna call it then,
+
+1150
+01:37:30,717 --> 01:37:35,121
+The features sharp features of the wave function take place on the scale 
+
+1151
+01:37:35,449 --> 01:37:42,890
+which is much smaller than the, than the size of the incoming wave packet 
+
+1152
+01:37:43,237 --> 01:37:47,274
+Then it will break up the wave function into a lot of the pieces 
+
+1153
+01:37:47,605 --> 01:37:51,371
+Each one will scatter the scatter of different dimensions 
+
+1154
+01:37:51,677 --> 01:37:53,118
+into different directions, 
+
+1155
+01:37:58,668 --> 01:37:59,964
+Okay let's
+
+1156
+01:38:01,666 --> 01:38:07,188
+>> In the case of  Classical mechanics
+
+1157
+01:38:07,588 --> 01:38:10,507
+>> itself, it's working out right?
+
+1158
+01:38:13,757 --> 01:38:15,081
+No no no you shouldn't expect
+
+1159
+01:38:18,488 --> 01:38:25,608
+Basically when the features in the potential are shorter than the wavelength 
+
+1160
+01:38:25,968 --> 01:38:27,576
+shorter than the wavelength of the of the particle 
+
+1161
+01:38:27,927 --> 01:38:30,779
+It will break it up into, alright
+
+1162
+01:38:35,452 --> 01:38:43,469
+Now if you were to take a bowling ball and you would ask what is delta x? 
+
+1163
+01:38:54,024 --> 01:38:58,591
+Well let's see, typically it's true that, typically delta p times delta x 
+
+1164
+01:38:58,982 --> 01:39:04,344
+the rule is bigger than h bar, but in many reasonable cases it's of order h bar 
+
+1165
+01:39:06,439 --> 01:39:12,869
+Now p that's about as concentrated as you can get it
+
+1166
+01:39:13,541 --> 01:39:15,236
+But ordinary macroscopic object, 
+
+1167
+01:39:15,697 --> 01:39:18,402
+the uncertainty principle is pretty well saturated 
+
+1168
+01:39:18,691 --> 01:39:22,491
+delta p times delta x is more or less about equal to h bar
+
+1169
+01:39:22,906 --> 01:39:26,757
+Why that is so is a very complicated question, but very complicated
+
+1170
+01:39:27,143 --> 01:39:31,315
+What is delta p? Delta p is the mass times the delta velocity 
+
+1171
+01:39:33,027 --> 01:39:36,847
+So uncertainty of velocity times the uncertainty in position 
+
+1172
+01:39:37,170 --> 01:39:45,037
+is h bar over m, and if I put a bowling ball down on the ground 
+
+1173
+01:39:45,367 --> 01:39:48,616
+You know very well that the uncertainty of velocity is not very big
+
+1174
+01:39:50,415 --> 01:39:53,415
+The uncertainty of the velocity is, in particulars, 
+
+1175
+01:39:53,712 --> 01:39:56,597
+as it gets heavier and heavier you might expect the uncertainty in the velocity 
+
+1176
+01:39:57,028 --> 01:39:58,276
+get smaller and smaller 
+
+1177
+01:39:58,591 --> 01:40:12,373
+In any case, there is an m down here, and so whatever delta v is
+
+1178
+01:40:12,760 --> 01:40:17,278
+as m gets small, as m gets smaller and smaller 
+
+1179
+01:40:18,155 --> 01:40:22,483
+delta x will get bigger and bigger right? 
+
+1180
+01:40:22,483 --> 01:40:25,454
+delta x will get bigger and bigger, right
+
+1181
+01:40:26,803 --> 01:40:31,357
+And in particular it will tend to get bigger than the features in the 
+
+1182
+01:40:31,711 --> 01:40:37,473
+in the potential, So in a highly quantum mechanical limit 
+
+1183
+01:40:37,842 --> 01:40:40,641
+where mass is very small and delta X tends to be big 
+
+1184
+01:40:42,390 --> 01:40:47,823
+The wave function will move under the influence of a ragged potential 
+
+1185
+01:40:48,132 --> 01:40:53,291
+which are which it sees as being much sharper and much more featured 
+
+1186
+01:40:53,575 --> 01:40:56,059
+than wave function itself, that's when it breaks up 
+
+1187
+01:40:56,378 --> 01:40:58,747
+On the other hand as m gets very large 
+
+1188
+01:40:59,104 --> 01:41:05,427
+delta x gets small, delta x will tend to get small, as as m gets very large 
+
+1189
+01:41:05,739 --> 01:41:08,060
+and so for a large bowling ball 
+
+1190
+01:41:08,457 --> 01:41:11,430
+the wave packet might be very very concentrated 
+
+1191
+01:41:11,733 --> 01:41:15,787
+and when it moves through here, it moves slowly like a tiny wave function 
+
+1192
+01:41:15,787 --> 01:41:21,203
+and the tiny wave function thinks that these features are very very broad
+
+1193
+01:41:21,509 --> 01:41:27,380
+moving through broad smooth features doesn't disrupt the wave function 
+
+1194
+01:41:27,710 --> 01:41:29,118
+and break it up into pieces 
+
+1195
+01:41:31,853 --> 01:41:36,974
+So large mass smooth potentials is the limit of classical physics 
+
+1196
+01:41:37,309 --> 01:41:41,863
+light mass and abrupt potentials is more quantum mechanical 
+
+1197
+01:41:43,958 --> 01:41:49,379
+>>Just to get a feel about what you mean about large and small
+
+1198
+01:41:49,664 --> 01:41:56,451
+>>if you, an electron, large enough to be of classical 
+
+1199
+01:41:56,789 --> 01:41:57,896
+>>
+
+1200
+01:41:58,207 --> 01:42:02,985
+It's the interplay between the shape of the potential and the mass 
+
+1201
+01:42:04,734 --> 01:42:11,217
+If you take a very very smooth potential of the kind that you might make 
+
+1202
+01:42:11,593 --> 01:42:13,616
+let's say a couple of capacitor plates, 
+
+1203
+01:42:13,983 --> 01:42:18,898
+capacitor plates separated by a meter, well not a meter, a centimeter 
+
+1204
+01:42:20,255 --> 01:42:23,920
+Where the smooth electric field between them 
+
+1205
+01:42:24,304 --> 01:42:31,521
+Then the electron will move through it in a nice coherent 
+
+1206
+01:42:31,822 --> 01:42:34,749
+as most classical particle do
+
+1207
+01:42:35,109 --> 01:42:38,259
+On the other hand if you take the potential associated with the with the 
+
+1208
+01:42:38,598 --> 01:42:44,760
+core of the atom, the nucleus, that has a sharp feature in it 
+
+1209
+01:42:45,136 --> 01:42:49,937
+And that sharp feature will, if an electron wave comes in and hits it 
+
+1210
+01:42:50,276 --> 01:42:52,140
+It will scatter all over the place, 
+
+1211
+01:42:52,483 --> 01:42:58,022
+so it's a interplay between the mass and the sharpness of the potential 
+
+1212
+01:42:58,373 --> 01:43:03,049
+>>Can you do an experiment to show that
+
+1213
+01:43:03,430 --> 01:43:04,469
+Absolutely, 
+
+1214
+01:43:16,019 --> 01:43:19,447
+Of course you can do it, no problem, electron very easy
+
+1215
+01:43:19,798 --> 01:43:22,908
+The classic experiment was done in 1911 
+
+1216
+01:43:24,455 --> 01:43:29,055
+It wasn't done with electrons, it was done with alpha particles 
+
+1217
+01:43:30,961 --> 01:43:34,947
+Alpha particles come in and hit the gold nucleus 
+
+1218
+01:43:35,343 --> 01:43:40,392
+Gold nucleus is a small thing, and the result was that 
+
+1219
+01:43:40,737 --> 01:43:42,978
+the gold nucleus when the alpha particle comes in 
+
+1220
+01:43:43,293 --> 01:43:46,495
+The wave or quantum mechanical wave of alpha particles comes in 
+
+1221
+01:43:46,888 --> 01:43:50,360
+Hits that tiny gold nucleus, and it get scattered in all directions 
+
+1222
+01:43:52,204 --> 01:43:55,445
+That's why Rutherford was a bit surprised to see that 
+
+1223
+01:43:57,135 --> 01:44:00,416
+To see alpha particles get scattered right back at him 
+
+1224
+01:44:00,732 --> 01:44:04,583
+And what does it tell him? It tell him the nucleus was very small 
+
+1225
+01:44:21,140 --> 01:44:26,356
+He just have a beam of alpha particles some of which hit the center
+
+1226
+01:44:26,356 --> 01:44:27,190
+Some of which went through here, 
+
+1227
+01:44:29,151 --> 01:44:31,808
+Alright, but in fact what we really had was a wave 
+
+1228
+01:44:33,932 --> 01:44:38,746
+And the wave came in hit the tiny gold nucleus 
+
+1229
+01:44:38,746 --> 01:44:40,451
+and get scattered all over the place 
+
+1230
+01:44:43,231 --> 01:44:46,702
+And with electrons, yeah, sure, you are gonna use it
+
+1231
+01:44:50,328 --> 01:44:53,490
+That's what happen to accelerators when electrons 
+
+1232
+01:44:54,162 --> 01:45:02,511
+hit small targets, oh photons do also, photons do also 
+
+1233
+01:45:02,785 --> 01:45:09,666
+Electromagnetic waves as they hit the structure of objects 
+
+1234
+01:45:10,026 --> 01:45:12,352
+with structure smaller, smaller than the wavelength 
+
+1235
+01:45:12,659 --> 01:45:14,202
+they get scatter all over the place 
+
+1236
+01:45:19,728 --> 01:45:24,602
+If they hit very smooth things they tend to propagate 
+
+1237
+01:45:24,954 --> 01:45:26,730
+according to the geometric optics 
+
+1238
+01:45:27,055 --> 01:45:30,335
+For example if you have a piece of material 
+
+1239
+01:45:32,060 --> 01:45:35,749
+with a position varying index of refraction 
+
+1240
+01:45:36,065 --> 01:45:40,316
+If that index of refraction is varying very smoothly very slowly 
+
+1241
+01:45:40,704 --> 01:45:43,244
+over the wavelength of the photon 
+
+1242
+01:45:43,570 --> 01:45:46,852
+Then geometric optics is a good approximation 
+
+1243
+01:45:47,231 --> 01:45:50,803
+If on the other hand you have a diffraction grating of 
+
+1244
+01:45:51,200 --> 01:45:57,851
+distance comparable or smaller than the wavelength of the radiation 
+
+1245
+01:45:58,273 --> 01:46:01,613
+Diffraction grating will spread out all over the place 
+
+1246
+01:46:02,053 --> 01:46:06,444
+So it's it's not just the electrons electrons protons and anything
+
+1247
+01:46:09,377 --> 01:46:13,064
+Okay, if there are no other questions, 
+
+1248
+01:46:13,366 --> 01:46:17,256
+I'm gonna go home, my son have a baby
+
+1249
+01:46:26,784 --> 01:46:29,565
+For more, Please visit us at Stanford
+
+

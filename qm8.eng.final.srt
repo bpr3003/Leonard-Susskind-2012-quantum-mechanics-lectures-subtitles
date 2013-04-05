@@ -1,0 +1,5513 @@
+﻿1
+00:00:04,386 --> 00:00:06,590
+Stanford University 
+
+2
+00:00:09,485 --> 00:00:14,383
+I was talking about what happens during or from beginning from before
+
+3
+00:00:14,417 --> 00:00:16,287
+A measurement to after a measurement 
+
+4
+00:00:16,665 --> 00:00:18,830
+We are talking about what happens to the evolution 
+
+5
+00:00:19,275 --> 00:00:21,896
+of an isolated black hole left to itself 
+
+6
+00:00:23,173 --> 00:00:25,987
+between the time that it was prepared and the time it was measured 
+
+7
+00:00:26,869 --> 00:00:30,264
+Okay, nevertheless I could answer a question
+
+8
+00:00:30,796 --> 00:00:35,672
+Is entanglement inevitably irreversible?
+
+9
+00:00:36,000 --> 00:00:39,391
+If two things which are not entangled come together 
+
+10
+00:00:39,987 --> 00:00:41,055
+interact with each other
+
+11
+00:00:41,103 --> 00:00:43,794
+Do whatever they do and become entangled
+
+12
+00:00:45,240 --> 00:00:46,187
+Is it irreversible?
+
+13
+00:00:46,188 --> 00:00:49,359
+Not necessarily anything that can happen The opposite can happen
+
+14
+00:00:52,285 --> 00:00:56,904
+Now we're not talking about an external apparatus measuring the system 
+
+15
+00:00:57,467 --> 00:01:00,032
+we are simply talking for example about two spins 
+
+16
+00:01:01,128 --> 00:01:03,342
+two spins interact with each other come together 
+
+17
+00:01:03,795 --> 00:01:05,185
+go off an they are entangled 
+
+18
+00:01:06,227 --> 00:01:10,237
+what happens is it possible to disentangle them by,
+
+19
+00:01:10,250 --> 00:01:15,724
+for example, reflecting them, letting them come together and interact again
+
+20
+00:01:16,411 --> 00:01:17,252
+Can they become disentangle?
+
+21
+00:01:17,252 --> 00:01:22,814
+Yes, yes, there is no rule that says entanglement is irreversible
+
+22
+00:01:23,440 --> 00:01:26,465
+On the other hand, if an entanglement happens 
+
+23
+00:01:26,909 --> 00:01:29,573
+and you take one of the electrons off and throw it away 
+
+24
+00:01:31,169 --> 00:01:35,249
+then the other one is stuck there left being entangled with the thing that 
+
+25
+00:01:35,250 --> 00:01:37,895
+just not gonna come back, not gonna come back 
+
+26
+00:01:41,951 --> 00:01:45,103
+unless, of course, somebody out there reflect it back and 
+
+27
+00:01:45,104 --> 00:01:49,001
+so yeah entanglement is re- is reversible
+
+28
+00:01:49,844 --> 00:01:52,146
+But as far as you're concerned,
+
+29
+00:01:52,202 --> 00:01:55,229
+the measurements that you do are irreversible 
+
+30
+00:01:56,908 --> 00:02:02,006
+that's a very peculiar situation, you have to think about it
+
+31
+00:02:02,567 --> 00:02:04,266
+Understand what it means 
+
+32
+00:02:05,505 --> 00:02:09,644
+we are gonna move off the question of these very simple systems 
+
+33
+00:02:09,698 --> 00:02:16,064
+spins sometimes called qubits, tonight at some point,
+
+34
+00:02:16,065 --> 00:02:19,597
+but I want to just go over just very briefly,
+
+35
+00:02:19,941 --> 00:02:23,079
+I think I probably discussed this in class last time,
+
+36
+00:02:23,729 --> 00:02:29,893
+but nevertheless it's so important that I wanna hammer on it, 
+
+37
+00:02:31,366 --> 00:02:34,424
+first of all there was a notion of the density matrix
+
+38
+00:02:34,425 --> 00:02:36,594
+if we have two systems Alice's system, and Bob system 
+
+39
+00:02:36,595 --> 00:02:42,285
+and Alice's system or Bob system are far away from each other 
+
+40
+00:02:42,476 --> 00:02:45,945
+so that Alice doesn't get to do any experiments on Bob system 
+
+41
+00:02:46,572 --> 00:02:49,032
+Bob does not get to do experiments on Alice's system,
+
+42
+00:02:49,033 --> 00:02:52,295
+but they are entangled either they are or they are not entangled 
+
+43
+00:02:52,963 --> 00:02:53,646
+they may be entangled
+
+44
+00:02:54,778 --> 00:03:00,998
+Is their description that Alice by herself uses to describe just her subsystem 
+
+45
+00:03:01,849 --> 00:03:08,620
+the answer is yes, and the working description of her sub system is called the density matrix
+
+46
+00:03:09,278 --> 00:03:15,621
+so limited review that very very quickly and then go back over some concepts 
+
+47
+00:03:15,987 --> 00:03:19,746
+if the wave function of the Alice Bob system
+
+48
+00:03:20,495 --> 00:03:25,763
+The combined system of Alice's subsystem and Bob's
+
+49
+00:03:26,350 --> 00:03:32,664
+the wave function is called Psi of a and b,
+
+50
+00:03:32,665 --> 00:03:38,646
+b for Bob a for Alice then Alice's, Alice's density matrix
+
+51
+00:03:38,718 --> 00:03:45,049
+Alice's density matrix is defined to be psi star,
+
+52
+00:03:45,050 --> 00:03:46,316
+the complex conjugate of the wave function,
+
+53
+00:03:47,525 --> 00:03:52,714
+I know,  let's say it rho it's rho, called the density matrix,
+
+54
+00:03:52,715 --> 00:03:59,338
+it's indicated by rho, it has subscript a and a prime because it's a matrix 
+
+55
+00:03:59,339 --> 00:04:02,204
+but it doesn't have anything to do a Bob 
+
+56
+00:04:02,205 --> 00:04:05,501
+so it's purely a matrix with respect to Alice's variables 
+
+57
+00:04:05,502 --> 00:04:09,694
+let's indicate that by calling this Alice's density matrix 
+
+58
+00:04:12,011 --> 00:04:20,516
+and its given by Psi star of a b a prime b, I was getting confused 
+
+59
+00:04:20,748 --> 00:04:31,921
+a prime psi of ab, summed over Bob's variables 
+
+60
+00:04:33,369 --> 00:04:36,605
+it doesn't depend on Bob's variables because they have been summed over
+
+61
+00:04:36,711 --> 00:04:40,538
+when you sum over something it no longer depends on that set of variables,
+
+62
+00:04:40,539 --> 00:04:43,734
+so this is only a function of Alice's variables 
+
+63
+00:04:43,858 --> 00:04:54,640
+and it contains all possible all possible um, statistical information 
+
+64
+00:04:54,785 --> 00:04:59,993
+that Alice can ever know about her half of the system 
+
+65
+00:04:59,994 --> 00:05:07,283
+unless Bob comes in interact with her system of course 
+
+66
+00:05:07,941 --> 00:05:11,111
+if Bob comes from wherever he is and give,
+
+67
+00:05:11,112 --> 00:05:15,093
+her system a shove of some sort that will change her density matrix,
+
+68
+00:05:15,094 --> 00:05:18,284
+but as long as Bob stays away from her system 
+
+69
+00:05:18,462 --> 00:05:21,408
+Bob's in Palo Alto Alice's on Alpha Centauri 
+
+70
+00:05:21,409 --> 00:05:25,190
+as long as Bob does not interact directly with her system 
+
+71
+00:05:25,950 --> 00:05:30,781
+her density matrix doesn't change, no matter what Bob does
+
+72
+00:05:31,287 --> 00:05:33,336
+let me give a little proof of that 
+
+73
+00:05:34,707 --> 00:05:42,507
+let's take Bob's subsystem to not be so narrow, just to be the little spin 
+
+74
+00:05:42,508 --> 00:05:46,453
+that is carrying around and also Alice's 
+
+75
+00:05:46,454 --> 00:05:50,757
+let's imagine that Alice's subsystem consists of everything in Alice's neighborhood
+
+76
+00:05:50,758 --> 00:05:56,348
+everything that she can have any contact with 
+
+77
+00:05:56,557 --> 00:06:00,452
+everything in Bob system is everything in Bob's neighborhood,
+
+78
+00:06:00,717 --> 00:06:06,218
+Maybe even including Bob, and now Bob is going to do something 
+
+79
+00:06:06,517 --> 00:06:12,624
+he's going to do something interact of course he can only interact directly,
+
+80
+00:06:12,625 --> 00:06:16,147
+Interact mean he may turn on a magnetic field,
+
+81
+00:06:16,559 --> 00:06:22,695
+he may do all sorts of things ought to change the evolution of his sub system 
+
+82
+00:06:24,231 --> 00:06:26,964
+he's gonna make a subsystem evolve in some way
+
+83
+00:06:28,136 --> 00:06:34,669
+One of the ways which Bob can cause his sub system to evolve many many ways,
+
+84
+00:06:35,097 --> 00:06:36,990
+but whatever they are,
+
+85
+00:06:36,991 --> 00:06:39,851
+they are always governed by unitary matrices,
+
+86
+00:06:40,958 --> 00:06:45,342
+let's come over here and forget Alice for a minute and ask what Bob can do is subsystem 
+
+87
+00:06:45,776 --> 00:06:49,309
+he has a wave function, let's leave out Alice and the picture altogether 
+
+88
+00:06:50,447 --> 00:06:57,064
+just suppose that Bob has a wave function and he's gonna manipulate the system somehow 
+
+89
+00:06:58,430 --> 00:07:00,146
+he's gonna manipulate the system somehow 
+
+90
+00:07:01,064 --> 00:07:03,266
+and send it to a new wave function 
+
+91
+00:07:03,782 --> 00:07:06,644
+rule is the new wave function of his sub system 
+
+92
+00:07:07,314 --> 00:07:12,497
+must be related to the old wave function by a unitary operator 
+
+93
+00:07:12,891 --> 00:07:17,330
+unitary operators of the things which govern time evolution go back
+
+94
+00:07:17,764 --> 00:07:21,132
+Remember the time evolution, unitary operators,
+
+95
+00:07:21,133 --> 00:07:26,555
+and that means it psi of b becomes replaced by sum over b 
+
+96
+00:07:27,766 --> 00:07:29,331
+some unitary matrix                                            
+
+97
+00:07:29,332 --> 00:07:40,123
+b b prime psi of b prime in terms of wave functions in matrices
+
+98
+00:07:41,608 --> 00:07:46,394
+This is the description of what happens to Bob's matrix  
+
+99
+00:07:46,477 --> 00:07:52,417
+sorry Bob's column vector is basically called Bob's column vector 
+
+100
+00:07:52,418 --> 00:07:54,101
+describing his half of the world
+
+101
+00:07:54,518 --> 00:07:58,575
+or his system and to find out what happens to it no matter what he does 
+
+102
+00:07:58,576 --> 00:08:04,119
+even if he doesn't do anything but let's suppose he does something, he does something,
+
+103
+00:08:04,357 --> 00:08:09,648
+it generates a unitary evolution of his wave function 
+
+104
+00:08:09,649 --> 00:08:14,100
+now how do we describe the same thing in the composite language 
+
+105
+00:08:14,738 --> 00:08:21,408
+in the composite language of the wave function is psi of a and b 
+
+106
+00:08:21,725 --> 00:08:23,704
+Alice's and Bob's variable 
+
+107
+00:08:23,936 --> 00:08:28,901
+what happens to it when Bob manipulates his half of the world 
+
+108
+00:08:29,290 --> 00:08:35,606
+exactly the same thing with Alice's variables be just spectators 
+
+109
+00:08:35,607 --> 00:08:40,909
+just being passive spectators so psi of a and b just becomes psi of 
+
+110
+00:08:41,196 --> 00:08:46,690
+oops, put in there b prime, sum of b prime,
+
+111
+00:08:47,969 --> 00:08:51,381
+this is a function of b and you sum over b prime,
+
+112
+00:08:52,875 --> 00:09:00,268
+okay that's again a sum over b prime of U of b and b prime 
+
+113
+00:09:01,301 --> 00:09:06,310
+psi of a and b prime, a just passed through 
+
+114
+00:09:06,311 --> 00:09:11,065
+Alice know nothing whatever about the about this whole process 
+
+115
+00:09:11,066 --> 00:09:17,286
+her subsystem was not in any way influenced her index 
+
+116
+00:09:18,067 --> 00:09:21,659
+her part of the wave function Her half of the dependence of the wave function 
+
+117
+00:09:21,660 --> 00:09:25,431
+was uninfluenced by Bob's manipulation 
+
+118
+00:09:26,034 --> 00:09:31,437
+so let's go back and take the manipulated wave function 
+
+119
+00:09:31,915 --> 00:09:34,094
+This is the manipulated wave function 
+
+120
+00:09:36,603 --> 00:09:50,227
+call it psi, the manipulated wave function of b and a, of a and b that's this,
+
+121
+00:09:50,886 --> 00:09:57,422
+It's been modified by the action of Bob's unitary operator,
+
+122
+00:09:57,658 --> 00:10:06,243
+Okay now let's recalculate let's recalculate Alice's density matrix 
+
+123
+00:10:06,315 --> 00:10:11,022
+after all Alice's density matrix contains all information that you can ever know 
+
+124
+00:10:11,023 --> 00:10:14,613
+about her half of the world, so let's see what happened to it
+
+125
+00:10:15,242 --> 00:10:20,102
+Well we first of all have to take the manipulated psi star 
+
+126
+00:10:20,346 --> 00:10:25,930
+We have to sum over b, but now we take the manipulated psi star
+
+127
+00:10:25,931 --> 00:10:27,244
+Oh we hadn't written psi star,
+
+128
+00:10:27,711 --> 00:10:33,581
+Sorry about that we have to write psi star manipulated of 
+
+129
+00:10:34,661 --> 00:10:39,703
+and we want to know about it with index a prime and b
+
+130
+00:10:39,768 --> 00:10:45,190
+a prime and b, and now we get just to complex conjugating it 
+
+131
+00:10:45,709 --> 00:10:47,244
+this tells us how psi changes,
+
+132
+00:10:47,990 --> 00:10:56,250
+let's just work out the complex conjugate that's the complex conjugate of a prime 
+
+133
+00:10:58,460 --> 00:11:00,773
+>> Where is a and b prime? 
+
+134
+00:11:02,147 --> 00:11:05,461
+this is a prime b, just a prime and b 
+
+135
+00:11:05,663 --> 00:11:09,082
+but here since b prime is a summation variable 
+
+136
+00:11:09,395 --> 00:11:12,400
+we do not want to write b prime here, 
+
+137
+00:11:12,401 --> 00:11:15,351
+b prime was the summation variable used over here,
+
+138
+00:11:15,964 --> 00:11:18,466
+Let's just invent another one called b double prime 
+
+139
+00:11:18,979 --> 00:11:22,585
+we are gonna be, that's gonna be the summation variable in a moment 
+
+140
+00:11:23,308 --> 00:11:32,237
+and U complex conjugate of b and b double prime
+
+141
+00:11:35,294 --> 00:11:39,126
+U complex conjugate of course is a sum over b double prime 
+
+142
+00:11:41,171 --> 00:11:44,221
+and the only reason I called it b double prime instead of b 
+
+143
+00:11:44,222 --> 00:11:47,498
+was so as not to confuse it with b prime 
+
+144
+00:11:48,437 --> 00:11:50,440
+here's one sum and here is a separate sum 
+
+145
+00:11:51,378 --> 00:11:57,263
+Now here is something what do we know about unitary operators 
+
+146
+00:11:57,499 --> 00:12:05,378
+unitary operators are operators that if we interchange b 
+
+147
+00:12:05,427 --> 00:12:11,067
+if we interchange the two indices and complex conjugate what happens?
+
+148
+00:12:12,409 --> 00:12:17,661
+That's called it's called the inverse operator or the Hermitian conjugate 
+
+149
+00:12:18,481 --> 00:12:24,424
+for U, in general, it's called the Hermitian conjugate specifically for unitary,
+
+150
+00:12:24,425 --> 00:12:27,785
+it becomes the inverse operator,
+
+151
+00:12:27,786 --> 00:12:29,894
+Let's just call it the Hermitian conjugate 
+
+152
+00:12:30,316 --> 00:12:37,556
+if I un complex conjugate and interchange these two,
+
+153
+00:12:37,557 --> 00:12:40,915
+sorry b double prime b double prime, b 
+
+154
+00:12:41,170 --> 00:12:44,067
+and this becomes Hermitian conjugate 
+
+155
+00:12:46,319 --> 00:12:52,859
+alright, so this is the usual story if operators operate to the right on ket vectors,
+
+156
+00:12:53,368 --> 00:12:59,614
+the corresponding action on bra vectors is given by the by the Hermitian conjugate 
+
+157
+00:13:00,355 --> 00:13:02,503
+So now all I have to do is plug it 
+
+158
+00:13:02,504 --> 00:13:10,836
+we plug this in for the, for the manipulated psi star of summation over b b double prime
+
+159
+00:13:11,541 --> 00:13:28,248
+psi star of a prime and b double prime times U dagger of b double prime and b 
+
+160
+00:13:34,181 --> 00:13:37,215
+it's a nuisance too many indices for me to be comfortable and blackboard,
+
+161
+00:13:37,749 --> 00:13:40,549
+but I think this is worth doing 
+
+162
+00:13:40,645 --> 00:13:45,772
+now what about psi, psi is the other half it comes into the density matrix,
+
+163
+00:13:45,773 --> 00:14:01,136
+and that's U, b b prime psi of what psi of a and b prime, complicated little mess 
+
+164
+00:14:02,219 --> 00:14:10,428
+oh what do we summing over, we are summing over all the b-s basically 
+
+165
+00:14:11,012 --> 00:14:13,343
+we are summing over this b over here,
+
+166
+00:14:13,730 --> 00:14:15,383
+let's put the b summation here, 
+
+167
+00:14:16,004 --> 00:14:19,851
+we were summing over b double prime to get the manipulated wave 
+
+168
+00:14:19,945 --> 00:14:21,686
+for this complex conjugate,
+
+169
+00:14:21,777 --> 00:14:24,025
+but we also have to sum over b prime here 
+
+170
+00:14:25,647 --> 00:14:28,232
+sum over all the bs this side 
+
+171
+00:14:28,561 --> 00:14:31,450
+each b is a summation variable by the time we finished 
+
+172
+00:14:31,948 --> 00:14:34,553
+Alright but now look at what we have, 
+
+173
+00:14:34,661 --> 00:14:37,071
+it looks complicated but what is this thing over here? 
+
+174
+00:14:38,422 --> 00:14:44,005
+Well not quite yet , I will wonder, it's essentially correct,
+
+175
+00:14:44,149 --> 00:14:46,263
+but of course what you mean is the unit matrix
+
+176
+00:14:47,549 --> 00:14:50,014
+This is  the product matrix of U dagger 
+
+177
+00:14:50,440 --> 00:14:55,006
+this is a unitary matrix so U dagger is used inversed 
+
+178
+00:14:55,508 --> 00:14:57,842
+b double prime b b b prime,
+
+179
+00:14:58,052 --> 00:15:02,512
+this is just a Kronecker Delta b double prime b prime,
+
+180
+00:15:03,338 --> 00:15:08,459
+it just instructs you to set b double prime equal to b prime 
+
+181
+00:15:08,544 --> 00:15:12,378
+when you do this sum, when you do one of the two sum
+
+182
+00:15:12,781 --> 00:15:14,024
+let's say the b double prime sum 
+
+183
+00:15:14,750 --> 00:15:20,039
+so all of these then becomes sum over b prime,
+
+184
+00:15:20,301 --> 00:15:25,814
+well, let's see what have we got, we set b double prime 
+
+185
+00:15:26,635 --> 00:15:31,777
+We've done b sum over b that's done, oh sum over b we just did it,
+
+186
+00:15:31,778 --> 00:15:35,049
+and now we set b double prime equal to b prime 
+
+187
+00:15:35,468 --> 00:15:43,903
+psi star of a prime b prime, psi of a and b prime,
+
+188
+00:15:45,027 --> 00:15:52,020
+that's it doesn't matter whether we call b prime b prime or whether we call it b 
+
+189
+00:15:52,308 --> 00:15:54,821
+because it's a summation variable so let's do that 
+
+190
+00:15:54,921 --> 00:16:00,342
+Let's just call it b, and what do we have we have exactly I hope, I pray 
+
+191
+00:16:00,596 --> 00:16:06,320
+the original density matrix so Bob, no matter what he does 
+
+192
+00:16:06,613 --> 00:16:11,914
+as long as what he does is described by a unitary matrix 
+
+193
+00:16:12,216 --> 00:16:16,953
+Bob will have absolutely no effect on Alice's density matrix 
+
+194
+00:16:17,293 --> 00:16:20,272
+does not matter whether entangled or not
+
+195
+00:16:20,273 --> 00:16:23,371
+No way is that I specify that this was a product state  
+
+196
+00:16:28,047 --> 00:16:30,604
+That is what physicists call locality 
+
+197
+00:16:31,853 --> 00:16:39,697
+the inability of Bob to influence any statistical prediction of Alice's 
+
+198
+00:16:40,793 --> 00:16:44,703
+by doing a manipulation on his own degrees of freedom 
+
+199
+00:16:47,586 --> 00:16:50,904
+locality is not violated, this form of locality
+
+200
+00:16:50,905 --> 00:16:59,023
+This form of locality is not violated in any way by the phenomenon of entanglement  
+
+201
+00:17:00,038 --> 00:17:07,401
+that's the technical argument, notice that it does depend on unitarity 
+
+202
+00:17:07,546 --> 00:17:16,280
+so what do unitarity do, unitarity had to do with conservation of distinctions 
+
+203
+00:17:17,047 --> 00:17:19,147
+what I called the minus first law,
+
+204
+00:17:19,328 --> 00:17:20,805
+at least in its quantum mechanical version 
+
+205
+00:17:21,739 --> 00:17:23,584
+so funny and interesting interplay 
+
+206
+00:17:24,673 --> 00:17:29,293
+funny, interesting interplay between the conservation of distinctions on the one hand 
+
+207
+00:17:30,038 --> 00:17:30,618
+and locality
+
+208
+00:17:31,941 --> 00:17:39,381
+If Bob somehow had access to changes which were not described by unitary operators,
+
+209
+00:17:39,749 --> 00:17:42,870
+this would not have become the unit matrix over here
+
+210
+00:17:43,279 --> 00:17:50,816
+and the final density matrix, Alice's final density matrix indeed would have been modified 
+
+211
+00:17:51,336 --> 00:17:54,775
+this is interesting the way the whole thing holds together 
+
+212
+00:17:54,995 --> 00:17:57,861
+this is why it's so hard to change quantum mechanics
+
+213
+00:17:57,916 --> 00:17:59,170
+you wanna play a little game,
+
+214
+00:17:59,645 --> 00:18:04,303
+let's let Bob tha's Bob's evolution, not quite be unitary,
+
+215
+00:18:04,584 --> 00:18:05,867
+only approximately unitary, 
+
+216
+00:18:06,526 --> 00:18:11,175
+well then immediately you start sending signals faster than speed of light 
+
+217
+00:18:11,784 --> 00:18:16,243
+How? by instantly modifying Alice's density matrix 
+
+218
+00:18:18,596 --> 00:18:20,444
+so things hold together tightly 
+
+219
+00:18:21,313 --> 00:18:22,559
+and it's hard to change them 
+
+220
+00:18:26,367 --> 00:18:28,295
+good so yes so 
+
+221
+00:18:29,279 --> 00:18:36,432
+>>Is it correct to say that Bob's matrix is unitary?
+
+222
+00:18:36,640 --> 00:18:48,532
+He's not able to change Alice's, Alice's system
+
+223
+00:18:49,390 --> 00:18:52,887
+He's changed his own system by doing something 
+
+224
+00:18:53,488 --> 00:18:55,784
+in the doing something was described by this unitary matrix 
+
+225
+00:18:57,454 --> 00:19:00,176
+>> that's the part I confused, if you are doing something 
+
+226
+00:19:00,408 --> 00:19:02,310
+>> Isn't he going to violate the unitarity?
+
+227
+00:19:04,329 --> 00:19:06,847
+For example, he might be turning a magnet,
+
+228
+00:19:08,536 --> 00:19:11,266
+He might be turning a magnet in such a way 
+
+229
+00:19:11,267 --> 00:19:13,395
+that it has an influence on his spin 
+
+230
+00:19:14,044 --> 00:19:17,484
+What is that influence? It will change the state of the spin
+
+231
+00:19:18,260 --> 00:19:27,059
+For example,  if you have a spin in a given direction and it's coupled to a magnetic field
+
+232
+00:19:27,443 --> 00:19:29,821
+Then you turn the magnetic field in some way  
+
+233
+00:19:30,159 --> 00:19:32,635
+It will typically change the evolution of the spin 
+
+234
+00:19:34,226 --> 00:19:37,951
+So Bob can do that, he can change a magnetic field,
+
+235
+00:19:38,050 --> 00:19:39,383
+it's acting on certain spin,
+
+236
+00:19:40,186 --> 00:19:43,975
+the result will be to change the way the spin evolves 
+
+237
+00:19:44,634 --> 00:19:48,165
+that will change his own measurements of the spin of his spin 
+
+238
+00:19:50,447 --> 00:19:56,028
+if he does act by rotating a magnetic field 
+
+239
+00:19:56,884 --> 00:20:02,193
+which is mathematically described by some sort of evolution of matter what 
+
+240
+00:20:02,197 --> 00:20:05,086
+some sort of evolution, it's described by unitary operator 
+
+241
+00:20:06,085 --> 00:20:13,575
+then the that he does change the results of his own measurements 
+
+242
+00:20:16,711 --> 00:20:19,711
+he rotates a magnetic field, but it doesn't rotated his apparatus 
+
+243
+00:20:20,278 --> 00:20:23,995
+the result is he is gonna change the probability distributions of his own spin,
+
+244
+00:20:25,068 --> 00:20:28,483
+but he will not change any of the probabilities of Alice's spin
+
+245
+00:20:29,051 --> 00:20:30,497
+okay 
+
+246
+00:20:30,498 --> 00:20:34,515
+>> So what you are saying is quantum mechanics always violates locality?
+
+247
+00:20:36,521 --> 00:20:44,423
+The locality defined by the inability of Bob to influence Alice's measurements
+
+248
+00:20:46,054 --> 00:20:49,504
+So what's the big deal? Is that what you are gonna ask?
+
+249
+00:20:51,734 --> 00:20:55,507
+I was guessing what you are gonna ask
+
+250
+00:20:58,804 --> 00:21:02,308
+>>single particle wave function, put a beam over 
+
+251
+00:21:02,949 --> 00:21:05,141
+>>it goes off to two different direction 
+
+252
+00:21:05,755 --> 00:21:09,276
+>>one of your detector is faster than the speed of light
+
+253
+00:21:09,696 --> 00:21:10,590
+>> then the wave function collapsed
+
+254
+00:21:10,591 --> 00:21:12,620
+What what what what, you do what?
+
+255
+00:21:12,630 --> 00:21:15,540
+>>You detect the photon at one detector 
+
+256
+00:21:17,309 --> 00:21:20,671
+>>the function of the other detector collapse instantaneously
+
+257
+00:21:22,616 --> 00:21:28,691
+I tell you what happened, density matrix of the other system does not change, period
+
+258
+00:21:29,981 --> 00:21:41,594
+>>
+
+259
+00:21:41,604 --> 00:21:47,635
+I know I know I know people, look I'm doing my absolute best to tell it to you 
+
+260
+00:21:47,636 --> 00:21:51,960
+as it really is and cut through the craps that's out there 
+
+261
+00:21:54,786 --> 00:21:56,211
+cut through the crap that's out there 
+
+262
+00:21:56,830 --> 00:22:00,501
+because there is a huge amount of there is a pile of mile high,
+
+263
+00:22:01,925 --> 00:22:03,309
+and we somehow want to cut through that 
+
+264
+00:22:04,650 --> 00:22:07,564
+this is the mathematics of cutting through it 
+
+265
+00:22:08,268 --> 00:22:12,411
+now, nevertheless there was some pretty damn smart people 
+
+266
+00:22:13,110 --> 00:22:15,809
+who are uncomfortable about something
+
+267
+00:22:15,903 --> 00:22:17,994
+Something that they call non-locality 
+
+268
+00:22:19,003 --> 00:22:21,679
+You know Einstein was no jerk, he was pretty smart 
+
+269
+00:22:23,389 --> 00:22:24,678
+He ain't called Einstein for nothing
+
+270
+00:22:24,679 --> 00:22:26,529
+That's my favorite joke
+
+271
+00:22:32,404 --> 00:22:35,788
+John bell was pretty smart They didn't call him Einstein though
+
+272
+00:22:38,435 --> 00:22:40,807
+So there's something going on, something going on
+
+273
+00:22:43,800 --> 00:22:49,397
+I'm gonna get, I'm reviewing last week, so very quick 
+
+274
+00:22:49,398 --> 00:22:56,841
+>>as you and that is the and idea of Locality means that 
+
+275
+00:22:57,491 --> 00:23:00,043
+>> the state don't effect each other
+
+276
+00:23:00,044 --> 00:23:06,051
+>>the density, and the confusing part is, 
+
+277
+00:23:07,578 --> 00:23:15,623
+>>it seems two different things get mixed up and now, Is that accurate or?
+
+278
+00:23:16,187 --> 00:23:18,765
+No it's positive, but it's true
+
+279
+00:23:23,710 --> 00:23:28,656
+I will try to tell you as I understand it,
+
+280
+00:23:30,257 --> 00:23:36,856
+what the concrete operational facts are
+
+281
+00:23:36,857 --> 00:23:42,518
+I was a little bit tired last time, and I'm not sure I was completely clear 
+
+282
+00:23:42,648 --> 00:23:45,812
+So I want to go over it again because it's very very interesting
+
+283
+00:23:47,269 --> 00:23:50,592
+It really is at the heart of all of the confusions about confusions
+
+284
+00:23:50,593 --> 00:23:52,262
+Confusions I mean, I must say 
+
+285
+00:23:52,263 --> 00:23:55,490
+including my own internal confusions about quantum mechanics 
+
+286
+00:23:56,935 --> 00:24:00,794
+when I first learned about the Einstein Rosen Podolsky 
+
+287
+00:24:03,098 --> 00:24:05,858
+I don't know who discovery, I think maybe Schrodinger 
+
+288
+00:24:06,709 --> 00:24:08,089
+says something about entanglement,
+
+289
+00:24:09,166 --> 00:24:11,090
+but it was Einstein Rosen Podolsky,
+
+290
+00:24:11,582 --> 00:24:13,611
+who really called attention to peculiar was 
+
+291
+00:24:14,971 --> 00:24:18,576
+basically what they said is we have a very funny situation here where 
+
+292
+00:24:18,610 --> 00:24:22,152
+although we can know everything that can possibly be known about a composite system 
+
+293
+00:24:22,943 --> 00:24:24,902
+we know nothing at all about its constituent
+
+294
+00:24:25,636 --> 00:24:29,256
+That's crazy violates my sense of reality that violates my sense 
+
+295
+00:24:30,128 --> 00:24:32,477
+of what it means to know what a system is doing 
+
+296
+00:24:33,972 --> 00:24:36,069
+violates all sorts of things, when I first heard about it
+
+297
+00:24:36,070 --> 00:24:41,026
+I was actually before John Bell some time in the 60s when a student 
+
+298
+00:24:41,027 --> 00:24:45,798
+when I wasn't a student, or when I was a young assistant professor then
+
+299
+00:24:45,813 --> 00:24:47,412
+Think about it after about a lot 
+
+300
+00:24:48,689 --> 00:24:49,440
+try to figure out what it means 
+
+301
+00:24:50,512 --> 00:24:58,002
+I was sort of inclined to try to think about it in terms of simulating quantum mechanics,
+
+302
+00:24:58,003 --> 00:24:58,832
+and I still am
+
+303
+00:24:59,193 --> 00:25:03,465
+What are the limits if if if quantum mechanics is so very strange 
+
+304
+00:25:03,999 --> 00:25:06,419
+and so very different than classical physics 
+
+305
+00:25:06,486 --> 00:25:12,911
+does it mean that you can't fool somebody into thinking the system is quantum mechanical 
+
+306
+00:25:12,912 --> 00:25:16,507
+if all you have your resources are entirely classical 
+
+307
+00:25:17,814 --> 00:25:19,533
+and the answer is yes and no 
+
+308
+00:25:20,223 --> 00:25:22,160
+so I know I talked about this last time,
+
+309
+00:25:22,245 --> 00:25:23,859
+but it really is at the center of thing
+
+310
+00:25:23,860 --> 00:25:26,108
+Let's go back over it quick, quick as I can
+
+311
+00:25:26,641 --> 00:25:29,054
+we get a build ourselves a quantum simulator
+
+312
+00:25:29,277 --> 00:25:34,732
+I think somebody built one on the site I came across about an hour ago, who's that?
+
+313
+00:25:36,255 --> 00:25:36,866
+Does it work?
+
+314
+00:25:37,988 --> 00:25:40,035
+>>It doesn't really simulate yet
+
+315
+00:25:41,582 --> 00:25:43,531
+Is that picture your picture?
+
+316
+00:25:44,175 --> 00:25:47,705
+There's a picture of Einstein, Heisenberg and Einstein I don't like this
+
+317
+00:25:48,803 --> 00:25:49,334
+Heisenberg's of 
+
+318
+00:25:51,257 --> 00:25:52,351
+>>Einstein said,
+
+319
+00:25:52,352 --> 00:26:02,355
+I will like this you are you put it,
+
+320
+00:26:02,356 --> 00:26:03,228
+I think that captures it
+
+321
+00:26:04,866 --> 00:26:08,261
+let's talk about the nature of quantum simulators are 
+
+322
+00:26:09,274 --> 00:26:11,506
+first of all I just want to simulate a single spin
+
+323
+00:26:11,828 --> 00:26:13,165
+I think I told you how to do it,
+
+324
+00:26:13,240 --> 00:26:14,494
+but let's write down the steps 
+
+325
+00:26:14,938 --> 00:26:20,686
+we have a computer screen, here's a computer screen on the screen
+
+326
+00:26:21,361 --> 00:26:24,858
+We have a picture of the detector I will write down a detector apparatus 
+
+327
+00:26:25,292 --> 00:26:29,399
+and the apparatus can be oriented in any direction in three-dimensional space
+
+328
+00:26:29,400 --> 00:26:32,109
+We need to do some of three-dimensional graphics here 
+
+329
+00:26:33,843 --> 00:26:39,644
+and it has a window and the window shows one of three possible states
+
+330
+00:26:40,298 --> 00:26:44,497
+One is called blank, the that's the that's the detector of the apparatus 
+
+331
+00:26:44,884 --> 00:26:47,218
+before its interacted with anything 
+
+332
+00:26:47,733 --> 00:26:53,258
+so it can be b or plus or minus one, b is not important,
+
+333
+00:26:53,985 --> 00:26:57,436
+it's just there to say before the detector interact with anything 
+
+334
+00:26:58,013 --> 00:26:59,425
+There is a button over here called m 
+
+335
+00:27:01,247 --> 00:27:05,917
+and the operator of the system of the computer game, 
+
+336
+00:27:06,534 --> 00:27:10,523
+basically all you get to do was press M and then look at the result of 
+
+337
+00:27:11,029 --> 00:27:13,251
+M stands for measure performs a measurement
+
+338
+00:27:14,031 --> 00:27:20,007
+Now all I hear connected to the computer by wires of our cables,
+
+339
+00:27:20,514 --> 00:27:24,907
+Connected to the screen by cables is a computer 
+
+340
+00:27:25,566 --> 00:27:27,873
+and the computer stores information in its memory,
+
+341
+00:27:27,874 --> 00:27:32,397
+and the basic information that it stores is two complex numbers 
+
+342
+00:27:33,029 --> 00:27:34,472
+alpha up and alpha down 
+
+343
+00:27:35,201 --> 00:27:38,131
+those are supposed to be the components of the wave function of the spin 
+
+344
+00:27:39,395 --> 00:27:41,034
+I didn't say there is the spin here,
+
+345
+00:27:41,271 --> 00:27:42,551
+but that's sort of what we are talking about 
+
+346
+00:27:43,461 --> 00:27:44,482
+alpha up and alpha down, 
+
+347
+00:27:46,447 --> 00:27:52,001
+the computer only can generate alphas which satisfy alpha star alpha up
+
+348
+00:27:52,304 --> 00:27:54,101
+Plus Alpha star alpha down is equal to one 
+
+349
+00:27:55,545 --> 00:27:58,495
+Whenever it generate them, and it can do something else 
+
+350
+00:27:58,496 --> 00:28:01,863
+It can do two other things 
+
+351
+00:28:02,585 --> 00:28:08,003
+it can update the alphas by solving the Schrodinger equation for them
+
+352
+00:28:08,581 --> 00:28:10,560
+There's some Hamiltonian For example,
+
+353
+00:28:10,630 --> 00:28:15,704
+It could be that the spins are in a, the spin is in an imaginary magnetic field
+
+354
+00:28:16,144 --> 00:28:19,181
+In which case the alphas would change with time,
+
+355
+00:28:20,185 --> 00:28:24,215
+the computer knows how to do that, it knows how to solve Schrodinger's equation 
+
+356
+00:28:24,328 --> 00:28:27,038
+computers can solve Schrodinger's equation beautifully 
+
+357
+00:28:28,657 --> 00:28:32,408
+and it updates these as a function of time 
+
+358
+00:28:33,870 --> 00:28:36,921
+updates them according to the rules of quantum mechanics
+
+359
+00:28:37,223 --> 00:28:40,958
+One of the thing the cables are instantaneous
+
+360
+00:28:41,228 --> 00:28:47,753
+They convey information instantly and so will have one more element
+
+361
+00:28:47,754 --> 00:28:51,193
+The other element will be a random number generator
+
+362
+00:28:51,488 --> 00:28:53,742
+Let me just say some words about random number generators 
+
+363
+00:28:53,908 --> 00:28:56,558
+random number generators sounds we are introducing quantum mechanics
+
+364
+00:28:56,843 --> 00:28:58,178
+No, we don't need quantum mechanics 
+
+365
+00:28:59,129 --> 00:29:03,605
+you can simulate to a very very high degree of confidence 
+
+366
+00:29:04,706 --> 00:29:07,887
+random sequence of random numbers of random number generator
+
+367
+00:29:08,343 --> 00:29:12,853
+Purely out of classical classical considerations you how to do it,
+
+368
+00:29:13,457 --> 00:29:15,830
+you take the digits of pi whatever and 
+
+369
+00:29:16,715 --> 00:29:19,823
+you make something that looks would fool anybody,
+
+370
+00:29:20,592 --> 00:29:23,207
+including a sophisticated mathematician into believing 
+
+371
+00:29:24,213 --> 00:29:26,300
+that you are generating a set of random numbers 
+
+372
+00:29:26,349 --> 00:29:28,695
+There is a random number generator inside the computer 
+
+373
+00:29:29,769 --> 00:29:33,382
+the operator starts by initializing of the system 
+
+374
+00:29:33,383 --> 00:29:42,550
+and initializing the system simply means starting out some orientation for the detector 
+
+375
+00:29:42,572 --> 00:29:44,332
+for the apparatus doesn't matter what,
+
+376
+00:29:45,059 --> 00:29:47,853
+and setting the alphas to some initial values 
+
+377
+00:29:49,568 --> 00:29:52,833
+you can plug in what he wants he wants the initial values to be,
+
+378
+00:29:53,457 --> 00:29:56,567
+or the computer sets them according to whatever rule, it likes 
+
+379
+00:29:57,740 --> 00:30:03,600
+then the system runs for a period of time an indetermined period of time 
+
+380
+00:30:04,801 --> 00:30:12,245
+updating the alphas until the operator decides to press M 
+
+381
+00:30:13,538 --> 00:30:16,938
+a certain amount of time is elapsed the operator decides how much time 
+
+382
+00:30:17,555 --> 00:30:20,339
+and presses M at that point,
+
+383
+00:30:21,694 --> 00:30:26,431
+the random number generator generates a plus one or minus one,
+
+384
+00:30:27,361 --> 00:30:31,220
+but with probability alpha star alpha up that it's plus one,
+
+385
+00:30:32,826 --> 00:30:36,063
+sorry, alpha up alpha up star plus one,
+
+386
+00:30:36,810 --> 00:30:41,283
+or else alpha star alpha down that's minus one 
+
+387
+00:30:41,997 --> 00:30:45,390
+remember the sum of these two alpha star alpha add up to one 
+
+388
+00:30:46,311 --> 00:30:49,059
+so we went on to be a random number generator,
+
+389
+00:30:50,189 --> 00:30:56,149
+the computer sends a signal with a probability of the appropriate probability 
+
+390
+00:30:57,293 --> 00:31:04,235
+to the detector and the detector detects or registers what the computer sent it 
+
+391
+00:31:05,436 --> 00:31:07,689
+That's one measurement
+
+392
+00:31:08,353 --> 00:31:15,104
+Now as soon as that happens the computer reinitializes the alphas 
+
+393
+00:31:15,730 --> 00:31:21,087
+how does it reinitialize the alphas, if the detector detected plus one,
+
+394
+00:31:22,778 --> 00:31:26,492
+then it sends back a message that it doesn't really need to send back a message after all,
+
+395
+00:31:26,688 --> 00:31:28,023
+this message got review here 
+
+396
+00:31:28,223 --> 00:31:32,718
+so the computer over here knows whether it got plus one or minus one 
+
+397
+00:31:33,219 --> 00:31:35,991
+if the detector saw a plus one
+
+398
+00:31:36,812 --> 00:31:43,087
+Then it sets alpha u back to one and sets alpha d to zero
+
+399
+00:31:44,779 --> 00:31:48,165
+Another words, it does what we call collapsing the wave function 
+
+400
+00:31:48,960 --> 00:31:54,316
+according to the result, according to the outcome of the measurement
+
+401
+00:31:54,597 --> 00:31:59,788
+We reinitializes the alphas so what was measured 
+
+402
+00:32:01,136 --> 00:32:06,330
+you start with probability one for the outcome a probability zero
+
+403
+00:32:06,503 --> 00:32:09,556
+what shall we call it the anti-outcome,
+
+404
+00:32:11,118 --> 00:32:13,690
+and then it runs again solve the Schrodinger equation 
+
+405
+00:32:13,813 --> 00:32:18,433
+does it again the operator make  whatever decision he likes 
+
+406
+00:32:19,143 --> 00:32:23,594
+what makes him decide to press the M ?
+
+407
+00:32:24,199 --> 00:32:28,149
+He's an experimental physicist what makes experimental physicists do what they do
+
+408
+00:32:28,150 --> 00:32:29,585
+I don't really know,
+
+409
+00:32:29,822 --> 00:32:33,287
+but but he does what experimental physicist 
+
+410
+00:32:33,412 --> 00:32:37,329
+now and then he presses M and there's a whole operation over again 
+
+411
+00:32:37,893 --> 00:32:41,459
+it oh sorry before he does,
+
+412
+00:32:43,114 --> 00:32:44,955
+he may decide to rotate the apparatus 
+
+413
+00:32:46,922 --> 00:32:53,008
+now the computer in here knows what the orientation of the apparatuses 
+
+414
+00:32:53,580 --> 00:32:59,774
+so when it calculates it not only calculates the updated alphas,
+
+415
+00:32:59,775 --> 00:33:05,605
+but it also calculates the probabilities for the rotated detector 
+
+416
+00:33:06,037 --> 00:33:07,639
+to detect whatever it's going to detect 
+
+417
+00:33:08,687 --> 00:33:13,105
+that's all algebra and a little bit of that's the purely algebra
+
+418
+00:33:13,514 --> 00:33:16,170
+The computer makes a kind of calculations that you did 
+
+419
+00:33:17,032 --> 00:33:21,525
+or presumably did, makes a kind of calculations to calculate 
+
+420
+00:33:22,123 --> 00:33:23,339
+what the probability would be 
+
+421
+00:33:24,243 --> 00:33:27,911
+that if the detector was rotated in some arbitrary direction,
+
+422
+00:33:28,713 --> 00:33:32,608
+then the then what's the probability that it will get up or down
+
+423
+00:33:33,975 --> 00:33:36,380
+Now who was it that decides to rotate the computer?
+
+424
+00:33:37,122 --> 00:33:39,531
+Well it's the operator again the experimentalist 
+
+425
+00:33:40,472 --> 00:33:44,131
+experimentalist not only can press M and but he can also 
+
+426
+00:33:45,442 --> 00:33:47,571
+reorient the detector anytime he wants
+
+427
+00:33:49,650 --> 00:33:54,598
+This is about as much as an experimental physicist can do with that spin 
+
+428
+00:33:55,750 --> 00:34:02,436
+rotate the apparatus measure, rotate the apparatus again measure 
+
+429
+00:34:03,282 --> 00:34:05,991
+and what's the result of the outcome of this? 
+
+430
+00:34:06,237 --> 00:34:11,858
+the outcome of this is indistinguishable from what the experimental physicist 
+
+431
+00:34:12,342 --> 00:34:12,934
+examining the spin would see 
+
+432
+00:34:14,147 --> 00:34:15,262
+so we simulated quantum mechanics 
+
+433
+00:34:17,064 --> 00:34:21,479
+alright, now we want to know whether we can simulate quantum mechanics of two spins 
+
+434
+00:34:22,631 --> 00:34:27,237
+one on Alice's side of the world over here and one on Bob side of the world's 
+
+435
+00:34:29,204 --> 00:34:31,305
+>> I don't know what the purposes of M
+
+436
+00:34:32,701 --> 00:34:38,669
+>> When he decided to push it
+
+437
+00:34:44,982 --> 00:34:47,102
+Ya the computer has been updating all this time 
+
+438
+00:34:47,872 --> 00:34:52,846
+>> Alright when we talk about our basic model of spin world, the Hamiltonian of it
+
+439
+00:34:54,130 --> 00:34:58,776
+we did talk about Hamiltonian we talk about Hamiltonian's 
+
+440
+00:34:58,785 --> 00:35:02,752
+and how Hamiltonian's update the state of the system, you're right,
+
+441
+00:35:03,081 --> 00:35:08,390
+we didn't discuss how a, we didn't discuss much about Hamiltonians with spin 
+
+442
+00:35:09,279 --> 00:35:16,242
+yes we did I believe I described the spin and the magnetic field 
+
+443
+00:35:16,508 --> 00:35:18,858
+and how the average spin process 
+
+444
+00:35:20,234 --> 00:35:21,935
+>> But we didn't have a magnetic field
+
+445
+00:35:23,039 --> 00:35:23,787
+>> Last time we talk about
+
+446
+00:35:32,939 --> 00:35:35,778
+right there is no real magnetic field,
+
+447
+00:35:35,779 --> 00:35:39,767
+It's just the imaginary magnetic field that the computer knows about 
+
+448
+00:35:39,815 --> 00:35:41,401
+and where does it come into, 
+
+449
+00:35:41,739 --> 00:35:45,481
+it comes into the solution of the nature of the exact Schrodinger equation,
+
+450
+00:35:45,972 --> 00:35:53,124
+okay now we do this over here and precisely the same thing over here,
+
+451
+00:35:54,214 --> 00:35:58,628
+except instead of alphas we have betas, beta stand for Bob 
+
+452
+00:36:01,352 --> 00:36:04,999
+exactly the same set up replicated twice 
+
+453
+00:36:12,604 --> 00:36:16,214
+Bob does his measurement hours of measurements 
+
+454
+00:36:16,215 --> 00:36:19,033
+And he's perfectly happy with each one says I have a spin 
+
+455
+00:36:19,374 --> 00:36:22,340
+quantum mechanical, they don't talk to each other,
+
+456
+00:36:23,232 --> 00:36:25,694
+and each one says my spin is in a state,
+
+457
+00:36:27,749 --> 00:36:30,824
+the language that we would describe this by quantum mechanically 
+
+458
+00:36:31,533 --> 00:36:33,650
+is they have simulated a product state,
+
+459
+00:36:35,206 --> 00:36:40,918
+a product state in which Bob's sorry Alice's wave function is this 
+
+460
+00:36:41,659 --> 00:36:46,035
+and Bob's wave function is this, and the combined system is in a product state 
+
+461
+00:36:47,321 --> 00:36:51,252
+supposing now we want to simulate a any state,
+
+462
+00:36:52,193 --> 00:36:55,488
+a more complete description that includes entangled states 
+
+463
+00:36:56,011 --> 00:36:57,313
+well we can do it this way,
+
+464
+00:36:57,699 --> 00:36:59,577
+let's start with a way sort guaranteed to work 
+
+465
+00:37:01,092 --> 00:37:04,532
+we take the computer we put it in the middle of a single computer 
+
+466
+00:37:05,702 --> 00:37:10,676
+we can think of a single computer as we like as a pair of computers connected by wires 
+
+467
+00:37:10,724 --> 00:37:14,132
+but just the fact that they are communicating with each other interacting with each other
+
+468
+00:37:14,714 --> 00:37:20,306
+Really makes in a single computer and in that single computer we now store 
+
+469
+00:37:20,779 --> 00:37:29,120
+four complex numbers, the four complex numbers that we store in there are alpha up up,
+
+470
+00:37:29,821 --> 00:37:34,792
+alpha up down, alpha down up alpha down down,
+
+471
+00:37:36,774 --> 00:37:40,904
+these complex numbers here are not necessarily products in fact,
+
+472
+00:37:41,997 --> 00:37:42,699
+let's assume the not products 
+
+473
+00:37:43,213 --> 00:37:45,124
+another words at this is not a product state,
+
+474
+00:37:45,222 --> 00:37:46,884
+let's assume it's a highly entangled state,
+
+475
+00:37:48,656 --> 00:37:52,084
+even a highly entangled state is described by for complex numbers like this 
+
+476
+00:37:53,458 --> 00:37:57,139
+that's what's in the computer, and what does the computer do with it?
+
+477
+00:37:58,519 --> 00:38:02,258
+It evolves the Schrodinger equation first of all,
+
+478
+00:38:02,587 --> 00:38:06,538
+we initialize same deal, we initialize we start with some alphas 
+
+479
+00:38:08,304 --> 00:38:16,547
+the alphas are allowed to run according to whatever the Schrodinger equation describes them
+
+480
+00:38:16,778 --> 00:38:23,210
+and at the end, either Bob or Alice or both without knowing what the other one is doing 
+
+481
+00:38:23,983 --> 00:38:27,837
+press, or as the case may be, don't press their measurement buttons 
+
+482
+00:38:28,862 --> 00:38:31,611
+once the measurement button has been pressed and 
+
+483
+00:38:32,704 --> 00:38:35,540
+instantaneous signal goes back to the computer 
+
+484
+00:38:36,098 --> 00:38:39,000
+the computer grinds out random number generator 
+
+485
+00:38:39,710 --> 00:38:44,358
+and whichever side was measured sends a signal to the detector 
+
+486
+00:38:44,613 --> 00:38:48,004
+with appropriate probability either plus one or minus one 
+
+487
+00:38:49,044 --> 00:38:56,119
+and then reinitializes itself, reinitialize itself in a way that doesn't touch for example 
+
+488
+00:38:56,727 --> 00:39:04,081
+if Alice does the experiment then it doesn't touch Bob's end of things,
+
+489
+00:39:04,972 --> 00:39:10,956
+if Bob does the experiment the computer reinitializes his half of the wave function,
+
+490
+00:39:11,377 --> 00:39:15,107
+which is another way of saying throws away the piece that you didn't measure 
+
+491
+00:39:15,755 --> 00:39:19,899
+throws away the pieces you didn't measure and re-normalizes the wave function 
+
+492
+00:39:20,144 --> 00:39:21,748
+so that the total probability is one 
+
+493
+00:39:23,641 --> 00:39:28,285
+exactly the same thing is, no no real difference with a single system,
+
+494
+00:39:28,668 --> 00:39:31,278
+you can simulated you can simulate a way 
+
+495
+00:39:31,620 --> 00:39:35,865
+which would describe all the possible things that Alice and Bob can measure 
+
+496
+00:39:36,744 --> 00:39:40,671
+into whether or not the system was, was entangled 
+
+497
+00:39:42,558 --> 00:39:45,038
+where is where we get in trouble 
+
+498
+00:39:46,119 --> 00:39:51,790
+we get in trouble if after initializing we tried to separate the computers and break the wires
+
+499
+00:39:53,895 --> 00:39:55,861
+For example, here's what we might do
+
+500
+00:39:57,020 --> 00:40:00,865
+Given these alphas we might put them into both computers 
+
+501
+00:40:02,081 --> 00:40:05,416
+take the set of alphas that we generated, put this one into this computer
+
+502
+00:40:05,417 --> 00:40:10,096
+This one into this computer, computers are not gonna talk to each other
+
+503
+00:40:10,948 --> 00:40:12,872
+They have to have separate window number generators 
+
+504
+00:40:14,936 --> 00:40:16,894
+and the random number generators will not talk to each other
+
+505
+00:40:18,094 --> 00:40:21,328
+Each one contains the full entangled state, 
+
+506
+00:40:23,402 --> 00:40:25,512
+and then we go through the same operation
+
+507
+00:40:26,409 --> 00:40:27,130
+what's going to happen?
+
+508
+00:40:27,988 --> 00:40:30,057
+The computer is simply going to forget
+
+509
+00:40:31,807 --> 00:40:34,003
+For example, for a highly entangled state,
+
+510
+00:40:34,357 --> 00:40:36,134
+let's say the entangled state is the singlet state 
+
+511
+00:40:38,149 --> 00:40:42,777
+then the right answer would be that if Bob and Alice both measure 
+
+512
+00:40:44,318 --> 00:40:47,378
+they should get opposite values for any spin
+
+513
+00:40:48,748 --> 00:40:51,714
+if they measure the X component of the spin they should get opposite values,
+
+514
+00:40:52,624 --> 00:40:55,778
+if they measure Y components of spin, they should get opposite values,
+
+515
+00:40:56,554 --> 00:41:01,058
+but if when we separate them They have separate random number generators 
+
+516
+00:41:02,312 --> 00:41:04,661
+the random number generators don't talk to each other 
+
+517
+00:41:05,373 --> 00:41:09,121
+than guess what's gonna happen is gonna be no correlation of any kind 
+
+518
+00:41:09,830 --> 00:41:14,126
+between what Bob measure than what Alice measures no,
+
+519
+00:41:14,147 --> 00:41:19,352
+Bob makes that measure plus and Alice may also measure plus 
+
+520
+00:41:19,417 --> 00:41:22,595
+because the random number generators are not connected to each other 
+
+521
+00:41:23,716 --> 00:41:27,386
+So even though both computers may know about the full state of the system
+
+522
+00:41:28,656 --> 00:41:30,726
+If the random number generators don't talk to each other 
+
+523
+00:41:31,564 --> 00:41:37,672
+then the results of the experiments will not contain the correlation 
+
+524
+00:41:39,758 --> 00:41:43,721
+the correlation that Bob and Alice could later come together and 
+
+525
+00:41:43,802 --> 00:41:48,121
+report Bob would say my first experiments are plus 
+
+526
+00:41:49,477 --> 00:41:50,626
+if things were working right,
+
+527
+00:41:50,820 --> 00:41:55,758
+then Alice's should save my first experiments are minus and so forth and so on 
+
+528
+00:41:56,508 --> 00:42:00,196
+that correlation will not be there once you try to separate the computers 
+
+529
+00:42:00,764 --> 00:42:04,327
+>> will the random number be correlated if you don't separate the computers?
+
+530
+00:42:05,434 --> 00:42:10,274
+you can have, you can have a single random number generator 
+
+531
+00:42:10,518 --> 00:42:12,160
+that sends out signals to both computers 
+
+532
+00:42:13,141 --> 00:42:17,278
+it sends out a signal plus one to this computer 
+
+533
+00:42:17,861 --> 00:42:20,240
+and sends out a signal minus one for the computer 
+
+534
+00:42:21,798 --> 00:42:24,481
+so all you need is a single random number generator,
+
+535
+00:42:24,738 --> 00:42:27,128
+but it has to be able to talk to both computers 
+
+536
+00:42:30,298 --> 00:42:34,513
+so this got to be wires in the world, this is gotta be wires in the world,
+
+537
+00:42:34,963 --> 00:42:36,576
+connecting this side and this side 
+
+538
+00:42:37,349 --> 00:42:40,435
+and if for no other reason than they can both 
+
+539
+00:42:40,456 --> 00:42:42,290
+connect to the same random number generator 
+
+540
+00:42:42,819 --> 00:42:49,187
+>>you will and will just and
+
+541
+00:42:49,188 --> 00:42:49,623
+Think about it,
+
+542
+00:42:53,902 --> 00:42:54,943
+that's, that's sort of right
+
+543
+00:42:55,002 --> 00:43:02,268
+Once you separated them, then what happens next after some measurements are made
+
+544
+00:43:02,614 --> 00:43:05,249
+doesn't preserve the relationship between them 
+
+545
+00:43:06,188 --> 00:43:08,120
+they become disconnected from each other
+
+546
+00:43:09,673 --> 00:43:10,877
+So think about it a little bit
+
+547
+00:43:11,708 --> 00:43:16,012
+I mean even better try to simulated it, this is, I have never tried,
+
+548
+00:43:16,384 --> 00:43:19,475
+but I don't think it should be that hard if you tdo a little bit of computer programming 
+
+549
+00:43:21,972 --> 00:43:27,149
+I've simulated much harder things, than that when my son was a little kid
+
+550
+00:43:27,779 --> 00:43:29,905
+We had this thing called BASIC anybody remember BASIC 
+
+551
+00:43:31,086 --> 00:43:34,370
+and he and I designed a basketball game and have friction 
+
+552
+00:43:36,529 --> 00:43:37,832
+well much harder than this,
+
+553
+00:43:38,214 --> 00:43:41,771
+so that was my last experience of programming anything 
+
+554
+00:43:42,193 --> 00:43:45,145
+>> I think in that scenario 
+
+555
+00:43:45,703 --> 00:43:47,750
+I think you will learn a lot by trying to simulate this 
+
+556
+00:43:48,207 --> 00:43:50,805
+>> you have detector to pull itself off
+
+557
+00:43:52,069 --> 00:43:54,885
+>> and get a signal from Alice's
+
+558
+00:43:56,616 --> 00:43:58,569
+>> some thing could be a spin
+
+559
+00:43:58,874 --> 00:44:00,286
+>>let's suppose were  
+
+560
+00:44:00,287 --> 00:44:02,419
+Would you speak concretely 
+
+561
+00:44:02,420 --> 00:44:05,322
+we get a signal from Bob some random event what was that mean?
+
+562
+00:44:06,268 --> 00:44:09,177
+Could you please be exact, very exact
+
+563
+00:44:10,380 --> 00:44:14,639
+>> I'm getting two text messages, one from a one from b okay
+
+564
+00:44:14,640 --> 00:44:17,457
+>> and they can have a value one or zero,
+
+565
+00:44:18,316 --> 00:44:22,261
+>> okay and I get like a million of these things 
+
+566
+00:44:22,533 --> 00:44:28,949
+>> I noticed in the distribution that the a signal is by 50% chance of being one or zero
+
+567
+00:44:28,987 --> 00:44:33,350
+>> the b signal, it could be from a spin
+
+568
+00:44:33,898 --> 00:44:39,970
+>> If the correlation turns out that whether it's a or b
+
+569
+00:44:40,608 --> 00:44:43,342
+>> the other one is the same, another one was correlated 
+
+570
+00:44:43,367 --> 00:44:44,300
+>> correlation of one 
+
+571
+00:44:44,683 --> 00:44:46,644
+That's in a real world, a tangled state
+
+572
+00:44:48,134 --> 00:44:50,955
+>> This could be, I don't know what it's coming from 
+
+573
+00:44:50,956 --> 00:44:56,026
+>> just getting information so I get information a comes through
+
+574
+00:44:56,501 --> 00:44:59,909
+>> I don't look at it, b comes through, It's a 50-50 chance,
+
+575
+00:45:00,148 --> 00:45:01,792
+>> I don't look at it, but as soon as I get a
+
+576
+00:45:01,922 --> 00:45:04,732
+>> so the wave function of b completely changes 
+
+577
+00:45:05,654 --> 00:45:08,405
+>> now the example I'm using is not a state, 
+
+578
+00:45:08,625 --> 00:45:12,921
+>> just Bob and Alice are twins, one's a boy one's a girl
+
+579
+00:45:13,794 --> 00:45:16,649
+You got to hurry up because I have a get on particles 
+
+580
+00:45:16,761 --> 00:45:19,420
+>> so there was nothing magical about that
+
+581
+00:45:19,457 --> 00:45:21,689
+>> there is nothing weird about that, they are correlated like that,
+
+582
+00:45:21,787 --> 00:45:31,055
+>> they are identical, so I'm addressing what is weird about that?
+
+583
+00:45:32,029 --> 00:45:33,074
+If you don't find it weird good,
+
+584
+00:45:36,867 --> 00:45:41,556
+What's weirder than you can't simulated classically without having a 
+
+585
+00:45:46,338 --> 00:45:50,638
+central processor connected by wires, that's weird about it
+
+586
+00:45:50,733 --> 00:45:56,581
+>> So doesn't wires connecting those computers represent non-locality?
+
+587
+00:45:56,589 --> 00:46:01,355
+Okay now we ask a lot of wires there, for goodness sakes
+
+588
+00:46:01,980 --> 00:46:05,913
+Surely Bob can send the message through the wires to Alice that takes no time at all,
+
+589
+00:46:06,135 --> 00:46:07,101
+because they are instantaneous
+
+590
+00:46:10,050 --> 00:46:12,998
+True enough if this were a real computer set up,
+
+591
+00:46:13,163 --> 00:46:20,035
+but if Bob is restricted to only do the things which quantum mechanics allows him to do 
+
+592
+00:46:21,755 --> 00:46:24,649
+if he is restricted by the rules of quantum mechanics,
+
+593
+00:46:28,161 --> 00:46:31,102
+then we find out, Amazingly,
+
+594
+00:46:31,753 --> 00:46:36,868
+that Bob can never send a message through the wires that violates locality 
+
+595
+00:46:37,640 --> 00:46:42,761
+Why? because all Bob can do is manipulate his own system with unitary operators 
+
+596
+00:46:44,807 --> 00:46:49,199
+and so that's what's curious, here 
+
+597
+00:46:50,600 --> 00:46:53,681
+does that mean that the world is filled up with wires that we can't see 
+
+598
+00:46:54,550 --> 00:46:55,725
+I don't think that's the message
+
+599
+00:46:56,020 --> 00:46:57,359
+I think the right message,
+
+600
+00:46:57,852 --> 00:47:00,672
+but of course you you can hear in which is room for debate 
+
+601
+00:47:00,981 --> 00:47:02,766
+what the right message to all of this is 
+
+602
+00:47:04,130 --> 00:47:08,598
+the message I take away from it is basically quantum mechanics 
+
+603
+00:47:08,903 --> 00:47:11,007
+cannot be simulated by a classical system
+
+604
+00:47:11,646 --> 00:47:15,497
+The logic is two different, the structures of the two theories are too different 
+
+605
+00:47:16,447 --> 00:47:19,897
+and I don't take away the message of the world is full of wires 
+
+606
+00:47:19,898 --> 00:47:21,180
+that if only we could access them
+
+607
+00:47:21,181 --> 00:47:24,021
+We could send messages back and forth, other people do,
+
+608
+00:47:25,775 --> 00:47:29,527
+but I think at least if we know how to do quantum mechanics 
+
+609
+00:47:31,675 --> 00:47:34,086
+will agree on the facts we may disagree on basically 
+
+610
+00:47:34,420 --> 00:47:36,637
+whether there are or are not wires there 
+
+611
+00:47:36,717 --> 00:47:40,327
+are there really wires there or are there really not wires there
+
+612
+00:47:41,401 --> 00:47:44,573
+Well, perhaps a octopus(?) is the word really
+
+613
+00:47:45,023 --> 00:47:50,366
+but this oh oh,  but there is one other element to it,
+
+614
+00:47:50,690 --> 00:47:56,267
+which is quite interesting, we made an assumption that 
+
+615
+00:47:58,157 --> 00:48:02,000
+Bob and Alice get kind of randomly make decisions 
+
+616
+00:48:02,104 --> 00:48:09,599
+about when to press the button about what orientations about what to decide to measure 
+
+617
+00:48:10,442 --> 00:48:18,416
+Bob sits here and says okay Northwest and Southeast or whatever 
+
+618
+00:48:19,060 --> 00:48:24,791
+makes these random decisions according to the principle of free will, so to speak,
+
+619
+00:48:26,192 --> 00:48:31,563
+that's fine as long as Alice and Bob are outside the system and not part of it
+
+620
+00:48:32,171 --> 00:48:37,388
+We don't need to ask the question of consciousness in the question of free will
+
+621
+00:48:37,777 --> 00:48:41,345
+we just admit that Alice and Bob can make random decisions 
+
+622
+00:48:41,557 --> 00:48:43,524
+about when to were one to measure various things
+
+623
+00:48:44,072 --> 00:48:45,289
+It's obviously a pretty good approximation,
+
+624
+00:48:46,825 --> 00:48:51,265
+but once we take Alice and Bob and put them into the system 
+
+625
+00:48:52,532 --> 00:48:55,204
+so that they are governed by the laws of physics
+
+626
+00:48:56,355 --> 00:48:58,675
+Then things get a little bit touchy
+
+627
+00:48:59,138 --> 00:49:02,904
+What do we mean by saying that Alice can decide to do this,
+
+628
+00:49:03,503 --> 00:49:04,793
+so Bob can decide to do that,
+
+629
+00:49:05,478 --> 00:49:11,408
+and that I think is where the possible loopholes in all of this can come from 
+
+630
+00:49:11,883 --> 00:49:18,409
+that I don't want to get too deep into heavy philosophical discussions 
+
+631
+00:49:18,789 --> 00:49:24,329
+of all sorts of psychological or questions of consciousness,
+
+632
+00:49:25,483 --> 00:49:27,015
+I don't know the answers That's it
+
+633
+00:49:27,155 --> 00:49:29,197
+I don't know the answers beyond what I've told you 
+
+634
+00:49:32,268 --> 00:49:33,724
+I certain of two things about it
+
+635
+00:49:34,897 --> 00:49:38,281
+I am certain that there are a lot of people who think they do know the answer 
+
+636
+00:49:38,423 --> 00:49:39,586
+and almost certain that they don't
+
+637
+00:49:42,474 --> 00:49:49,063
+>>Question? Actually not a question, if we google for random challenge 
+
+638
+00:49:49,626 --> 00:49:51,804
+>> you will find the blog entries that has a set up for these
+
+639
+00:49:54,421 --> 00:49:57,340
+oh really? For the entangled case?
+
+640
+00:49:57,617 --> 00:50:01,378
+>> It doesn't ⋯ you can hear a program
+
+641
+00:50:02,235 --> 00:50:05,370
+>> Your challenge is fill in this right place
+
+642
+00:50:05,571 --> 00:50:05,943
+I see
+
+643
+00:50:06,930 --> 00:50:08,999
+>> They can give you a million dollar
+
+644
+00:50:09,605 --> 00:50:15,442
+>> he won't give you a million dollar, some one in Sweden will give you a million dollar
+
+645
+00:50:19,463 --> 00:50:23,978
+okay that's very interesting okay so I'm not the first one to 
+
+646
+00:50:24,346 --> 00:50:26,249
+that I was the first one to think about it this way 
+
+647
+00:50:26,704 --> 00:50:28,596
+but have been telling us to people 50 years 
+
+648
+00:50:33,473 --> 00:50:36,432
+I don't I buy probably wasn't prior to the big thought about this 
+
+649
+00:50:36,865 --> 00:50:37,944
+Who knows doesn't matter 
+
+650
+00:50:39,437 --> 00:50:45,686
+Let's we could spend the rest of eternity talking about spin ,why,
+
+651
+00:50:45,835 --> 00:50:48,554
+because they really are interesting,
+
+652
+00:50:48,721 --> 00:50:51,322
+but you know, we want to get to something else 
+
+653
+00:50:51,502 --> 00:50:54,628
+we want to get the particles we want to get the more complex systems
+
+654
+00:50:54,940 --> 00:51:01,448
+The most complex system we discussed is two spins fourr dimensional Hilbert space
+
+655
+00:51:01,502 --> 00:51:04,576
+We've gotten about to the point where in classical physics,
+
+656
+00:51:05,424 --> 00:51:08,683
+we got to the first lecture of the first lecture was about the simple, discrete systems,
+
+657
+00:51:09,580 --> 00:51:13,500
+and then we rather immediately moved onto continuous motion 
+
+658
+00:51:13,764 --> 00:51:17,691
+of things like particles moving continuously with an infinitive,
+
+659
+00:51:17,927 --> 00:51:21,926
+and not just an infinite but a continuously infinite range of possibilities
+
+660
+00:51:23,101 --> 00:51:24,988
+That's where we have to go now though
+
+661
+00:51:25,070 --> 00:51:28,383
+Fortunately, we've set up so much of the apparatus of quantum mechanics,
+
+662
+00:51:28,938 --> 00:51:30,338
+and we can do it fairly quickly 
+
+663
+00:51:33,117 --> 00:51:40,665
+There is a little bit of subtlety about replacing sums by integrals that's about it
+
+664
+00:51:41,037 --> 00:51:42,423
+That's about the nature of the subtlety 
+
+665
+00:51:43,515 --> 00:51:48,497
+sums and integrals we've expressed our general principles of quantum mechanics,
+
+666
+00:51:49,772 --> 00:51:54,003
+and then exhibited it in,  a variety of simple spin system
+
+667
+00:51:54,792 --> 00:52:01,226
+My examples now we will plunge right in the quantum gravity 
+
+668
+00:52:03,599 --> 00:52:10,919
+No we will plunge right in the problem of a single particle 
+
+669
+00:52:10,920 --> 00:52:12,546
+moving on a one-dimensional axis 
+
+670
+00:52:15,485 --> 00:52:17,290
+I will take the axis to be infinite
+
+671
+00:52:18,275 --> 00:52:22,585
+Although we if we that's mostly because I don't have time to be more careful
+
+672
+00:52:24,620 --> 00:52:29,980
+If you want to get anywhere as we gonna have to be of 
+
+673
+00:52:33,544 --> 00:52:38,019
+slightly less mathematically rigorous so I have,
+
+674
+00:52:38,113 --> 00:52:39,275
+and in order to be rigorous,
+
+675
+00:52:40,014 --> 00:52:44,555
+you really have to contain the system in a finite volume and so forth
+
+676
+00:52:45,076 --> 00:52:47,071
+But we don't need to do that, so we have a line
+
+677
+00:52:48,442 --> 00:52:51,302
+a long and infinite line, one particle can exist
+
+678
+00:52:51,907 --> 00:52:52,699
+We won't do two particles yet 
+
+679
+00:52:52,700 --> 00:52:55,532
+one particle can exist in one dimension,
+
+680
+00:52:57,853 --> 00:53:00,607
+and that line is labeled by a coordinate X
+
+681
+00:53:01,548 --> 00:53:02,650
+now write down the coordinate X
+
+682
+00:53:03,515 --> 00:53:05,707
+but also the state of the particle
+
+683
+00:53:07,176 --> 00:53:12,792
+The states of the particle are also labeled by the position of a particle 
+
+684
+00:53:13,521 --> 00:53:17,079
+now here we are departing from classical logic in classical logic
+
+685
+00:53:19,255 --> 00:53:22,930
+The states of a particle are label by a position and the momentum 
+
+686
+00:53:26,152 --> 00:53:28,014
+if we were talking about the states of the spin,
+
+687
+00:53:28,805 --> 00:53:33,634
+we would say the state of the spin is described by all of the  
+
+688
+00:53:34,673 --> 00:53:37,378
+at least two of the components of spin,
+
+689
+00:53:38,093 --> 00:53:39,497
+but we can't do that in quantum mechanics,
+
+690
+00:53:40,223 --> 00:53:44,196
+we can't specify two component simultaneously, same in classical mechanics,
+
+691
+00:53:44,640 --> 00:53:48,457
+specifying I'm sure you know specifying the position
+
+692
+00:53:48,562 --> 00:53:49,533
+The momentum is too much
+
+693
+00:53:51,840 --> 00:53:53,933
+And we'll see how that works will see how that works
+
+694
+00:53:53,993 --> 00:53:55,207
+but for the moment let's take that as a postulate 
+
+695
+00:53:56,557 --> 00:53:59,852
+that a complete description of the state of a particle 
+
+696
+00:54:00,337 --> 00:54:05,675
+you can't get anymore out is for example to know that 
+
+697
+00:54:05,676 --> 00:54:10,167
+it is located at a position x, and it's located in the position x
+
+698
+00:54:10,442 --> 00:54:12,006
+we will describe that by a ket vector
+
+699
+00:54:13,495 --> 00:54:18,590
+The ket vector X, that's the state of a particle when it was located at position x
+
+700
+00:54:19,828 --> 00:54:22,402
+now of course we can consider more complicated,
+
+701
+00:54:22,668 --> 00:54:28,062
+more complicated states, linear superposition of these
+
+702
+00:54:28,063 --> 00:54:31,520
+in quantum mechanics, We are always allowed to make linear superpositions
+
+703
+00:54:32,238 --> 00:54:35,041
+and so the space of states is bigger than just 
+
+704
+00:54:35,042 --> 00:54:39,799
+the space of particles located definite positions 
+
+705
+00:54:41,938 --> 00:54:49,442
+let's call the general state psi, this is the general state of a particle 
+
+706
+00:54:49,937 --> 00:54:52,076
+doesn't mean anything now just an abstract symbol 
+
+707
+00:54:52,998 --> 00:54:54,954
+and it's a vector in some vector space
+
+708
+00:54:55,901 --> 00:55:00,747
+The vector space now has a continuously infinite number of basis vectors,
+
+709
+00:55:02,065 --> 00:55:06,490
+Now strictly speaking, that's mathematically bad thing we gonna play that game
+
+710
+00:55:07,588 --> 00:55:11,750
+If you want to understand more deeply the mathematics of quantum mechanics 
+
+711
+00:55:12,479 --> 00:55:16,425
+you go when you learn about Hilbert space, but we are not going to do that tonight
+
+712
+00:55:17,381 --> 00:55:19,778
+So the general state of particles called psi,
+
+713
+00:55:21,657 --> 00:55:23,707
+remember what the wave function of the system is 
+
+714
+00:55:23,932 --> 00:55:27,300
+the wave function of the system in a particular basis 
+
+715
+00:55:27,532 --> 00:55:35,122
+is the projection of the state on to the basis vectors and we call that, psi of a, 
+
+716
+00:55:38,420 --> 00:55:43,267
+now we come to particle the basis of states are the position states 
+
+717
+00:55:44,209 --> 00:55:45,263
+and what is the wave function? 
+
+718
+00:55:46,221 --> 00:55:53,842
+the wave function is the inner product of the state vector with the eigenvectors of position,
+
+719
+00:55:54,776 --> 00:56:03,854
+and that's called psi of X that's the wave function that's the classical,
+
+720
+00:56:04,273 --> 00:56:07,200
+not classical, but that's the standard quantum mechanical wave function 
+
+721
+00:56:07,460 --> 00:56:12,673
+of a particle, it plays the same role as in the simple systems we've discussed,
+
+722
+00:56:13,089 --> 00:56:15,118
+the inner product of the state vector with a 
+
+723
+00:56:16,760 --> 00:56:20,505
+Now there is a little bit more in this context,
+
+724
+00:56:20,793 --> 00:56:25,207
+the probability that the system whatever it is,
+
+725
+00:56:25,805 --> 00:56:30,141
+The system exhibits property a, is given by this thing squared 
+
+726
+00:56:30,453 --> 00:56:38,133
+In fact it's given by psi star of a, psi of a, that's the probability that the system,
+
+727
+00:56:38,458 --> 00:56:43,218
+That the outcome of an experiment to determine whether the system was at property a 
+
+728
+00:56:43,716 --> 00:56:45,942
+that's a probability likewise 
+
+729
+00:56:47,022 --> 00:56:54,600
+in exact parallel the probability to find a particle at x is equal to psi star of X 
+
+730
+00:56:56,029 --> 00:57:01,830
+times psi of x, I really haven't done anything that we haven't done before
+
+731
+00:57:03,405 --> 00:57:08,169
+Now in quantum mechanics like in any other sensible statistical theory,
+
+732
+00:57:08,621 --> 00:57:11,504
+the sum of all probabilities should add up to one,
+
+733
+00:57:13,783 --> 00:57:17,094
+so the sum of psi star psi should add up to one: 
+
+734
+00:57:17,986 --> 00:57:21,112
+but when probabilities refer to a continuous variable 
+
+735
+00:57:22,602 --> 00:57:27,172
+we don't talk about the probability that the particles was located exactly at point X
+
+736
+00:57:28,606 --> 00:57:33,276
+It's too sharp, the probability the think located exactly at any given place is 0 
+
+737
+00:57:34,720 --> 00:57:39,128
+we talk about the probability that's located within a range of X or better yet,
+
+738
+00:57:39,373 --> 00:57:44,555
+we talk about the density of probability we talk about the probability density,
+
+739
+00:57:45,821 --> 00:57:49,981
+and we integrate this over little range of X,
+
+740
+00:57:50,383 --> 00:57:53,220
+to find the probability that you in that range of X 
+
+741
+00:57:54,292 --> 00:57:55,348
+we do something like that here, 
+
+742
+00:57:55,654 --> 00:57:59,775
+if we want to know not whether the system is definitely specify as a
+
+743
+00:58:00,115 --> 00:58:02,810
+but we wanna know whether it's in range of a, we sum over them,
+
+744
+00:58:03,813 --> 00:58:07,381
+but here we sort of have to do it 
+
+745
+00:58:08,659 --> 00:58:11,848
+total probability equal to one that's the condition 
+
+746
+00:58:12,598 --> 00:58:20,410
+that the integral of psi star of X, psi of X, d X is equal to one 
+
+747
+00:58:21,730 --> 00:58:24,498
+total probability of the system has to add up to one 
+
+748
+00:58:25,866 --> 00:58:31,173
+and the only as I said the only new thing here 
+
+749
+00:58:32,083 --> 00:58:33,782
+is that we have to replace sums by integrals 
+
+750
+00:58:34,079 --> 00:58:36,771
+and it does make mathematical subtlety that we have to worry about,
+
+751
+00:58:38,325 --> 00:58:44,509
+but it, it sort of in mathematical details okay,
+
+752
+00:58:44,869 --> 00:58:50,531
+what about the inner product between two state vectors one of X and one of x prime
+
+753
+00:58:52,548 --> 00:58:54,806
+well here we go back for inspiration right back to 
+
+754
+00:58:59,305 --> 00:59:07,177
+right back to this case
+
+755
+00:59:15,284 --> 00:59:21,107
+zero, if a is not equal to a prime and one of a is equal to a prime
+
+756
+00:59:22,393 --> 00:59:24,539
+We are not gonna able to quite get away with that here 
+
+757
+00:59:26,652 --> 00:59:30,316
+We are not going to quite be able to get away with a statement that 
+
+758
+00:59:33,508 --> 00:59:38,773
+XX prime is equal to zero or one
+
+759
+00:59:40,500 --> 00:59:44,062
+We are going to say that if x is not equal to X prime 
+
+760
+00:59:46,086 --> 00:59:46,322
+that is zero:
+
+761
+00:59:47,827 --> 00:59:50,414
+But we are not gonna say that it's equal to X prime 
+
+762
+00:59:51,662 --> 00:59:55,263
+That's one, that would not lead us anywhere
+
+763
+00:59:56,764 --> 01:00:00,370
+what we're going to say is that it's a function which vanishes 
+
+764
+01:00:00,862 --> 01:00:02,935
+unless equals X equals X prime,
+
+765
+01:00:03,679 --> 01:00:07,636
+but has area 100, we will see how that works out
+
+766
+01:00:07,942 --> 01:00:09,403
+we will see what that does for us in a moment
+
+767
+01:00:10,873 --> 01:00:16,113
+What it really comes down to is a different normalization here,
+
+768
+01:00:16,866 --> 01:00:19,897
+but again the basic idea that states are orthogonal 
+
+769
+01:00:21,132 --> 01:00:23,784
+if X is not equal to X prime that we will retain 
+
+770
+01:00:24,921 --> 01:00:28,795
+but the numerical value of what we get when X is equal to X prime,
+
+771
+01:00:29,622 --> 01:00:31,094
+we are gonna take this to be slightly different 
+
+772
+01:00:31,395 --> 01:00:33,038
+in fact were going to invent a function 
+
+773
+01:00:33,868 --> 01:00:36,911
+Not we are, Dirac did, Dirac delta function, X minus X prime 
+
+774
+01:00:36,912 --> 01:00:45,247
+the Dirac delta function is not a real mathematical function,
+
+775
+01:00:45,417 --> 01:00:49,558
+although by now the mathematicians of the find it to death,
+
+776
+01:00:50,062 --> 01:00:51,867
+so that there is a real mathematical entity,
+
+777
+01:00:54,195 --> 01:00:59,173
+but for our purposes we can think of it in a very simple way 
+
+778
+01:01:00,359 --> 01:01:06,414
+it's a function which is zero , let's take delta of X 
+
+779
+01:01:07,448 --> 01:01:11,962
+not delta of x, delta of x prime , it's basically built of X minus zero
+
+780
+01:01:11,963 --> 01:01:17,198
+the function delta of x, it's a function which is zero unless X is equal to zero
+
+781
+01:01:17,817 --> 01:01:21,338
+That's the same as saying this thing is zero unless X is equal to X prime
+
+782
+01:01:22,646 --> 01:01:29,065
+so this is X it's zero everywhere except X equals X prime 
+
+783
+01:01:29,493 --> 01:01:34,610
+and X equals X prime, it's a very high, narrow spike 
+
+784
+01:01:35,749 --> 01:01:40,716
+how high and narrow? high enough and narrow enough for the area under is one unit
+
+785
+01:01:42,070 --> 01:01:46,706
+that means if it's approximated by a narrow interval of size epsilon 
+
+786
+01:01:47,812 --> 01:01:49,964
+that it has height one over epsilon,
+
+787
+01:01:52,575 --> 01:01:55,722
+and then you imagine a limit when you take epsilon smaller and smaller 
+
+788
+01:01:56,275 --> 01:01:57,788
+one of the epsilon higher and higher,
+
+789
+01:01:58,466 --> 01:02:03,480
+always keeping the area under equal to one that's the Dirac delta function
+
+790
+01:02:03,807 --> 01:02:07,875
+Dirac Delta function zero everywhere except when X equals X prime 
+
+791
+01:02:08,857 --> 01:02:11,395
+infinite in some sense when X is equal to X prime,
+
+792
+01:02:12,111 --> 01:02:15,027
+but in such a way that the area under it is equal to one 
+
+793
+01:02:18,028 --> 01:02:26,505
+alright now let's use this to further elaborate on what the meaning of psi of x is
+
+794
+01:02:31,207 --> 01:02:32,966
+I'm gonna guess and then we are gonna check
+
+795
+01:02:33,545 --> 01:02:36,515
+I'm gonna guess that the meaning of psi of X is the following 
+
+796
+01:02:37,212 --> 01:02:39,554
+that if I want to write a general state vector 
+
+797
+01:02:44,861 --> 01:02:50,758
+Psi, that I can think of it as a sum over the basis vectors
+
+798
+01:02:51,300 --> 01:02:52,406
+but not a sum, a integral, of course it's a integral
+
+799
+01:02:54,312 --> 01:02:57,160
+because the basis vectors are continuous 
+
+800
+01:02:58,120 --> 01:03:05,214
+d X of some coefficients, some coefficients well let's no,
+
+801
+01:03:05,355 --> 01:03:05,867
+let's write it this way,
+
+802
+01:03:06,150 --> 01:03:13,207
+Psi is equal to an integral d X of some set of coefficients 
+
+803
+01:03:14,731 --> 01:03:17,768
+I'm gonna guess what they are, I'm gonna guess that this Psi of x
+
+804
+01:03:19,682 --> 01:03:26,020
+times the Eigen times the the state
+
+805
+01:03:26,264 --> 01:03:29,657
+The quantum state with a particle as it located at X
+
+806
+01:03:30,220 --> 01:03:32,170
+And then we are gonna add them up for different x-s
+
+807
+01:03:32,850 --> 01:03:37,072
+It's exactly the same thing that we did to ordinary quantum systems,
+
+808
+01:03:38,008 --> 01:03:39,316
+except this was replaced by a sum
+
+809
+01:03:43,478 --> 01:03:46,787
+Alright I'm giving you two distinct definitions of psi of X
+
+810
+01:03:47,382 --> 01:03:50,575
+One is that it's the inner product of the state vector with the eigenvector 
+
+811
+01:03:51,739 --> 01:03:57,084
+acts upon the eigenvector of X, the other is the expansion coefficients 
+
+812
+01:03:57,700 --> 01:04:01,083
+in writing psi as a sum over vectors
+
+813
+01:04:03,093 --> 01:04:08,000
+Now if you're a little bit uncomfortable with the idea of a continuous basis of vectors
+
+814
+01:04:08,210 --> 01:04:09,187
+that we integrate over
+
+815
+01:04:10,269 --> 01:04:10,311
+you are in good company
+
+816
+01:04:11,957 --> 01:04:17,610
+The mathematics of this is, um as I said
+
+817
+01:04:17,724 --> 01:04:24,264
+By now it is been made rigorous, but it's it's some, 
+
+818
+01:04:24,807 --> 01:04:27,103
+it took pages and pages and pages and pages 
+
+819
+01:04:28,283 --> 01:04:31,733
+in books and books and books on something called distribution theory 
+
+820
+01:04:32,093 --> 01:04:33,417
+to make sense out of this with precision 
+
+821
+01:04:34,104 --> 01:04:36,613
+But it's pretty intuitive, it's pretty intuitive, and we will stick with that
+
+822
+01:04:38,258 --> 01:04:40,961
+so let's calculate a prime there,
+
+823
+01:04:41,167 --> 01:04:43,694
+this is a sum and integral doesn't matter,
+
+824
+01:04:43,695 --> 01:04:48,396
+doesn't matter what you call the integration variable, let's call it X prime,
+
+825
+01:04:49,193 --> 01:04:53,409
+and now let's calculate the inner product of X with psi 
+
+826
+01:04:55,293 --> 01:04:58,000
+as I said there were two different definitions of psi of X 
+
+827
+01:04:58,690 --> 01:05:02,311
+let's check that they are the same, so there we have it
+
+828
+01:05:02,958 --> 01:05:11,447
+integrals of X prime, psi of X prime, inner product of X with X prime
+
+829
+01:05:14,582 --> 01:05:16,962
+what's the inner product of x and x prime?
+
+830
+01:05:17,116 --> 01:05:18,696
+I think I wrote it someplace where is it,
+
+831
+01:05:20,594 --> 01:05:43,651
+I think I erased it, it's equal to the integral of x', psi of x', delta of X minus X prime,
+
+832
+01:05:47,048 --> 01:05:51,404
+Okay, what is that? First of all Delta is a function 
+
+833
+01:05:51,786 --> 01:05:55,760
+which is zero everywhere except X equals X prime,
+
+834
+01:05:56,611 --> 01:05:59,236
+so that means that in doing this integral here 
+
+835
+01:05:59,822 --> 01:06:03,841
+you only get a contribution when X prime is equal to x
+
+836
+01:06:05,427 --> 01:06:08,848
+that means the answer is gonna come out to be proportional to psi of X 
+
+837
+01:06:09,755 --> 01:06:14,665
+furthermore, the area under this delta function is exactly 1 
+
+838
+01:06:16,038 --> 01:06:19,329
+and we imagine that this delta function is a pinched 
+
+839
+01:06:19,784 --> 01:06:24,253
+narrower and narrower high spike so the area under is one 
+
+840
+01:06:25,165 --> 01:06:30,194
+then this integral would tend to psi of X
+
+841
+01:06:31,364 --> 01:06:35,278
+the rule is if you have an integral over a delta function like this
+
+842
+01:06:36,406 --> 01:06:42,005
+It simply picks out the value of the integration variable 
+
+843
+01:06:43,083 --> 01:06:44,710
+where the Delta function vanishes 
+
+844
+01:06:45,444 --> 01:06:48,114
+sorry when the argument of that Delta function vanishes 
+
+845
+01:06:48,157 --> 01:06:52,346
+when X minus X prime vanishes that's where the functions is not zero 
+
+846
+01:06:54,115 --> 01:06:57,842
+and the integral of a function with the Delta function just gives you
+
+847
+01:06:57,843 --> 01:07:00,394
+the value of the function at the point X 
+
+848
+01:07:03,216 --> 01:07:04,389
+That's a rule, we might as well write that down 
+
+849
+01:07:04,759 --> 01:07:06,594
+Let's write that down on blackground as a rule 
+
+850
+01:07:06,674 --> 01:07:13,724
+integral delta of X minus X prime, F of X prime is always equal to F of X 
+
+851
+01:07:14,100 --> 01:07:18,004
+it picks out the value X prime equal to x
+
+852
+01:07:18,161 --> 01:07:20,573
+That's part of the definition of Delta function 
+
+853
+01:07:22,003 --> 01:07:24,269
+okay so it's just equal to psi of X 
+
+854
+01:07:24,889 --> 01:07:29,557
+and we find consistency that the thing that we call psi of X over here 
+
+855
+01:07:30,607 --> 01:07:33,556
+is the same as the thing that we call psi of X over here
+
+856
+01:07:35,478 --> 01:07:39,326
+All of this has its exact parallel for the ordinary systems
+
+857
+01:07:41,211 --> 01:07:50,378
+>> So I'm looking in Psi of x prime times ket vectors
+
+858
+01:07:51,572 --> 01:07:51,689
+Superposing
+
+859
+01:07:52,501 --> 01:07:54,679
+>>I'm trying to figure out which of these is
+
+860
+01:07:54,856 --> 01:07:56,447
+>>Which are the basis vectors?
+
+861
+01:07:56,988 --> 01:07:57,858
+These are the basis vectors
+
+862
+01:07:57,859 --> 01:08:05,990
+let's let's compare that with, psi is equal to sum over a, a prime, 
+
+863
+01:08:06,157 --> 01:08:12,855
+let's call it a prime, psi of a prime |a prime >
+
+864
+01:08:16,595 --> 01:08:21,421
+okay if we used the fact that a and a prime are orthogonal 
+
+865
+01:08:21,636 --> 01:08:25,025
+and do exactly the same thing except replacing sums by integrals 
+
+866
+01:08:25,755 --> 01:08:32,278
+we will also find that the that the Psi that appears here is the same as 
+
+867
+01:08:32,308 --> 01:08:34,833
+the inner product of psi with the basis vectors 
+
+868
+01:08:35,986 --> 01:08:38,446
+So we really done nothing that we haven't done before
+
+869
+01:08:38,993 --> 01:08:42,203
+and I appreciate it's a little possibly a little unfamiliar 
+
+870
+01:08:44,247 --> 01:08:48,820
+but all it is, is same thing we've done before 
+
+871
+01:08:50,848 --> 01:08:54,953
+>>So psi of x prime sort of plays the same rule as the alphas?
+
+872
+01:08:55,662 --> 01:08:58,701
+The x prime plays the same role as a prime here
+
+873
+01:08:58,849 --> 01:09:02,398
+the psi plays the same rule as psi, 
+
+874
+01:09:03,499 --> 01:09:05,198
+the sum is replaced by the integral, 
+
+875
+01:09:05,616 --> 01:09:08,724
+sum over a prime is replaced by integral d X prime,
+
+876
+01:09:09,698 --> 01:09:11,647
+and otherwise it's exactly the same
+
+877
+01:09:15,133 --> 01:09:18,210
+let's calculate the inner product,
+
+878
+01:09:19,095 --> 01:09:20,291
+>>One question, 
+
+879
+01:09:21,715 --> 01:09:30,452
+>>on the right hand side we have direct form in the right hand corner
+
+880
+01:09:31,709 --> 01:09:34,382
+>>you got a vertical line between the x-es, 
+
+881
+01:09:36,853 --> 01:09:42,022
+>>over here in the middle, there is no vertical line
+
+882
+01:09:43,166 --> 01:09:49,690
+Thank you, got you got you got you
+
+883
+01:09:51,671 --> 01:09:52,836
+No absolutely, 
+
+884
+01:09:56,242 --> 01:09:58,218
+How about the inner product of two vectors?
+
+885
+01:09:59,432 --> 01:10:01,811
+Well, the inner product of some vectors is some inner product,
+
+886
+01:10:02,038 --> 01:10:04,741
+but one way of calculating the inner product,
+
+887
+01:10:04,862 --> 01:10:07,705
+let's go back to ordinary the ordinary quantum mechanics
+
+888
+01:10:07,999 --> 01:10:11,705
+Ordinary means for the discrete systems , we don't need this right now
+
+889
+01:10:14,915 --> 01:10:15,983
+how do we calculate the inner product?
+
+890
+01:10:16,304 --> 01:10:20,640
+let's take you what state inner product of psi with phi
+
+891
+01:10:21,723 --> 01:10:25,719
+We first write psi and phi as sums over the basis vectors,
+
+892
+01:10:26,230 --> 01:10:30,688
+so this is equal to sum over two sets of basis vectors a prime and a 
+
+893
+01:10:31,732 --> 01:10:40,794
+psi star of a prime times a prime,that's bra vector we complex conjugate of course
+
+894
+01:10:40,991 --> 01:10:44,387
+we deal with bra vectors that's the psi half of it,
+
+895
+01:10:46,128 --> 01:10:57,827
+and then the phi half of it is the sum over a,  phi of a times a,
+
+896
+01:11:00,918 --> 01:11:04,406
+phi of a being the coefficients of the phi vector 
+
+897
+01:11:04,966 --> 01:11:09,228
+psi star being the coefficients of the psi, bra vector
+
+898
+01:11:10,633 --> 01:11:14,733
+now phi of a is just a number, psi star of a is just a number 
+
+899
+01:11:15,278 --> 01:11:18,683
+and the inner product of a prime with a is just a Kronecker Delta 
+
+900
+01:11:19,191 --> 01:11:25,151
+so all of this adds up to sum of psi star of a prime 
+
+901
+01:11:26,862 --> 01:11:36,540
+phi of a and then a Kronecker Delta of a and a prime which is exactly the instruction 
+
+902
+01:11:37,350 --> 01:11:38,703
+to set a equal to a prime,
+
+903
+01:11:39,330 --> 01:11:40,424
+I think you seen that before
+
+904
+01:11:41,819 --> 01:11:44,672
+This is simply the rule about row vectors, 
+
+905
+01:11:45,433 --> 01:11:49,460
+if psi star of a is represented by a row vectors psi star of a one,
+
+906
+01:11:49,671 --> 01:11:53,706
+Blablablablabla, and Phi is represented by a column vector 
+
+907
+01:11:54,669 --> 01:12:00,604
+and this is just a rule to take this times this plus this times this plus this times this 
+
+908
+01:12:02,170 --> 01:12:06,462
+so this is the common, garden-variety quantum mechanical in a product 
+
+909
+01:12:07,753 --> 01:12:13,324
+I'm not gonna we don't need to go through the same exercise here 
+
+910
+01:12:13,833 --> 01:12:17,830
+we can immediately write down what the result is going to be just by analogy,
+
+911
+01:12:18,651 --> 01:12:21,048
+it's almost not even an analogy,
+
+912
+01:12:21,049 --> 01:12:24,909
+it's just replacing wherever we see a, put x-es 
+
+913
+01:12:25,112 --> 01:12:28,663
+and wherever we see sum, put integral
+
+914
+01:12:29,994 --> 01:12:38,602
+the inner product of two space vectors for a particle on the line 
+
+915
+01:12:40,717 --> 01:12:54,854
+is integral d X psi star of X phi of X, this satisfies incidentally,
+
+916
+01:12:55,076 --> 01:12:57,095
+one of the basic rules of inner products 
+
+917
+01:12:57,096 --> 01:13:03,194
+what happens to a inner product if you interchange the two vectors?
+
+918
+01:13:03,721 --> 01:13:09,653
+what's the relation between the inner product Psi-Phi and the inner product Phi-Psi?
+
+919
+01:13:10,491 --> 01:13:15,107
+complex conjugation, now what will happen in here if you interchange psi with phi
+
+920
+01:13:16,256 --> 01:13:21,326
+we wind up writing phi star here and psi here 
+
+921
+01:13:21,693 --> 01:13:24,546
+that again would be the inner product of the complex conjugate 
+
+922
+01:13:26,142 --> 01:13:27,724
+and for exactly the same reasons 
+
+923
+01:13:28,804 --> 01:13:38,835
+So this is equal to this for both discrete systems and for these continuous systems
+
+924
+01:13:41,050 --> 01:13:44,906
+in a product the inner product of a vector with itself
+
+925
+01:13:46,516 --> 01:13:51,525
+is the norm of the vector just as in previous examples 
+
+926
+01:13:52,303 --> 01:13:57,835
+you normalize a vector to one to express the fact that the probability adds up one,
+
+927
+01:14:00,360 --> 01:14:09,888
+so not much difference, just a difference of notation 
+
+928
+01:14:10,968 --> 01:14:15,731
+and the what's I think what gets to be confusing about it 
+
+929
+01:14:15,929 --> 01:14:17,462
+is you know both of these things,
+
+930
+01:14:17,712 --> 01:14:21,135
+you know about these simple row vectors and column vectors 
+
+931
+01:14:21,352 --> 01:14:22,561
+and you know about functions,
+
+932
+01:14:23,185 --> 01:14:25,576
+but you are not used to thinking of functions as vectors 
+
+933
+01:14:26,644 --> 01:14:28,177
+or maybe you are, if you are good,
+
+934
+01:14:28,817 --> 01:14:31,386
+but if you are not use to thinking of functions as vector, 
+
+935
+01:14:32,210 --> 01:14:34,170
+as function of psi of x-es, 
+
+936
+01:14:34,974 --> 01:14:35,816
+then you have to get used to it
+
+937
+01:14:36,509 --> 01:14:39,963
+but functions are vectors in a vector space, you can add them,
+
+938
+01:14:40,532 --> 01:14:42,467
+you can multiply them by complex constants 
+
+939
+01:14:44,419 --> 01:14:48,004
+and you can add them, you can multiply by numbers,
+
+940
+01:14:48,845 --> 01:14:53,006
+and so they satisfy the axioms of a vector space 
+
+941
+01:14:54,089 --> 01:14:56,673
+space of functions is a vector space 
+
+942
+01:14:57,717 --> 01:14:58,990
+now sometimes you may want
+
+943
+01:15:00,034 --> 01:15:05,246
+>>In class of mathematics, would you put the limit of integration
+
+944
+01:15:05,302 --> 01:15:06,650
+>>minus and plus infinity?
+
+945
+01:15:07,602 --> 01:15:11,621
+Good, which incidentally said something
+
+946
+01:15:13,561 --> 01:15:19,650
+It says, we shouldn't be thinking about functions which would grow at infinity for example
+
+947
+01:15:20,613 --> 01:15:26,707
+we should be only thinking about functions which are square-integral-able
+
+948
+01:15:26,803 --> 01:15:29,161
+Now we are gonna have to, we gonna have to modify that 
+
+949
+01:15:29,855 --> 01:15:32,096
+square integral means you square them
+
+950
+01:15:32,563 --> 01:15:35,032
+This is called squaring them that the integral exists 
+
+951
+01:15:35,730 --> 01:15:38,516
+functions which grow at infinity won't do that
+
+952
+01:15:39,102 --> 01:15:41,792
+Those are crazy because it would say that,
+
+953
+01:15:42,389 --> 01:15:45,656
+if you have functions which grew with infinity where would the probability be?
+
+954
+01:15:46,106 --> 01:15:49,561
+a probability will be all located off at infinity
+
+955
+01:15:49,958 --> 01:15:51,007
+And that's not what we want
+
+956
+01:15:51,520 --> 01:15:53,883
+we want to be talking about probability distributions 
+
+957
+01:15:54,073 --> 01:15:56,585
+which I have a total finite probability under them 
+
+958
+01:15:58,366 --> 01:16:04,735
+so that means we should take perhaps with a grain of salt
+
+959
+01:16:05,253 --> 01:16:07,073
+The idea that we can write down any function,
+
+960
+01:16:07,611 --> 01:16:10,778
+but for the moment we are we are gonna be a little bit loose about that
+
+961
+01:16:12,309 --> 01:16:19,775
+okay, I think I will slow down here for a few minutes 
+
+962
+01:16:19,776 --> 01:16:23,479
+# and digest it, and ask a few good questions 
+
+963
+01:16:26,554 --> 01:16:29,389
+No, no no no no, 
+
+964
+01:16:31,460 --> 01:16:33,117
+you know a you have a know I had that 
+
+965
+01:16:33,463 --> 01:16:36,277
+I'm I meant about this, but okay 
+
+966
+01:16:36,470 --> 01:16:41,493
+>> This is quick, it seems like everything must be entangled with something
+
+967
+01:16:41,714 --> 01:16:42,995
+>> almost all the time, is that?
+
+968
+01:16:43,335 --> 01:16:49,604
+Oh yeah, entangled with all sort of things in the environment,
+
+969
+01:16:50,244 --> 01:16:53,623
+and we haven't talked about the importance of a complex environment 
+
+970
+01:16:55,711 --> 01:16:58,875
+it's not so important in the very foundations of the subject,
+
+971
+01:16:59,307 --> 01:17:01,956
+but it is important to why we see the world the way we are,
+
+972
+01:17:01,979 --> 01:17:05,738
+there were constantly being bombarded and getting getting entangled with things
+
+973
+01:17:07,276 --> 01:17:11,021
+>>Is there a .. For physicisits?
+
+974
+01:17:11,022 --> 01:17:14,426
+Oh boy, certainly
+
+975
+01:17:14,928 --> 01:17:20,348
+>> so okay, it's not just some, it didn't just the Dirac function all about it
+
+976
+01:17:21,654 --> 01:17:24,614
+oh you mean is that, I see what you mean, 
+
+977
+01:17:25,258 --> 01:17:29,200
+You mean to do anything else besides clean up the .. I don't know
+
+978
+01:17:30,987 --> 01:17:35,434
+I think it's make rigorous as a set of concepts that physicists use over time
+
+979
+01:17:38,973 --> 01:17:44,358
+Has it really seems no no
+
+980
+01:17:45,846 --> 01:17:53,410
+The theory of distributions, ya I will tell you about that with physcists
+
+981
+01:17:53,575 --> 01:18:00,391
+It made them argue less with mathematicians
+
+982
+01:18:02,335 --> 01:18:04,592
+was one of the many examples were mathematicians 
+
+983
+01:18:04,990 --> 01:18:07,377
+that drag screaming and kicking with physicists 
+
+984
+01:18:09,428 --> 01:18:10,965
+of course the opposite also happens 
+
+985
+01:18:11,483 --> 01:18:16,422
+but that was an example where mathematicians first looked at this thing
+
+986
+01:18:17,836 --> 01:18:20,075
+so what are you crazy that doesn't make any sense
+
+987
+01:18:21,623 --> 01:18:28,155
+It's not rigorous and in time they came to peace with it 
+
+988
+01:18:28,964 --> 01:18:32,889
+through defining it, in a wrong way
+
+989
+01:18:33,378 --> 01:18:39,715
+No, I don't think the mathematical structure of it has influenced physics 
+
+990
+01:18:39,982 --> 01:18:42,237
+as much as you might've expected
+
+991
+01:18:44,755 --> 01:18:49,289
+Unfortunately, because there are big problems of confusion 
+
+992
+01:18:50,541 --> 01:18:55,077
+related to it in quantum field theory, and it hasn't resolve those problems okay,
+
+993
+01:18:58,787 --> 01:19:02,139
+okay, next place we want to go is observables 
+
+994
+01:19:04,051 --> 01:19:07,521
+We want to talk about observables and give some examples of observables 
+
+995
+01:19:10,013 --> 01:19:12,408
+observables are linear operators,
+
+996
+01:19:14,348 --> 01:19:17,564
+what are linear operators acting on the space of functions?
+
+997
+01:19:18,985 --> 01:19:22,792
+Their operations on the state on a function that gives another function 
+
+998
+01:19:25,076 --> 01:19:33,647
+linear operator, let's call it M, for some reason 
+
+999
+01:19:33,768 --> 01:19:37,873
+I saved L to stand for observables 
+
+1000
+01:19:40,275 --> 01:19:43,294
+and I've used previously M for general linear operator 
+
+1001
+01:19:43,995 --> 01:19:45,828
+So I continue to do, so whatever M is,
+
+1002
+01:19:46,294 --> 01:19:51,845
+it's a machine and thought of as an abstract operator on it's space
+
+1003
+01:19:52,711 --> 01:19:56,289
+it takes the state vector into another state vector,
+
+1004
+01:19:56,985 --> 01:20:00,042
+psi prime psi, or a vector and a vector space,
+
+1005
+01:20:00,941 --> 01:20:04,701
+but it also can be thought of as a thing which acts on wave functions 
+
+1006
+01:20:04,763 --> 01:20:07,649
+every state has a wave function that describes it
+
+1007
+01:20:08,405 --> 01:20:14,269
+And the, the machine, or, that was why we call it M
+
+1008
+01:20:14,269 --> 01:20:17,075
+Yes I remember now, you call it M for Machine, 
+
+1009
+01:20:17,584 --> 01:20:22,929
+the machine can also be thought of as acting on a wave function 
+
+1010
+01:20:23,759 --> 01:20:24,697
+to give another wave function,
+
+1011
+01:20:26,430 --> 01:20:28,197
+so let's think of it that way,
+
+1012
+01:20:28,198 --> 01:20:30,061
+let's think of it in concrete terms 
+
+1013
+01:20:31,874 --> 01:20:36,198
+as an action that we do on a wave function to produce another wave function
+
+1014
+01:20:36,889 --> 01:20:37,899
+Now it's linear,
+
+1015
+01:20:39,168 --> 01:20:42,394
+linear means that when it acts on the sum of two functions
+
+1016
+01:20:42,847 --> 01:20:44,376
+It gives back the sum of the results, 
+
+1017
+01:20:45,114 --> 01:20:49,036
+it means that if it acts on a function which is a numerical product
+
+1018
+01:20:49,412 --> 01:20:55,533
+a numerical multiple of some function it gives back the same numerical multiple
+
+1019
+01:20:55,929 --> 01:21:01,491
+all have ideas of what a linear operator are, continued to be exactly the same 
+
+1020
+01:21:03,324 --> 01:21:08,220
+let's talk about some linear, oh, okay that's that's the notion of a linear operator 
+
+1021
+01:21:08,766 --> 01:21:10,657
+Now what about a Hermitian linear operator 
+
+1022
+01:21:10,879 --> 01:21:13,464
+I will tell you the definition of Hermitian we will,
+
+1023
+01:21:13,920 --> 01:21:15,205
+We've talk about it before,
+
+1024
+01:21:15,469 --> 01:21:17,170
+but I'm gonna give it to you in a condensed form 
+
+1025
+01:21:18,405 --> 01:21:23,559
+the condensed form is also true for all of the vector spaces we studied 
+
+1026
+01:21:24,396 --> 01:21:30,875
+and you may recognize it, if not, go back and prove that 
+
+1027
+01:21:30,876 --> 01:21:33,524
+it follows from the previous definitions
+
+1028
+01:21:34,388 --> 01:21:38,574
+a Hermitian operator Hermitian for operators is, roughly speaking,
+
+1029
+01:21:38,728 --> 01:21:44,484
+the analog of real, as opposed to complex okay,
+
+1030
+01:21:44,788 --> 01:21:47,806
+here's what's true about Hermitian operators if you have a Hermitian operator,
+
+1031
+01:21:47,819 --> 01:21:49,311
+which I will now call L
+
+1032
+01:21:52,037 --> 01:21:53,223
+then it has a property that 
+
+1033
+01:21:53,566 --> 01:21:58,058
+if you take if you act on wave function psi or or state vector psi,
+
+1034
+01:21:59,090 --> 01:22:10,312
+and take it's inner product with phi, that that is equal to psi L phi,
+
+1035
+01:22:10,836 --> 01:22:12,690
+but not quite, I will have to do with it,
+
+1036
+01:22:14,112 --> 01:22:16,990
+complex conjugate it, now if L not,
+
+1037
+01:22:17,061 --> 01:22:19,493
+let's go back a step supposing L was not Hermitian 
+
+1038
+01:22:19,949 --> 01:22:22,179
+would this be right? not quite
+
+1039
+01:22:22,812 --> 01:22:26,266
+What do we have to do? We have to put a dagger here
+
+1040
+01:22:27,976 --> 01:22:30,302
+another words we have to roughly speaking,
+
+1041
+01:22:30,303 --> 01:22:38,664
+complex conjugate L, if L is Hermitian in the rule for that 
+
+1042
+01:22:39,503 --> 01:22:42,195
+is that it's made with matrix elements it's it
+
+1043
+01:22:42,582 --> 01:22:47,415
+It's so when sandwiched when sandwiched in opposite order
+
+1044
+01:22:48,769 --> 01:22:54,142
+You don't have to complex conjugate L because it's already the analog of real
+
+1045
+01:22:55,092 --> 01:22:57,707
+this is a condition that an operator is Hermitian 
+
+1046
+01:22:58,236 --> 01:23:01,809
+that's important because Hermitian operators are the class of observables,
+
+1047
+01:23:03,487 --> 01:23:05,846
+so let's work out one or two Hermitian operators 
+
+1048
+01:23:06,060 --> 01:23:09,985
+or while we are at it, guess we may need this 
+
+1049
+01:23:11,090 --> 01:23:13,663
+so let's work out a couple,
+
+1050
+01:23:16,694 --> 01:23:19,744
+First of all, one the simplest things that I can do to a wave function 
+
+1051
+01:23:23,037 --> 01:23:25,610
+I don't know there are many simple things that can do it,
+
+1052
+01:23:27,004 --> 01:23:31,248
+but a very simple thing is to multiply it by x 
+
+1053
+01:23:33,013 --> 01:23:36,778
+and even simpler thing would be to multiply it by simple number,
+
+1054
+01:23:38,502 --> 01:23:41,541
+but let's take slightly more complicated multiply it by X 
+
+1055
+01:23:42,331 --> 01:23:44,076
+multiplying by X give back a function 
+
+1056
+01:23:44,566 --> 01:23:46,742
+so this is it at minimum an operation on a function
+
+1057
+01:23:47,033 --> 01:23:53,358
+is it linear? Sure it is, if x multiplies psi of x, let's say, or Phi of x
+
+1058
+01:23:54,956 --> 01:23:59,539
+it gives x psi of x plus x phi of x
+
+1059
+01:24:00,995 --> 01:24:04,601
+another words if it acts on the sum it gives a sum of the results 
+
+1060
+01:24:05,524 --> 01:24:09,250
+If it acts on a numerical multiple of the Psi,
+
+1061
+01:24:09,357 --> 01:24:12,425
+it gives back the numerical multiple, so linear operator 
+
+1062
+01:24:13,377 --> 01:24:18,946
+question is it Hermitian? is it a Hermitian operator?
+
+1063
+01:24:19,658 --> 01:24:22,488
+okay so let's check, here's what we have to take
+
+1064
+01:24:22,918 --> 01:24:36,554
+we have to take psi inner product of x times phi, that's this one,
+
+1065
+01:24:36,935 --> 01:24:39,749
+oh sorry, I think I want to do it the other way
+
+1066
+01:24:40,589 --> 01:24:45,388
+Phi X psi, phi X psi,
+
+1067
+01:24:48,412 --> 01:24:50,869
+and ask whether this is true or not
+
+1068
+01:24:51,740 --> 01:24:52,577
+We will check in a minute
+
+1069
+01:24:54,742 --> 01:24:56,358
+No X on them, X is a function x, 
+
+1070
+01:24:57,814 --> 01:25:02,555
+we multiply one function by another function that takes functions to functions
+
+1071
+01:25:03,460 --> 01:25:10,089
+It's not a number, it's a variable, any given value of it is a number,
+
+1072
+01:25:11,118 --> 01:25:18,133
+but it's a machine that takes a function psi of x and replaces it by X psi of X 
+
+1073
+01:25:18,756 --> 01:25:25,700
+alright, so let's calculate, the wave function of the ket vector
+
+1074
+01:25:26,299 --> 01:25:33,797
+is x psi of x, the wave function of the bra vector is phi star of X
+
+1075
+01:25:37,146 --> 01:25:42,236
+the inner product is, put brackets around it bracket
+
+1076
+01:25:43,817 --> 01:25:47,629
+This is a ket vector inside the bracket, and this is a bra vector 
+
+1077
+01:25:47,830 --> 01:25:51,250
+and the rule for taking the inner product, oops, I think I interchanged it
+
+1078
+01:25:51,768 --> 01:25:55,575
+But we will take the inner product is to integrate,
+
+1079
+01:25:56,848 --> 01:26:01,060
+So let's get off the bracket here and just integrate dx
+
+1080
+01:26:04,693 --> 01:26:10,236
+Oops, sorry,dx, that's in this order
+
+1081
+01:26:10,921 --> 01:26:14,206
+What about this order? this order over here,
+
+1082
+01:26:14,207 --> 01:26:15,865
+the inner product without the star without the star
+
+1083
+01:26:17,009 --> 01:26:19,624
+the thing we are gonna compare with is the same thing 
+
+1084
+01:26:21,618 --> 01:26:30,161
+except with psi star x phi of x, well look at it 
+
+1085
+01:26:30,170 --> 01:26:32,738
+is this integral complex conjugate of this?
+
+1086
+01:26:34,319 --> 01:26:38,258
+Yes, it is, the complex conjugate of phi star phi, 
+
+1087
+01:26:38,862 --> 01:26:42,068
+the complex conjugate of psi is psi star and what about X?
+
+1088
+01:26:44,375 --> 01:26:47,887
+X is it's own complex conjugate so yes indeed 
+
+1089
+01:26:49,226 --> 01:26:55,188
+X is an operator which satisfies the basic rule of Hermitian operator 
+
+1090
+01:26:55,737 --> 01:26:59,146
+that if you interchange the psi and the phi, it complex conjugates 
+
+1091
+01:27:01,822 --> 01:27:07,832
+if, what observable does X correspond to? 
+
+1092
+01:27:10,009 --> 01:27:15,020
+position, it is the position, it's the Delta function 
+
+1093
+01:27:15,483 --> 01:27:21,739
+a eigenvector of position well maybe we will come to that next time 
+
+1094
+01:27:22,259 --> 01:27:25,257
+I think I want yesterday, but we will come back to that,
+
+1095
+01:27:25,978 --> 01:27:28,397
+X is an observable, what does it correspond to?
+
+1096
+01:27:28,731 --> 01:27:30,385
+it corresponds to position of the particle
+
+1097
+01:27:31,005 --> 01:27:35,802
+we will prove that by showing that the eigenvectors X 
+
+1098
+01:27:36,495 --> 01:27:38,801
+that the vectors X are eigenvectors of that operator,
+
+1099
+01:27:39,096 --> 01:27:41,752
+but not right now, we will do that the next time
+
+1100
+01:27:42,464 --> 01:27:43,365
+It's easy, trivial
+
+1101
+01:27:44,150 --> 01:27:49,524
+>>Question, so when you write x up there
+
+1102
+01:27:49,587 --> 01:27:52,947
+>>It's implied that there really an x?
+
+1103
+01:27:52,948 --> 01:27:55,850
+The X is a function of x,
+
+1104
+01:27:56,344 --> 01:27:59,902
+X? X is an n alphabet, yes,
+
+1105
+01:28:00,143 --> 01:28:02,915
+It's implied that x is a function of x
+
+1106
+01:28:04,789 --> 01:28:06,247
+it has a whole bunch that's right,
+
+1107
+01:28:06,248 --> 01:28:09,399
+it itself is a function which is multiplying another function 
+
+1108
+01:28:12,104 --> 01:28:14,885
+so it's an operation on a function which gives another function 
+
+1109
+01:28:18,438 --> 01:28:19,964
+that's exactly right,
+
+1110
+01:28:21,709 --> 01:28:23,890
+Let's take another operation or operator 
+
+1111
+01:28:24,770 --> 01:28:28,794
+differentiation by differentiate a function they get a function 
+
+1112
+01:28:29,509 --> 01:28:31,342
+that the first test of whether it's an operator 
+
+1113
+01:28:32,581 --> 01:28:35,453
+If I differentiate the sum of two functions I get the sum of derivatives 
+
+1114
+01:28:36,563 --> 01:28:39,771
+by differentiate a numerical multiple of the function 
+
+1115
+01:28:39,865 --> 01:28:41,739
+I get numerical multiple of the derivative 
+
+1116
+01:28:42,212 --> 01:28:46,775
+it's a linear function, is it a Hermitian operator?
+
+1117
+01:28:47,347 --> 01:28:51,432
+So, here we have to, here we have to get ourselves a fresh blackboard
+
+1118
+01:28:53,320 --> 01:28:58,068
+and check once and for all whether it's well, check whether it's Hermitian
+
+1119
+01:29:00,616 --> 01:29:07,795
+Okay, what happened, what is, let's call it derivative operation 
+
+1120
+01:29:08,941 --> 01:29:16,790
+let's call it capital D, D on psi gives us some psi prime,
+
+1121
+01:29:20,379 --> 01:29:21,463
+what about wave function,
+
+1122
+01:29:22,998 --> 01:29:26,541
+D when it acts on psi of x, by definition now,
+
+1123
+01:29:26,819 --> 01:29:29,388
+this is the definition of how D acts,
+
+1124
+01:29:29,868 --> 01:29:32,376
+it simply gives the d Psi by dx, 
+
+1125
+01:29:35,077 --> 01:29:37,997
+I may sometimes lapse and going to call this partial derivative with respect to X 
+
+1126
+01:29:38,821 --> 01:29:40,915
+it's fine doesn't matter, there is only one X
+
+1127
+01:29:42,626 --> 01:29:49,316
+so it just differentiates , it creates a new function, it's a linear operator 
+
+1128
+01:29:50,627 --> 01:29:57,144
+is it Hermitian? okay so let's write down the two Psi of the Hermitian condition here 
+
+1129
+01:29:57,342 --> 01:29:59,555
+and see if they are the same, that's all, that's all there is to it
+
+1130
+01:30:01,324 --> 01:30:07,705
+left side is integral phi star of X 
+
+1131
+01:30:08,807 --> 01:30:16,236
+times the operation D on psi which is just d psi by d X 
+
+1132
+01:30:18,540 --> 01:30:21,171
+what's the other way of doing it on the right hand side?
+
+1133
+01:30:21,350 --> 01:30:26,889
+the other way of doing it is integral psi star, not not doing the same thing 
+
+1134
+01:30:26,926 --> 01:30:31,822
+doing something different, psi star of X, d phi by dx
+
+1135
+01:30:33,315 --> 01:30:37,453
+and the question is whether this is the complex conjugate of this?
+
+1136
+01:30:38,044 --> 01:30:40,598
+so let's write equals with a question mark
+
+1137
+01:30:41,450 --> 01:30:53,086
+No no complex conjugate, so let's, let's do this integral over here
+
+1138
+01:30:58,406 --> 01:31:04,549
+First of all a thing in the bra-ket here is just equal to integral 
+
+1139
+01:31:04,623 --> 01:31:10,526
+psi of X, d phi star by dX, 
+
+1140
+01:31:12,224 --> 01:31:14,899
+just complex conjugate, the complex conjugate of a product 
+
+1141
+01:31:15,945 --> 01:31:17,860
+is just a product of complex conjugate 
+
+1142
+01:31:18,768 --> 01:31:22,647
+The thing in the bra-ket psi of x d phi star by dx,
+
+1143
+01:31:23,177 --> 01:31:27,913
+When we are asking whether this is equal to this, they look similar,
+
+1144
+01:31:28,254 --> 01:31:30,151
+this has a psi, this has a psi
+
+1145
+01:31:30,915 --> 01:31:33,049
+This have a phi star, this has a phi star,
+
+1146
+01:31:33,718 --> 01:31:36,659
+but unfortunately this one has psi differentiated
+
+1147
+01:31:38,216 --> 01:31:41,772
+and this one has psi, you know what I mean, psi and phi
+
+1148
+01:31:43,169 --> 01:31:44,794
+How do you go from this to this? 
+
+1149
+01:31:46,612 --> 01:31:51,474
+integration by parts, and integrate like this,
+
+1150
+01:31:51,475 --> 01:31:54,675
+Assuming, what do we assuming when we say we can integrate by parts 
+
+1151
+01:31:58,103 --> 01:32:02,850
+we are assuming that far away the integral, the functions go to zero,
+
+1152
+01:32:04,722 --> 01:32:09,782
+That the end point contributions from integration by part don't give us anything 
+
+1153
+01:32:10,913 --> 01:32:13,694
+well of course the functions must go to zero far away 
+
+1154
+01:32:13,839 --> 01:32:16,612
+because the integral of the total thing must be one
+
+1155
+01:32:17,235 --> 01:32:19,584
+so we can integrate by parts,
+
+1156
+01:32:19,843 --> 01:32:22,744
+anybody know what integrating by parts is? If not find out fast,
+
+1157
+01:32:23,540 --> 01:32:25,808
+It's simply a rule, I will tell you what the rule is 
+
+1158
+01:32:26,395 --> 01:32:29,649
+you can shift the derivative from one if you have a product 
+
+1159
+01:32:31,469 --> 01:32:38,012
+dx, that's dX here, if you have a product psi of X time derivative of phi star of X 
+
+1160
+01:32:38,746 --> 01:32:43,138
+then you can simply shift the derivative from one function to the other,
+
+1161
+01:32:43,355 --> 01:32:46,990
+but it's at a cost, the cost, the minus sign right?
+
+1162
+01:32:48,024 --> 01:32:57,665
+good, so this is equal to minus the integral phi star of x
+
+1163
+01:32:59,161 --> 01:33:04,732
+d psi by dX, oops, we are in bad shape
+
+1164
+01:33:06,231 --> 01:33:08,807
+This is integral phi star d phi dx,
+
+1165
+01:33:08,932 --> 01:33:12,030
+this is minus the integral of d phi star d psi dx
+
+1166
+01:33:12,341 --> 01:33:14,435
+they are not equal, in fact worse than that, 
+
+1167
+01:33:15,498 --> 01:33:17,692
+they are absolutely the opposite of each other 
+
+1168
+01:33:18,767 --> 01:33:22,904
+They are opposite in the sense of the negative of each other 
+
+1169
+01:33:23,741 --> 01:33:26,829
+can we fix it? Well no we can't fix this,
+
+1170
+01:33:27,263 --> 01:33:30,479
+but we can redefine an operator which is Hermitian,
+
+1171
+01:33:31,243 --> 01:33:35,027
+to redefine operator which is Hermitian, it's not derivative,
+
+1172
+01:33:36,461 --> 01:33:39,110
+it is minus i, the minus sign it doesn't matter,
+
+1173
+01:33:39,697 --> 01:33:43,296
+you can put i or minus I, d by dx, 
+
+1174
+01:33:47,139 --> 01:33:52,178
+so let's go through it again and check whether now it's Hermitian 
+
+1175
+01:33:52,179 --> 01:33:53,896
+This is the new thing that we gonna call 
+
+1176
+01:33:54,534 --> 01:33:55,490
+and we are gonna give it a different name 
+
+1177
+01:33:55,638 --> 01:33:57,815
+I'm not gonna call it d, because it's not derivative
+
+1178
+01:33:58,753 --> 01:34:00,150
+it's minus i times derivative, 
+
+1179
+01:34:00,159 --> 01:34:01,993
+anybody have a good suggestion for what I call this?
+
+1180
+01:34:02,710 --> 01:34:16,761
+p brilliant, p for, momentum Momentum 
+
+1181
+01:34:18,007 --> 01:34:21,328
+and if I really wanted to be momentum with units of momentum 
+
+1182
+01:34:21,543 --> 01:34:27,408
+what else would I put there? Where? right or left?
+
+1183
+01:34:28,939 --> 01:34:31,527
+I will put on left but you better put it downstairs
+
+1184
+01:34:32,652 --> 01:34:34,345
+Alright but we are not gonna worry about h bar 
+
+1185
+01:34:36,094 --> 01:34:39,144
+We are gonna use our usual convention of ignoring H bar for the moment 
+
+1186
+01:34:40,950 --> 01:34:42,664
+p is minus i, d by dx, 
+
+1187
+01:34:42,979 --> 01:34:49,363
+let's see what happens, over here we have to replace this by an i over here,
+
+1188
+01:34:53,259 --> 01:34:55,346
+minus i thank you, minus i,
+
+1189
+01:34:58,976 --> 01:35:04,137
+what about this one? with complex conjugate it and everything 
+
+1190
+01:35:06,053 --> 01:35:10,265
+we better change the signm because the complex conjugate of minus i is plus i,
+
+1191
+01:35:11,786 --> 01:35:24,421
+so, let's put it this way, minus i, and we should get plus i here if it's Hermitian
+
+1192
+01:35:24,422 --> 01:35:27,621
+Why? because in the process of taking the complex conjugate 
+
+1193
+01:35:28,339 --> 01:35:31,154
+every i gets converted to a minus i,
+
+1194
+01:35:31,336 --> 01:35:33,833
+and every minus i gets converted to a plus i,
+
+1195
+01:35:34,907 --> 01:35:36,044
+Is it true now?
+
+1196
+01:35:38,905 --> 01:35:43,470
+Yeah, why, because this is equal to minus this
+
+1197
+01:35:44,033 --> 01:35:45,330
+That's what we proved over here 
+
+1198
+01:35:46,364 --> 01:35:52,089
+okay so we stick an i here, because i changes sign on the complex conjugate
+
+1199
+01:35:52,849 --> 01:36:01,427
+this little operation here tells us that minus i d by dx is a Hermitian operator
+
+1200
+01:36:02,308 --> 01:36:08,238
+A little odd isn't it, that minus i, d by dx should somehow be a real thing 
+
+1201
+01:36:08,600 --> 01:36:12,603
+should represent the real thing, and d by dx should not 
+
+1202
+01:36:13,263 --> 01:36:19,044
+but, let's, let's check something out, let's check something out right now 
+
+1203
+01:36:22,122 --> 01:36:25,338
+let's just, we are gonna finish up in a moment 
+
+1204
+01:36:28,373 --> 01:36:30,934
+we haven't talked about expectation values yet tonight,
+
+1205
+01:36:31,299 --> 01:36:33,371
+but I think you can guess how to think about them 
+
+1206
+01:36:33,675 --> 01:36:37,968
+expectation values in the state psi of an observable L 
+
+1207
+01:36:38,983 --> 01:36:43,952
+I just the sandwich composed of psi on both sides and L in the middle 
+
+1208
+01:36:44,926 --> 01:36:47,542
+so let's take the expectation value of momentum,
+
+1209
+01:36:48,952 --> 01:36:56,763
+it's integral psi star of X, psi of X and then according to the rule here 
+
+1210
+01:36:56,764 --> 01:37:08,009
+p is minus i d by dx, is it real or imaginary?
+
+1211
+01:37:09,300 --> 01:37:15,082
+you are wrong, it's real, so let's prove that it's real, I hope it's real
+
+1212
+01:37:15,320 --> 01:37:16,063
+God hope it's real, okay
+
+1213
+01:37:20,056 --> 01:37:21,975
+So let's integrate by parts
+
+1214
+01:37:24,761 --> 01:37:27,138
+This is equal, first of all, let's take out the minus i,
+
+1215
+01:37:27,324 --> 01:37:37,137
+minus i, integral psi star of X d Psi by dx, now let's integrate that by parts
+
+1216
+01:37:38,919 --> 01:37:46,069
+This is equal to minus i, and then we can switch the derivative 
+
+1217
+01:37:47,933 --> 01:37:53,099
+we can switch the derivative to the star variable, integral
+
+1218
+01:37:54,364 --> 01:37:59,539
+d psi star by dx times psi of X,
+
+1219
+01:38:00,903 --> 01:38:07,541
+but then in doing the integration by parts, we have to change the sign 
+
+1220
+01:38:09,329 --> 01:38:12,027
+so, here we have a little thereom, 
+
+1221
+01:38:12,522 --> 01:38:14,555
+the integral of this thing here with a minus i 
+
+1222
+01:38:15,388 --> 01:38:18,621
+is the integral of this thing here with a plus i
+
+1223
+01:38:27,758 --> 01:38:30,478
+What's the complex conjugate of this whole thing? 
+
+1224
+01:38:31,569 --> 01:38:38,023
+To complex conjugate it, you replace psi star by psi, or psi is over here,
+
+1225
+01:38:39,045 --> 01:38:45,007
+you replace d psi by, d psi by d x by d psi star by dx 
+
+1226
+01:38:45,736 --> 01:38:48,193
+and you replace minus I by plus i 
+
+1227
+01:38:49,441 --> 01:38:52,117
+this over here is the complex conjugate of this 
+
+1228
+01:38:53,404 --> 01:38:55,962
+Can everybody see that, or should I explain it further? 
+
+1229
+01:38:56,101 --> 01:38:58,737
+let's put a minus i out here and write,
+
+1230
+01:38:58,738 --> 01:39:02,350
+this is equal to d psi, this just gives us d psi by dx
+
+1231
+01:39:07,223 --> 01:39:08,859
+minus i, d psi by dx, 
+
+1232
+01:39:14,135 --> 01:39:20,571
+this is clearly the complex, the integral are complex conjugate of each other 
+
+1233
+01:39:21,688 --> 01:39:24,588
+d psi by dx is this complex conjugate of this 
+
+1234
+01:39:24,989 --> 01:39:26,162
+that one is the complex conjugate of this 
+
+1235
+01:39:26,985 --> 01:39:29,984
+and i and minus i are complex conjugate of each other 
+
+1236
+01:39:31,401 --> 01:39:35,950
+so given that this is the complex conjugate of this and they are equal to each other 
+
+1237
+01:39:36,933 --> 01:39:41,045
+what you say about a thing which is equal to its own complex conjugate? It's real 
+
+1238
+01:39:42,731 --> 01:39:44,741
+so we prove rather startling fact, 
+
+1239
+01:39:47,081 --> 01:40:03,387
+that the integral of psi star of X minus i d psi by dx is real not yes,
+
+1240
+01:40:03,427 --> 01:40:09,935
+I did, and again is because when you integrate by parts you pick up an extra minus sign
+
+1241
+01:40:11,168 --> 01:40:14,858
+so instead of this thing being minus it's complex conjugate, 
+
+1242
+01:40:15,106 --> 01:40:16,767
+it's plus it's complex conjugate,
+
+1243
+01:40:18,264 --> 01:40:19,225
+okay so what do we learn?
+
+1244
+01:40:19,637 --> 01:40:22,159
+We learned that this is a Hermitian operator 
+
+1245
+01:40:23,660 --> 01:40:27,940
+it's a Hermitian operator and therefore an observable in quantum mechanics
+
+1246
+01:40:29,792 --> 01:40:31,607
+The next time we will explore a little more 
+
+1247
+01:40:31,736 --> 01:40:34,279
+We will discuss what this has to do with Fourier transforms 
+
+1248
+01:40:35,556 --> 01:40:37,846
+We will discuss questions about what the probability 
+
+1249
+01:40:38,092 --> 01:40:40,742
+for finding the particle at different locations are, 
+
+1250
+01:40:41,109 --> 01:40:42,545
+but then we will also talk about 
+
+1251
+01:40:42,616 --> 01:40:45,309
+what the probability for having different momentum are 
+
+1252
+01:40:46,613 --> 01:40:48,883
+And then we move to the Schrodinger equation 
+
+1253
+01:40:49,153 --> 01:40:54,244
+We will move to the evolution of the, of the wave function
+
+1254
+01:40:54,311 --> 01:40:59,349
+This, after all, now is really in the classic sense of the word wave function 
+
+1255
+01:41:01,491 --> 01:41:04,633
+and we will think about how it evolves with time
+
+1256
+01:41:06,880 --> 01:41:08,335
+Oh one of the thing we, 
+
+1257
+01:41:09,341 --> 01:41:11,136
+we could do it tonight or think I think would probably 
+
+1258
+01:41:13,348 --> 01:41:16,486
+at the point of diminishing returns, Are you exhausted?
+
+1259
+01:41:18,183 --> 01:41:20,771
+we could do one more thing let me do one more thing for you
+
+1260
+01:41:22,647 --> 01:41:25,540
+Let's calculate an interesting quantity 
+
+1261
+01:41:25,718 --> 01:41:28,203
+and why it's an interesting quantity will come through in a moment 
+
+1262
+01:41:29,234 --> 01:41:34,904
+so let's take a quantity which seems very dull, but it's interesting and calculate it,
+
+1263
+01:41:36,445 --> 01:41:40,101
+it's the commutator of x with p 
+
+1264
+01:41:48,728 --> 01:41:52,594
+take any wave function, whatever it is, psi of X anyone 
+
+1265
+01:41:54,692 --> 01:41:56,880
+And we are gonna do two things with it,
+
+1266
+01:41:57,656 --> 01:41:59,430
+We are first gonna multiply it by X, 
+
+1267
+01:42:00,246 --> 01:42:03,478
+and then we are gonna multiply this by minus i d by or 
+
+1268
+01:42:03,741 --> 01:42:05,779
+operate would like minus i d by dx, 
+
+1269
+01:42:07,872 --> 01:42:12,628
+this can be called p x operating on psi
+
+1270
+01:42:14,259 --> 01:42:19,292
+This is P this is X in the order first X then P 
+
+1271
+01:42:21,693 --> 01:42:23,394
+then we are gonna calculate it the other way
+
+1272
+01:42:23,503 --> 01:42:27,290
+XP on psi, what was that?
+
+1273
+01:42:27,291 --> 01:42:29,564
+the other half of the blackboard over here, 
+
+1274
+01:42:30,192 --> 01:42:37,530
+we are gonna write x times minus i d by dx psi of x 
+
+1275
+01:42:38,365 --> 01:42:41,780
+and see what we get, in fact what we are gonna do is
+
+1276
+01:42:42,031 --> 01:42:45,746
+We are gonna do the commutator, which means we are gonna calculate this one 
+
+1277
+01:42:45,747 --> 01:42:49,885
+with a plus, I'm gonna calculate this one with a plus sign, 
+
+1278
+01:42:49,994 --> 01:42:51,142
+and this one with a minus sign 
+
+1279
+01:42:53,317 --> 01:42:56,254
+but before we subtract them ,let's just calculate them
+
+1280
+01:42:57,868 --> 01:43:00,871
+Alright, this is just minus i
+
+1281
+01:43:01,887 --> 01:43:03,716
+and now the derivative of a product
+
+1282
+01:43:05,565 --> 01:43:06,575
+The derivative of the product
+
+1283
+01:43:06,831 --> 01:43:13,831
+This derivative here now has to act on the whole result of x acting on psi of x
+
+1284
+01:43:13,832 --> 01:43:17,770
+x acting on psi of x gives a new wave function,
+
+1285
+01:43:18,563 --> 01:43:19,833
+and then P act on it
+
+1286
+01:43:20,477 --> 01:43:26,111
+So what you get when you hit the product? You get two terms
+
+1287
+01:43:26,738 --> 01:43:30,882
+The first term is the derivative of X times psi derivative of x is just one,
+
+1288
+01:43:31,468 --> 01:43:33,466
+So the first term is just Psi of x
+
+1289
+01:43:34,648 --> 01:43:41,330
+and the second term is plus X d psi by dx, everybody agree with that?
+
+1290
+01:43:48,828 --> 01:43:52,926
+the derivative hit X in left psi, and then the derivative hit psi and left x,
+
+1291
+01:43:53,938 --> 01:43:56,096
+This is the Psi over here, now what about the psi over here?
+
+1292
+01:43:57,068 --> 01:44:01,356
+here, the d by dx doesn't act on x, it just act this way 
+
+1293
+01:44:01,657 --> 01:44:10,134
+it just acts on psi of X and gives us minus i d by dx psi of x
+
+1294
+01:44:14,787 --> 01:44:26,767
+Sorry, X minus i X d psi by dx, now let's subtract them,
+
+1295
+01:44:27,757 --> 01:44:31,285
+let's take this one with minus, and this one with plus 
+
+1296
+01:44:31,838 --> 01:44:35,715
+this corresponds to taking the commutator of X with P 
+
+1297
+01:44:37,650 --> 01:44:41,992
+acting on psi of X, commutator of X with P is another operator 
+
+1298
+01:44:42,256 --> 01:44:46,262
+and it acts on psi of X, what we get when we subtract?
+
+1299
+01:44:46,975 --> 01:44:49,193
+let's see, this one now has to come with a plus sign
+
+1300
+01:44:49,194 --> 01:44:54,657
+since we are subtracting ,some sort of subtracting we have to change sign here 
+
+1301
+01:44:55,716 --> 01:45:04,578
+and this term cancels,  this term cancels goes away,
+
+1302
+01:45:04,681 --> 01:45:07,955
+and all were left with a psi of X, 
+
+1303
+01:45:07,957 --> 01:45:15,281
+that's all that's left with this term cancels, now we just left i psi of X i psi of X
+
+1304
+01:45:15,992 --> 01:45:17,653
+alright so here's what we've found 
+
+1305
+01:45:18,337 --> 01:45:22,542
+for any psi of X whatever for any psi of X 
+
+1306
+01:45:22,832 --> 01:45:28,854
+the commutator of X with P acting on psi of X just gives
+
+1307
+01:45:29,718 --> 01:45:34,045
+If it's a plus i, I think it's a plus i, psi of x
+
+1308
+01:45:34,964 --> 01:45:42,321
+now if an operator acting on any wave function gives another operator,
+
+1309
+01:45:45,858 --> 01:45:49,168
+but if the operator, XP acting on any wave function 
+
+1310
+01:45:49,865 --> 01:45:52,134
+is the same as i acting on that same wave function 
+
+1311
+01:45:52,457 --> 01:45:53,642
+for any wave function whatever 
+
+1312
+01:45:54,793 --> 01:45:58,325
+it follows that this operator is equal to this operator
+
+1313
+01:45:58,326 --> 01:46:04,973
+Another way of saying it is if XP minus i
+
+1314
+01:46:05,422 --> 01:46:10,489
+Put all in a big bracket, when hits any wave function at all give zero
+
+1315
+01:46:12,814 --> 01:46:14,786
+then it means that this is zero, 
+
+1316
+01:46:15,595 --> 01:46:19,464
+there is only one operator which give zero when it acts on every state
+
+1317
+01:46:20,181 --> 01:46:27,338
+On every vector, there is no vector which escapes when this thing hits it
+
+1318
+01:46:28,993 --> 01:46:32,007
+The implication is that this thing is zero, 
+
+1319
+01:46:32,877 --> 01:46:38,910
+This is the only one operator which annihilates which kills every vector to zero
+
+1320
+01:46:39,286 --> 01:46:44,050
+XP, minus, commutator XP is equal to i
+
+1321
+01:46:55,818 --> 01:47:01,565
+that I put back the h bar, there would be an h bar here, i h bar 
+
+1322
+01:47:06,788 --> 01:47:11,240
+we've seen things like this before, you may have to go back to classical mechanics 
+
+1323
+01:47:11,734 --> 01:47:13,920
+we've seen things before, like this,
+
+1324
+01:47:13,921 --> 01:47:17,329
+we've seen Poisson brackets which had similar relationships 
+
+1325
+01:47:19,024 --> 01:47:24,874
+Poisson bracket of X with P is equal to one 
+
+1326
+01:47:25,654 --> 01:47:31,381
+earlier in this course we discussed the potential relationship 
+
+1327
+01:47:31,951 --> 01:47:37,281
+we had reason to discuss why commutators have to do with the Schrodinger's equation 
+
+1328
+01:47:37,433 --> 01:47:40,632
+go back but we discussed the relationship, 
+
+1329
+01:47:41,121 --> 01:47:45,503
+it might be a relationship between commutators of Poisson brackets in particular,
+
+1330
+01:47:45,920 --> 01:47:48,010
+the relation involved this i h bar
+
+1331
+01:47:50,674 --> 01:47:53,979
+this is actually the way Dirac began his discussion of quantum mechanics
+
+1332
+01:47:55,026 --> 01:47:58,835
+He said there must be something analogous to a Poisson bracket in quantum mechanics 
+
+1333
+01:47:59,988 --> 01:48:03,982
+and the only thing to think of which had the right algebraic structure 
+
+1334
+01:48:04,019 --> 01:48:11,235
+anti-symmetric, had a certain mathematical structure was the commutator 
+
+1335
+01:48:11,905 --> 01:48:17,211
+and he postulated that commutators and the Poisson brackets were related with each other
+
+1336
+01:48:17,621 --> 01:48:18,896
+To an i h bar,
+
+1337
+01:48:19,179 --> 01:48:22,312
+and then proceeded to go exactly backwards from the way that we went,
+
+1338
+01:48:23,435 --> 01:48:26,735
+he said, if this is a if this is the Poisson bracket 
+
+1339
+01:48:27,062 --> 01:48:30,561
+then this must be the commutator, then there must be an operator P 
+
+1340
+01:48:32,161 --> 01:48:37,052
+was commutator x with i, and we went back through the operation 
+
+1341
+01:48:37,603 --> 01:48:41,238
+and discovered that P was minus i d by dx 
+
+1342
+01:48:42,298 --> 01:48:43,883
+so we went the opposite direction
+
+1343
+01:48:44,009 --> 01:48:46,617
+We discovered P by just playing games, 
+
+1344
+01:48:46,618 --> 01:48:49,971
+let's say how about this operator d by dx have to do?
+
+1345
+01:48:50,353 --> 01:48:53,145
+What we've found is that it was, it was not Hermitian 
+
+1346
+01:48:53,381 --> 01:48:55,784
+we have to multiply it by i to make it Hermitian
+
+1347
+01:48:56,895 --> 01:48:59,941
+We explore it a little bit found out some interesting properties of it,
+
+1348
+01:49:00,381 --> 01:49:06,241
+but the most interesting property is that it's commutator is equal to i h bar
+
+1349
+01:49:06,242 --> 01:49:13,418
+which suggests that it's connected with the Poisson bracket 
+
+1350
+01:49:13,419 --> 01:49:16,166
+the classical Poisson bracket being one 
+
+1351
+01:49:18,845 --> 01:49:24,295
+of course the upshot of it, of course we need to do a lot more to convince ourselves
+
+1352
+01:49:25,082 --> 01:49:30,192
+the operator minus i d by dx really behaves like quantum mechanical momentum 
+
+1353
+01:49:31,453 --> 01:49:33,932
+You can't just say it looks like a Poisson bracket 
+
+1354
+01:49:33,933 --> 01:49:35,385
+it must be the quantum mechanical momentum 
+
+1355
+01:49:36,224 --> 01:49:39,434
+we have to show that wave packets move with velocities 
+
+1356
+01:49:40,819 --> 01:49:46,249
+that the governed by the by the by this that thing must be conserved 
+
+1357
+01:49:47,303 --> 01:49:49,297
+that it has all the properties of momentum,
+
+1358
+01:49:49,298 --> 01:49:50,650
+but we will 
+
+1359
+01:49:51,605 --> 01:49:56,734
+>> Is there some connection between these abstract operators
+
+1360
+01:49:56,892 --> 01:50:04,661
+>> minus i derivatives and the body of mass
+
+1361
+01:50:05,817 --> 01:50:08,246
+Well we would like to show that in some way that 
+
+1362
+01:50:08,247 --> 01:50:14,965
+it is mass time velocity, so what we will try, we will eventually show 
+
+1363
+01:50:15,548 --> 01:50:18,618
+that if you have a wave packet another words,
+
+1364
+01:50:18,618 --> 01:50:22,692
+a psi of X which is a concentrated distribution like this,
+
+1365
+01:50:23,219 --> 01:50:26,033
+and that wave packet moves along the x-axis 
+
+1366
+01:50:27,226 --> 01:50:33,404
+with a velocity which is given by the expectation value of this momentum operator 
+
+1367
+01:50:33,405 --> 01:50:37,913
+divided by the mass, that's what we would like to show 
+
+1368
+01:50:37,914 --> 01:50:47,504
+the velocity with which this wave packet propagates along the axis of velocity 
+
+1369
+01:50:47,914 --> 01:50:49,331
+just that we call the group velocity
+
+1370
+01:50:49,766 --> 01:50:53,739
+Velocity that the group of waves move along times the mass of the particle 
+
+1371
+01:50:54,876 --> 01:50:57,372
+is equal to the expectation value of the momentum 
+
+1372
+01:50:59,165 --> 01:51:04,176
+once we do that, then I think we are, and I think that's conserved 
+
+1373
+01:51:04,825 --> 01:51:07,453
+that'll take us a long way of calling it momentum 
+
+1374
+01:51:09,617 --> 01:51:13,852
+at some point we have to say quantum mechanics is more fundamental in classical mechanics 
+
+1375
+01:51:13,852 --> 01:51:17,852
+and the definition of momentum should be true quantum mechanics,
+
+1376
+01:51:17,914 --> 01:51:20,231
+and then we should show how it behaves in a certain way 
+
+1377
+01:51:20,448 --> 01:51:22,951
+when particles are heavy and so forth 
+
+1378
+01:51:26,000 --> 01:51:31,900
+for more, please visit us@Stanfordedu
+
+

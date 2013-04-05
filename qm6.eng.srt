@@ -1,0 +1,5488 @@
+1
+00:00:03,352 --> 00:00:07,091
+Stanford University
+
+2
+00:00:11,384 --> 00:00:13,850
+There was an issue that came up last time
+
+3
+00:00:14,104 --> 00:00:15,351
+I didn't understand the question
+
+4
+00:00:15,560 --> 00:00:17,066
+There was a question that kept coming up
+
+5
+00:00:17,682 --> 00:00:21,326
+And I didn't understand what it was until the very end of the class
+
+6
+00:00:23,149 --> 00:00:24,701
+It was an interesting and a good question
+
+7
+00:00:25,153 --> 00:00:27,801
+So I wanna go over it because it is important
+
+8
+00:00:28,866 --> 00:00:33,153
+It had to do with a spin in a magnetic field emitting a photon
+
+9
+00:00:36,274 --> 00:00:39,180
+And I maintained that if it emits a photon
+
+10
+00:00:39,600 --> 00:00:42,704
+Remember the, the way we set things up
+
+11
+00:00:43,089 --> 00:00:48,261
+We set let's take the Hamiltonian to be omega over two
+
+12
+00:00:48,687 --> 00:00:49,952
+Let's say sigma z
+
+13
+00:00:51,365 --> 00:00:55,527
+That has two eigenvalues, plus omega over two and minus omega over two
+
+14
+00:00:55,888 --> 00:00:59,837
+So the two eigenvalues let's call it E_1 the energy
+
+15
+00:01:01,157 --> 00:01:05,917
+The lower of the two eigenvalues is minus omega over two 
+
+16
+00:01:06,185 --> 00:01:13,537
+And the upper on is, let's call it E minus and E plus 
+
+17
+00:01:14,869 --> 00:01:16,276
+This is plus omega over two 
+
+18
+00:01:17,484 --> 00:01:20,632
+So there was two energy levels, if we draw an energy level diagram
+
+19
+00:01:21,320 --> 00:01:24,903
+Energy, we will have two eigenvalues, it would be zero over here
+
+20
+00:01:25,086 --> 00:01:26,442
+But that would not be one of them
+
+21
+00:01:26,982 --> 00:01:29,222
+But then we would have one over here, omega over two
+
+22
+00:01:30,182 --> 00:01:31,253
+And minus omega over two 
+
+23
+00:01:33,634 --> 00:01:34,964
+Alright what could happen under such 
+
+24
+00:01:35,429 --> 00:01:38,089
+We have not studied this process here yet 
+
+25
+00:01:38,774 --> 00:01:40,237
+But let's talk about it for a moment 
+
+26
+00:01:41,067 --> 00:01:44,408
+Given two states like this, it is possible for an atom or a spin
+
+27
+00:01:44,877 --> 00:01:48,436
+Or a system with energy levels like this to emit a photon
+
+28
+00:01:49,585 --> 00:01:52,323
+Emit a photon and go from the upper one to the lower one 
+
+29
+00:01:52,953 --> 00:01:57,254
+If it's in the upper, if it's in the lower state obviously it cannot emit a photon
+
+30
+00:01:58,567 --> 00:01:59,891
+Doesn't have the energy to do it
+
+31
+00:02:00,852 --> 00:02:02,980
+But if it's in an upper state it can emit a photon
+
+32
+00:02:04,026 --> 00:02:07,102
+And that photon will have the energy difference 
+
+33
+00:02:07,577 --> 00:02:08,797
+between the upper and the lower state 
+
+34
+00:02:09,019 --> 00:02:12,342
+So we will have an energy, of frequency, of energy omega 
+
+35
+00:02:13,686 --> 00:02:15,613
+Sorry not frequency, it will be frequency 
+
+36
+00:02:16,011 --> 00:02:18,752
+But more important, it will have energy of omega
+
+37
+00:02:19,534 --> 00:02:22,632
+There is an h bar missing, I have been setting h bar equals to zero
+
+38
+00:02:23,015 --> 00:02:26,119
+No, h bar equals one 
+
+39
+00:02:30,257 --> 00:02:32,127
+I've been setting h bar equals to one 
+
+40
+00:02:33,608 --> 00:02:37,257
+It's really h bar omega, but I will continue to set h bar equals to one
+
+41
+00:02:37,457 --> 00:02:42,918
+Because we all grown up, we are not afraid to set h bar equals to one right
+
+42
+00:02:44,817 --> 00:02:45,476
+What?
+
+43
+00:02:45,825 --> 00:02:48,139
+>> It was zero last quarter
+
+44
+00:02:49,352 --> 00:02:52,675
+it was zero last quarter, yeah, it was zero last quarter that's correct 
+
+45
+00:02:54,052 --> 00:02:59,316
+Okay so we draw a picture of the photon transition and a photon being emitted
+
+46
+00:03:00,989 --> 00:03:07,787
+Now somebody said what if the spin was not pointed up or down
+
+47
+00:03:08,638 --> 00:03:10,592
+What if it pointed, here is the z axis 
+
+48
+00:03:10,840 --> 00:03:15,359
+What if it pointed, let's say in this way along the x axis
+
+49
+00:03:16,500 --> 00:03:18,115
+And then it emitted a photon
+
+50
+00:03:18,565 --> 00:03:23,159
+Would it not emit the photon of half the energy namely omega over two
+
+51
+00:03:23,438 --> 00:03:27,348
+The answer is no if would not emit a photon of a energy omega over two
+
+52
+00:03:28,699 --> 00:03:31,429
+Let's discuss first what we are having classically
+
+53
+00:03:32,053 --> 00:03:36,845
+Classically if we have a roller, a spinning roller in a magnetic field 
+
+54
+00:03:37,745 --> 00:03:42,575
+That had an energy, which it was the typical energy would be the co..
+
+55
+00:03:43,070 --> 00:03:46,811
+The cosine of the angle between the axis of the spin
+
+56
+00:03:48,269 --> 00:03:51,349
+Here's the axis of the spin, here's the magnetic field 
+
+57
+00:03:53,178 --> 00:03:58,546
+The energy of that rotating object would depend on the orientation of the spin
+
+58
+00:03:58,993 --> 00:04:00,073
+Relative to the magnetic field
+
+59
+00:04:00,748 --> 00:04:02,067
+The energy would be minimum down
+
+60
+00:04:02,732 --> 00:04:05,787
+And it will gradually increase until it was up
+
+61
+00:04:06,540 --> 00:04:10,878
+That's number one, number two classically and quantum mechanically 
+
+62
+00:04:11,753 --> 00:04:13,032
+Classically the actual value, 
+
+63
+00:04:14,133 --> 00:04:16,542
+and quantum mechanically the expectation value of the spin
+
+64
+00:04:17,375 --> 00:04:21,382
+processes around the B axis with frequency omega 
+
+65
+00:04:22,728 --> 00:04:24,530
+That also happens classically 
+
+66
+00:04:25,850 --> 00:04:33,625
+It's in the classical mechanics notes in the Poisson brackets section
+
+67
+00:04:35,079 --> 00:04:38,129
+Where we study exactly that question
+
+68
+00:04:39,061 --> 00:04:42,237
+It wasn't called spin, it was called angular momentum, the spinning top
+
+69
+00:04:43,915 --> 00:04:44,837
+Does exactly the same thing 
+
+70
+00:04:45,678 --> 00:04:49,210
+And that spinning top if it really is a little electro magnet
+
+71
+00:04:50,302 --> 00:04:56,727
+A little magnetic system rotating, it will radiate 
+
+72
+00:04:58,106 --> 00:05:00,838
+In the process of going around with frequency omega 
+
+73
+00:05:01,690 --> 00:05:07,960
+It will emit radiation, at what frequency? Omega 
+
+74
+00:05:09,290 --> 00:05:12,277
+It will emit, radiation at the
+
+75
+00:05:12,911 --> 00:05:14,618
+And how much radiation would it emit?
+
+76
+00:05:14,942 --> 00:05:16,582
+Now it's classical it's not emitting photon 
+
+77
+00:05:16,953 --> 00:05:21,152
+Emitting classical radiation, and it will gradually, as it emit radiation
+
+78
+00:05:22,338 --> 00:05:25,881
+Fall over until it gets down and then no more radiation
+
+79
+00:05:26,266 --> 00:05:28,365
+How much energy would it emit all together?
+
+80
+00:05:30,025 --> 00:05:35,091
+And the answer depend on the angle that it started at
+
+81
+00:05:35,612 --> 00:05:41,097
+If it starts up it would emit all together an amount of energy that is proportional 
+
+82
+00:05:41,637 --> 00:05:46,674
+essentially omega, if it's pointing down it will emit no energy
+
+83
+00:05:47,511 --> 00:05:50,699
+If it's pointing horizontally, it would emit, let's say omega over two
+
+84
+00:05:52,021 --> 00:05:58,106
+So it would be a continuously possible value of emission of radiation at the same frequency
+
+85
+00:05:59,101 --> 00:06:04,006
+Quantum mechanically it can only emit a photon with 
+
+86
+00:06:04,506 --> 00:06:06,812
+whatever that energy the photon has
+
+87
+00:06:07,787 --> 00:06:12,042
+And the answer is, it's related but different answer 
+
+88
+00:06:12,919 --> 00:06:19,008
+If it emits, it will emit a photon of energy omega
+
+89
+00:06:21,028 --> 00:06:24,808
+On the other hand the probability of whatever it emits is not one necessarily
+
+90
+00:06:25,390 --> 00:06:33,740
+And in fact let's suppose the initial state is some alpha up plus beta down
+
+91
+00:06:35,912 --> 00:06:41,326
+If alpha and beta are equal, that corresponds to oriented along the x axis
+
+92
+00:06:43,016 --> 00:06:47,013
+If alpha is one and beta is zero, that's pointing up
+
+93
+00:06:48,146 --> 00:06:51,444
+If alpha is zero and beta is one, that's pointing down
+
+94
+00:06:54,230 --> 00:07:01,561
+And up electron, or an up spin, will emit a photon of frequency omega
+
+95
+00:07:02,104 --> 00:07:06,121
+Of energy omega, so if was just the up state, yes indeed
+
+96
+00:07:06,461 --> 00:07:08,051
+It will emit omega
+
+97
+00:07:08,999 --> 00:07:11,216
+If it was a down state, it emits nothing 
+
+98
+00:07:12,445 --> 00:07:14,733
+If it starts at the superposition of the states 
+
+99
+00:07:15,450 --> 00:07:18,604
+Then with probability alpha star alpha it emits
+
+100
+00:07:19,679 --> 00:07:22,677
+And with probability beta star beta it doesn't emit 
+
+101
+00:07:24,114 --> 00:07:29,515
+What is the average energy, given that it's a probability alpha star alpha 
+
+102
+00:07:29,738 --> 00:07:33,389
+that emits with a photon of frequency omega, energy omega 
+
+103
+00:07:33,615 --> 00:07:36,938
+And beta star beta that it emits nothing 
+
+104
+00:07:37,799 --> 00:07:40,621
+What is the average energy, and the average energy 
+
+105
+00:07:40,912 --> 00:07:42,511
+is the same as the classical energy
+
+106
+00:07:44,122 --> 00:07:46,642
+The average energy is the same as the classical energy 
+
+107
+00:07:47,261 --> 00:07:52,324
+But each individual event emits a photon of either 
+
+108
+00:07:53,274 --> 00:07:57,518
+Either it emits no photon or it emits a photon of energy omega 
+
+109
+00:07:58,369 --> 00:08:00,085
+So that was, who asked the question?
+
+110
+00:08:00,323 --> 00:08:01,169
+Somebody here asked a question 
+
+111
+00:08:01,466 --> 00:08:06,014
+So that's the upshot
+
+112
+00:08:08,932 --> 00:08:11,690
+And this is sort of the internal consistency of quantum mechanics
+
+113
+00:08:11,913 --> 00:08:13,086
+And of course to really, ya?
+
+114
+00:08:15,713 --> 00:08:22,346
+>> If the electron will emit a photon when it's in the down energy
+
+115
+00:08:22,646 --> 00:08:24,711
+>> presumably could avert the photon?
+
+116
+00:08:24,945 --> 00:08:28,065
+Yes, that's correct
+
+117
+00:08:28,676 --> 00:08:31,892
+>> How precise of the photon after B to omega 
+
+118
+00:08:33,908 --> 00:08:36,128
+That depends on the life time of the state 
+
+119
+00:08:37,017 --> 00:08:40,222
+And which in terms depend on how strongly coupled 
+
+120
+00:08:41,019 --> 00:08:47,783
+the depends on the dipole moment, the stronger the dipole moment
+
+121
+00:08:48,246 --> 00:08:50,889
+The magnetic moment, the faster it would emit
+
+122
+00:08:52,049 --> 00:08:54,547
+The faster it would emit, it's another way the sort of life time
+
+123
+00:08:54,972 --> 00:08:56,013
+the excited state will be 
+
+124
+00:08:57,095 --> 00:09:02,822
+It's the inversed life time which set this scale of exactly what you are asking
+
+125
+00:09:03,047 --> 00:09:06,702
+The precision with which you will have to be exactly 
+
+126
+00:09:09,599 --> 00:09:11,859
+There is a spread in the energy level
+
+127
+00:09:12,266 --> 00:09:14,990
+The spread in the energy level are uncertainty in the energy level
+
+128
+00:09:15,805 --> 00:09:22,002
+And the uncertainty of the energy level is the inversed to the life time of the state
+
+129
+00:09:22,686 --> 00:09:26,553
+So right, so you are absolutely right, it was a spread
+
+130
+00:09:27,254 --> 00:09:32,629
+It's governed by the energy-time uncertainty principle
+
+131
+00:09:33,033 --> 00:09:36,637
+But we are not there yet, whether we will get there I don't know
+
+132
+00:09:36,935 --> 00:09:37,492
+Okay 
+
+133
+00:09:37,983 --> 00:09:41,588
+>> Is this phenomenon of photon emission which use 
+
+134
+00:09:41,788 --> 00:09:43,714
+>> to create an apparatus to detect it?
+
+135
+00:09:44,046 --> 00:09:44,676
+What apparatus
+
+136
+00:09:45,123 --> 00:09:48,749
+>> to create an apparatus that detects the spin of an electron 
+
+137
+00:09:49,162 --> 00:09:54,566
+You could, that's one way to do it, that's one way to do it
+
+138
+00:09:55,162 --> 00:09:58,351
+I decided to not think about that as an apparatus
+
+139
+00:09:58,708 --> 00:10:01,883
+I didn't like it, because it didn't satisfied the rule that 
+
+140
+00:10:02,344 --> 00:10:07,310
+If you measure a component of a spin you leave the system with exactly that 
+
+141
+00:10:08,605 --> 00:10:17,707
+After thinking about it, I decided not qualified as a genuine measuring apparatus
+
+142
+00:10:19,617 --> 00:10:22,331
+So we are gonna come to measurement 
+
+143
+00:10:22,659 --> 00:10:24,045
+and the meaning of measurement in a little while
+
+144
+00:10:24,600 --> 00:10:27,254
+But we will soon move, half an hour gone already
+
+145
+00:10:31,501 --> 00:10:33,048
+#Okay if there are no more questions, 
+
+146
+00:10:33,491 --> 00:10:36,613
+I'm gonna move on to the subject of entanglement 
+
+147
+00:10:39,056 --> 00:10:42,716
+I have a few words to say about the collapse of a wave function
+
+148
+00:10:42,943 --> 00:10:47,488
+Let's just talk about for a moment the idea of collapse of the wave function
+
+149
+00:10:51,745 --> 00:10:53,947
+We've talked about how the quantum states evolve 
+
+150
+00:10:54,634 --> 00:10:58,381
+According to the Schrodinger equation and that is the way they evolve
+
+151
+00:10:58,762 --> 00:11:02,689
+But that's the way they evolve between events 
+
+152
+00:11:03,620 --> 00:11:06,482
+where somebody or something are detectors or 
+
+153
+00:11:06,707 --> 00:11:10,260
+an apparatus or just some other systems, an external system
+
+154
+00:11:10,744 --> 00:11:13,982
+interact with the original quantum system
+
+155
+00:11:14,800 --> 00:11:18,757
+So we have a quantum system, we have other thing in the world
+
+156
+00:11:19,339 --> 00:11:24,192
+Including observers, including apparatuses, and just including other things
+
+157
+00:11:25,508 --> 00:11:28,807
+If we take away all the other things 
+
+158
+00:11:29,991 --> 00:11:34,466
+The system might be left in some state, and then the system will evolve 
+
+159
+00:11:34,746 --> 00:11:36,224
+according to the Schrodinger equation 
+
+160
+00:11:37,090 --> 00:11:39,240
+And then we maybe bring back the other things
+
+161
+00:11:39,711 --> 00:11:41,546
+The other things might be an apparatus 
+
+162
+00:11:41,842 --> 00:11:43,971
+Where did the apparatus go? The apparatus is hiding 
+
+163
+00:11:44,182 --> 00:11:48,594
+But it could be an apparatus or something else 
+
+164
+00:11:49,865 --> 00:11:53,836
+But let's say it's an apparatus, and the apparatus measures some specific thing 
+
+165
+00:11:55,197 --> 00:11:59,553
+That were happened during the course of the interaction with the apparatus
+
+166
+00:12:00,741 --> 00:12:05,397
+If a measurement takes place, and the system is left in an eigen state 
+
+167
+00:12:07,373 --> 00:12:09,662
+corresponding to the particular outcome 
+
+168
+00:12:11,105 --> 00:12:15,561
+So for example we might start, let's suppose we want to measure L
+
+169
+00:12:16,744 --> 00:12:19,547
+And our system after a while might be in a state
+
+170
+00:12:20,348 --> 00:12:25,884
+Some summation over i, a bunch of complex number alpha sub i
+
+171
+00:12:26,783 --> 00:12:35,051
+Times eigenvectors of L, eigenvectors of L with eigenvalues lambda sub i
+
+172
+00:12:35,641 --> 00:12:38,279
+Okay what's the probability for the outcome of the experiment?
+
+173
+00:12:39,125 --> 00:12:43,445
+The system got here by evolving using the Schrodinger equation 
+
+174
+00:12:44,499 --> 00:12:47,632
+We started it out, we evolve it according to Schrodinger equation
+
+175
+00:12:47,826 --> 00:12:49,571
+Here is what we got, at the end of the day
+
+176
+00:12:50,405 --> 00:12:52,849
+And now we make a measurement of L
+
+177
+00:12:53,849 --> 00:12:56,435
+And we get some specific value of lambda
+
+178
+00:12:56,843 --> 00:12:58,220
+Random, we don't know what it's gonna be?
+
+179
+00:12:59,262 --> 00:13:00,214
+But it's gonna be something 
+
+180
+00:13:01,399 --> 00:13:03,693
+Let's say it's lambda seven, we measured lambda seven
+
+181
+00:13:04,861 --> 00:13:11,126
+There after, or right after that, the system is in state lambda seven
+
+182
+00:13:14,844 --> 00:13:17,178
+The course of the operation of measurement 
+
+183
+00:13:17,825 --> 00:13:21,922
+is not governed by the Schrodinger equation for the system
+
+184
+00:13:22,323 --> 00:13:26,133
+It's governed by the nature of the measuring process
+
+185
+00:13:27,124 --> 00:13:31,738
+And it simply tells you that you come out with one of the eigenvalues 
+
+186
+00:13:33,178 --> 00:13:37,942
+as the measured value, and the state vector will be just one of these
+
+187
+00:13:38,884 --> 00:13:40,558
+Which one? Random 
+
+188
+00:13:40,998 --> 00:13:43,310
+Random depending on the measure, now that's funny 
+
+189
+00:13:43,632 --> 00:13:47,143
+because you might think, look, well first of all
+
+
+190
+00:13:47,466 --> 00:13:48,766
+let's give it a terminology, 
+
+191
+00:13:49,638 --> 00:13:53,499
+the terminology is the way the function collapse around one point
+
+192
+00:13:54,203 --> 00:13:56,544
+It is collapse around one single eigenvalue
+
+193
+00:13:57,846 --> 00:13:58,953
+You can't predict which one 
+
+194
+00:13:59,996 --> 00:14:04,401
+But all of the structure here with all the other one becomes irrelevant 
+
+195
+00:14:05,095 --> 00:14:09,165
+And only one state pops into existence so to speak
+
+196
+00:14:10,116 --> 00:14:11,354
+Alright now what's wrong with this?
+
+197
+00:14:11,713 --> 00:14:16,930
+What's wrong with this? There is absolutely nothing wrong with it
+
+198
+00:14:17,109 --> 00:14:19,185
+It's correct description of the measurement process 
+
+199
+00:14:19,541 --> 00:14:23,114
+But what is very unsatisfying about this
+
+
+200
+00:14:23,640 --> 00:14:26,804
+is after all, apparatus is just quantum systems 
+
+201
+00:14:29,188 --> 00:14:33,489
+Why do we have two rules for the wave systems evolve?
+
+202
+00:14:35,301 --> 00:14:40,119
+One is Schrodinger equation, and one is arbitrary collapsed wave function
+
+203
+00:14:41,055 --> 00:14:44,096
+The answer is that we, 
+
+204
+00:14:45,763 --> 00:14:49,503
+if we want to think quantum mechanically about the whole system
+
+205
+00:14:50,339 --> 00:14:53,305
+A system plus apparatus, that's fine we can do it, 
+
+206
+00:14:53,505 --> 00:14:54,526
+and I hope we could get to it tonight
+
+207
+00:14:55,789 --> 00:14:57,421
+And then it's pure Schrodinger equation 
+
+208
+00:14:57,933 --> 00:15:02,771
+but we cannot separate the system into just system and apparatus
+
+209
+00:15:03,067 --> 00:15:06,146
+We have to think about the whole quantum system as being
+
+210
+00:15:06,346 --> 00:15:10,452
+system plus apparatus, that raise the question immediately right now
+
+211
+00:15:11,397 --> 00:15:13,492
+How do you combine systems together?
+
+212
+00:15:14,434 --> 00:15:20,295
+If you have more than one system, it could be an electron spin and the apparatus
+
+213
+00:15:21,207 --> 00:15:23,148
+We have two systems now, 
+
+214
+00:15:23,660 --> 00:15:26,575
+imagine we had a good quantum theory of the apparatus
+
+215
+00:15:26,807 --> 00:15:30,309
+The apparatus is a physical system quantum theories governs it
+
+216
+00:15:31,486 --> 00:15:36,220
+How do we describe the combined system where we take two components
+
+217
+00:15:37,571 --> 00:15:39,700
+One spin, one apparatus, put them together
+
+218
+00:15:39,943 --> 00:15:41,740
+How do we make it into a single quantum system?
+
+219
+00:15:42,464 --> 00:15:44,636
+And then how with that single quantum system 
+
+220
+00:15:44,873 --> 00:15:46,569
+do we describe this process of measurement?
+
+221
+00:15:47,944 --> 00:15:52,502
+That is a very, confused a generation of physicists
+
+222
+00:15:54,512 --> 00:15:57,728
+Partly because Bohr was very stubborn about this
+
+
+223
+00:15:58,197 --> 00:15:59,517
+He didn't quite had it right
+
+224
+00:16:00,747 --> 00:16:06,928
+And he was a nice man, a very nice man, very glad, I never met him
+
+225
+00:16:10,275 --> 00:16:13,262
+Though he was a nice man, but thing is he is also a very stubborn man
+
+226
+00:16:15,140 --> 00:16:18,447
+And this particular thing, he was mostly right
+
+227
+00:16:19,216 --> 00:16:20,703
+But here and there, he was wrong, 
+
+228
+00:16:22,457 --> 00:16:25,579
+It was apparently very tough to be around him where he was 
+
+229
+00:16:27,142 --> 00:16:29,077
+People tried to explained to him over and over again 
+
+230
+00:16:29,523 --> 00:16:31,431
+You have to think of the combined system 
+
+231
+00:16:31,650 --> 00:16:33,718
+and you have to think of the combined quantum system 
+
+232
+00:16:33,979 --> 00:16:36,005
+If you want to understand the quantum mechanics of measurement 
+
+233
+00:16:36,211 --> 00:16:37,900
+And he said no, he didn't believed that, anyway
+
+234
+00:16:38,714 --> 00:16:43,331
+Combined systems, we have two systems now
+
+235
+00:16:43,558 --> 00:16:46,563
+Let's just not worry about what they are 
+
+236
+00:16:47,138 --> 00:16:53,029
+They are two systems, we will get more specific in the moment 
+
+237
+00:16:53,324 --> 00:16:57,330
+But let's give them names, let's call one of the systems A 
+
+238
+00:16:57,531 --> 00:16:59,941
+and A does not stand, it could stand for apparatus 
+
+239
+00:17:00,557 --> 00:17:02,915
+But it doesn't have to, it's just A
+
+240
+00:17:03,678 --> 00:17:08,697
+System A, I will call the space of states of system A, S sub A
+
+241
+00:17:09,068 --> 00:17:10,347
+S sub A could stand for system A 
+
+242
+00:17:10,683 --> 00:17:14,889
+but now I had it to mean the space of quantum state of the system A
+
+243
+00:17:15,748 --> 00:17:18,032
+And we have another system, I'm gonna call I
+
+244
+00:17:23,320 --> 00:17:26,157
+It's another system with it's own space of state I
+
+245
+00:17:26,935 --> 00:17:35,874
+This system A has state which are labeled by a basis of states
+
+246
+00:17:37,312 --> 00:17:39,710
+You chose a basis of states in the system A
+
+247
+00:17:40,485 --> 00:17:41,786
+And you can label them |a>, 
+
+248
+00:17:42,109 --> 00:17:46,893
+|a> can go from one to whatever the number of state of the system A is
+
+249
+00:17:48,118 --> 00:17:50,712
+Whatever the dimensions of the space of state A is 
+
+250
+00:17:51,407 --> 00:17:53,771
+And system I has state |i>
+
+251
+00:17:57,521 --> 00:18:04,483
+Any state of system A, if you didn't have I, 
+
+252
+00:18:05,340 --> 00:18:08,714
+would be a superposition of this basis states
+
+253
+00:18:09,854 --> 00:18:13,731
+Any state of system I would be a superposition of these space of states
+
+254
+00:18:16,278 --> 00:18:18,932
+How do we put the systems together and make a single quantum system?
+
+255
+00:18:19,820 --> 00:18:21,332
+Well, I'm gonna tell you what the rule is
+
+256
+00:18:21,541 --> 00:18:24,729
+I will give you a quick book rule but it's pretty compelling
+
+257
+00:18:25,701 --> 00:18:28,139
+And it is the way real things work, okay
+
+258
+00:18:28,919 --> 00:18:34,228
+You built a space of state of the system A I
+
+259
+00:18:35,481 --> 00:18:38,616
+Which means A and I together, both of them
+
+260
+00:18:39,745 --> 00:18:45,741
+That space of state is called mathematically, 
+
+261
+00:18:46,272 --> 00:18:48,429
+it is what is called the tensor product 
+
+262
+00:18:48,695 --> 00:18:50,476
+I will tell you what it means in detail
+
+263
+00:18:50,874 --> 00:18:54,959
+but it's the tensor product of the two space of states S A
+
+264
+00:18:55,709 --> 00:18:58,718
+And this is the symbol of the tensor product S I
+
+265
+00:18:59,991 --> 00:19:02,144
+Now what does a tensor product mean?
+
+266
+00:19:02,748 --> 00:19:05,735
+Well, it mean something very simple 
+
+267
+00:19:06,034 --> 00:19:09,371
+It means you construct a new space 
+
+268
+00:19:10,289 --> 00:19:14,311
+New mathematical space whose vectors are labeled 
+
+269
+00:19:14,956 --> 00:19:17,225
+by a value of |a> and value of |i>
+
+270
+00:19:18,190 --> 00:19:21,867
+Another words, you pair off the basis vectors and all possible pairings
+
+271
+00:19:22,861 --> 00:19:31,537
+One from A, one from I, and you construct a basis which is labeled |a i>
+
+272
+00:19:34,885 --> 00:19:40,166
+If this, let's suppose the dimensionality of this space is D sub a
+
+273
+00:19:41,196 --> 00:19:45,986
+And the dimensionality of this space is D sub i, or D sub
+
+274
+00:19:46,236 --> 00:19:53,573
+I guess it's capital A I want here, D sub capital A and D sub capital I
+
+275
+00:19:55,878 --> 00:19:59,464
+Another words the number of orthogonal states of each one of these separately 
+
+276
+00:19:59,713 --> 00:20:04,630
+Then what's the, what's the dimensionality of the tensor product?
+
+277
+00:20:07,699 --> 00:20:11,418
+D_A times D_I, you get to pick one from A and one from I
+
+278
+00:20:11,627 --> 00:20:14,430
+Like in a Chinese restaurant, one from A and one from I, Okay?
+
+279
+00:20:15,105 --> 00:20:16,539
+And how many are there all together?
+
+280
+00:20:16,916 --> 00:20:19,554
+D_A times D_I, that's why it's called a product, 
+
+281
+00:20:19,903 --> 00:20:22,745
+because the dimensionality is a product
+
+282
+00:20:23,881 --> 00:20:29,751
+So this is D_A times D_I in dimensionality
+
+283
+00:20:30,851 --> 00:20:34,297
+These are the base of states for the tensor product, okay
+
+284
+00:20:34,665 --> 00:20:36,863
+They are labeled with two indices 
+
+285
+00:20:37,249 --> 00:20:40,370
+Now you think of them as orthonormal basis 
+
+286
+00:20:41,255 --> 00:20:42,879
+Orthonormal in the following sense 
+
+287
+00:20:43,399 --> 00:20:46,961
+If you take two such vectors |a i> and let's say |b j>
+
+288
+00:20:49,437 --> 00:20:54,130
+Where b is another one of the basis vector of A
+
+289
+00:20:54,859 --> 00:20:58,236
+And j is another one of the this
+
+290
+00:20:58,623 --> 00:21:01,115
+What's the inner product between these
+
+291
+00:21:01,351 --> 00:21:05,472
+Let's take these to be, let's take these to be normalized vectors
+
+292
+00:21:06,384 --> 00:21:08,416
+What is the inner product between them?
+
+293
+00:21:08,804 --> 00:21:12,976
+And the rule for a tensor product is the inner product between this and this
+
+294
+00:21:13,194 --> 00:21:15,119
+Of course we have to make a bra vector out of it 
+
+295
+00:21:15,339 --> 00:21:17,785
+In order to, in order to take it's inner product 
+
+296
+00:21:18,420 --> 00:21:21,892
+But if we make a bra vector out of this until it's inner product with this one
+
+297
+00:21:22,408 --> 00:21:28,994
+The rule is that the inner product is zero unless a is equal to b
+
+298
+00:21:29,238 --> 00:21:33,316
+And i is equals to j, another words, unless they matched
+
+299
+00:21:35,161 --> 00:21:39,622
+If they don't match, these might be observably different 
+
+300
+00:21:40,330 --> 00:21:43,119
+For example if this b is the same as this a
+
+301
+00:21:44,021 --> 00:21:45,501
+But i was not the same as j
+
+302
+00:21:46,742 --> 00:21:53,027
+Then one half of the system here would be, would be observable difference
+
+303
+00:21:53,884 --> 00:21:57,251
+associated with the observable difference in the sub system I
+
+304
+00:21:58,801 --> 00:22:01,303
+So in order for them to have an overlap
+
+305
+00:22:02,435 --> 00:22:05,639
+b must equal a and j must equal i
+
+306
+00:22:06,096 --> 00:22:08,766
+and then they are observably the same vector
+
+307
+00:22:09,620 --> 00:22:13,726
+>> Excuse me, are these arbitrary vectors? a, and
+
+308
+00:22:14,010 --> 00:22:14,868
+These are basis vectors 
+
+309
+00:22:15,168 --> 00:22:17,034
+>> Part of the orthonormal basis?
+
+310
+00:22:17,440 --> 00:22:19,718
+Yes you could pick any orthonormal basis from this one
+
+311
+00:22:20,090 --> 00:22:21,635
+And any orthonormal basis from this one 
+
+312
+00:22:23,094 --> 00:22:27,234
+Ya, but you could pick any orthonormal basis from this one 
+
+313
+00:22:29,593 --> 00:22:31,739
+And put them together in this way, you will get the same result 
+
+314
+00:22:32,444 --> 00:22:36,205
+Doesn't matter which basis you pick, but let's pick a basis to be concrete
+
+315
+00:22:37,043 --> 00:22:41,979
+Let's pick a basis, if a and i are not the same as both b and j
+
+316
+00:22:42,667 --> 00:22:43,856
+The inner product is zero
+
+317
+00:22:44,472 --> 00:22:45,826
+I can write an equation for that 
+
+318
+00:22:50,261 --> 00:23:00,334
+<b j|a i> is equal to delta, kronecker delta ab kronecker delta ij
+
+319
+00:23:01,811 --> 00:23:08,091
+If i is not equal to j, or a is not equal to b, this is zero
+
+320
+00:23:08,825 --> 00:23:12,557
+It's only none-zero if i is equal to j and a is equal to b
+
+321
+00:23:14,750 --> 00:23:20,168
+So these vectors formally by construction, by construction
+
+322
+00:23:20,458 --> 00:23:22,830
+Which means you simply assigning values to things now
+
+323
+00:23:23,418 --> 00:23:26,295
+But in a way that it's useful
+
+324
+00:23:27,021 --> 00:23:32,200
+These vectors form by definition or by construction, 
+
+325
+00:23:32,605 --> 00:23:35,818
+an orthonormal basis for the combined system
+
+326
+00:23:38,147 --> 00:23:39,277
+And this makes sense 
+
+327
+00:23:44,026 --> 00:23:47,312
+>> And you've defined this depend upon the basis, but
+
+328
+00:23:47,551 --> 00:23:50,540
+It does, but actually, defined it, let's put it this way
+
+329
+00:23:50,778 --> 00:23:52,313
+It were depend on the basis 
+
+330
+00:23:52,948 --> 00:23:54,760
+That construction in the end doesn't 
+
+331
+00:23:55,065 --> 00:23:57,516
+The construction in the end doesn't, and that's not hard to show 
+
+332
+00:23:57,965 --> 00:24:00,557
+This is, however, keep in mind that 
+
+333
+00:24:01,300 --> 00:24:05,528
+these basis vector are not all of the vectors in a tensor products
+
+334
+00:24:05,958 --> 00:24:09,490
+You can then take any linear combination of these basis vectors 
+
+335
+00:24:09,793 --> 00:24:14,651
+And they are also a vector in the tensor product, so
+
+336
+00:24:14,903 --> 00:24:19,046
+So the general vector in the tensor product is of the form 
+
+337
+00:24:20,234 --> 00:24:29,197
+Sum over i and a, alpha, let's call it sum i a, |i a>
+
+338
+00:24:30,875 --> 00:24:33,617
+A general linear combination of the coefficient 
+
+339
+00:24:33,876 --> 00:24:37,270
+that depend on what's inside here times the vector
+
+340
+00:24:37,546 --> 00:24:38,582
+times the basis vectors
+
+341
+00:24:39,003 --> 00:24:42,950
+Now the answer is, if you have chosen another basis 
+
+342
+00:24:43,952 --> 00:24:47,752
+Another set of basis, you could have gotten exactly the same vectors
+
+343
+00:24:48,257 --> 00:24:50,228
+Except they would have been written differently
+
+344
+00:24:50,461 --> 00:24:53,844
+They would have just been written in a different basis of a combined system
+
+345
+00:24:54,556 --> 00:24:56,477
+Changing basis for the individual systems 
+
+346
+00:24:56,693 --> 00:24:59,451
+corresponds to the basis changes for combined systems
+
+347
+00:24:59,649 --> 00:25:04,120
+Okay, so that's good, we now have the idea of a tensor product
+
+348
+00:25:04,911 --> 00:25:06,714
+And I'm gonna give you a concrete example now
+
+349
+00:25:07,571 --> 00:25:11,697
+The concrete example is the next most complicated quantum system
+
+350
+00:25:13,144 --> 00:25:14,081
+Namely two spins
+
+351
+00:25:15,452 --> 00:25:18,225
+Well it's debatable whether it's the next most complicated 
+
+352
+00:25:18,409 --> 00:25:19,701
+or the next to next most complicated
+
+353
+00:25:20,451 --> 00:25:25,578
+And the reason I say that, is because two spins have four basis vectors
+
+354
+00:25:26,119 --> 00:25:28,540
+You could imagine a system with only three basis vectors
+
+355
+00:25:29,073 --> 00:25:30,350
+And such system exist 
+
+356
+00:25:31,058 --> 00:25:36,194
+But since we are trying to learn how to combine systems
+
+357
+00:25:36,656 --> 00:25:38,867
+Let's take two systems and combine them 
+
+358
+00:25:39,547 --> 00:25:42,316
+Each of them being a spin
+
+359
+00:25:42,910 --> 00:25:47,561
+So what do we have, we have an electron nail down at this position over here
+
+360
+00:25:48,219 --> 00:25:51,394
+And it has a spin, which we are gonna call sigma 
+
+361
+00:25:51,861 --> 00:25:54,748
+And it has three components, sigma x y and z
+
+362
+00:25:55,324 --> 00:26:04,421
+So sigma x y and z, and we have another one over here 
+
+363
+00:26:06,001 --> 00:26:08,475
+We need a name for it, now I've toy it for a while 
+
+364
+00:26:08,716 --> 00:26:10,728
+We are calling this sigma one, this one sigma two
+
+365
+00:26:11,254 --> 00:26:13,267
+But there are too many indices, 
+
+366
+00:26:13,623 --> 00:26:16,439
+but then I have sigma one x and sigma one y, but they are bad
+
+367
+00:26:16,900 --> 00:26:18,677
+So I decided to give this one another name 
+
+368
+00:26:19,325 --> 00:26:22,031
+And the Greek letter that comes after sigma is tau
+
+369
+00:26:22,674 --> 00:26:25,653
+I don't know if it's the next letter, the next one in the English alphabet
+
+370
+00:26:26,100 --> 00:26:28,594
+That's t, ya, so the next one I think in the alphabet is tau
+
+371
+00:26:30,126 --> 00:26:31,549
+And I simply call this one tau
+
+372
+00:26:32,811 --> 00:26:34,575
+How many component does tau have?
+
+373
+00:26:35,146 --> 00:26:36,579
+Oh tau is also a spin 
+
+374
+00:26:37,703 --> 00:26:39,971
+So it also has three components x y and z 
+
+375
+00:26:44,116 --> 00:26:48,358
+Supposing I chose for the basis vectors for each of these 
+
+376
+00:26:48,940 --> 00:26:51,050
+The up and down basis vectors 
+
+377
+00:26:52,081 --> 00:26:58,348
+Another words, the state in which sigma z is up or down
+
+378
+00:26:58,850 --> 00:27:03,314
+And the state in which tau z are up or down
+
+379
+00:27:05,786 --> 00:27:12,944
+Then our basis vector for sigma are up> and down>
+
+380
+00:27:14,527 --> 00:27:18,558
+Our basis vectors for tau are exactly the same
+
+381
+00:27:20,768 --> 00:27:26,971
+Up> and down>, and maybe in order to indicate that
+
+382
+00:27:27,544 --> 00:27:30,373
+These are the vectors for the system tau
+
+383
+00:27:30,919 --> 00:27:32,777
+And these are the vectors for system sigma 
+
+384
+00:27:33,418 --> 00:27:36,372
+Let's use a slightly different kind of bracket notation here
+
+385
+00:27:36,614 --> 00:27:41,735
+Let's use a curly bracket, I'm gonna give that very shortly 
+
+386
+00:27:42,188 --> 00:27:46,534
+I just want to point out to you that these are different in meanings...and down
+
+387
+00:27:50,061 --> 00:27:55,058
+And down}, so what is the basis vectors for the combined system
+
+388
+00:27:55,525 --> 00:27:56,854
+If we put the system together, 
+
+389
+00:27:57,364 --> 00:27:59,735
+what are the basis vectors for the combined system?
+
+390
+00:28:00,119 --> 00:28:02,014
+There are four of them, two times two is four 
+
+391
+00:28:02,684 --> 00:28:06,536
+And what are they? They are states in which both spins are up
+
+392
+00:28:08,661 --> 00:28:11,085
+It's one of them, one spin 
+
+393
+00:28:11,394 --> 00:28:14,820
+And I always take the first entry here correspond to sigma 
+
+394
+00:28:15,187 --> 00:28:17,470
+And the second entry to correspond to tau
+
+395
+00:28:18,464 --> 00:28:25,747
+Up down>, down up> and down down>
+
+396
+00:28:28,465 --> 00:28:34,105
+That's the four basis vectors, each basis vectors carrying two labels now
+
+397
+00:28:35,361 --> 00:28:37,833
+A sigma label and a tau label 
+
+398
+00:28:39,636 --> 00:28:42,721
+That's the idea, that's you know, it's very reasonable idea 
+
+399
+00:28:43,674 --> 00:28:44,545
+Yes?
+
+400
+00:28:45,013 --> 00:28:47,927
+>> Supposedly these two component systems interact 
+
+401
+00:28:48,352 --> 00:28:50,049
+>> Does that .. or not?
+
+402
+00:28:50,274 --> 00:28:54,510
+No, the basis vectors stay the same, but the linear combination of basis vectors
+
+403
+00:28:54,747 --> 00:28:57,242
+That they are describing the system would change, ya
+
+404
+00:28:58,400 --> 00:29:06,161
+So any state in this space can be written as alpha up, times up up>
+
+405
+00:29:07,724 --> 00:29:17,617
+Plus an alpha up down |up down> plus an alpha down up |down up>
+
+406
+00:29:18,927 --> 00:29:23,963
+Plus an alpha down down |down down>
+
+407
+00:29:26,468 --> 00:29:28,652
+That's the most general thing we can write 
+
+408
+00:29:30,138 --> 00:29:31,809
+Let's call it |Psi>
+
+409
+00:29:32,044 --> 00:29:34,016
+The answer to your question is 
+
+410
+00:29:34,229 --> 00:29:37,231
+if you started out with a particular linear combination
+
+411
+00:29:38,417 --> 00:29:41,389
+Let's say for example just alpha up up |up up>
+
+412
+00:29:41,613 --> 00:29:43,290
+Both spin's up and you let them interact 
+
+413
+00:29:43,988 --> 00:29:46,918
+Then in general what happen to these coefficients would change 
+
+414
+00:29:47,645 --> 00:29:51,628
+In fact it could even happen that after a time alpha up up 
+
+415
+00:29:51,921 --> 00:29:53,333
+might go to alpha down down
+
+416
+00:29:55,217 --> 00:29:59,166
+In other words, two spin up might interact in such a way
+
+417
+00:29:59,409 --> 00:30:00,931
+It's just wind up down, 
+
+418
+00:30:01,880 --> 00:30:04,559
+that would not be a change in what the basis vectors are
+
+419
+00:30:05,678 --> 00:30:07,373
+It would be a change in what the alphas are
+
+420
+00:30:21,726 --> 00:30:23,515
+Alright another several questions we can ask
+
+421
+00:30:23,908 --> 00:30:29,075
+Incidentally, one of the criteria for doing this correctly 
+
+422
+00:30:29,725 --> 00:30:34,821
+is that if we take a combined system but then we only do experiments
+
+423
+00:30:35,370 --> 00:30:36,949
+on one of the halves of it
+
+424
+00:30:38,403 --> 00:30:40,023
+The other one doing whatever it's doing 
+
+425
+00:30:40,771 --> 00:30:42,484
+And they are well separated from each other 
+
+426
+00:30:42,806 --> 00:30:44,689
+Let's suppose they are well separated from each other 
+
+427
+00:30:45,028 --> 00:30:46,941
+And we do an experiment on only one of them
+
+428
+00:30:47,434 --> 00:30:50,351
+The answer that we get should be the same answer that we got
+
+429
+00:30:50,685 --> 00:30:53,009
+When we even not think of it as a combined system
+
+430
+00:30:53,970 --> 00:30:56,476
+If we have a theory of sigma
+
+431
+00:30:57,410 --> 00:31:00,120
+Which we talked about now for five weeks I think 
+
+432
+00:31:01,118 --> 00:31:02,172
+And we know all about it
+
+433
+00:31:02,413 --> 00:31:03,785
+We know how to do experiments on it
+
+434
+00:31:04,105 --> 00:31:08,007
+And now we think of it as half a system composed of sigma and tau
+
+435
+00:31:08,816 --> 00:31:10,954
+But sigma and tau are far from each other let's say
+
+436
+00:31:11,211 --> 00:31:13,118
+They are not interacting with each other substantially 
+
+437
+00:31:13,685 --> 00:31:17,077
+And we do exactly the same experiment so we've been talking about up till now
+
+438
+00:31:17,290 --> 00:31:18,216
+We should give the same answers
+
+439
+00:31:18,590 --> 00:31:20,811
+So we should put these things together in a way 
+
+440
+00:31:21,439 --> 00:31:25,706
+Which make sure that the earlier issues
+
+441
+00:31:26,043 --> 00:31:30,266
+The earlier description of either sub system is still correct 
+
+442
+00:31:30,974 --> 00:31:32,864
+Now I'm not gonna bother proving that 
+
+443
+00:31:33,099 --> 00:31:35,339
+I think you will get the idea and you will see how it works 
+
+444
+00:31:36,310 --> 00:31:40,350
+And the way we are putting things together does guarantee that 
+
+445
+00:31:42,620 --> 00:31:44,278
+Okay now we can go into two directions from here 
+
+446
+00:31:45,003 --> 00:31:46,317
+We can talk about the space of states
+
+447
+00:31:46,936 --> 00:31:48,099
+Or we can talk about the observables 
+
+448
+00:31:48,370 --> 00:31:49,169
+So we are gonna do both
+
+449
+00:31:49,480 --> 00:31:52,342
+But I will take a vote, how many of you want to talk about the space of states?
+
+450
+00:31:52,856 --> 00:31:55,115
+How many want to talk about the observables? 
+
+451
+00:31:56,059 --> 00:31:57,263
+We will talk about the space of states first 
+
+452
+00:31:58,761 --> 00:32:00,351
+You know I was gonna do that, you know, come on
+
+453
+00:32:03,600 --> 00:32:06,566
+Alright , ya
+
+454
+00:32:08,526 --> 00:32:13,536
+>> .. left and right for that again?
+
+455
+00:32:13,796 --> 00:32:14,494
+What's that?
+
+456
+00:32:14,813 --> 00:32:16,587
+Oh yeah yeah yeah, sure ,there are ya
+
+
+457
+00:32:17,327 --> 00:32:21,532
+Supposing we wanted, supposing we wanted a state
+
+458
+00:32:22,400 --> 00:32:27,827
+Which was left for sigma and up for tau, alright?
+
+459
+00:32:28,244 --> 00:32:31,496
+So this would be a state which would be prepared 
+
+460
+00:32:31,960 --> 00:32:33,502
+We have two apparatuses now, 
+
+461
+00:32:34,259 --> 00:32:36,073
+I'm always uncomfortable with the word apparatuses
+
+462
+00:32:36,446 --> 00:32:38,561
+I always thinking it would be apparati, I don't think that's right
+
+463
+00:32:39,404 --> 00:32:44,619
+We have two apparatuses, one that we apply to sigma
+
+464
+00:32:44,937 --> 00:32:48,320
+The other we apply to tau, and we now take our apparatus 
+
+465
+00:32:48,734 --> 00:32:53,512
+One apparatus, sigma apparatus, we point it in the, let's say, the x y axis
+
+466
+00:32:54,422 --> 00:32:59,569
+Not the x y, along the x axis, and the other one and we point along the z axis
+
+467
+00:33:00,310 --> 00:33:06,462
+And we are wind up discovering that sigma was along the x axis with plus one
+
+468
+00:33:07,249 --> 00:33:11,235
+And tau was along the z axis also with plus one
+
+469
+00:33:12,124 --> 00:33:19,161
+So that means that sigma was up but tau was right
+
+470
+00:33:20,716 --> 00:33:22,531
+How do we make a state which is
+
+471
+00:33:24,448 --> 00:33:27,799
+So the answer is, I will tell you what to do, 
+
+472
+00:33:28,106 --> 00:33:30,858
+but then we will eventually have a mathematic for this
+
+473
+00:33:33,713 --> 00:33:40,565
+Sigma is definitely up, but tau is a linear superposition of up with down
+
+474
+00:33:42,033 --> 00:33:46,579
+Easy, you just take up up plus> up down>
+
+475
+00:33:48,860 --> 00:33:51,105
+Square root of two, one over square root of two 
+
+476
+00:33:54,683 --> 00:33:56,225
+You can think of this another way
+
+477
+00:33:56,784 --> 00:33:59,324
+You can say think of it as a product 
+
+478
+00:34:00,045 --> 00:34:11,555
+A product of up> for sigma and right} for tau
+
+479
+00:34:13,509 --> 00:34:14,757
+Now what is right}?
+
+480
+00:34:15,642 --> 00:34:18,393
+Right} is up> plus down> right? Right
+
+481
+00:34:18,970 --> 00:34:20,142
+Right is up> plus down>
+
+482
+00:34:20,841 --> 00:34:25,046
+So this can also be written as up> times another, 
+
+483
+00:34:25,284 --> 00:34:26,819
+I will put a big square bracket around it
+
+484
+00:34:29,593 --> 00:34:33,108
+Up}, curly bracket, plus down}
+
+485
+00:34:35,233 --> 00:34:38,657
+But if I want to normalize it I should put a square root of two downstairs
+
+486
+00:34:41,808 --> 00:34:49,363
+So we just think of it as a product of sigma up and tau in the, 
+
+487
+00:34:50,221 --> 00:34:51,676
+along the right direction
+
+488
+00:34:52,630 --> 00:34:53,959
+But that's the same thing here
+
+489
+00:34:55,314 --> 00:34:58,230
+We have one over square root of two up up> as this one
+
+490
+00:34:59,684 --> 00:35:02,995
+And one over square root of two up down>, that's this one 
+
+491
+00:35:04,212 --> 00:35:05,716
+I'm not sure this answer your questions or not 
+
+492
+00:35:06,236 --> 00:35:08,428
+But I think it probably partly did, ya, okay 
+
+493
+00:35:12,118 --> 00:35:14,651
+This kind of state is called the product state
+
+494
+00:35:15,606 --> 00:35:19,643
+It's a product state in which you know exactly what's going on with sigma
+
+495
+00:35:20,147 --> 00:35:24,111
+Namely it's in the up direction and you know exactly what's going along with tau
+
+496
+00:35:24,468 --> 00:35:27,327
+It's in the y direction, it's product state 
+
+497
+00:35:29,084 --> 00:35:32,323
+It's simply two separate things which are prepared independently 
+
+498
+00:35:33,173 --> 00:35:39,076
+And here it is, a product state is by definition a product
+
+499
+00:35:40,489 --> 00:35:42,290
+Let's write the most general product state 
+
+500
+00:35:44,562 --> 00:35:48,037
+The most general, this is not the most general product state 
+
+501
+00:35:48,276 --> 00:35:51,038
+The most general product state can be written as follows 
+
+502
+00:35:53,228 --> 00:35:59,374
+Alpha up  up> plus alpha down  down>
+
+503
+00:36:01,442 --> 00:36:05,955
+That's for sigma and then for tau let's call it beta
+
+504
+00:36:06,317 --> 00:36:09,017
+Let's call the coefficient for tau, let's call it beta 
+
+505
+00:36:09,754 --> 00:36:18,436
+Beta up up} squiggly plus beta down down}
+
+506
+00:36:20,728 --> 00:36:21,479
+What does this mean? 
+
+507
+00:36:22,101 --> 00:36:27,444
+This means that sigma was prepared in this particular linear combination here
+
+508
+00:36:28,455 --> 00:36:31,451
+It might have been holding the detector in some funny angle 
+
+509
+00:36:32,411 --> 00:36:37,600
+And this one is the respond to holding tau detector at some other angle 
+
+510
+00:36:39,127 --> 00:36:42,101
+And you had only one of these not the other
+
+511
+00:36:42,329 --> 00:36:43,511
+You would just have written this down 
+
+512
+00:36:43,832 --> 00:36:45,224
+And the other one you would have written this down 
+
+513
+00:36:45,905 --> 00:36:48,211
+Together you write down the product, that's the rule 
+
+514
+00:36:50,998 --> 00:36:53,500
+Okay, of course you know, ultimately these rules are the rules 
+
+515
+00:36:53,707 --> 00:36:55,200
+Because they agree with experiment but
+
+516
+00:36:55,474 --> 00:36:57,589
+It's pretty plausible rule 
+
+517
+00:37:00,440 --> 00:37:06,797
+This is a product, we can also write it alpha up beta up times up up>
+
+518
+00:37:08,643 --> 00:37:14,748
+Plus alpha up beta down up down>, do I need to write the rest of it?
+
+519
+00:37:16,509 --> 00:37:23,725
+Well I will, plus alpha down beta up down up>, 
+
+520
+00:37:24,916 --> 00:37:29,477
+Plus alpha down beta down down down>
+
+521
+00:37:31,556 --> 00:37:35,913
+Alright of course, this is of the form of the general vector 
+
+522
+00:37:36,308 --> 00:37:38,578
+But there is something special about the coefficients here
+
+523
+00:37:38,783 --> 00:37:42,663
+The coefficients factorized into 
+
+524
+00:37:43,054 --> 00:37:49,149
+And therefore this is in a certain sense special to some extend
+
+525
+00:37:49,823 --> 00:37:51,880
+Let's see if we can quantify how special 
+
+526
+00:37:54,818 --> 00:37:56,274
+>> What kind of vector product is that?
+
+527
+00:37:56,961 --> 00:38:00,203
+That's a tensor product, this is the element of a tensor product 
+
+528
+00:38:00,709 --> 00:38:04,986
+And it's a tensor product of this vector with that vector
+
+529
+00:38:07,491 --> 00:38:13,606
+It's a vector drawn in a composite system as a tensor product of 
+
+530
+00:38:13,880 --> 00:38:17,217
+vector described in one system and a vector described in other system
+
+531
+00:38:18,552 --> 00:38:22,669
+So strictly speaking the tensor product is usually used for the whole space
+
+532
+00:38:23,449 --> 00:38:27,074
+But then you would say this is a product state within the tensor product space
+
+533
+00:38:27,431 --> 00:38:30,227
+And I will just call it tensor product state or product state
+
+534
+00:38:32,001 --> 00:38:34,400
+It's not general and to see how none general it is 
+
+535
+00:38:34,714 --> 00:38:43,083
+We can count parameters, given a general system or a general state vector
+
+536
+00:38:43,740 --> 00:38:44,748
+How many parameters? 
+
+537
+00:38:44,951 --> 00:38:47,704
+How many independent parameters does it take to describe it?
+
+538
+00:38:48,844 --> 00:38:52,002
+And the answer is four complex numbers 
+
+539
+00:38:52,523 --> 00:38:56,149
+Alpha up up, alpha up down, alpha down up, alpha down down 
+
+540
+00:38:56,556 --> 00:38:59,180
+I am not assuming that it has this special form 
+
+541
+00:39:00,492 --> 00:39:06,225
+Just general four numbers, four complex numbers is eight real numbers
+
+542
+00:39:06,663 --> 00:39:08,272
+But that's a little too much 
+
+543
+00:39:09,102 --> 00:39:11,693
+Because we should assume the state is normalized 
+
+544
+00:39:12,879 --> 00:39:17,907
+So that's one constrain, and we also know over all phase is not important
+
+545
+00:39:18,772 --> 00:39:22,723
+So when you count parameters, you always subtracts two
+
+546
+00:39:23,159 --> 00:39:25,735
+One for the normalization, one for the phase
+
+547
+00:39:26,317 --> 00:39:35,912
+Eight minus two is six, six real parameters describing a general state of two spins
+
+548
+00:39:37,188 --> 00:39:43,575
+How many here? Well the state describing the sigma particle 
+
+549
+00:39:44,409 --> 00:39:45,976
+That has two real parameters 
+
+550
+00:39:46,477 --> 00:39:50,675
+Four real parameters for alpha up and alpha down
+
+551
+00:39:51,497 --> 00:39:54,297
+But then we subtract two, same thing here 
+
+552
+00:39:56,558 --> 00:39:59,822
+This is a normalized state, and it's overall phase doesn't matter
+
+553
+00:40:00,565 --> 00:40:03,715
+This is a normalized state, it's overall phase doesn't matter
+
+554
+00:40:04,403 --> 00:40:06,438
+All together four real parameters
+
+555
+00:40:06,925 --> 00:40:09,597
+It's the same four real parameters that you might have guess 
+
+556
+00:40:09,848 --> 00:40:11,081
+if you set ahead just two spins 
+
+557
+00:40:11,871 --> 00:40:16,100
+Each spin has two parameters necessary to write down it's state 
+
+558
+00:40:16,412 --> 00:40:17,358
+two real parameters, 
+
+559
+00:40:18,074 --> 00:40:21,355
+two real parameters could have been the polarization direction of the spin
+
+560
+00:40:23,024 --> 00:40:25,508
+The axis along which the spin is oriented or 
+
+561
+00:40:25,954 --> 00:40:31,805
+So there are four parameters but six parameters here
+
+562
+00:40:32,223 --> 00:40:36,527
+That simply proves that not all states are product states
+
+563
+00:40:36,727 --> 00:40:38,728
+In fact most states are not product states 
+
+564
+00:40:39,803 --> 00:40:42,085
+We are gonna talk about some none product state soon enough
+
+565
+00:40:43,478 --> 00:40:45,350
+But this is the notion of the product state 
+
+566
+00:40:46,992 --> 00:40:51,169
+And the product state, we can really think of separate states 
+
+567
+00:40:52,002 --> 00:40:54,406
+for each of the particles for each of the sub systems 
+
+568
+00:40:55,377 --> 00:40:59,365
+But for more general state you can't really divide it 
+
+569
+00:41:00,115 --> 00:41:03,386
+into a state for one subsystem and the state for the other sub system
+
+570
+00:41:04,018 --> 00:41:07,258
+They are entangled, they are entangled and they are more elaborate
+
+571
+00:41:07,535 --> 00:41:14,500
+They are more um, I don't know what the right word is
+
+572
+00:41:15,004 --> 00:41:17,476
+Entangled, they are entangled in a more entangle way
+
+573
+00:41:18,873 --> 00:41:20,422
+We are gonna discuss that, entanglement
+
+574
+00:41:20,806 --> 00:41:22,346
+That's very important concept of course 
+
+575
+00:41:23,690 --> 00:41:27,435
+Okay that's two spins, how many parameters six versus four
+
+576
+00:41:27,846 --> 00:41:30,391
+They are entangled, alright, we talked about product state 
+
+577
+00:41:31,517 --> 00:41:35,132
+And that's what we know about the space of state of the system 
+
+578
+00:41:35,431 --> 00:41:36,794
+It takes six parameters to describe it
+
+579
+00:41:37,805 --> 00:41:39,704
+While only four parameters of it's product state
+
+580
+00:41:40,116 --> 00:41:41,507
+Product state is the one 
+
+581
+00:41:41,706 --> 00:41:44,234
+which you can separately say there is the state for one system
+
+582
+00:41:44,989 --> 00:41:47,798
+And the state for the other system, end of story
+
+583
+00:41:50,451 --> 00:41:53,945
+Okay let's talk about observables, now we come to observables 
+
+584
+00:41:57,733 --> 00:42:00,572
+What are the observables for this composite system?
+
+585
+00:42:03,530 --> 00:42:05,604
+Well they must be the same observables 
+
+586
+00:42:07,115 --> 00:42:09,754
+as for the separate systems by themselves
+
+587
+00:42:10,420 --> 00:42:13,748
+Another words, sigma x y and z and tau x y and z
+
+588
+00:42:17,843 --> 00:42:24,162
+They are the things you could measure with two apparatuses of the same kind
+
+589
+00:42:24,967 --> 00:42:28,814
+As we used in our experiments on one spin
+
+590
+00:42:29,426 --> 00:42:33,658
+We now have two of them, so we now have sigma x and sigma y and sigma z
+
+591
+00:42:34,164 --> 00:42:35,897
+And tau x tau y and tau z
+
+592
+00:42:36,586 --> 00:42:42,199
+Let's see if we can figure out how these operators what it operates on
+
+593
+00:42:42,571 --> 00:42:44,260
+the state of the combined systems
+
+594
+00:42:45,330 --> 00:42:48,499
+Alright you can sort of guess I will spell it out
+
+595
+00:42:48,994 --> 00:42:53,378
+But here is the rule, let's take sigma x
+
+596
+00:42:55,641 --> 00:42:59,704
+And let's apply it to the state of these sigma systems
+
+597
+00:42:59,984 --> 00:43:01,561
+Obviously it belong to the sigma systems 
+
+598
+00:43:02,547 --> 00:43:05,280
+If it applies to up>, it gives down>
+
+599
+00:43:06,590 --> 00:43:09,948
+If it applies to down>, it gives up>
+
+600
+00:43:14,005 --> 00:43:20,472
+You can check that, that's a fact with sigma x, it's equal to zero one one zero
+
+601
+00:43:21,348 --> 00:43:25,866
+This off diagonal character means it takes up> to down> and down> to up>
+
+602
+00:43:27,031 --> 00:43:28,782
+This is what sigma x does
+
+603
+00:43:29,247 --> 00:43:31,645
+Ordinarily if we only have one sub system 
+
+604
+00:43:32,466 --> 00:43:35,267
+Here is what it does on a combined system
+
+605
+00:43:35,674 --> 00:43:41,996
+Sigma x on any vector which begins with up and has anything 
+
+606
+00:43:42,646 --> 00:43:47,838
+Let's see, which one was a and which one was i?
+
+607
+00:43:50,148 --> 00:43:54,527
+Second one was i? Tau went with i or Tau went with?
+
+608
+00:43:55,185 --> 00:43:56,056
+Tau was i, okay
+
+609
+00:43:56,805 --> 00:44:05,123
+So sigma x when it acts on up i, all it sees is the up>
+
+610
+00:44:05,523 --> 00:44:09,605
+All it sees is the first thing here, and it's completely passive 
+
+611
+00:44:10,466 --> 00:44:12,182
+with respect to the second index 
+
+612
+00:44:12,762 --> 00:44:15,262
+Another words, it doesn't even notice the second index 
+
+613
+00:44:15,515 --> 00:44:17,759
+And leaves it the same, it doesn't change it 
+
+614
+00:44:18,992 --> 00:44:24,082
+But it does whatever it should do on the first entry
+
+615
+00:44:25,861 --> 00:44:33,520
+Likewise, sigma x on down i> equals up i>
+
+616
+00:44:36,061 --> 00:44:41,737
+You just take what it did for the single spin space
+
+617
+00:44:42,894 --> 00:44:46,288
+And you just think of the other index as a kind of spectator
+
+618
+00:44:46,556 --> 00:44:50,089
+It just goes along for the ride, doesn't do anything
+
+619
+00:44:50,868 --> 00:44:52,856
+On the other hand, let's do one more sigma
+
+620
+00:44:53,117 --> 00:45:03,036
+Sigma z on up i> now what does sigma z do when it acts on up>?
+
+621
+00:45:07,432 --> 00:45:17,562
+Sigma z is one minus one zero zero, it just gives back up with value one
+
+622
+00:45:18,023 --> 00:45:24,662
+So that's just up i>, and what about sigma z on down i>?
+
+623
+00:45:27,185 --> 00:45:29,110
+And what happens when sigma z hits down?
+
+624
+00:45:30,359 --> 00:45:34,704
+Minus down, so this gives minus down i>
+
+625
+00:45:36,585 --> 00:45:39,077
+How about sigma y? What does sigma y (do)?
+
+626
+00:45:39,417 --> 00:45:41,583
+Sigma y does something very much the same as sigma x
+
+627
+00:45:41,820 --> 00:45:46,048
+Except it throws an i, not this i>, but numerical complex number i
+
+628
+00:45:47,273 --> 00:45:50,413
+It throws it around because what is it, sigma x?
+
+629
+00:45:50,750 --> 00:45:55,369
+This is sigma z, sigma x was one minus one 
+
+630
+00:45:56,209 --> 00:46:00,539
+And sigma y was equal to minus i, i, zero zero
+
+631
+00:46:01,407 --> 00:46:04,685
+Sigma y also flips up> to down> and down> to up>
+
+632
+00:46:05,029 --> 00:46:07,492
+But it throws in a .. i here
+
+633
+00:46:07,746 --> 00:46:10,843
+Okay so that's what sigma does 
+
+634
+00:46:11,954 --> 00:46:12,911
+Now how about tau?
+
+635
+00:46:13,702 --> 00:46:19,451
+Well tau does exactly the same thing except that 
+
+636
+00:46:20,328 --> 00:46:23,914
+the first entry becomes the spectator
+
+637
+00:46:24,528 --> 00:46:28,146
+And only the second entry gets acted on 
+
+638
+00:46:29,044 --> 00:46:30,968
+So let's, let's do this one 
+
+639
+00:46:32,195 --> 00:46:43,094
+Tau let's say x on a up>, a could be anything, a could be up> or down>
+
+640
+00:46:43,614 --> 00:46:51,604
+Doesn't matter, tau x on a up> is equal to a times down>
+
+641
+00:46:51,897 --> 00:47:03,860
+And tau x on a down> is equal to a up>
+
+642
+00:47:08,184 --> 00:47:18,709
+Alright let's do tau z on a up> equals a up>
+
+643
+00:47:21,454 --> 00:47:30,835
+And tau z on a down> is equal to minus a down>
+
+644
+00:47:33,093 --> 00:47:37,427
+And you could figure out the action of the y component of the spin
+
+645
+00:47:39,363 --> 00:47:40,588
+It's straightforward
+
+646
+00:47:41,194 --> 00:47:46,555
+With this definition, it's quite clear that if you are talking about an observable 
+
+647
+00:47:46,894 --> 00:47:53,721
+associated with sigma, that the tau degrees of freedom are completely passive
+
+648
+00:47:54,510 --> 00:48:00,301
+Nothing happens to them, the eigenvectors of the components of sigma 
+
+649
+00:48:02,945 --> 00:48:08,891
+Are simply product state of the eigenvector of sigma times any vector for tau
+
+650
+00:48:10,456 --> 00:48:12,820
+Another words for example the eigenvectors
+
+651
+00:48:19,530 --> 00:48:26,073
+the eigenvectors, the eigenvectors of, let's take sigma y
+
+652
+00:48:28,108 --> 00:48:37,023
+Ordinarily the eigenvector of sigma y are one i or one minus i
+
+653
+00:48:38,004 --> 00:48:41,069
+I can't remember which one has eigenvalues plus one or minus one
+
+654
+00:48:41,561 --> 00:48:43,297
+But one way or the other
+
+655
+00:48:43,997 --> 00:48:50,815
+But that means, that means the linear combination up plus i down>
+
+656
+00:48:51,905 --> 00:48:54,763
+That's an eigenvector of sigma y
+
+657
+00:48:55,167 --> 00:48:56,870
+If you want the eigenvector of sigma y 
+
+658
+00:48:57,755 --> 00:49:00,011
+when we are talking about the composite system
+
+659
+00:49:00,320 --> 00:49:04,206
+It's exactly the same except you put an i in here I guess
+
+660
+00:49:05,032 --> 00:49:09,224
+An i in here and an i in here, same i, same i
+
+661
+00:49:09,713 --> 00:49:13,218
+So for example, it could be up up plus i down up
+
+662
+00:49:14,222 --> 00:49:16,632
+Or up down> plus i down down>
+
+663
+00:49:17,647 --> 00:49:21,011
+The i is a spectator, it just goes along for the ride
+
+664
+00:49:21,582 --> 00:49:25,131
+Anything which was an eigenvectors for the single system
+
+665
+00:49:25,979 --> 00:49:27,858
+Remains the eigenvectors for the single system 
+
+666
+00:49:28,110 --> 00:49:30,853
+except you have to add in the index for the other particle, 
+
+667
+00:49:31,308 --> 00:49:34,030
+for the other subsystem 
+
+668
+00:49:34,842 --> 00:49:37,697
+And that's all there is to it, with this definition as I said
+
+669
+00:49:38,787 --> 00:49:41,735
+It's pretty clear that the separate subsystem 
+
+670
+00:49:42,449 --> 00:49:45,850
+Behaves independently, quite independently 
+
+671
+00:49:47,796 --> 00:49:51,269
+As long as you don't let them interact and feel each other
+
+672
+00:49:52,574 --> 00:49:55,031
+Or do something interesting with each other
+
+673
+00:49:55,283 --> 00:49:56,588
+As long as they are kept separated 
+
+674
+00:49:58,512 --> 00:50:06,452
+Okay, um, other questions?
+
+675
+00:50:08,498 --> 00:50:12,673
+>> The equation sigma x acting on |u> and gives down> 
+
+676
+00:50:12,951 --> 00:50:19,255
+>> Shouldn't it, you have sigma x acting on
+
+677
+00:50:19,872 --> 00:50:20,927
+>> the superposition of state?
+
+678
+00:50:22,822 --> 00:50:24,807
+No no, sigma x
+
+679
+00:50:26,044 --> 00:50:30,407
+>> in terms of the eigen states of the sigma x
+
+680
+00:50:32,796 --> 00:50:36,160
+Well, let's just do it by matrices 
+
+681
+00:50:37,864 --> 00:50:46,708
+sigma x is one one zero zero, up is one zero, okay?
+
+682
+00:50:47,533 --> 00:50:51,884
+up> is one zero, what happens? This times this is zero
+
+683
+00:50:53,648 --> 00:50:55,231
+This times this is one
+
+684
+00:50:56,536 --> 00:51:00,431
+So up> has gone to down>, okay?
+
+685
+00:51:00,952 --> 00:51:04,466
+Likewise, if we put a zero here and a one here 
+
+686
+00:51:06,547 --> 00:51:08,633
+This would become one zero 
+
+687
+00:51:09,743 --> 00:51:13,218
+So it just takes one zero and flips it to zero one
+
+688
+00:51:13,885 --> 00:51:15,940
+And back and forth like that
+
+689
+00:51:16,363 --> 00:51:17,742
+In general of course you would be right
+
+690
+00:51:17,989 --> 00:51:22,122
+But for this particular case, I just gives you back
+
+691
+00:51:23,177 --> 00:51:24,408
+>> I see what the ones and zeros work out
+
+692
+00:51:24,664 --> 00:51:27,024
+>> but in the physical situation where 
+
+693
+00:51:27,700 --> 00:51:30,747
+>> you were making the measurement to get the state
+
+694
+00:51:34,020 --> 00:51:38,666
+Well this doesn't say, this doesn't say, let's see
+
+695
+00:51:40,165 --> 00:51:43,956
+This doesn't say one zero and zero one are eigenvectors of sigma x
+
+696
+00:51:44,323 --> 00:51:48,249
+Far from it, it's as far from an eigenvector you can get 
+
+697
+00:51:48,992 --> 00:51:52,302
+When you acted sigma x on this one you get a completely orthogonal state
+
+698
+00:51:53,682 --> 00:51:57,133
+So this is not the rule that says, this is not the equation 
+
+699
+00:51:57,428 --> 00:51:59,937
+that says zero one or one zero are eigenvectors
+
+700
+00:52:02,036 --> 00:52:06,233
+An eigenvector is a vector which is kept in the same direction 
+
+701
+00:52:07,286 --> 00:52:08,541
+by action of the operator
+
+702
+00:52:09,192 --> 00:52:11,537
+This is as far as you can get from that 
+
+703
+00:52:12,302 --> 00:52:14,701
+The operator acts and gives you something orthogonal 
+
+704
+00:52:17,233 --> 00:52:20,956
+And that's okay? Alright you have to work that out
+
+705
+00:52:22,405 --> 00:52:26,008
+>> up> is a linear superposition of left and right
+
+706
+00:52:26,661 --> 00:52:27,661
+Indeed it is
+
+707
+00:52:32,928 --> 00:52:37,140
+Right that's correct 
+
+708
+00:52:38,658 --> 00:52:41,639
+>> my question before class is, 
+
+709
+00:52:42,204 --> 00:52:47,566
+>> Is there a physical meaning to applying operator to a none-eigen vector
+
+710
+00:52:47,982 --> 00:52:50,973
+>>What is that operation equates to?
+
+711
+00:52:55,777 --> 00:53:02,214
+Most of the times, that's just auxiliary operation in some calculation or other
+
+712
+00:53:05,002 --> 00:53:11,726
+Well, it doesn't have any particular special physical meaning 
+
+713
+00:53:13,340 --> 00:53:18,627
+But in this particular case, it tells you is the zero one one zero 
+
+714
+00:53:18,998 --> 00:53:20,779
+It's about as far from eigenvalues as you can get 
+
+715
+00:53:21,416 --> 00:53:25,692
+And what it tells you is that if you measure sigma x
+
+716
+00:53:26,774 --> 00:53:31,723
+In an eigen state of sigma z, it's as random as it can be 
+
+717
+00:53:34,383 --> 00:53:35,293
+It's as random as it can be 
+
+718
+00:53:40,550 --> 00:53:41,788
+Alright we are going along good 
+
+719
+00:53:43,878 --> 00:53:45,325
+>> (inaudible)
+
+720
+00:53:49,578 --> 00:53:51,962
+>> What happens if I have sigma x tau x
+
+721
+00:53:52,335 --> 00:53:54,120
+say that again
+
+722
+00:53:54,628 --> 00:53:56,770
+>> (inaudible)
+
+723
+00:53:59,653 --> 00:54:05,192
+>> What happens if I have sigma x tau x operating on 
+
+724
+00:54:07,455 --> 00:54:10,941
+Sigma x times tau x? Okay we could work that out
+
+725
+00:54:13,652 --> 00:54:16,732
+It's a little bit later, five minutes in the note
+
+726
+00:54:17,033 --> 00:54:19,276
+But let's do it right now since we are at it
+
+727
+00:54:31,914 --> 00:54:39,190
+Let's take sigma x tau x and tell me what vector you would like to apply it to?
+
+728
+00:54:42,781 --> 00:54:47,451
+How about up up>? Let's do up up>
+
+729
+00:54:53,507 --> 00:54:58,182
+What does tau x do? I keep forgetting 
+
+730
+00:54:59,212 --> 00:55:04,864
+The one in the left is sigma right? This one is sigma and this one is tau right?
+
+731
+00:55:05,785 --> 00:55:12,357
+Okay, alright so we saw the tau and we hit this
+
+732
+00:55:13,833 --> 00:55:17,625
+What does tau x do? It operates on this one and let this one alone 
+
+733
+00:55:18,948 --> 00:55:22,364
+So this gives us, do I have it wrong? Ya 
+
+734
+00:55:23,071 --> 00:55:25,584
+Ya it operates on this one and let this one alone, right
+
+735
+00:55:26,674 --> 00:55:30,489
+So it gives sigma x, I have not acted on that yet
+
+736
+00:55:30,942 --> 00:55:34,122
+Times, now tau x flips this one
+
+737
+00:55:34,494 --> 00:55:35,742
+So it was up down>
+
+738
+00:55:39,363 --> 00:55:40,691
+Okay now what does sigma x do?
+
+739
+00:55:42,671 --> 00:55:53,339
+It flips this one, so it just gives down down>, kind of boring 
+
+740
+00:55:53,857 --> 00:55:55,479
+But that's what it does
+
+741
+00:55:56,052 --> 00:55:57,422
+Let's do it in an opposite order 
+
+742
+00:55:59,407 --> 00:56:06,707
+Let's take tau x times sigma x on up up> what does it do?
+
+743
+00:56:07,597 --> 00:56:08,993
+It does exactly the same thing 
+
+744
+00:56:09,875 --> 00:56:13,066
+Sigma x hits one of these and flips them 
+
+745
+00:56:13,598 --> 00:56:16,796
+And then tau x comes and hits the other one and flips them
+
+746
+00:56:17,863 --> 00:56:21,114
+So when tau x times sigma x acts, 
+
+747
+00:56:21,369 --> 00:56:24,252
+it gives exactly the same thing as sigma x times tau x 
+
+748
+00:56:26,838 --> 00:56:32,310
+Commutator of sigma x with tau x equals zero
+
+749
+00:56:33,588 --> 00:56:35,997
+No difference between the order of operations
+
+750
+00:56:36,700 --> 00:56:41,453
+Let's try it for sigma x times tau z
+
+751
+00:56:43,085 --> 00:56:46,239
+Okay let's do it for sigma x times tau z and see what we get
+
+752
+00:56:46,959 --> 00:56:52,730
+Oh I have not proved this because I only exhibit for one particular state
+
+753
+00:56:53,830 --> 00:57:03,573
+In order to argue that sigma x times tau x equals tau x times sigma x
+
+754
+00:57:04,288 --> 00:57:11,086
+Oops, you would have to show that they give the same thing 
+
+755
+00:57:11,312 --> 00:57:13,194
+when acting on any basis vectors
+
+756
+00:57:13,587 --> 00:57:16,203
+It's enough to show that they gives the same thing on basis vectors 
+
+757
+00:57:17,095 --> 00:57:20,085
+Alright but that's pretty easy, not hard to do
+
+758
+00:57:20,310 --> 00:57:21,706
+You can do it on any basis vectors 
+
+759
+00:57:21,947 --> 00:57:24,795
+And you will find out the order of operation doesn't matter 
+
+760
+00:57:25,649 --> 00:57:31,997
+In fact the same is true if you take sigma x times, let's say, tau z
+
+761
+00:57:33,041 --> 00:57:35,154
+Let's do it again, shall I take a different vector?
+
+762
+00:57:35,413 --> 00:57:40,912
+Let's take some other vector, instead of up down>, let's take down up>
+
+763
+00:57:41,871 --> 00:57:44,466
+And see what it does, and then we will do it in the opposite order
+
+764
+00:57:45,523 --> 00:57:48,252
+Alright what does tau z do when it hits this vector here?
+
+765
+00:57:49,848 --> 00:57:52,113
+It only acts on the second entry
+
+766
+00:57:52,874 --> 00:57:57,049
+And it's the z component so it just gives plus one on up> right?
+
+767
+00:57:59,573 --> 00:58:07,777
+So this just gives sigma x times down up>
+
+768
+00:58:09,133 --> 00:58:12,705
+Tau z on up> gives up>
+
+769
+00:58:15,171 --> 00:58:16,730
+So that just goes right through
+
+770
+00:58:17,138 --> 00:58:19,828
+And what does sigma x do when it hits down up>?
+
+771
+00:58:21,130 --> 00:58:26,558
+This gets a little bit gobbly look, at this point my tongue starts rebelling 
+
+772
+00:58:28,064 --> 00:58:30,787
+What does sigma x do when it hits tau? When it hits this guy
+
+773
+00:58:32,102 --> 00:58:37,608
+It just flips down> to up>, it gives up up> right
+
+774
+00:58:38,930 --> 00:58:44,484
+Let's do it in the opposite order tau z sigma x on down up
+
+775
+00:58:45,712 --> 00:58:49,480
+Alright first sigma x, that flips down to up
+
+776
+00:58:49,982 --> 00:58:53,871
+So it gives us tau z times up up>
+
+777
+00:58:55,720 --> 00:58:59,952
+And then tau z just gives us one when it gives it up here
+
+778
+00:59:00,187 --> 00:59:02,790
+So it gives the same thing again, so you can sort of see why
+
+779
+00:59:03,019 --> 00:59:06,969
+They are acting on separate indices here, 
+
+780
+00:59:07,227 --> 00:59:09,017
+it doesn't matter which way you order them
+
+781
+00:59:09,453 --> 00:59:12,457
+This is very general, it doesn't matter which state you take, 
+
+782
+00:59:12,719 --> 00:59:13,970
+It doesn't matter which component you take
+
+
+783
+00:59:14,228 --> 00:59:19,249
+Any component of sigma commutes with any components of tau
+
+784
+00:59:20,503 --> 00:59:23,169
+You can check that, just by knowing how they act 
+
+785
+00:59:24,956 --> 00:59:30,554
+Alright so we can say sigma anything, I'm not sure how to call the index here
+
+786
+00:59:30,818 --> 00:59:35,551
+Sigma, I don't wanna call it i, I already used i for something 
+
+787
+00:59:40,013 --> 00:59:48,352
+But sigma n and sigma tau n for any m and n they commute 
+
+788
+00:59:49,172 --> 00:59:53,940
+The meaning of that, is that if you have two separate sub systems 
+
+789
+00:59:55,010 --> 01:00:01,101
+Which are combined in this way, the observable for one and 
+
+790
+01:00:01,308 --> 01:00:04,569
+the observable for the other can be simultaneously measured
+
+791
+01:00:05,524 --> 01:00:09,394
+In particular if you took the system from far apart to each other 
+
+792
+01:00:09,740 --> 01:00:11,567
+And you treat them as a single quantum system 
+
+793
+01:00:12,307 --> 01:00:14,449
+You would expect that measuring one of them 
+
+794
+01:00:15,014 --> 01:00:17,215
+doesn't interfere with any measurement with the other one 
+
+795
+01:00:18,618 --> 01:00:19,825
+And that's what this says, 
+
+796
+01:00:20,292 --> 01:00:25,777
+that measuring a sigma does not preclude measuring a tau
+
+797
+01:00:26,414 --> 01:00:28,880
+And vise versa, for any components of them
+
+798
+01:00:29,424 --> 01:00:32,402
+So in that sense, they behave like independent systems 
+
+799
+01:00:33,142 --> 01:00:34,646
+You can make any measurement on sigma 
+
+800
+01:00:35,296 --> 01:00:37,141
+And any measurement on tau, ya?
+
+801
+01:00:39,502 --> 01:00:41,726
+>>
+
+802
+01:00:42,121 --> 01:00:44,572
+>> So these observables are each independent parts
+
+803
+01:00:44,843 --> 01:00:46,285
+>> you knows it fit into the system
+
+804
+01:00:46,788 --> 01:00:48,287
+>> and you could think about that observables one 
+
+805
+01:00:48,848 --> 01:00:50,310
+>>
+
+806
+01:00:50,922 --> 01:00:54,728
+It's as happy as it was when you added the other sub system
+
+807
+01:00:56,168 --> 01:01:00,306
+Yes, that's a good question, are there observables which are some how
+
+808
+01:01:00,968 --> 01:01:03,443
+more intermittently connected with having both of them?
+
+809
+01:01:04,447 --> 01:01:07,174
+The answer is yes, for example sigma times tau
+
+810
+01:01:09,304 --> 01:01:13,343
+Sigma times tau, sigma x times tau x or sigma y times tau y
+
+811
+01:01:13,929 --> 01:01:18,064
+That sort of things are observables that 
+
+812
+01:01:18,567 --> 01:01:22,927
+somehow no more intermittently about the combination of both of them
+
+813
+01:01:24,013 --> 01:01:27,074
+And they know in particular about entanglement 
+
+814
+01:01:28,687 --> 01:01:31,466
+>> If you started with independent
+
+815
+01:01:32,053 --> 01:01:33,397
+>> You just said ..
+
+816
+01:01:34,963 --> 01:01:40,631
+>> Now how are you making them so they dependent on each other?
+
+817
+01:01:40,888 --> 01:01:43,888
+We haven't yet, we haven't yet, what we've done up till now 
+
+818
+01:01:44,408 --> 01:01:47,348
+is to all the ingredients which tell you that 
+
+819
+01:01:47,617 --> 01:01:52,932
+as long as you do separate experiments, separate operations
+
+820
+01:01:53,625 --> 01:01:59,184
+On the two sub systems, that they will behave exactly as they would have
+
+821
+01:01:59,400 --> 01:02:00,882
+Had the other system not been there
+
+822
+01:02:01,834 --> 01:02:06,546
+But now you can ask what about, are there more in particular
+
+823
+01:02:06,896 --> 01:02:11,689
+In particular, if the system, if the combined system, if it's in a product state
+
+824
+01:02:12,583 --> 01:02:16,654
+If it's in a product state so that each component has it's own state vector 
+
+825
+01:02:17,353 --> 01:02:21,393
+Then the quantum mechanics of each one of them is separate from the other
+
+826
+01:02:21,818 --> 01:02:22,905
+They don't interfere with each other
+
+827
+01:02:23,091 --> 01:02:24,620
+They don't know about each other in any way
+
+828
+01:02:25,388 --> 01:02:27,068
+That's what this prescription ensures 
+
+829
+01:02:28,257 --> 01:02:30,134
+No, they are not entangled yet 
+
+830
+01:02:31,083 --> 01:02:32,428
+Not if they are product states 
+
+831
+01:02:32,726 --> 01:02:37,553
+Now what we found out is that the product states are four parameters set
+
+832
+01:02:38,968 --> 01:02:42,393
+We found that also that the full space of state has six parameters
+
+833
+01:02:42,738 --> 01:02:47,340
+So there are apparently state which are not product states 
+
+834
+01:02:47,974 --> 01:02:50,808
+Those are the state which would have to varying degrees
+
+835
+01:02:51,095 --> 01:02:52,217
+A degree of entanglement 
+
+836
+01:02:53,166 --> 01:02:55,644
+#I'm gonna write down the most entangled state 
+
+837
+01:02:56,268 --> 01:02:58,019
+and I'm gonna examine it a little bit
+
+838
+01:02:59,472 --> 01:03:01,014
+and see in what way it's odd
+
+839
+01:03:08,897 --> 01:03:15,504
+up down>, there are many highly entangled states, maximally entangled state 
+
+840
+01:03:16,101 --> 01:03:18,736
+I'm writing one, one particular one, minus
+
+841
+01:03:19,014 --> 01:03:24,838
+I'm putting a minus here just because I happen to know that it's a particular
+
+842
+01:03:25,256 --> 01:03:28,696
+It has a particular property which is not so important at this stage 
+
+843
+01:03:29,069 --> 01:03:32,028
+But let's put the minus state, minus down up>
+
+844
+01:03:35,175 --> 01:03:36,723
+One over square root of two of course 
+
+845
+01:03:37,044 --> 01:03:38,719
+One over square root of two times the whole thing 
+
+846
+01:03:43,594 --> 01:03:45,091
+Now this state is interesting 
+
+847
+01:03:46,562 --> 01:03:55,416
+It has the property that if you, well, it has a correlation 
+
+848
+01:03:57,525 --> 01:04:01,491
+If you know that tau was down, then sigma must be up
+
+849
+01:04:02,921 --> 01:04:07,536
+On the other hand if you know that tau is up, then sigma must be down 
+
+850
+01:04:07,772 --> 01:04:09,227
+Now what does that mean mathematically? 
+
+851
+01:04:09,459 --> 01:04:11,671
+We are going to find out what exactly that mean mathematically 
+
+852
+01:04:12,385 --> 01:04:13,565
+This is not a product state
+
+853
+01:04:13,934 --> 01:04:18,262
+There is no way that this can be written as a product of one state
+
+854
+01:04:18,803 --> 01:04:21,914
+It's a sum or difference in this case for two product states 
+
+855
+01:04:22,158 --> 01:04:23,264
+But it's not a product state 
+
+856
+01:04:23,947 --> 01:04:33,689
+How can we tell, how can we tell, so let's consider the expectation value
+
+857
+01:04:34,735 --> 01:04:39,321
+In a state of the components of sigma 
+
+858
+01:04:40,108 --> 01:04:45,237
+Let's go back to the one subsystem, to the one system quantum mechanics 
+
+859
+01:04:45,685 --> 01:04:49,035
+One spin, and let's say what do we know about that?
+
+860
+01:04:51,790 --> 01:04:58,750
+In particular I'm interested in expectation values of, in any state 
+
+861
+01:04:59,584 --> 01:05:04,943
+Take a state, and take the expectation value of all three components 
+
+862
+01:05:13,195 --> 01:05:16,608
+This is the average value, I'm not multiplying anything
+
+863
+01:05:17,117 --> 01:05:18,361
+I'm just considering them individually 
+
+864
+01:05:23,561 --> 01:05:24,752
+Can they all be zero?
+
+865
+01:05:27,609 --> 01:05:32,306
+Can they all simultaneously be zero for an ordinary state of a
+
+866
+01:05:32,622 --> 01:05:35,720
+For the ordinary two parameters family of states for the single system?
+
+867
+01:05:39,323 --> 01:05:41,028
+Should we take a vote or should I just tell you
+
+868
+01:05:43,472 --> 01:05:45,820
+The answer is no, they can not all be zero
+
+869
+01:05:46,182 --> 01:05:53,771
+Here's the reason, well, the reason is given any state 
+
+870
+01:05:54,434 --> 01:05:58,516
+There was always a direction in space, in three-dimensional space
+
+871
+01:05:59,707 --> 01:06:02,820
+A direction for which, sigma in that direction, 
+
+872
+01:06:03,014 --> 01:06:07,833
+the component of sigma in that direction is definite and equals to plus one
+
+873
+01:06:08,425 --> 01:06:11,747
+Given any Psi, this is what I told you in the very beginning of the lecture 
+
+874
+01:06:12,503 --> 01:06:13,914
+Or maybe even before the lecture
+
+
+875
+01:06:14,236 --> 01:06:20,004
+Given any state, there are some linear combination of sigmas 
+
+876
+01:06:21,018 --> 01:06:23,051
+which is definitely equal to plus one
+
+877
+01:06:24,930 --> 01:06:29,064
+In that case if I find that particular combination of sigmas 
+
+878
+01:06:30,087 --> 01:06:34,417
+Sigma n x, you know, dot sigma into n, that particular linear combination
+
+879
+01:06:35,033 --> 01:06:37,223
+It's expectation value can't be zero 
+
+880
+01:06:37,529 --> 01:06:40,324
+Because it's definitely up along that direction
+
+881
+01:06:41,892 --> 01:06:47,484
+So the answer is, given any state there was always some direction
+
+882
+01:06:48,352 --> 01:06:51,960
+Let's call it sigma dot n, that depends on Psi
+
+883
+01:06:52,247 --> 01:06:58,576
+That depend on Psi, sigma dot n, for which this is not only not zero
+
+884
+01:06:59,109 --> 01:07:00,384
+But it's equal to plus one 
+
+885
+01:07:01,218 --> 01:07:06,824
+The average of sigma dot n is of course 
+
+886
+01:07:07,443 --> 01:07:11,666
+If sigma dot n is definite, if it's known and there is no ambiguity about it
+
+887
+01:07:12,197 --> 01:07:15,975
+Then the average is just equal to the value that it's known to be
+
+888
+01:07:17,162 --> 01:07:22,508
+So there is always some n, alright, 
+
+889
+01:07:23,712 --> 01:07:32,537
+for any Psi, there exists an n, such that, this is true
+
+890
+01:07:34,438 --> 01:07:40,422
+Therefore it can not be true that all of these can simultaneously be zero
+
+891
+01:07:40,625 --> 01:07:43,116
+For a state of a single spin
+
+892
+01:07:47,744 --> 01:07:49,451
+You can't measure them all simultaneously 
+
+893
+01:07:50,180 --> 01:07:52,495
+But if I give you a state I tell you the state
+
+894
+01:07:53,205 --> 01:07:57,857
+Then I can then, you can tell me what direction of space 
+
+895
+01:07:58,672 --> 01:08:00,342
+should you orient your detector 
+
+896
+01:08:00,907 --> 01:08:04,403
+so that the answer comes out plus one, okay?
+
+897
+01:08:04,889 --> 01:08:06,739
+For example I mean, I can just give you up
+
+898
+01:08:07,151 --> 01:08:08,739
+Okay so what direction if I gave you up?
+
+899
+01:08:09,386 --> 01:08:14,971
+What direction should you orient your detector? along the z axis
+
+900
+01:08:15,686 --> 01:08:18,821
+What if I gave you up plus down, with square root of two?
+
+901
+01:08:20,193 --> 01:08:24,608
+What direction should you orient your detector to make sure
+
+902
+01:08:24,838 --> 01:08:28,839
+you get plus one? Along the x axis right?
+
+903
+01:08:30,671 --> 01:08:33,165
+What if I gave you up> plus i down> ?
+
+904
+01:08:36,695 --> 01:08:42,559
+I know, the sum, it's either plus i or minus i, okay? I forget which one 
+
+905
+01:08:43,498 --> 01:08:48,355
+Given any combination there are enough direction that you can find the direction
+
+906
+01:08:49,134 --> 01:08:52,933
+For which sigma in that direction is definitely plus one 
+
+907
+01:08:53,710 --> 01:08:58,428
+And therefore it can not be that all of these expectation values are all zero
+
+908
+01:08:59,066 --> 01:09:03,007
+Why? Because you know that sigma dot n is equal to plus one
+
+909
+01:09:03,598 --> 01:09:06,006
+And that of course is just a linear combination of these 
+
+910
+01:09:06,957 --> 01:09:13,746
+Okay so as I said, it's impossible if we have just a state of one spin
+
+911
+01:09:14,575 --> 01:09:17,271
+Isolated by itself, it's been prepared somehow
+
+912
+01:09:18,323 --> 01:09:23,214
+However it's prepared, there exists a direction in which the spin is definite
+
+913
+01:09:23,447 --> 01:09:25,527
+And not equal to zero, okay
+
+914
+01:09:26,798 --> 01:09:33,190
+What about the state? What about the state now?
+
+915
+01:09:34,906 --> 01:09:42,558
+Let's take sigma and ask whether any of the components of sigma
+
+916
+01:09:43,619 --> 01:09:47,038
+have a non zero expectation value in this state?
+
+917
+01:09:48,411 --> 01:09:50,301
+What I'm gonna show, I will tell you the answer right now
+
+918
+01:09:50,932 --> 01:09:53,804
+We are gonna show that all three component of sigma 
+
+919
+01:09:55,259 --> 01:09:58,860
+have zero expectation value in this state
+
+920
+01:10:00,835 --> 01:10:04,661
+That means the state cannot possibly be a product state
+
+921
+01:10:05,564 --> 01:10:09,085
+A product state is one in which each component behaves 
+
+922
+01:10:09,320 --> 01:10:13,516
+as if they were just a state of subsystem by itself 
+
+923
+01:10:15,131 --> 01:10:17,091
+This state is gonna behave in a way that 
+
+924
+01:10:17,385 --> 01:10:19,944
+no simple product state could possibly behave
+
+925
+01:10:21,038 --> 01:10:23,337
+We are going to find, so let's do it, let's do it
+
+926
+01:10:24,441 --> 01:10:28,186
+Okay let's put, the square root of two here is not important
+
+927
+01:10:28,569 --> 01:10:30,014
+That's not the important thing 
+
+928
+01:10:30,555 --> 01:10:34,438
+We have up down> minus down up>
+
+929
+01:10:38,837 --> 01:10:40,848
+We are gonna take the expectation value 
+
+930
+01:10:41,126 --> 01:10:42,670
+So that mean we have to make a sandwich 
+
+931
+01:10:43,623 --> 01:10:47,817
+The sandwich would have up down> minus down up>
+
+932
+01:10:49,321 --> 01:10:51,083
+In the middle here we are gonna put a sigma 
+
+933
+01:10:52,321 --> 01:10:54,817
+We could do with sigma tau, and get the same answer 
+
+934
+01:10:55,488 --> 01:10:58,837
+So let's put sigma z first 
+
+935
+01:10:59,671 --> 01:11:02,108
+Let's put sigma z here and see what we get 
+
+936
+01:11:03,698 --> 01:11:08,467
+First we act with sigma z, and what does sigma z gives when it hits up down>
+
+937
+01:11:11,222 --> 01:11:12,614
+It just gives up down> right?
+
+938
+01:11:13,297 --> 01:11:15,825
+Alright? So this just gives up down>, 
+
+939
+01:11:16,649 --> 01:11:18,977
+but what does it give when it hits this guy over here?
+
+940
+01:11:20,107 --> 01:11:22,730
+Minus down up>, but there is already a minus down up>
+
+941
+01:11:23,043 --> 01:11:28,521
+So there is a plus, already a minus, the minus gets killed
+
+942
+01:11:30,750 --> 01:11:33,117
+It's over here, so that's the inner product 
+
+943
+01:11:33,719 --> 01:11:35,330
+Let's put some brackets around it
+
+944
+01:11:35,938 --> 01:11:41,000
+It's the inner product with <up down minu <down up
+
+945
+01:11:42,422 --> 01:11:43,698
+Okay let's calculate it 
+
+946
+01:11:44,289 --> 01:11:47,266
+What's <down up| with |up down>? Zero
+
+947
+01:11:49,170 --> 01:11:52,461
+What's <down up| with |down up>? One
+
+948
+01:11:52,972 --> 01:11:55,759
+So we get a one, what's <down up| with |up down>? 
+
+949
+01:11:59,995 --> 01:12:01,726
+Wowo, I got something wrong here
+
+950
+01:12:02,947 --> 01:12:06,571
+What did I do here? This should be <up down| right?
+
+951
+01:12:08,533 --> 01:12:09,384
+Okay so let's go back 
+
+952
+01:12:09,839 --> 01:12:11,697
+<up down| with |up down> is one 
+
+953
+01:12:12,210 --> 01:12:14,926
+<up down| with |down up> is zero
+
+954
+01:12:16,123 --> 01:12:19,850
+what about <down up| with |up down>? Zero 
+
+955
+01:12:20,219 --> 01:12:25,296
+What about <down up| with |down down>? One, but there's a minus sign here
+
+956
+01:12:27,318 --> 01:12:31,964
+So this is orthogonal to this, the inner product to zero 
+
+957
+01:12:32,685 --> 01:12:37,301
+And it says that the expectation value of sigma z is equal to zero
+
+958
+01:12:37,867 --> 01:12:43,075
+Sigma z in this state, not any state but in this state is zero
+
+959
+01:12:43,868 --> 01:12:50,078
+Let's try sigma x, let's try sigma x next and see what we get 
+
+960
+01:12:50,307 --> 01:12:54,447
+So we have sigma x here, alright, let's spill out sandwich again 
+
+961
+01:12:55,980 --> 01:13:01,126
+And the minus sign here, and what happens when sigma x equals |up down>?
+
+962
+01:13:01,634 --> 01:13:02,497
+It hits |up down>?
+
+963
+01:13:04,126 --> 01:13:08,976
+It flips up to down, sigma x is the flipper 
+
+964
+01:13:09,772 --> 01:13:11,146
+And it flips the first entry here 
+
+965
+01:13:11,363 --> 01:13:12,763
+So it flips the first entry to down 
+
+966
+01:13:15,021 --> 01:13:16,634
+And flips this entry to up
+
+967
+01:13:19,450 --> 01:13:23,638
+We are taking the inner product with this vector over here
+
+968
+01:13:23,868 --> 01:13:26,242
+So let's see is there anything in common over here 
+
+969
+01:13:26,425 --> 01:13:27,459
+with something in common here?
+
+970
+01:13:28,011 --> 01:13:31,112
+No, so there is no way to get an inner product 
+
+971
+01:13:31,609 --> 01:13:34,000
+<down up| with |down down> is zero etc. etc.
+
+972
+01:13:34,597 --> 01:13:35,997
+again this is zero 
+
+973
+01:13:38,199 --> 01:13:43,796
+so sigma x is equal to zero, expectation value 
+
+974
+01:13:46,088 --> 01:13:50,086
+okay what about sigma y, let's put sigma y there
+
+975
+01:13:51,345 --> 01:13:54,249
+sigma y is also a flip flop operator 
+
+976
+01:13:54,877 --> 01:13:57,611
+It flips up to down and down to up but with an i
+
+977
+01:13:58,186 --> 01:14:01,187
+I don't remember which, where the i goes 
+
+978
+01:14:01,706 --> 01:14:07,695
+It either goes here, here, something like that 
+
+979
+01:14:08,881 --> 01:14:11,580
+But whatever it does, it flips this up to down
+
+980
+01:14:11,918 --> 01:14:14,535
+So we get a |down down>, and it flips this down to up
+
+981
+01:14:14,827 --> 01:14:15,799
+So we get a |up up>
+
+982
+01:14:16,226 --> 01:14:18,641
+Again, no inner product is zero
+
+983
+01:14:19,927 --> 01:14:24,740
+So there we are, all three components have zero expectation value 
+
+984
+01:14:26,363 --> 01:14:30,650
+But that's funny because we proved, well we didn't prove
+
+985
+01:14:31,102 --> 01:14:36,517
+But I told you, that if I take any state of the single spin
+
+986
+01:14:38,139 --> 01:14:44,828
+It's never the case that all three sigma-s have zero expectation value 
+
+987
+01:14:45,987 --> 01:14:49,849
+What's the lesson? The lesson is there is a state of the composite system 
+
+988
+01:14:50,306 --> 01:14:58,283
+That in no way ever be thought of as separate states for the two subsystems
+
+989
+01:14:58,575 --> 01:14:59,726
+That's what entanglement is 
+
+990
+01:15:03,962 --> 01:15:05,862
+That's an example of entanglement
+
+991
+01:15:10,506 --> 01:15:15,310
+>> So what .. obvious that if you do that with product state 
+
+992
+01:15:15,835 --> 01:15:20,372
+>> then it will satisfy the same property that one of them will be ..
+
+993
+01:15:20,603 --> 01:15:23,749
+Yes, that's correct, that's correct
+
+994
+01:15:24,231 --> 01:15:28,626
+Well if you show it for the single spin by itself
+
+995
+01:15:29,881 --> 01:15:33,291
+Remember the other index that just goes along for the ride
+
+996
+01:15:33,530 --> 01:15:36,193
+So however you derive it for a one spin with itself 
+
+997
+01:15:36,490 --> 01:15:38,101
+You will do the same derivation 
+
+998
+01:15:38,348 --> 01:15:42,608
+except put a sort of spectator index to ride along with it
+
+999
+01:15:43,249 --> 01:15:49,534
+So it's obvious that if it's true for a one subsystem by itself that
+
+1000
+01:15:49,770 --> 01:15:51,073
+It will be true for the composite 
+
+1001
+01:15:51,429 --> 01:15:54,221
+What's not obvious is that it's true for one subsystem 
+
+1002
+01:15:55,562 --> 01:15:59,848
+So ya, so that's an exercise, that's an exercise to show that
+
+1003
+01:16:00,663 --> 01:16:04,584
+all three components of the spin cannot, 
+
+1004
+01:16:04,975 --> 01:16:07,772
+or the expectation value cannot be zero
+
+1005
+01:16:08,315 --> 01:16:10,600
+There is always a direction in which it's maximum 
+
+1006
+01:16:12,304 --> 01:16:17,131
+>> Question? So how do you put a system in this strange state?
+
+1007
+01:16:17,609 --> 01:16:19,753
+Ya, it's very natural state to have 
+
+1008
+01:16:20,228 --> 01:16:25,423
+I will tell you, if you have two spins 
+
+1009
+01:16:25,635 --> 01:16:27,568
+and the two spins are interacting with each other
+
+1010
+01:16:28,950 --> 01:16:35,222
+They will have a, in particular if there are little magnetic moments 
+
+1011
+01:16:35,930 --> 01:16:37,916
+Then they will have an interaction with each other 
+
+1012
+01:16:38,155 --> 01:16:40,059
+which will prefer to make them anti-align
+
+1013
+01:16:41,844 --> 01:16:44,666
+Now this is anti-align, |up down>
+
+1014
+01:16:45,595 --> 01:16:47,772
+This is anti-align, |down up>
+
+1015
+01:16:48,809 --> 01:16:52,824
+And in fact this combination here has the lowest energy 
+
+1016
+01:16:53,653 --> 01:16:55,394
+This combination has the lowest energy 
+
+1017
+01:16:55,895 --> 01:16:58,365
+It has less energy than |up down> plus |down up>
+
+1018
+01:16:58,645 --> 01:17:01,236
+So if you bring these two spins together and you wait awhile 
+
+1019
+01:17:02,932 --> 01:17:07,490
+They will irradiate a photon then eventually come to the state 
+
+1020
+01:17:09,591 --> 01:17:12,415
+So it's actually not at all hard to get this kind of state
+
+1021
+01:17:12,859 --> 01:17:14,175
+It's kind of easy to get this kind of state 
+
+1022
+01:17:14,992 --> 01:17:19,044
+And we will discuss that when we talk about interactions
+
+1023
+01:17:20,214 --> 01:17:24,417
+But it's a typical situation that this is what result
+
+1024
+01:17:25,213 --> 01:17:27,381
+If you take two spins put them together and 
+
+1025
+01:17:27,783 --> 01:17:29,486
+let them come to equilibrium by radiating a photon
+
+1026
+01:17:33,251 --> 01:17:38,321
+A long time, first of all I have to close them to bring them together 
+
+1027
+01:17:38,802 --> 01:17:43,715
+Second of all, how big the magnetic dipole of the spins are 
+
+1028
+01:17:47,282 --> 01:17:50,189
+And that has to do with the strength of the coupling to the magnetic field 
+
+1029
+01:17:52,245 --> 01:17:54,580
+So in ordinary laboratory situation, 
+
+1030
+01:17:55,421 --> 01:17:58,784
+in an atom the electrons are close enough together 
+
+1031
+01:17:59,621 --> 01:18:04,562
+That they will radiate the photon at not too long a time to achieve this 
+
+1032
+01:18:05,598 --> 01:18:08,764
+so called singlet state, this is called the singlet state, singlet 
+
+1033
+01:18:11,594 --> 01:18:13,020
+I'm not gonna tell you why right now 
+
+1034
+01:18:18,850 --> 01:18:20,537
+There are four basis vectors all together 
+
+1035
+01:18:21,646 --> 01:18:23,311
+The reason this is called the singlet 
+
+1036
+01:18:23,522 --> 01:18:25,643
+because there are three other which are called the triplet, okay?
+
+1037
+01:18:26,116 --> 01:18:30,236
+>> Can you get the over all up down plus down up ..
+
+1038
+01:18:32,700 --> 01:18:35,437
+Ya, well not at the moment by eventually 
+
+1039
+01:18:35,942 --> 01:18:37,833
+I will tell you the answer though 
+
+1040
+01:18:38,095 --> 01:18:39,833
+If you think of these as little angular momenta 
+
+1041
+01:18:40,515 --> 01:18:42,397
+And you put them in |up down> minus |down up>
+
+1042
+01:18:43,173 --> 01:18:44,843
+The total angular momentum is zero
+
+1043
+01:18:45,246 --> 01:18:47,278
+If you put then |down up> plus |down up>
+
+1044
+01:18:47,669 --> 01:18:48,984
+The total angular momentum is one 
+
+1045
+01:18:49,900 --> 01:18:53,566
+And energy is often proportional to angular momentum 
+
+1046
+01:18:53,893 --> 01:18:58,734
+So, but, we will come to that, eventually we will come to that 
+
+1047
+01:18:59,250 --> 01:19:03,637
+It's a fair question but let's not try to answer it right this minute
+
+1048
+01:19:06,036 --> 01:19:10,577
+>> If you take it in general state of two systems
+
+1049
+01:19:10,839 --> 01:19:15,048
+>> Is it possible to change the basis 
+
+1050
+01:19:15,388 --> 01:19:19,301
+>> such that one basis create a sub space of product space, of product state?
+
+1051
+01:19:19,564 --> 01:19:22,394
+>> the other is entirely pure product space
+
+1052
+01:19:22,743 --> 01:19:27,535
+You are asking whether the notion of entanglement is an invariant notion
+
+1053
+01:19:28,416 --> 01:19:29,508
+The answer is yes
+
+1054
+01:19:30,099 --> 01:19:33,343
+The answer is yes, there is very definite quantity that you can calculate
+
+1055
+01:19:33,571 --> 01:19:38,205
+called the entanglement entropy which measures the strength of entanglement 
+
+1056
+01:19:38,476 --> 01:19:40,801
+Which is not dependent on any particular basis 
+
+1057
+01:19:41,504 --> 01:19:45,089
+Now I might tell you right now, this state okay, 
+
+1058
+01:19:45,360 --> 01:19:48,260
+this state does have a special feature that 
+
+1059
+01:19:48,493 --> 01:19:50,120
+up down> plus down up> wouldn't have 
+
+1060
+01:19:50,479 --> 01:19:54,048
+Supposing you took this state, and this is good, homework assignment 
+
+1061
+01:19:54,539 --> 01:19:58,328
+Up and down individually for both sigma and tau 
+
+1062
+01:19:58,754 --> 01:20:00,909
+can be rewritten in terms of left and right
+
+1063
+01:20:02,220 --> 01:20:08,448
+For example, up is left plus right and down is left minus right
+
+1064
+01:20:08,737 --> 01:20:11,998
+Or whatever, there's a square root of two there but you know what I mean
+
+1065
+01:20:12,361 --> 01:20:14,636
+Okay supposing I write this state 
+
+1066
+01:20:15,086 --> 01:20:18,481
+I plug in every place I see down, left minus right
+
+1067
+01:20:18,809 --> 01:20:20,666
+And every place I see up, left plus right 
+
+1068
+01:20:21,311 --> 01:20:23,390
+What do I get out of this, the answer is very simple 
+
+1069
+01:20:24,610 --> 01:20:28,139
+I get |left right> minus |right left>
+
+1070
+01:20:30,007 --> 01:20:34,085
+Supposing I rewrite it in terms of in and out, what do I get?
+
+1071
+01:20:35,052 --> 01:20:39,031
+|in out> minus |out in>
+
+1072
+01:20:40,779 --> 01:20:44,357
+So the structure that the state has and the nature of it
+
+1073
+01:20:45,312 --> 01:20:47,147
+is actually the same in every basis 
+
+1074
+01:20:47,497 --> 01:20:48,811
+Every basis it looks the same 
+
+1075
+01:20:50,578 --> 01:20:53,863
+And that would not be true for |up down> plus |down up>
+
+1076
+01:20:54,814 --> 01:20:57,210
+|down up> and.. they would.. um
+
+1077
+01:21:05,038 --> 01:21:06,762
+They would get mixed up with other states
+
+1078
+01:21:07,381 --> 01:21:10,561
+There are three other states, this is one, there are three others 
+
+1079
+01:21:11,150 --> 01:21:14,526
+Three others, obviously there are three others
+
+1080
+01:21:14,779 --> 01:21:17,034
+The name mixed up with each other when you change the basis 
+
+1081
+01:21:18,767 --> 01:21:21,027
+But this is not obvious, this is not obvious at all
+
+1082
+01:21:21,844 --> 01:21:25,189
+Alright let's do one last thing, I'm not sure it's last thing or not
+
+1083
+01:21:25,408 --> 01:21:26,691
+I think it's probably last thing for tonight
+
+1084
+01:21:28,303 --> 01:21:34,353
+#Let's ask about one of these observables which is not an observable 
+
+1085
+01:21:34,706 --> 01:21:37,776
+that can be identified with either sub system 
+
+1086
+01:21:38,380 --> 01:21:40,774
+but which are some how got to do with both
+
+1087
+01:21:41,797 --> 01:21:45,811
+And let's look at that expectation value, very simple example 
+
+1088
+01:21:52,923 --> 01:22:03,943
+Let's take, let's take the expectation value of the product of sigma z times tau z
+
+1089
+01:22:04,577 --> 01:22:07,296
+We will do that one, we will do sigma x times tau x
+
+1090
+01:22:09,479 --> 01:22:15,312
+And maybe we will do sigma x times tau y, we will do, we will try some examples
+
+1091
+01:22:16,124 --> 01:22:17,987
+Let's take the expectation value of this 
+
+1092
+01:22:18,266 --> 01:22:20,158
+Now to do this we again make a sandwich 
+
+1093
+01:22:22,391 --> 01:22:24,753
+And let's do it
+
+1094
+01:22:28,075 --> 01:22:29,831
+|up down>, oops, sorry
+
+1095
+01:22:40,957 --> 01:22:43,058
+Now I should put the square root of two in 
+
+1096
+01:22:43,784 --> 01:22:45,777
+The reason I should put the square root of two in now
+
+1097
+01:22:46,060 --> 01:22:48,465
+is I'm not gonna get zero, so if I really want to get the numerical number 
+
+1098
+01:22:49,414 --> 01:22:50,833
+I wanna put the square root of two in
+
+1099
+01:22:51,666 --> 01:22:58,448
+And here we have <up down| minus <down up
+
+|1100
+01:23:00,349 --> 01:23:05,595
+Also over square root of two, so in fact I could take the square roots of twos
+
+1101
+01:23:06,401 --> 01:23:09,222
+And put them all into the factor one half here
+
+1102
+01:23:10,292 --> 01:23:13,139
+This is the expectation value in the singlet state 
+
+1103
+01:23:13,956 --> 01:23:17,736
+So we take a singlet state, and we take sigma z times tau z
+
+1104
+01:23:18,085 --> 01:23:18,977
+Let's see what we get 
+
+1105
+01:23:19,766 --> 01:23:25,213
+First of all, when sigma z, when tau z acts what does it do?
+
+1106
+01:23:25,449 --> 01:23:27,945
+Do you remember? I don't, oh yes
+
+1107
+01:23:28,948 --> 01:23:35,427
+tau z doesn't flip, it just gives you a sign which is plus for this one
+
+1108
+01:23:35,931 --> 01:23:37,278
+and minus for this one
+
+1109
+01:23:38,565 --> 01:23:44,720
+So we can remove the tau z just by putting the minus sign here alright 
+
+1110
+01:23:46,385 --> 01:23:47,644
+Did I do that right? 
+
+1111
+01:23:51,332 --> 01:23:58,933
+Let's see tau z, tau z acts on down to get minus down
+
+1112
+01:24:00,908 --> 01:24:04,809
+It acts on up to give up, so it has no effect on this term 
+
+1113
+01:24:05,792 --> 01:24:07,433
+And it changes the sign of this term 
+
+1114
+01:24:07,930 --> 01:24:13,210
+I think I get it right, No? Ya, minus 
+
+1115
+01:24:14,976 --> 01:24:17,056
+Now what about sigma z what does it do?
+
+1116
+01:24:18,853 --> 01:24:25,544
+It flips the sign, no it doesn't flip, it gives plus on this one and minus on this one 
+
+1117
+01:24:27,116 --> 01:24:29,917
+So it changes the sign of this one 
+
+1118
+01:24:33,888 --> 01:24:35,497
+Okay now we have to put it together 
+
+1119
+01:24:36,202 --> 01:24:43,023
+We have <up down|, |up down> with a minus sign, it's a minus one 
+
+1120
+01:24:44,045 --> 01:24:47,799
+We have <down up| with |down up>, minus one
+
+1121
+01:24:49,230 --> 01:24:52,786
+Cross terms give nothing, <up down| with |down up> gives nothing 
+
+1122
+01:24:53,598 --> 01:24:55,316
+<down up| with |up down> gives nothing 
+
+1123
+01:24:55,847 --> 01:24:58,692
+There are two terms, you get the two over two 
+
+1124
+01:25:00,624 --> 01:25:05,218
+Hum, minus two over two equals minus one
+
+1125
+01:25:06,302 --> 01:25:08,179
+What does is say? This is kind of interesting 
+
+1126
+01:25:11,052 --> 01:25:14,604
+The expectation value of sigma x by itself was zero 
+
+1127
+01:25:15,493 --> 01:25:18,832
+The expectation value of tau x by itself was zero
+
+1128
+01:25:20,333 --> 01:25:25,523
+The expectation value of sigma x times tau x is minus one 
+
+1129
+01:25:26,636 --> 01:25:27,792
+Let's see if we can see why 
+
+1130
+01:25:28,031 --> 01:25:31,974
+Look at the state here, in this component over here 
+
+1131
+01:25:32,530 --> 01:25:40,242
+Obviously, sorry, this was sigma z, sigma z we were talking about 
+
+1132
+01:25:41,645 --> 01:25:46,447
+Sigma z are opposite in both contributions here 
+
+1133
+01:25:47,337 --> 01:25:53,123
+Sigma z time this z for this piece is minus one, why is that?
+
+1134
+01:25:53,675 --> 01:25:55,049
+This one's up, this one's down
+
+1135
+01:25:55,478 --> 01:25:58,935
+If sigma z is plus for this one, sigma z is minus for this one 
+
+1136
+01:25:59,325 --> 01:26:02,776
+The product is negative, the product is negative one for this one also 
+
+1137
+01:26:04,226 --> 01:26:12,031
+In fact if you think about it, this state is an eigenvector of sigma z times tau z
+
+1138
+01:26:15,307 --> 01:26:18,970
+What's the eigenvalue? Minus one
+
+1139
+01:26:20,186 --> 01:26:24,263
+So in fact this state is the state in which you measure the product sigma z tau z
+
+1140
+01:26:24,518 --> 01:26:26,758
+We get minus one every single time
+
+1141
+01:26:29,545 --> 01:26:31,533
+So the expectation value is minus one 
+
+1142
+01:26:33,549 --> 01:26:37,908
+Nevertheless the expectation value of the individual sigma x, 
+
+1143
+01:26:38,434 --> 01:26:40,716
+sorry sigma z and tau z is zero
+
+1144
+01:26:42,194 --> 01:26:47,865
+Alright so this is, this is beginning to get some of the flavor 
+
+1145
+01:26:48,087 --> 01:26:49,436
+of what entangled state is
+
+1146
+01:26:50,843 --> 01:26:58,270
+It simply doesn't behave like you might expect like two separate systems 
+
+1147
+01:26:58,575 --> 01:27:05,775
+which are just independent, it has always been independent as they behave
+
+1148
+01:27:06,424 --> 01:27:10,878
+Let's try, this is undoubtedly gonna get boring now
+
+1149
+01:27:11,209 --> 01:27:11,971
+But let's do it anyway
+
+1150
+01:27:12,477 --> 01:27:15,846
+This is plus minus, you go back to the original sandwich 
+
+1151
+01:27:16,770 --> 01:27:24,044
+But instead of sigma z, let's do, let's do sigma x tau x
+
+1152
+01:27:25,929 --> 01:27:29,206
+Alright so sigma x times tau x, it's easy to figure that out
+
+1153
+01:27:30,071 --> 01:27:37,393
+Tau x flips the second entry, sigma x flips the first entry
+
+1154
+01:27:38,649 --> 01:27:42,163
+Alright so this object here simply flips both entry
+
+1155
+01:27:42,825 --> 01:27:46,442
+without changing any signs, it flips no entries at all
+
+1156
+01:27:47,045 --> 01:27:49,481
+Well, it, what did I say, 
+
+1157
+01:27:54,374 --> 01:28:02,145
+So what does it do? It looks like it interchanges these two, alright?
+
+1158
+01:28:02,885 --> 01:28:05,674
+Interchanges these two, this one minus and this one plus 
+
+1159
+01:28:07,238 --> 01:28:08,819
+Now what's the inner product?
+
+1160
+01:28:10,254 --> 01:28:13,552
+<up down| with minus |up down>, minus one
+
+1161
+01:28:14,449 --> 01:28:18,385
+<down up| , no, minus <down up|, with |down up>, minus one again
+
+1162
+01:28:18,936 --> 01:28:23,053
+Again minus two over two, equals minus one 
+
+1163
+01:28:24,110 --> 01:28:25,877
+Same exact thing as 
+
+1164
+01:28:34,883 --> 01:28:37,972
+And what would you guess about sigma y tau y?
+
+1165
+01:28:38,708 --> 01:28:41,038
+There was nothing special about the y axis, same thing 
+
+1166
+01:28:41,575 --> 01:28:44,529
+Also has an expectation value equals to minus one
+
+1167
+01:28:45,400 --> 01:28:51,048
+So alright, this again this is telling you very clearly this can't be a product state
+
+1168
+01:28:51,985 --> 01:28:56,064
+For a product state, the expectation value of a product like this 
+
+1169
+01:28:56,264 --> 01:28:58,135
+would just be the product of expectation values 
+
+1170
+01:28:59,571 --> 01:29:02,432
+And that's not what is going on here 
+
+1171
+01:29:02,664 --> 01:29:05,403
+So this is a highly entangled state, about as entangled as you can get 
+
+1172
+01:29:09,264 --> 01:29:11,350
+>> .. for two observables?
+
+1173
+01:29:12,039 --> 01:29:14,428
+>> Sorry, two operators, excuse me
+
+1174
+01:29:14,922 --> 01:29:18,205
+>> So how I can figure that physics 
+
+1175
+01:29:18,530 --> 01:29:20,816
+>> If follows back the operations?
+
+1176
+01:29:21,630 --> 01:29:24,535
+In this case you, in this case remember
+
+1177
+01:29:24,985 --> 01:29:26,921
+No you don't, not, in general no
+
+1178
+01:29:27,711 --> 01:29:32,364
+In general it's just another operator, if it's Hermitian 
+
+1179
+01:29:32,619 --> 01:29:34,519
+It's another observable, it can be measured
+
+1180
+01:29:34,733 --> 01:29:38,868
+But in this case, since all sigma commutes with all taus
+
+1181
+01:29:39,564 --> 01:29:42,188
+You can think about measuring them both simultaneously 
+
+1182
+01:29:43,272 --> 01:29:47,585
+And in fact if you measure them both simultaneously you will simply discover
+
+1183
+01:29:48,275 --> 01:29:51,068
+The obvious fact that they are oppositely oriented 
+
+1184
+01:29:52,593 --> 01:29:55,722
+Let's do one more, let's do, since I haven't work it out
+
+1185
+01:29:55,971 --> 01:29:57,812
+I've never work it out, and I will work it out right now 
+
+1186
+01:29:58,525 --> 01:30:02,531
+Let's do tau, sigma x times tau z
+
+1187
+01:30:04,350 --> 01:30:08,899
+Let's do sigma x, oops what do I write here sigma x tau x alright
+
+1188
+01:30:09,435 --> 01:30:16,109
+Let's do sigma x times tau z and see what we get 
+
+1189
+01:30:16,664 --> 01:30:18,675
+I don't know the answers so let's do it
+
+1190
+01:30:20,063 --> 01:30:25,026
+I have a suspicion, I have a suspicion, but okay we will find out 
+
+1191
+01:30:26,387 --> 01:30:29,355
+What happens when tau z acts on this guy here?
+
+1192
+01:30:31,662 --> 01:30:33,211
+Tau z it just changes the sign right?
+
+1193
+01:30:35,228 --> 01:30:41,814
+Tau z, if it's down you get minus one, if it's up you get plus one 
+
+1194
+01:30:46,492 --> 01:30:48,835
+So you get, alright flip them around, yes you are right, good
+
+1195
+01:30:54,239 --> 01:31:00,547
+Okay so tau z sees the down> here and makes it minus down>
+
+1196
+01:31:03,156 --> 01:31:05,224
+And sees the up> here and leaves it alone
+
+1197
+01:31:06,911 --> 01:31:08,616
+Okay now what does sigma x do? 
+
+1198
+01:31:09,281 --> 01:31:12,552
+Sigma x flips the first entry 
+
+1199
+01:31:13,404 --> 01:31:20,401
+And so it gives minus |down down>, minus
+
+1200
+01:31:20,995 --> 01:31:23,684
+Now let's see it flips, minus |up up> right?
+
+1201
+01:31:28,416 --> 01:31:34,817
+Now we have to take the inner product with this right over here
+
+1202
+01:31:35,585 --> 01:31:38,124
+Well nothing over here matches anything over here 
+
+1203
+01:31:39,295 --> 01:31:41,504
+So we see the answer in this case is zero 
+
+1204
+01:31:42,181 --> 01:31:43,187
+We see the answer is zero 
+
+1205
+01:31:43,678 --> 01:31:52,348
+The expectation value of sigma x times tau z or any unequal one
+
+1206
+01:31:52,574 --> 01:31:53,353
+that's equal to zero 
+
+1207
+01:31:57,306 --> 01:31:59,140
+What does it say? Well I don't know
+
+1208
+01:31:59,408 --> 01:32:02,734
+The main reason I did it is because I was curious about what the answer was
+
+1209
+01:32:03,328 --> 01:32:05,209
+But I also did it just as a illustration of 
+
+1210
+01:32:05,461 --> 01:32:08,036
+the machinery of calculating expectation value 
+
+1211
+01:32:08,779 --> 01:32:11,449
+But these ones tell you clear things 
+
+1212
+01:32:12,377 --> 01:32:15,542
+What they tell you is that in a very definite sense
+
+1213
+01:32:17,127 --> 01:32:21,011
+The any given component of sigma and tau
+
+1214
+01:32:21,358 --> 01:32:24,031
+The x component or the y component or the z component 
+
+1215
+01:32:24,308 --> 01:32:25,519
+are oppositely oriented
+
+1216
+01:32:29,535 --> 01:32:33,965
+It's obvious here for the z component they are oppositely oriented huh
+
+1217
+01:32:34,737 --> 01:32:37,179
+This is opposite to this, this is opposite to this 
+
+1218
+01:32:38,085 --> 01:32:41,912
+So in any of the component, state vectors here
+
+1219
+01:32:42,397 --> 01:32:43,786
+They are oppositely oriented
+
+
+1220
+01:32:44,422 --> 01:32:46,264
+But we also found something else out
+
+1221
+01:32:46,491 --> 01:32:51,297
+We found that they are oppositely oriented in the x basis or in the y basis
+
+1222
+01:32:51,959 --> 01:32:54,903
+And one of the basis if you measure any one of the spins 
+
+1223
+01:32:56,690 --> 01:32:58,447
+Any component of the up spin 
+
+1224
+01:32:58,966 --> 01:33:03,499
+Basically it automatically tells you what the other one is
+
+1225
+01:33:03,769 --> 01:33:05,165
+Well this is telling you, 
+
+1226
+01:33:05,363 --> 01:33:08,150
+since it's been telling you the product is always equal to minus one 
+
+1227
+01:33:08,833 --> 01:33:12,825
+In fact this is an eigenvector of the product, or any of these products 
+
+1228
+01:33:13,439 --> 01:33:16,363
+It tells you if you measure any of the component for one of them
+
+1229
+01:33:17,515 --> 01:33:21,376
+That you will get exactly the opposite if you measure the other one 
+
+1230
+01:33:22,253 --> 01:33:26,677
+It's a correlation, it's a correlation and statistical correlation 
+
+1231
+01:33:27,390 --> 01:33:31,728
+That if you measure one of the component of spin of sigma
+
+1232
+01:33:33,098 --> 01:33:37,978
+and also the same component for the other one, they will be opposite
+
+1233
+01:33:39,094 --> 01:33:40,333
+Of course it doesn't tell you much
+
+1234
+01:33:40,922 --> 01:33:44,403
+If you measure the x component of this spin and the y component of that spin
+
+1235
+01:33:44,839 --> 01:33:45,794
+That it doesn't tell you much, 
+
+1236
+01:33:46,133 --> 01:33:49,496
+but it does tell you if you measure the same component of either of them
+
+1237
+01:33:49,762 --> 01:33:50,749
+They would come out opposite 
+
+1238
+01:33:52,993 --> 01:33:54,998
+>> Bell (inaudible)
+
+1239
+01:33:58,455 --> 01:34:02,164
+>> dealing with these systems of two spin oriented in opposite direction 
+
+1240
+01:34:02,797 --> 01:34:05,729
+>> isn't it will be a up down kind of state 
+
+1241
+01:34:06,189 --> 01:34:07,290
+>> Is that right or is that so?
+
+1242
+01:34:07,725 --> 01:34:12,142
+No the kind of state Bell dealt with was 
+
+1243
+01:34:12,387 --> 01:34:14,051
+entangled state |up down> minus |down up>
+
+1244
+01:34:14,753 --> 01:34:15,741
+It's exactly what he dealt with 
+
+1245
+01:34:20,270 --> 01:34:23,809
+>>Is there any interaction with two of the state like this?
+
+1246
+01:34:24,560 --> 01:34:28,020
+This, almost any interaction between the spin that we do a state like that 
+
+1247
+01:34:30,529 --> 01:34:35,988
+>> Did you say that it's a statistical correlation?
+
+1248
+01:34:36,637 --> 01:34:38,481
+Yes it's just the statistical correlation that 
+
+1249
+01:34:39,721 --> 01:34:50,349
+Look, at this, to some extend, it's similar to a trivial observation 
+
+1250
+01:34:51,484 --> 01:34:56,142
+The way I like to phrase it is I have a penny and a dime in my pocket 
+
+1251
+01:34:58,274 --> 01:35:00,784
+I put my hand into my pocket I take them out I don't look at them
+
+1252
+01:35:01,044 --> 01:35:03,435
+Without looking at them I give one to Alice and one to Bob
+
+1253
+01:35:04,618 --> 01:35:06,418
+And then I take Alice and Bob to take off and 
+
+1254
+01:35:07,722 --> 01:35:12,632
+They will go to moon or whatever you want to go
+
+1255
+01:35:13,708 --> 01:35:17,523
+And it's gonna be the case that if Alice looks at her coin
+
+1256
+01:35:18,040 --> 01:35:20,488
+She instantly knows what Bob's coin is alright?
+
+1257
+01:35:21,836 --> 01:35:23,513
+She sees, if I got a dime he's got a penny
+
+1258
+01:35:24,472 --> 01:35:25,979
+If I got a penny he's got a dime 
+
+1259
+01:35:28,248 --> 01:35:32,112
+That in itself is not surprising, there is nothing
+
+1260
+01:35:33,170 --> 01:35:36,988
+In the past they work together some correlation is established 
+
+1261
+01:35:37,307 --> 01:35:38,254
+Now what was the correlation?
+
+1262
+01:35:38,706 --> 01:35:44,810
+The correlation was a correlation that if Alice has a dime 
+
+1263
+01:35:45,585 --> 01:35:50,142
+Then Bob has a penny and vice versa
+
+1264
+01:35:51,319 --> 01:35:53,020
+No other possibilities were possible 
+
+1265
+01:35:55,861 --> 01:35:59,948
+So there is a correlation between Alice's coin and Bob's coin
+
+1266
+01:36:00,167 --> 01:36:01,421
+And there wasn't any anti-correlation 
+
+1267
+01:36:02,681 --> 01:36:06,164
+If we call heads and tails plus one and minus one
+
+1268
+01:36:07,322 --> 01:36:10,260
+Then if Alice is plus one Bob is minus one 
+
+1269
+01:36:10,706 --> 01:36:13,278
+But the opposite is also possible, I don't know it advents 
+
+1270
+01:36:15,089 --> 01:36:18,327
+And yet when Alice's far away and Bob is far awy
+
+1271
+01:36:18,624 --> 01:36:21,909
+Alice look at the coin, and she instantly knows what Bob's is
+
+1272
+01:36:22,961 --> 01:36:26,407
+I assure you that does not violate the special theory of relativity
+
+1273
+01:36:30,049 --> 01:36:33,119
+And this kind of correlation is a, 
+
+1274
+01:36:35,331 --> 01:36:39,435
+this is called the Einstein-Podolsky-Rosen correlation, or entanglement 
+
+1275
+01:36:41,804 --> 01:36:44,615
+It's the quantum version of that same nickel and dime story 
+
+1276
+01:36:45,111 --> 01:36:46,183
+Penny and dime story
+
+1277
+01:36:47,622 --> 01:36:49,280
+>> You use nickel for real properties 
+
+1278
+01:36:49,544 --> 01:36:50,918
+There are certainly a difference 
+
+1279
+01:36:51,390 --> 01:36:52,452
+There are certainly a difference
+
+1282
+01:37:01,657 --> 01:37:06,141
+That's just statistical correlation, it's tremendously common things in physics
+
+1280
+01:36:52,773 --> 01:36:56,631
+But just the idea that by looking at something at one place
+
+1281
+01:36:56,898 --> 01:37:01,005
+You instantly know something you didn't know with regard to other place
+
+1283
+01:37:06,407 --> 01:37:07,441
+There's nothing special about it
+
+1284
+01:37:08,384 --> 01:37:13,962
+The question is what is it that special and different about this entanglement?
+
+1285
+01:37:14,871 --> 01:37:17,317
+And that's where John Bell found something interesting 
+
+1286
+01:37:17,818 --> 01:37:19,670
+He didn't find non-locality, 
+
+1287
+01:37:20,045 --> 01:37:22,475
+we are gonna talk next time about what non-locality means in physics
+
+1288
+01:37:22,746 --> 01:37:26,338
+And what is it exactly that John Bell found?
+
+1289
+01:37:29,258 --> 01:37:32,732
+But I'm gonna tell you right now it was not non-locality
+
+1290
+01:37:33,757 --> 01:37:37,382
+It looks like non-locality and the reason is 
+
+1291
+01:37:37,746 --> 01:37:40,422
+because you are trying to apply classical reasoning 
+
+1292
+01:37:40,888 --> 01:37:46,248
+What John Bell said is you can't apply classical reasoning to quantum systems
+
+1293
+01:37:46,633 --> 01:37:47,791
+That's what it came down to 
+
+1294
+01:37:48,130 --> 01:37:50,184
+Quantum systems are quantum mechanical that 
+
+1295
+01:37:50,405 --> 01:37:52,977
+if you try to apply classical reasoning
+
+1296
+01:37:53,950 --> 01:37:55,855
+You are going to find inconsistency 
+
+1297
+01:37:57,451 --> 01:37:59,717
+I can say in another way, I will tell you another way 
+
+1298
+01:38:00,154 --> 01:38:01,428
+There is a way to say it
+
+1299
+01:38:07,540 --> 01:38:12,439
+Imagine you have a computer and you try to simulate on that computer 
+
+1300
+01:38:13,379 --> 01:38:15,333
+The quantum mechanics of a single spin 
+
+1301
+01:38:16,291 --> 01:38:17,747
+Here's the way that you simulated 
+
+1302
+01:38:18,752 --> 01:38:24,707
+You would be able to instruct the computer to orient it's apparatus 
+
+1303
+01:38:25,845 --> 01:38:27,067
+in an arbitrary direction, 
+
+1304
+01:38:27,381 --> 01:38:29,590
+in other words you would put in coordinates for a direction
+
+1305
+01:38:31,243 --> 01:38:33,274
+And when you put in the coordinates for a direction 
+
+1306
+01:38:34,128 --> 01:38:39,248
+That computer would do some calculation appeal to random number generator
+
+1307
+01:38:40,324 --> 01:38:42,564
+And spit out a plus one or a minus one
+
+1308
+01:38:44,436 --> 01:38:48,540
+There will be an algorithm that would say that 
+
+1309
+01:38:48,835 --> 01:38:51,143
+if you do it over again immediately
+
+1310
+01:38:52,552 --> 01:38:54,435
+It will spit out the same number again
+
+1311
+01:38:55,861 --> 01:38:58,310
+That if you do it again, it will spit out the same number again 
+
+1312
+01:38:59,038 --> 01:39:03,483
+But you might then say, alright now let me make it more interesting 
+
+1313
+01:39:04,291 --> 01:39:08,827
+By adding in a mathematical magnetic field 
+
+1314
+01:39:09,329 --> 01:39:10,871
+Which allows the spin to process 
+
+1315
+01:39:11,536 --> 01:39:15,685
+What would you do? The computer would solve the Schrodinger equation 
+
+1316
+01:39:16,624 --> 01:39:19,479
+Find out what the state was after a little bit of time 
+
+1317
+01:39:20,413 --> 01:39:22,896
+Calculate the probability for up and down
+
+1318
+01:39:23,977 --> 01:39:25,780
+Or whatever you decide to measure 
+
+1319
+01:39:26,444 --> 01:39:30,109
+Calculate the probabilities appeal to the random number generator 
+
+1320
+01:39:30,712 --> 01:39:35,435
+And spit out a number that was statistically exactly what you should get 
+
+1321
+01:39:35,746 --> 01:39:37,483
+on the average for the quantum mechanics 
+
+1322
+01:39:38,400 --> 01:39:41,368
+Somebody who came to this computer and started playing with it
+
+1323
+01:39:41,618 --> 01:39:45,104
+And doing this experiment, rotating this apparatus in different directions
+
+1324
+01:39:46,198 --> 01:39:49,428
+Turing on magnetic fields on other directions 
+
+1325
+01:39:49,732 --> 01:39:51,337
+Waiting various amount of time 
+
+1326
+01:39:52,482 --> 01:39:56,535
+And then telling the computer measure this or that component 
+
+1327
+01:39:57,418 --> 01:40:00,057
+would reproduce exactly quantum mechanics
+
+1328
+01:40:00,300 --> 01:40:02,932
+At least to the extent that random number generator are possible
+
+1329
+01:40:03,811 --> 01:40:04,795
+They are not exactly possible 
+
+1330
+01:40:05,236 --> 01:40:07,130
+but you know you can make pretty good random numbers
+
+1331
+01:40:07,683 --> 01:40:12,443
+Alright so that would be a quantum, that wouldn't be a quantum computer
+
+1332
+01:40:12,836 --> 01:40:18,231
+That would be a classical computer simulating quantum behavior 
+
+1333
+01:40:19,543 --> 01:40:23,895
+Whereas somebody doing experiment on it can be fooled into thinking
+
+1334
+01:40:24,366 --> 01:40:27,545
+that it's actually dealing with the single electron inside the computer
+
+1335
+01:40:28,025 --> 01:40:30,549
+And doing a quantum experiment, you couldn't tell the difference 
+
+1336
+01:40:31,455 --> 01:40:36,047
+Now the question is could you do the same thing for two spins?
+
+1337
+01:40:37,706 --> 01:40:40,899
+In particular I want to do the same thing for two spins
+
+1338
+01:40:41,413 --> 01:40:44,658
+And I want to do in such a way that one of the spins 
+
+1339
+01:40:45,712 --> 01:40:48,595
+If all of it's data is located in one computer 
+
+1340
+01:40:50,107 --> 01:40:54,292
+And all of the data for the other spin is located in the other computer
+
+1341
+01:40:54,534 --> 01:40:56,198
+Now I can bring the computers together 
+
+1342
+01:40:57,168 --> 01:41:00,005
+Have wires connecting them and so forth for a while
+
+1343
+01:41:00,943 --> 01:41:04,634
+Do arbitrary things and then cut the wires and separate them 
+
+1344
+01:41:06,387 --> 01:41:12,308
+Can I simulate the quantum mechanics of the two particle system 
+
+1345
+01:41:13,730 --> 01:41:17,641
+In such a way that it would appear that one of the computer contains one particle
+
+1346
+01:41:18,187 --> 01:41:20,394
+And the other computer contains the other particle
+
+1347
+01:41:20,877 --> 01:41:24,340
+Now this is a classical computer, two classical computers 
+
+1348
+01:41:25,261 --> 01:41:27,438
+And the answer is the only way you could do it 
+
+1349
+01:41:27,868 --> 01:41:31,996
+would be to have wires connecting the computers at all times
+
+1350
+01:41:33,024 --> 01:41:35,832
+You could not do it unless the computers 
+
+1351
+01:41:36,564 --> 01:41:41,431
+are capable of interacting directly out of distance
+
+1352
+01:41:42,514 --> 01:41:46,609
+But that does not mean that the system is non-local 
+
+1353
+01:41:47,677 --> 01:41:51,940
+Non-local means the signal can propagate from one place to another 
+
+1354
+01:41:52,262 --> 01:41:57,206
+What it's telling you is you simply can't simulate quantum mechanics 
+
+1355
+01:41:58,212 --> 01:42:00,280
+in a local way by a classical computer 
+
+1356
+01:42:01,045 --> 01:42:03,129
+The logic of quantum mechanics is different 
+
+1357
+01:42:03,821 --> 01:42:09,919
+It's simply does not allow itself to be fake by a computer 
+
+1358
+01:42:10,862 --> 01:42:13,354
+unless that computer is connected 
+
+1359
+01:42:14,127 --> 01:42:16,641
+over large distances to everything in the world
+
+1360
+01:42:17,829 --> 01:42:20,109
+Quantum mechanics managed to do the same thing 
+
+1361
+01:42:20,755 --> 01:42:22,565
+without having wires connecting things
+
+1362
+01:42:23,839 --> 01:42:27,673
+However you could ask the question does that constitute what physicists call
+
+1363
+01:42:27,910 --> 01:42:32,146
+non-locality, or what Einstein would have called non-locality
+
+1364
+01:42:32,670 --> 01:42:35,844
+It does not, it does not constitute in any way the ability 
+
+1365
+01:42:36,105 --> 01:42:37,678
+to send a message from one place to another 
+
+1366
+01:42:38,980 --> 01:42:40,960
+But we are gonna come to that, we will deal with that 
+
+1367
+01:42:43,235 --> 01:42:47,955
+No it is fundamentally the inability to simulate quantum mechanics 
+
+1368
+01:42:48,222 --> 01:42:49,369
+by classical computers, 
+
+1369
+01:42:49,693 --> 01:42:53,621
+unless the classical computers are hook up in highly un-local ways
+
+1370
+01:42:55,081 --> 01:42:58,542
+For more, please visit us at Stanford.edu
+
+

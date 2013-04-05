@@ -1,0 +1,5271 @@
+1
+00:00:00,000 --> 00:00:09,240
+Stanford University
+
+2
+00:00:09,240 --> 00:00:11,335
+Okay, let's, let's go on
+
+3
+00:00:12,608 --> 00:00:19,542
+Let's forget for the moment, the spin system
+
+4
+00:00:19,750 --> 00:00:25,130
+We will come back to it, probably tonight, definitely tonight
+
+5
+00:00:25,322 --> 00:00:28,233
+But let's remind ourselves of, 
+
+6
+00:00:28,431 --> 00:00:32,203
+I think I wrote down four principles of quantum mechanics last time 
+
+7
+00:00:32,392 --> 00:00:35,060
+And I wanna write them down again
+
+8
+00:00:35,060 --> 00:00:39,487
+And then move on to a fifth principle
+
+9
+00:00:44,451 --> 00:00:46,787
+In fact they are not all independent 
+
+10
+00:00:47,001 --> 00:00:50,707
+It's easier for me to explain them one at a time 
+
+11
+00:00:50,935 --> 00:00:56,701
+To deprive from the minimal, absolute minimal number of them
+
+12
+00:00:56,916 --> 00:00:59,030
+I don't think there is any particular advantage in doing that
+
+13
+00:00:59,030 --> 00:01:03,957
+So I just write down... all the principles that I wrote down
+
+14
+00:01:04,151 --> 00:01:08,453
+The first one is the observable, the observables are the things you measure
+
+15
+00:01:08,656 --> 00:01:14,271
+It could be called measurable, if I have, if it's up to me, I would call it measurable
+
+16
+00:01:14,473 --> 00:01:17,607
+But they are called observables 
+
+17
+00:01:19,991 --> 00:01:25,292
+Observables are represented... I will just use the equal sign to indicate that 
+
+18
+00:01:25,496 --> 00:01:29,326
+Observables are represented by Hermitian operators
+
+19
+00:01:29,596 --> 00:01:33,462
+I use the symbol L for the moment for the Hermitian operator
+
+20
+00:01:33,709 --> 00:01:36,542
+Not all operators, not all linear operators are Hermitian
+
+21
+00:01:36,764 --> 00:01:39,173
+And it will not always be the case that 
+
+22
+00:01:39,360 --> 00:01:41,964
+the symbol L will stand for Hermitian operator
+
+23
+00:01:42,157 --> 00:01:47,516
+But right now, L stand for Hermitian operator, any Hermitian operator
+
+24
+00:01:47,699 --> 00:01:51,211
+Every observable is identified with a Hermitian operator
+
+25
+00:01:51,401 --> 00:01:54,131
+Then the question is whether every Hermitian operator 
+
+26
+00:01:54,342 --> 00:01:58,449
+is a thing which can be measured, is a generally hard question, 
+
+27
+00:01:58,678 --> 00:02:01,873
+you know, what can or can't be measured 
+
+28
+00:02:02,937 --> 00:02:07,021
+depends on what the materials you have available, all kind of things
+
+29
+00:02:07,249 --> 00:02:17,198
+Generally, the abstract rule, or the full rule, let's call it,
+
+30
+00:02:17,411 --> 00:02:22,279
+Is it any Hermitian operator is identified with a observable and 
+
+31
+00:02:22,493 --> 00:02:24,594
+Some day somebody will figure out how to measure it 
+
+32
+00:02:24,798 --> 00:02:29,454
+Okay, but the other way that any observable 
+
+33
+00:02:29,637 --> 00:02:31,843
+is identified with a Hermitian operator, that's for sure
+
+34
+00:02:33,501 --> 00:02:37,067
+The eigenvalue of a Hermitian operator, let's call them lambdas 
+
+35
+00:02:37,281 --> 00:02:40,326
+Lambda is the eigenvalue of L 
+
+36
+00:02:40,646 --> 00:02:46,259
+The eigenvalues represent the possible numerical values 
+
+37
+00:02:46,456 --> 00:02:51,151
+that L can exhibit when it's measured
+
+38
+00:02:51,151 --> 00:03:02,668
+Okay so eigenvalues, eigenvalues of L which equal lambda 
+
+39
+00:03:06,644 --> 00:03:14,535
+Now they represent the possible observe... 
+
+40
+00:03:14,718 --> 00:03:17,286
+or the possible outcome of an experiment 
+
+41
+00:03:17,474 --> 00:03:27,751
+Possible outcome of an experiment to measure L of L measurement 
+
+42
+00:03:31,061 --> 00:03:35,981
+Okay I think we have a third one along the line here 
+
+43
+00:03:35,981 --> 00:03:39,242
+Physically distinguishable state, 
+
+44
+00:03:39,410 --> 00:03:43,252
+Now let's just see what physically distinguishable state means
+
+45
+00:03:46,385 --> 00:03:50,671
+Certainly up and down are physically distinguishable 
+
+46
+00:03:50,671 --> 00:03:56,071
+And the meaning of saying two states are physically distinguishable 
+
+47
+00:03:56,071 --> 00:04:02,003
+is that there exist a measurement of some kind that you can do 
+
+48
+00:04:02,221 --> 00:04:05,968
+that can tell you the difference between a up state and a down state
+
+49
+00:04:06,165 --> 00:04:11,356
+Another words, somebody hands you a spin from out of their pocket 
+
+50
+00:04:11,540 --> 00:04:15,100
+And they say I created the spin, 
+
+51
+00:04:16,332 --> 00:04:20,611
+I prepared it in a state which is either up or down
+
+52
+00:04:20,611 --> 00:04:25,618
+Can you do an experiment to unambiguously tell me which one it is?
+
+53
+00:04:25,829 --> 00:04:30,928
+Yes you tilt your apparatus until it's pointing along the z axis
+
+54
+00:04:31,157 --> 00:04:32,520
+And you make the measurement 
+
+55
+00:04:32,706 --> 00:04:35,337
+If the state was up you will get plus one
+
+56
+00:04:35,513 --> 00:04:37,497
+If the state was down you will get minus one
+
+57
+00:04:37,676 --> 00:04:39,465
+No ambiguity
+
+58
+00:04:39,653 --> 00:04:43,073
+The same is true for left and right
+
+59
+00:04:43,260 --> 00:04:45,450
+Different measurement, different thing that you will measure
+
+60
+00:04:46,510 --> 00:04:48,578
+You will measure the x component, 
+
+61
+00:04:48,765 --> 00:04:51,666
+then you will tilt your apparatus along the x axis
+
+62
+00:04:51,847 --> 00:04:54,658
+but, same deal, 
+
+63
+00:04:54,861 --> 00:04:59,134
+on the other hand, supposing somebody, that same person came along and said here
+
+64
+00:04:59,392 --> 00:05:07,676
+I'm gonna give you a spin, here it is, and that spin either prepared up
+
+65
+00:05:07,922 --> 00:05:10,306
+or I prepared it right 
+
+66
+00:05:10,646 --> 00:05:14,172
+I'm not gonna tell you which way I prepared it 
+
+67
+00:05:14,710 --> 00:05:17,503
+I'm not gonna tell you in which way I tilted the apparatus 
+
+68
+00:05:17,724 --> 00:05:20,140
+when I did the preparation 
+
+69
+00:05:20,344 --> 00:05:27,151
+I'm just tell you it's either left... I'm sorry it's either up or right
+
+70
+00:05:27,401 --> 00:05:32,471
+Can you do a experiment which will uniquely tell you the difference?
+
+71
+00:05:32,652 --> 00:05:38,929
+The answer is no, for example supposing you decide to measure the spin along the z axis
+
+72
+00:05:39,124 --> 00:05:44,152
+Well if it's up you will get plus one, if it's right, 
+
+73
+00:05:44,355 --> 00:05:45,590
+with fifty percent probability you will get plus one 
+
+74
+00:05:45,770 --> 00:05:51,994
+So you can't be sure whether you are up or right
+
+75
+00:05:54,050 --> 00:05:59,117
+>> forty five degrees 
+
+76
+00:05:59,328 --> 00:06:01,769
+still you will have a probability for 
+
+77
+00:06:05,405 --> 00:06:09,061
+Ya, ya, it would not be unambiguous, right, okay?
+
+78
+00:06:09,273 --> 00:06:10,965
+So the next postulate
+
+79
+00:06:11,181 --> 00:06:16,977
+>> excuse me, if in that statement you were assuming it was prepared along the z axis
+
+80
+00:06:17,145 --> 00:06:19,757
+>> If it have been prepared along the x axis
+
+81
+00:06:19,961 --> 00:06:25,376
+>> Then if you measure the x axis first, you get ...
+
+82
+00:06:28,754 --> 00:06:31,455
+If you measure the x axis first you will find something else
+
+83
+00:06:31,455 --> 00:06:38,745
+But you could have found out exactly the same answer if it was along the z axis
+
+84
+00:06:38,745 --> 00:06:41,351
+Either case, there was some probability 
+
+85
+00:06:42,968 --> 00:06:49,137
+of getting the same answer whether it was up or right
+
+86
+00:06:49,341 --> 00:06:50,780
+There is no experiment you can do 
+
+87
+00:06:50,963 --> 00:06:56,261
+which unambiguously will determine which it was
+
+88
+00:06:56,436 --> 00:07:03,261
+That leads to the notion, I am not going to give you a more precise definition of it
+
+89
+00:07:03,447 --> 00:07:07,823
+That leads to the notion of physically distinguishable states
+
+90
+00:07:08,000 --> 00:07:10,767
+by which it's meant that 
+
+91
+00:07:10,986 --> 00:07:13,707
+their exist an experiment or a set of experiments 
+
+92
+00:07:13,906 --> 00:07:19,489
+that can unambiguously determine which of the two states you are talking about
+
+93
+00:07:19,748 --> 00:07:25,587
+The next postulate is that physically distinct or physically distinguishable states 
+
+94
+00:07:25,772 --> 00:07:28,488
+are represented by orthogonal vectors 
+
+95
+00:07:29,697 --> 00:07:40,484
+Okay, so physically distinct, distinct, distinguishable, same thing
+
+96
+00:07:40,660 --> 00:07:42,459
+It's easier to write distinct 
+
+97
+00:07:42,664 --> 00:07:51,603
+This physically distinct states imply orthogonality 
+
+98
+00:07:58,907 --> 00:08:03,138
+I said that observables are Hermitian operators 
+
+99
+00:08:03,351 --> 00:08:06,435
+I could have just said linear operators, 
+
+100
+00:08:06,686 --> 00:08:08,691
+let's leave with linear operator for the moment 
+
+101
+00:08:08,890 --> 00:08:14,448
+But let's add a postulate that the result of every experiments
+
+102
+00:08:14,642 --> 00:08:17,532
+Every simple primitive experiment it's a real number 
+
+103
+00:08:17,714 --> 00:08:21,545
+If it's a real number... if it's a complex number 
+
+104
+00:08:21,729 --> 00:08:24,900
+It really means that, two independent things are measured
+
+105
+00:08:24,900 --> 00:08:30,850
+The actual result come out of your apparatus, come out of, you know
+
+106
+00:08:31,092 --> 00:08:34,639
+The needle on your apparatus ,the real numbers 
+
+107
+00:08:34,836 --> 00:08:39,181
+So I will let that as a postulate, the result of experiments are always real numbers
+
+108
+00:08:39,361 --> 00:08:44,720
+And therefore the eigenvalues of observables are real numbers
+
+109
+00:08:44,720 --> 00:08:47,950
+Now that does not prove that the operators are Hermitian, not enough
+
+110
+00:08:47,950 --> 00:08:54,725
+The other added thing is the various eigen vector with different eigen value
+
+111
+00:08:54,912 --> 00:08:58,405
+is physically distinguishable states, or orthogonal 
+
+112
+00:08:58,590 --> 00:09:00,359
+Okay that's the third postulate
+
+113
+00:09:00,543 --> 00:09:05,338
+And that tells you the observables are Hermitian operators 
+
+114
+00:09:07,402 --> 00:09:14,340
+It's the Hermitian operator whose eigen values are always real
+
+115
+00:09:14,519 --> 00:09:18,133
+And whose eigen vectors are orthogonal 
+
+116
+00:09:18,295 --> 00:09:20,125
+That's necessary and sufficient 
+
+117
+00:09:21,350 --> 00:09:27,356
+And this one like I said, they are not all completely independent to each other
+
+118
+00:09:27,544 --> 00:09:34,588
+One, two, three, and let's write number four now
+
+119
+00:09:36,196 --> 00:09:39,595
+I forgot what fourth is, oh, 
+
+120
+00:09:42,165 --> 00:09:51,651
+Well, what was fourth? Ya
+
+121
+00:09:53,802 --> 00:09:58,451
+Ah, the probability, the probability principle, okay
+
+122
+00:09:58,628 --> 00:10:08,701
+The probability principle, it's also called Born's rule, that Max Born
+
+123
+00:10:08,890 --> 00:10:13,760
+But it's a rule for probabilities 
+
+124
+00:10:13,760 --> 00:10:17,381
+So far, none of these have much content, the added content 
+
+125
+00:10:17,597 --> 00:10:25,354
+You know, it has content, but the real bite here is for the prediction of the probability 
+
+126
+00:10:25,638 --> 00:10:28,626
+for various experiments 
+
+127
+00:10:28,822 --> 00:10:33,163
+And the Born rule is the rule for how to calculate the probabilities 
+
+128
+00:10:34,678 --> 00:10:41,634
+The Born rule says, if your system has been prepared in state |A>
+
+129
+00:10:43,180 --> 00:10:48,817
+System in |A>
+
+130
+00:10:50,209 --> 00:11:00,016
+And you measure L, the observable L 
+
+131
+00:11:00,189 --> 00:11:04,497
+Now I'm using interchangeably the physical idea 
+
+132
+00:11:04,684 --> 00:11:07,790
+with observables with the operator which represent it 
+
+133
+00:11:07,790 --> 00:11:09,893
+I'm not going to make a special language where
+
+134
+00:11:11,327 --> 00:11:14,689
+operator will always be called operator
+
+135
+00:11:14,873 --> 00:11:17,593
+And the observable of L, same thing 
+
+136
+00:11:17,794 --> 00:11:19,330
+They come in pairs 
+
+137
+00:11:19,504 --> 00:11:23,626
+Alright, if you, if the system has been prepared in state |A>
+
+138
+00:11:24,625 --> 00:11:26,601
+And you measure L, you measure L
+
+139
+00:11:26,791 --> 00:11:29,905
+The outcome is going to be one of the eigenvalues 
+
+140
+00:11:30,881 --> 00:11:32,417
+So the only question you can ask is 
+
+141
+00:11:32,643 --> 00:11:37,397
+what is the probability that you get the answer lambda
+
+142
+00:11:38,601 --> 00:11:41,206
+One of the specific eigenvalues
+
+143
+00:11:41,419 --> 00:11:44,773
+The answer is, the probability 
+
+144
+00:11:47,877 --> 00:11:51,658
+The probability that you get result lambda 
+
+145
+00:11:53,168 --> 00:11:57,613
+That's the probability you get out of the various eigenvalue you get lambda
+
+146
+00:11:57,802 --> 00:12:05,669
+Is equal to the square of inner product of the state vector 
+
+147
+00:12:05,849 --> 00:12:08,411
+That the system was in
+
+148
+00:12:08,610 --> 00:12:13,578
+With the eigen vector corresponding the normalized eigenvector 
+
+149
+00:12:13,771 --> 00:12:15,600
+or vector normalized now
+
+150
+00:12:15,772 --> 00:12:22,620
+The inner product of A with lambda squared 
+
+151
+00:12:22,797 --> 00:12:31,248
+A with lambda, sometimes incidentally the inner product is called the overlap
+
+152
+00:12:31,420 --> 00:12:38,688
+It's a measure, if we say that orthogonality is complete distinguishability
+
+153
+00:12:38,881 --> 00:12:42,145
+Or unique in the complete distinguishability
+
+154
+00:12:42,322 --> 00:12:49,282
+Then a lack of orthogonality represent to some extend the inability 
+
+155
+00:12:49,465 --> 00:12:52,422
+to make the clear distinction between two states
+
+156
+00:12:53,651 --> 00:12:56,327
+Ya, alright, so this is, question?
+
+157
+00:12:56,488 --> 00:13:01,219
+>> I'm surprised to see lambda is represented as a vector 
+
+158
+00:13:01,394 --> 00:13:02,637
+>> because it's a value
+
+159
+00:13:02,816 --> 00:13:11,485
+No, no, alright the notation is every eigen value is associated with a eigen vector
+
+160
+00:13:13,631 --> 00:13:15,750
+I will just write E vector 
+
+161
+00:13:15,936 --> 00:13:21,120
+The notation is the vector labeled by lambda 
+
+162
+00:13:21,304 --> 00:13:23,899
+is the eigen vector associated with the eigen value lambda
+
+163
+00:13:24,087 --> 00:13:33,509
+That's a good point, you know, the problem we are trying to be a pure about notation
+
+164
+00:13:33,723 --> 00:13:36,334
+is that the notation get very complicated 
+
+165
+00:13:36,334 --> 00:13:39,016
+It get so complicated, it get difficult to read, 
+
+166
+00:13:39,236 --> 00:13:42,471
+too many indices, too many different letters you have to use
+
+167
+00:13:42,652 --> 00:13:49,025
+So, ya, sometimes we use slightly excuse the word bastardize notation
+
+168
+00:13:49,235 --> 00:13:57,775
+Or where we conflate a symbol for a vector, with the symbol in this case for a eigen value
+
+169
+00:13:59,108 --> 00:14:06,227
+Okay, so that's the probability principle or Born's rule 
+
+170
+00:14:06,920 --> 00:14:10,715
+And just look at it for a minute 
+
+171
+00:14:10,930 --> 00:14:14,830
+You ask why the square of the absolute value?
+
+172
+00:14:15,036 --> 00:14:20,775
+Well in general, this overlap is neither positive nor even real in general
+
+173
+00:14:20,775 --> 00:14:24,281
+Overlaps between two vectors are not necessarily real, in fact
+
+174
+00:14:24,489 --> 00:14:28,226
+They are generally not, we are talking about a complex vector space
+
+175
+00:14:28,435 --> 00:14:31,974
+And if the component of a vector is complex
+
+176
+00:14:32,166 --> 00:14:37,429
+In general in a product that would not even be real, let alone positive
+
+177
+00:14:38,738 --> 00:14:44,098
+On the other hand, the square of the absolute value of the square, 
+
+178
+00:14:44,273 --> 00:14:48,203
+Square of the absolute value of the inner product, that is real
+
+179
+00:14:48,447 --> 00:14:50,578
+It's not only real, it's also positive
+
+180
+00:14:50,781 --> 00:14:54,799
+So this has a chance to be a candidate for the probability 
+
+181
+00:14:54,980 --> 00:14:57,216
+Whereas the inner product itself doesn't
+
+182
+00:14:57,413 --> 00:15:00,885
+The inner product itself is called the probability amplitude 
+
+183
+00:15:01,069 --> 00:15:04,210
+The probability amplitude is a thing that you square 
+
+184
+00:15:04,401 --> 00:15:07,604
+in the sense of absolute value to compute a probability 
+
+185
+00:15:08,540 --> 00:15:14,183
+Needless to say, the justification for this principle in the end
+
+186
+00:15:14,369 --> 00:15:15,446
+is experiment 
+
+187
+00:15:15,622 --> 00:15:18,639
+On the other hand, you could ask how much can I bent them
+
+188
+00:15:18,846 --> 00:15:21,224
+And still make physical sense out of prediction
+
+189
+00:15:21,410 --> 00:15:23,308
+The answer is nobody has ever found a way
+
+190
+00:15:23,500 --> 00:15:26,168
+to change the rule of quantum mechanics
+
+191
+00:15:26,368 --> 00:15:30,732
+and still preserve a reasonably logical structure
+
+192
+00:15:30,899 --> 00:15:34,484
+So you eventually get familiar with these principles
+
+193
+00:15:34,655 --> 00:15:39,821
+>> Which of these principles took you from several possible outcomes
+
+194
+00:15:39,996 --> 00:15:42,109
+>> to one actual outcome?
+
+195
+00:15:42,298 --> 00:15:50,396
+Well, okay, if <A| is an eigenvector of L, if it is
+
+196
+00:15:50,569 --> 00:15:56,179
+If the state, starting state of a system happens to be an eigenvector of L
+
+197
+00:15:56,179 --> 00:15:59,911
+Then it would only have an inner product of one of the eigenvectors
+
+198
+00:16:00,099 --> 00:16:03,771
+Right, so that's again, it's a good question so
+
+199
+00:16:03,961 --> 00:16:08,689
+>> If you say that L lambda can't equal to...(inaudible)
+
+200
+00:16:09,967 --> 00:16:13,001
+Ya, ya, that's right
+
+201
+00:16:13,178 --> 00:16:20,497
+>> Excuse me, what if lambda is an eigenvalue for multiple eigenvectors?
+
+202
+00:16:21,530 --> 00:16:28,660
+Ya, still the rule is the same, but right
+
+203
+00:16:30,291 --> 00:16:31,627
+I will give you two answers 
+
+204
+00:16:31,901 --> 00:16:35,439
+The first answer is don't worry about the case 
+
+205
+00:16:35,614 --> 00:16:37,739
+with the eigenvalue maybe the same
+
+206
+00:16:37,957 --> 00:16:40,343
+Because it's very special, but that's not good enough, let me...
+
+207
+00:16:40,523 --> 00:16:42,335
+Let me say what the right answer is 
+
+208
+00:16:42,515 --> 00:16:47,184
+The right answer is if you want the probability for a given value of lambda
+
+209
+00:16:47,360 --> 00:16:50,879
+and there's more than one eigenvector with the same value of lambda
+
+210
+00:16:51,060 --> 00:16:54,506
+Then you add them, you simply add the sum of the square 
+
+211
+00:16:54,674 --> 00:16:57,560
+of the probability addition
+
+212
+00:16:58,821 --> 00:17:02,670
+The question, they are really good
+
+213
+00:17:02,670 --> 00:17:09,309
+>> What about the case <A| has overlap...
+
+214
+00:17:09,495 --> 00:17:12,682
+Yeah, yeah, then you take the sum of the square of them
+
+215
+00:17:12,875 --> 00:17:16,418
+You take the sum of the square of them
+
+216
+00:17:16,620 --> 00:17:19,237
+If there're several different eigenvectors all with the same eigenvalues
+
+217
+00:17:19,430 --> 00:17:21,842
+First of all you make them perpendicular to each other
+
+218
+00:17:22,051 --> 00:17:23,682
+You can always make them perpendicular to each other
+
+219
+00:17:24,930 --> 00:17:27,740
+No no, even if they are the with the same eigenvalues 
+
+220
+00:17:28,548 --> 00:17:31,487
+The theorem, let's go back to the theorem
+
+221
+00:17:31,753 --> 00:17:35,562
+The theorem says that the eigenvectors with different eigenvalues 
+
+222
+00:17:35,738 --> 00:17:37,783
+are orthogonal 
+
+223
+00:17:37,977 --> 00:17:43,435
+It doesn't tell you anything about the eigenvectors to the same eigenvalue
+
+224
+00:17:43,609 --> 00:17:47,101
+That's supposing you have two eigenvectors with the same eigenvalue
+
+225
+00:17:48,349 --> 00:17:52,566
+Then it's also true that any linear combination of those two vectors 
+
+226
+00:17:52,567 --> 00:17:55,440
+is also a eigenvector with the same eigenvalue
+
+227
+00:17:55,440 --> 00:18:02,168
+For example, let's suppose lambda, lambda 1 and lambda 2,
+
+228
+00:18:02,370 --> 00:18:05,274
+Now these are not two different values of lambda
+
+229
+00:18:05,473 --> 00:18:08,458
+These are the same value of lambda but two different eigenvector
+
+230
+00:18:08,694 --> 00:18:10,098
+Maybe we should write it like this
+
+231
+00:18:10,278 --> 00:18:14,000
+Lambda 1 and lambda 2, two different eigenvectors
+
+232
+00:18:14,176 --> 00:18:17,191
+Both exhibiting the same eigenvalue
+
+233
+00:18:17,366 --> 00:18:21,800
+Then you can take any... what that means is 
+
+234
+00:18:21,995 --> 00:18:26,746
+L on lambda 1 equals lambda times lambda 1
+
+235
+00:18:27,932 --> 00:18:34,664
+L on lambda 2 equals lambda lambda 2
+
+236
+00:18:35,901 --> 00:18:38,781
+Multiply this by any complex number alpha 
+
+237
+00:18:42,471 --> 00:18:44,869
+This one by any complex number beta
+
+238
+00:18:46,021 --> 00:18:47,829
+And add the two equations
+
+239
+00:18:48,033 --> 00:18:52,225
+What you find is that L on the linear combination
+
+240
+00:18:52,433 --> 00:18:57,678
+The linear sum of alpha lambda 1 plus beta lambda 2
+
+241
+00:18:58,750 --> 00:19:03,630
+is equal... on this side now you have lambda 
+
+242
+00:19:03,823 --> 00:19:06,699
+times the same thing as in the bracket here
+
+243
+00:19:06,907 --> 00:19:10,486
+Another word if you have two eigenvectors with the same eigenvalues
+
+244
+00:19:10,658 --> 00:19:15,438
+You can add them with arbitrary coefficients and they remain eigenvectors
+
+245
+00:19:15,629 --> 00:19:20,599
+Now given two distinct vectors, given two distinct vectors 
+
+246
+00:19:20,780 --> 00:19:23,849
+and all the possible linear combination of them
+
+247
+00:19:24,049 --> 00:19:27,054
+You can always find perpendicular combination 
+
+248
+00:19:27,241 --> 00:19:30,249
+If you got this one, you got this one, now you can always add them 
+
+249
+00:19:30,422 --> 00:19:33,557
+Or subtract them with coefficient to make them perpendicular 
+
+250
+00:19:33,748 --> 00:19:40,276
+So the rest of the theorem is that if the two eigenvalues are the same 
+
+251
+00:19:40,472 --> 00:19:46,535
+You have the freedom to choose two eigenvectors which are perpendicular
+
+252
+00:19:46,697 --> 00:19:48,396
+Which are orthogonal 
+
+253
+00:19:48,586 --> 00:19:52,162
+In the end of the day, to summarize the theorem
+
+254
+00:19:52,372 --> 00:19:59,637
+It's that given the Hermitian operator, it's eigenvectors can be chosen
+
+255
+00:20:00,463 --> 00:20:05,287
+So that they form a base, so they are ortho-normal 
+
+256
+00:20:05,466 --> 00:20:08,455
+perpendicular to each other and normalized
+
+257
+00:20:08,663 --> 00:20:11,049
+Okay, so where were we
+
+258
+00:20:12,307 --> 00:20:15,094
+That was an interruption, but I don't remember where it was
+
+259
+00:20:15,274 --> 00:20:17,006
+That's the problem with the interruption
+
+260
+00:20:19,727 --> 00:20:23,047
+>> we just finished Born's rule
+
+261
+00:20:23,235 --> 00:20:25,769
+Yeah, so we were talking about Born's rule
+
+262
+00:20:25,954 --> 00:20:30,395
+Right oh, good, okay, so now if you happen to have several eigenvector
+
+263
+00:20:30,578 --> 00:20:32,187
+Let's say lambda 1 and lambda 2 
+
+264
+00:20:32,417 --> 00:20:34,382
+Both with the same eigenvalue, 
+
+265
+00:20:34,585 --> 00:20:39,787
+then you construct the overlap of the state vector with lambda 1,
+
+266
+00:20:39,987 --> 00:20:45,523
+you construct the overlap of the state vector with lambda 2 
+
+267
+00:20:45,699 --> 00:20:50,455
+you square this one, you square this one, and you add them
+
+268
+00:20:50,647 --> 00:20:57,723
+another words, you simply add the probabilities for the two possible ways
+
+269
+00:20:58,023 --> 00:21:00,273
+that you can get the same lambda
+
+270
+00:21:00,491 --> 00:21:05,020
+Just the sum of the probability, thank you Henry, way to late
+
+271
+00:21:05,261 --> 00:21:06,957
+I already got Oreos 
+
+272
+00:21:09,658 --> 00:21:14,952
+But my wife would say this is probably healthier than Oreos
+
+273
+00:21:22,474 --> 00:21:26,223
+Right? You got Oreos?
+
+274
+00:21:45,776 --> 00:21:47,550
+Loud and clear
+
+275
+00:21:47,854 --> 00:21:53,377
+>> Can we say that the reason why those things are square regardless
+
+276
+00:21:53,377 --> 00:21:58,277
+>> whether they are complex or not is sort of the probability adds to one right?
+
+277
+00:21:58,277 --> 00:22:06,421
+Yes, uhm, we know it's the sum of the square of these things which add up to one
+
+278
+00:22:06,644 --> 00:22:10,309
+For normalized states, for normalized vectors, that's right
+
+279
+00:22:11,269 --> 00:22:18,786
+I'm not sure which one implies which, but clearly they fit together very nicely, good
+
+280
+00:22:19,021 --> 00:22:20,582
+Okay, 
+
+281
+00:22:23,387 --> 00:22:29,679
+>> question? Is it possible to get an unambiguous result?
+
+282
+00:22:29,871 --> 00:22:32,207
+>> on an unprepared experiment?
+
+283
+00:22:33,367 --> 00:22:36,895
+I'm not sure what an unprepared experiment means
+
+284
+00:22:37,067 --> 00:22:42,896
+But I think what you are asking is, supposing somebody gives you a spin
+
+285
+00:22:43,102 --> 00:22:46,624
+And they don't tell you anything about how they prepare it
+
+286
+00:22:46,843 --> 00:22:50,225
+They just say here it is, I give it to you, I tell you nothing
+
+287
+00:22:52,206 --> 00:22:57,534
+Then it is not possible to find an experiment which has an unambiguous answer
+
+288
+00:23:06,166 --> 00:23:07,959
+Another good point
+
+289
+00:23:08,733 --> 00:23:17,695
+Okay, now, now we need to come to a new idea and a new question
+
+290
+00:23:18,807 --> 00:23:24,421
+In classical mechanics, all of these, the whole stories here 
+
+291
+00:23:24,605 --> 00:23:29,152
+were summarized when I show you a heads and tails 
+
+292
+00:23:29,369 --> 00:23:32,120
+Those are two possible state of a simple system
+
+293
+00:23:32,392 --> 00:23:35,628
+I didn't talk about measuring it, you know
+
+294
+00:23:35,821 --> 00:23:38,116
+It's also obvious that we didn't have to 
+
+295
+00:23:39,274 --> 00:23:44,417
+Because we know that measuring is doesn't do very much to a system
+
+296
+00:23:44,604 --> 00:23:48,005
+You measure, but it doesn't change much to a system in any way
+
+297
+00:23:48,005 --> 00:23:51,076
+Here we come to much more complicated story
+
+298
+00:23:51,306 --> 00:23:56,485
+But the story up till now it's really the quantum mechanic analog just specifying 
+
+299
+00:23:56,694 --> 00:23:58,105
+That you have a collection of state
+
+300
+00:23:58,105 --> 00:24:03,698
+The next question we ask was how to state change with time
+
+301
+00:24:03,875 --> 00:24:09,912
+That we call in the classical case dynamical laws of motion
+
+302
+00:24:10,091 --> 00:24:13,024
+Or dynamical laws of nature, whatever
+
+303
+00:24:13,261 --> 00:24:15,685
+The rules for how a state changes 
+
+304
+00:24:15,685 --> 00:24:19,890
+If you remember there was an example the coin 
+
+305
+00:24:20,098 --> 00:24:24,829
+The simple example would be put the coin down and rule is nothing happen
+
+306
+00:24:25,014 --> 00:24:27,838
+It just stay the same way, whatever it's attribute
+
+307
+00:24:28,023 --> 00:24:31,312
+Another possible law is, in each interval of time 
+
+308
+00:24:31,537 --> 00:24:37,056
+We have a stroboscopic time we can imagine
+
+309
+00:24:37,308 --> 00:24:39,495
+And each individual time if flips
+
+310
+00:24:39,665 --> 00:24:42,287
+Heads, Up, heads tails heads tails
+
+311
+00:24:42,549 --> 00:24:44,088
+That's perfectly good law
+
+312
+00:24:45,712 --> 00:24:48,359
+We talked about the concept, 
+
+313
+00:24:48,541 --> 00:24:51,487
+the same concept in the context of a die with six phases
+
+314
+00:24:51,685 --> 00:24:55,640
+Or any number of phases including continuous infinity
+
+315
+00:24:55,796 --> 00:25:01,346
+Same basic idea, the laws of physics are updating from instance to instance
+
+316
+00:25:01,515 --> 00:25:05,120
+Of a configuration, I will tell you what a configuration changes
+
+317
+00:25:05,311 --> 00:25:09,498
+And if you have a good law, in classical physics it's deterministic
+
+318
+00:25:10,079 --> 00:25:13,854
+It will tell you how the state changes, but also another rule
+
+319
+00:25:14,055 --> 00:25:16,151
+Another rule we call reversibility
+
+320
+00:25:16,341 --> 00:25:23,136
+Reversibility was basically just the idea that the state don't run into each other
+
+321
+00:25:23,337 --> 00:25:26,543
+The states which are distinguishable namely, different
+
+322
+00:25:26,747 --> 00:25:29,006
+Heads and tails are distinguishable, 
+
+323
+00:25:31,079 --> 00:25:37,985
+two states which are different will evolve mathematically and stay different
+
+324
+00:25:38,187 --> 00:25:42,113
+That's the idea of reversibility
+
+325
+00:25:42,359 --> 00:25:48,585
+And when it comes down to, it's exactly that if you know the state at any instance
+
+326
+00:25:48,808 --> 00:25:50,405
+You not only will know what comes next
+
+327
+00:25:50,405 --> 00:25:52,760
+But you also will know what change before
+
+328
+00:25:53,013 --> 00:25:56,231
+Because there is no chance that the states run together 
+
+329
+00:25:57,939 --> 00:26:01,095
+And two different states giving you the same outcome
+
+330
+00:26:01,095 --> 00:26:04,395
+Then you wouldn't be able to tell where you came from
+
+331
+00:26:04,395 --> 00:26:09,379
+So reversibility is the idea we also call the information conservation
+
+332
+00:26:09,651 --> 00:26:13,875
+And I suspect that I refer to it as minus first law
+
+333
+00:26:13,875 --> 00:26:17,205
+Minus first because it comes before everything else
+
+334
+00:26:18,235 --> 00:26:24,420
+Quantum mechanics also has a rule of reversibility and information conservation
+
+335
+00:26:24,603 --> 00:26:26,967
+You can call it the minus first law
+
+336
+00:26:29,470 --> 00:26:33,818
+But it comes down to the same thing, the state which are distinguishable
+
+337
+00:26:34,024 --> 00:26:38,098
+In the sense that I said, there exist an experiment that uniquely distinguish them
+
+338
+00:26:38,275 --> 00:26:43,453
+Stay, distinguishable
+
+339
+00:26:44,661 --> 00:26:48,901
+So now I wanna talk about how states evolve with time
+
+340
+00:26:49,097 --> 00:26:56,562
+We gonna come back and discuss this in the context of a spin
+
+341
+00:26:56,819 --> 00:26:58,530
+The simplest system of quantum mechanics 
+
+342
+00:26:58,753 --> 00:27:02,501
+It's a good idea to get it all down for that, but let's talk about it more generally
+
+343
+00:27:03,706 --> 00:27:11,328
+Okay, here is the postulate, the postulate is that if you have a system 
+
+344
+00:27:11,576 --> 00:27:16,026
+Add time, add some specific time let's call it a time zero
+
+345
+00:27:16,264 --> 00:27:20,231
+And I'm going to start changing my notation for states
+
+346
+00:27:20,478 --> 00:27:25,240
+Instead of calling them A and B, I'm going to start using a notation
+
+347
+00:27:25,598 --> 00:27:28,606
+Which is more or less the standard notation in quantum mechanics
+
+348
+00:27:28,895 --> 00:27:35,674
+Call them Psi, Psi is a Greek letter 
+
+349
+00:27:35,915 --> 00:27:40,305
+And Psi is the commonly used letter to represent the state of a system
+
+350
+00:27:40,305 --> 00:27:44,586
+Now the state of systems do change with time
+
+351
+00:27:44,790 --> 00:27:50,426
+So you have to think of these, these vectors as being function of time that evolve
+
+352
+00:27:50,655 --> 00:27:53,905
+So let's put that in here in the following way,
+
+353
+00:27:54,089 --> 00:28:00,438
+The Psi of t simply represent a state which changes with time
+
+354
+00:28:01,710 --> 00:28:03,166
+Which state? It could be any state, 
+
+355
+00:28:04,206 --> 00:28:07,549
+it's not the same after a certain time as it were to begin with
+
+356
+00:28:07,850 --> 00:28:11,317
+But we are following one specific state of the system which have been prepared
+
+357
+00:28:11,542 --> 00:28:16,233
+And then allowed to evolve, by whatever means things evolve
+
+358
+00:28:16,393 --> 00:28:28,578
+Alright, the postulate is, the Psi of t can be obtain from Psi of zero
+
+359
+00:28:30,188 --> 00:28:35,635
+This means time zero, by an operation on Psi of zero
+
+360
+00:28:35,892 --> 00:28:41,132
+A unique definite operation which is governed by the law
+
+361
+00:28:41,329 --> 00:28:44,323
+By the quantum mechanical laws for that system
+
+362
+00:28:46,451 --> 00:28:50,636
+So we have to do something to the vector so it doesn't stay the same
+
+363
+00:28:50,869 --> 00:28:59,563
+So let's represent what we do by the operation of some kind of operator
+
+364
+00:29:01,049 --> 00:29:04,762
+Now incidentally we didn't have to start with time of zero
+
+365
+00:29:05,023 --> 00:29:11,294
+We could have start with time of something else and evolve by an amount t
+
+366
+00:29:11,560 --> 00:29:15,875
+So this t here really represents that time of evolution from the initial state
+
+367
+00:29:16,074 --> 00:29:20,789
+To the final state, not necessarily final, but the state of some time
+
+368
+00:29:22,813 --> 00:29:28,482
+The basic postulate, two basic postulate, the first is that U is a linear operator
+
+369
+00:29:28,731 --> 00:29:36,514
+U is a linear operator and the same U for any state, whatever the initial state is
+
+370
+00:29:36,712 --> 00:29:41,257
+You put that here, and you hit it with the same U, 
+
+371
+00:29:42,385 --> 00:29:46,107
+this is called a time development operator 
+
+372
+00:29:46,308 --> 00:29:54,320
+It's a linear operator, and it evolve with the state from one instance to another
+
+373
+00:29:55,503 --> 00:30:01,372
+You could try to ask what would happen if you make a more general hypothesis
+
+374
+00:30:01,614 --> 00:30:06,018
+For example you might have a hypothesis that U depends on the initial state
+
+375
+00:30:06,321 --> 00:30:08,449
+Or you might have the hypothesis that 
+
+376
+00:30:08,723 --> 00:30:11,435
+U was an operation but not a linear operator
+
+377
+00:30:11,729 --> 00:30:14,186
+Some other kind of operation, you can try it, 
+
+378
+00:30:14,424 --> 00:30:17,730
+you will very shortly run into big troubles with all kind of things
+
+379
+00:30:17,930 --> 00:30:21,953
+It's been tried, I guarantee you it has been tried and again 
+
+380
+00:30:22,181 --> 00:30:26,401
+repeatedly ever so often, some physicist will try to invent something
+
+381
+00:30:26,602 --> 00:30:28,680
+And then some other person would come along and say
+
+382
+00:30:28,902 --> 00:30:34,057
+Look , that has a trouble of locality, and the trouble with causality
+
+383
+00:30:34,260 --> 00:30:36,529
+It has trouble with probability interpretation
+
+384
+00:30:37,699 --> 00:30:43,801
+You are free to try, I've given up trying, I actually never tried
+
+385
+00:30:47,316 --> 00:30:51,033
+Right ,okay, so U is the linear operator 
+
+386
+00:30:51,204 --> 00:30:54,001
+With all the rules for linear operators 
+
+387
+00:30:54,178 --> 00:31:01,316
+But one other thing and that's this idea of conservation of information
+
+388
+00:31:01,512 --> 00:31:04,197
+Or conservation of distinguishability 
+
+389
+00:31:05,415 --> 00:31:09,773
+That if you have two states, two different states of the same system
+
+390
+00:31:09,973 --> 00:31:16,455
+And you evolve them, let's call phi of t, alright capital Phi
+
+391
+00:31:17,687 --> 00:31:23,464
+That's given by the same U of t, the same operator times Phi at time zero
+
+392
+00:31:26,063 --> 00:31:33,349
+Then, if Phi to begin with, is orthogonal to Psi
+
+393
+00:31:34,856 --> 00:31:39,215
+Another words if they are physically distinguishable to begin with
+
+394
+00:31:39,414 --> 00:31:42,905
+Then they will remain orthogonal for all time
+
+395
+00:31:43,873 --> 00:31:49,478
+>> on the left and ...(inaudible)
+
+396
+00:31:49,642 --> 00:31:50,645
+say that again?
+
+397
+00:31:50,842 --> 00:31:52,134
+>> The Greek letters are upper case on the left and lower case on the right 
+
+398
+00:31:52,328 --> 00:31:54,286
+>> is that just?
+
+399
+00:31:54,536 --> 00:31:56,357
+Because I'm sloppy 
+
+400
+00:31:56,562 --> 00:32:02,136
+Alright so orthogonality breeds orthogonality
+
+401
+00:32:03,808 --> 00:32:07,746
+Physically distinct states evolve into physically distinct states
+
+402
+00:32:09,475 --> 00:32:12,722
+Distinguishability remains intact, 
+
+403
+00:32:12,901 --> 00:32:18,156
+it's the immediate analog of the minus first law of classical mechanics
+
+404
+00:32:19,412 --> 00:32:21,529
+So let's see if we can find out what it says
+
+405
+00:32:21,694 --> 00:32:26,185
+Oh, incidentally it's very easy to prove from that
+
+406
+00:32:26,369 --> 00:32:31,593
+What does it say? It say if Psi and Phi were initially orthogonal 
+
+407
+00:32:43,201 --> 00:32:44,938
+If they are initially orthogonal 
+
+408
+00:32:45,122 --> 00:32:57,515
+If, then, don't ask me to use capital letter, it's much quicker to use lower case one
+
+409
+00:32:59,883 --> 00:33:02,732
+I mean capital here, I mean upper case
+
+410
+00:33:04,068 --> 00:33:06,332
+Then, this is true and it remains true for all time
+
+411
+00:33:06,529 --> 00:33:13,412
+It's an easy exercise I will leave it to you to prove that if orthogonality is preserved 
+
+412
+00:33:13,646 --> 00:33:15,856
+That you can say a stronger thing 
+
+413
+00:33:16,091 --> 00:33:19,849
+It's implied by this, you can say if you take any two vectors 
+
+414
+00:33:20,044 --> 00:33:22,035
+which may or may not be orthogonal 
+
+415
+00:33:22,235 --> 00:33:26,280
+The inner product between them stay constant with time
+
+416
+00:33:26,465 --> 00:33:29,826
+That' s a nice little trick, if you take any two vectors
+
+417
+00:33:30,067 --> 00:33:31,837
+You expand them in base vectors, 
+
+418
+00:33:32,034 --> 00:33:36,029
+then you assume that base vector remains orthogonal with time
+
+419
+00:33:36,234 --> 00:33:38,630
+Then you can prove that 
+
+420
+00:33:38,828 --> 00:33:42,763
+the inner product of any two vectors is time independent
+
+421
+00:33:44,401 --> 00:33:51,486
+So it follow from the orthogonality, the evolution of orthogonality 
+
+422
+00:33:51,685 --> 00:33:55,835
+That the inner product between two states, remain
+
+423
+00:33:56,110 --> 00:33:58,228
+the overlap between them remains the same
+
+424
+00:33:58,439 --> 00:34:01,034
+It's essential that the overlap between two states 
+
+425
+00:34:01,235 --> 00:34:03,354
+is of course a measure of their similarity
+
+426
+00:34:03,554 --> 00:34:07,673
+And what it says is the degree of similarity remains the same
+
+427
+00:34:08,578 --> 00:34:13,477
+Okay let's see if we can figure out what that means for you
+
+428
+00:34:15,342 --> 00:34:22,313
+What it says, let's rewrite this by plugging in Phi of t and Psi of t
+
+429
+00:34:22,500 --> 00:34:26,085
+The product U times Phi and U times Psi
+
+430
+00:34:26,281 --> 00:34:30,912
+But before we do, we have to remember that we have to flip this equation 
+
+431
+00:34:31,094 --> 00:34:39,103
+oops, it's chocolate? Yeah this is chocolate
+
+432
+00:34:39,290 --> 00:34:45,981
+We have to flip it with a ket vector to a bra vector equation
+
+433
+00:34:46,183 --> 00:35:03,044
+So let's do so, this is Psi of t equals Psi of zero, not times U
+
+434
+00:35:03,254 --> 00:35:09,424
+But times what? U dagger, the Hermitian conjugate
+
+435
+00:35:11,164 --> 00:35:20,774
+Not the complex, it's related to the complex conjugate of the Hermitian conjugate
+
+436
+00:35:21,004 --> 00:35:25,015
+So now we plug this into this equations here, and what it says?
+
+437
+00:35:25,185 --> 00:35:29,389
+Let's write it out, a little bit of a eraser, 
+
+438
+00:35:35,877 --> 00:35:39,157
+for arbitrary state don't have to be orthogonal
+
+439
+00:35:39,359 --> 00:35:45,011
+Whatever they are , they have some inner product that's equal to Psi of zero
+
+440
+00:35:47,965 --> 00:35:55,517
+U dagger of t, U of t, Phi of zero
+
+441
+00:35:57,361 --> 00:36:05,094
+All I've done is plug in, for Phi, U of t, Psi, U dagger of t
+
+442
+00:36:05,374 --> 00:36:11,214
+Now the product U dagger times U is another operator
+
+443
+00:36:11,394 --> 00:36:12,724
+What is the product of two operators 
+
+444
+00:36:12,904 --> 00:36:14,944
+Because we didn't talk about this,
+
+445
+00:36:15,204 --> 00:36:17,274
+But the product of two operators are two very simple concept 
+
+446
+00:36:18,689 --> 00:36:21,687
+You take a linearly operator, and you apply it to a vector 
+
+447
+00:36:21,911 --> 00:36:25,477
+And then you take the result , and you apply another operator to it
+
+448
+00:36:25,663 --> 00:36:31,992
+The process of repeatedly applying two operators gives you an operation
+
+449
+00:36:32,177 --> 00:36:35,662
+Which is called the  product of the two operates, so that's what this is 
+
+450
+00:36:35,873 --> 00:36:40,681
+First you hit Phi with U and then you hit the result with U dagger
+
+451
+00:36:40,902 --> 00:36:45,481
+And what this said that for any Phi and Psi
+
+452
+00:36:45,686 --> 00:36:51,828
+Any Phi and Psi at all, that when you plug in here 
+
+453
+00:36:52,042 --> 00:36:54,940
+U dagger and U, the product of U dagger and U
+
+454
+00:36:55,220 --> 00:37:04,732
+You get something which is exactly the same as have you not evolve the state
+
+455
+00:37:11,231 --> 00:37:14,940
+The inner product stays the same, oops, I think I've make an mistake
+
+456
+00:37:15,152 --> 00:37:17,388
+One of these should be Phi right?
+
+457
+00:37:17,600 --> 00:37:23,466
+Alright so that's a principle of conservation of overlap if you like
+
+458
+00:37:24,890 --> 00:37:29,174
+Alright so here's the theorem we don't need this 
+
+459
+00:37:29,418 --> 00:37:32,438
+This is again very very easily prove by going to a base 
+
+460
+00:37:32,636 --> 00:37:38,726
+Very easily prove, if the matrix element, it's called the matrix element
+
+461
+00:37:38,910 --> 00:37:49,659
+So the product like this, if this equation is true for any pair of vectors 
+
+462
+00:37:49,879 --> 00:37:52,770
+Here we go, I will write the theorem in general
+
+463
+00:37:52,930 --> 00:37:57,404
+If you have an operator, let's call it K, for U dagger U
+
+464
+00:37:57,588 --> 00:38:09,534
+For any pair of vectors Psi, <Psi|K|Phi> is equal to <Psi|Phi>
+
+465
+00:38:09,798 --> 00:38:11,968
+For any pair of vectors, whatever
+
+466
+00:38:12,174 --> 00:38:15,599
+It follow that K is a unit operator
+
+467
+00:38:15,786 --> 00:38:19,160
+The unit operator is a operator which does nothing, 
+
+468
+00:38:19,393 --> 00:38:21,250
+just gives you back the same vector
+
+469
+00:38:23,967 --> 00:38:29,326
+So what follow then, U dagger times U must be the unit operator
+
+470
+00:38:29,518 --> 00:38:34,655
+That's the content of conservation of overlap
+
+471
+00:38:36,144 --> 00:38:45,359
+U dagger of t for any t, times U of t, is equal to the unit operator
+
+472
+00:38:46,521 --> 00:38:48,817
+Reading, a unit operator that does nothing
+
+473
+00:38:49,019 --> 00:38:51,183
+Just gives you back the same vector 
+
+474
+00:38:52,295 --> 00:38:56,859
+>> Questions? Can you say that one of the infer from the other 
+
+475
+00:38:57,039 --> 00:38:58,333
+>> Is the Matrix (inaudible)
+
+476
+00:38:58,538 --> 00:39:01,910
+Yes you can, yes you can, indeed
+
+477
+00:39:07,223 --> 00:39:09,071
+I will examine these for a little bit now
+
+478
+00:39:09,272 --> 00:39:13,010
+In particular let's examine for a very very small time
+
+479
+00:39:13,210 --> 00:39:17,471
+A very small time, another words 
+
+480
+00:39:17,652 --> 00:39:21,719
+if you only evolve the system by a tiny little incremental time
+
+481
+00:39:22,806 --> 00:39:26,455
+Let's call the incremental time epsilon right?
+
+482
+00:39:27,303 --> 00:39:32,763
+Let's write that U of epsilon, now first of all what is the U of zero?
+
+483
+00:39:34,027 --> 00:39:39,933
+No time evolution at all, just one ,just the unit operator
+
+484
+00:39:40,764 --> 00:39:46,228
+So for very small epsilon, U must be itself close to a unit operator
+
+485
+00:39:48,556 --> 00:39:53,303
+Plus a small deviation presumably have order epsilon 
+
+486
+00:39:53,487 --> 00:39:55,151
+That would be right, it would be a order epsilon 
+
+487
+00:39:55,372 --> 00:40:00,758
+so it will be something of order epsilon times another operator here
+
+488
+00:40:02,823 --> 00:40:08,195
+I'm going to make use of freedom with all that I have
+
+489
+00:40:08,402 --> 00:40:14,392
+I'm going to put a minus sign here, we are gonna put an operator over here
+
+490
+00:40:14,584 --> 00:40:16,160
+This minus sign has no content yet
+
+491
+00:40:16,363 --> 00:40:19,057
+I'm gonna say the operator over here, the minus sign
+
+492
+00:40:19,247 --> 00:40:21,865
+You know, just absorb in the definition 
+
+493
+00:40:22,048 --> 00:40:24,321
+I'm also gonna put an i here,
+
+494
+00:40:26,562 --> 00:40:32,138
+Again there's no content yet, because I haven't told you anything about H
+
+495
+00:40:32,326 --> 00:40:39,408
+H is some operator, epsilon times H is just some operator
+
+496
+00:40:39,408 --> 00:40:41,239
+And i times epsilon and H is just an operator
+
+497
+00:40:41,446 --> 00:40:45,878
+So I have not really say anything other than a small epsilon
+
+498
+00:40:46,158 --> 00:40:51,388
+The operator U is close to the identity, how close? Of the order epsilon
+
+499
+00:40:51,568 --> 00:40:56,675
+And then there maybe additional things of order epsilon square epsilon cube
+
+500
+00:40:56,858 --> 00:41:00,557
+But we are gonna drop that, and study this equation
+
+501
+00:41:00,802 --> 00:41:04,515
+Or we should give a name to this equation here
+
+502
+00:41:04,680 --> 00:41:08,584
+Or more specifically we should give a name to the operator 
+
+503
+00:41:08,811 --> 00:41:10,200
+which satisfy this rule
+
+504
+00:41:11,472 --> 00:41:13,904
+U dagger times U is equal to one
+
+505
+00:41:14,109 --> 00:41:20,219
+Or as we said that U dagger the Hermitian conjugate of U is the inverse of U
+
+506
+00:41:22,002 --> 00:41:24,218
+Such operators are called unitary 
+
+507
+00:41:30,090 --> 00:41:33,469
+U is a unitary operator, so this is again
+
+508
+00:41:33,702 --> 00:41:38,499
+This is a restatement of the principle of conservation of overlap
+
+509
+00:41:40,046 --> 00:41:46,408
+Let's now apply this equation, this condition, to U of epsilon
+
+510
+00:41:46,625 --> 00:41:48,349
+See what we find out about H 
+
+511
+00:41:49,604 --> 00:41:51,532
+So let's bring it over to this blackboard
+
+512
+00:41:52,564 --> 00:41:56,880
+U epsilon is equal to one minus i epsilon H
+
+513
+00:41:57,096 --> 00:41:58,431
+I will do it over here
+
+514
+00:41:58,635 --> 00:42:01,969
+What about U dagger? U dagger is the Hermitian conjugate
+
+515
+00:42:02,919 --> 00:42:06,688
+The Hermitian conjugate of 1 is just 1
+
+516
+00:42:06,688 --> 00:42:10,847
+But then we have complex conjugate plus i epsilon
+
+517
+00:42:11,029 --> 00:42:14,734
+And then we have Hermitian conjugate H
+
+518
+00:42:19,134 --> 00:42:23,334
+So here is U dagger, and here is U
+
+519
+00:42:23,550 --> 00:42:26,239
+And now let's multiply them together, and set the result equal to one
+
+520
+00:42:26,472 --> 00:42:29,436
+To order epsilon, to order epsilon
+
+521
+00:42:30,749 --> 00:42:39,908
+Okay, so what do we have, we have U dagger is one plus i epsilon times H dagger
+
+522
+00:42:41,172 --> 00:42:48,219
+Times one minus i epsilon H that has to equal 1
+
+523
+00:42:48,433 --> 00:42:52,918
+And now just expand it out to all the epsilon one
+
+524
+00:42:53,099 --> 00:43:04,076
+Plus i epsilon H dagger minus H equals one
+
+525
+00:43:04,268 --> 00:43:10,417
+As I said, the approximation the epsilon is so small 
+
+526
+00:43:10,615 --> 00:43:14,002
+that the square can be completely ignore compare to order epsilon
+
+527
+00:43:15,697 --> 00:43:18,819
+Okay, so the ones canceled 
+
+528
+00:43:19,046 --> 00:43:28,538
+And basically what we find is H dagger minus H has to be zero
+
+529
+00:43:30,109 --> 00:43:33,885
+It cancel out the ones, we get zero on the right hand side
+
+530
+00:43:34,169 --> 00:43:39,080
+And so to order epsilon, H has to equal H dagger
+
+531
+00:43:41,617 --> 00:43:46,467
+This is the condition that H be Hermitian 
+
+532
+00:43:48,514 --> 00:43:50,869
+Now I didn't call H to be Hermitian 
+
+533
+00:43:51,235 --> 00:43:54,250
+I call the H for something else, I call the H for Hamiltonian 
+
+534
+00:43:56,003 --> 00:43:59,059
+What it has to do with the Hamiltonian of classical mechanics
+
+535
+00:43:59,296 --> 00:44:01,432
+will eventually become clear
+
+536
+00:44:01,665 --> 00:44:06,261
+The Hamiltonian for classical mechanics also introduced
+
+537
+00:44:06,514 --> 00:44:11,981
+to the equations of how system evolves from one instance to the next
+
+538
+00:44:12,179 --> 00:44:16,517
+But of course that's not a good enough reason to call this Hamiltonian
+
+539
+00:44:16,742 --> 00:44:19,600
+We will have to see the introduce equation of a way 
+
+540
+00:44:19,817 --> 00:44:24,279
+very very similar to the way of Hamiltonian in classical mechanics
+
+541
+00:44:24,279 --> 00:44:30,761
+It is also to think, this is Hermitian right?
+
+542
+00:44:32,675 --> 00:44:35,464
+That means that if it's an observable
+
+543
+00:44:35,686 --> 00:44:36,979
+It could be an observable
+
+544
+00:44:37,931 --> 00:44:43,636
+Is it the Hamiltonian operator? It could be an observerble, an Hermitian observable
+
+545
+00:44:43,636 --> 00:44:46,390
+It's the Hamiltonian, it's the energy
+
+546
+00:44:46,691 --> 00:44:51,036
+Hamiltonian and energy are the same, this is what the energy of a system is
+
+547
+00:44:51,036 --> 00:44:56,935
+It's the Hamiltonian which generate the evolution of the state vector 
+
+548
+00:44:57,119 --> 00:45:00,353
+According to this rule here, ya
+
+549
+00:45:03,074 --> 00:45:04,959
+It could be any Hermitian operator at the moment
+
+550
+00:45:05,162 --> 00:45:09,787
+Now what determine what Hermitian operator you put there?
+
+551
+00:45:10,921 --> 00:45:13,927
+Well it can be, it can be any Hermitian operator 
+
+552
+00:45:14,308 --> 00:45:15,794
+associate with a system you study
+
+553
+00:45:16,028 --> 00:45:21,964
+For studying a system with one spin, we want to make it up out of
+
+554
+00:45:22,202 --> 00:45:24,005
+a operator associate with a spin
+
+555
+00:45:25,449 --> 00:45:27,018
+So it can be any operator
+
+556
+00:45:27,206 --> 00:45:32,375
+But it's either experiment, it's the same thing which
+
+557
+00:45:32,702 --> 00:45:37,365
+govern how you choose Hamiltonian or Lagrangians in classical mechanics 
+
+558
+00:45:37,681 --> 00:45:41,757
+Either experiment, some prejudice about the way things works
+
+559
+00:45:42,047 --> 00:45:48,077
+Some symmetry principle, whatever you have that might give you a clue
+
+560
+00:45:48,293 --> 00:45:49,590
+to what H is 
+
+561
+00:45:49,842 --> 00:45:52,586
+At the end of the day you may have to resort to experiment 
+
+562
+00:45:52,779 --> 00:45:55,686
+to find out whatever it is
+
+563
+00:45:56,781 --> 00:46:02,751
+Okay, so that's right
+
+564
+00:46:02,956 --> 00:46:07,038
+So now, let's rewrite our equation, let's rewrite, question?
+
+565
+00:46:07,251 --> 00:46:14,156
+>> So when you do that expandsion of the, normally the H is a constant 
+
+566
+00:46:14,156 --> 00:46:18,570
+>> You don't do that on first quarter, so this H would be...
+
+567
+00:46:18,769 --> 00:46:20,460
+H is not a constant
+
+568
+00:46:20,690 --> 00:46:23,439
+>> I mean it's not a function of time in that case
+
+569
+00:46:27,775 --> 00:46:33,555
+Okay, the situation with possible explicit time dependence with H
+
+570
+00:46:33,879 --> 00:46:35,356
+is the same as in classical physics
+
+571
+00:46:36,662 --> 00:46:39,582
+In classical physics, H can depend on time
+
+572
+00:46:39,754 --> 00:46:43,641
+For example, if you have a particle moving in a magnetic field 
+
+573
+00:46:43,866 --> 00:46:47,306
+And the strength of the magnet has been vary with time 
+
+574
+00:46:47,487 --> 00:46:49,930
+by changing the current to the electric magnet
+
+575
+00:46:50,189 --> 00:46:55,344
+Then the Hamiltonian for the particle moving in the magnetic field is time dependent
+
+576
+00:46:55,671 --> 00:47:01,107
+Otherwise if you have the parameter of the problem are not vary with time
+
+577
+00:47:01,341 --> 00:47:03,973
+Then you say the Hamiltonian is not time dependent
+
+578
+00:47:04,240 --> 00:47:06,036
+This is exactly the same, exact
+
+579
+00:47:06,294 --> 00:47:10,874
+>>(inaudible)
+
+580
+00:47:11,084 --> 00:47:12,946
+Ya, ya, that's right, that's right
+
+581
+00:47:13,197 --> 00:47:16,454
+In principle, H could be a function of time 
+
+582
+00:47:16,682 --> 00:47:21,056
+Let's take the case where it's not, what that correspond to 
+
+583
+00:47:21,056 --> 00:47:27,508
+is the situation with parameters of the problem are not time dependent
+
+584
+00:47:27,735 --> 00:47:33,169
+Whereas in classical physics we call time translation invariance 
+
+585
+00:47:33,370 --> 00:47:37,698
+Remember classical physics, so time translation invariance
+
+586
+00:47:37,926 --> 00:47:40,218
+Which means like every time is the same as every other time
+
+587
+00:47:40,456 --> 00:47:43,938
+Okay, you do the experiment, the same experiment at a later time 
+
+588
+00:47:44,130 --> 00:47:52,571
+will have the same output as the identical experiment in a earlier time
+
+589
+00:47:52,857 --> 00:48:00,747
+The statement of that principle, time translation invariance 
+
+590
+00:48:00,939 --> 00:48:04,219
+It's that H does not have explicit dependence on time 
+
+591
+00:48:04,431 --> 00:48:06,283
+Just an operator which doesn't depend on time 
+
+592
+00:48:06,504 --> 00:48:10,933
+As I said, you can imagine a situation where you ramping up current 
+
+593
+00:48:11,190 --> 00:48:16,157
+in a electro magnet, or the universe is expanding, or god knows what
+
+594
+00:48:16,356 --> 00:48:20,587
+There are some explicit time dependent, then H can be time dependent
+
+595
+00:48:20,804 --> 00:48:23,571
+Now do you know what happen with time energy conservation
+
+596
+00:48:23,799 --> 00:48:25,813
+if the Hamiltonian is time dependent?
+
+597
+00:48:27,570 --> 00:48:31,234
+Down the drink, same thing here
+
+598
+00:48:31,432 --> 00:48:33,491
+If the Hamiltonian is time dependent, 
+
+599
+00:48:33,657 --> 00:48:37,258
+we haven't yet seen why there might be a conservation of energy, 
+
+600
+00:48:37,475 --> 00:48:39,179
+we will come to that, but
+
+601
+00:48:39,399 --> 00:48:45,321
+Alright, so let's come back then, to this equation over here
+
+602
+00:48:45,520 --> 00:48:49,090
+>> What happens to the lon thing?
+
+603
+00:48:49,319 --> 00:48:51,665
+>> This is the lon for certain 
+
+604
+00:48:53,385 --> 00:48:54,170
+Say that again?
+
+605
+00:48:54,408 --> 00:48:56,057
+>> This is for the infinitely small thing?
+
+606
+00:48:56,457 --> 00:49:00,006
+Yeah, we will come to that, basically we just multiply them together
+
+607
+00:49:00,403 --> 00:49:06,272
+We will come to that, okay, or you can think of it another way
+
+608
+00:49:06,462 --> 00:49:10,114
+If you updated by a small amount of time, 
+
+609
+00:49:10,114 --> 00:49:12,000
+you just do it again and again and again 
+
+610
+00:49:12,174 --> 00:49:19,022
+You just do it repeatedly, but we can use this to derive 
+
+611
+00:49:19,208 --> 00:49:23,558
+a differential equation for the way state change with time, let's do that
+
+612
+00:49:23,718 --> 00:49:37,108
+Let's do that, okay, let's look at the state of a system at a time epsilon
+
+613
+00:49:37,385 --> 00:49:41,230
+And this time epsilon could be thought of 
+
+614
+00:49:41,464 --> 00:49:45,047
+as time epsilon right after some arbitrary time 
+
+615
+00:49:45,292 --> 00:49:47,837
+which I'm gonna call zero, but it doesn't matter
+
+616
+00:49:48,042 --> 00:49:54,416
+Psi epsilon is equal to one minus i H epsilon 
+
+617
+00:49:59,363 --> 00:50:06,114
+minus i H epsilon times Psi, let's say it times zero
+
+618
+00:50:06,114 --> 00:50:14,551
+Another way to say it, it's that Psi of epsilon minus Psi of zero
+
+619
+00:50:14,820 --> 00:50:17,404
+This is a small incremental change in the state vector 
+
+620
+00:50:17,588 --> 00:50:27,260
+That's equal to minus i epsilon operation by H on Psi
+
+621
+00:50:29,156 --> 00:50:33,740
+Now as I said, this zero here doesn't have to be zero
+
+622
+00:50:33,940 --> 00:50:39,676
+It could be any time as long as epsilon is an epsilon unit after the starting time
+
+623
+00:50:39,861 --> 00:50:42,348
+Okay, let's divide this equation by epsilon 
+
+624
+00:50:44,388 --> 00:50:48,777
+You are allowed to do this because you can multiply vectors by numbers 
+
+625
+00:50:48,970 --> 00:50:51,873
+So we just multiply both side by one over epsilon
+
+626
+00:50:52,059 --> 00:50:56,561
+One over epsilon times this whole thing
+
+627
+00:50:56,741 --> 00:50:59,594
+Okay, so what's this thing on the left hand side?
+
+628
+00:50:59,788 --> 00:51:03,386
+One over epsilon times the difference of two things
+
+629
+00:51:04,602 --> 00:51:09,434
+which, by which, at two slightly different times
+
+630
+00:51:09,434 --> 00:51:13,906
+That's just the time derivative of this vector 
+
+631
+00:51:15,236 --> 00:51:18,918
+We haven't talked very much about taking derivatives of vectors
+
+632
+00:51:19,096 --> 00:51:21,534
+But it's clear you could do that 
+
+633
+00:51:21,534 --> 00:51:24,169
+You can take the difference between two vectors
+
+634
+00:51:24,361 --> 00:51:25,592
+that's perfectly well defined
+
+635
+00:51:27,088 --> 00:51:29,344
+They would be close to each other if epsilon is small 
+
+636
+00:51:29,529 --> 00:51:31,421
+If you divide by the small epsilon, 
+
+637
+00:51:31,598 --> 00:51:33,803
+you would get something which is on the right hand side
+
+638
+00:51:33,998 --> 00:51:40,658
+It's just the time derivative of Psi
+
+639
+00:51:42,444 --> 00:51:50,632
+The time derivative of Psi equals minus i H Psi
+
+640
+00:51:50,819 --> 00:51:54,455
+At any given time, it doesn't, as I said, it doesn't have to be at time zero
+
+641
+00:51:54,659 --> 00:52:01,107
+At any given time, if you want to find out how the state of the system 
+
+642
+00:52:01,286 --> 00:52:08,179
+changes over a incremental time interval, this is your equation
+
+643
+00:52:09,116 --> 00:52:12,971
+Completely analogous to the way you update classical systems
+
+644
+00:52:13,144 --> 00:52:20,396
+But because knowing the state vector is not the same as
+
+645
+00:52:20,564 --> 00:52:26,709
+knowing the values of the experimental outputs of the experiment 
+
+646
+00:52:26,877 --> 00:52:31,244
+You can know the states but still there could be ambiguity or uncertainty
+
+647
+00:52:31,244 --> 00:52:32,684
+on the value of the experiment 
+
+648
+00:52:32,684 --> 00:52:36,244
+This tells you how states change but it doesn't tell you 
+
+649
+00:52:36,429 --> 00:52:38,165
+how the result of experiment change
+
+650
+00:52:38,349 --> 00:52:41,734
+The experiment were also experiment as still statistical 
+
+651
+00:52:41,905 --> 00:52:44,486
+but with a continuously updating state vector 
+
+652
+00:52:44,674 --> 00:52:48,346
+Okay this is, this equation have a name
+
+653
+00:52:50,163 --> 00:52:56,048
+Name of this equation is the generalized time dependent Schrodinger equation
+
+654
+00:52:56,234 --> 00:53:00,197
+This is the general form, this is the Schrodinger equation 
+
+655
+00:53:00,474 --> 00:53:03,499
+Specific version which Schrodinger wrote down 
+
+656
+00:53:03,499 --> 00:53:05,486
+was a very specific version of this
+
+657
+00:53:05,671 --> 00:53:08,706
+We are gonna come to that later, and of course 
+
+658
+00:53:08,881 --> 00:53:14,626
+But this is the general idea, the rate of...
+
+659
+00:53:14,811 --> 00:53:17,818
+I don't need to say it again, this is what it is
+
+660
+00:53:18,006 --> 00:53:20,861
+But of course in order to use it, you have to know what H is
+
+661
+00:53:21,794 --> 00:53:27,633
+>>Question? So all of this depends on the irreversibility of the system
+
+662
+00:53:27,836 --> 00:53:28,641
+>>Is that right?
+
+663
+00:53:28,823 --> 00:53:33,697
+Yeah, or the conservation of the inner product, ya
+
+664
+00:53:33,880 --> 00:53:39,628
+>> How is that rationalized when you take the up vector with the down vector
+
+665
+00:53:39,810 --> 00:53:42,817
+>> you measure them along the horizontal axis 
+
+666
+00:53:42,988 --> 00:53:47,820
+>> this sort of end up ...(inaudible)
+
+667
+00:53:47,986 --> 00:53:49,704
+Alright, that's a good question
+
+668
+00:53:53,056 --> 00:53:57,591
+You have to remember when you do that, you intervening with an apparatus
+
+669
+00:54:01,415 --> 00:54:04,839
+In order to follow the system, under those circumstances, 
+
+670
+00:54:05,040 --> 00:54:08,095
+you have to include the apparatus as part of the system
+
+671
+00:54:09,375 --> 00:54:15,257
+You can not interact to a system and not include the things 
+
+672
+00:54:15,443 --> 00:54:17,569
+which are interacting with it in the system
+
+673
+00:54:17,757 --> 00:54:20,385
+Classically, it's not such a bad sin
+
+674
+00:54:20,563 --> 00:54:22,537
+But quantum mechanically of something 
+
+675
+00:54:22,719 --> 00:54:25,682
+interacting with the system strongly enough to affect it, 
+
+676
+00:54:25,872 --> 00:54:28,284
+or strong enough to measure it
+
+677
+00:54:28,469 --> 00:54:31,475
+You have to include it as part of the system
+
+678
+00:54:31,660 --> 00:54:33,908
+Now this is the way a system evolve 
+
+679
+00:54:34,096 --> 00:54:38,635
+If it's isolated and completely not in contact with anything else 
+
+680
+00:54:39,739 --> 00:54:43,808
+We will have to come back to ask how it evolves 
+
+681
+00:54:43,808 --> 00:54:48,717
+What happens when you put it in contact with a measuring apparatus 
+
+682
+00:54:48,910 --> 00:54:52,468
+We will have to have a model for how measurement take place
+
+683
+00:54:52,650 --> 00:54:56,471
+But this is the way the system behave if nobody disturb it 
+
+684
+00:54:56,652 --> 00:55:00,545
+during the course of the evolution from time zero to time t
+
+685
+00:55:01,678 --> 00:55:04,103
+We will have to come back to that 
+
+686
+00:55:04,279 --> 00:55:05,664
+It's an important question
+
+687
+00:55:10,656 --> 00:55:15,792
+Oh boy, yeah, really just two assumptions
+
+688
+00:55:15,965 --> 00:55:17,233
+Well, maybe three, 
+
+689
+00:55:17,423 --> 00:55:22,289
+First is the time evolution takes place by a linear operator call U
+
+690
+00:55:22,475 --> 00:55:26,721
+And the operator is independent of the state that it's acting on
+
+691
+00:55:26,901 --> 00:55:29,017
+Okay? With me?
+
+692
+00:55:31,321 --> 00:55:33,163
+That's the first statement, 
+
+693
+00:55:33,340 --> 00:55:36,550
+and the next statement is that inner products are conserve with time
+
+694
+00:55:36,737 --> 00:55:39,312
+And that tells you U is unitary
+
+695
+00:55:40,670 --> 00:55:48,538
+From that ,we went over to here, and discover that
+
+696
+00:55:48,723 --> 00:55:54,408
+for a small little incremental change is governed by a Hermitian operator
+
+697
+00:55:57,753 --> 00:55:59,892
+So we get to the idea of the Hamiltonian 
+
+698
+00:56:02,507 --> 00:56:05,986
+And then we just rewrote that, and say that, look
+
+699
+00:56:06,186 --> 00:56:09,362
+The small little incremental change could be thought of as 
+
+700
+00:56:09,542 --> 00:56:12,172
+one over epsilon times the time derivative of the state vector 
+
+701
+00:56:13,362 --> 00:56:17,426
+Okay so, this is the Schrodinger equation
+
+702
+00:56:23,835 --> 00:56:25,562
+How do you solve the problem 
+
+703
+00:56:25,743 --> 00:56:28,346
+if it's a long time interval not a short time interval?
+
+704
+00:56:28,531 --> 00:56:30,627
+You basically solve this equation 
+
+705
+00:56:31,683 --> 00:56:33,562
+I will talk about how you solve this equation, we will do so
+
+706
+00:56:34,690 --> 00:56:44,092
+There are lots of example, but okay
+
+707
+00:56:44,288 --> 00:56:50,796
+Alright, to go on, and explain what this has to do with classical mechanics
+
+708
+00:56:50,982 --> 00:56:55,532
+What it has to do with the corresponding concept in classical mechanics
+
+709
+00:56:55,709 --> 00:56:58,798
+We need a couple of ideas of, 
+
+710
+00:56:58,798 --> 00:57:04,368
+by how you relate classical ideas to quantum mechanical ideas
+
+711
+00:57:04,368 --> 00:57:09,933
+We need the idea of what it's called the expectation value of an observable
+
+712
+00:57:11,239 --> 00:57:18,647
+It's a bad name, it's a bad name because the expectation value was defined
+
+713
+00:57:19,873 --> 00:57:23,418
+may have very little to do with what you expect the experiment to give 
+
+714
+00:57:25,299 --> 00:57:27,732
+This doesn't have much to do with quantum mechanics, 
+
+715
+00:57:27,935 --> 00:57:30,253
+this just have to do with the probability theory
+
+716
+00:57:30,438 --> 00:57:31,749
+I think I've talked about it before 
+
+717
+00:57:31,938 --> 00:57:35,653
+But I will just remind you, if you have a probability distribution which looks like this
+
+718
+00:57:38,793 --> 00:57:42,366
+Then the least likely answer that you can possibly get is right over here
+
+719
+00:57:42,540 --> 00:57:48,291
+It's also the expectation value, so it's a poorly chosen terminology
+
+720
+00:57:48,477 --> 00:57:55,721
+The right terminology should have sometime, some fancy people
+
+721
+00:57:55,902 --> 00:58:03,058
+I won't name, Mary Youman, but some fancy people 
+
+722
+00:58:03,221 --> 00:58:09,273
+like to call the expected value was even less the expected value then it is the expectation value
+
+723
+00:58:09,467 --> 00:58:13,266
+It's the average value, this is average value, and 
+
+724
+00:58:13,503 --> 00:58:18,227
+the average value is something could be a value the thing can't even pick on
+
+725
+00:58:18,450 --> 00:58:20,290
+The possible value it could not even have 
+
+726
+00:58:20,478 --> 00:58:25,784
+The average value for example, if you assign head to plus one
+
+727
+00:58:25,968 --> 00:58:29,239
+and tails to minus one, and you flip the coin, what's the average? 
+
+728
+00:58:29,432 --> 00:58:31,481
+Zero, but you can't get zero, 
+
+729
+00:58:31,660 --> 00:58:34,497
+so it's got nothing to do with the expected value of an experiment
+
+730
+00:58:35,697 --> 00:58:38,729
+But nevertheless, it's called the expectation value 
+
+731
+00:58:38,910 --> 00:58:43,157
+And we will call the expectation value, what's the average value?
+
+732
+00:58:43,346 --> 00:58:51,555
+Let's talk about the average value of a observable giving a particular state
+
+733
+00:58:52,923 --> 00:58:59,684
+So our state is A, I said I was gonna change the sign but 
+
+734
+00:58:59,887 --> 00:59:01,243
+sometimes I will sometimes I won't
+
+735
+00:59:02,262 --> 00:59:04,219
+>> expectation value 
+
+736
+00:59:04,434 --> 00:59:10,192
+>> I think I just have to clear my head of statistic
+
+737
+00:59:10,410 --> 00:59:14,897
+>> but with that picture you draw, I assume it's a frequency distribution
+
+738
+00:59:15,076 --> 00:59:18,217
+>> So to me, the middle is not the average 
+
+739
+00:59:18,438 --> 00:59:22,547
+>> but really is the expectation value is the value occur most frequently
+
+740
+00:59:22,773 --> 00:59:24,752
+No, no, definitely not, this one here?
+
+741
+00:59:24,918 --> 00:59:28,728
+It never occurs, never, ever ,ever
+
+742
+00:59:28,900 --> 00:59:30,960
+Let's even make it worse 
+
+743
+00:59:31,143 --> 00:59:34,786
+>>Okay, what do the x and y axis represent?
+
+744
+00:59:34,988 --> 00:59:36,122
+>>I keep seeing
+
+745
+00:59:36,302 --> 00:59:38,832
+P is the probability and x is some variable
+
+746
+00:59:38,832 --> 00:59:44,757
+Something that you measure, this could be a probability of finding a particle
+
+747
+00:59:44,942 --> 00:59:46,545
+with different location, okay?
+
+748
+00:59:46,730 --> 00:59:52,495
+Alright, it could be, after some particular state
+
+749
+00:59:52,684 --> 00:59:57,032
+The probability, let's make it symmetric about the origin
+
+750
+01:00:00,638 --> 01:00:04,072
+It could be the probability distribution looks like this
+
+751
+01:00:04,072 --> 01:00:08,652
+I meant to make this symmetric
+
+752
+01:00:08,652 --> 01:00:12,941
+And it's really very very zero in the neighborhood of the origin here
+
+753
+01:00:16,832 --> 01:00:22,081
+There's no sense in which x equal zero is 'expected'
+
+754
+01:00:22,267 --> 01:00:25,364
+You can do the experiment for ever and ever and ever again 
+
+755
+01:00:25,556 --> 01:00:27,082
+and you will not get x equal zero
+
+756
+01:00:27,082 --> 01:00:30,531
+You will either get an x somewhere around here, or here
+
+757
+01:00:30,718 --> 01:00:35,202
+So to call it the expected or the expectation value
+
+758
+01:00:35,374 --> 01:00:36,791
+It's a sort or misnomer 
+
+759
+01:00:37,938 --> 01:00:42,539
+It is the average value, defining average in a very particular way
+
+760
+01:00:42,721 --> 01:00:48,720
+Now, for many many smooth probability distributions 
+
+761
+01:00:48,902 --> 01:00:52,830
+And particular probability distribution don't have big holes in them
+
+762
+01:00:53,011 --> 01:00:54,526
+Something like this I would like to say
+
+763
+01:00:54,703 --> 01:00:57,529
+It can very often be the case and very often is the case 
+
+764
+01:00:57,701 --> 01:01:05,300
+That the probability, that the average value is the most likely value to get
+
+765
+01:01:05,482 --> 01:01:10,868
+>> Is this the (inaudible), what is the peak?
+
+766
+01:01:11,053 --> 01:01:13,652
+The peak there is the most likely value 
+
+767
+01:01:13,652 --> 01:01:17,008
+Yes, by definition the top of the peak is
+
+768
+01:01:17,181 --> 01:01:21,956
+And in many many cases, if you have nice simple probability
+
+769
+01:01:22,140 --> 01:01:25,068
+Gaussian probability, you know , bell shaped curve and so forth
+
+770
+01:01:25,248 --> 01:01:29,851
+Then the expectation value or the average value 
+
+771
+01:01:30,045 --> 01:01:35,909
+is usually quite close to the average and peak value
+
+772
+01:01:36,093 --> 01:01:38,302
+because they are usually close to each other
+
+773
+01:01:38,302 --> 01:01:41,902
+But certainly there could be violent exceptions
+
+774
+01:01:41,902 --> 01:01:46,628
+The coin or the spin which can only be plus one or minus one and never zero
+
+775
+01:01:47,918 --> 01:01:51,302
+The expectation value and the average value are quite different
+
+776
+01:01:51,302 --> 01:01:56,833
+Okay, that's just a little sermon to give me a chance to beat my friend Mary Youman
+
+777
+01:01:57,023 --> 01:02:06,933
+>> Question, if you think the spin were the apparatus perpendicular
+
+778
+01:02:07,110 --> 01:02:10,583
+>> then in 70 percent if you are very unlucky, you get a million up-s in a roll
+
+779
+01:02:10,763 --> 01:02:15,027
+>> the average would be up, but that's not accurate
+
+780
+01:02:15,202 --> 01:02:21,260
+Ya, well, it depend on what you mean by an average
+
+781
+01:02:21,438 --> 01:02:23,573
+There's a notion of average which is strictly mathematical
+
+782
+01:02:23,573 --> 01:02:24,875
+I'm gonna write it down in a minute
+
+783
+01:02:26,844 --> 01:02:36,111
+There is a unwritten law which I think, is safe to say nobody really understands
+
+784
+01:02:37,963 --> 01:02:39,755
+It's the law of the large numbers 
+
+785
+01:02:41,323 --> 01:02:46,908
+That if you do a thing enough time, how many times? I don't know
+
+786
+01:02:47,086 --> 01:02:50,116
+If you do a thing enough time, you do an experiment enough time
+
+787
+01:02:50,305 --> 01:02:56,436
+The average gotten by averaging the result of your experiment
+
+788
+01:02:56,635 --> 01:03:02,021
+will be equal to the average defined mathematically to within what?
+
+789
+01:03:03,205 --> 01:03:04,693
+To within the margin of error
+
+790
+01:03:04,869 --> 01:03:08,997
+What is the margin of error? It's a specific number 
+
+791
+01:03:09,182 --> 01:03:12,240
+Does it really mean every time you do it, the answer would come out 
+
+792
+01:03:12,430 --> 01:03:14,835
+within the margin of error? No
+
+793
+01:03:15,009 --> 01:03:20,159
+Alright, so, we are assuming standard probability theory 
+
+794
+01:03:20,334 --> 01:03:22,138
+That if you do a thing enough
+
+795
+01:03:22,329 --> 01:03:24,503
+Plus this extra little ingredient
+
+796
+01:03:24,721 --> 01:03:27,159
+This extra physical assumption
+
+797
+01:03:27,361 --> 01:03:29,003
+I don't even know what to call it 
+
+798
+01:03:29,003 --> 01:03:31,600
+That if you repeat an experiment enough times
+
+799
+01:03:31,789 --> 01:03:36,504
+The average of your data would be the mathematical average
+
+800
+01:03:36,709 --> 01:03:38,802
+Can anybody prove that? No
+
+801
+01:03:38,978 --> 01:03:43,687
+That's a law of large numbers 
+
+802
+01:03:43,871 --> 01:03:48,553
+No, no, no, there's nothing you could do to prove it
+
+803
+01:03:48,743 --> 01:03:54,144
+The reason you can't prove it, is because sooner or latter some where in the multiverse
+
+804
+01:03:54,324 --> 01:03:56,626
+Somewhere there's gonna be an exception to it
+
+805
+01:03:56,797 --> 01:04:00,449
+No matter how many time you do it, a zillion time, a zillion numbers
+
+806
+01:04:01,977 --> 01:04:07,145
+It's not infinity, a zillion is one with the logarithms with a zillion of zero after
+
+807
+01:04:07,334 --> 01:04:08,507
+Or something like that
+
+808
+01:04:11,161 --> 01:04:16,962
+If you do an experiment, and opt for repetition of it
+
+809
+01:04:17,146 --> 01:04:20,402
+Eventually somewhere some place there is gonna be a violation of it
+
+810
+01:04:20,575 --> 01:04:24,949
+It is closely connected to the second law of thermo dynamics
+
+811
+01:04:25,131 --> 01:04:29,350
+You know there was a principle, a second law of thermo dynamics says 
+
+812
+01:04:29,528 --> 01:04:32,411
+That the entropy never decreases
+
+813
+01:04:33,596 --> 01:04:38,021
+Boltzmann was never able to prove that and finally realize the right law is
+
+814
+01:04:38,203 --> 01:04:41,949
+the entropy probably never decreases, except when it does
+
+815
+01:04:43,365 --> 01:04:45,839
+Which is rarely, except when it does
+
+816
+01:04:46,018 --> 01:04:49,870
+So I'm not going to try to give you an explanation of 
+
+817
+01:04:50,047 --> 01:04:51,806
+why probability theory works
+
+818
+01:04:52,003 --> 01:04:56,318
+This is to me very puzzling, but we will assume probability theory works
+
+819
+01:04:56,498 --> 01:05:00,334
+The statement that it works is the same as the statement that 
+
+820
+01:05:00,526 --> 01:05:04,113
+the average of your data will be, for big enough experiment, 
+
+821
+01:05:04,113 --> 01:05:06,353
+would be the mathematical average
+
+822
+01:05:06,537 --> 01:05:09,603
+Alright, let's come over to this side here
+
+823
+01:05:09,603 --> 01:05:11,927
+First just say, supposing we have a collection of a, 
+
+824
+01:05:13,259 --> 01:05:16,163
+we have a probability distribution for some variables
+
+825
+01:05:16,338 --> 01:05:18,938
+Let's say for lambda, lambda, one of the eigenvalue
+
+826
+01:05:19,124 --> 01:05:20,378
+By measuring the eigenvalue of L
+
+827
+01:05:20,554 --> 01:05:24,050
+Supposing we have a probability for lambda, here it is
+
+828
+01:05:24,216 --> 01:05:31,410
+The other thing I call prob of lambda, Probability for lambda
+
+829
+01:05:31,586 --> 01:05:37,071
+Lambda can take on a whole bunch of different values
+
+830
+01:05:37,267 --> 01:05:39,326
+Lambda sub ii, let's call them 
+
+831
+01:05:39,503 --> 01:05:42,375
+So this becomes the probability for lambda sub i
+
+832
+01:05:42,552 --> 01:05:48,366
+Then the average, the definition for the average is the sum over i
+
+833
+01:05:49,598 --> 01:05:54,799
+Of lambda i times the probability for lambda i
+
+834
+01:05:55,851 --> 01:05:57,543
+That's the definition of the average 
+
+835
+01:05:57,543 --> 01:06:05,623
+And we will represent the average by the symbol, the bracket symbol
+
+836
+01:06:05,829 --> 01:06:09,874
+Why it's labeled by a bracket symbol, we will come to it
+
+837
+01:06:10,069 --> 01:06:15,259
+Okay, but that's the definition, the standard probability theory definition
+
+838
+01:06:15,448 --> 01:06:17,138
+of the average of a quantity
+
+839
+01:06:17,325 --> 01:06:22,305
+The quantity times the probability the quantity takes on that particular value
+
+840
+01:06:22,484 --> 01:06:26,738
+Sum over i, as I said this is the standard definition of average
+
+841
+01:06:26,944 --> 01:06:35,486
+Okay, what is the average in a state A of the observable lambda
+
+842
+01:06:35,661 --> 01:06:44,101
+So let's say A is expanded in a bases, which bases?
+
+843
+01:06:44,288 --> 01:06:50,550
+The bases of eigenvectors of L, alright?
+
+844
+01:06:50,723 --> 01:06:52,605
+Remember L is the Hermitian operator
+
+845
+01:06:52,770 --> 01:06:55,621
+It's eigenvectors form a bases
+
+846
+01:06:55,802 --> 01:06:59,412
+It could expand vectors in ortho-normal bases
+
+847
+01:06:59,591 --> 01:07:05,228
+So let's write this in the form alpha sub i summed over i
+
+848
+01:07:05,412 --> 01:07:10,788
+lambda sub i, remember the lambdas are orthonormal bases
+
+849
+01:07:12,269 --> 01:07:18,287
+What is the probability lambda in the state i?
+
+850
+01:07:20,724 --> 01:07:28,372
+Probability for lambda i is equal to alpha star i alpha i
+
+851
+01:07:29,652 --> 01:07:37,711
+Alright ? I maintain, this is the probability and the average of lambda
+
+852
+01:07:37,894 --> 01:07:41,444
+Let's call the average of lambda is summed over i
+
+853
+01:07:41,624 --> 01:07:46,829
+Lambda sub i alpha i star alpha i
+
+854
+01:07:49,585 --> 01:07:50,972
+All I've done is plugged in
+
+855
+01:07:51,148 --> 01:07:58,863
+Let me prove that this is the same thing as taking the vector A 
+
+856
+01:07:59,946 --> 01:08:05,972
+bra vector A and sandwiching between the bra vector A and the ket vector A
+
+857
+01:08:06,154 --> 01:08:11,710
+The operator L, the operator L is the operator whose eigenvalues are lambda
+
+858
+01:08:12,772 --> 01:08:16,721
+Let's see if we can prove that, it's actually quite easy
+
+859
+01:08:16,912 --> 01:08:20,410
+All we do is, let's just plug in 
+
+860
+01:08:20,592 --> 01:08:23,090
+Let's come to another blackboard and plug in
+
+861
+01:08:23,270 --> 01:08:26,978
+And let's see if we can prove that
+
+862
+01:08:30,898 --> 01:08:36,391
+Alright, so let's calculate this creature over here
+
+863
+01:08:36,570 --> 01:08:43,598
+A is the summation, and let's use also the bra vector A is 
+
+864
+01:08:43,761 --> 01:08:49,738
+the summation over i of lambda sub i alpha star i
+
+865
+01:08:50,923 --> 01:08:52,355
+Alright so make a sandwich
+
+866
+01:08:53,427 --> 01:08:57,475
+The sandwich is the sum over i and j, why there are two sums?
+
+867
+01:08:57,732 --> 01:09:01,234
+One for the bra and one for the ket
+
+868
+01:09:01,459 --> 01:09:12,066
+Lambda sub j, alpha star j, this is the bra vector A
+
+869
+01:09:12,263 --> 01:09:19,809
+And then we put L there, and then we put the ket vector alpha i lambda i
+
+870
+01:09:22,161 --> 01:09:23,994
+It's pure plug in-ology
+
+871
+01:09:24,267 --> 01:09:29,729
+Now, what is L when it act on lambda sub i?
+
+872
+01:09:33,409 --> 01:09:36,966
+Lambda sub i are the eigenvectors of L
+
+873
+01:09:37,147 --> 01:09:40,221
+So when L act on lambda sub i
+
+874
+01:09:40,406 --> 01:09:47,951
+This left sum ij, lambda j, alpha star j alpha i
+
+875
+01:09:48,149 --> 01:09:55,673
+And now L has lambda i and it gives us lambda sub i times lambda i
+
+876
+01:09:55,848 --> 01:10:00,835
+Now all this junk in here is just number, for each i and j
+
+877
+01:10:01,034 --> 01:10:03,044
+For each i and j this is just the number 
+
+878
+01:10:03,247 --> 01:10:07,979
+So that means we approach the point to take the inner product 
+
+879
+01:10:07,979 --> 01:10:10,756
+of lambda i with lambda j, what is that?
+
+880
+01:10:12,050 --> 01:10:17,608
+Right ,it's one or zero, depending on whether i equals j or not
+
+881
+01:10:17,786 --> 01:10:24,473
+Given that, this sum, this double sum collapses to a single sum
+
+882
+01:10:24,644 --> 01:10:27,659
+In which lambda i and lambda j are identified
+
+883
+01:10:27,659 --> 01:10:34,553
+And it just become sum of i, lambda i, well, okay
+
+884
+01:10:35,848 --> 01:10:40,235
+Let's cut through some of the steps
+
+885
+01:10:41,394 --> 01:10:45,622
+If j is not equal to i, you got nothing
+
+886
+01:10:45,800 --> 01:10:49,556
+If j is equal to i, the inner product is just one
+
+887
+01:10:49,733 --> 01:10:57,592
+So this just becomes the sum over i, alpha star i alpha i lambda i
+
+888
+01:10:57,769 --> 01:11:03,225
+Which is exactly what we have over here
+
+889
+01:11:04,897 --> 01:11:07,353
+So we've prove the relationship here
+
+890
+01:11:07,529 --> 01:11:14,153
+That the average of any observable is just the sandwich bra-ket
+
+891
+01:11:14,332 --> 01:11:25,470
+A bra-ket, a bra-ket may sandwiching L, the observable between the bracket 
+
+892
+01:11:28,409 --> 01:11:33,369
+The same bra and ket, the bra and ket associated with the state of the system
+
+893
+01:11:33,369 --> 01:11:39,949
+That's where this notation of a bracket comes from
+
+894
+01:11:39,949 --> 01:11:45,036
+Okay that's a good thing to know, if you want the average of a quantity
+
+895
+01:11:45,227 --> 01:11:50,943
+Just sandwich it between the bracket, the bra-ket representing the state
+
+896
+01:11:52,263 --> 01:11:58,765
+Any questions about that?
+
+897
+01:12:01,454 --> 01:12:03,126
+Okay, I'm gonna tell you what I'm gonna do
+
+898
+01:12:03,310 --> 01:12:07,141
+What we are going to do is we are going to try to find the equations 
+
+899
+01:12:08,434 --> 01:12:12,785
+governing the time evolution of this average values
+
+900
+01:12:13,947 --> 01:12:18,868
+The idea is under suitable reasonable circumstances 
+
+901
+01:12:19,040 --> 01:12:22,404
+If the probability distribution are nicely shape 
+
+902
+01:12:22,588 --> 01:12:25,050
+That they have a bell shape curve 
+
+903
+01:12:25,263 --> 01:12:32,260
+that by calculating the time evolution of averages 
+
+904
+01:12:32,260 --> 01:12:36,804
+You are doing something pretty close to what classical physics
+
+905
+01:12:36,981 --> 01:12:41,514
+would instruct you to do, about calculating the equations of motion
+
+906
+01:12:41,684 --> 01:12:47,340
+of classical systems, the way average tend to evolve with time 
+
+907
+01:12:47,340 --> 01:12:49,658
+as I said, under suitable circumstances, 
+
+908
+01:12:49,848 --> 01:12:53,397
+follows equations which will 
+
+909
+01:12:53,592 --> 01:12:56,646
+very very much like the corresponding classical equations
+
+910
+01:12:57,998 --> 01:13:04,811
+So our next goal is to try to find the rules 
+
+911
+01:13:06,036 --> 01:13:11,426
+for the time evolution of these average values, expectation values
+
+912
+01:13:11,609 --> 01:13:14,971
+That's not so hard, we have all the equipment we need to do that
+
+913
+01:13:16,094 --> 01:13:17,751
+And let's see if we can do it
+
+914
+01:13:23,545 --> 01:13:28,489
+Fine, so at any given time, at any given time, the average of lambda
+
+915
+01:13:28,670 --> 01:13:33,745
+is given by Psi of t, the state vector at the time t
+
+916
+01:13:35,397 --> 01:13:40,714
+The operator L representing the observables times Psi of t
+
+917
+01:13:41,801 --> 01:13:48,666
+Another word, I just plug in the A, the actual time dependent state of the system
+
+918
+01:13:48,847 --> 01:13:52,866
+This is the average of L as function of time 
+
+919
+01:13:54,279 --> 01:13:55,290
+I don't know, what should we call it 
+
+920
+01:13:55,465 --> 01:14:03,114
+Let's call it, the average of L as a function of time
+
+921
+01:14:03,302 --> 01:14:07,933
+Again this is kind of a wrong notation, it's not the average of L of t
+
+922
+01:14:08,098 --> 01:14:11,725
+Is the average of L as function of time 
+
+923
+01:14:14,535 --> 01:14:19,262
+We could, we could put the t outside the bracket 
+
+924
+01:14:22,508 --> 01:14:26,711
+That's none standard, sub t
+
+925
+01:14:26,890 --> 01:14:29,926
+But why don't we just go with standard notations, standard notations
+
+926
+01:14:30,102 --> 01:14:36,504
+And remember, okay, I'm not gonna do it
+
+927
+01:14:36,708 --> 01:14:41,217
+I will just call it average L as a function of time, okay
+
+928
+01:14:41,399 --> 01:14:42,377
+As a function of time
+
+929
+01:14:42,552 --> 01:14:45,970
+It is a function of time, that's the main thing, function of time
+
+930
+01:14:46,142 --> 01:14:48,899
+We do something else, we could call that L bar
+
+931
+01:14:49,079 --> 01:14:52,358
+Another notation for average is just to put a bar on top of something
+
+932
+01:14:52,544 --> 01:14:55,617
+That's another notation for average, standard notation 
+
+933
+01:14:55,812 --> 01:14:57,611
+Or we can just call it L bar of t
+
+934
+01:14:57,791 --> 01:15:00,897
+It means the average as a function of time 
+
+935
+01:15:04,586 --> 01:15:04,767
+Let's do it that way, what would we like to do with this
+
+936
+00:00:00,000 --> 01:15:07,026
+We would like to find the equations of motions for it
+
+937
+01:15:07,217 --> 01:15:09,858
+Another words we would like to find how it changes with time 
+
+938
+01:15:10,029 --> 01:15:12,910
+by differentiating with respect to time 
+
+939
+01:15:12,910 --> 01:15:16,673
+I want to take this quantity and differentiate it with respect to time
+
+940
+01:15:16,867 --> 01:15:23,449
+So let's call it L dot, now we have bars with dots on top of them 
+
+941
+01:15:23,634 --> 01:15:27,690
+L dar of t is the time derivative of this 
+
+942
+01:15:27,690 --> 01:15:31,073
+Now L of t, that's just some fix operator 
+
+943
+01:15:31,241 --> 01:15:36,714
+It's a fix definite operator, All the time dependence is in the state vector 
+
+944
+01:15:36,890 --> 01:15:42,403
+The state vectors change with time, the operators, those are fix
+
+945
+01:15:42,576 --> 01:15:44,090
+Those are definite operators, 
+
+946
+01:15:44,090 --> 01:15:49,293
+so let's see if we can take the time derivative of this here
+
+947
+01:15:50,341 --> 01:15:54,281
+The time derivative act on the side of t, 
+
+948
+01:15:54,457 --> 01:15:57,348
+when you take the time derivative of a product
+
+949
+01:15:57,533 --> 01:16:00,568
+and this can be a product of vectors, it can be a product of numbers
+
+950
+01:16:00,746 --> 01:16:02,698
+It can be a product of functions, well functions
+
+951
+01:16:04,195 --> 01:16:09,207
+The rules are always the same, it's the time derivative of one times the other
+
+952
+01:16:09,387 --> 01:16:11,967
+Plus the time derivative of the other time the one
+
+953
+01:16:13,375 --> 01:16:20,977
+That's very general, so this is going to equal d Psi by d t, bra vector 
+
+954
+01:16:21,190 --> 01:16:34,409
+L Psi plus Psi L d Psi d t 
+
+955
+01:16:34,593 --> 01:16:45,346
+Oops, I've raise the very important equation, or else I bury it under the blackboard
+
+956
+01:16:45,538 --> 01:16:55,849
+And I write it over here, d Psi d t, is equal to minus i H Psi
+
+957
+01:16:57,103 --> 01:16:59,713
+That's what I was gonna stick in right over here
+
+958
+01:16:59,891 --> 01:17:04,302
+So we begin to see that the Hamiltonian is gonna tell us something 
+
+959
+01:17:04,494 --> 01:17:06,814
+about how average values change with time
+
+960
+01:17:08,125 --> 01:17:10,714
+The Hamiltonians of classical physics tells us 
+
+961
+01:17:10,919 --> 01:17:13,034
+how the correspondent quantities change with time
+
+962
+01:17:13,226 --> 01:17:16,008
+The Hamiltonian of quantum mechanics will tell us 
+
+963
+01:17:16,182 --> 01:17:17,848
+how the average change with time 
+
+964
+01:17:18,030 --> 01:17:21,977
+We are going to also need the bra version of this 
+
+965
+01:17:22,170 --> 01:17:24,368
+So let's write the bra version of this 
+
+966
+01:17:24,558 --> 01:17:31,637
+The bra version of it is d by d t of the bra vector Psi of t
+
+967
+01:17:32,948 --> 01:17:42,709
+is equal to plus i, plus i Psi H
+
+968
+01:17:42,896 --> 01:17:48,583
+H is Hermitian, so we don't have to Hermitian conjugate it
+
+969
+01:17:48,774 --> 01:17:54,754
+But we do have to change the sign of i, when we goes from bras to kets
+
+970
+01:17:56,050 --> 01:17:58,243
+And so now we are just gonna plug in
+
+971
+01:17:58,406 --> 01:18:01,266
+We are just gonna plug in and we will get L dot 
+
+972
+01:18:07,697 --> 01:18:11,050
+L dot, okay, let's first do this one over here
+
+973
+01:18:11,227 --> 01:18:15,754
+This one is gonna be plus Psi, there's a minus sign 
+
+974
+01:18:15,942 --> 01:18:29,699
+minus sign here, minus i Psi, L H, Psi
+
+975
+01:18:32,091 --> 01:18:34,603
+That's what we get from here, what about the other one
+
+976
+01:18:34,779 --> 01:18:45,995
+The other one is plus i Psi H L Psi
+
+977
+01:18:51,908 --> 01:19:01,332
+Or i times the expectation value, we have the Psi here 
+
+978
+01:19:01,494 --> 01:19:13,277
+we have Psi here Psi here i times HL minus LH Psi
+
+979
+01:19:21,335 --> 01:19:25,206
+How about HL minus LH? Is that zero?
+
+980
+01:19:26,422 --> 01:19:30,381
+Why not? HL? Who cares about which way we order them?
+
+981
+01:19:30,381 --> 01:19:35,518
+Operators don't necessarily commute 
+
+982
+01:19:35,706 --> 01:19:41,477
+Commute means that you can freely interchange the order of them 
+
+983
+01:19:41,667 --> 01:19:44,313
+In general, this is true for matrices, 
+
+984
+01:19:44,476 --> 01:19:47,834
+products of matrices don't necessarily commute
+
+985
+01:19:48,000 --> 01:19:53,387
+Sometime they do, and in particular an operator commutes with itself 
+
+986
+01:19:54,667 --> 01:19:59,204
+L times L minus L time L that's okay, you can do it there
+
+987
+01:20:00,231 --> 01:20:03,084
+L times L minus L times L is zero, okay?
+
+988
+01:20:03,276 --> 01:20:07,068
+So is H times H minus H times H, but in general, 
+
+989
+01:20:09,324 --> 01:20:12,196
+L times H is not equal to H times L
+
+990
+01:20:12,380 --> 01:20:14,460
+Maybe, but typically not
+
+991
+01:20:17,004 --> 01:20:20,837
+What is this animal called? H times L minus L times H?
+
+992
+01:20:22,325 --> 01:20:29,071
+It's call a commutator, so this is the definition, given two operators
+
+993
+01:20:29,399 --> 01:20:37,381
+Well, they could be just H now, the combination HL minus LH 
+
+994
+01:20:37,551 --> 01:20:47,936
+is written with a square bracket, H comma L, and it's call a commutator
+
+995
+01:20:52,754 --> 01:20:57,671
+Commuting has something to do with passing freely between each other
+
+996
+01:20:57,671 --> 01:21:00,584
+Exactly what has to do with taking the subway of New York, I don't know
+
+997
+01:21:02,115 --> 01:21:09,016
+Let's call the commutator, and so what we have here 
+
+998
+01:21:09,197 --> 01:21:18,048
+is the equation that the average of L at any given time
+
+999
+01:21:19,265 --> 01:21:24,866
+Sorry, the average of time derivative of the average
+
+1000
+01:21:25,043 --> 01:21:36,031
+is equal to Psi, commutator HL, Psi
+
+1001
+01:21:36,031 --> 01:21:42,838
+But this object over here is just the expectation value of commutator of H with L
+
+1002
+01:21:43,015 --> 01:21:47,282
+So we can think of this as an equation relating 
+
+1003
+01:21:47,460 --> 01:21:51,742
+the time derivative of certain average to the average of another quantity
+
+1004
+01:21:53,012 --> 01:21:56,733
+We could, I did, it's plus i, plus i
+
+1005
+01:22:05,749 --> 01:22:12,702
+Or we can write L dot of t is equal to i, average, 
+
+1006
+01:22:12,703 --> 01:22:18,019
+times the average of the commutator HL
+
+1007
+01:22:18,237 --> 01:22:20,466
+and I will indicate that by a bar on top of it
+
+1008
+01:22:20,639 --> 01:22:23,968
+So we have a equation of motion now 
+
+1009
+01:22:24,148 --> 01:22:26,826
+The average in terms of averages, 
+
+1010
+01:22:29,170 --> 01:22:33,921
+if the probability distribution for everything are nice and peaked
+
+1011
+01:22:34,101 --> 01:22:38,669
+Then we really can just say approximate nice and peaked 
+
+1012
+01:22:38,859 --> 01:22:44,131
+so the average is close to the highest point on the curve 
+
+1013
+01:22:44,131 --> 01:22:50,201
+And the curve is reasonably narrow, so the reason of amount of certainty
+
+1014
+01:22:50,201 --> 01:22:56,871
+Then this basically says the time derivative of the classical
+
+1015
+01:22:57,057 --> 01:23:00,342
+Or the time derivative of the approximate L of t
+
+1016
+01:23:00,523 --> 01:23:05,616
+is equal to the approximate average of the commutator of H with L
+
+1017
+01:23:05,800 --> 01:23:09,681
+So one writes, this of course is not quite right
+
+1018
+01:23:09,880 --> 01:23:16,200
+but I will write it anyway, L dot is equal to i times commutator H L
+
+1019
+01:23:16,381 --> 01:23:18,543
+Now this has to be taken with a little rain of salt
+
+1020
+01:23:20,151 --> 01:23:23,583
+What it means is a equation among the averages
+
+1021
+01:23:23,744 --> 01:23:25,962
+It means a equation among the averages
+
+1022
+01:23:26,136 --> 01:23:28,047
+But it's often just written in this form
+
+1023
+01:23:28,214 --> 01:23:30,471
+L dot is equal to H time L
+
+1024
+01:23:34,583 --> 01:23:40,643
+Okay, now before we finish I want to remind you 
+
+1025
+01:23:40,823 --> 01:23:44,931
+of a classical mechanics equation of motion
+
+1026
+01:23:44,931 --> 01:23:50,212
+It's the equation of motion represented in terms of Poisson brackets
+
+1027
+01:23:50,401 --> 01:23:52,851
+Do you remember Poisson brackets? Good old Poisson brackets?
+
+1028
+01:23:52,851 --> 01:23:59,612
+What was the Poisson equation of motion
+
+1029
+01:24:01,596 --> 01:24:24,762
+Do you remember? And if you write d by dt of a classical function
+
+1030
+01:24:24,996 --> 01:24:27,802
+And this could be a classical function of q-s and p-s
+
+1031
+01:24:28,015 --> 01:24:30,879
+In classical mechanics there are q-s and p-s
+
+1032
+01:24:33,782 --> 01:24:36,883
+L incidentally is the standard notation for angular momentum
+
+1033
+01:24:37,050 --> 01:24:41,249
+This could be the angular momentum, but right now I'm just using it
+
+1034
+01:24:41,430 --> 01:24:42,993
+to represent any observables 
+
+1035
+01:24:44,592 --> 01:24:50,465
+d by dt of L is equal to certain Poisson bracket
+
+1036
+01:24:50,647 --> 01:24:59,694
+and the Poisson bracket is a Poisson bracket of L with the Hamiltonian 
+
+1037
+01:25:01,822 --> 01:25:04,911
+Remember that? Probably, some of you don't 
+
+1038
+01:25:05,087 --> 01:25:16,122
+As far as you could go, it's in the, this could be the electrical classical mechanics 
+
+1039
+01:25:16,122 --> 01:25:24,095
+the Poisson brackets, I will not introduce it here, I just remind you of it
+
+1040
+01:25:24,272 --> 01:25:28,160
+And I want you to notice the similarity, where is it?
+
+1041
+01:25:28,333 --> 01:25:35,018
+I think I erased it, the similarity of this with dL by dt
+
+1042
+01:25:36,449 --> 01:25:50,777
+Average value i, minus i or plus i, Psi i times the commutator of H with L
+
+1043
+01:25:50,963 --> 01:25:54,087
+Now incidentally, okay, let's just point out one thing 
+
+1044
+01:25:54,269 --> 01:26:02,152
+Poisson brackets have the property that if you interchange the two expressions
+
+1045
+01:26:02,337 --> 01:26:04,472
+What happens to the Poisson brackets?
+
+1046
+01:26:05,712 --> 01:26:09,304
+It just change sign, so do commutators 
+
+1047
+01:26:09,487 --> 01:26:14,286
+H L minus L H, if you interchange the order of them change sign
+
+1048
+01:26:14,467 --> 01:26:21,144
+So we can also write this as minus L with H
+
+1049
+01:26:21,325 --> 01:26:26,159
+Commutator of L with H, as a remarkable similarities
+
+1050
+01:26:26,340 --> 01:26:37,362
+and it suggest that we identify the Poisson bracket with minus sign 
+
+1051
+01:26:37,544 --> 01:26:43,332
+times a commutator, now I've left out a discussion or something
+
+1052
+01:26:43,510 --> 01:26:48,801
+I just realized it, just now, I completely forgot what happen to H bar?
+
+1053
+01:26:49,841 --> 01:26:51,937
+What happen to H bar?
+
+1054
+01:26:52,127 --> 01:26:56,953
+We've been working in units in which H bar is one
+
+1055
+01:26:57,921 --> 01:27:01,593
+I've been working in units in which H bar plus constant is one 
+
+1056
+01:27:01,787 --> 01:27:07,210
+The question is if we were to reinstate Planck's constant and make it not equal to one
+
+1057
+01:27:07,399 --> 01:27:09,013
+Where would it go in these equations?
+
+1058
+01:27:09,196 --> 01:27:12,277
+And, what's it?
+
+1059
+01:27:12,454 --> 01:27:15,779
+Yes it goes into Schrodinger's Equation, that's correct
+
+1060
+01:27:15,947 --> 01:27:19,514
+But how do we trace it, let's see, how do we trace it?
+
+1061
+01:27:19,692 --> 01:27:25,434
+Here's the equation, I told you H has significance as a Hamiltonian
+
+1062
+01:27:25,654 --> 01:27:27,514
+Therefore it has a unit of energy
+
+1063
+01:27:28,604 --> 01:27:34,697
+So let's look at this equation, sign cancels out on both sides
+
+1064
+01:27:34,870 --> 01:27:36,275
+Just as far as unit goes 
+
+1065
+01:27:36,469 --> 01:27:39,039
+Unit of this side is the same as unit of this side
+
+1066
+01:27:39,222 --> 01:27:44,988
+So the right hand side of the equation, apart from the sign has a unit of energy
+
+1067
+01:27:45,180 --> 01:27:48,869
+The left hand side of the equation has a unit of inversed time
+
+1068
+01:27:49,030 --> 01:27:53,817
+Inversed time and energy don't have the same units 
+
+1069
+01:27:55,018 --> 01:27:59,356
+Inversed time is inversed seconds, and energy is joule, so whatever
+
+1070
+01:27:59,573 --> 01:28:05,077
+So we have an equation here which doesn't make good dimensional sense
+
+1071
+01:28:06,352 --> 01:28:12,359
+We need a constant in here and the constant we have to put the constant in here
+
+1072
+01:28:12,542 --> 01:28:14,647
+let's see where does the constant goes? 
+
+1073
+01:28:14,845 --> 01:28:16,257
+Does it go to the right hand side or left hand side?
+
+1074
+01:28:17,889 --> 01:28:22,062
+Where does the Planck's constant go? Right hand side or left hand side?
+
+1075
+01:28:23,412 --> 01:28:25,125
+What? >> Either
+
+1076
+01:28:25,335 --> 01:28:27,828
+Well, if it goes in one place with one thing 
+
+1077
+01:28:27,997 --> 01:28:29,287
+it would go to inverse in the other place
+
+1078
+01:28:29,287 --> 01:28:34,490
+So, here is all you have to know is that 
+
+1079
+01:28:34,688 --> 01:28:37,114
+Planck's constant has a unit of energy times time
+
+1080
+01:28:37,312 --> 01:28:40,549
+Planck's constant has a unit of energy times time 
+
+1081
+01:28:42,141 --> 01:28:46,114
+So, let's see so energy times time, so we want to put Planck's constant here
+
+1082
+01:28:47,294 --> 01:28:49,697
+Energy time times over time is equal to energy
+
+1083
+01:28:49,697 --> 01:28:53,181
+That's where Planck's constant goes into these equations
+
+1084
+01:28:54,785 --> 01:28:58,306
+I apologize for having completely forgotten about it
+
+1085
+01:28:59,616 --> 01:29:08,245
+But that's where it goes, and if we follow through the equation 
+
+1086
+01:29:08,476 --> 01:29:10,317
+No doubt it appears over here 
+
+1087
+01:29:13,774 --> 01:29:18,194
+I think it appears in the denominator here 
+
+1088
+01:29:20,505 --> 01:29:26,066
+Let's see, I got everything right except when I have H I should have H over h bar
+
+1089
+01:29:27,683 --> 01:29:30,850
+Let's rewrite it this way, H over h bar 
+
+1090
+01:29:32,458 --> 01:29:36,769
+So in all my equations, wherever we wrote H, the Hamiltonian
+
+1091
+01:29:36,964 --> 01:29:40,175
+We really should have, if we want to keep the unit straight, 
+
+1092
+01:29:40,361 --> 01:29:43,768
+H over Planck's constant, and that goes straight to here
+
+1093
+01:29:43,951 --> 01:29:48,177
+So really the right equation including the constants 
+
+1094
+01:29:48,364 --> 01:29:56,069
+is D L dt is one over h bar here
+
+1095
+01:29:57,068 --> 01:29:59,372
+One over Planck's constant
+
+1096
+01:30:01,868 --> 01:30:04,349
+Planck's constant is a small number 
+
+1097
+01:30:06,628 --> 01:30:08,189
+So this looks like it was very big 
+
+1098
+01:30:09,445 --> 01:30:12,101
+But in the other hand, this is L times H minus H times L
+
+1099
+01:30:12,972 --> 01:30:15,397
+In classical physics, that would be zero
+
+1100
+01:30:16,493 --> 01:30:22,534
+So whatever this is, classically zero, in quantum mechanics, 
+
+1101
+01:30:22,701 --> 01:30:25,544
+it must be a small correction to the classical physics 
+
+1102
+01:30:25,725 --> 01:30:29,516
+To extend that quantum mechanics is a small correction to the classical physics
+
+1103
+01:30:29,695 --> 01:30:35,480
+And so the commutator is itself something which is typically small in the order of h bar
+
+1104
+01:30:35,654 --> 01:30:38,501
+So that allows us then, to guess, 
+
+1105
+01:30:38,687 --> 01:30:45,618
+to guess an identification between commutators and Poisson brackets
+
+1106
+01:30:45,793 --> 01:30:51,938
+Now I'm, this is none intuitive at the moment 
+
+1107
+01:30:52,101 --> 01:30:55,314
+It's just looking at the two equations, and say
+
+1108
+01:30:55,504 --> 01:30:57,546
+Look is there going to be any connection 
+
+1109
+01:30:57,728 --> 01:30:59,690
+between quantum mechanics and classical mechanics?
+
+1110
+01:30:59,874 --> 01:31:04,342
+Then there must be a connection between the Poisson brackets
+
+1111
+01:31:04,519 --> 01:31:08,887
+And between the Poisson brackets and the commutators 
+
+1112
+01:31:09,087 --> 01:31:19,482
+Namely Poisson brackets must be equal to minus i over h bar times commutator
+
+1113
+01:31:20,922 --> 01:31:22,570
+Or it's usually written in the other way, 
+
+1114
+01:31:22,753 --> 01:31:29,039
+commutator is i h bar times Poisson brackets
+
+1115
+01:31:30,223 --> 01:31:35,439
+Commutator is a small thing because there is a h bar there 
+
+1116
+01:31:36,758 --> 01:31:39,510
+Poisson brackets in classical physics is not a small thing
+
+1117
+01:31:39,691 --> 01:31:42,246
+It's a number, I mean it's some characteristic quantities 
+
+1118
+01:31:42,492 --> 01:31:44,006
+which is neither small nor big
+
+1119
+01:31:45,157 --> 01:31:48,206
+And in the same unit, the unit that you do classical physics 
+
+1120
+01:31:48,403 --> 01:31:52,305
+Standard units, meters, seconds, whatever
+
+1121
+01:31:52,487 --> 01:31:57,270
+Commutators are very small, that's because they are almost zero
+
+1122
+01:31:57,476 --> 01:31:59,643
+A times B minus B times A is almost zero
+
+1123
+01:31:59,835 --> 01:32:06,642
+Okay, no I don't think so, we have a minus i on this side
+
+1124
+01:32:06,821 --> 01:32:10,609
+Minus i over h bar multiply by h bar 
+
+1125
+01:32:13,595 --> 01:32:15,444
+And now multiply both side by i
+
+1126
+01:32:15,624 --> 01:32:18,877
+And use that minus sign, times plus i is one 
+
+1127
+01:32:23,046 --> 01:32:26,396
+It was Dirac who recognized the connections 
+
+1128
+01:32:26,585 --> 01:32:29,498
+and built his quantum mechanics out of it
+
+1129
+01:32:29,673 --> 01:32:34,810
+He built his quantum mechanics out of making an identification of Poisson bracket
+
+1130
+01:32:34,999 --> 01:32:40,035
+with commutators, but of course the foundation of the subject
+
+1131
+01:32:41,203 --> 01:32:46,261
+quantum mechanics is a consistent subject 
+
+1132
+01:32:46,461 --> 01:32:48,990
+without having to make any reference to classical physics, 
+
+1133
+01:32:49,182 --> 01:32:50,899
+the right way to think about things is 
+
+1134
+01:32:51,072 --> 01:32:53,815
+quantum mechanics comes before classical mechanics
+
+1135
+01:32:53,989 --> 01:32:56,463
+Commutators before Poisson brackets 
+
+1136
+01:32:56,641 --> 01:33:02,793
+You have to derive classical physics is an approximation to quantum mechanics
+
+1137
+01:33:02,976 --> 01:33:05,801
+So here we see some formal similarities, at this point here
+
+1138
+01:33:05,981 --> 01:33:11,743
+We have no idea why this commutator should have features 
+
+1139
+01:33:11,945 --> 01:33:13,415
+in common with a Poisson bracket
+
+1140
+01:33:13,676 --> 01:33:17,404
+Before we go, let me just say, let me just write down 
+
+1141
+01:33:17,588 --> 01:33:20,392
+some of the features of commutators and of Poisson brackets 
+
+1142
+01:33:20,575 --> 01:33:21,545
+To remind you
+
+1143
+01:33:34,505 --> 01:33:37,853
+And again all of this should be at this stage should be a little mysterious
+
+1144
+01:33:38,027 --> 01:33:40,807
+Why is this funny connection between Poisson brackets?
+
+1145
+01:33:42,625 --> 01:33:44,575
+But let's pursuit it anyway 
+
+1146
+01:33:44,750 --> 01:33:50,568
+Okay, I remind you about Poisson brackets
+
+1147
+01:33:50,749 --> 01:33:55,848
+First of all if I have two quantities, I will call them A and B now
+
+1148
+01:33:56,031 --> 01:33:58,462
+Or A and B that I used, what the hell?
+
+1149
+01:33:58,646 --> 01:34:00,293
+I will just call them L and H, 
+
+1150
+01:34:00,467 --> 01:34:02,821
+it doesn't have to be the Hamiltonian and anything special
+
+1151
+01:34:02,995 --> 01:34:04,533
+They are just L and H
+
+1152
+01:34:04,712 --> 01:34:11,455
+Alright the first thing is, the Poisson brackets of L with H is equal to 
+
+1153
+01:34:11,631 --> 01:34:13,967
+minus of Poisson bracket of H with L
+
+1154
+01:34:17,679 --> 01:34:25,880
+The commutator of L with H is minus the commutator of H with L
+
+1155
+01:34:26,792 --> 01:34:29,628
+So that's a parallelism that we could begin with
+
+1156
+01:34:29,628 --> 01:34:34,889
+Now let's take some other properties of Poisson brackets
+
+1157
+01:34:36,709 --> 01:34:39,191
+There's a lot of properties of Poisson brackets
+
+1158
+01:34:39,354 --> 01:34:42,095
+But let me just write one or two more 
+
+1159
+01:34:43,480 --> 01:34:47,850
+If I have two operators, or two of not operators 
+
+1160
+01:34:48,038 --> 01:34:52,986
+But two quantities, let's call them L and M, okay,
+
+1161
+01:34:53,167 --> 01:34:58,731
+L times M is itself a classical quantity, 
+
+1162
+01:34:58,914 --> 01:35:03,159
+and I can compute it's Poisson bracket with H
+
+1163
+01:35:03,338 --> 01:35:05,159
+Does anybody remember the answer?
+
+1164
+01:35:09,007 --> 01:35:12,944
+I will remind you and tell you, look it up, this is important
+
+1165
+01:35:15,136 --> 01:35:20,687
+L is a Poisson bracket of L with H times M
+
+1166
+01:35:20,849 --> 01:35:28,238
+Plus L times a Poisson bracket of M with H
+
+1167
+01:35:29,710 --> 01:35:36,243
+Now in classical physics the order multiplication doesn't matter
+
+1168
+01:35:38,427 --> 01:35:41,443
+So you could bring the M on the left on the right it doesn't matter
+
+1169
+01:35:41,639 --> 01:35:43,844
+You can bring the L on the left or right it doesn't matter
+
+1170
+01:35:44,028 --> 01:35:49,418
+But this is the relationship for the product of two variables
+
+1171
+01:35:49,608 --> 01:35:54,179
+The Poisson bracket, go back, go back to the last quarter lecture
+
+1172
+01:35:54,372 --> 01:35:57,757
+And check this out, this is one of the defining 
+
+1173
+01:35:57,935 --> 01:36:01,525
+Not one of the defining, one of the properties of Poisson bracket
+
+1174
+01:36:01,740 --> 01:36:04,753
+You can do the same, you can ask the same question over here
+
+1175
+01:36:04,939 --> 01:36:11,947
+Supposing you have LM and you take it's commutator with H
+
+1176
+01:36:13,140 --> 01:36:18,551
+What do you get? This is an exercise, this is an exercise
+
+1177
+01:36:18,761 --> 01:36:26,366
+All you do is you write, that this is equal to LMH minus HLM
+
+1178
+01:36:27,439 --> 01:36:29,647
+And now you start just juggling and 
+
+1179
+01:36:29,821 --> 01:36:32,423
+adding same term, subtracting the same term
+
+1180
+01:36:32,607 --> 01:36:37,364
+And eventually you will discover that this is the same as this
+
+1181
+01:36:38,244 --> 01:36:44,260
+Same relationship, this is equal to L times a commutator of M with H
+
+1182
+01:36:45,492 --> 01:36:54,695
+Plus commutator of L with H times M
+
+1183
+01:36:56,711 --> 01:37:00,808
+The way to do this is just write LMH minus HLM
+
+1184
+01:37:00,994 --> 01:37:03,640
+And then write out this guys over here
+
+1185
+01:37:03,812 --> 01:37:08,205
+This is L, MH, minus LH, M
+
+1186
+01:37:08,382 --> 01:37:13,295
+Plus LH, M minus HL, M
+
+1187
+01:37:14,932 --> 01:37:20,082
+Four terms here, two cancel in pairs, and you will just get this back
+
+1188
+01:37:20,256 --> 01:37:23,405
+It's two one step thing , very easy thing
+
+1189
+01:37:23,563 --> 01:37:33,091
+Okay, so you begin to see some pattern that Poisson bracket and commutator
+
+1190
+01:37:33,272 --> 01:37:34,764
+must somehow be closely related
+
+1191
+01:37:34,950 --> 01:37:42,560
+The last thing I'm gonna show you tonight is about energy conservation
+
+1192
+01:37:42,765 --> 01:37:47,601
+Now we are not going to consider 
+
+1193
+01:37:47,786 --> 01:37:50,625
+the most general concept of energy conservation
+
+1194
+01:37:50,826 --> 01:37:56,152
+We're simply going to ask, is the average of the energy conserve with time?
+
+1195
+01:37:57,232 --> 01:37:59,248
+We have not even really got into 
+
+1196
+01:37:59,447 --> 01:38:03,188
+what it would mean for energy itself to be conserve in any deeper way
+
+1197
+01:38:03,367 --> 01:38:06,684
+But we can ask we have all the ingredients now
+
+1198
+01:38:06,876 --> 01:38:14,485
+Which would allows us to ask how is the average of
+
+1199
+01:38:16,884 --> 01:38:20,021
+How is the average of any quantity changes with time
+
+1200
+01:38:21,093 --> 01:38:24,877
+No, here it is over here, we can now specifically ask 
+
+1201
+01:38:25,049 --> 01:38:27,222
+how the average of the energy change with time?
+
+1202
+01:38:27,222 --> 01:38:38,873
+Let's do it, the energy I claimed is Hamiltonian, or it's definition if you like
+
+1203
+01:38:39,064 --> 01:38:40,578
+What is energy? It's Hamiltonian 
+
+1204
+01:38:40,774 --> 01:38:43,850
+So let's check and ask whether the energy is conserve 
+
+1205
+01:38:44,032 --> 01:38:45,472
+if energy is the Hamiltonian
+
+1206
+01:38:45,472 --> 01:38:53,238
+This equation would read, the time derivative of the average of the Hamiltonian
+
+1207
+01:38:53,423 --> 01:38:58,640
+is equal to minus i over h bar, 
+
+1208
+01:38:58,824 --> 01:39:03,192
+times the commutator of the Hamiltonian with itself
+
+1209
+01:39:03,370 --> 01:39:08,665
+The Hamiltonian with itself is H times H minus H times H
+
+1210
+01:39:08,861 --> 01:39:11,649
+H times H is the same as H times H
+
+1211
+01:39:13,104 --> 01:39:15,681
+Quantum mechanics is not that weird, you know it's weird
+
+1212
+01:39:15,874 --> 01:39:20,560
+But H times H is the same as H times H, so this is zero
+
+1213
+01:39:24,345 --> 01:39:26,073
+Whatever the Hamiltonian is
+
+1214
+01:39:26,247 --> 01:39:32,563
+It's average, it's average, it's expectation value with time is always zero
+
+1215
+01:39:34,323 --> 01:39:38,371
+So it's conserve in that sense, at minimal that sense
+
+1216
+01:39:38,551 --> 01:39:42,120
+There is stronger sense in which it's conserve, which we will come to it
+
+1217
+01:39:42,296 --> 01:39:48,885
+But even in this weaker sense, it's kind of interesting and it tells us
+
+1218
+01:39:49,070 --> 01:39:52,356
+on some kind of right track would be able to 
+
+1219
+01:39:52,536 --> 01:39:55,433
+compare quantum mechanics and classical mechanics
+
+1220
+01:39:56,889 --> 01:39:59,395
+# Okay, I'm gonna stop now and take a few questions
+
+1221
+01:40:05,675 --> 01:40:10,416
+>> the bar notation (inaudible)
+
+1222
+01:40:10,597 --> 01:40:11,224
+Up here?
+
+1223
+01:40:11,401 --> 01:40:16,203
+>> Is the bar notation mean average?
+
+1224
+01:40:16,391 --> 01:40:19,551
+Probably, I just mean the average, I mean it's the average that define
+
+1225
+01:40:24,228 --> 01:40:30,536
+define the summation of probability of lambda times lambda, okay
+
+1226
+01:40:30,708 --> 01:40:37,038
+So I don't know what's the standard symbol in statistic or average in that sense
+
+1227
+01:40:38,214 --> 01:40:44,839
+>> The first moment of the distribution you knew that 
+
+1228
+01:40:49,607 --> 01:40:53,863
+The first moment of the distribution, ya, okay,
+
+1229
+01:41:00,271 --> 01:41:05,222
+I used to just calling it lambda
+
+1230
+01:41:05,405 --> 01:41:06,454
+>> including brackets?
+
+1231
+01:41:06,631 --> 01:41:13,039
+E bracket of lambda, that stands for what?
+
+1232
+01:41:13,232 --> 01:41:15,544
+>> the average of expected value?
+
+1233
+01:41:15,720 --> 01:41:17,999
+The expected value even though it's not the expected value 
+
+1234
+01:41:22,648 --> 01:41:27,178
+You never see the expected value as a bar on top of it?
+
+1235
+01:41:28,179 --> 01:41:33,366
+>> I mean (inaudible)
+
+1236
+01:41:33,547 --> 01:41:37,042
+Okay, ya, when I use the term average I will mean this
+
+1237
+01:41:37,229 --> 01:41:39,718
+It's also call the expectation value, 
+
+1238
+01:41:39,913 --> 01:41:45,106
+and I will freely interchange the Dirac notation 
+
+1239
+01:41:45,284 --> 01:41:50,428
+for the average with the bar notation
+
+1240
+01:41:53,787 --> 01:42:01,070
+And that's not, if that's not standard according to statistic books, too bad
+
+1241
+01:42:01,263 --> 01:42:05,996
+>> So here you wrote down the Schrodinger equation
+
+1242
+01:42:06,169 --> 01:42:12,245
+>> and then you wrote down the ...
+
+1243
+01:42:12,427 --> 01:42:14,645
+>> How did you go to left hand equation to right hand equation?
+
+1244
+01:42:14,817 --> 01:42:17,653
+>> Is that complex conjugation or Hermitian conjugation?
+
+1245
+01:42:17,827 --> 01:42:23,852
+Hermitian conjugation, but remember H is Hermitian, we proved that
+
+1246
+01:42:24,050 --> 01:42:30,877
+That was the condition of unitarity, that H is Hermitian
+
+1247
+01:42:31,071 --> 01:42:35,230
+>> But how can you interchange the order of Psi H 
+
+1248
+01:42:35,407 --> 01:42:36,966
+>> but not d/dt with Psi?
+
+1249
+01:42:37,146 --> 01:42:38,086
+Where, where, where, where, where?
+
+1250
+01:42:39,214 --> 01:42:43,152
+>>On the left side of the equation you got d/dt with Psi
+
+1251
+01:42:43,337 --> 01:42:46,096
+>>d/dt is the operator 
+
+1252
+01:42:46,275 --> 01:42:47,520
+This one here? >> Yeah
+
+1253
+01:42:48,706 --> 01:42:51,954
+The time derivative of a bra vector is a bra vector
+
+1254
+01:42:52,135 --> 01:42:57,067
+Look the time derivative is just another way of talking about difference
+
+1255
+01:42:57,259 --> 01:42:59,352
+The difference of two bra vectors is a bra vector
+
+1256
+01:42:59,536 --> 01:43:02,316
+The difference of tow ket vectors is a ket vector
+
+1257
+01:43:04,029 --> 01:43:07,503
+And the limit difference becomes the time derivative 
+
+1258
+01:43:07,686 --> 01:43:11,437
+So the derivative of a bra vector is a bar vector 
+
+1259
+01:43:11,612 --> 01:43:15,079
+The derivative of a ket vector is a ket vector
+
+1260
+01:43:15,262 --> 01:43:17,942
+If you want to take this ket equation 
+
+1261
+01:43:18,144 --> 01:43:20,950
+What is that bra that goes with this ket?
+
+1262
+01:43:21,154 --> 01:43:24,063
+The bra, the dual of this ket is 
+
+1263
+01:43:24,242 --> 01:43:26,480
+the time derivative of the corresponding bra vector
+
+1264
+01:43:30,823 --> 01:43:33,239
+It's just the think of this as taking the difference of two vectors
+
+1265
+01:43:34,799 --> 01:43:36,223
+It's just the difference of two vectors
+
+1266
+01:43:38,615 --> 01:43:41,959
+Alright, exactly
+
+1267
+01:43:41,959 --> 01:43:47,724
+And again, quantum mechanics is weird, 
+
+1268
+01:43:47,900 --> 01:43:50,709
+but taking the difference of two vectors
+
+1269
+01:43:50,709 --> 01:43:53,029
+and replace it by a derivative 
+
+1270
+01:43:53,029 --> 01:43:57,408
+when the difference is small, that's perfectly legitimate
+
+1271
+01:43:57,592 --> 01:44:04,783
+>> (inaudible) energy conservation
+
+1272
+01:44:04,944 --> 01:44:06,246
+Well, yeah
+
+1273
+01:44:06,432 --> 01:44:10,952
+>>so we ignore this so far?
+
+1274
+01:44:11,142 --> 01:44:12,000
+No
+
+1275
+01:44:12,197 --> 01:44:15,616
+>> So why it is that energy
+
+1276
+01:44:15,802 --> 01:44:16,960
+How come we getting to what ?
+
+1277
+01:44:17,136 --> 01:44:20,256
+>> Energy conservation is, how do you know the energy is conserved?
+
+1278
+01:44:20,435 --> 01:44:24,062
+Well, we don't know it's correspond with energy until we do a lot more
+
+1279
+01:44:24,246 --> 01:44:27,553
+We don't know, we can find it to be energy Hamiltonian,
+
+1280
+01:44:27,737 --> 01:44:31,053
+but that's not satisfying, we want to see in cases 
+
+1281
+01:44:31,201 --> 01:44:33,926
+where we understand the classical physics
+
+1282
+01:44:34,096 --> 01:44:36,574
+And we understand what energy is
+
+1283
+01:44:36,752 --> 01:44:41,186
+We are gonna want to see that the quantum mechanics of the same system
+
+1284
+01:44:41,359 --> 01:44:45,163
+classical system is an approximation to the quantum mechanical system
+
+1285
+01:44:45,341 --> 01:44:46,359
+Physics is really quantum mechanical 
+
+1286
+01:44:46,359 --> 01:44:50,365
+Under certain condition, such as the system is heavy
+
+1287
+01:44:51,711 --> 01:44:56,724
+Basically heavy is big, large masses
+
+1288
+01:44:56,903 --> 01:45:01,388
+Then the system behaves approximately classicaly
+
+1289
+01:45:01,571 --> 01:45:04,789
+which means that the average values move in ways 
+
+1290
+01:45:04,789 --> 01:45:07,669
+which are consistent to what classical equations of motion
+
+1291
+01:45:07,669 --> 01:45:12,314
+We are gonna want to see when we study such big heavy systems
+
+1292
+01:45:12,507 --> 01:45:18,071
+That the thing we call quantum mechanical Hamiltonian
+
+1293
+01:45:18,269 --> 01:45:24,918
+is essentially closely connected with the thing what we call classical Hamiltonian
+
+1294
+01:45:25,086 --> 01:45:27,599
+But we will come to that, but we can't do all thing all in one night
+
+1295
+01:45:27,599 --> 01:45:31,420
+At the moment, I'm just showing you similarities
+
+1296
+01:45:31,595 --> 01:45:33,908
+And if you wanna do better than that 
+
+1297
+01:45:34,072 --> 01:45:37,381
+Whether we will actually get to do better than that I don't know
+
+1298
+01:45:37,559 --> 01:45:42,611
+We can't do everything, but that's the logic
+
+1299
+01:45:46,199 --> 01:45:50,731
+>> way back to the electron spin, I think you left off in the last lecture
+
+1300
+01:45:50,938 --> 01:45:55,919
+>> You want to show the probability (inaudible)
+
+1301
+01:45:56,085 --> 01:46:00,659
+Well, yeah, right, I've save some time to do that 
+
+1302
+01:46:00,659 --> 01:46:02,055
+but I think we've done enough for tonight
+
+1303
+01:46:03,236 --> 01:46:05,998
+Who was it that send in this solution to the...
+
+1304
+01:46:07,226 --> 01:46:17,023
+Yeah, well done, we will do it, but I just run out of steam
+
+1305
+01:46:19,559 --> 01:46:22,055
+Right we will come back to that, we are gonna come back to that 
+
+1306
+01:46:23,543 --> 01:46:26,727
+>> So how can your postulate work with that without a collapsed postulate?
+
+1307
+01:46:26,904 --> 01:46:30,723
+>> How can your postulate work without a collapsed postulate?
+
+1308
+01:46:30,909 --> 01:46:34,278
+Well we really want to derive a collapsed postulate
+
+1309
+01:46:34,459 --> 01:46:39,234
+The derivation is deeply connected with something else we have not come to yet
+
+1310
+01:46:39,417 --> 01:46:41,920
+I think we will come to it next time, entanglement 
+
+1311
+01:46:46,117 --> 01:46:49,461
+The measurement process is really a process of 
+
+1312
+01:46:49,634 --> 01:46:53,512
+establishing entanglement between system and the apparatus
+
+1313
+01:46:53,694 --> 01:46:59,312
+And until we talk about that, the entanglement process
+
+1314
+01:47:01,848 --> 01:47:08,429
+I think until we do, we simply have to adopt the language of collapsed
+
+1315
+01:47:08,629 --> 01:47:11,918
+But next time, next time, next time, remind me about collapsed
+
+1316
+01:47:12,083 --> 01:47:17,022
+And course to collapsed, Okay
+
+1317
+01:47:17,200 --> 01:47:22,422
+For more, please visit us at Stanford.edu
+
+
+
+
